@@ -1,51 +1,64 @@
 ---
 layout: post
-title: Getting Started with Blazor Diagram in Blazor WASM App | Syncfusion®
-description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
+title: Getting Started with Diagram in Blazor WASM App | Syncfusion®
+description: Checkout and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
 platform: diagram-sdk
-control: Diagram
+control: Diagram Component
 documentation: ug
 ---
 
 # Getting Started with Diagram Component in the Blazor WASM App
 
-This section briefly explains how to include the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section explains the step-by-step process for integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component into a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/). We'll break it down into simple steps to make it easy to follow. Additionally, you can find a fully functional example project on our [GitHub repository](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/DiagramComponent).
 
-> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Code Studio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview).
-
-## Create a new Blazor WebAssembly (Standalone) App
+> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-Create a **Blazor WebAssembly App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+## Prerequisites
+
+* [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
+
+## Create a new Blazor App in Visual Studio
+
+Create a **Blazor WebAssembly App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio). For detailed instructions, refer to the [Blazor WebAssembly Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app) documentation.
 
 {% endtabcontent %}
 
 {% tabcontent Visual Studio Code %}
 
-Run the following command to create a new Blazor WebAssembly App.
+## Prerequisites
 
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
+* [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
 
-dotnet new blazorwasm -o BlazorApp
-cd BlazorApp
+## Create a new Blazor App in Visual Studio Code
 
-{% endhighlight %}
-{% endtabs %}
-
-Alternatively, create a **Blazor WebAssembly App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+Create a **Blazor WebAssembly App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor WebAssembly Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app?tabcontent=visual-studio-code) documentation.
 
 {% endtabcontent %}
 
 {% tabcontent .NET CLI %}
 
-Run the following command to create a new Blazor WebAssembly App.
+## Prerequisites
+
+Install the latest version of [.NET SDK](https://dotnet.microsoft.com/en-us/download). If the .NET SDK is already installed, determine the installed version by running the following command in a command prompt (Windows), terminal (macOS), or command shell (Linux).
 
 {% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
+{% highlight c# tabtitle=".NET CLI" %}
+
+dotnet --version
+
+{% endhighlight %}
+{% endtabs %}
+
+## Create a Blazor WebAssembly App using .NET CLI
+
+Run the following command to create a new Blazor WebAssembly App in a command prompt (Windows) or terminal (macOS) or command shell (Linux). For detailed instructions, refer to the [Blazor WASM App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app?tabcontent=.net-cli) documentation.
+
+{% tabs %}
+{% highlight c# tabtitle=".NET CLI" %}
 
 dotnet new blazorwasm -o BlazorApp
 cd BlazorApp
@@ -53,25 +66,24 @@ cd BlazorApp
 {% endhighlight %}
 {% endtabs %}
 
+This command creates a new Blazor WebAssembly App and places it in a new directory called `BlazorApp` inside your current location.
+
 {% endtabcontent %}
 
 {% endtabcontents %}
 
-## Install the required Blazor packages
-
-Install the [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages. All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
+## Install required Blazor packages
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
-2. Search the required NuGet packages (`Syncfusion.Blazor.Diagram` and `Syncfusion.Blazor.Themes`) and install them.
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the NuGet Package Manager in Visual Studio (*Tools → NuGet Package Manager → Manage NuGet Packages for Solution → Select the package -> Install*).
 
-Alternatively, you can install the same packages using the Package Manager Console with the following commands.
+Alternatively, run the following commands in the Package Manager Console(*Tools → NuGet Package Manager → Package Manager Console*) to achieve the same.
 
 {% tabs %}
-{% highlight razor tabtitle="Package Manager Console" %}
+{% highlight C# tabtitle="Package Manager" %}
 
 Install-Package Syncfusion.Blazor.Diagram -Version {{ site.releaseversion }}
 Install-Package Syncfusion.Blazor.Themes -Version {{ site.releaseversion }}
@@ -83,86 +95,78 @@ Install-Package Syncfusion.Blazor.Themes -Version {{ site.releaseversion }}
 
 {% tabcontent Visual Studio Code %}
 
-Open the terminal and run the following commands.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet add package Syncfusion.Blazor.Diagram -v {{ site.releaseversion }}
-dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
-
-{% endhighlight %}
-{% endtabs %}
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the C# package management(*Right click the ".csproj" file, -> C# package management -> Add nuget package -> Select nuget package and version*)
 
 {% endtabcontent %}
 
 {% tabcontent .NET CLI %}
 
-Open the command prompt and run the following commands.
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the .NET CLI command.
 
 {% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
+{% highlight c# tabtitle=".NET CLI" %}
 
-dotnet add package Syncfusion.Blazor.Diagram -v {{ site.releaseversion }}
-dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
+dotnet add package Syncfusion.Blazor.Diagram --version {{ site.releaseversion }}
+dotnet add package Syncfusion.Blazor.Themes --version {{ site.releaseversion }}
 
 {% endhighlight %}
 {% endtabs %}
 
 {% endtabcontent %}
-
 {% endtabcontents %}
+
+N> All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
 ## Add import namespaces
 
 After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
 
 {% tabs %}
-{% highlight C# tabtitle="_Imports.razor" %}
+{% highlight razor tabtitle="~/_Imports.razor" %}
 
-@using Syncfusion.Blazor
-@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor;
+@using Syncfusion.Blazor.Diagram;
 
 {% endhighlight %}
 {% endtabs %}
 
-## Register the Blazor service
+## Register Blazor service
 
-Open the **Program.cs** file in Blazor WebAssembly App and register the Blazor service and include the required namespace reference `using Syncfusion.Blazor;` at the top.
+Register the Blazor service in the **Program.cs** file of your Blazor WebAssembly App.
 
 {% tabs %}
 {% highlight C# tabtitle="Program.cs" %}
 
+....
+using Syncfusion.Blazor;
+....
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSyncfusionBlazor();
+....
 
 {% endhighlight %}
 {% endtabs %}
 
 ## Add stylesheet and script resources
 
-The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [stylesheet](https://blazor.syncfusion.com/documentation/appearance/themes) at the end of the `<head>` section in the **~wwwroot/index.html** file.
+The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the stylesheet and script references in the **~wwwroot/index.html** file.
 
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
+```html
+<head>
+    ...
+    <link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
+</head>
+<body>
+    ....
+    <script src="_content/Syncfusion.Blazor.Diagram/scripts/sf-diagramcomponent.min.js" type="text/javascript"></script>
+</body>
+```
 
-<link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
-
-{% endhighlight %}
-{% endtabs %}
-
-Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **~wwwroot/index.html** file to enable Diagram functionality.
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-
-<script src="_content/Syncfusion.Blazor.Diagram/scripts/sf-diagramcomponent.min.js" type="text/javascript"></script>
-
-{% endhighlight %}
-{% endtabs %}
+N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/appearance/themes) topic to discover various methods ([Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets), [CDN](https://blazor.syncfusion.com/documentation/appearance/themes#cdn-reference), and [CRG](https://blazor.syncfusion.com/documentation/common/custom-resource-generator)) for referencing themes in the Blazor application. Also, check out the [Adding Script Reference](https://blazor.syncfusion.com/documentation/common/adding-script-references) topic to learn different approaches for adding script references in the Blazor application.
 
 ## Add Blazor Diagram component
 
-Add the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in the **~/Pages/*.razor** (for example, **Home.razor**) file.
+Add the DiagramComponent to create an empty diagram.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -171,46 +175,6 @@ Add the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) 
 
 {% endhighlight %}
 {% endtabs %}
-
-## Run the application
-
-{% tabcontents %}
-
-{% tabcontent Visual Studio %}
-
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component will render in your default web browser.
-
-{% endtabcontent %}
-
-{% tabcontent Visual Studio Code %}
-
-Open the terminal and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Open the command prompt and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% endtabcontents %}
 
 ## Create your first Diagram with nodes and connectors
 
@@ -225,8 +189,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 <SfDiagramComponent Width="100%" Height="600px" Nodes="@nodes" Connectors="@connectors" NodeCreating="@NodeCreating" ConnectorCreating="@ConnectorCreating" />
 
-@code 
-{
+@code {
     DiagramObjectCollection<Node> nodes = new DiagramObjectCollection<Node>();
     DiagramObjectCollection<Connector> connectors = new DiagramObjectCollection<Connector>();
     protected override void OnInitialized()
@@ -310,8 +273,6 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 {% endhighlight %}
 {% endtabs %}
 
-![Getting Started in Blazor Diagram](images/blazor-diagram-getting-started.webp)
-
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Wasm/Pages/GettingStarted/GettingStarted.razor)
 
 In this example:
@@ -322,3 +283,13 @@ In this example:
 * [`SourceID`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourceID) and [`TargetID`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetID) connect one node to another.
 * [`NodeCreating`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_NodeCreating) applies common width, height, fill color, and stroke color to all nodes.
 * [`ConnectorCreating`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_ConnectorCreating) applies common connector settings, such as orthogonal routing.
+
+## Run the application
+
+* Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application in Visual Studio. 
+* Run the application using `dotnet run` command in Command prompt.
+* This will render the Blazor Diagram component in the default web browser.
+
+The output will appear as follows:
+
+![Getting Started in Blazor Diagram](images/blazor-diagram-getting-started.webp)

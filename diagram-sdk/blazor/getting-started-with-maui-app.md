@@ -1,77 +1,58 @@
 ---
 layout: post
-title: Getting Started with Blazor Diagram in Blazor MAUI App | Syncfusion®
-description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor MAUI App.
+title: Getting Started with Diagram in Blazor MAUI App | Syncfusion®
+description: Checkout and learn about the documentation for getting started with Blazor Diagram Component in Blazor MAUI App.
 platform: diagram-sdk
-control: Diagram
+control: Diagram Component
 documentation: ug
 ---
 
 # Getting Started with the Diagram Component in the Blazor MAUI App
 
-This section explains the step-by-step process of integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This guide walks through the step-by-step process of integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in a Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
-> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Code Studio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview).
-
-## Create a new Blazor MAUI App
+> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=vswin). For detailed instructions, refer to the [Syncfusion® Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
+## Prerequisites
+
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/MAUI/get-started/installation?tabs=vswin) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+
+## Create a new Blazor MAUI App in Visual Studio
+
+Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=vswin). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
 
 {% endtabcontent %}
 
 {% tabcontent Visual Studio Code %}
 
-Run the following command to create a new Blazor MAUI App.
+## Prerequisites
 
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio Code. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project).
 
-dotnet new maui-blazor -o MauiBlazorApp
-cd MauiBlazorApp
+## Create a new Blazor MAUI App in Visual Studio Code
 
-{% endhighlight %}
-{% endtabs %}
-
-Alternatively, create a **Blazor MAUI App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Run the following command to create a new Blazor MAUI App.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet new maui-blazor -o MauiBlazorApp
-cd MauiBlazorApp
-
-{% endhighlight %}
-{% endtabs %}
+Create a Blazor MAUI App using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
 
 {% endtabcontent %}
 
 {% endtabcontents %}
 
-## Install the required Blazor packages
-
-Install the [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages. All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
+## Install required Blazor packages
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
-2. Search the required NuGet packages (`Syncfusion.Blazor.Diagram` and `Syncfusion.Blazor.Themes`) and install them.
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the NuGet Package Manager in Visual Studio (*Tools → NuGet Package Manager → Manage NuGet Packages for Solution → Select the package -> Install*).
 
-Alternatively, you can install the same packages using the Package Manager Console with the following command.
+Alternatively, run the following commands in the Package Manager Console(*Tools → NuGet Package Manager → Package Manager Console*) to achieve the same.
 
 {% tabs %}
-{% highlight razor tabtitle="Package Manager Console" %}
+{% highlight C# tabtitle="Package Manager" %}
 
 Install-Package Syncfusion.Blazor.Diagram -Version {{ site.releaseversion }}
 Install-Package Syncfusion.Blazor.Themes -Version {{ site.releaseversion }}
@@ -83,39 +64,16 @@ Install-Package Syncfusion.Blazor.Themes -Version {{ site.releaseversion }}
 
 {% tabcontent Visual Studio Code %}
 
-Open the terminal and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet add package Syncfusion.Blazor.Diagram -v {{ site.releaseversion }}
-dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
-
-{% endhighlight %}
-{% endtabs %}
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the C# package management(*Right click the ".csproj" file, -> C# package management -> Add nuget package -> Select nuget package and version*)
 
 {% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Open the command prompt and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet add package Syncfusion.Blazor.Diagram -v {{ site.releaseversion }}
-dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
 {% endtabcontents %}
+
+N> All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
 ## Add import namespaces
 
-After the packages are installed, open the **~/Components/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
+After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
@@ -126,15 +84,16 @@ After the packages are installed, open the **~/Components/_Imports.razor** file 
 {% endhighlight %}
 {% endtabs %}
 
-## Register the Blazor service
+## Register Blazor service
 
-Open the **MauiProgram.cs** file in Blazor MAUI App and register the Blazor service.
+Register the Blazor service in the **~/MauiProgram.cs** file.
 
 {% tabs %}
-{% highlight c# tabtitle="MauiProgram.cs" %}
+{% highlight c# tabtitle="~/MauiProgram.cs" %}
 
 ....
 using Syncfusion.Blazor;
+
 ....
 
 public static class MauiProgram
@@ -152,22 +111,26 @@ public static class MauiProgram
 
 ## Add stylesheet and script resources
 
-The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [stylesheet](https://blazor.syncfusion.com/documentation/appearance/themes) and the [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) in the **~wwwroot/index.html** file.
+The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the stylesheet and script references in the **~/index.html** file.
 
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
+```html
 
-....
-<link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
-....
- <script src="_content/Syncfusion.Blazor.Diagram/scripts/sf-diagramcomponent.min.js" type="text/javascript"></script>
+<head>
+    ...
+    <link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
+</head>
+<body>
+    ....
+    <script src="_content/Syncfusion.Blazor.Diagram/scripts/sf-diagramcomponent.min.js" type="text/javascript"></script>
+</body>
 
-{% endhighlight %}
-{% endtabs %}
+```
+
+N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/appearance/themes) topic to discover various methods ([Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets), [CDN](https://blazor.syncfusion.com/documentation/appearance/themes#cdn-reference), and [CRG](https://blazor.syncfusion.com/documentation/common/custom-resource-generator)) for referencing themes in your Blazor application. Also, check out the [Adding Script Reference](https://blazor.syncfusion.com/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your Blazor application.
 
 ## Add Blazor Diagram component
 
-Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component inside the razor file.
+Add the Diagram component in the **~/Pages/Home.razor** file.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -300,45 +263,9 @@ Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **
 
 N> [View sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/DiagramComponent).
 
-## Run the application on Windows
+## How to run the sample on windows
 
-{% tabcontents %}
-
-{% tabcontent Visual Studio %}
-
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component will render in your default web browser.
-
-{% endtabcontent %}
-
-{% tabcontent Visual Studio Code %}
-
-Open the terminal and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Open the command prompt and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% endtabcontents %}
+Run the sample in Windows Machine mode, and it will run Blazor MAUI in Windows.
 
 ![Run Windows machine](images/blazor-diagram-maui.webp)
 
@@ -346,7 +273,7 @@ When the application is successfully launched, the Diagram component will seamle
 
 ![Run Windows machine](images/blazor-diagram-maui-page.webp)
 
-## Run the application on Android
+## How to run the sample on Android
 
 To run the Blazor Diagram component in a Blazor Android MAUI application using the Android emulator, follow these steps:
 
@@ -354,10 +281,10 @@ To run the Blazor Diagram component in a Blazor Android MAUI application using t
 
 Refer [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch Android emulator.
 
-N> If you encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
+N> If encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
 
 ![Blazor Diagram Component](images/blazor-diagram-maui-andoid-page.webp )
 
 ## See also
 
-1. [How to Create a Diagram Builder in MAUI platform](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform)
+* [How to Create a Diagram Builder in MAUI platform](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform)

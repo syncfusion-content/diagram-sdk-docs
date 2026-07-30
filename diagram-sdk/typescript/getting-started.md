@@ -20,7 +20,7 @@ This section explains the steps required to create a simple diagram and demonstr
 Ensure the following tools are installed on your machine:
 
 * [Git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en) (latest LTS version recommended)
+* [Node.js](https://nodejs.org/en)
 * [Visual Studio Code](https://code.visualstudio.com)
 
 ## Set up the development environment
@@ -39,8 +39,7 @@ cd ej2-quickstart
 
 ## Install Syncfusion TypeScript packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the **package.json** file. To render the Diagram control, you also need the [@syncfusion/ej2-diagrams](https://www.npmjs.com/package/@syncfusion/ej2-diagrams) package.
-
+Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the **package.json** file.
 Use the following command to install the dependent npm packages from the command prompt.
 
 ```
@@ -49,7 +48,7 @@ npm install
 
 ## Import Syncfusion® CSS styles
 
-The Diagram control needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported controls.
+The Diagram control needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported control.
 
 To add the styles, install the Tailwind theme package using the following command:
 
@@ -63,15 +62,13 @@ Then add the following CSS reference to the **src/styles/styles.css** file:
 @import "../../node_modules/@syncfusion/ej2-tailwind-theme/styles/diagram/index.css";
 ```
 
-> The theme package includes the required base component styles for the Diagram control, so no separate base style import is needed.
-
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/documentation/appearance/theme) documentation.
 
 N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace **@syncfusion/ej2-tailwind-theme/styles/diagram/index.css** with the corresponding stylesheet from the desired theme package. For example, to use the Material 3 theme, import **@syncfusion/ej2-material3-theme/styles/diagram/index.css**.
 
 ## Add the HTML element
 
-Open the **src/index.html** file and replace its contents with the following HTML for the Diagram component.
+Open the **~/src/index.html** file and add the following HTML element for the Diagram component.
 
 ```
 <!DOCTYPE html>
@@ -209,9 +206,7 @@ In this example:
 * [`annotations`](https://ej2.syncfusion.com/documentation/api/diagram/annotationmodel) adds text inside each node using the [`content`](https://ej2.syncfusion.com/documentation/api/diagram/annotationmodel#content) property.
 * [`sourceID`](https://ej2.syncfusion.com/documentation/api/diagram/connectormodel#sourceid) and [`targetID`](https://ej2.syncfusion.com/documentation/api/diagram/connectormodel#targetid) connect one node to another.
 * [`getNodeDefaults`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getnodedefaults) applies common width, height, fill color, and stroke color to all nodes.
-* [`getConnectorDefaults`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getconnectordefaults) applies common connector settings to all connectors, such as setting the routing `type` to `Orthogonal` and adding a target arrow decorator.
-
-> Ensure the `src/app/app.ts` file is imported by the application entry point (e.g., `src/index.ts`) so that the Diagram control is initialized when the app loads.
+* [`getConnectorDefaults`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getconnectordefaults) applies common connector settings, such as orthogonal routing and target arrows.
 
 ## Run the application
 
@@ -226,6 +221,4 @@ Then open the local URL shown in the terminal, such as `http://localhost:4000`. 
 The output will appear as follows:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](images/Getting-started.png)
-
-N> If `npm start` fails, ensure all dependencies are installed by running `npm install` again. If the default port (e.g., `4000`) is already in use, stop the other process or change the port in the webpack configuration.
 
