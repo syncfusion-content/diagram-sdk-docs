@@ -1,0 +1,78 @@
+---
+layout: post
+title: Downloading Syncfusion Diagram SDK Offline Installer
+description: Learn how to download the Syncfusion Diagram SDK offline installer from the Syncfusion website using your license.
+platform: diagram-sdk
+control: Installation and Deployment
+documentation: ug
+
+---
+
+# Downloading Syncfusion Diagram SDK Offline Installer
+
+You can either download the licensed installer or try our trial installer depending on your license. 
+
+   -	Trial Installer
+   -	Licensed Installer
+
+
+## Download the Trial Version
+
+Our 30-day trial can be downloaded in two ways:
+
+* Download the free trial setup.
+* Start a trial if you are using components through [NuGet.org](https://www.nuget.org/packages?q=syncfusion).
+
+### Download free trial setup
+
+### Download Free Trial Setup
+
+1. You can evaluate our 30-day free trial by visiting the [Download Free Trial](https://www.syncfusion.com/downloads) page and select the Diagram SDK platform.
+2. After completing the required form or logging in with your registered Syncfusion account, you can download the Diagram SDK trial installer from the confirmation page. (as shown in below screenshot.) 
+   
+   ![Trial and downloads of Syncfusion Essential Studio](images/trial-confirmation.png)
+   
+3. With a trial license, only the latest version’s trial installer can be downloaded.
+4. After downloading, the Syncfusion Diagram SDK trial installer can be unlocked using either the trial unlock key or the Syncfusion registered login credential. More information on generating an unlock key can be found in [this](https://support.syncfusion.com/kb/article/7053/how-to-generate-unlock-key-for-essentials-studio-products) article.
+5. Before the trial expires, you can download the trial installer at any time from your registered account’s [Trials & Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page as shown in below screenshot
+ 
+   ![Trial and downloads of Syncfusion Essential Studio](images/trial-download.png)
+
+   ![Syncfusion Diagram SDK offline trial installer option](images/start-trial-download-offline-installer.png)
+
+> **Choosing `.exe` vs `.zip`**: use the `.exe` for a guided install on a single machine. Use the `.zip` for silent deployment, offline machines, or extracting specific payloads to a network share.
+
+### Start trials if using components through NuGet.org
+
+If you have already obtained Syncfusion components through [NuGet.org](https://www.nuget.org/packages?q=syncfusion), initiate an evaluation before using them in production.
+
+1. Start your 30-day free trial for Diagram SDK from your account's [Start Trial](https://www.syncfusion.com/account/manage-trials/start-trials) page.
+
+   ![Syncfusion Diagram SDK start trial page](images/start-trial-download.png)
+
+2. To access this page, you must sign up or log in with your Syncfusion account.
+3. Begin your trial by selecting **Syncfusion Diagram SDK**.
+
+   > If you have already used the trial for Syncfusion Diagram SDK and it has not expired, you cannot start the trial for the same product again.
+
+4. After starting the trial, go to the [Trials and Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page to download the latest-version trial installer. You can generate the [unlock key](https://support.syncfusion.com/kb/article/7053/how-to-generate-unlock-key-for-essentials-studio-products) and [license key](https://help.syncfusion.com/file-formats/licensing/how-to-generate) here at any time before the trial period expires (as shown in the screenshot below).
+
+   ![Syncfusion Diagram SDK start trial installer download](images/start-trial-download-installer.png)
+
+5. You can find your current active trial products on the [Trials and Downloads](https://www.syncfusion.com/account/manage-trials/downloads) page.
+
+## Download the license version
+
+1. Syncfusion licensed products are available on the [License and Downloads](https://www.syncfusion.com/account/downloads) page under your registered Syncfusion account.
+2. You can view all licenses (both active and expired) associated with your account.
+3. Verify your Windows architecture (x86 vs x64) before downloading.
+4. Click the **Download** button (element 1 in the screenshot below) to download the respective product's installer.
+5. The most recent version of the installer will be downloaded from this page.
+6. To download older-version installers, go to the **Downloads Older Versions** section (element 2 in the screenshot below).
+7. You can download other platform or add-on installers from **More Download Options** (element 3 in the screenshot below).
+
+   ![Syncfusion Diagram SDK license downloads page](images/license-download.png)
+
+## Next steps
+
+After downloading the installer, refer to the [Syncfusion Diagram SDK Offline Installer installation guide](https://help.syncfusion.com/diagram-sdk/installation/offline-installer/how-to-install) for step-by-step installation guidelines.	
