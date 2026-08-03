@@ -19,8 +19,6 @@ This section explains how to create and render a simple Essential® JS 2 Diagram
 
 Follow these steps to set up your local environment.
 
-N> **Prerequisite:** If you plan to use the local-script setup with a local HTTP server (e.g., `npx http-server`), ensure `Node.js` is installed on your machine.
-
 **Step 1:** Create a root folder named **my-diagram-app** for your application.
 
 **Step 2:** Create a **my-diagram-app/resources** folder to store local script and style files.
@@ -36,29 +34,25 @@ The Essential® JS 2 Diagram control can be initialized using one of the followi
 
 ### Using local script and style
 
-> The following steps continue from the **Setup for local environment** section above. Each resource-loading approach (local script vs. CDN) replaces steps 1–4 below.
+**Step 1:** Download [Essential Studio® JavaScript (Essential® JS 2)](https://www.syncfusion.com/downloads/essential-js2) to obtain the global scripts and styles.
 
-**Step 1:** Download [Essential Studio® JavaScript (Essential® JS 2)](https://www.syncfusion.com/downloads/essential-js2) to obtain the global scripts and styles. Note that the Diagram control depends on the `ej2-base`, `ej2-popups`, and `ej2-navigations` packages; using the combined `ej2.min.js` bundle (as shown in the example below) includes these dependencies automatically.
-
-**Step 2:** Identify the location of the script and style files from the build installation location. The syntax for the file paths is as follows:
+**Step 2:** Identify the location of the script and style files from the build installation location. The syntax for the file paths are as follows:
 
 **Syntax:**
 > Script: `**(installed location)**/Syncfusion/Essential Studio/{RELEASE_VERSION}/Web(Essential JS 2)/javascript/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
 > Styles: `**(installed location)**/Syncfusion/Essential Studio/{RELEASE_VERSION}/Web(Essential JS 2)/javascript/{PACKAGE_NAME}/styles/tailwind3.css`
 
-> For the Diagram control, use `ej2-diagrams` as the `{PACKAGE_NAME}`. The `{RELEASE_VERSION}` is the installed Essential Studio build version (e.g., `33.2.3`).
-
 **Example:**
 > Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/33.2.3/Web(Essential JS 2)/javascript/ej2-diagrams/dist/global/ej2-diagrams.min.js`
 > Styles: `C:/Program Files (x86)/Syncfusion/Essential Studio/33.2.3/Web(Essential JS 2)/javascript/ej2-diagrams/styles/tailwind3.css`
 
-**Step 3:** Copy the combined global script (`ej2.min.js`) and the theme style file (`tailwind3.css`) into the **resources** folder. These are the files referenced by the HTML example in the next step.
+**Step 3:** Copy the global script and style files into the **resources** folder.
 
 **Step 4:** Add references to the scripts and styles into the **index.html** file to render the Syncfusion® Diagram.
 
-The following example shows how to reference the combined bundle (`ej2.min.js`) and combined style (`tailwind3.css`) in an HTML file. To use the package-specific `ej2-diagrams.min.js` instead, replace the script reference with the package-specific file described in the syntax above:
+The following example shows how to reference the script and style in an HTML file:
 
-```html
+```
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -79,8 +73,6 @@ The following example shows how to reference the combined bundle (`ej2.min.js`) 
 </html>
 ```
 
-> For the local-script setup, the combined `tailwind3.css` file includes styles for all Essential® JS 2 controls (base, popups, navigations, and diagrams). If you prefer package-specific CSS files, copy the individual `tailwind3.css` files from the `ej2-base`, `ej2-popups`, `ej2-navigations`, and `ej2-diagrams` packages into the **resources** folder and reference each one separately, as shown in the CDN example below.
-
 ### Using CDN link for script and style
 
 Using CDN links, you can reference the scripts and styles directly in the **index.html**.
@@ -90,25 +82,25 @@ Using CDN links, you can reference the scripts and styles directly in the **inde
 > Styles: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/styles/tailwind3.css`
 
 **Example:**
-> Script: [`https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js`](https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js)
-> Styles: `ej2-base`, `ej2-popups`, `ej2-navigations`, and `ej2-diagrams` `tailwind3.css` files (e.g., [`https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css`](https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css))
+> Script: [`https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2-diagrams.min.js`](https://cdn.syncfusion.com/ej2/ej2-diagrams/dist/global/ej2-diagrams.min.js)
+> Styles: [`https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css`](https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css)
 
 The following example shows how to reference the scripts and styles in an HTML file using CDN links to render the Syncfusion® Diagram.
 
-```html
+```
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>Essential® JS 2 Diagram</title>
+    <title>Essential JS 2 Diagram</title>
 
-    <!-- Essential® JS 2 Diagram's dependent tailwind3 theme -->
+    <!-- Essential JS 2 Diagram's dependent tailwind3 theme -->
     <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/styles/tailwind3.css" rel="stylesheet">
     <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/styles/tailwind3.css" rel="stylesheet">
     <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/styles/tailwind3.css" rel="stylesheet">
     <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css" rel="stylesheet">
 
-    <!-- Essential® JS 2 Diagram's global script -->
+    <!-- Essential JS 2 Diagram's global script -->
     <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
 </head>
 
@@ -131,7 +123,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Replace the entire contents of **my-diagram-app/index.js** with the following code:
 
-```javascript
+```
 // Node defaults function
 function nodeDefaults(node) {
     node.width = 140;
@@ -205,15 +197,38 @@ let diagram = new ej.diagrams.Diagram({
 // Render initialized Diagram
 diagram.appendTo('#diagram');
 ```
+Replace the entire contents of **my-diagram-app/index.html** with the following code (using CDN references; for the local-script setup, replace the CDN URLs with your local **resources/** paths):
 
-Use the **index.html** from the [Using CDN link for script and style](#using-cdn-link-for-script-and-style) example above. For the local-script setup, replace the CDN URLs with your local **resources/** paths.
+```
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Essential JS 2 Diagram</title>
+
+    <!-- Essential JS 2 Diagram's dependent tailwind3 theme -->
+    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css" rel="stylesheet">
+
+    <!-- Essential JS 2 Diagram's global script -->
+    <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- Add the HTML <div> element for diagram  -->
+    <div id="diagram"></div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
+```
 
 ## Run the application
 
-Now, open **index.html** in a web browser. It will render the Essential® JS 2 Diagram control.
+Now, run the **index.html** in a web browser. It will render the Essential® JS 2 Diagram control.
 
 ![Rendered flowchart with four nodes connected vertically by arrows](images/Getting-started.png)
 
 N> For the local-script setup, serve the application via a local HTTP server (e.g., **npx http-server** or the Code Studio Live Server extension) instead of opening the HTML file directly with the **file:/** protocol, to avoid browser security restrictions.
-
-N> If the diagram does not render, open the browser developer tools (F12) and check the **Console** for errors. Common causes include incorrect script/style file paths, missing dependencies, or a blocked CDN request.

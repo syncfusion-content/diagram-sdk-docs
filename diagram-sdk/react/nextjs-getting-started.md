@@ -8,7 +8,8 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting Started with React Diagram Component in Next.js
+
+# Creating a Next.js Application 
 
 This section provides a step-by-step guide for setting up a Next.js application and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> React Diagram component.
 
@@ -18,71 +19,78 @@ This section provides a step-by-step guide for setting up a Next.js application 
 
 ## Prerequisites
 
-| Requirement | Version |
-| --- | --- |
-| React | Matches the React version bundled with the installed Next.js release |
-| Node.js | 18.18.0 or later |
-| Operating system | Windows, macOS, or Linux |
+Before getting started with the Next.js application, ensure the following prerequisites are met:
 
-N> For the full React-version compatibility matrix with the Syncfusion® Diagram package, refer to the [React supported versions](./getting-started.md#react-supported-versions) section in the main getting-started guide.
+* [Node.js 18.17.0](https://nodejs.org/en) or later.
 
-## Before You Begin
+* The application is compatible with macOS, Windows, and Linux operating systems.
 
-This guide uses the Next.js App Router with TypeScript and a `src` directory.
+* Basic knowledge of Next.js and React
 
-The main files used in this guide are:
+## Create a Next.js application
 
-* `src/app/page.tsx` — Defines the page that renders the Diagram component (Next.js App Router convention).
-* `src/app/globals.css` — Contains the Syncfusion® theme reference.
-
-N> The Diagram component depends on browser APIs. Therefore, the page that renders it must be a Client Component and include the `'use client';` directive.
-
-## Step 1: Create a Next.js application
-
-Create a new Next.js application using the following command:
+To create a new `Next.js` application, use one of the commands that are specific to either NPM or Yarn.
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
 
-npx create-next-app@latest my-diagram-app
+npx create-next-app@latest
 
 {% endhighlight %}
 {% highlight bash tabtitle="YARN" %}
 
-yarn create next-app my-diagram-app
+yarn create next-app
 
 {% endhighlight %}
 {% endtabs %}
 
-Choose the required configuration. For this guide, use the following options:
+Running the above command starts the project configuration process.
+
+1. Define the project name: Users can specify the name of the project directly. Let's specify the name of the project as `ej2-nextjs-diagram`.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-√ Would you like to use the recommended Next.js defaults? » No, customize settings
-√ Would you like to use TypeScript? ... No / `Yes`
-√ Which linter would you like to use? » ESLint
-√ Would you like to use React Compiler? ... `No` / Yes
-√ Would you like to use Tailwind CSS? ... `No` / Yes
-√ Would you like your code inside a `src/` directory? ... No / `Yes`
-√ Would you like to use App Router? (recommended) ... No / `Yes`
-√ Would you like to customize the import alias (`@/*` by default)? ... `No` / Yes 
-√ Would you like to include AGENTS.md to guide coding agents to write up-to-date Next.js code? ... `No` / Yes
+√ What is your project named? » ej2-nextjs-diagram
 
 {% endhighlight %}
 {% endtabs %}
 
-Navigate to the project folder:
+This creates a new project folder with the specified name.
 
-```
-cd my-diagram-app
-```
+2. Select Configuration Options.
 
-## Step 2: Install the Syncfusion® React Diagram package
+Choose the required configuration. For a quick setup, select the recommended defaults:
 
-All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) registry.
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
 
-Install the React Diagram package using the following command:
+? Would you like to use the recommended Next.js defaults? » - Use arrow-keys. Return to submit.
+>   Yes, use recommended defaults
+    TypeScript, ESLint, Tailwind CSS, App Router, AGENTS.md
+    No, reuse previous settings
+    No, customize settings
+
+{% endhighlight %}
+{% endtabs %}
+
+3. Navigate to the project directory using the below command:
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-nextjs-diagram
+
+{% endhighlight %}
+{% endtabs %}
+
+The application is ready to run with default settings. Now, let's add Syncfusion<sup style="font-size:70%">&reg;</sup> components to the project.
+
+## Install Syncfusion<sup style="font-size:70%">&reg;</sup> React packages
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> React component packages are available at [npmjs.com](https://www.npmjs.com/search?q=ej2-react). To use Syncfusion<sup style="font-size:70%">&reg;</sup> React components in the project, install the corresponding npm package.
+
+Here, the [React Diagram component](https://www.syncfusion.com/react-components/react-diagram) is used in the project. To install the React Diagram component, use the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -97,15 +105,9 @@ yarn add @syncfusion/ej2-react-diagrams
 {% endhighlight %}
 {% endtabs %}
 
-N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the required dependency packages.
+## Add the required styles
 
-N> A Syncfusion® license key is not required for local development. However, a valid Syncfusion® license key must be registered before deploying the application to production. For details, see [Registering a Syncfusion® license key](https://ej2.syncfusion.com/react/documentation/licensing/overview).
-
-## Step 3: Add the required styles
-
-The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components.
-
-Install the Tailwind 3 theme package using the following command:
+The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -120,163 +122,190 @@ yarn add @syncfusion/ej2-tailwind3-theme
 {% endhighlight %}
 {% endtabs %}
 
-Add the following import to the `src/app/globals.css` file:
+Add the following import to the global stylesheet. For an App Router project, add it to the **app/globals.css** file: 
 
-```
-@import '../../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
-```
+{% tabs %}
+{% highlight css tabtitle="globals.css" %}
+
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+For a Pages Router project, add it to the global stylesheet imported in **pages/_app.tsx**:
+
+{% tabs %}
+{% highlight ts tabtitle="pages/_app.tsx" %}
+
+import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/react/documentation/appearance/theme) documentation.
 
-N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the `@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css` reference with the corresponding theme path, such as `@syncfusion/ej2-material3-theme/styles/diagram/index.css`.
+N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace the **tailwind3.css** references with the corresponding theme file, such as **material3.css**.
 
-N> The default App Router layout imports `globals.css`. If the import was removed, add `import './globals.css';` to `src/app/layout.tsx`.
+N> In Next.js, global styles should be added to the global stylesheet. For App Router projects, this is commonly **app/globals.css**. For Pages Router projects, the global stylesheet is commonly imported in **pages/_app.tsx**.
 
-N> If you created the project without the `--src-dir` option, `globals.css` lives at `app/globals.css` and the relative path becomes `../node_modules/@syncfusion/ej2-tailwind3-theme/...` (one level, not two).
+## Add Syncfusion<sup style="font-size:70%">&reg;</sup> React component
 
-## Step 4: Add the Diagram component
+Follow the below steps to add the React Diagram component to the Next.js project:
 
-Import `DiagramComponent` from `@syncfusion/ej2-react-diagrams` and add it to the page.
+1. Before adding the Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the Diagram component data.
 
-Update the `src/app/page.tsx` file as follows:
+{% tabs %}
+{% highlight ts tabtitle="datasource.tsx" %}
 
-```
-'use client';
+export let data: object[] = [{
+    'Id': 'parent',
+    'Name': 'Maria Anders',
+    'Designation': 'Managing Director',
+    'IsExpand': 'true',
+    'RatingColor': '#C34444'
+},
+{
+    'Id': 1,
+    'Name': 'Ana Trujillo',
+    'Designation': 'Project Manager',
+    'IsExpand': 'false',
+    'RatingColor': '#68C2DE',
+    'ReportingPerson': 'parent'
+},
+{
+    'Id': 2,
+    'Name': 'Anto Moreno',
+    'Designation': 'Project Lead',
+    'IsExpand': 'false',
+    'RatingColor': '#93B85A',
+    'ReportingPerson': 'parent'
+},
+{
+    'Id': 3,
+    'Name': 'Thomas Hardy',
+    'Designation': 'Senior S/w Engg',
+    'IsExpand': 'false',
+    'RatingColor': '#68C2DE',
+    'ReportingPerson': 1
+},
+{
+    'Id': 4,
+    'Name': 'Christina Kaff',
+    'Designation': 'S/w Engg',
+    'IsExpand': 'false',
+    'RatingColor': '#93B85A',
+    'ReportingPerson': 2
+},
+{
+    'Id': 5,
+    'Name': 'Hanna Moos',
+    'Designation': 'Project Trainee',
+    'IsExpand': 'true',
+    'RatingColor': '#D46E89',
+    'ReportingPerson': 2
+}];
 
-import { DiagramComponent } from '@syncfusion/ej2-react-diagrams';
+{% endhighlight %}
+{% endtabs %}
 
-export default function Home() {
-  return (
-    <DiagramComponent
-      id="diagram"
-      width="100%"
-      height="580px"
-    />
-  );
-}
-```
+2. Then, import and define the Diagram component in the **app/page.tsx** file, as shown below:
 
-At this stage, the Diagram component renders an empty canvas. The next step replaces this code with a complete flowchart example.
+{% raw %}
 
-N> The Diagram component must have a valid height. If the height is not set, the Diagram canvas may not be visible.
-
-## Step 5: Create your first Diagram with nodes and connectors
-
-This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
-
-The following example creates a flowchart with four nodes: **Start**, **Process**, **Decision**, and **End**. It also applies common node and connector settings using the `getNodeDefaults` and `getConnectorDefaults` callback bindings.
-
-Replace the entire contents of `src/app/page.tsx` with the following code:
-
-```
-'use client';
-
-import {
-  DiagramComponent,
-  type ConnectorModel,
-  type FlowShapeModel,
-  type NodeModel
-} from '@syncfusion/ej2-react-diagrams';
-
-const terminator: FlowShapeModel = {
-  type: 'Flow',
-  shape: 'Terminator'
-};
-
-const process: FlowShapeModel = {
-  type: 'Flow',
-  shape: 'Process'
-};
-
-const decision: FlowShapeModel = {
-  type: 'Flow',
-  shape: 'Decision'
-};
-
-const nodes: NodeModel[] = [
-  {
-    id: 'node1',
-    offsetX: 300,
-    offsetY: 100,
-    shape: terminator,
-    annotations: [{ content: 'Start' }]
-  },
-  {
-    id: 'node2',
-    offsetX: 300,
-    offsetY: 200,
-    shape: process,
-    annotations: [{ content: 'Process' }]
-  },
-  {
-    id: 'node3',
-    offsetX: 300,
-    offsetY: 300,
-    shape: decision,
-    annotations: [{ content: 'Decision?' }]
-  },
-  {
-    id: 'node4',
-    offsetX: 300,
-    offsetY: 400,
-    shape: terminator,
-    annotations: [{ content: 'End' }]
-  }
-];
-
-const connectors: ConnectorModel[] = [
-  { id: 'connector1', sourceID: 'node1', targetID: 'node2' },
-  { id: 'connector2', sourceID: 'node2', targetID: 'node3' },
-  { id: 'connector3', sourceID: 'node3', targetID: 'node4' }
-];
-
-function nodeDefaults(node: NodeModel): NodeModel {
-  node.width = 140;
-  node.height = 50;
-  node.style = {
-    fill: '#E8F4FF',
-    strokeColor: '#357BD2'
-  };
-  return node;
-}
-
-function connectorDefaults(connector: ConnectorModel): ConnectorModel {
-  connector.type = 'Orthogonal';
-  connector.targetDecorator = {
-    shape: 'Arrow',
-    width: 10,
-    height: 10
-  };
-  return connector;
-}
+~~~
+'use client'
+import { DataManager, Query } from '@syncfusion/ej2-data';
+import { StackPanel, TextElement, DataBinding, HierarchicalTree, DiagramComponent, Inject } from "@syncfusion/ej2-react-diagrams";
+import { data } from './datasource';
 
 export default function Home() {
+  let items: DataManager = new DataManager(data as JSON[], new Query().take(7));
+
   return (
-    <DiagramComponent
-      id="diagram"
-      width="100%"
-      height="580px"
-      nodes={nodes}
-      connectors={connectors}
-      getNodeDefaults={nodeDefaults}
-      getConnectorDefaults={connectorDefaults}
-    />
-  );
+    <>
+      <h2>Syncfusion React Diagram Component</h2>
+      <DiagramComponent id="container" width={'100%'} height={'450px'} layout={{
+        type: 'HierarchicalTree',
+        margin: {
+          top: 20,
+        },
+
+      }} dataSourceSettings={{
+        id: 'Id',
+        parentId: 'ReportingPerson',
+        dataManager: items,
+      }} getNodeDefaults={(node: any) => {
+        node.height = 50;
+        node.style.fill = '#6BA5D7';
+        node.borderColor = 'white';
+        node.style.strokeColor = 'white';
+        return node;
+      }} getConnectorDefaults={(obj: any) => {
+        obj.style.strokeColor = '#6BA5D7';
+        obj.style.fill = '#6BA5D7';
+        obj.style.strokeWidth = 2;
+        obj.targetDecorator.style.fill = '#6BA5D7';
+        obj.targetDecorator.style.strokeColor = '#6BA5D7';
+        obj.targetDecorator.shape = 'None';
+        obj.type = 'Orthogonal';
+        return obj;
+      }} setNodeTemplate={(obj: any) => {
+        let content = new StackPanel();
+        content.id = obj.id + '_outerstack';
+        content.style.strokeColor = 'darkgreen';
+        content.style.fill = '#6BA5D7';
+        content.orientation = 'Horizontal';
+        content.padding = {
+          left: 5,
+          right: 10,
+          top: 5,
+          bottom: 5,
+        };
+        let innerStack = new StackPanel();
+        innerStack.style.strokeColor = 'none';
+        innerStack.style.fill = '#6BA5D7';
+        innerStack.margin = {
+          left: 5,
+          right: 0,
+          top: 0,
+          bottom: 0,
+        };
+        innerStack.id = obj.id + '_innerstack';
+        let text = new TextElement();
+        text.content = obj.data['Name'];
+        text.style.color = 'white';
+        text.style.strokeColor = 'none';
+        text.style.fill = 'none';
+        text.id = obj.id + '_text1';
+        let desigText = new TextElement();
+        desigText.margin = {
+          left: 0,
+          right: 0,
+          top: 5,
+          bottom: 0,
+        };
+        desigText.content = obj.data['Designation'];
+        desigText.style.color = 'white';
+        desigText.style.strokeColor = 'none';
+        desigText.style.fill = 'none';
+        desigText.style.textWrapping = 'Wrap';
+        desigText.id = obj.id + '_desig';
+        innerStack.children = [text, desigText];
+        content.children = [innerStack];
+        return content;
+      }} >
+        <Inject services={[DataBinding, HierarchicalTree]} />
+      </DiagramComponent>
+    </>
+  )
 }
-```
+~~~
 
-In this example:
+{% endraw %}
 
-* [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel#offsetx) and [`offsetY`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel#offsety) define the position of each node.
-* [`shape`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel#shape) defines the node shape configuration, and [`FlowShapeModel.shape`](https://ej2.syncfusion.com/react/documentation/api/diagram/flowshapemodel#shape) specifies flowchart shapes such as `Terminator`, `Process`, or `Decision`.
-* The [`annotations`](https://ej2.syncfusion.com/react/documentation/api/diagram/annotationmodel) property adds text inside each node using the [`content`](https://ej2.syncfusion.com/react/documentation/api/diagram/annotationmodel#content) field.
-* [`sourceID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectormodel#sourceid) and [`targetID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectormodel#targetid) define the connection between nodes.
-* [`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#getnodedefaults) applies common width, height, fill color, and stroke color to all nodes.
-* [`getConnectorDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#getconnectordefaults) applies common connector settings, such as orthogonal routing and target arrows.
+## Run the application
 
-## Step 6: Run the application
-
-Run the application using the following command:
+To run the application, use the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -286,23 +315,15 @@ npm run dev
 {% endhighlight %}
 {% highlight bash tabtitle="YARN" %}
 
-yarn dev
+yarn run dev
 
 {% endhighlight %}
 {% endtabs %}
 
-Open the generated local URL, typically `http://localhost:3000`, in the browser. The application displays the diagram as shown below:
+Open the generated local URL (for example, http://localhost:3000) from the terminal in the browser. The application displays the diagram as shown below:
 
-![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
+![nextjs](./images/preact.png)
 
-N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+To learn more about the functionality of the Diagram component, refer to the [documentation](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection).
 
-N> To create a production build, run `npm run build` (or `yarn build`). The generated output is placed in the `.next` folder.
-
-## Next steps
-
-To explore the Diagram component in more depth, refer to the following topics:
-
-* [Nodes](https://help.syncfusion.com/diagram-sdk/react/nodes)
-* [Connectors](https://help.syncfusion.com/diagram-sdk/react/connectors)
-* [Annotations](https://help.syncfusion.com/diagram-sdk/react/labels)
+> [View the Next.js Diagram sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-diagram).
