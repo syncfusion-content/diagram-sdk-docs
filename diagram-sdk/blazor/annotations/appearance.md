@@ -663,7 +663,7 @@ N>* The type of the annotation collection property on a node or connector is `Ob
 
 N> The default value for an annotation's Constraints property is **InheritReadOnly**.
 
-Refer to [Constraints](https://blazor.syncfusion.com/documentation/diagram/constraints) to learn more about how to enable or disable the annotation constraints.
+Refer to [Constraints](https://help.syncfusion.com/diagram-sdk/blazor/constraints) to learn more about how to enable or disable the annotation constraints.
 
 ## How to Define Templates in Annotations
 
