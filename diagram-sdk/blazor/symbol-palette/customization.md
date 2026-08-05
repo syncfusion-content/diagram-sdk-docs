@@ -28,7 +28,7 @@ SymbolPalette.Palettes[0].Title = "NewTitle";
 SymbolPalette.Palettes[0].IsExpanded = false;
 SymbolPalette.Palettes[0].IconCss = "e-ddb-icons e-basic";
 ```
-You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/PaletteHeader.razor)
+You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/PaletteHeader.razor)
 
 
 ## How to Customize Symbol Size
@@ -118,7 +118,7 @@ The following code example illustrates how to change the size of a symbol and up
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htBdXnhEJVvBlptb?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/CustomSymbolSize.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/CustomSymbolSize.razor)
 
 
 The [SymbolMargin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_SymbolMargin) property defines the space around individual symbols in the palette, outside their borders. This margin creates visual separation between symbols, enhancing the overall layout and appearance of the Symbol Palette.
@@ -208,7 +208,7 @@ The following code example illustrates how to change the preview size of a palet
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BjhRDnBkJrvRqpHL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolPreview.razor).
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolPreview.razor).
 
 ![SymbolPreview in Blazor Diagram](../images/blazor-diagram-symbol-preview.webp)
 
@@ -315,7 +315,7 @@ The following code example illustrates how to use the selectionChanged event.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZBRXRrOzVFlulRP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SelectionChanged.razor).
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SelectionChanged.razor).
 
 ## How to get notification for expanding the palette
 
@@ -408,7 +408,7 @@ These default settings can be customized to enhance the user experience and matc
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rDVRDRVEzLaiSmyQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AnimationSupport.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AnimationSupport.razor)
 
 ## How to Add Symbol Descriptions to Palette Symbols
 
@@ -481,7 +481,7 @@ The following code is an example to set a symbol description for symbols in the 
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VtVdDHVOfrEARbzn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolDescriptionSample.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolDescriptionSample.razor)
 
 ![Symbol with Description in Blazor Diagram](../images/blazor-diagram-symbol-description.webp)
 
@@ -607,7 +607,7 @@ The following code is an example to change the style of a symbol description for
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BthxXnLkTgXCVzVx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/DescriptionStyle.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/DescriptionStyle.razor)
 
 ![Style of the Symbol Description in Blazor Diagram](../images/blazor-diagram-symbol-description-style.webp)
 
@@ -799,7 +799,7 @@ The following code example demonstrates how to enable or disable the default too
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rZBxNxLOpqDKYYXX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/ShowToolTip.razor).
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/ShowToolTip.razor).
 
 ![EnableDisableTooltip](../images/defaultShowToolTiptooltip.webp)
 
@@ -876,7 +876,7 @@ The following code example illustrates how to provide the custom tooltip for nod
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VNLdZRhazUDdKKlJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
 
 ![Tooltip in symbol palette](../images/symboltooltip.webp)
 
@@ -979,7 +979,7 @@ When a custom tooltip is defined for a symbol, the same tooltip is applied to th
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjLRNHrkTKtbeoBw?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
 
 ![Tooltip in symbol palette](../images/differenttooltip.webp)
 
@@ -1059,7 +1059,7 @@ The following code example illustrates how to provide the tooltip template for n
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VZLdDRLYpUJQFfgs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTooltip.razor)
 
 
 >**Note:**  If a tooltip is not initialized for a symbol, the symbol ID is rendered by default as the tooltip content. When the tooltip is defined, either content or template must be specified; otherwise, the tooltip will be empty.
@@ -1516,7 +1516,7 @@ Here is an example demonstrating how to use the [EnableChunkMessages](https://he
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VXhxDxVkJKerutxM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/EnableChunkMessage.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/EnableChunkMessage.razor)
 
 ## See Also
 
