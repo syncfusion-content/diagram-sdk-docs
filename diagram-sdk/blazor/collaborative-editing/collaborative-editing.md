@@ -30,7 +30,7 @@ Collaborative editing in diagram control allows multiple users to edit and revie
 * View-only interactions
     * Zoom and pan are local to each user and are not synchronized, so collaborators may view different areas of the diagram.
 * Unsupported synchronized settings
-    * Changes to `PageSettings`, `ContextMenu`, `DiagramHistoryManager`, `SnapSettings`, `Rulers`, `UmlSequenceDiagram`, `Layout`, and `ScrollSettings` are not propagated to other users and apply only locally.
+    * Changes to `PageSettings`, `ContextMenu`, `DiagramHistoryManager`, `SnapSettings`, `Rulers`, `UmlSequenceDiagram`, `Layout`, and `ScrollSettings` are not propagated to other users and are applied only locally.
 
 >**Note:** 
 Collaboration applies to actions that raise the [HistoryChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_HistoryChanged) event.

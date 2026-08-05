@@ -16,7 +16,7 @@ There are two types of activities. They are listed as follows:
 * [Task](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivityType.html#Syncfusion_Blazor_Diagram_BpmnActivityType_Task): It occurs within a process and is not broken down to a finer level of detail.
 * [CollapsedSubProcess](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivityType.html#Syncfusion_Blazor_Diagram_BpmnActivityType_CollapsedSubProcess): It occurs within a process and is broken down to a finer level of detail.
 
-You can specify the any one of the above activity type using the [ActivityType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_ActivityType) property of [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html).
+Any one of the above activity types can be specified using the [ActivityType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_ActivityType) property of [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -58,7 +58,7 @@ You can download a complete working sample from [GitHub](https://github.com/Sync
 
 ## How to Create a BPMN Activity Task
 
-The [TaskType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_TaskType) property of the  [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html) allows you to define the type of task such as sending, receiving, user-based task, etc. By default, the value of `TaskType` property is set to **None.** This is shown by a small event symbol in the top of the corner. The following code explains how to create different types of BPMN tasks.
+The [TaskType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_TaskType) property of the  [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html) allows you to define the type of task, such as sending, receiving, or user-based tasks. By default, the `TaskType` property is set to **None**, which is indicated by a small event symbol at the top corner of the shape. The following code explains how to create BPMN task.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -74,6 +74,7 @@ The [TaskType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.B
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
+        Node node = new Node()
         {
             // Position of the node.
             OffsetX = 100,
@@ -214,7 +215,7 @@ The following table contains various types of BPMN loops.
 
 ### How to Enable Compensation
 
-[IsCompensation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_IsCompensation) is triggered when the operation is partially failed and enabled it with the `IsCompensation` property of the [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html). By default, the `IsCompensation` property is set to **false**.
+[IsCompensation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html#Syncfusion_Blazor_Diagram_BpmnActivity_IsCompensation) indicates that compensation is required when an operation fails partially. Enable it by using the `IsCompensation` property of the [Bpmn Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html). By default, the `IsCompensation` property is set to **false**.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -239,7 +240,7 @@ The following table contains various types of BPMN loops.
             Width = 100,
             Height = 100,
             // Unique Id of the node.
-            ID = "node1",
+            ID = "node",
             // Defines the shape to activity.
             Shape = new BpmnActivity()
             {
@@ -248,7 +249,7 @@ The following table contains various types of BPMN loops.
                 IsCompensation = true,
             }
         };
-        _nodes.Add(node1);
+        _nodes.Add(node);
     }
 }
 ```

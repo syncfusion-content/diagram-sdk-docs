@@ -18,14 +18,14 @@ They are primarily classified into three categories:
 
 ## How to Create an Association
 
-An BPMN `AssociationFlow` is used to link flow objects with their corresponding text or artifact. It is represented as a dotted graphical line with an opened arrow. 
-To create an association, set the [Flow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlow.html#Syncfusion_Blazor_Diagram_BpmnFlow_Flow) property of the [BpmnFlowShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlow.html) should be set to one of the association types.
+A BPMN `AssociationFlow` is used to link flow objects with their corresponding text or artifact. It is represented as a dotted graphical line with an open arrow.
+To create an association, set the [Flow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlow.html#Syncfusion_Blazor_Diagram_BpmnFlow_Flow) property of the [BpmnFlowShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlow.html) to one of the association types.
 
 The available association types are:
 
-* **DirectionalAssociationFlow**: A dotted graphical line with one side arrow.
-* **BiDirectionalAssociationFlow**: A dotted graphical line with double side arrow.
-* **AssociationFlow**: A dotted graphical line with an opened arrow.
+* **DirectionalAssociationFlow**: A dotted graphical line with a single arrowhead at one end.
+* **BiDirectionalAssociationFlow**: A dotted graphical line with arrowheads at both ends.
+* **AssociationFlow**: A dotted graphical line with no arrowhead.
 
 The following code example explains how to create an association.
 
@@ -76,7 +76,7 @@ The following table shows the visual representation of association flows.
 
 ## How to Create a Sequence
 
-A `Sequence` flow shows the order that the activities are performed in a BPMN process and is represented by a solid graphical line. To create a SequenceFlow,set the  `Flow` property of the `BpmnFlowShape` shape to one of the sequence types.
+A `Sequence` flow defines the order in which activities are performed in a BPMN process and is represented by a solid graphical line. To create a SequenceFlow, set the  `Flow` property of the `BpmnFlowShape` shape to one of the sequence types.
 
 The available sequence types are:
 
@@ -135,7 +135,7 @@ N> The default value for the property `Sequence` is **Normal.**
 
 ## How to Create a Message
 
-A `Message` flows are used when two separately controlled processes communicate and collaborate with one another. An activity or event in one pool can initiate a message to the another pool. Message Flows are depicted as lines with an empty circle indicating where the message originates and an empty arrowhead where the message terminates. To create a MessageFlow, the `Flow` property of the `BpmnFlowShape` should be set to one of the message types.
+A `Message` flow is used when two separately controlled processes communicate and collaborate with one another. An activity or event in one pool can initiate a message to another pool. Message flows are depicted as lines with an empty circle at the origin and an empty arrowhead at the termination. To create a MessageFlow, the `Flow` property of the `BpmnFlowShape` should be set to one of the message types.
 
 The available message flow types are:
 
@@ -190,4 +190,4 @@ The following table shows the different representations of message flows.
 | [InitiatingMessageFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_InitiatingMessageFlow) | ![InitiatingMessage Message BPMN Shape](../images/Bpmn-NonInitiatingMessageFlow.webp) |
 | [NonInitiatingMessageFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_NonInitiatingMessageFlow) | ![NonInitiatingMessage Message BPMN Shape](../images/Bpmn-InitiatingMessageFlow.webp) |
 
-N> The default value for the property `Flow` property of a `BpmnFlow` shape is **SequenceFlow.**
+N> The default value for the `Flow` property of a `BpmnFlow` shape is **SequenceFlow.**
