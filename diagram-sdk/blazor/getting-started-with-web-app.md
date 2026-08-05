@@ -9,7 +9,9 @@ documentation: ug
 
 # Getting Started with Blazor Diagram Component in Web App
 
-This section briefly explains how to include the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in your Blazor Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section briefly explains how to include the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in your Blazor Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), or the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+
+N> The Blazor Diagram component requires .NET 8.0 or later and a modern browser with ES6 and WebAssembly support. The `Syncfusion.Blazor.Diagram` package is compatible with the `Server`, `WebAssembly`, and `Auto` interactive render modes.
 
 > **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
@@ -20,12 +22,13 @@ This section briefly explains how to include the [Blazor Diagram](https://www.sy
 ## Prerequisites
 
 * [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
+* Install the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio) for Visual Studio if you plan to use the Syncfusion templates to create the project.
 
 ## Create a new Blazor Web App in Visual Studio
 
 Create a **Blazor Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio). For detailed instructions, refer to the [Blazor Web App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app) documentation.
 
-N> Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating a project.
+N> Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating the project.
 <br/> If you use the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio), a sample application can be generated automatically.
 
 {% endtabcontent %}
@@ -35,12 +38,13 @@ N> Configure the appropriate [Interactive render mode](https://learn.microsoft.c
 ## Prerequisites
 
 * [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
+* Install the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project) for Visual Studio Code if you plan to use the Syncfusion templates to create the project.
 
 ## Create a new Blazor Web App in Visual Studio Code
 
 Create a **Blazor Web App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor Web App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app?tabcontent=visual-studio-code) documentation.
 
-N> Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating a project.
+N> Configure the appropriate [Interactive render mode](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0#render-modes) and [Interactivity location](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) while creating the project.
 <br/> If you use the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio), a sample application can be generated automatically.
 
 {% endtabcontent %}
@@ -68,7 +72,7 @@ For example, in a Blazor Web App with the `Auto` interactive render mode, use th
 {% tabs %}
 {% highlight c# tabtitle="Blazor Web App" %}
 
-dotnet new blazor -o BlazorWebApp -int Auto
+dotnet new blazor -o BlazorWebApp --interactivity Auto -f net8.0
 cd BlazorWebApp
 
 {% endhighlight %}
@@ -91,6 +95,13 @@ Install the [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusio
 1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
 2. Search the required NuGet packages (`Syncfusion.Blazor.Diagram` and `Syncfusion.Blazor.Themes`) and install it.
 
+**Visual Studio (Package Manager Console)**: run the following in *Tools → NuGet Package Manager → Package Manager Console*:
+
+```powershell
+Install-Package Syncfusion.Blazor.Diagram -Version {{ site.releaseversion }}
+Install-Package Syncfusion.Blazor.Themes -Version {{ site.releaseversion }}
+```
+
 **Visual Studio Code or .NET CLI**:
 
 Open the terminal or command prompt and run the following commands:
@@ -98,8 +109,9 @@ Open the terminal or command prompt and run the following commands:
 {% tabs %}
 {% highlight C# tabtitle=".NET CLI" %}
 
-dotnet add package Syncfusion.Blazor.Diagram -v {{ site.releaseversion }}
-dotnet add package Syncfusion.Blazor.Themes -v {{ site.releaseversion }}
+dotnet add package Syncfusion.Blazor.Diagram --version {{ site.releaseversion }}
+dotnet add package Syncfusion.Blazor.Themes --version {{ site.releaseversion }}
+dotnet restore
 
 {% endhighlight %}
 {% endtabs %}
@@ -113,8 +125,8 @@ After the packages are installed, open the **~/_Imports.razor** file and import 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
 
-@using Syncfusion.Blazor;
-@using Syncfusion.Blazor.Diagram;
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Diagram
 
 {% endhighlight %}
 {% endtabs %}
@@ -126,7 +138,6 @@ Register the Blazor service in the **Program.cs** file.
 {% tabs %}
 {% highlight c# tabtitle="Program.cs" %}
 
-....
 using Syncfusion.Blazor;
 ....
 var builder = WebApplication.CreateBuilder(args);
@@ -137,6 +148,8 @@ builder.Services.AddSyncfusionBlazor();
 {% endtabs %}
 
 N> If the **Interactive Render Mode** is set to `WebAssembly` or `Auto`, register the Blazor service in **Program.cs** files of both the server and client projects in your Blazor Web App.
+
+N> Register your Syncfusion license key before calling `AddSyncfusionBlazor()` by using `Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR_LICENSE_KEY")`. A missing or invalid license will cause trial license warnings at runtime. See the [Syncfusion Licensing FAQ](https://www.syncfusion.com/sales/communitylicense) for details.
 
 ## Add stylesheet and script resources
 
@@ -153,12 +166,14 @@ The theme stylesheet and script can be accessed from NuGet through [Static Web A
 </body>
 ```
 
+N> After adding the stylesheet and script references, rebuild the project so that the static web assets from the NuGet packages are restored to the `wwwroot/_content/` folder.
+
 N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/appearance/themes) topic to discover various methods ([Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets), [CDN](https://blazor.syncfusion.com/documentation/appearance/themes#cdn-reference), and [CRG](https://blazor.syncfusion.com/documentation/common/custom-resource-generator)) for referencing themes in your Blazor application. Also, check out the [Adding Script Reference](https://blazor.syncfusion.com/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your Blazor application.
 
 ## Add Blazor Diagram Component
 
 * Open a Razor file located in the **~/Components/Pages** (for example, **Home.razor**) and add the Blazor Diagram component inside the razor file.
-* If the interactivity location is set to `Per page/component` in the Web App, define a render mode at the top of the razor file. (For example, `InteractiveServer`, `InteractiveWebAssembly` or `InteractiveAuto`).
+* If the interactivity location is set to `Per page/component` in the Blazor Web App, define a render mode at the top of the razor file. (For example, `InteractiveServer`, `InteractiveWebAssembly` or `InteractiveAuto`).
 
 If your application uses `Per page/component` interactivity, add the render mode declaration at the top of **Pages/Home.razor**:
 
@@ -173,21 +188,17 @@ If your application uses `Per page/component` interactivity, add the render mode
 {% endhighlight %}
 {% endtabs %}
 
-### Run the application
+> The `@using Syncfusion.Blazor.Diagram` directive can be omitted if it is already declared in `~/_Imports.razor` (as described in the previous step).
 
-**Visual Studio**:
+Run the application at this point. You should see an empty diagram area. If the page is blank or shows a script error, jump to the [Troubleshooting](#troubleshooting) section before continuing.
 
-* Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor Diagram component will render in your default web browser.
+N> The following table shows which render mode to choose for each hosting model:
 
-**Visual Studio Code or .NET CLI**:
-
-1. Open the terminal (Visual Studio Code) or command prompt (.NET CLI) and navigate to the `Client` project folder.
-2. Run the following command:
-
-    ```
-    dotnet run
-    ```
-3. The application will start and display in your default web browser.
+| Hosting model | Render mode | Use case |
+|---|---|---|
+| Server | `@rendermode InteractiveServer` | Server-side rendering with SignalR. |
+| WebAssembly | `@rendermode InteractiveWebAssembly` | Client-side rendering, no server required after first load. |
+| Auto | `@rendermode InteractiveAuto` | WebAssembly on first visit, then Server for subsequent visits. |
 
 ## Create your first Diagram with nodes and connectors
 
@@ -198,13 +209,11 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
 
-@using Syncfusion.Blazor.Diagram
-
 <SfDiagramComponent Width="100%" Height="600px" Nodes="@nodes" Connectors="@connectors" NodeCreating="@NodeCreating" ConnectorCreating="@ConnectorCreating" />
 
 @code {
-    DiagramObjectCollection<Node> nodes = new DiagramObjectCollection<Node>();
-    DiagramObjectCollection<Connector> connectors = new DiagramObjectCollection<Connector>();
+    DiagramObjectCollection<Node> nodes;
+    DiagramObjectCollection<Connector> connectors;
     protected override void OnInitialized()
     {
         nodes = new DiagramObjectCollection<Node>()
@@ -259,7 +268,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
                 ID = "connector2",
                 SourceID = "node2",
                 TargetID = "node3",
-            },            
+            },
             new Connector()
             {
                 ID = "connector3",
@@ -299,9 +308,17 @@ In this example:
 
 ## Run the application
 
-* Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application in Visual Studio. 
-* Run the application using `dotnet run` command in Command prompt.
-* This will render the Blazor Diagram component in the default web browser.
+**Visual Studio**: Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor Diagram component will render in your default web browser.
+
+**Visual Studio Code or .NET CLI**:
+
+1. Open the terminal (Visual Studio Code) or command prompt (.NET CLI) and navigate to the `Client` project folder.
+2. Run the following command:
+
+    ```bash
+    dotnet run
+    ```
+3. The application will start and display in your default web browser at the URL shown in the console output (for example, `https://localhost:7xxx` or `https://localhost:5xxx`).
 
 The output will appear as follows:
 

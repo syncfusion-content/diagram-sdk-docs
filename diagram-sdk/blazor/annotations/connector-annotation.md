@@ -135,7 +135,7 @@ N> By default, Alignment value of the connector annotation is `Center`.
 
 ## How to Change Annotation Displacement
 
-The [Displacement](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_Displacement) property moves an annotation from its default position along the connector path. By default, annotation will be in centered on the connector path. It accepts a DiagramPoint object that specifies the horizontal (X) and vertical (Y) distance to move the annotation.
+The [Displacement](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_Displacement) property moves an annotation from its default position along the connector path. By default, the annotation is centered on the connector path. It accepts a DiagramPoint object that specifies the horizontal (X) and vertical (Y) distance to move the annotation.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -181,9 +181,9 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Update Annotation Segment Angle
 
-The [SegmentAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_SegmentAngle) property is used to rotate the annotation based on the connectors segment direction. By default, the annotation will be rotated in the connector path. When you assign a value to the SegmentPath property, the annotation will be rotated from its position based on the connector segment direction.
+The [SegmentAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_SegmentAngle) property is used to rotate the annotation based on the connector segment direction. By default, the annotation is displayed without rotation. When you set `SegmentAngle` to `true`, the annotation rotates to match the connector segment direction.
 
-The following code example shows how the connector annotation rotated in its path direction.
+The following code example shows how the connector annotation rotates in its path direction.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -239,5 +239,3 @@ The `HorizontalAlignment`, `VerticalAlignment` and `Margin` properties were expl
 * [How to add or remove annotation constraints](../constraints#annotation-constraints)
 
 * [How to customize the annotation](./appearance)
-
-* [How to animate connectors using annotationtemplate in angular diagram](https://support.syncfusion.com/kb/article/20265/how-to-animate-connectors-using-annotationtemplate-in-angular-diagram)

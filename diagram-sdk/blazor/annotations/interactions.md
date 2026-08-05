@@ -97,7 +97,7 @@ By default, drag limits are disabled for connector annotations. To enable this b
             Type = ConnectorSegmentType.Orthogonal,
             SourcePoint = new DiagramPoint() { X = 200, Y = 200 },
             TargetPoint = new DiagramPoint() { X = 300, Y = 300 },
-            // Sets the multiple annotation for the connector
+            // Sets the annotation for the connector
             Annotations = new DiagramObjectCollection<PathAnnotation>()
             {
                 new PathAnnotation 
@@ -128,7 +128,7 @@ N> The `DragLimit` property applies only to **PathAnnotation** (connector annota
 
 ## How to Rotate Annotations
 
-The [RotationReference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeAnnotation.html#Syncfusion_Blazor_Diagram_ShapeAnnotation_RotationReference) property of an annotation controls whether the annotation text rotates relative to its parent node or the page. The following code examples illustrate how to configure `RotationReference` for an annotation.
+The [RotationReference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeAnnotation.html#Syncfusion_Blazor_Diagram_ShapeAnnotation_RotationReference) property of an annotation controls whether the annotation text rotates relative to its parent node or the page. The default value is **Parent**. The following code example illustrate how to configure `RotationReference` for an annotation.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -195,7 +195,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 The [RotationAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_RotationAngle) property sets the rotation angle of an annotation in degrees. This determines how much the annotation text is tilted from its normal position. The default value is **0**.
 
-The following code examples illustrate how to configure `RotationAngle` for an annotation.
+The following code example illustrate how to configure `RotationAngle` for an annotation.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
