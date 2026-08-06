@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtualization in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Virtualization in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Virtualization in TypeScript Diagram | Syncfusion®
+description: Boost TypeScript Diagram performance on large canvases by loading only nodes and connectors inside the current viewport.
 platform: diagram-sdk
 control: Virtualization 
 publishingplatform: diagram-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
-# Virtualization in TypeScript Diagram control
+# Virtualization in TypeScript Diagram
 
 Virtualization is a technique to optimize the performance of diagrams, especially when working with larger diagrams
 

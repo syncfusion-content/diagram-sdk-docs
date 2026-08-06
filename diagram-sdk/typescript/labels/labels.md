@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Labels in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation in TypeScript Diagram | Syncfusion®
+description: Add and update TypeScript Diagram annotations on nodes and connectors with editable text, ids, and runtime APIs.
 platform: diagram-sdk
 control: Labels 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Labels in TypeScript Diagram control
+# Annotation in TypeScript Diagram
 
 [`Annotation`](https://ej2.syncfusion.com/documentation/api/diagram/annotationModel) is a block of text that can be displayed over a node or connector. Annotation is used to textually represent an object with a string that can be edited at runtime. Multiple annotations can be added to a node/connector.
 

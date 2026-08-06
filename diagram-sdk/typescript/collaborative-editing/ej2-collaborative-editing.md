@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collaborative Editing in TypeScript Diagram | Syncfusion
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion TypeScript Diagram.
+title: SignalR Hub Configuration in TypeScript Diagram | Syncfusion®
+description: Configure the SignalR client in the Syncfusion® TypeScript Diagram app to connect to a hub and enable real-time collaborative editing.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
@@ -9,7 +9,7 @@ publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# SignalR hub configuration in TypeScript application
+# SignalR Hub Configuration in TypeScript Diagram
 
 ## Overview
 

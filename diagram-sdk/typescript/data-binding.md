@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data binding in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Data binding in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Data Binding in TypeScript Diagram | Syncfusion®
+description: Populate the TypeScript Diagram from local or remote data sources and perform CRUD operations on nodes and connectors.
 platform: diagram-sdk
 control: Data binding 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Data binding in TypeScript Diagram control
+# Data Binding in TypeScript Diagram
 
 * Diagram can be populated with the `nodes` and `connectors` based on the information provided from an external data source.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Interaction in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Interaction in TypeScript Diagram | Syncfusion®
+description: Select, drag, and route TypeScript Diagram connectors interactively or via select, drag, and clearSelection APIs.
 platform: diagram-sdk
 control: Connector Interaction
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector interaction in TypeScript Diagram
+# Connector Interaction in TypeScript Diagram
 
 Connectors can be selected, dragged, and routed over the diagram page.
 

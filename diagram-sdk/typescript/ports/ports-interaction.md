@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports interaction in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Port Interaction in TypeScript Diagram | Syncfusion®
+description: Draw connectors from ports and customize port behavior in the Syncfusion® TypeScript Diagram with the port constraints property.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Ports interaction in TypeScript Diagram control | Syncfusion®
+# Port Interaction in TypeScript Diagram
 
 ## Draw connector from port
 

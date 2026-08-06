@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Layers in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Layers in Syncfusion® TypeScript Diagram control of Syncfusion Essential®  2 and more.
+title: Layers in TypeScript Diagram | Syncfusion®
+description: Group TypeScript Diagram shapes into named layers to selectively show, hide, lock, and store custom metadata.
 platform: diagram-sdk
 control: Layers 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Layers in TypeScript Diagram control
+# Layers in TypeScript Diagram
 
 **Layer** organizes related shapes within a diagram control as named categories. Assigning shapes to different layers enables selective viewing, removal, and locking of distinct shape categories.
 

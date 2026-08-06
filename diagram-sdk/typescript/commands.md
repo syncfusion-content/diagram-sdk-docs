@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Commands in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Commands in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Commands in TypeScript Diagram | Syncfusion®
+description: Run TypeScript Diagram commands to align, distribute, size, group, reorder, zoom, nudge, fit, and manage clipboard actions.
 platform: diagram-sdk
 control: Commands 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Commands in TypeScript Diagram control
+# Commands in TypeScript Diagram
 
 <!-- markdownlint-disable MD010 -->
 
