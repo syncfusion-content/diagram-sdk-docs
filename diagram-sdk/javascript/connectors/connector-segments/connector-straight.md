@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Straight connector in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Straight in JavaScript Diagram | Syncfusion®
+description: Draw straight connector segments in the Syncfusion® JavaScript Diagram by adding a straight segment to the connector segments collection.
 platform: diagram-sdk
 control: Straight 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# Straight
+# Straight in JavaScript Diagram
 
 To create a straight line, specify the [`type`](../../../api/diagram/segments) of the segment as **straight** and add a straight segment to [`segments`](../../../api/diagram/connector#segments) collection and need to specify [`type`](../../../api/diagram/connector#type) for the connector. The following code example illustrates how to create a default straight segment.
 

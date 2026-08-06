@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Umldiagram in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Umldiagram in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: UML Diagram Shapes in JavaScript Diagram | Syncfusion®
+description: Model class, interface, enumeration, and relationship shapes in the Syncfusion® JavaScript Diagram for UML class diagrams.
 platform: diagram-sdk
 control: Umldiagram 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# UML diagram in JavaScript Diagram control
+# UML Diagram Shapes in JavaScript Diagram
 
 ## UML Class Diagram
 

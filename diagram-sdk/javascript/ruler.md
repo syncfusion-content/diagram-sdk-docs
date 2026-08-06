@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ruler in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Ruler in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Ruler in JavaScript Diagram | Syncfusion®
+description: Show horizontal and vertical rulers with a position indicator in the Syncfusion® JavaScript Diagram using the rulerSettings property.
 platform: diagram-sdk
 control: Ruler 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Ruler in JavaScript Diagram control
+# Ruler in JavaScript Diagram
 
 The ruler provides horizontal and vertical guides for measuring in the diagram control. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful for creating scale models.The ruler also includes a position indicator that displays the precise location of the mouse cursor on the diagram canvas, with the default color of the position indicator marker being red.
 

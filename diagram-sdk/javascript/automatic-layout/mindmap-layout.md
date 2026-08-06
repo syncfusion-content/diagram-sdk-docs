@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mind map layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Mind Map in JavaScript Diagram | Syncfusion®
+description: Build a Mind Map in the Syncfusion® JavaScript Diagram by setting the layout type to MindMap, with Horizontal or Vertical orientation options.
 platform: diagram-sdk
 control: Mind map 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Mind Map layout in JavaScript Diagram control
+# Mind Map in JavaScript Diagram
 
 A mind map is a diagram that displays the nodes as a spider diagram organizes information around a central concept. To create mind map, the [`type`](../../api/diagram/layout#type) of layout should be set as `MindMap`.
 

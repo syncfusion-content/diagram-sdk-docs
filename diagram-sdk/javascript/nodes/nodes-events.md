@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Events of node interaction in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Events in JavaScript Diagram | Syncfusion®
+description: Handle click, selectionChange, doubleClick, and key events on nodes in the Syncfusion® JavaScript Diagram to react to user interaction.
 platform: diagram-sdk
 control: Events of node 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Node events in JavaScript Diagram control
+# Node Events in JavaScript Diagram
 
 Diagram provides some events support for node that triggers when interacting with the node.
 

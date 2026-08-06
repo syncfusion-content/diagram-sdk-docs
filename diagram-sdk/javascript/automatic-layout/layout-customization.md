@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Customizing layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Layout Customization in JavaScript Diagram | Syncfusion®
+description: Customize layout orientation, spacing, alignment, and bounds in the Syncfusion® JavaScript Diagram for any built-in automatic layout type.
 platform: diagram-sdk
 control: Customizing layout
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Customizing layout in JavaScript Diagram control
+# Layout Customization in JavaScript Diagram
 
 Orientation, spacings, and alignment of the layout can be customized with a set of properties.
 
