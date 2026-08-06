@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance of a nodes in Vue Diagram component | Syncfusion®
-description: Learn here all about Nodes Appearance in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: Nodes customization in Vue Diagram | Syncfusion®
+description: Customize the default appearance and behavior of nodes in the Syncfusion® Vue Diagram with shared styles, shapes, and settings applied at load time.
 control: Appearance of nodes
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Appearance of a nodes in Vue Diagram control
+# Nodes customization in Vue Diagram
 
 ## Common values to the node.
 
