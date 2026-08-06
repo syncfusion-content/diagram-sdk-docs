@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Interaction in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about connector interaction in Blazor Diagram component and much more details.
+description: Select, drag, and route Blazor Diagram Component connectors interactively while keeping connections glued to nearby nodes or ports.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Interaction in Diagram Component
+# Interaction in Blazor Diagram Component
 
 Connectors support interactive operations such as selection, dragging, and routing to improve diagram editing and readability.
 

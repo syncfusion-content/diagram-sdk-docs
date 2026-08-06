@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exporting in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about the Exporting feature in Blazor Diagram component and more.
+description: Export the Blazor Diagram Component to PNG, JPEG, SVG, or PDF with custom page size, region, margins, and single or multi-page output.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
