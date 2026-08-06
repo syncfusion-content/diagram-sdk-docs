@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data binding in Vue Diagram component | Syncfusion®
-description: Learn here all about Data binding in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: Data binding in Vue Diagram | Syncfusion®
+description: Bind the Syncfusion® Vue Diagram to local JSON or a remote data source so nodes and connectors render automatically from your data model.
 control: Data binding 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Data binding in Vue Diagram component
+# Data binding in Vue Diagram
 
 * [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) can be populated with the `nodes` and `connectors` based on the information provided from an external data source.
 

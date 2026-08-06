@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn DataSource in Vue Diagram component | Syncfusion®
-description: Learn here all about Bpmn DataSource shapes in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: BPMN DataSource in Vue Diagram | Syncfusion®
+description: Add a BPMN data source shape to the Syncfusion® Vue Diagram to represent stored or accessible data associated with a business process.
 control: Bpmn DataSource
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN DataSource in Vue Diagram component
+# BPMN DataSource in Vue Diagram
 
 ## Datasource
 
