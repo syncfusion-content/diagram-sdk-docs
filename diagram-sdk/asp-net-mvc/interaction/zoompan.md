@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zoom Pan in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Zoompan in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Zoom and pan large Syncfusion® ASP.NET MVC Diagram canvases, and track the pan status of the tool as start, in progress, or completed.
 platform: diagram-sdk
 control: Zoompan
 publishingplatform: diagram-sdk

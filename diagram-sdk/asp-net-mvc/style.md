@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS Structure in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Style in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Customize Syncfusion® ASP.NET MVC Diagram end point handles, bezier handles and lines, resize handles, and selected items using CSS classes.
 platform: diagram-sdk
 control: Style
 publishingplatform: diagram-sdk

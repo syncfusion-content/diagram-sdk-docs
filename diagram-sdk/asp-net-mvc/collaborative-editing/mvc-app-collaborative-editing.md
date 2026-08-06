@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SignalR Hub Configuration in ASP.NET Core Diagram | Syncfusion®
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion® ASP.NET MVC Diagram.
+description: Connect the Syncfusion® ASP.NET MVC Diagram client to a SignalR hub, send and apply diagram updates, and synchronize changes across users.
 control: Diagram
 documentation: ug
 platform: diagram-sdk

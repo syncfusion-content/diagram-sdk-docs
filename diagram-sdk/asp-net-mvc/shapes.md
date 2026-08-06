@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shapes in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about shapes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Add text, image, HTML, native, basic, or flow shape nodes to Syncfusion® ASP.NET MVC Diagram, with custom styling and built-in shape library.
 platform: diagram-sdk
 control: Shapes
 publishingplatform: diagram-sdk

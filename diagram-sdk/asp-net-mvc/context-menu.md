@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Context Menu in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Context Menu in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Show a right-click context menu in Syncfusion® ASP.NET MVC Diagram with default actions, custom items, icons, separators, and per-node menus.
 platform: diagram-sdk
 control: Context Menu
 publishingplatform: diagram-sdk

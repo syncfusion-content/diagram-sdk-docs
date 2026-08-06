@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UML Diagram Shapes in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Umldiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Model object-oriented systems in Syncfusion® ASP.NET MVC Diagram with UML class, interface, enumeration, and connector shapes for static structure.
 platform: diagram-sdk
 control: Umldiagram
 publishingplatform: diagram-sdk

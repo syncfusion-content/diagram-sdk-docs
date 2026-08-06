@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Shapes in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Bpmn Shapes in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Model business processes in Syncfusion® ASP.NET MVC Diagram with BPMN event, gateway, task, message, data source, data object, and group shapes.
 platform: diagram-sdk
 control: Bpmn Shapes
 publishingplatform: diagram-sdk

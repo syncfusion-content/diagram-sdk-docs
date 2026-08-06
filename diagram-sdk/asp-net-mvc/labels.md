@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Labels in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Add editable text annotations to nodes and connectors in Syncfusion® ASP.NET MVC Diagram, with multiple labels, alignment, wrapping, hyperlinks, and templates.
 platform: diagram-sdk
 control: Labels
 publishingplatform: diagram-sdk

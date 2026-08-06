@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selection in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Selection in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Select single, multiple, or grouped Syncfusion® ASP.NET MVC Diagram elements by click, modifier-click, rubber band, or programmatically at runtime.
 platform: diagram-sdk
 control: Selection
 publishingplatform: diagram-sdk

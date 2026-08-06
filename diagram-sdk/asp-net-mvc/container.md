@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Container in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Container in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Group related shapes in Syncfusion® ASP.NET MVC Diagram using containers with customizable headers, padding, and dynamic add/remove of children.
 platform: diagram-sdk
 control: Container
 publishingplatform: diagram-sdk

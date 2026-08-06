@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruler in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Ruler in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Add horizontal and vertical rulers to Syncfusion® ASP.NET MVC Diagram with custom interval, segment width, tick alignment, and marker color.
 platform: diagram-sdk
 control: Ruler
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serialization in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Serialization in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Save and restore Syncfusion® ASP.NET MVC Diagram state as a JSON string for persistence, with a loaded event to customize elements after loading.
 platform: diagram-sdk
 control: Serialization
 publishingplatform: diagram-sdk

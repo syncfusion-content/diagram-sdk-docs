@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gridlines in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Grid Lines in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Display and snap to gridlines in Syncfusion® ASP.NET MVC Diagram with configurable line color, dash style, intervals, and snap-to-object smart guides.
 platform: diagram-sdk
 control: Grid Lines
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scroll Settings in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Scroll Settings in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Read and update scroll offsets, viewport size, and zoom factor in Syncfusion® ASP.NET MVC Diagram, with autoscroll, scroll limit, and scrollable area support.
 platform: diagram-sdk
 control: Scroll Settings
 publishingplatform: diagram-sdk

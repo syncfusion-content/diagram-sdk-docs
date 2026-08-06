@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tools in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Tools in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Activate drawing tools in Syncfusion® ASP.NET MVC Diagram to draw shapes, text, connectors, freeform, and polyline nodes at runtime.
 platform: diagram-sdk
 control: Tools
 publishingplatform: diagram-sdk

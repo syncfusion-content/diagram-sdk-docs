@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Appearance in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Appearence in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Configure Syncfusion® ASP.NET MVC Diagram user handles, drop events on other elements, alignment options, and mouse-click notifications.
 platform: diagram-sdk
 control: Appearence
 publishingplatform: diagram-sdk

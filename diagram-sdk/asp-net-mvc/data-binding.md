@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Binding in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Data Binding in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Populate Syncfusion® ASP.NET MVC Diagram nodes and connectors from local or remote data sources with CRUD support for runtime read, insert, update, and delete.
 platform: diagram-sdk
 control: Data Binding
 publishingplatform: diagram-sdk

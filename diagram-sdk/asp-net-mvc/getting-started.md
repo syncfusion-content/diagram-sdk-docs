@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET MVC Diagram | Syncfusion®
-description: Checkout and learn about getting started with ASP.NET MVC Diagram control of Syncfusion Essential® JS 2 and more details.
+description: Get started with the Syncfusion® ASP.NET MVC Diagram in Visual Studio or VS Code, including NuGet installation, project setup, and a first render.
 platform: diagram-sdk
 control: Getting Started
 publishingplatform: diagram-sdk

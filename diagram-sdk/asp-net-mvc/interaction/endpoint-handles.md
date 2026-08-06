@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connector Endpoint Handles in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Endpoint handles in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Adjust Syncfusion® ASP.NET MVC Diagram connector source and target points with endpoint handles, raising sourcePoint, targetPoint, and connection events.
 platform: diagram-sdk
 control: Endpoint handles
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Group in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Group in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Group nodes, connectors, and nested child groups in Syncfusion® ASP.NET MVC Diagram with padding, runtime add, and ungroup operations.
 platform: diagram-sdk
 control: Group
 publishingplatform: diagram-sdk

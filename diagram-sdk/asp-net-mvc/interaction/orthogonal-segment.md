@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Orthogonal Segment in ASP.NET MVC Diagram | Syncfusion®
-description: Learn here all about Orthogonal segmnet editing in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+description: Adjust adjacent segment lengths of orthogonal connectors in Syncfusion® ASP.NET MVC Diagram by dragging thumbs, with auto add or remove of segments.
 platform: diagram-sdk
 control: Orthogonal segment editing
 publishingplatform: diagram-sdk
