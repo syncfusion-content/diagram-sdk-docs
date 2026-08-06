@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Symbol Palette Appearance in Blazor Diagram | Syncfusion®
-description: Checkout and learn here all about symbol palette appearance in Syncfusion&reg; Blazor Diagram component and more.
+title: Symbol Palette Customization in Blazor Diagram Component | Syncfusion®
+description: Customize the Blazor Diagram Component symbol palette header, expand state, icon, and individual symbol size and filters.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Symbol Palette Appearance in Blazor Diagram Component
+# Symbol Palette Customization in Blazor Diagram Component
 
 The [SymbolPalette](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.html) component showcases a collection of [Palettes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Palettes), each containing a set of predefined nodes and connectors. This feature enables users to drag and drop these elements into the diagram, streamlining the process of creating and modifying complex diagrams.
 

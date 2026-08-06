@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bezier Segments in Blazor Diagram Component | Syncfusion®
-description:  Check out and learn about how to edit the Bezier Segments in Blazor Diagram component and much more details.
+title: Segment Edit Orientation in Blazor Diagram Component | Syncfusion®
+description: Edit Blazor Diagram Connector Component Bezier segment points bidirectionally or freeform using the SegmentEditOrientation setting.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Bezier Segments in Blazor Diagram Component
+# Bezier Segment Edit Orientation in Blazor Diagram Component
 
 ## How to Edit Bezier Segments Using Bezier Connector Settings
 
