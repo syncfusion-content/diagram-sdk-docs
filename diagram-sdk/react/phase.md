@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Phase in React Diagram Component | Syncfusion®
-description: Learn here all about Swim lane in Syncfusion® React Diagram Component of Syncfusion Essential® JS 2 and more.
+title: Phase in React Diagram | Syncfusion®
+description: Add horizontal or vertical Phase markers to React Diagram swimlane Lanes to depict time stages or process milestones within a workflow.
 control: Phase 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Phase in React Diagram Component
+# Phase in React Diagram
 
 ## Overview
 
