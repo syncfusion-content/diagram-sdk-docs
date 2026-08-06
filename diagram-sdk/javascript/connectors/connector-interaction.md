@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Interaction in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Interaction in JavaScript Diagram | Syncfusion®
+description: Select, drag, and route connectors in the Syncfusion® JavaScript Diagram, and use select, clearSelection, and drag methods programmatically.
 platform: diagram-sdk
 control: Connector Interaction
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector interaction in JavaScript Diagram
+# Connector Interaction in JavaScript Diagram
 
 Connectors can be selected, dragged, and routed over the diagram page.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearence of a nodes in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Customization in JavaScript Diagram | Syncfusion®
+description: Customize the appearance of nodes in the Syncfusion® JavaScript Diagram with fill, stroke, opacity, shadows, gradients, and getNodeDefaults.
 platform: diagram-sdk
 control: Appearence of nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Appearence of a nodes in JavaScript Diagram control
+# Node Customization in JavaScript Diagram
 
 ## Common values to the node.
 

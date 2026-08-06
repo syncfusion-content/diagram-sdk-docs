@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with JavaScript Diagram control | Syncfusion
-description: Checkout and learn about Getting started with JavaScript Diagram control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with JavaScript Diagram | Syncfusion®
+description: Learn how to get started with the Syncfusion® JavaScript Diagram. Set up local scripts, CDN, or npm and render a simple diagram in your app.
 platform: diagram-sdk
 control: Getting started
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting started with JavaScript Diagram control
+# Getting Started with JavaScript Diagram
 
 This section explains how to create and render a simple Essential® JS 2 Diagram in a plain JavaScript application.
 

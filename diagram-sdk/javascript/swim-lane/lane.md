@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Lane in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Swim lane in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Lane in JavaScript Diagram | Syncfusion®
+description: Add functional lanes to a Swimlane in the Syncfusion® JavaScript Diagram to map a process within or across departments, with custom header text.
 platform: diagram-sdk
 control: Lane 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-## Lanes
+# Lane in JavaScript Diagram
 
 Lane is a functional unit or a responsible department of a business process that helps to map a  process within the functional unit or in between other functional units.
 
