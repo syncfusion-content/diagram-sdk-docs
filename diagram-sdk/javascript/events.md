@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Events in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Group in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Diagram Events in JavaScript Diagram | Syncfusion®
+description: Handle JavaScript Diagram lifecycle events like load, loaded, dataLoaded, created, and mouseWheel to customize initialization and user interaction.
 platform: diagram-sdk
 control: Events 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Events in JavaScript Diagram control
+# Diagram Events in JavaScript Diagram
 
 Events in diagrams are triggered during interactions with diagram elements, allowing for extensive customization and enhancing the overall user experience. These events can be used to dynamically update the diagram, apply specific styles, validate user actions, and more. By leveraging these events, you can create interactive and responsive diagramming applications tailored to specific needs.
 

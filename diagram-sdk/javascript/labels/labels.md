@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Labels in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation in JavaScript Diagram | Syncfusion®
+description: Display editable text on a node or connector in the Syncfusion® JavaScript Diagram using the Annotation collection and content property.
 platform: diagram-sdk
 control: Labels 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Labels in JavaScript Diagram control
+# Annotation in JavaScript Diagram
 
 [`Annotation`](../../api/diagram/annotationModel) is a block of text that can be displayed over a node or connector. Annotation is used to textually represent an object with a string that can be edited at runtime. Multiple annotations can be added to a node/connector.
 

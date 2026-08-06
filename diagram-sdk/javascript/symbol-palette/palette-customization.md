@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Palette customization in JavaScript Diagram control | Syncfusion®
-description: Learn here how to customize symbol palette in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Symbol Palette Customization in JavaScript Diagram | Syncfusion®
+description: Customize the title, expanded state, height, and icon of each palette in the Syncfusion® JavaScript Diagram symbol palette component.
 platform: diagram-sdk
 control: Symbol palette 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symbol Palette customization in JavaScript Diagram control
+# Symbol Palette Customization in JavaScript Diagram
 
 ## Customize the palette properties
 

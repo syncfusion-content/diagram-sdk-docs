@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diagram Collaboration in JavaScript | Syncfusion
-description: Checkout and learn to set up real-time collaborative editing in JavaScript Diagram using SignalR.
+title: Collaborative Editing in JavaScript Diagram | Syncfusion®
+description: Set up real-time collaborative editing in the Syncfusion® JavaScript Diagram using SignalR and Redis for multi-user diagram updates.
 platform: diagram-sdk
 control: Diagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Interaction in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Interaction in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Diagram Interaction in JavaScript Diagram | Syncfusion®
+description: Select, drag, resize, rotate, and zoom diagram elements in the Syncfusion® JavaScript Diagram with the selector, selection, and keyboard interactions.
 platform: diagram-sdk
 control: Interaction 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Interaction in JavaScript Diagram control
+# Diagram Interaction in JavaScript Diagram
 
 ## Selector
 

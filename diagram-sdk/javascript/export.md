@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Export in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Export in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Exporting in JavaScript Diagram | Syncfusion®
+description: Export the Syncfusion® JavaScript Diagram as image or SVG files using the exportDiagram method with options for region, mode, and file name.
 platform: diagram-sdk
 control: Export 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Export in JavaScript Diagram control
+# Exporting in JavaScript Diagram
 
 Diagram provides support to export its content as image/svg files. The [`exportDiagram`](../api/diagram/index-default#exportdiagram) method of diagram helps to export the diagram. The following code illustrates how to export the diagram as image.
 

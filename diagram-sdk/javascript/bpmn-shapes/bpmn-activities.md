@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn Activity in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Activity shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Activity in JavaScript Diagram | Syncfusion®
+description: Model tasks and subprocesses as BPMN activities in the Syncfusion® JavaScript Diagram with task, sub-process, and call activity types.
 platform: diagram-sdk
 control: Bpmn Activity 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# BPMN activity in JavaScript Diagram control
+# BPMN Activity in JavaScript Diagram
 
 ## Activity
 
