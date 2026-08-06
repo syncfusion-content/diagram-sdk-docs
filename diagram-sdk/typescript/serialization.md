@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Serialization in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Serialization in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Serialization in TypeScript Diagram | Syncfusion®
+description: Save the TypeScript Diagram to JSON, store it in local storage, and reload it later while detecting unsaved changes.
 platform: diagram-sdk
 control: Serialization 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Serialization in TypeScript Diagram control
+# Serialization in TypeScript Diagram
 
 **Serialization** is the process of converting the state of the diagram into a format that can be saved and later restored. This ensures that the diagram's current state, including its nodes, connectors, and configurations, can be persisted across sessions.
 

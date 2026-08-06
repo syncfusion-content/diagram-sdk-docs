@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automatic layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Automatic Layout in TypeScript Diagram | Syncfusion®
+description: Auto-arrange TypeScript Diagram nodes with hierarchical, mind map, radial, symmetric, org chart, or flowchart layouts.
 platform: diagram-sdk
 control: Automatic layout 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Automatic layouts in TypeScript Diagram control
+# Automatic Layout in TypeScript Diagram
 
 Diagram provides support to auto-arrange the nodes in the diagram area that is referred as `Layout`. It includes the following layout modes:
 

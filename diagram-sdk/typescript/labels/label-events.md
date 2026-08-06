@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Label Events in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation Events in TypeScript Diagram | Syncfusion®
+description: Capture keyDown, keyUp, doubleClick, and textEdit events on TypeScript Diagram annotations at runtime.
 platform: diagram-sdk
 control: Label Events
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Annotation events.
+# Annotation Events in TypeScript Diagram
 
 There are some events which will trigger while interacting with annotation.
 * KeyDown.

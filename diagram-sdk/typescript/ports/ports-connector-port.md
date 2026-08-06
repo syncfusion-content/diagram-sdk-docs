@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector ports in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Port in TypeScript Diagram | Syncfusion®
+description: Add a port collection to a connector in the Syncfusion® TypeScript Diagram to define connection points for connector-level links.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-## Create connector port
+# Connector Port in TypeScript Diagram
 
 The creation of connector ports is similar to the creation of node ports. To create connector ports, you need to define a port collection and assign it to the connector's ports property. 
 

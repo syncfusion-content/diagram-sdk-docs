@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn shapes in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Shapes in TypeScript Diagram | Syncfusion®
+description: Model business processes in the Syncfusion® TypeScript Diagram with built-in BPMN shapes including events, gateways, activities, and flows.
 platform: diagram-sdk
 control: Bpmn shapes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Bpmn shapes in TypeScript Diagram control
+# BPMN Shapes in TypeScript Diagram
 
 BPMN shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, in the node property shape, type should be set as “bpmn” and its shape should be set as any one of the built-in shapes. The following code example illustrates how to create a simple business process.
 

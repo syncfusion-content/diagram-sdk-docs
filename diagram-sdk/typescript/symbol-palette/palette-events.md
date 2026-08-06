@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symbol Palette Events in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Symbol palette in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Symbol Palette Events in TypeScript Diagram | Syncfusion®
+description: React to TypeScript Symbol Palette drag enter, leave, and over events to style and validate dropped shapes.
 platform: diagram-sdk
 control: Symbol palette 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symbol Palette events in TypeScript Diagram control
+# Symbol Palette Events in TypeScript Diagram
 
 There are some events which will get triggered while interacting with the symbol palette. They are explained below.
 
