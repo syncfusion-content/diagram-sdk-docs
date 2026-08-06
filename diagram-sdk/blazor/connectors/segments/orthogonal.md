@@ -11,7 +11,7 @@ documentation: ug
 
 ## How to Create Orthogonal Segments
 
-[Orthogonal](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorSegmentType.html#Syncfusion_Blazor_Diagram_ConnectorSegmentType_Orthogonal) segments create segments that are perpendicular to each other. To create an orthogonal connector, set the connector [Type]() to **Orthogonal** to create a default orthogonal segment and need to specify Type. The following code example illustrates how to create a default orthogonal segment.
+[Orthogonal](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorSegmentType.html#Syncfusion_Blazor_Diagram_ConnectorSegmentType_Orthogonal) segments create segments that are perpendicular to each other. To create an orthogonal connector, set the connector [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Type) to **Orthogonal** to create a default orthogonal segment. The following code example illustrates how to create a default orthogonal segment.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -57,7 +57,14 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtrRXRVoJHhrnhzO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Connector with Orthogonal Segment in Blazor Diagram](../../images/blazor-diagram-connector-with-orthogonal.webp)" %}
 
-The [Length](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.OrthogonalSegment.html#Syncfusion_Blazor_Diagram_OrthogonalSegment_Length) and [Direction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.OrthogonalSegment.html#Syncfusion_Blazor_Diagram_OrthogonalSegment_Direction) properties allow you to define the flow and length of the segment. The following code example illustrates how to create customized orthogonal segments.
+The [Length](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.OrthogonalSegment.html#Syncfusion_Blazor_Diagram_OrthogonalSegment_Length) and [Direction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.OrthogonalSegment.html#Syncfusion_Blazor_Diagram_OrthogonalSegment_Direction) properties control the segment length and routing direction. The `Direction` property accepts the following enum values:
+
+| Direction | Description |
+|-------- | -------- |
+| [Top](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Direction.html#Syncfusion_Blazor_Diagram_Direction_Top) | Segment extends upward from the previous point. |
+| [Bottom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Direction.html#Syncfusion_Blazor_Diagram_Direction_Bottom) | Segment extends downward from the previous point. |
+| [Left](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Direction.html#Syncfusion_Blazor_Diagram_Direction_Left) | Segment extends leftward from the previous point. |
+| [Right](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Direction.html#Syncfusion_Blazor_Diagram_Direction_Right) | Segment extends rightward from the previous point. |
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -89,13 +96,11 @@ The [Length](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Ort
                 new OrthogonalSegment 
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Right
                 },
                 new OrthogonalSegment 
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Bottom,
                 } 
             },
@@ -116,7 +121,7 @@ The [Length](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Ort
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BDVdXRLSpnVkTAhr?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-N> Ensure the connector type and each segment type are both set to **Orthogonal**. There should be no contradiction between connector type and segment type.
+N> Ensure the connector type and each segment type are both set to **Orthogonal**. Ensure the connector `Type` matches the segment `Type`.
 
 ### How to Edit Orthogonal Segments
 
@@ -176,7 +181,7 @@ The following predefined shapes are available for segment thumbs:
 |[Arrow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_Arrow)| ![Arrow](../../images/ArrowThumb.webp) |
 | [OpenArrow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_OpenArrow) | ![OpenArrow](../../images/OpenArrowThumb.webp) |
 | [Fletch](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_Fletch)|![Fletch](../../images/FletchThumb.webp) |
-|[OpenFletch](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_OpenFletch)| ![OpenFetch](../../images/OpenFetchThumb.webp) |
+|[OpenFletch](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_OpenFletch)| ![OpenFletch](../../images/OpenFetchThumb.webp) |
 | [IndentedArrow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_IndentedArrow) | ![IndentedArrow](../../images/IndentedThumb.webp) |
 | [OutdentedArrow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_OutdentedArrow) | ![OutdentedArrow](../../images/OutdentedThumb.webp) |
 | [DoubleArrow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbShapes.html#Syncfusion_Blazor_Diagram_SegmentThumbShapes_DoubleArrow) |![DoubleArrow](../../images/DoubleArrowThumb.webp) |
@@ -247,5 +252,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxNxVyzPsynWPZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Editing Orthogonal Segment in Blazor Diagram](../../images/OrthogonalThumbSettings1.webp)" %}
 
->Note:  This feature ensures that the shape is updated regardless of whether the  [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) enum value is added to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Constraints) property of the diagram. If you apply the `InheritSegmentThumbShape` constraints, the shape will be updated at the diagram level. Without these constraints, the shape will be updated at the connector level. 
- To make the shapes visible, ensure that the [DragSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_DragSegmentThumb) enum is added to the connector's constraints.
+>Note: This feature ensures that the shape is updated regardless of whether the [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) enum value is added to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Constraints) property of the diagram. If you apply the `InheritSegmentThumbShape` constraints, the shape will be updated at the diagram level. Without these constraints, the shape will be updated at the connector level.
+
+>Note: To make the shapes visible, ensure that the [DragSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_DragSegmentThumb) enum is added to the connector's constraints.

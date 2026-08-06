@@ -15,31 +15,31 @@ In this layout, nodes apply repulsive forces to prevent overlap, while connector
 
 ## Configure force-directed tree layout settings
 
-To enable the Force-Directed Tree Layout, set the layout [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) property to **LayoutType.ForceDirectedTree** and configure the [ForceDirectedTreeLayoutSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_FlowchartLayoutSettings) class, which provides control over the simulation. The properties of `ForceDirectedTreeLayoutSettings` class are listed below.
+To enable the Force-Directed Tree Layout, set the layout [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) property to **LayoutType.ForceDirectedTree** and configure the [ForceDirectedTreeLayoutSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_ForceDirectedTreeLayoutSettings) class, which provides control over the simulation. The properties of `ForceDirectedTreeLayoutSettings` class are listed below.
 
 ### ConnectorLength
 
 Defines the ideal distance between connected nodes.
 
->**Note:** Minimum value: **30**. Larger values spread nodes farther apart.
+>**Note:** Default value: **50**. Minimum value: **30**. Larger values spread nodes farther apart.
 
 ### MaximumIteration
 
 Specifies how many times the algorithm runs to stabilize the layout.
 
->**Note:** Minimum value: **100**. Higher values improve stability but increase processing time.
+>**Note:** Default value: **300**. Minimum value: **100**. Higher values improve stability but increase processing time.
 
 ### RepulsionStrength
 
 Controls how strongly nodes repel each other.
 
->**Note:** Minimum value: **3000**. Higher values create more space between nodes.
+>**Note:** Default value: **5000**. Minimum value: **3000**. Higher values create more space between nodes.
 
 ### AttractionStrength
 
 Determines how strongly connected nodes pull toward each other.
 
->**Note:** Range: **0 to 1**. Higher values cluster connected nodes more tightly.
+>**Note:** Default value: **0.5**. Range: **0 to 1**. Higher values cluster connected nodes more tightly.
 
 ```
 @using Syncfusion.Blazor.Diagram
@@ -62,10 +62,6 @@ Determines how strongly connected nodes pull toward each other.
         AttractionStrength = 0.8
     };
 
-    private int _departmentsUnderCeo = 4;
-    private int _managersPerDepartment = 4;
-    private int _teamsPerManager = 6;
-    
     protected override void OnInitialized()
     {
         InitializeDiagram();
@@ -108,21 +104,17 @@ Determines how strongly connected nodes pull toward each other.
             case OrganizationLevel.Header:
                 nodeStyle.Fill = "#f39c12";
                 nodeWidth = nodeHeight = 140;
-                nodeShape = new BasicShape { Shape = NodeBasicShapes.Ellipse };
                 break;
             case OrganizationLevel.Department:
                 nodeStyle.Fill = "#27ae60";
                 nodeWidth = nodeHeight = 120;
-                nodeShape = new BasicShape { Shape = NodeBasicShapes.Ellipse };
                 break;
             case OrganizationLevel.Manager:
                 nodeStyle.Fill = "#2980b9";
-                nodeShape = new BasicShape { Shape = NodeBasicShapes.Ellipse };
                 nodeWidth = nodeHeight = 100;
                 break;
             case OrganizationLevel.Team:
                 nodeStyle.Fill = "#f39c12";
-                nodeShape = new BasicShape { Shape = NodeBasicShapes.Ellipse };
                 nodeWidth = nodeHeight = 80;
                 break;
         }
@@ -170,39 +162,6 @@ Determines how strongly connected nodes pull toward each other.
         public string? ParentId { get; set; }
         public string Name { get; set; } = "";
         public OrganizationLevel Level { get; set; }
-    }
-
-    private static List<OrganizationItem> BuildOrganizationData(int departmentCount, int managersPerDepartment, int teamsPerManager)
-    {
-        List<OrganizationItem> organizationData = new List<OrganizationItem>
-        {
-            new OrganizationItem { Id = "departments", ParentId = null, Name = "Departments", Level = OrganizationLevel.Header }
-        };
-        // Create departments
-        for (int departmentIndex = 1; departmentIndex <= departmentCount; departmentIndex++)
-        {
-            string departmentId = $"dept_{departmentIndex}";
-            organizationData.Add(new OrganizationItem { Id = departmentId, ParentId = "departments", Name = $"Department {departmentIndex}", Level = OrganizationLevel.Department });
-            // Create managers for each department
-            for (int managerIndex = 1; managerIndex <= managersPerDepartment; managerIndex++)
-            {
-                string managerId = $"{departmentId}_mgr_{managerIndex}";
-                organizationData.Add(new OrganizationItem { Id = managerId, ParentId = departmentId, Name = $"Manager {departmentIndex}.{managerIndex}", Level = OrganizationLevel.Manager });
-                // Create teams for each manager
-                for (int teamIndex = 1; teamIndex <= teamsPerManager; teamIndex++)
-                {
-                    string teamId = $"{managerId}_team_{teamIndex}";
-                    organizationData.Add(new OrganizationItem
-                    {
-                        Id = teamId,
-                        ParentId = managerId,
-                        Name = $"Team {departmentIndex}.{managerIndex}.{teamIndex}",
-                        Level = OrganizationLevel.Team
-                    });
-                }
-            }
-        }
-        return organizationData;
     }
 
     // Realistic software company hierarchy: 1 CEO with 4 departments, each with managers and their respective teams

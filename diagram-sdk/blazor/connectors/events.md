@@ -77,7 +77,7 @@ The following code example explains how to get the selection change event in the
     }
 
     // To notify the selection is changed in the diagram.
-    private void OnSelectionChanged(SelectionChangedEventArgs arg)
+    private void OnSelectionChanged(SelectionChangedEventArgs args)
     {
         //Action to be performed.
     }
@@ -152,7 +152,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
     }
 
     // To notify the position changed event after dragging the diagram elements.
-    private void OnPositionChanged(PositionChangedEventArgs arg)
+    private void OnPositionChanged(PositionChangedEventArgs args)
     {
         //Action to be performed.
     }
@@ -174,7 +174,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 
-<SfDiagramComponent @ref="_diagram" Width="1000px" ConnectionChanging="@OnConnectionChanging" ConnectionChanged="@OnConnectionChange" Height="500px" Connectors="@_connectors" Nodes="@_nodes">
+<SfDiagramComponent @ref="_diagram" Width="1000px" ConnectionChanging="@OnConnectionChanging" ConnectionChanged="@OnConnectionChanged" Height="500px" Connectors="@_connectors" Nodes="@_nodes">
 </SfDiagramComponent>
 
 @code
@@ -236,7 +236,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
     }
 
     // To notify the connection changed event after the connection has changed.
-    private void OnConnectionChange(ConnectionChangedEventArgs args)
+    private void OnConnectionChanged(ConnectionChangedEventArgs args)
     {
         //Action to be performed.
     }
@@ -350,7 +350,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
     }
 
 
-    // Notify the target point changed event before the target point has changed.
+    // Notify the target point changing event before the target point has changed.
     private void OnTargetPointChanging(EndPointChangingEventArgs args)
     {
         //Action to be performed.
@@ -458,7 +458,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
     private void SegmentCollectionChange(SegmentCollectionChangeEventArgs args)
     { 
-       
+       //Action to be performed.
     }
 }
 ```
@@ -504,7 +504,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
         };
         _connectors.Add(connector);
     }
-     //  Notify the Collection Changed event while changing the collection of the connector at run time.
+     // Notify the Collection Changed event after the collection has changed.
     private void OnCollectionChanged(CollectionChangedEventArgs args)
     {
         //Action to be performed.
@@ -561,7 +561,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 The [MouseLeave](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_MouseLeave) event is raised when the mouse pointer exits the boundaries of a connector in the diagram and provides valuable information about the element being left. For a comprehensive understanding of the event arguments and their properties, refer to the [DiagramElementMouseEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramElementMouseEventArgs.html). 
 
-
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 
@@ -593,7 +592,7 @@ The [MouseLeave](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram
 
     private void OnMouseLeave(DiagramElementMouseEventArgs args)
     {
-        
+        //Action to be performed.
     }
 }
 ```
@@ -601,7 +600,7 @@ The [MouseLeave](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Events/MouseLeaveEvent.razor).
 
-## How to Handle the Mouse Hover Event
+## How to Handle the MouseHover Event
 
 The [MouseHover](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_MouseHover) event is raised when the mouse pointer hovers over a connector in the diagram and provides valuable information about the element being hovered. For detailed information about the event arguments, refer to the [DiagramElementMouseEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramElementMouseEventArgs.html).
 
@@ -643,7 +642,7 @@ The [MouseHover](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Events/MouseHoverEvent.razor).
 
-## How to Handle Property Changed Event
+## How to Handle PropertyChanged Event
 
 The [Property Changed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_PropertyChanged) event is raised when connector's property of the diagram component is modified at runtime. This event provides valuable information about the changes occurring in the diagram. For a detailed understanding of the event arguments, refer to the [PropertyChangedEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PropertyChangedEventArgs.html).
 

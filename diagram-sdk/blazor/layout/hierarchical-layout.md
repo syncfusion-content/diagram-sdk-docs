@@ -99,8 +99,6 @@ A hierarchical layout can also be created from a data source. The following exam
 
 @code 
 {
-    private int _left = 40;
-    private int _top = 50;
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     private int _horizontalSpacing = 40;
@@ -130,25 +128,25 @@ A hierarchical layout can also be created from a data source. The following exam
     }
     private List<HierarchicalDetails> _dataSource = new List<HierarchicalDetails>()
     {
-        new HierarchicalDetails()   { Id = "parent", Role = "Board", Color = "#71AF17" },
-        new HierarchicalDetails()   { Id = "1", Role = "General Manager", Manager = "parent", ChartType = "right", Color = "#71AF17" },
-        new HierarchicalDetails()   { Id = "11", Role = "Assistant Manager", Manager = "1", Color = "#71AF17" },
-        new HierarchicalDetails()   { Id = "2", Role = "Human Resource Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
-        new HierarchicalDetails()   { Id = "3", Role = "Trainers", Manager = "2", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "4", Role = "Recruiting Team", Manager = "2", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "5", Role = "Finance Asst. Manager", Manager = "2", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "6", Role = "Design Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
-        new HierarchicalDetails()   { Id = "7", Role = "Design Supervisor", Manager = "6", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "8", Role = "Development Supervisor", Manager = "6", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "9", Role = "Drafting Supervisor", Manager = "6", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "10", Role = "Operation Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
-        new HierarchicalDetails()   { Id = "11", Role = "Statistic Department", Manager = "10", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "12", Role = "Logistic Department", Manager = "10", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "16", Role = "Marketing Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
-        new HierarchicalDetails()   { Id = "17", Role = "Oversea sales Manager", Manager = "16", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "18", Role = "Petroleum Manager", Manager = "16", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "20", Role = "Service Dept. Manager", Manager = "16", Color = "#2E95D8" },
-        new HierarchicalDetails()   { Id = "21", Role = "Quality Department", Manager = "16", Color = "#2E95D8" }
+        new HierarchicalDetails() { Id = "parent", Role = "Board", Color = "#71AF17" },
+        new HierarchicalDetails() { Id = "1", Role = "General Manager", Manager = "parent", ChartType = "right", Color = "#71AF17" },
+        new HierarchicalDetails() { Id = "11", Role = "Assistant Manager", Manager = "1", Color = "#71AF17" },
+        new HierarchicalDetails() { Id = "2", Role = "Human Resource Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
+        new HierarchicalDetails() { Id = "3", Role = "Trainers", Manager = "2", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "4", Role = "Recruiting Team", Manager = "2", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "5", Role = "Finance Asst. Manager", Manager = "2", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "6", Role = "Design Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
+        new HierarchicalDetails() { Id = "7", Role = "Design Supervisor", Manager = "6", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "8", Role = "Development Supervisor", Manager = "6", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "9", Role = "Drafting Supervisor", Manager = "6", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "10", Role = "Operation Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
+        new HierarchicalDetails() { Id = "11", Role = "Statistic Department", Manager = "10", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "12", Role = "Logistic Department", Manager = "10", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "16", Role = "Marketing Manager", Manager = "1", ChartType = "right", Color = "#1859B7" },
+        new HierarchicalDetails() { Id = "17", Role = "Oversea sales Manager", Manager = "16", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "18", Role = "Petroleum Manager", Manager = "16", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "20", Role = "Service Dept. Manager", Manager = "16", Color = "#2E95D8" },
+        new HierarchicalDetails() { Id = "21", Role = "Quality Department", Manager = "16", Color = "#2E95D8" }
     };
 }
 ```
@@ -163,6 +161,15 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 ### How to Change Orientation 
 
 Use the [Orientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Orientation) property to change the orientation at runtime. The following code shows how to change the layout.
+
+The following table lists the available `LayoutOrientation` values:
+
+| Orientation | Description |
+|-------------|-------------|
+| `TopToBottom` | Renders the root node at the top and child nodes flow downward (default). |
+| `BottomToTop` | Renders the root node at the bottom and child nodes flow upward. |
+| `LeftToRight` | Renders the root node on the left and child nodes flow to the right. |
+| `RightToLeft` | Renders the root node on the right and child nodes flow to the left. |
 
 ```csharp
 @using Syncfusion.Blazor.Diagram

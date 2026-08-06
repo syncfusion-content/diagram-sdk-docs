@@ -11,7 +11,7 @@ documentation: ug
 
 ## How to Customize Connector Decorators
 
-Diagram allows you to customize the connector appearances. The following topics describe how to customize several properties of connectors.
+Diagram allows you to customize the connector appearance. The following topics describe how to customize several properties of connectors.
 
 * The starting and ending points of a connector can be decorated with shapes such as arrows, circles, diamonds, or custom paths. The connection end points can be decorated with the [SourceDecorator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourceDecorator) and [TargetDecorator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetDecorator) properties of the connector.
 
@@ -223,7 +223,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Enable Bridging
 
-Line bridging draws a small arc where one connector crosses another to visually indicate the crossing. By default, [BridgeDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_BridgeDirection) is **Top**. Depending upon the direction given bridging direction appears. Bridging can be enabled or disabled either with the [Connector.Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html) on a connector or [Diagram.Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramConstraints.html) on the diagram. 
+Line bridging draws a small arc where one connector crosses another to visually indicate the crossing. By default, [BridgeDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_BridgeDirection) is **Top**. Bridging direction can be customized using the `BridgeDirection` property. Bridging can be enabled or disabled either with the [Connector.Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html) on a connector or [Diagram.Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramConstraints.html) on the diagram. 
 
 To learn more about connector bridging, watch the following segment:
 
@@ -324,7 +324,7 @@ Limitation: [BezierSegment](https://help.syncfusion.com/cr/blazor/Syncfusion.Bla
 
 ## How to Update Corner Radius for Connector
 
-Corner radius rounds the corners of connectors. Set the radius using the [CornerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_CornerRadius) property.
+Corner radius rounds the corners of connectors. Set the radius using the [CornerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_CornerRadius) property. The default value is **0**.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -338,7 +338,7 @@ Corner radius rounds the corners of connectors. Set the radius using the [Corner
 
     protected override void OnInitialized()
     {
-        Connector Connector = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             Style = new ShapeStyle()
@@ -371,7 +371,7 @@ Corner radius rounds the corners of connectors. Set the radius using the [Corner
                 }
             }
         };
-        connectors.Add(Connector);
+        connectors.Add(connector);
     }
 }
 ```
@@ -464,7 +464,7 @@ The following code illustrates how to disable selection.
 
     protected override void OnInitialized()
     {
-        Connector Connector = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             SourcePoint = new DiagramPoint()
@@ -496,7 +496,7 @@ The following code illustrates how to disable selection.
             //Disable the select constraint.
             Constraints = ConnectorConstraints.Default & ~ConnectorConstraints.Select,
         };
-        connectors.Add(Connector);
+        connectors.Add(connector);
     }
 }
 ```
@@ -522,7 +522,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
     {
         Dictionary<string, object> ConnectorInfo = new Dictionary<string, object>();
         ConnectorInfo.Add("connectorInfo", "Central Connector");
-        Connector Connector = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             SourcePoint = new DiagramPoint()
@@ -554,7 +554,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
             //Define the add info value.
             AdditionalInfo = ConnectorInfo
         };
-        connectors.Add(Connector);
+        connectors.Add(connector);
     }
 }
 ```
@@ -585,7 +585,7 @@ The following code illustrates how to render a connector based on stack order.
 
     protected override void OnInitialized()
     {
-        Connector Connector = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             // Set the source and target point of the connector.
@@ -596,7 +596,7 @@ The following code illustrates how to render a connector based on stack order.
             //Define the ZIndex property.
             ZIndex = -2,
         };
-        connectors.Add(Connector);
+        connectors.Add(connector);
     }
 }
 ```
@@ -630,7 +630,7 @@ The following code illustrates how to set hit padding for a connector.
 
     protected override void OnInitialized()
     {
-        Connector Connector = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             // Set the source and target point of the connector.
@@ -641,7 +641,7 @@ The following code illustrates how to set hit padding for a connector.
             //Define the HitPadding property.
             HitPadding = 20,
         };
-        connectors.Add(Connector);
+        connectors.Add(connector);
     }
 }
 ```
@@ -649,9 +649,9 @@ The following code illustrates how to set hit padding for a connector.
 
 ## How to Set Source Padding and Target Padding for Connector
 
-* The connector’s [SourcePadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourcePadding) defines the space between the source point and the source node.
+* The connector’s [SourcePadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourcePadding) defines the space between the source point and the source node. The default value is **0**
 
-* The connector’s [TargetPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetPadding) defines the space between the end point and target node.
+* The connector’s [TargetPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetPadding) defines the space between the end point and target node. The default value is **0**
 
 The following code example illustrates how to leave space between the connection endpoints and the source and target nodes.
 
@@ -704,7 +704,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Set Connection Padding for Connector
 
-* The connector’s [ConnectionPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_ConnectionPadding) defines the connection padding value of the connector.
+* The connector’s [ConnectionPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_ConnectionPadding) defines the connection padding value of the connector. The default value is **0**
 
 The following code example illustrates how to set connection padding for a connector.
 
@@ -715,8 +715,8 @@ The following code example illustrates how to set connection padding for a conne
 
 @code
 {
-     DiagramObjectCollection<Node> nodes= new DiagramObjectCollection<Node>();
-    DiagramObjectCollection<Connector> connectors= new DiagramObjectCollection<Connector>();
+    DiagramObjectCollection<Node> nodes = new DiagramObjectCollection<Node>();
+    DiagramObjectCollection<Connector> connectors = new DiagramObjectCollection<Connector>();
 
     protected override void OnInitialized()
     {
@@ -739,14 +739,14 @@ The following code example illustrates how to set connection padding for a conne
             OffsetY = 500,
         };
         nodes.Add(node2);
-        Connector connector1 = new Connector()
+        Connector connector = new Connector()
         {
             ID = "connector1",
             SourceID = "node1",
             TargetID = "node2",
-           ConnectionPadding = 50,
+            ConnectionPadding = 50,
         };
-        connectors.Add(connector1);
+        connectors.Add(connector);
     }
 }
 ```
@@ -754,10 +754,12 @@ The following code example illustrates how to set connection padding for a conne
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Wasm/Pages/Connectors/Customization/ConnectionPadding.razor)
 
-## How to enable Connector Split
+## How to Enable Connector Split
 
 Connectors create links between points, ports, or nodes to represent the relationships between them. When [EnableConnectorSplitting](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_EnableConnectorSplitting) property is enabled, you can split a connector between two nodes when a new node is dropped onto the existing connector. This action creates a connection between the new node and the existing nodes.
-When a node is dropped on a point-to-point connection, it connects as the source for the target connector. Dropping another node on the target connector with only a source connection will connect the dropped node as its target, creating a complete connection. If a node is dropped on an existing node-to-node connection, the connector between the two nodes splits, creating a connection between the new node and the existing nodes. The default value is **false**.
+When a node is dropped on a point-to-point connection, it connects as the source for the target connector. Dropping another node on the target connector with only a source connection will connect the dropped node as its target, creating a complete connection. If a node is dropped on an existing node-to-node connection, the connector between the two nodes splits, creating a connection between the new node and the existing nodes.
+
+>**Note:** The default value of `EnableConnectorSplitting` is **false**. To allow a node to be dropped onto a connector, include the [AllowDrop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_AllowDrop) flag in the connector's `Constraints`.
 
 The following code illustrates how to enable connector splitting and create connections with a new node.
 ```cshtml
@@ -835,11 +837,11 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hXrdXxrugEPhQYwj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[ConnectorSplitting](../images/ConnectorSplitDemo.webp)" %}
 
->**Note:** Enable [AllowDrop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_AllowDrop) in the connector constraints to allow dropping a node.
+>**Note:** Enable [AllowDrop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_AllowDrop) in the connector constraints to allow dropping a node. The `AllowDrop` flag must be combined with `ConnectorConstraints.Default` (using `|`) to retain the other default behaviors.
 
 ## How to Limit Segment Thumbs in a Connector
 
- The [MaxSegmentThumbs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_MaxSegmentThumbs) property limits the number of segment thumbs displayed on a connector. Segment thumbs are interactive handles that allow users to modify the connector's path. By setting this property, you can limit how many thumbs appear, helping to simplify the user interface and reduce visual complexity.
+ The [MaxSegmentThumbs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_MaxSegmentThumbs) property limits the number of segment thumbs displayed on a connector. Segment thumbs are interactive handles that allow users to modify the connector's path. By setting this property, you can limit how many thumbs appear, helping to simplify the user interface and reduce visual complexity. The default value is **null**, meaning there is no limit.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

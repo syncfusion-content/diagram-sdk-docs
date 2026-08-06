@@ -53,7 +53,7 @@ A node can be selected at runtime by using the [Select](https://help.syncfusion.
     private void OnSelect()
     {
         // Select the node
-        _diagram.Select(new ObservableCollection<IDiagramObject> { diagram.Nodes[0] });
+        _diagram.Select(new ObservableCollection<IDiagramObject> { _diagram.Nodes[0] });
     }
 
     private void UnSelect()
