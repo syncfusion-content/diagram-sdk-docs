@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Complex hierarchical tree layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Complex Hierarchical Tree in JavaScript Diagram | Syncfusion®
+description: Render a Complex Hierarchical Tree in the Syncfusion® JavaScript Diagram where a child node can have more than one parent node.
 platform: diagram-sdk
 control: Complex hierarchical tree  
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Complex hierarchical tree layout in JavaScript Diagram control
+# Complex Hierarchical Tree in JavaScript Diagram
 
 Complex hierarchical tree layout arranges nodes in a tree-like structure, where the child node can have more than one parent. This layout is an extended version of the hierarchical tree layout. To create a complex hierarchical tree, the [`type`](../../api/diagram/layout#type) property of layout should be set as `ComplexHierarchicalTree`.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tool tip in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Tool tip in Syncfusion® JavaScript Diagram control of Syncfusion® Essential JS 2 and more.
+title: Tooltip in JavaScript Diagram | Syncfusion®
+description: Show default and custom tooltips on diagram elements in the Syncfusion® JavaScript Diagram while dragging, resizing, rotating, or hovering nodes.
 platform: diagram-sdk
 control: Tool tip 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Tool tip in JavaScript Diagram control
+# Tooltip in JavaScript Diagram
 
 <!-- markdownlint-disable MD010 -->
 

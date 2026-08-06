@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Segments in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Segments in JavaScript Diagram | Syncfusion®
+description: Define the path of a connector in the Syncfusion® JavaScript Diagram using straight, orthogonal, or bezier segments in a segments collection.
 platform: diagram-sdk
 control: Segments 
 publishingplatform: diagram-sdk
@@ -9,6 +9,6 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-## Segments in JavaScript Connector
+# Connector Segments in JavaScript Diagram
 
 The path of the connector is defined with a collection of segments. There are three types of segments.

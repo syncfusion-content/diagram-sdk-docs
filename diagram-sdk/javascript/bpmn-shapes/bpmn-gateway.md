@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn Gateway in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Gateway shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Gateway in JavaScript Diagram | Syncfusion®
+description: Control the flow of a BPMN process with exclusive, parallel, inclusive, and event-based gateways in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Bpmn Gateway 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# BPMN Gateway in JavaScript Diagram control
+# BPMN Gateway in JavaScript Diagram
 
 ## Gateway
 

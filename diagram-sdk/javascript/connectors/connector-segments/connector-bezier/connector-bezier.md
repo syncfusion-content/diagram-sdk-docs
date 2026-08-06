@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bezier connector in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Bezier in JavaScript Diagram | Syncfusion®
+description: Draw curved bezier connector segments in the Syncfusion® JavaScript Diagram with configurable control points and vectors.
 platform: diagram-sdk
 control: Connectors 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Bezier Connectors in JavaScript Diagram control
+# Bezier in JavaScript Diagram
 
 Bezier segments are used to create curve segments and the curves are configurable either with the control points or with vectors.
 

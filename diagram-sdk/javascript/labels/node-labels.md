@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Node Labels in JavaScript Diagram control | Syncfusion®
-description: Learn here all about node Labels in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Annotation in JavaScript Diagram | Syncfusion®
+description: Position node annotations in the Syncfusion® JavaScript Diagram with offset, horizontalAlignment, verticalAlignment, and margin properties.
 platform: diagram-sdk
 control: Node Labels 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Node annotations in JavaScript Diagram control
+# Node Annotation in JavaScript Diagram
 
 Diagram allows you to customize the position and appearance of the annotation efficiently. Annotation can be aligned relative to the node boundaries. It has Margin, Offset, Horizontal, and Vertical alignment properties. It is quite tricky when all four alignments are used together but gives more control over alignments properties of the ShapeAnnotation class. Annotations of a node can be positioned using the following properties of ShapeAnnotation.
 

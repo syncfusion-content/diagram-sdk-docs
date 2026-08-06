@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Positioning of a nodes in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Positioning in JavaScript Diagram | Syncfusion®
+description: Position, size, and rotate nodes in the Syncfusion® JavaScript Diagram using offsetX, offsetY, width, height, rotateAngle, and pivot.
 platform: diagram-sdk
 control: Positioning of nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Positioning a node in JavaScript Diagram control
+# Node Positioning in JavaScript Diagram
 
 ## Position
 

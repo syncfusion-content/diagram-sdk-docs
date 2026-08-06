@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Expand and collapse of a nodes in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Expand and Collapse in JavaScript Diagram | Syncfusion®
+description: Show or hide child nodes in the Syncfusion® JavaScript Diagram with expand and collapse icons, customizable shape, size, and offset.
 platform: diagram-sdk
 control: Expand and collapse of nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Expand icon and collapse icon in JavaScript Diagram control
+# Node Expand and Collapse in JavaScript Diagram
 
 Diagram provides support to describe the state of the node. i.e., the node is expanded or collapsed state. The IsExpanded property of node is used to expand or collapse the children nodes.The Expand and Collapse support is used to compress the hierarchy view so that only the roots of each elements are visible.
 

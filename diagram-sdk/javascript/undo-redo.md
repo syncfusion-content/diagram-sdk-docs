@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Undo redo in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Undo redo in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Undo and Redo in JavaScript Diagram | Syncfusion®
+description: Track, revert, and restore diagram changes in the Syncfusion® JavaScript Diagram using Undo/Redo shortcut keys, public APIs, and history change events.
 platform: diagram-sdk
 control: Undo redo 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Undo redo in JavaScript Diagram control
+# Undo and Redo in JavaScript Diagram
 
 Diagram tracks the history of actions that are performed after initializing the diagram and provides support to reverse and restore those changes.
 
