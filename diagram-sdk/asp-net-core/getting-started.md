@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET Core Diagram | Syncfusion®
-description: Check out and learn about getting started with ASP.NET Core Diagram control of Syncfusion Essential® JS 2 and more details.
+description: Get started with the Syncfusion® ASP.NET Core Diagram in Visual Studio or VS Code, including NuGet installation, Razor Pages setup, and a first render.
 platform: diagram-sdk
 control: Getting Started
 publishingplatform: diagram-sdk

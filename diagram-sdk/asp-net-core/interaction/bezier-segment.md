@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bezier Segment in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Bezier segmnet editing in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Edit connector control points in Syncfusion® ASP.NET Core Diagram by clicking and dragging the two bezier thumbs to reshape the curve.
 platform: diagram-sdk
 control: Bezier segment editing
 publishingplatform: diagram-sdk

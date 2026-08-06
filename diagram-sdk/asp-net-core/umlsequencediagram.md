@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UML Sequence Diagram in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about UmlSequenceDiagram in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Visualize object interactions in Syncfusion® ASP.NET Core Diagram with UML sequence participants, messages, activation boxes, and fragments.
 platform: diagram-sdk
 control: UmlSequenceDiagram
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Group in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Group in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Cluster nodes and connectors in Syncfusion® ASP.NET Core Diagram into a group that can be selected, moved, padded, nested, and ungrouped.
 platform: diagram-sdk
 control: Group
 publishingplatform: diagram-sdk

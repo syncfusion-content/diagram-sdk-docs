@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to use HTML template in organization chart | Syncfusion®
-description: Learn here all about organization chart in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Build an organization chart in Syncfusion® ASP.NET Core Diagram using HTML templates for each employee node and the OrganizationalChart layout.
 platform: diagram-sdk
 control: Organization Chart
 publishingplatform: diagram-sdk

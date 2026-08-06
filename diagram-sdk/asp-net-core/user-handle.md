@@ -1,7 +1,7 @@
 ---
 layout: post
 title: User Handle in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about User Handle in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Add frequently used commands around selected Syncfusion® ASP.NET Core Diagram nodes via customizable user handles with offset, side, and margin.
 platform: diagram-sdk
 control: User Handle
 publishingplatform: diagram-sdk

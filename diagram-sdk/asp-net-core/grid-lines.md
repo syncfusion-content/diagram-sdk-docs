@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gridlines in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Grid Lines in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Show horizontal and vertical gridlines in Syncfusion® ASP.NET Core Diagram and snap objects to them using snapSettings and SnapConstraints.
 platform: diagram-sdk
 control: Grid Lines
 publishingplatform: diagram-sdk

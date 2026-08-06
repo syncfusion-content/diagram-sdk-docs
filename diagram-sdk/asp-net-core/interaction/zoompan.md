@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zoom Pan in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Zoompan in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Zoom and pan large Syncfusion® ASP.NET Core Diagram canvases with Ctrl + mouse wheel and track scrollChange pan status (start, progress, completed).
 platform: diagram-sdk
 control: Zoompan
 publishingplatform: diagram-sdk

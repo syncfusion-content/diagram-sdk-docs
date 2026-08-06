@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selection in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Selection in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Select single, multiple, or grouped Syncfusion® ASP.NET Core Diagram elements by click, Ctrl+click, rubber band, or programmatic select/selectAll methods.
 platform: diagram-sdk
 control: Selection
 publishingplatform: diagram-sdk

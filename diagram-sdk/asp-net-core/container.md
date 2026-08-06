@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Container in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Container in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Group related shapes in Syncfusion® ASP.NET Core Diagram using containers with customizable headers, padding, and dynamic add/remove of children.
 platform: diagram-sdk
 control: Container
 publishingplatform: diagram-sdk

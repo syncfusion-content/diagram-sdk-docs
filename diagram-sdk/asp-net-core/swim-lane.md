@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swimlane in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Swim Lane in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Visualize business processes with Syncfusion® ASP.NET Core Diagram swimlanes, including headers, phases, orientation, and dynamic customization.
 platform: diagram-sdk
 control: Swim Lane
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EJ1 to API Migration in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Ej1 Api Migration in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Migrate Syncfusion® ASP.NET Core Diagram from Essential® JS 1 to JS 2 using a side-by-side API mapping table for properties, events, and methods.
 platform: diagram-sdk
 control: Ej1 Api Migration
 publishingplatform: diagram-sdk

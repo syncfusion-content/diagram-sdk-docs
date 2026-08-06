@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shapes in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about shapes in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Add text, image, HTML, native, basic, or flow shape nodes to Syncfusion® ASP.NET Core Diagram, with custom styling and built-in shape library.
 platform: diagram-sdk
 control: Shapes
 publishingplatform: diagram-sdk

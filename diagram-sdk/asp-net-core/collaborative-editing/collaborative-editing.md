@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collaborative Editing in ASP.NET Core Diagram | Syncfusion®
-description: Checkout and learn to set up real-time collaborative editing in Syncfusion® ASP.NET Core Diagram using WebSocket and Redis.
+description: Enable real-time collaborative editing in Syncfusion® ASP.NET Core Diagram with SignalR and Redis, syncing diagram changes across multiple users.
 control: Diagram
 documentation: ug
 platform: diagram-sdk

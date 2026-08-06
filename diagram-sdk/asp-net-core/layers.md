@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layers in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Layers in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Organize Syncfusion® ASP.NET Core Diagram shapes into named layers to show, hide, lock, or group objects selectively across the canvas.
 platform: diagram-sdk
 control: Layers
 publishingplatform: diagram-sdk

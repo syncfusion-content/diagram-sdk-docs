@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Printing and Exporting in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Export in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Print or export Syncfusion® ASP.NET Core Diagram as JPG, PNG, BMP, or SVG with options for file name, margin, region, and export mode.
 platform: diagram-sdk
 control: Export
 publishingplatform: diagram-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Commands in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Commands in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Use built-in commands in Syncfusion® ASP.NET Core Diagram to align, space, size, copy, group, order, zoom, nudge, fit, and undo/redo objects.
 platform: diagram-sdk
 control: Commands
 publishingplatform: diagram-sdk

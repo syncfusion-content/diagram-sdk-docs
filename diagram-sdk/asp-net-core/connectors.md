@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connectors in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Create connectors in Syncfusion® ASP.NET Core Diagram with straight, orthogonal, or bezier segments, decorators, ports, bridging, flip, and runtime add or update.
 platform: diagram-sdk
 control: Connectors
 publishingplatform: diagram-sdk

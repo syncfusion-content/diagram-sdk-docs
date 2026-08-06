@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Straight Segment in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Straight segmnet editing in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Insert or remove straight segments on Syncfusion® ASP.NET Core Diagram connectors using thumbs and Ctrl+Shift+Click gestures.
 platform: diagram-sdk
 control: Straight segment editing
 publishingplatform: diagram-sdk

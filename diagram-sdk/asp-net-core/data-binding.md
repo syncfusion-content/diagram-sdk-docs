@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Binding in ASP.NET Core Diagram | Syncfusion®
-description: Learn here all about Data Binding in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+description: Populate Syncfusion® ASP.NET Core Diagram nodes and connectors from local or remote data sources using dataManager, id, parentId, and root mappings.
 platform: diagram-sdk
 control: Data Binding
 publishingplatform: diagram-sdk
