@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Style in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Style in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: CSS Structure in TypeScript Diagram | Syncfusion®
+description: Customize the CSS structure of the Syncfusion® TypeScript Diagram, including connector end point handles, resize thumbs, and selection visuals.
 platform: diagram-sdk
 control: Style 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Style in TypeScript Diagram control
+# CSS Structure in TypeScript Diagram
 
 ## Customizing the connector end point handle
 

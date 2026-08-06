@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Label Interaction in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation Interaction in TypeScript Diagram | Syncfusion®
+description: Enable select, drag, rotate, and resize interactions on TypeScript Diagram annotations via the constraints property.
 platform: diagram-sdk
 control: Label Interaction
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Annotation Interactions in TypeScript Diagram control
+# Annotation Interaction in TypeScript Diagram
 
 Diagram allows annotation to be interacted by selecting, dragging, rotating, and resizing. Annotation interaction is disabled, by default. You can enable annotation interaction with the `constraints` property of annotation. You can also curtail the services of interaction by enabling either selecting, dragging, rotating, or resizing individually with the respective constraints property of annotation. The following code illustrates how to enable interactive mode.
 

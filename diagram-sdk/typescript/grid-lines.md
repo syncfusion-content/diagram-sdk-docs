@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Grid lines in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Grid lines in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Gridlines in TypeScript Diagram | Syncfusion®
+description: Show and customize horizontal and vertical gridlines in the Syncfusion® TypeScript Diagram, with dot patterns, line intervals, and snap-to-lines support.
 platform: diagram-sdk
 control: Grid lines 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Grid lines in TypeScript Diagram control
+# Gridlines in TypeScript Diagram
 
 Gridlines are crisscross lines drawn in diagram page like the lines on traditional graph paper. It helps to position the diagram elements on the diagram page.
 

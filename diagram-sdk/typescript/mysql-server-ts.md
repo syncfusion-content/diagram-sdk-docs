@@ -1,14 +1,14 @@
 ---
 layout: post
-title: TypeScript Diagram - MySQL Server | Syncfusion
-description: Learn how to integrate the Syncfusion TypeScript Diagram with a MySQL database using LINQ2DB and an ASP.NET Core Web.
+title: How to Connect MySQL in TypeScript Diagram | Syncfusion®
+description: Connect TypeScript Diagram to a MySQL database using LINQ2DB and an ASP.NET Core Web API to render an org chart.
 platform: diagram-sdk
 control: diagram
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connecting MySQL to Syncfusion® TypeScript Diagram using LINQ2DB
+# How to Connect MySQL in TypeScript Diagram
 
 This guide explains how to load and visualize organizational chart data stored in a MySQL database using the Syncfusion® TypeScript Diagram component. It demonstrates how to configure MySQL, create the required database schema, expose the data through an ASP.NET Core Web API, and bind the API response to a TypeScript application to render an organizational chart.
 

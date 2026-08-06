@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diagram in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Group in Syncfusion® TypeScript Diagram control of Syncfusion® Essential JS 2 and more.
+title: Diagram Properties in TypeScript Diagram | Syncfusion®
+description: Call Syncfusion® TypeScript Diagram methods like getDiagramBounds, refresh, clear, destroy, and getCustomTool to manage the diagram programmatically.
 platform: diagram-sdk
 control: Diagram API 
 publishingplatform: diagram-sdk
@@ -9,8 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-
-# Diagram properties in TypeScript
+# Diagram Properties in TypeScript Diagram
 
 ## Get diagram bounds
 

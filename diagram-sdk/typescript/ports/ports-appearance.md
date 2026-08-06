@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports appearance in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Port Appearance in TypeScript Diagram | Syncfusion®
+description: Style and size ports in the Syncfusion® TypeScript Diagram with strokeColor, fill, opacity, width, height, and visibility settings.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
-## Appearance
+# Port Appearance in TypeScript Diagram
 
 The appearance of ports can be customized by using [`strokeColor`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#strokewidth), [`fill`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#fill) and [`opacity`](https://ej2.syncfusion.com/documentation/api/diagram/shapeStyleModel#opacity) properties of the port. Customize the port size by using the [`width`](https://ej2.syncfusion.com/documentation/api/diagram/pointPortModel#width) and [`height`](https://ej2.syncfusion.com/documentation/api/diagram/pointPortModel#height) properties of port. The ports [`visibility`](https://ej2.syncfusion.com/documentation/api/diagram/portvisibility) property allows you to define, when the port should be visible. 
 

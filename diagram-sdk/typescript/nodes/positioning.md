@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Positioning of a nodes in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Positioning in TypeScript Diagram | Syncfusion®
+description: Position, size, rotate, and clamp TypeScript Diagram nodes with offset, pivot, min/max, and margin properties.
 platform: diagram-sdk
 control: Positioning of nodes 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# Positioning a node in TypeScript Diagram control
+# Node Positioning in TypeScript Diagram
 
 ## Position
 

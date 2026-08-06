@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Nodes in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Nodes in TypeScript Diagram | Syncfusion®
+description: Create TypeScript Diagram nodes from a collection or runtime API, set position, size, style, and id constraints.
 platform: diagram-sdk
 control: Nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Nodes in TypeScript Diagram control
+# Nodes in TypeScript Diagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure, entity, or any other kind of data, and it represents the functions of a complete system regarding to how it interacts with external entities.
 

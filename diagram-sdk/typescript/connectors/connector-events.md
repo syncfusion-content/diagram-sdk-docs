@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Events in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Events in TypeScript Diagram | Syncfusion®
+description: Handle TypeScript Diagram connector click, selection change, double-click, and hover events with cancel support.
 platform: diagram-sdk
 control: Connector Events
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector Events in TypeScript Diagram control
+# Connector Events in TypeScript Diagram
 
 Diagram provides some events support for connectors that triggers when interacting with the connector.
 
