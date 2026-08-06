@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drag Resize Rotate in ASP.NET Core Diagram | Syncfusion®
+title: Drag, Resize, and Rotate in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Drag resize and rotate in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Drag resize rotate
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Drag Resize Rotate in ASP.NET Core Diagram
+# Drag, Resize, and Rotate in ASP.NET Core Diagram
 
 ## Drag
 

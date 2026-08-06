@@ -8,7 +8,9 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Appearance in ASP.NET Core Diagram
+# Appearance in ASP.NET MVC Diagram
+
+## Drag and drop nodes over other elements
 
 Diagram provides support to drop a node/connector over another node/connector. The [`drop`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_Drop) event is raised to notify that an element is dropped over another one and it is disabled, by default. It can be enabled with the constraints property.
 
