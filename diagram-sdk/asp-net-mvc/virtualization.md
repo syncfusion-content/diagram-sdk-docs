@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtualization in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Virtualization in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Virtualization in ASP.NET MVC Diagram | Syncfusion®
+description: Enable virtualization in Syncfusion® ASP.NET MVC Diagram to load only nodes and connectors inside the viewport, boosting performance on large diagrams.
 platform: diagram-sdk
 control: Virtualization
 publishingplatform: diagram-sdk

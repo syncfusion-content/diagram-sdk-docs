@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Ports in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Ports in ASP.NET MVC Diagram | Syncfusion®
+description: Define connection ports on Syncfusion® ASP.NET MVC Diagram nodes at fraction offsets so connectors dock only to specific points.
 platform: diagram-sdk
 control: Ports
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Ports in Diagram Control
+# Ports in ASP.NET MVC Diagram
 
 Diagram provides support to define custom ports for making connections.
 

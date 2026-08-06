@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports positioning in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Port Positioning in TypeScript Diagram | Syncfusion®
+description: Align ports to node boundaries in the Syncfusion® TypeScript Diagram using offset, margin, horizontalAlignment, and verticalAlignment settings.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Positioning node's port
+# Port Positioning in TypeScript Diagram
 
 Diagram allows you to customize the position of the port efficiently. Port can be aligned relative to the node boundaries. It has Margin, Offset, Horizontal, and Vertical alignment settings.
 

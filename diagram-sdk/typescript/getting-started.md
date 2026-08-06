@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with TypeScript Diagram control | Syncfusion®
-description: Checkout and learn about Getting started with TypeScript Diagram control of Syncfusion Essential® JS 2 and more details.
+title: Getting Started with TypeScript Diagram | Syncfusion®
+description: Set up a TypeScript Diagram project quickly with prerequisites, seed-app cloning, and the basic node/connector usage walkthrough.
 platform: diagram-sdk
 control: Getting started
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting Started with TypeScript Diagram Control
+# Getting Started with TypeScript Diagram
 
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the diagram control using a seed application.
 

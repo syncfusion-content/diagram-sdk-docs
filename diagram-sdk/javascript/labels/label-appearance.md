@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Label Appearance in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation Appearance in JavaScript Diagram | Syncfusion®
+description: Style annotation text and background in the Syncfusion® JavaScript Diagram with font, fill, stroke, opacity, and bold/italic/decoration properties.
 platform: diagram-sdk
 control: Label Appearance 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Lable Appearance
+# Annotation Appearance in JavaScript Diagram
 
 You can change the font style of the annotations with the font specific properties [`fontSize`](../../api/diagram/textstylemodel#fontsize), [`fontFamily`](../../api/diagram/textStyleModel#fontfamily), [`color`](../../api/diagram/textStyleModel#color).
 The label’s [`bold`](../../api/diagram/textStyleModel#bold-boolean), [`italic`](../../api/diagram/textStyleModel#italic), and [`textDecoration`](../../api/diagram/textStyleModel#textdecoration) properties are used to style the label’s text.

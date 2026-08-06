@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tools in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Tools in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Tools in JavaScript Diagram | Syncfusion®
+description: Use Select, Pan, and Draw tools in the Syncfusion® JavaScript Diagram to navigate, edit, and create shapes and connectors at runtime.
 platform: diagram-sdk
 control: Tools 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Tools in JavaScript Diagram control
+# Tools in JavaScript Diagram
 
 The tools in the diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
 

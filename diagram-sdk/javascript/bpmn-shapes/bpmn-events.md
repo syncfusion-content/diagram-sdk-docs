@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn Events in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Event shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Events in JavaScript Diagram | Syncfusion®
+description: Represent start, intermediate, and end events in a BPMN process with the Syncfusion® JavaScript Diagram event shape and trigger configuration.
 platform: diagram-sdk
 control: Bpmn Events 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# BPMN Event in JavaScript Diagram control
+# BPMN Events in JavaScript Diagram
 
 ## Event
 

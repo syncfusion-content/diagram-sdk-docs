@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diagram in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Group in Syncfusion® JavaScript Diagram control of Syncfusion® Essential JS 2 and more.
+title: Diagram Properties in JavaScript Diagram | Syncfusion®
+description: Call Syncfusion® JavaScript Diagram methods like getDiagramBounds, refresh, clear, destroy, and getCustomTool to manage the diagram programmatically.
 platform: diagram-sdk
 control: Diagram API 
 publishingplatform: diagram-sdk
@@ -9,8 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-
-# Diagram properties in TypeScript
+# Diagram Properties in JavaScript Diagram
 
 ## Get diagram bounds
 

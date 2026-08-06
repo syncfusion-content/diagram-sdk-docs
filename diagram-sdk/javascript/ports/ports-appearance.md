@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports appearance in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Port Appearance in JavaScript Diagram | Syncfusion®
+description: Style and size ports in the Syncfusion® JavaScript Diagram with strokeColor, fill, opacity, width, height, and visibility settings.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -9,8 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-
-## Appearance
+# Port Appearance in JavaScript Diagram
 
 The appearance of ports can be customized by using [`strokeColor`](../../api/diagram/shapeStyleModel#strokecolor), [`strokeWidth`](../../api/diagram/shapeStyleModel#strokewidth), [`fill`](../../api/diagram/shapeStyleModel#fill) and [`opacity`](../../api/diagram/shapeStyleModel#opacity) properties of the port. Customize the port size by using the [`width`](../../api/diagram/pointPortModel#width) and [`height`](../../api/diagram/pointPortModel#height) properties of port. The ports [`visibility`](../../api/diagram/portvisibility) property allows you to define, when the port should be visible. 
 

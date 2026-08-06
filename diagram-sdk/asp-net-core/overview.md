@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Overview in ASP.NET Core Diagram Component | Syncfusion®
-description: Learn here all about Overview in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Overview Control in ASP.NET Core Diagram | Syncfusion®
+description: Use the Overview control in Syncfusion® ASP.NET Core Diagram to preview the entire canvas, then pan and zoom to any region by dragging the viewport.
 platform: diagram-sdk
 control: Overview
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Overview Control in ASP.NET Core Diagram Component
+# Overview Control in ASP.NET Core Diagram
 
 Overview control allows to see a preview or an overall view of the entire content of a diagram. This helps you to look at the overall picture of a large diagram and also to navigate, pan, or zoom, on a particular position of the page.
 

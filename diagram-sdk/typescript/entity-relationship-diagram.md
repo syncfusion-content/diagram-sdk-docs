@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entity Relationship Diagrams in TypeScript Diagram Control | Syncfusion®
+title: Entity Relationship Diagram in TypeScript Diagram | Syncfusion®
 description: Learn how to create and customize Entity Relationship Diagrams in the Syncfusion® TypeScript Diagram control.
 platform: diagram-sdk
 control: ERDiagram
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Entity Relationship Diagrams in TypeScript Diagram Control
+# Entity Relationship Diagram in TypeScript Diagram
 
 An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/documentation/api/diagram/erConnectorShapeModel).
 

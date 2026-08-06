@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tools in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Tools in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Tools in TypeScript Diagram | Syncfusion®
+description: Activate the TypeScript Diagram tools to select, pan, draw nodes, draw connectors, and create text or polygon shapes at runtime.
 platform: diagram-sdk
 control: Tools 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Tools in TypeScript Diagram control
+# Tools in TypeScript Diagram
 
 The tools in the diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
 

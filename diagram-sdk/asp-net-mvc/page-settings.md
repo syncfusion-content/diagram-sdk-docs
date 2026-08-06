@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Page Settings in ASP.NET MVC Diagram Component | Syncfusion®
-description: Learn here all about Page Settings in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Page Settings in ASP.NET MVC Diagram | Syncfusion®
+description: Customize Syncfusion® ASP.NET MVC Diagram page width, height, orientation, background image, margins, and multiple page or page breaks.
 platform: diagram-sdk
 control: Page Settings
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Page Settings in ASP.NET MVC Diagram Component
+# Page Settings in ASP.NET MVC Diagram
 
 Page settings can customize the appearance, width, and height of the diagram page.
 

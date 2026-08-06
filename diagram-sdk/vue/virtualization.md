@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Virtualization in Vue Diagram component | Syncfusion®
-description: Learn here all about Virtualization in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: Virtualization in Vue Diagram | Syncfusion®
+description: Speed up large diagrams in the Syncfusion® Vue Diagram by loading only the nodes and connectors that are visible in the current viewport.
 control: Virtualization 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Virtualization in Vue Diagram component
+# Virtualization in Vue Diagram
 
 Virtualization is a technique to optimize the performance of diagrams, especially when working with larger diagrams
 

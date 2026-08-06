@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Ports interaction in Vue Diagram component | Syncfusion®
-description: Learn here all about Ports in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: Ports interaction in Vue Diagram | Syncfusion®
+description: Draw connectors from ports interactively in the Syncfusion® Vue Diagram by enabling draw constraints, with orthogonal as the default segment type.
 control: Ports 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Ports interaction in Vue Diagram component | Syncfusion®
+# Ports interaction in Vue Diagram
 
 ## Draw connector from port
 

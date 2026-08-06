@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Org-chart layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Organizational Chart in TypeScript Diagram | Syncfusion®
+description: Render TypeScript Diagram organizational charts from a DataSource or explicit nodes, with assistant and getLayoutInfo.
 platform: diagram-sdk
 control: Org-chart 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Organizational Chart layout in TypeScript Diagram control
+# Organizational Chart in TypeScript Diagram
 
 An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) of layout should be set as an `OrganizationalChart`.
 
