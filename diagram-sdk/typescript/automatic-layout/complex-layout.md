@@ -20,10 +20,10 @@ The following example demonstrates how to render a complex hierarchical tree lay
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -57,10 +57,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -100,10 +100,10 @@ The following example shows how to activate enableRouting in the layout:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
