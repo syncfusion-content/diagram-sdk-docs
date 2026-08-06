@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation in ASP.NET Core Diagram | Syncfusion®
-description: Add editable text annotations to nodes and connectors in Syncfusion® ASP.NET Core Diagram, with multiple labels, runtime addLabels, and styling.
+description: Add editable text annotations to nodes and connectors in Syncfusion® ASP.NET Core Diagram, with multiple labels, alignment, wrapping, hyperlinks, and templates.
 platform: diagram-sdk
 control: Labels
 publishingplatform: diagram-sdk

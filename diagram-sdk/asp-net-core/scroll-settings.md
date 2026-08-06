@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scroll Settings in ASP.NET Core Diagram | Syncfusion®
-description: Read and update Syncfusion® ASP.NET Core Diagram scroll offsets, viewport size, and zoom factor programmatically via scrollSettings and update method.
+description: Read and update scroll offsets, viewport size, and zoom factor in Syncfusion® ASP.NET Core Diagram, with autoscroll, scroll limit, and scrollable area support.
 platform: diagram-sdk
 control: Scroll Settings
 publishingplatform: diagram-sdk

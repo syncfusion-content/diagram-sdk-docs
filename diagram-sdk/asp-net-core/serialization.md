@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serialization in ASP.NET Core Diagram | Syncfusion®
-description: Save and load Syncfusion® ASP.NET Core Diagram state as a JSON string with saveDiagram and loadDiagram, including a loaded event for customization.
+description: Save and restore Syncfusion® ASP.NET Core Diagram state as a JSON string for persistence, with a loaded event to customize elements after loading.
 platform: diagram-sdk
 control: Serialization
 publishingplatform: diagram-sdk

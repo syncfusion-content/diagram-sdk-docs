@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gridlines in ASP.NET Core Diagram | Syncfusion®
-description: Show horizontal and vertical gridlines in Syncfusion® ASP.NET Core Diagram and snap objects to them using snapSettings and SnapConstraints.
+description: Display and snap to gridlines in Syncfusion® ASP.NET Core Diagram with configurable line color, dash style, intervals, and snap-to-object smart guides.
 platform: diagram-sdk
 control: Grid Lines
 publishingplatform: diagram-sdk

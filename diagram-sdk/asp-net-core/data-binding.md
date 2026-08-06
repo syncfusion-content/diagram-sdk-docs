@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Binding in ASP.NET Core Diagram | Syncfusion®
-description: Populate Syncfusion® ASP.NET Core Diagram nodes and connectors from local or remote data sources using dataManager, id, parentId, and root mappings.
+description: Populate Syncfusion® ASP.NET Core Diagram nodes and connectors from local or remote data sources with CRUD support for runtime read, insert, update, and delete.
 platform: diagram-sdk
 control: Data Binding
 publishingplatform: diagram-sdk

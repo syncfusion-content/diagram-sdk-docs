@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selection in ASP.NET Core Diagram | Syncfusion®
-description: Select single, multiple, or grouped Syncfusion® ASP.NET Core Diagram elements by click, Ctrl+click, rubber band, or programmatic select/selectAll methods.
+description: Select single, multiple, or grouped Syncfusion® ASP.NET Core Diagram elements by click, modifier-click, rubber band, or programmatically at runtime.
 platform: diagram-sdk
 control: Selection
 publishingplatform: diagram-sdk
