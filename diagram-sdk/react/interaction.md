@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Interaction in React Diagram component | Syncfusion®
-description: Learn here all about Interaction in Syncfusion® React Diagram component of Syncfusion Essential® JS 2 and more.
+title: Interaction in React Diagram | Syncfusion®
+description: Select, click, drag, resize, and rotate React Diagram elements; group selection and selector-based bulk edits are supported out of the box.
 control: Interaction 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Interaction in React Diagram component
+# Interaction in React Diagram
 
 ## Selection
 

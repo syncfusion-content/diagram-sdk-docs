@@ -1,14 +1,14 @@
 ---
 layout: post
-title: BPMN Group in React Diagram Component | Syncfusion®
-description: Learn how to create and customize BPMN group shapes for organizing related elements in Syncfusion® React Diagram Component.
+title: BPMN Group in React Diagram | Syncfusion®
+description: Visually group related BPMN elements in the React Diagram with a Group shape that uses dashed borders to organize without changing process semantics.
 control: Bpmn Group 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Group in React Diagram Component
+# BPMN Group in React Diagram
 
 ## Overview
 
