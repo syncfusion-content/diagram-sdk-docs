@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearence of a nodes in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Customization in TypeScript Diagram | Syncfusion®
+description: Style TypeScript Diagram nodes with custom fills, strokes, gradients, icons, and getNodeDefaults for shared defaults.
 platform: diagram-sdk
 control: Appearence of nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Appearence of a nodes in TypeScript Diagram control
+# Node Customization in TypeScript Diagram
 
 ## Common values to the node.
 

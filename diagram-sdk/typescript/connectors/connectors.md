@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connectors in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connectors in TypeScript Diagram | Syncfusion®
+description: Create TypeScript Diagram connectors between points, nodes, or ports and add or remove them at runtime.
 platform: diagram-sdk
 control: Connectors 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connectors in TypeScript Diagram control
+# Connectors in TypeScript Diagram
 
 Connectors are objects used to create link between two points, nodes or ports to represent the relationships between them.
 

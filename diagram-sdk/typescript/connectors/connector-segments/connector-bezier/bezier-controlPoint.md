@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bezier control points interaction in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Bezier Control Points in TypeScript Diagram | Syncfusion®
+description: Smooth bezier TypeScript Diagram connectors using symmetric distance and angle modes, with visibility controls per segment.
 platform: diagram-sdk
 control: Bezier control points interaction
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# Bezier Control points 
+# Bezier Control Points in TypeScript Diagram
 
 ## How to interact with the bezier segments efficiently
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Scroll settings in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Scroll settings in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Scroll Settings in TypeScript Diagram | Syncfusion®
+description: Read and control the horizontal offset, vertical offset, zoom level, and scrollable area of the Syncfusion® TypeScript Diagram.
 platform: diagram-sdk
 control: Scroll settings 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Scroll settings in TypeScript Diagram control
+# Scroll Settings in TypeScript Diagram
 
 The diagram can be scrolled using both the vertical and horizontal scrollbars. Additionally, the mouse wheel can be used to scroll the diagram. The diagram's [`scrollSettings`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel) allow you to read the current scroll status, view port size, current zoom level, and zoom factor. These settings also provide the capability to programmatically control the scrolling of the diagram.
 

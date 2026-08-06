@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Load JSON Data TypeScript Diagram control | Syncfusion®
-description: Learn here about Ej1 api migration in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Load EJ1 JSON in EJ2 TypeScript Diagram | Syncfusion®
+description: Load diagrams from Essential® JS 1 JSON data into the TypeScript Diagram by injecting EJ1SerializationModule and calling loadDiagram.
 platform: diagram-sdk
 control: EJ1 Migration
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# How to load EJ1 diagram in EJ2 diagram
+# Load EJ1 JSON in EJ2 TypeScript Diagram
 
 To load EJ1 JSON data in an EJ2 diagram, follow these steps.
 

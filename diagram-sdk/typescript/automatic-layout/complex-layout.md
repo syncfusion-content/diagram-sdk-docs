@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Complex hierarchical tree layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Complex Hierarchical Tree in TypeScript Diagram | Syncfusion®
+description: Build complex hierarchical TypeScript Diagrams where any child can have multiple parents using the ComplexHierarchicalTree layout.
 platform: diagram-sdk
 control: Complex hierarchical tree  
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Complex hierarchical tree layout in TypeScript Diagram control
+# Complex Hierarchical Tree in TypeScript Diagram
 
 Complex hierarchical tree layout arranges nodes in a tree-like structure, where the child node can have more than one parent. This layout is an extended version of the hierarchical tree layout. To create a complex hierarchical tree, the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) property of layout should be set as `ComplexHierarchicalTree`.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn Text annotation  in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Text annotation shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Text Annotation in TypeScript Diagram | Syncfusion®
+description: Attach text annotations to BPMN shapes in the Syncfusion® TypeScript Diagram to add context that does not affect the process flow.
 platform: diagram-sdk
 control: Bpmn Text annotation 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN text annotation in TypeScript Diagram control
+# BPMN Text Annotation in TypeScript Diagram
 
 ## Text annotation
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bezier Segment edit orientation in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Bezier Segment Edit Orientation in TypeScript Diagram | Syncfusion®
+description: Edit bezier TypeScript Diagram segment intermediate points in bidirectional or freeform drag orientation.
 platform: diagram-sdk
 control: Bezier Segment edit orientation
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# Bezier Connector Settings
+# Bezier Segment Edit Orientation in TypeScript Diagram
 
 ## How to edit bezier segments based on bezier connector settings
 
