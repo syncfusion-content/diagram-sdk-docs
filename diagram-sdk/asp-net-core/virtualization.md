@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtualization in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Virtualization in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Virtualization in ASP.NET Core Diagram | Syncfusion®
+description: Enable virtualization in Syncfusion® ASP.NET Core Diagram to load only nodes and connectors inside the viewport, boosting performance on large diagrams.
 platform: diagram-sdk
 control: Virtualization
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Virtualization in Diagram
+# Virtualization in ASP.NET Core Diagram
 
 ## Virtualization in Diagram
 

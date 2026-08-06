@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Group in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Group in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Group in ASP.NET Core Diagram | Syncfusion®
+description: Group nodes, connectors, and nested child groups in Syncfusion® ASP.NET Core Diagram with padding, runtime add, and ungroup operations.
 platform: diagram-sdk
 control: Group
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Group in Diagram Control
+# Group in ASP.NET Core Diagram
 
 Group is used to cluster multiple nodes and connectors into a single element. It acts like a container for its children (nodes, groups, and connectors). Every change made to the group also affects the children. Child elements can be edited individually.
 
