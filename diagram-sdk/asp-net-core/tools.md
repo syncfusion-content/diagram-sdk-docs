@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tools in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Tools in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Tools in ASP.NET Core Diagram | Syncfusion®
+description: Activate drawing tools in Syncfusion® ASP.NET Core Diagram to draw shapes, text, connectors, freeform, and polyline nodes at runtime.
 platform: diagram-sdk
 control: Tools
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tools in Diagram Control
+# Tools in ASP.NET Core Diagram
 
 ## Drawing tools
 

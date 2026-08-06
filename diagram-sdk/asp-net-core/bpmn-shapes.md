@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn Shapes in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Bpmn Shapes in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: BPMN Shapes in ASP.NET Core Diagram | Syncfusion®
+description: Model business processes in Syncfusion® ASP.NET Core Diagram with BPMN event, gateway, task, message, data source, data object, and group shapes.
 platform: diagram-sdk
 control: Bpmn Shapes
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Shapes in Diagram Control
+# BPMN Shapes in ASP.NET Core Diagram
 
 BPMN shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, in the node property shape, type should be set as “bpmn” and its shape should be set as any one of the built-in shapes.
 

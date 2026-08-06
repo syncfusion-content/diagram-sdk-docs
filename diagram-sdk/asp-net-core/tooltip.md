@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Tooltip in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Tooltip in ASP.NET Core Diagram | Syncfusion®
+description: Show tooltips in Syncfusion® ASP.NET Core Diagram on drag, resize, rotate, and hover, with default and custom content per node or connector.
 platform: diagram-sdk
 control: Tooltip
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in Diagram Control
+# Tooltip in ASP.NET Core Diagram
 
 <!-- markdownlint-disable MD010 -->
 
