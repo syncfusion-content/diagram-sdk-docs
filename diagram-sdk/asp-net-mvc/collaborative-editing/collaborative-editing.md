@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Collaborative Editing in ASP.NET MVC Diagram | Syncfusion®
-description: Checkout and learn to set up real-time collaborative editing in Syncfusion® ASP.NET MVC Diagram using WebSocket and Redis.
+description: Enable real-time collaborative editing in Syncfusion® ASP.NET MVC Diagram with SignalR and Redis, syncing diagram changes across multiple users.
 control: Diagram
 documentation: ug
 platform: diagram-sdk
 publishingplatform: diagram-sdk
 ---
 
-# Collaborative editing in ASP.NET MVC diagram control
+# Collaborative Editing in ASP.NET MVC Diagram
 
 Collaborative editing enables multiple users to edit diagrams simultaneously in real-time, providing a seamless collaborative experience in ASP.NET MVC applications.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Keyboard in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Keyboard in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Keyboard Interactions in ASP.NET MVC Diagram | Syncfusion®
+description: Use built-in keyboard shortcuts in Syncfusion® ASP.NET MVC Diagram to select, copy, paste, undo, nudge, zoom, edit labels, group, and align text.
 platform: diagram-sdk
 control: Keyboard
 publishingplatform: diagram-sdk
 documentation: ug
 ---
-# Keyboard interactions
+# Keyboard Interactions in ASP.NET MVC Diagram
 
 Diagram provides support to interact with the elements with key gestures. By default, some in-built commands are bound with a relevant set of key combinations.
 
