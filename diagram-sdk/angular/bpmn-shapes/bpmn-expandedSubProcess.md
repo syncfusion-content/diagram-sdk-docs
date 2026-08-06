@@ -1,16 +1,14 @@
 ---
 layout: post
-title: BPMN Expanded SubProcess in Angular Diagram component | Syncfusion®
-description: Learn how to create and manage BPMN expanded subprocess shapes with child processes in Syncfusion® Angular Diagram component of Syncfusion Essential® JS 2.
+title: BPMN Expanded Subprocess in Angular Diagram | Syncfusion®
+description: Model BPMN expanded subprocesses in the Syncfusion® Angular Diagram to display internal child processes directly inside the parent activity container.
 platform: diagram-sdk
 control: Bpmn Expanded subProcess 
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Expanded SubProcess
-
-## BPMN Expanded SubProcess
+# BPMN Expanded SubProcess in Angular Diagram
 
 An expanded subprocess is a BPMN shape that represents a complex process containing multiple child processes within it. Unlike collapsed subprocesses, expanded subprocesses display their internal structure and allow users to view and interact with the child processes directly. This makes them ideal for detailed process modeling where visibility into subprocess components is essential.
 
