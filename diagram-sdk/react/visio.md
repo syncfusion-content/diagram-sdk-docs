@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visio Integration in React Diagram | Syncfusion®
+title: Visio Import and Export in React Diagram | Syncfusion®
 description: Import existing Microsoft Visio (vsdx) files into the React Diagram and export diagrams back to Visio for round-trip editing across tools.
 platform: diagram-sdk
 control: Diagram
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Visio Integration in React Diagram
+# Visio Import and Export in React Diagram
 
 N> Visio import and export support is currently **experimental**. Certain features may be limited or may not function as expected.
 
