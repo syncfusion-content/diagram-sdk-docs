@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Lane in React Diagram Component | Syncfusion®
-description: Learn here all about Swim lane in Syncfusion® React Diagram Component of Syncfusion Essential® JS 2 and more.
+title: Lane in React Diagram | Syncfusion®
+description: Add Lane rows or columns to a React Diagram swimlane to map process responsibilities across departments, roles, or actors in a workflow.
 control: Lane 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Lane Management in React Diagram Component
+# Lane in React Diagram
 
 ## Overview
 
