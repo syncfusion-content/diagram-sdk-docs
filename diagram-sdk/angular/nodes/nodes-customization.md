@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearence of a nodes in Angular Diagram component | Syncfusion®
-description: Learn about node appearance customization in Syncfusion® Angular Diagram component including styles, gradients, shadows, and visual effects.
+title: Nodes Customization in Angular Diagram | Syncfusion®
+description: Customize node appearance in the Syncfusion® Angular Diagram with fill, stroke, opacity, gradients, and shadows, using getNodeDefaults to set consistent defaults across all nodes.
 platform: diagram-sdk
 control: Appearence of a nodes 
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Appearance of Nodes in Angular Diagram Component
+# Nodes Customization in Angular Diagram
 
 ## Setting default properties for nodes
 
