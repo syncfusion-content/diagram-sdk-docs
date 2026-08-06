@@ -1,6 +1,6 @@
 ---
 layout: post
-title: User Handle in Syncfusion® ASP.NET Core Diagram Component
+title: User Handle in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about User Handle in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: User Handle
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# User Handles in Diagram
+# User Handle in ASP.NET Core Diagram
 
 * User handles are used to add some frequently used commands around the selector. To create user handles, define and add them to the [`userHandles`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramUserHandle.html) collection of the [`selectedItems`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_SelectedItems) property.
 * The name property of user handle is used to define the name of the user handle and its further used to find the user handle at runtime and do any customization.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Virtualization in Syncfusion® ASP.NET Core Diagram Component
+title: Virtualization in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Virtualization in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Virtualization
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Virtualization in Diagram
+# Virtualization in ASP.NET Core Diagram
 
 ## Virtualization in Diagram
 

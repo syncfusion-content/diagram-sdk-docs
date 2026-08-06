@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Constraints in ASP.NET Core Diagram Component | Syncfusion®
+title: Constraints in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Constraints in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Constraints
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Constraints in ASP.NET Core Diagram Component
+# Constraints in ASP.NET Core Diagram
 
 Constraints are used to enable or disable certain behaviors of the diagram, nodes and connectors. Constraints are provided as flagged enumerations, so that multiple behaviors can be enabled or disabled using Bitwise operators (`&, |, ~, <<, etc.`).
 

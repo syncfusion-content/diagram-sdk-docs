@@ -8,7 +8,7 @@ platform: diagram-sdk
 publishingplatform: diagram-sdk
 ---
 
-# Collaborative editing in ASP.NET Core diagram control
+# Collaborative Editing in ASP.NET Core Diagram
 
 Collaborative editing enables multiple users to edit diagrams simultaneously in real-time, providing a seamless collaborative experience in ASP.NET Core applications.
 

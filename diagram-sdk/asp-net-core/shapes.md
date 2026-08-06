@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shapes in ASP.NET Core Diagram Control | Syncfusion®
+title: Shapes in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about shapes in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Shapes
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Shapes in Diagram Control
+# Shapes in ASP.NET Core Diagram
 
 Diagram provides support to add different kind of nodes. They are as follows:
 

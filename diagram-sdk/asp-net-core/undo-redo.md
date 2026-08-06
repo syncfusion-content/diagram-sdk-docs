@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Undo Redo in Syncfusion® ASP.NET Core Diagram Component
+title: Undo Redo in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Undo Redo in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Undo Redo
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# History List in Diagram
+# Undo Redo in ASP.NET Core Diagram
 
 Diagram tracks the history of actions that are performed after initializing the diagram and provides support to reverse and restore those changes.
 

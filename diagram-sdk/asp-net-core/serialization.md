@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Serialization in ASP.NET Core Diagram Control | Syncfusion®
+title: Serialization in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Serialization in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Serialization
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Serialization in Diagram Control
+# Serialization in ASP.NET Core Diagram
 
 **Serialization** is the process of saving and loading for state persistence of the diagram.
 

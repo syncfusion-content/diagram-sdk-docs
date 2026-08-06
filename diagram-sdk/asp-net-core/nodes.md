@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nodes in Syncfusion® ASP.NET Core Diagram Component
+title: Nodes in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Nodes in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Nodes
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Node in Diagram Control
+# Nodes in ASP.NET Core Diagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure, entity, or any other kind of data.
 

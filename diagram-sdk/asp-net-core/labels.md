@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labels in Syncfusion® ASP.NET Core Diagram Component
+title: Annotation in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Labels in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Labels
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Annotation in Diagram
+# Annotation in ASP.NET Core Diagram
 
 [`Annotation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html) is a block of text that can be displayed over a node or connector. Annotation is used to textually represent an object with a string that can be edited at runtime. Multiple annotations can be added to a node/connector.
 

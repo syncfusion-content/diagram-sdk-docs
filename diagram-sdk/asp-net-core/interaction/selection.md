@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selection in Syncfusion® ASP.NET Core Diagram Component
+title: Selection in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Selection in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Selection
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Selection in diagram
+# Selection in ASP.NET Core Diagram
 
 Selector provides a visual representation of selected elements. It behaves like a container and allows to update the size, position, and rotation angle of the selected elements through interaction and by using program. Single or multiple elements can be selected at a time.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in Syncfusion® ASP.NET Core Diagram Component
+title: Tooltip in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Tooltip in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Tooltip
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in Diagram Control
+# Tooltip in ASP.NET Core Diagram
 
 <!-- markdownlint-disable MD010 -->
 

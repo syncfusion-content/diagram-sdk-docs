@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tools in Syncfusion® ASP.NET Core Diagram Component
+title: Tools in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Tools in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Tools
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tools in Diagram Control
+# Tools in ASP.NET Core Diagram
 
 ## Drawing tools
 

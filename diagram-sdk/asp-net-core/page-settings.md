@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Page Settings in ASP.NET Core Diagram Component | Syncfusion®
+title: Page Settings in ASP.NET Core Diagram | Syncfusion®
 description: Learn here all about Page Settings in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Page Settings
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Page Settings in ASP.NET Core Diagram Component
+# Page Settings in ASP.NET Core Diagram
 
 Page settings can customize the appearance, width, and height of the diagram page.
 
