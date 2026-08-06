@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hierarchical Layout in Blazor Diagram | Syncfusion®
-description: Learn here all about how to create hierarchical layout in Blazor Diagram component and much more details.
+title: Hierarchical Layout in Blazor Diagram Component | Syncfusion®
+description: Arrange Blazor Diagram Component nodes in a hierarchical tree layout with horizontal and vertical spacing for clear top-down flows.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Hierarchical Layout in Diagram Component
+# Hierarchical Layout in Blazor Diagram Component
 
 The hierarchical tree layout arranges nodes in a tree-like structure, where the nodes in the hierarchical layout may have multiple parents. There is no need to specify the layout root. To arrange nodes in a hierarchical structure, set the layout [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) to **HierarchicalTree**. The following example shows how to arrange nodes in a hierarchical structure.
 

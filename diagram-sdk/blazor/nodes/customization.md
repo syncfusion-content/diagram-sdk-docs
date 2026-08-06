@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Customization in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about customization support in Blazor Diagram component, it's elements and more.
+description: Customize Blazor Diagram Component node fill, stroke, gradient, shadow, and visibility to match your application's visual style.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Appearance of a Node in Diagram Component
+# Node Customization in Blazor Diagram Component
 
 The appearance of a node can be customized by changing its [Fill](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_Fill), [StrokeDashArray](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeDashArray), [StrokeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeColor), [StrokeWidth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeWidth), and [Shadow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shadow.html) properties. The [IsVisible](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_IsVisible) property indicates whether the node is visible.
 
