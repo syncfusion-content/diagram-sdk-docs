@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Appearance in ASP.NET MVC Diagram
+# Appearance in ASP.NET Core Diagram
 
 ## Drag and drop nodes over other elements
 
