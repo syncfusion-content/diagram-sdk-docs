@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in ASP.NET MVC Diagram Component | Syncfusion® 
+title: Accessibility in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Accessibility in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Accessibility
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Accessibility in ASP.NET MVC Diagram Component
+# Accessibility in ASP.NET MVC Diagram
 
 Diagram provides built-in compliance with the [WAI-ARIA](http://www.w3.org/WAI/PF/aria-practices/) specifications. WAI-ARIA Accessibility supports are achieved through the attributes like `aria-label`. It helps to provide information about elements in a document for assistive technology.
 

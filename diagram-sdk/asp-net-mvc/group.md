@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Group in Syncfusion® ASP.NET MVC Diagram Component
+title: Group in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Group in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Group
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Group in Diagram Control
+# Group in ASP.NET MVC Diagram
 
 Group is used to cluster multiple nodes and connectors into a single element. It acts like a container for its children (nodes, groups, and connectors). Every change made to the group also affects the children. Child elements can be edited individually.
 

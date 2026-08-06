@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Container in ASP.NET MVC Diagram Component | Syncfusion®
+title: Container in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Container in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Container
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Container in ASP.NET MVC Diagram Component
+# Container in ASP.NET MVC Diagram
 
 A Container is a group of logically related shapes surrounded by a visible boundary. Shapes can be added or removed from the container at runtime. Changes made to the container do not affect its child elements, which can be individually selected, moved, or edited.
 

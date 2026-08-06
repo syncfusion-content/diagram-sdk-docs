@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Commands in ASP.NET MVC Diagram Component | Syncfusion®
+title: Commands in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Commands in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Commands
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Commands in ASP.NET MVC Diagram Component
+# Commands in ASP.NET MVC Diagram
 
 <!-- markdownlint-disable MD010 -->
 

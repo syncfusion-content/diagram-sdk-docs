@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style in Syncfusion® ASP.NET MVC Diagram Component
+title: CSS Structure in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Style in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Style
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# CSS Structure in Diagram
+# CSS Structure in ASP.NET MVC Diagram
 
 ## Customizing the connector end point handle
 

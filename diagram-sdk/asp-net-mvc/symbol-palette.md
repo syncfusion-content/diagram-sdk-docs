@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Symbol Palette in Syncfusion® ASP.NET MVC Diagram Component
+title: Symbol Palette in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Symbol Palette in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Symbol Palette
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Symbol Palette in Diagram
+# Symbol Palette in ASP.NET MVC Diagram
 
 The **SymbolPalette** displays a collection of palettes. The palette shows a set of nodes and connectors. It allows to drag and drop the nodes and connectors into the diagram.
 

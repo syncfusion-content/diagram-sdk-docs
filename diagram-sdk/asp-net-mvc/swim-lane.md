@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swim Lane in ASP.NET MVC Diagram Component
+title: Swimlane in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Swim Lane in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Swim Lane
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Swimlane
+# Swimlane in ASP.NET MVC Diagram
 
 Swimlane is a type of diagram nodes, which is typically used to visualize the relationship between a business process and the department responsible for it by focusing on the logical relationships between activities.
 

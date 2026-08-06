@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Import and Export Visio Files in Syncfusion® ASP.NET MVC
+title: Import and Export Visio Files in ASP.NET MVC Diagram | Syncfusion®
 description: Learn how to import and export Microsoft Visio (.vsdx) files using the Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Diagram
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Import and Export Visio files
+# Import and Export Visio Files in ASP.NET MVC Diagram
 
 N> Visio import and export support is currently **experimental**. Certain features may be limited or may not function as expected.
 

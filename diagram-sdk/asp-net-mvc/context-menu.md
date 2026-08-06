@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Context Menu in Syncfusion® ASP.NET MVC Diagram Component
+title: Context Menu in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Context Menu in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Context Menu
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Context Menu in Diagram
+# Context Menu in ASP.NET MVC Diagram
 
 <!-- markdownlint-disable MD010 -->
 

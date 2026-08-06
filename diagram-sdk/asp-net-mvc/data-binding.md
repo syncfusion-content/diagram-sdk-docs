@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Binding in Syncfusion® ASP.NET MVC Diagram Component
+title: Data Binding in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Data Binding in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Data Binding
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Binding in Diagram
+# Data Binding in ASP.NET MVC Diagram
 
 * Diagram can be populated with the `nodes` and `connectors` based on the information provided from an external data source.
 

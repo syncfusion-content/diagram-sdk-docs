@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram Component
+title: Drag, Resize, and Rotate in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Drag resize and rotate in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Drag resize rotate
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Drag Resize and Rotate
+# Drag, Resize, and Rotate in ASP.NET MVC Diagram
 
 ## Drag
 

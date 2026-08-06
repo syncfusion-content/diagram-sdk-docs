@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UmlSequenceDiagram in Syncfusion® ASP.NET MVC Diagram Component
+title: UML Sequence Diagram in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about UmlSequenceDiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: UmlSequenceDiagram
@@ -8,7 +8,7 @@ publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# UML Sequence Diagram Model in Diagram
+# UML Sequence Diagram in ASP.NET MVC Diagram
 
 A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the `UmlSequenceDiagramModel`. To enable this functionality, assign the `UmlSequenceDiagramModel` to the `Model` property of the diagram control.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tools in Syncfusion® ASP.NET MVC Diagram Component
+title: Tools in ASP.NET MVC Diagram | Syncfusion®
 description: Learn here all about Tools in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Tools
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tools in Diagram Control
+# Tools in ASP.NET MVC Diagram
 
 ## Drawing tools
 
