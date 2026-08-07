@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Connector Interactions in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about diagram interaction in Blazor Diagram component and much more details.
+title: Interaction in Blazor Diagram Component | Syncfusion®
+description: Select, drag, resize, rotate, pan, and zoom the Blazor Diagram Component elements using mouse, touch, and keyboard inputs.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Connector Interactions in Blazor Diagram Component
+# Interaction in Blazor Diagram Component
 
 ## Selection
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Actions of Connectors in Diagram Component | Syncfusion®
-description: Checkout and learn here all about actions of connectors in Blazor Diagram component and much more details.
+title: Connectors in Blazor Diagram Component | Syncfusion®
+description: Link Blazor Diagram Component nodes, points, and ports with connectors whose path is defined by straight, orthogonal, or Bezier segments.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Connector in Diagram Component
+# Connectors in Blazor Diagram Component
 
 Connectors create links between points, nodes or ports to represent the relationships between them.
 
