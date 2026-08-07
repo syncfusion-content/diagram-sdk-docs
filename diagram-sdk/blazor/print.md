@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Printing in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about the Printing feature in Blazor Diagram component and more.
+description: Print the Blazor Diagram Component with custom region, page size, orientation, margins, and single or multi-page fit options.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
