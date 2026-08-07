@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How-To Guides in Blazor Diagram Component | Syncfusion®
-description: Learn how to perform common tasks in the Blazor Diagram Component, including adding nodes, measuring diagram elements, and loading data using methods and properties.
+description: Learn how to perform common tasks in the Blazor Diagram Component, including adding nodes, measuring elements, and loading data using methods and properties.
 platform: diagram-sdk
 control: DiagramComponent
 documentation: ug
