@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD010 -->
 
-In graphical user interfaces (GUIs), a context menu is a menu that opens on right-click and can create a nested level of context menu items.
+In graphical user interfaces (GUIs), a context menu is a menu that opens on right-click and can include nested submenu items.
 The Diagram component provides built-in context menu items and supports custom items through the [ContextMenuSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html) property.
 
 ## How to Enable Default Context Menu

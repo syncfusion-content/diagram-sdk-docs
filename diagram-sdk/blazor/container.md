@@ -186,7 +186,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ![Blazor Diagram Container Header](images/ContainerImages/ContainerWithHeader.webp)
 
->Note: Edit the header by double-clicking the header region, or by pressing F2.
+>**Note:** Edit the header by double-clicking the header region, or by pressing F2.
 
 ### How to Add Containers to the Symbol Palette
 
@@ -214,7 +214,7 @@ The following code example shows how to define containers and add them to the sy
     //Define symbol margin.
     private SymbolMargin _symbolMargin = new SymbolMargin { Left = 15, Right = 15, Top = 15, Bottom = 15 };
     //Define palattes collection.
-    private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
+    private DiagramObjectCollection<Palette> _palettes;
     // Defines palette's container-shape collection.
     private DiagramObjectCollection<NodeBase> _containerNodes = new DiagramObjectCollection<NodeBase>();
 

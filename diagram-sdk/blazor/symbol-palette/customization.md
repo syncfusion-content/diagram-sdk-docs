@@ -59,7 +59,7 @@ The following code example illustrates how to change the size of a symbol and up
 </div>
 
 @code {
-    //Define symbolpreview
+    //Define symbol preview
     private DiagramSize _symbolPreview;
     //Define symbolmargin
     private SymbolMargin _symbolMargin = new SymbolMargin { Left = 15, Right = 15, Top = 15, Bottom = 15 };
@@ -1099,15 +1099,15 @@ Here is an example demonstrating how to use the [EnableChunkMessages](https://he
 @code{
 
     private DiagramSize _symbolDragPreviewSize;
-    private DiagramObjectCollection<Palette> _palettes;
+    private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
     private double _symbolHeight = 75;
     private double _symbolWidth = 75;
 
     protected override void OnInitialized()
     {
-        symbolDragPreviewSize = new DiagramSize();
-        symbolDragPreviewSize.Width = 80;
-        symbolDragPreviewSize.Height = 80;
+        _symbolDragPreviewSize = new DiagramSize();
+        _symbolDragPreviewSize.Width = 80;
+        _symbolDragPreviewSize.Height = 80;
         InitializeFloorPlannerPalettes();
     }
 

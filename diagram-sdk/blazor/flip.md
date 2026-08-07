@@ -26,8 +26,7 @@ The [FlipDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diag
 |[Horizontal](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html#Syncfusion_Blazor_Diagram_FlipDirection_Horizontal)| It is used to flip the node or connector to be mirrored across the horizontal axis.|
 |[Vertical](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html#Syncfusion_Blazor_Diagram_FlipDirection_Vertical)| It is used to flip the node or connector to be mirrored across the vertical axis.|
 |[Both](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html#Syncfusion_Blazor_Diagram_FlipDirection_Both)| It is used to flip the node or connector to be mirrored across the horizontal and vertical axes.|
-|[None](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html#Syncfusion_Blazor_Diagram_FlipDirection_None)| It is used to disable all the flip behavior. |  
-
+|[None](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html#Syncfusion_Blazor_Diagram_FlipDirection_None)| It is used to disable all the flip behavior. |
 
 ### How to Change the Flip Mode
 
@@ -42,7 +41,6 @@ The [DiagramFlipMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Di
 |[PortAndLabelOnly](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramFlipMode.html#Syncfusion_Blazor_Diagram_DiagramFlipMode_PortAndLabelOnly)| Flips the node along with ports and annotations, excluding the annotation text.|
 |[PortWithLabelText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramFlipMode.html#Syncfusion_Blazor_Diagram_DiagramFlipMode_PortWithLabelText)| Flips the node along with ports and annotation text, excluding the annotation elements.|
 |[LabelOnly](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramFlipMode.html#Syncfusion_Blazor_Diagram_DiagramFlipMode_LabelOnly)| Flips the node along with annotations, excluding their text.|
-
 
 >**Note:** The `FlipMode` property applies only to nodes. It does not affect connectors or other diagram elements.
 
@@ -222,7 +220,6 @@ The following code example shows how to flip the node.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Flip/FlipDirectionSample.razor)
 
-
 | FlipDirection | DiagramFlipMode | Output|
 | -------- | -------- | -------- |
 |Horizontal|Content| ![HorizontalDirection with Content Mode](./images/blazor-diagram-flip-direction-as-Horizontal-flip-mode-as-content.webp)|
@@ -251,10 +248,12 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 |Both|None|![BothDirection with None Mode](./images/blazor-diagram-flip-direction-as-both-flip-mode-as-none.webp)|
 
 ![Flip](./images/blazor-diagram-flip-node.webp)
-## How to flip the Group Node
-The flip functionality for a group node is similar to that of normal nodes. However, when flipping a group node, the flip of its child nodes is combined with the group’s flip. This combination ensures that the child nodes inherit the group’s flip while retaining their own individual flips.
 
- Example:
+## How to flip the Group Node
+
+The flip functionality for a group node is similar to that of normal nodes. However, when flipping a group node, child node flip and group flip are both applied. This combination ensures that the child nodes inherit the group’s flip while retaining their own individual flips.
+
+Example:
 
 - If a child node’s flip is set to Vertical and the group node’s flip is set to Horizontal, the resulting flip for the child node will be a combination of Vertical and Horizontal (effectively a “both” flip).
 - This ensures that the child nodes’ orientations adapt dynamically based on the group’s flip while maintaining their unique flip settings.
@@ -265,7 +264,6 @@ The `FlipMode` of a group node behaves similarly to that of normal nodes. Howeve
 
 For example, in the below code, the flipMode for the child node is set to `Text`. The flipMode for the group node is set to `Content`. As a result, the effective flipMode for both the child node and the group node will be `Content`,
 as the group node’s flipMode overrides the child’s.
-
 
 The following code example shows how to flip the group.
 
@@ -357,11 +355,12 @@ The following code example shows how to flip the group.
             Ports = new DiagramObjectCollection<PointPort>()
             {
                new PointPort()
-               {   ID="port3",
-                   Style = new ShapeStyle(){ Fill = "gray" },
-                   Offset = new DiagramPoint() { X = 0, Y = 0 },
-                   Width=14,Height=14,
-                   Visibility = PortVisibility.Visible
+               {   
+                    ID="port3",
+                    Style = new ShapeStyle(){ Fill = "gray" },
+                    Offset = new DiagramPoint() { X = 0, Y = 0 },
+                    Width=14,Height=14,
+                    Visibility = PortVisibility.Visible
                }
             },
         };
@@ -393,11 +392,12 @@ The following code example shows how to flip the group.
             Ports = new DiagramObjectCollection<PointPort>()
             {
                new PointPort()
-               {   ID="port4",
-                   Style = new ShapeStyle(){ Fill = "gray" },
-                   Offset = new DiagramPoint() { X = 0, Y = 0 },
-                   Width=14,Height=14,
-                   Visibility = PortVisibility.Visible
+               {   
+                    ID="port4",
+                    Style = new ShapeStyle(){ Fill = "gray" },
+                    Offset = new DiagramPoint() { X = 0, Y = 0 },
+                    Width=14,Height=14,
+                    Visibility = PortVisibility.Visible
                }
             },
         };
@@ -418,11 +418,12 @@ The following code example shows how to flip the group.
             Ports = new DiagramObjectCollection<PointPort>()
             {
                new PointPort()
-               {   ID="port4",
-                   Style = new ShapeStyle(){ Fill = "gray" },
-                   Offset = new DiagramPoint() { X = 0, Y = 0},
+               {   
+                    ID="port4",
+                    Style = new ShapeStyle(){ Fill = "gray" },
+                    Offset = new DiagramPoint() { X = 0, Y = 0},
                     Width=14,Height=14,
-                   Visibility = PortVisibility.Visible
+                    Visibility = PortVisibility.Visible
                }
             },
         };

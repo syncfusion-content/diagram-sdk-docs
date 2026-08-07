@@ -1481,7 +1481,6 @@ GraphQL is a query language for APIs that allows you to can get exactly what you
         };
       
     }
-    @*End:Hidden*@
     private void OnConnectorCreating(IDiagramObject obj)
     {
         Connector connector = obj as Connector;
@@ -1648,7 +1647,6 @@ The following variables are passed as a parameter to the mutation method written
             };
 
     }
-    @*End:Hidden*@
     private void OnConnectorCreating(IDiagramObject obj)
     {
         Connector connector = obj as Connector;

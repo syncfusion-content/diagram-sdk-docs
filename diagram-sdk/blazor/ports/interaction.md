@@ -125,7 +125,6 @@ Change the default connector type while drawing the connector from the port by s
 * Orthogonal
 * Free Hand
 
-
 The following code explains how to draw the connector by using port constraints.
 
 ```cshtml
