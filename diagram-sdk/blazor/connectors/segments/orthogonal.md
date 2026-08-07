@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Orthogonal Segments in Blazor Diagram Component | Syncfusion®
-description: Check out and learn about how to create Orthogonal Segments in Blazor Diagram component and much more details.
+description: Route connectors in the Blazor Diagram Component as orthogonal segments to create clean, right-angled paths for flowcharts and process diagrams.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
