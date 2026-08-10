@@ -45,7 +45,7 @@ The following code example illustrates how to print the region occupied by the d
 <SfButton Content="Print" OnClick="@OnPrintAsync" />
 
 <SfDiagramComponent Height="600px" @ref="@_diagram">
-    <PageSettings MultiplePage="true" Width="@_width" Height="@_height" Orientation="@_pageOrientation" ShowPageBreaks="@_showPageBreak">
+    <PageSettings MultiplePage="@_multiplePage" Width="@_width" Height="@_height" Orientation="@_pageOrientation" ShowPageBreaks="@_showPageBreak">
         <PageMargin Left="@_left" Right="@_right" Top="@_top" Bottom="@_bottom"></PageMargin>
     </PageSettings>
 </SfDiagramComponent>

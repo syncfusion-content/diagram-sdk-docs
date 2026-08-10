@@ -83,7 +83,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 | Property | Type | Description |
 |---|---|---|
 | [ID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_ID) | string | A unique identifier for the participant |
-| [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_Content]) | string | The display text for the participant |
+| [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_Content) | string | The display text for the participant |
 | [IsActor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_IsActor) | bool | Determines if the participant is displayed as an actor (true) or object (false) |
 | [ShowDestructionMarker](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_ShowDestructionMarker) | bool | Determines if a destruction marker (X) is shown at the end of the lifeline |
 | [ActivationBoxes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceParticipant.html#Syncfusion_Blazor_Diagram_UmlSequenceParticipant_ActivationBoxes) | IEnumerable\<UmlSequenceActivationBox\> | Collection of activation boxes for this participant |

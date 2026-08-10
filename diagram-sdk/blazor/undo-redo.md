@@ -129,7 +129,8 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rNrxjHqZLFSrQLIZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[StackLimit in Blazor Diagram](images/stackLimitGIF.webp)" %}
 
-## Current entry
+## How to Get the Current History Entry
+
 We can also get the current history entry from the [CurrentEntry](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html#Syncfusion_Blazor_Diagram_DiagramHistoryManager_CurrentEntry) property of the [DiagramHistoryManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html) that allows to track changes occurring during the undo or redo process.
 
 The following code shows how to get the current entry from the diagram history:
@@ -363,13 +364,14 @@ The [Undo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Diagr
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Undo-Redo/CustomUndoRedo.razor)
 
 ## How to enable and disable undo and redo
+
 The Blazor Diagram component provides properties to control the availability of undo and redo operations. Use the [CanUndo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html#Syncfusion_Blazor_Diagram_DiagramHistoryManager_CanUndo) and [CanRedo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html#Syncfusion_Blazor_Diagram_DiagramHistoryManager_CanRedo) properties of the `DiagramHistoryManager` to enable or disable undo and redo functionality programmatically.
 
 This feature is useful when want to temporarily restrict users from performing undo or redo operations based on certain conditions or application states.
 
 **Key Points:**
-* *CanUndo:* When set to **false**, prevents undo operations from being executed, even if there are entries in the undo history.
-* *CanRedo:* When set to **false**, prevents redo operations from being executed, even if there are entries in the redo history.
+* **CanUndo:** When set to **false**, prevents undo operations from being executed, even if there are entries in the undo history.
+* **CanRedo:** When set to **false**, prevents redo operations from being executed, even if there are entries in the redo history.
 * These properties affect both programmatic calls to Undo() and Redo() methods as well as keyboard shortcuts (Ctrl+Z and Ctrl+Y).
 * The properties can be toggled dynamically based on your application's requirements.
 

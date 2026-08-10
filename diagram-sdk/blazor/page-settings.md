@@ -9,7 +9,7 @@ documentation: ug
 
 # Page Settings in Diagram Component
 
-By default, the diagram page size is decided based on the position of its diagram elements. The size and appearance of diagram pages can be customized using the [PageSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html) property of the diagram.
+By default, diagram page size is determined by the position of its elements. The size and appearance of diagram pages can be customized using the [PageSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html) property of the diagram.
 
 * The [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html#Syncfusion_Blazor_Diagram_PageSettings_Width) and [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html#Syncfusion_Blazor_Diagram_PageSettings_Height) properties of `PageSettings` define the size of the page. The default `Width` is **1123 pixels**, and `Height` is **794 pixels**.
 
@@ -18,6 +18,11 @@ By default, the diagram page size is decided based on the position of its diagra
 * Page breaks are visual guide to show how the pages are split into multiple pages. The [ShowPageBreaks](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html#Syncfusion_Blazor_Diagram_PageSettings_ShowPageBreaks) property decides the visibility of page breaks. By default, this property is set to **false**. If it is **true**, then the page break lines will be visible.
 
 * To explore those properties, refer to [PageSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html).
+
+|Orientation|Output|
+|-------|-------|
+|[Landscape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageOrientation.html#Syncfusion_Blazor_Diagram_PageOrientation_Landscape)|![Landscape Orientation](./images/LandscapeOrientation.webp)|
+|[Portrait](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageOrientation.html#Syncfusion_Blazor_Diagram_PageOrientation_Portrait)|![Portrait Orientation](./images/PortraitOrientation.webp)|
 
 To learn more about customization of diagram page, refer to the below video link,
 
@@ -68,11 +73,6 @@ To learn more about customization of diagram page, refer to the below video link
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BjBHDxVEopxQZPVT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/PageSettings/PageAppearance.razor)
-
-|Orientation|Output|
-|-------|-------|
-|[Landscape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageOrientation.html#Syncfusion_Blazor_Diagram_PageOrientation_Landscape)|![Landscape Orientation](./images/LandscapeOrientation.webp)|
-|[Portrait](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageOrientation.html#Syncfusion_Blazor_Diagram_PageOrientation_Portrait)|![Portrait Orientation](./images/PortraitOrientation.webp)|
 
 ## How to Enable Multiple Pages
 
@@ -210,7 +210,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Change Page Margins
 
-The area between the maintain content of a page and the page edges can be changed by using the [PageMargin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageMargin.html) property. The default margins are **25 pixels** on all sides.
+The area between the main content of a page and the page edges can be changed by using the [PageMargin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageMargin.html) property. The default margins are **25 pixels** on all sides.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -229,6 +229,35 @@ The area between the maintain content of a page and the page edges can be change
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VDVdNRrOeflYwwoQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/PageSettings/Margin.razor)
+
+## How to Handle Page Settings Property Changes Using Callback Methods
+
+* BackgroundChanged : Specifies the callback to trigger when the Background value changes.
+* BoundaryConstraintsChanged : Specifies the callback to trigger when the BoundaryConstraints value changes.
+* HeightChanged : Specifies the callback to trigger when the height value changes.
+* MarginChanged : Specifies the callback to trigger when the Margin value changes.
+* MultiplePageChanged :Specifies the callback to trigger when the MultiplePage value changes.
+* OrientationChanged : Specifies the callback to trigger when the Orientation value changes.
+* ShowPageBreaksChanged : Specifies the callback to trigger when the ShowPageBreaks value changes.
+* WidthChanged : Specifies the callback to trigger when the width value changes.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Height="600px">
+    @* Sets the ScrollLimit of scroll settings *@
+     <PageSettings BackgroundChanged="OnBackgroundChanged"></PageSettings>
+</SfDiagramComponent>
+
+@code
+{
+    private void OnBackgroundChanged()
+    {
+       // Enter your code.
+    }
+}
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBRXdBOooVtvvgL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## How to Restrict Node Interaction Using Boundary Constraints
 
@@ -334,36 +363,6 @@ The following code example illustrates how to set width and height in percentage
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rDVHXxrkeeCvXRqz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/PageSettings/ResponsiveWithParentContainer.razor)
-
-## How to Handle Page Settings Property Changes Using Callback Methods
-
-* BackgroundChanged : Specifies the callback to trigger when the Background value changes.
-* BoundaryConstraintsChanged : Specifies the callback to trigger when the BoundaryConstraints value changes.
-* HeightChanged : Specifies the callback to trigger when the height value changes.
-* MarginChanged : Specifies the callback to trigger when the Margin value changes.
-* MultiplePageChanged :Specifies the callback to trigger when the MultiplePage value changes.
-* OrientationChanged : Specifies the callback to trigger when the Orientation value changes.
-* ShowPageBreaksChanged : Specifies the callback to trigger when the ShowPageBreaks value changes.
-* WidthChanged : Specifies the callback to trigger when the width value changes.
-
-
-```cshtml
-@using Syncfusion.Blazor.Diagram
-
-<SfDiagramComponent Height="600px">
-    @* Sets the ScrollLimit of scroll settings *@
-     <PageSettings BackgroundChanged="OnBackgroundChanged"></PageSettings>
-</SfDiagramComponent>
-
-@code
-{
-    private void OnBackgroundChanged()
-    {
-       // Enter your code.
-    }
-}
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VtBRXdBOooVtvvgL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## See also 
 

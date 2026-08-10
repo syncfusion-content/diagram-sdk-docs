@@ -102,7 +102,7 @@ The following code illustrates how to create an overview.
         new HierarchicalDetails(){ Name ="Management", Category="Organizational chart",FillColor="#659be5"},
         new HierarchicalDetails(){ Name ="Human resources", Category="Management",FillColor="#659be5"},
         new HierarchicalDetails(){ Name ="University", Category="Management",FillColor="#659be5"},
-        new HierarchicalDetails(){ Name ="Business", Category="#Management",FillColor="#659be5"}
+        new HierarchicalDetails(){ Name ="Business", Category="Management",FillColor="#659be5"}
     };
 }
 ```
