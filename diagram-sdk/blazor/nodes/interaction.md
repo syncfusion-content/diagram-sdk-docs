@@ -235,7 +235,7 @@ Rotation is also supported during interaction:
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZVHZdroqFynFImD?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Rotating a node using the rotation handle in Blazor Diagram](../images/blazor-diagram-node-rotation.webp)" %}
 
-## How to Rotate a Rode Using the RotationAngle Property
+## How to Rotate a Node Using the RotationAngle Property
 
 The [RotationAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_RotationAngle)  property gets or sets the rotation angle of a node in degrees. This defines the fixed angle at which the node is displayed. The default value is **0**.
 
@@ -268,7 +268,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Flip a Node
 
-The [Flip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Flip) and [FlipMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_FlipMode) properties are used to give the mirrored image of the original element. `FlipMode` accepts [FlipDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html) values such as `Horizontal`, `Vertical`, or `Both`.
+The [Flip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Flip) and [FlipMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_FlipMode) properties are used to give the mirrored image of the original element. `FlipMode` accepts [FlipDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html) values such as **Horizontal**, **Vertical**, or **Both**.
 
 The following code example illustrates how to flip a node horizontally and vertically at runtime.
 

@@ -837,7 +837,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hXrdXxrugEPhQYwj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[ConnectorSplitting](../images/ConnectorSplitDemo.webp)" %}
 
->**Note:** Enable [AllowDrop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_AllowDrop) in the connector constraints to allow dropping a node. The `AllowDrop` flag must be combined with `ConnectorConstraints.Default` (using `|`) to retain the other default behaviors.
+>**Note:** Enable [AllowDrop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_AllowDrop) in the connector constraints to allow dropping a node. The **AllowDrop** flag must be combined with **ConnectorConstraints.Default** (using `|`) to retain the other default behaviors.
 
 ## How to Limit Segment Thumbs in a Connector
 

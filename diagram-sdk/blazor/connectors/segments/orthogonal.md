@@ -220,9 +220,9 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htrRDdLyTnSftFfO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Editing Orthogonal Segment in Blazor Diagram](../../images/OrthogonalThumbSettings.webp)" %}
 
-When the `InheritSegmentThumbShape` constraint is enabled in the connector, the shape specified at the diagram level will be applied to the connector's segment thumb. This allows for consistent segment thumb shapes across the diagram.
+When the **InheritSegmentThumbShape** constraint is enabled in the connector, the shape specified at the diagram level will be applied to the connector's segment thumb. This allows for consistent segment thumb shapes across the diagram.
 
-The following code example illustrates how to customize the orthogonal segment thumb shape using `InheritSegmentThumbShape` constraints.
+The following code example illustrates how to customize the orthogonal segment thumb shape using **InheritSegmentThumbShape** constraints.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

@@ -119,7 +119,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Add Margin Around Exported Diagram Image
 
-[Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramExportSettings.html#Syncfusion_Blazor_Diagram_DiagramExportSettings_Margin) specifies the space around the content to be printed/exported. The default value for margin is 25 for all sides.
+[Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramExportSettings.html#Syncfusion_Blazor_Diagram_DiagramExportSettings_Margin) specifies the space around the content to be printed/exported. The default value for margin is **25** for all sides.
 <!-- markdownlint-disable MD033 -->
 
 ```cshtml
