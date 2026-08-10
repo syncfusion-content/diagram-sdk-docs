@@ -9,6 +9,8 @@ documentation: ug
 
 # Multiple Segments in Blazor Diagram Component
 
+A segment represents a single line or curve between two points within a connector. By combining multiple segments, connectors can follow complex paths, change direction, or route around obstacles between the source and target points.
+
 ## How to Create Connectors with Multiple Segments
 
 Connectors can include a sequence of segment objects. To create a connector with multiple segments, define the segments with [ConnectorSegment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorSegment.html) class and add the segments to the [Segments](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Segments) collection. The following code example illustrates how to create a connector with multiple segments.
@@ -42,13 +44,11 @@ Connectors can include a sequence of segment objects. To create a connector with
                 new OrthogonalSegment
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Right
                 },
                 new OrthogonalSegment
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Bottom
                 }
             },
@@ -62,15 +62,13 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BNhRZRroJwivHxsq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Diagram with Multiple Segment](../../images/blazor-diagram-multiple-segment.webp)" %}
 
-* Similarly, you can create multiple segments for all the connector type.
-
-
+* Similarly, you can create multiple segments for all connector type.
 
 
 ## See also
 
-* [How to customize the connector properties](https://blazor.syncfusion.com/documentation/diagram/connectors/customization)
+* [How to customize the connector properties](https://help.syncfusion.com/diagram-sdk/blazor/connectors/customization)
 
-* [How to interact with the connector](https://blazor.syncfusion.com/documentation/diagram/connectors/interactions)
+* [How to interact with the connector](https://help.syncfusion.com/diagram-sdk/blazor/connectors/interactions)
 
-* [How to get the connector events](https://blazor.syncfusion.com/documentation/diagram/connectors/events)
+* [How to get the connector events](https://help.syncfusion.com/diagram-sdk/blazor/connectors/events)

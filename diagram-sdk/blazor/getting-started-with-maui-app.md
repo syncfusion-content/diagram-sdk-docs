@@ -13,13 +13,15 @@ This guide walks through the step-by-step process of integrating the [Blazor Dia
 
 > **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
+N> The Blazor Diagram component in a MAUI Blazor Hybrid App requires **.NET 8.0 or later** with the [.NET MAUI workload](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation) installed.
+
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
 ## Prerequisites
 
-To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/MAUI/get-started/installation?tabs=vswin) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio. For more details, refer to [the Microsoft MAUI installation guide](https://learn.microsoft.com/en-us/dotnet/MAUI/get-started/installation?tabs=vswin) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
 
 ## Create a new Blazor MAUI App in Visual Studio
 
@@ -31,7 +33,7 @@ Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://l
 
 ## Prerequisites
 
-To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio Code. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project).
+Install the .NET SDK and the .NET MAUI workload by following the [MAUI installation guide for Visual Studio Code](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code), then use a suitable Visual Studio Code extension (for example, the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project)) to create and build MAUI projects.
 
 ## Create a new Blazor MAUI App in Visual Studio Code
 
@@ -47,7 +49,7 @@ Create a Blazor MAUI App using Visual Studio Code via [Microsoft Templates](http
 
 {% tabcontent Visual Studio %}
 
-Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the NuGet Package Manager in Visual Studio (*Tools → NuGet Package Manager → Manage NuGet Packages for Solution → Select the package -> Install*).
+Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Blazor.Diagram) and [Syncfusion.Blazor.Themes](https://www.nuget.org/packages/Syncfusion.Blazor.Themes/) NuGet packages in your project using the NuGet Package Manager in Visual Studio (*Tools → NuGet Package Manager → Manage NuGet Packages for Solution → Select the package → Install*).
 
 Alternatively, run the following commands in the Package Manager Console(*Tools → NuGet Package Manager → Package Manager Console*) to achieve the same.
 
@@ -71,9 +73,11 @@ Install [Syncfusion.Blazor.Diagram](https://www.nuget.org/packages/Syncfusion.Bl
 
 N> All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
+N> Register your Syncfusion license key before calling `AddSyncfusionBlazor()` by using `Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR_LICENSE_KEY")`. A missing or invalid license will cause trial license warnings at runtime. See the [Syncfusion Licensing FAQ](https://www.syncfusion.com/sales/communitylicense) for details.
+
 ## Add import namespaces
 
-After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
+Open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
@@ -130,7 +134,7 @@ N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/app
 
 ## Add Blazor Diagram component
 
-Add the Diagram component in the **~/Pages/Home.razor** file.
+Add the Diagram component in the **~/Components/Pages/Home.razor** file (the default location in .NET 8+ MAUI Blazor Hybrid templates; older templates may use **~/Pages/Home.razor**).
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -267,24 +271,24 @@ N> [View sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-
 
 Run the sample in Windows Machine mode, and it will run Blazor MAUI in Windows.
 
-![Run Windows machine](images/blazor-diagram-maui.webp)
+![Visual Studio debug target dropdown showing the Windows Machine option selected for the Blazor MAUI app](images/blazor-diagram-maui.webp)
 
 When the application is successfully launched, the Diagram component will seamlessly render the specified diagram page.
 
-![Run Windows machine](images/blazor-diagram-maui-page.webp)
+![Blazor MAUI app running on Windows showing the rendered Syncfusion Diagram component with a flowchart of nodes and connectors](images/blazor-diagram-maui-page.webp)
 
 ## How to run the sample on Android
 
 To run the Blazor Diagram component in a Blazor Android MAUI application using the Android emulator, follow these steps:
 
-![Run Windows machine](images/blazor-diagram-maui-android.webp)
+![Visual Studio debug target dropdown showing the Android Emulator option selected for the Blazor MAUI app](images/blazor-diagram-maui-android.webp)
 
-Refer [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch Android emulator.
+Refer to [the Android device manager guide](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch Android emulator.
 
 N> If encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
 
-![Blazor Diagram Component](images/blazor-diagram-maui-andoid-page.webp )
+![Blazor MAUI app running on an Android emulator showing the rendered Syncfusion Diagram component with a flowchart of nodes and connectors](images/blazor-diagram-maui-android-page.webp)
 
 ## See also
 
-* [How to Create a Diagram Builder in MAUI platform](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform)
+* [How to Create a Diagram Builder in a .NET MAUI App](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform) — Build an interactive, end-user diagram editor on top of the Syncfusion Diagram component in a .NET MAUI app.

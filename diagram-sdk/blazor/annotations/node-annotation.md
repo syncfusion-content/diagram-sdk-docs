@@ -9,9 +9,9 @@ documentation: ug
 
 # Node Annotation in Blazor Diagram Component
 
-The diagram allows you to customize the position and appearance of the annotation efficiently. Annotations can be aligned relative to the node boundaries. It has margin, offset, horizontal, and vertical alignment settings. It is quite tricky when all four alignments are used together but gives more control over alignments properties of the [ShapeAnnotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeAnnotation.html) class.
+The diagram allows you to customize the position and appearance of the annotation efficiently. Annotations can be aligned relative to the node boundaries. It supports margin, offset, horizontal alignment, and vertical alignment settings. It is quite tricky when all four alignments are used together but gives more control over the alignment properties of the [ShapeAnnotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeAnnotation.html) class.
 
- Annotations of a node can be positioned using the following properties of `ShapeAnnotation`.
+ Node annotations can be positioned using the following properties of `ShapeAnnotation`.
 
 * Offset
 * HorizontalAlignment
@@ -79,7 +79,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 >**Note:**
 > * Type of the offset property for node’s shape annotation is [DiagramPoint](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramPoint.html).
 > * Type of the offset property for a connector’s path annotation is double.
-> * Node annotation's Id should not start with numbers or special characters and should not contain special characters such as underscores(_) or spaces.
+> * Node annotation's ID should not start with numbers or special characters and should not contain special characters such as underscores(_) or spaces.
 
 ## How to Change the Annotation Alignment
 
@@ -141,10 +141,9 @@ The following code demonstrates how to align an annotation.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Annotations/AlignmentOfNodeAnnotation.razor)
 
-
-N>* The value of the `HorizontalAlignment` is **Center** by default.
-<br/>* The value of the `VerticalAlignment` is **Center** by default.
-<br/>* Alignment is positioned based on the offset value.
+> **Note:** The default value of `HorizontalAlignment` is **Center**.
+<br/>* The default value of `VerticalAlignment` is **Center**.
+<br/>* The alignment is applied at the position determined by the offset value.
 
 ## How to Change Annotation Margin
 

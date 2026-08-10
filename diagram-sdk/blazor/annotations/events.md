@@ -273,7 +273,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Handle Text Change Event
 
-The following events are triggered when a node's or connector's annotation text is edited in the diagram. Use these events to apply custom behavior during annotation text editing.
+The following events are triggered when the annotation text of a node or connector is edited in the diagram. Use these events to apply custom behavior during annotation text editing.
 
 |Event Name|Arguments|Description|
 |------------|-----------|------------------------|
@@ -285,14 +285,14 @@ The following code example shows how to register and get notifications from the 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 
-<SfDiagramComponent TextChanging="@OnLabelTextChanging" Height="600px" TextChanged="@OnTextChanged" Nodes="@_nodes" />
+<SfDiagramComponent TextChanging="@OnAnnotationTextChanging" Height="600px" TextChanged="@OnTextChanged" Nodes="@_nodes" />
 
 @code
 {
     // Defines diagram's nodes collection.
     DiagramObjectCollection<Node> _nodes;
-    // Triggered when the node and connector's labels change in the diagram.
-    private void OnLabelTextChanging(TextChangeEventArgs args)
+    // Triggered when the annotation text changes in the diagram.
+    private void OnAnnotationTextChanging(TextChangeEventArgs args)
     {
         args.Cancel = true;
     }
@@ -328,10 +328,10 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## See also
 
-* [How to add or remove annotation constraints](../constraints#annotation-constraints)
-
-* [How to customize the annotation](./appearance)
-
 * [How to add an annotation for a Node](./node-annotation)
 
 * [How to add an annotation for a Connector](./connector-annotation)
+
+* [How to customize the annotation](./appearance)
+
+* [How to add or remove annotation constraints](../constraints#annotation-constraints)
