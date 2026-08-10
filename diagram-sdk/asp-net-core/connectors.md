@@ -286,7 +286,7 @@ The path of the connector is defined with a collection of segments. There are th
 
 ## Straight
 
-To create a straight line, specify the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/documentation/api/diagram/connector/#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector/#type-Segments) for the connector.
+To create a straight line, specify the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/documentation/api/diagram/connector#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector#type) for the connector.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -313,7 +313,7 @@ To create a straight line, specify the [`type`](https://ej2.syncfusion.com/docum
 
 
 
-The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegment/#point-PointModel) property of straight segment allows to define the end point of it.
+The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightsegment#point-PointModel) property of straight segment allows to define the end point of it.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -344,9 +344,9 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
 
 Orthogonal segments is used to create segments that are perpendicular to each other.
 
-Set the segment [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) as orthogonal to create a default orthogonal segment and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector/#segments).
+Set the segment [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments) as orthogonal to create a default orthogonal segment and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector#segments).
 
-Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://ej2.syncfusion.com/documentation/api/diagram/connector/#segments) collection.
+Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://ej2.syncfusion.com/documentation/api/diagram/connector#segments) collection.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -370,7 +370,7 @@ Multiple segments can be defined one after another. To create a connector with m
 
 
 
-The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSegment/#length) and [`direction`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSegment/) properties allows to define the flow and length of segment.
+The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalsegment#length) and [`direction`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalsegment#direction) properties allows to define the flow and length of segment.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -398,9 +398,9 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 ## How to customize Orthogonal Segment Thumb Size
 
-Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property.
-To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagram’s model.
-To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
+Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property.
+To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property in the diagram’s model.
+To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -452,7 +452,7 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 Bezier segments are used to create curve segments and the curves are configurable either with the control points or with vectors.
 
-To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) is set as `bezier` and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector/#type-Segments) for the connector.
+To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/documentation/api/diagram/connectorsegment#type) is set as `bezier` and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/connector#type) for the connector.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -476,9 +476,9 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 
 
 
-The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#point1) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#point2) properties of bezier segment enables to set the control points.
+The [`point1`](https://ej2.syncfusion.com/documentation/api/diagram/beziersegment#point1) and [`point2`](https://ej2.syncfusion.com/documentation/api/diagram/beziersegment#point2) properties of bezier segment enables to set the control points.
 
-The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#vector1) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegment/#vector2) properties of bezier segment enable you to define the vectors.
+The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/beziersegment#vector1) and [`vector2`](https://ej2.syncfusion.com/documentation/api/diagram/beziersegment#vector2) properties of bezier segment enable you to define the vectors.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -502,9 +502,9 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 
 ## How to customize Bezier Segment Thumb Size
 
-Bezier segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property.
-To change the thumb size for all Bezier connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/) property in the diagram’s model.
-To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html)constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
+Bezier segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property.
+To change the thumb size for all Bezier connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property in the diagram’s model.
+To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize)constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

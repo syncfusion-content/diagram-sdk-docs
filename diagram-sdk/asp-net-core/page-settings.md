@@ -23,7 +23,7 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 * The [`margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html#Syncfusion_EJ2_Diagrams_DiagramPageSettings_Margin) property is used to define the page margin.
 
-* To explore those properties, refer to [`Page Settings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.htmll).
+* To explore those properties, refer to [`Page Settings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

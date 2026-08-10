@@ -47,7 +47,7 @@ Diagram constraints allows to enable or disable the following behaviors:
 
 
 
-For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.htmll).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.html).
 
 ## Node constraints
 
