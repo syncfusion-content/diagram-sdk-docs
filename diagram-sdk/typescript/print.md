@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Print in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Export in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Printing in TypeScript Diagram | Syncfusion®
+description: Print the TypeScript Diagram with custom regions, multi-page output, margins, and configurable page width and orientation.
 platform: diagram-sdk
 control: Print 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Print in TypeScript Diagram control
+# Printing in TypeScript Diagram
 
 The [`print`](https://ej2.syncfusion.com/documentation/api/diagram#print) method helps to print the diagram as image.
 

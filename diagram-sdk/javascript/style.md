@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Style in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Style in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: CSS Structure in JavaScript Diagram | Syncfusion®
+description: Customize the CSS structure of the Syncfusion® JavaScript Diagram, including connector end point handles, resize thumbs, and selection visuals.
 platform: diagram-sdk
 control: Style 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Style in JavaScript Diagram control
+# CSS Structure in JavaScript Diagram
 
 ## Customizing the connector end point handle
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Port Interaction in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about Port Interaction in Blazor Diagram component and much more details.
+description: Draw connectors directly from node ports in the Blazor Diagram Component to create interactive and precise diagram connections.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Port Interaction in Diagram Component
+# Port Interaction in Blazor Diagram Component
 
 Ports can be used to start connector drawing by enabling the **Draw** flag in [PortConstraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PortConstraints.html) for the desired port.
 

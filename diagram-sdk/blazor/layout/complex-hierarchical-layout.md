@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Complex Hierarchical Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create complex hierarchical layout in Blazor Diagram component and more.
+title: Complex Hierarchical Layout in Blazor Diagram | Syncfusion®
+description: Render Blazor Diagram Component nodes in a complex hierarchical layout where a child can have multiple parents and cross connections.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

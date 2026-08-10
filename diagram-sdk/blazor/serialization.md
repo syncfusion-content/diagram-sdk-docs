@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Serialization in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to save and load the diagram elements in Blazor Diagram component and more.
+description: Save and load the Blazor Diagram Component state as a string of JSON objects, including migration of legacy SfDiagram serialized data into the native component.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Serialization in Diagram Component
+# Serialization in Blazor Diagram Component
 
 Serialization is the process of saving and loading the persistent state of a diagram.
 

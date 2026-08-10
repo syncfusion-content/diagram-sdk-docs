@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Labels in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Annotation in TypeScript Diagram | Syncfusion®
+description: Position TypeScript Diagram connector annotations with offset, alignment, displacement, segment angle, and margin.
 platform: diagram-sdk
 control: Connector Labels
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector annotations in TypeScript Diagram control
+# Connector Annotation in TypeScript Diagram
 
 Annotations of a connector can be positioned using the following properties of Annotation class.
 

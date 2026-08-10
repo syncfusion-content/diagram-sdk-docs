@@ -1,13 +1,13 @@
 ---
 layout: post
-title: DiagramIcon in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the Diagram Icon handles in Blazor Diagram component and much more details.
+title: Expand and Collapse for Nodes in Blazor Diagram | Syncfusion®
+description: Expand and collapse Blazor Diagram Component child nodes with custom icons to compress hierarchies and focus on key elements.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Expand and Collapse Support for Nodes in Blazor Diagram Component
+# Expand and Collapse for Nodes in Blazor Diagram
 
 The Diagram component supports describing the state of the node. i.e., whether the node is in an expanded or collapsed state. Use the [IsExpanded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_IsExpanded) property on a node to expand or collapse its children nodes. Expand and Collapse support is used to compress the hierarchy view so that only the root of each element are visible.
 

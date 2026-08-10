@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Action of Nodes in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about action of nodes in Blazor Diagram component and much more.
+title: Nodes in Blazor Diagram Component | Syncfusion®
+description: Create and arrange Blazor Diagram Component nodes that represent processes, entities, and data with custom shapes, sizes, and positions.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Node in Blazor Diagram Component
+# Nodes in Blazor Diagram Component
 
 Nodes are graphical objects used to represent the geometric information, process flows, internal business procedures, entities, or any other kind of data and it represents the functions of a complete system, including how it interacts with external entities, providing a clear visual representation of complex processes and relationships.
 

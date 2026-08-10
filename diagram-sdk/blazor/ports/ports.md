@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Actions of Ports in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about actions of ports in Blazor Diagram component and much more.
+title: Ports in Blazor Diagram Component | Syncfusion®
+description: Glue Blazor Diagram Component connectors to node ports for stable node-to-node and port-to-port connections that move together.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

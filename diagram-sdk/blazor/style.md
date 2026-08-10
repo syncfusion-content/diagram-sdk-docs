@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Styles in Blazor Diagram component and much more details.
+description: Style the Blazor Diagram Component handles, thumbs, gridlines, and selection visuals with custom CSS classes and selectors.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

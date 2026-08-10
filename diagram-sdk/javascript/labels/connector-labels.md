@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Labels in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Annotation in JavaScript Diagram | Syncfusion®
+description: Position connector annotations in the Syncfusion® JavaScript Diagram with offset, alignment, displacement, and segmentAngle settings.
 platform: diagram-sdk
 control: Connector Labels
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector annotations in JavaScript Diagram control
+# Connector Annotation in JavaScript Diagram
 
 Annotations of a connector can be positioned using the following properties of Annotation class.
 

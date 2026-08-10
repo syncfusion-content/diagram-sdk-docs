@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Layout events in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Layout Events in TypeScript Diagram | Syncfusion®
+description: Handle TypeScript Diagram dataLoaded, expandStateChange, and layout complete events to react to layout lifecycle.
 platform: diagram-sdk
 control: Layout events
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Layout events in TypeScript Diagram control
+# Layout Events in TypeScript Diagram
 
 ## DataLoaded event
 

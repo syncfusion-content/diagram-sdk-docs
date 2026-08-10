@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Customization in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about connector customization in Blazor Diagram component and much more details.
+title: Customization in Blazor Diagram Component | Syncfusion®
+description: Style Blazor Diagram Component connectors with custom stroke, dashes, decorators, and arrowheads at source and target endpoints.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

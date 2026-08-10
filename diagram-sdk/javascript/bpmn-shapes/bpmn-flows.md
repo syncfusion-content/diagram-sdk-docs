@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn Flows in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Flow shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Flow Connectors in JavaScript Diagram | Syncfusion®
+description: Connect BPMN flow objects with Association, Sequence, and Message flows in the Syncfusion® JavaScript Diagram control.
 platform: diagram-sdk
 control: Bpmn Flows
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN flows in JavaScript Diagram control
+# BPMN Flow Connectors in JavaScript Diagram
 
 [`BPMN Flows`](../../api/diagram/bpmnFlow#BpmnFlow) are lines that connects BPMN flow objects.
 

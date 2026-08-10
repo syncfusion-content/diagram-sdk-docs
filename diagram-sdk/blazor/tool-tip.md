@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Tooltip in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn all the features about the Tooltip support in Blazor Diagram component and much more.
+description: Show interactive tooltips on Blazor Diagram Component nodes, connectors, and resize or rotate operations with custom content.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Tooltip in Diagram Component
+# Tooltip in Blazor Diagram Component
 
 In a Graphical User Interface (GUI), a tooltip is an informative pop-up message that appears when the user hovers their cursor over an interactive element. The diagram component offers comprehensive tooltip support, enhancing user experience during various interactions. These tooltips are displayed when dragging, resizing, or rotating nodes, as well as when the mouse hovers over any diagram element, providing contextual information and improving overall usability.
 

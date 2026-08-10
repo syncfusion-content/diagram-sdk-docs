@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Diagram Events in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Diagram events in Blazor Diagram component and much more.
+title: Events in Blazor Diagram Component | Syncfusion®
+description: Subscribe to created, click, key, drag, drop, and auto-scroll events on the Blazor Diagram Component to customize user interactions.
 platform: diagram-sdk
 control: DiagramComponent
 documentation: ug
 ---
 
-# Diagram Events in Blazor Diagram Component
+# Events in Blazor Diagram Component
 
 ## How to Use the Created Event
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Symbol Palette in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Symbol Palette in Blazor Diagram component and much more details.
+description: Drag and drop predefined nodes, connectors, and groups from the Blazor Diagram Component symbol palette onto the diagram canvas.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Symbol Palette in Diagram Component
+# Symbol Palette in Blazor Diagram Component
 
 The [SymbolPalette](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.html) component displays a collection of [Palettes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Palettes), each containing predefined nodes and connectors. This versatile tool enables users to easily drag and drop these elements into the diagram, streamlining the process of creating and modifying diagrams efficiently.
 

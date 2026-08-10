@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Page Settings in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Page Setting in Blazor Diagram component and much more.
+description: Set Blazor Diagram Component page width, height, orientation, margins, and page-break visibility to control print and export layout.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Page Settings in Diagram Component
+# Page Settings in Blazor Diagram Component
 
 By default, diagram page size is determined by the position of its elements. The size and appearance of diagram pages can be customized using the [PageSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html) property of the diagram.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Multiple segments in JavaScript Diagram control | Syncfusion®
-description: Learn here how to create connectors with multiple segments in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Multiple Segments in JavaScript Diagram | Syncfusion®
+description: Compose connectors with multiple straight, orthogonal, or bezier segments in the Syncfusion® JavaScript Diagram for complex routing paths.
 platform: diagram-sdk
 control: Multiple segments
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Create multiple segments
+# Multiple Segments in JavaScript Diagram
 
 Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to the [`segments`] collection. The following code example illustrates how to create a connector with multiple segments.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with Diagram in Blazor WASM App | Syncfusion®
-description: Checkout and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
+title: Getting Started with Blazor Diagram in Blazor WASM App | Syncfusion®
+description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Getting Started with Diagram Component in the Blazor WASM App
+# Getting Started with Blazor Diagram in Blazor WASM App
 
 This section explains the step-by-step process for integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component into a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/). We'll break it down into simple steps to make it easy to follow. Additionally, you can find a fully functional example project on our [GitHub repository](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/DiagramComponent).
 

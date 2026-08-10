@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to Use Diagram Methods and Properties | Syncfusion®
-description: Checkout and learn here all about how to achieve common use cases in Blazor Diagram component, it's elements and more.
+title: How-To Guides in Blazor Diagram Component | Syncfusion®
+description: Learn how to perform common tasks in the Blazor Diagram Component, including adding nodes, measuring elements, and loading data using methods and properties.
 platform: diagram-sdk
 control: DiagramComponent
 documentation: ug
 ---
 
-# How to Use Diagram Methods and Properties for Common Scenarios
+# How-To Guides in Blazor Diagram Component
 
 The diagram's core functionalities are implemented through a comprehensive set of methods and properties, enabling robust manipulation and interaction with diagram elements.
 

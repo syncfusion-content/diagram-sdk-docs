@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connector Segments in Blazor Diagram Component | Syncfusion®
-description: Check out and learn all the features about Connector Segments in Blazor Diagram component and much more details.
+description: Define Blazor Diagram Component connector paths with straight, orthogonal, or Bezier segments for flexible relationship rendering.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

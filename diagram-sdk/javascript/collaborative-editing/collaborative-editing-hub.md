@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SignalR Hub for JavaScript Diagram | Syncfusion
-description: Checkout and learn to implement SignalR hub services with Redis for real-time collaborative editing in Syncfusion JavaScript Diagram.
+title: SignalR Hub Services in JavaScript Diagram | Syncfusion®
+description: Implement ASP.NET Core SignalR hub services with Redis in the Syncfusion® JavaScript Diagram for real-time collaborative editing.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
@@ -9,7 +9,7 @@ publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# SignalR hub configuration for collaborative editing
+# SignalR Hub Services in JavaScript Diagram
 
 ## Overview
 

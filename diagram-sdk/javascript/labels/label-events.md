@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Label Events in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation Events in JavaScript Diagram | Syncfusion®
+description: Handle keyDown, keyUp, doubleClick, and textEdit events on annotations in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Label Events
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Annotation events.
+# Annotation Events in JavaScript Diagram
 
 There are some events which will trigger while interacting with annotation.
 * KeyDown.

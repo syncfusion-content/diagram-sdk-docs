@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flowchart Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create flowchart layout in Blazor Diagram component and much more details.
+description: Auto-arrange Blazor Diagram Component process flows with the flowchart layout using standard symbols and directional connectors.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Sequence diagram model in Blazor Diagram Component | Syncfusion®
-description: Check out and learn here all about Sequence diagram model support in Blazor Diagram component and more.
+title: UML Sequence Diagram in Blazor Diagram Component | Syncfusion®
+description: Render UML sequence diagrams in the Blazor Diagram Component with participants, messages, activation boxes, and combined fragments.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Sequence Diagram Model in Blazor diagram component
+# UML Sequence Diagram in Blazor Diagram Component
 
 A sequence diagram is a type of interaction diagram that visually represents how objects communicate with each other in a particular sequence over time. The [SfDiagramComponent](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html) in the Blazor suite supports the creation and visualization of UML sequence diagrams through the dedicated [UmlSequenceDiagramModel](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSequenceDiagramModel.html) class.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Phase in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Swim lane in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Phase in JavaScript Diagram | Syncfusion®
+description: Split a Swimlane into horizontal or vertical phases in the Syncfusion® JavaScript Diagram to represent subprocesses or timeline stages.
 platform: diagram-sdk
 control: Phase 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-## Phase
+# Phase in JavaScript Diagram
 
  Phase are the subprocess which will split each lanes as horizontally or vertically based on the swimlane orientation. We can add multiple number of [`Phase`](../../api/diagram/phaseModel) to swimlane.
 

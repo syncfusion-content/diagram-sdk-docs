@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Straight connector in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Straight in TypeScript Diagram | Syncfusion®
+description: Draw straight TypeScript Diagram connectors by adding a Straight segment with a point and editing ends at runtime.
 platform: diagram-sdk
 control: Straight 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# Straight connector in TypeScript Diagram control
+# Straight in TypeScript Diagram
 
 To create a straight line, specify the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments) of the segment as **straight** and add a straight segment to [`segments`](https://ej2.syncfusion.com/documentation/api/diagram/connector#segments) collection and need to specify [`type`](https://ej2.syncfusion.com/documentation/api/diagram/segments) for the connector. The following code example illustrates how to create a default straight segment.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ej1 api migration in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Ej1 api migration in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: EJ1 Migration in JavaScript Diagram | Syncfusion®
+description: Migrate the Syncfusion® JavaScript Diagram from Essential® JS 1 to Essential® JS 2 with a side-by-side API mapping for properties, methods, and events.
 platform: diagram-sdk
 control: Ej1 api migration 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Ej1 api migration in JavaScript Diagram control
+# EJ1 Migration in JavaScript Diagram
 
 This article describes the API migration process of Diagram component from Essential® JS 1 to Essential® JS 2.
 

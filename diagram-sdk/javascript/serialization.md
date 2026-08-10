@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Serialization in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Serialization in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Serialization in JavaScript Diagram | Syncfusion®
+description: Save and load the Syncfusion® JavaScript Diagram as a JSON string with saveDiagram and loadDiagram for persisting diagram state.
 platform: diagram-sdk
 control: Serialization 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Serialization in JavaScript Diagram control
+# Serialization in JavaScript Diagram
 
 **Serialization** is the process of converting the state of the diagram into a format that can be saved and later restored. This ensures that the diagram's current state, including its nodes, connectors, and configurations, can be persisted across sessions.
 

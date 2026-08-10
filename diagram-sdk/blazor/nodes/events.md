@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Node Events in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Node Events in Blazor Diagram component and much more details.
+description: Handle Blazor Diagram Component selection, position, size, and rotation events on nodes to add validation or custom UI feedback.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Events and Constraints in Diagram Component
+# Node Events in Blazor Diagram Component
 
 ## Events
 

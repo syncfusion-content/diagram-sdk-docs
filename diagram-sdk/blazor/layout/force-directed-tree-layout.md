@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Force-Directed Tree Layout in Blazor Diagram Component | Syncfusion®
-description: Learn how to create and customize the Force-Directed Tree Layout in the Blazor Diagram component through detailed steps and examples.
+title: Force Directed Tree Layout in Blazor Diagram | Syncfusion®
+description: Stabilize Blazor Diagram Component networks with the force-directed tree layout that simulates attractive and repulsive node forces.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Force-Directed Tree Layout in Blazor Diagram Component
+# Force Directed Tree Layout in Blazor Diagram Component
 
 The Force-Directed Tree Layout is a physics-based algorithm that arranges nodes by simulating attractive and repulsive forces. This layout is ideal for visualizing complex relationships such as social networks, dependency graphs, and knowledge maps.
 

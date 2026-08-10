@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Nodes in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Nodes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Nodes in JavaScript Diagram | Syncfusion®
+description: Create, position, and stack nodes in the Syncfusion® JavaScript Diagram. Add text, image, HTML, basic, and flow shapes via the nodes collection.
 platform: diagram-sdk
 control: Nodes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Nodes in JavaScript Diagram control
+# Nodes in JavaScript Diagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure, entity, or any other kind of data, and it represents the functions of a complete system regarding to how it interacts with external entities.
 
