@@ -18,7 +18,7 @@ Some print options cannot be configured through JavaScript code. Therefore, the 
 * [Chrome](https://support.google.com/chrome/answer/1069693?hl=en&visit_id=1-636335333734668335-3165046395&rd=1)
 * [Firefox](https://support.mozilla.org/en-US/kb/how-print-web-pages-firefox)
 * [Safari](https://www.mintprintables.com/print-tips/adjust-margins-osx/)
-* [IE](http://www.helpteaching.com/help/print/index.htm)
+* [IE](https://www.helpteaching.com/help/print/index.htm)
 
 ## How to Customize Printing Options
 
@@ -34,7 +34,7 @@ Customize the print output using the properties of the [DiagramPrintSettings](ht
 | [Orientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramPrintSettings.html#Syncfusion_Blazor_Diagram_DiagramPrintSettings_Orientation) | Sets the orientation of the page. |
 | [ClipBounds](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramPrintSettings.html#Syncfusion_Blazor_Diagram_DiagramPrintSettings_ClipBounds) | Sets the custom bounds for the region of the diagram to be printed.|
 
-These properties behave the same as the properties in the [DiagramExportSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramExportSettings.html) class. For more details, [refer](https://blazor.syncfusion.com/documentation/diagram/export#exporting-options) 
+These properties behave the same as the properties in the [DiagramExportSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramExportSettings.html) class. For more details, [refer](https://help.syncfusion.com/diagram-sdk/blazor/export#exporting-options) 
 
 The following code example illustrates how to print the region occupied by the diagram elements using diagram [PageSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PageSettings.html).
 

@@ -631,7 +631,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## See also
 
-- [Getting Started with Syncfusion Blazor Diagram](https://blazor.syncfusion.com/documentation/diagram/getting-started)
+- [Getting Started with Syncfusion Blazor Diagram](https://help.syncfusion.com/diagram-sdk/blazor/getting-started)
 - [SfDiagramComponent API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html)
 - [UmlClassifierShape API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlClassifierShape.html)
 - [RelationShip API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RelationShip.html)

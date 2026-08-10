@@ -522,7 +522,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Enable or Disable Node Behaviors Using Constraints
 
-The node [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Constraints) property enables or disables specific features (for example, select, drag, resize, rotate). For more information about node constraints, refer to the [Node Constraints](https://blazor.syncfusion.com/documentation/diagram/constraints#node-constraints).
+The node [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Constraints) property enables or disables specific features (for example, select, drag, resize, rotate). For more information about node constraints, refer to the [Node Constraints](https://help.syncfusion.com/diagram-sdk/blazor/constraints#node-constraints).
 
 ## See also
 
