@@ -196,7 +196,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Prevent Segment Reset
 
-To prevent the segments from being updated dynamically when the connector's ends are moved, set [BezierConnectorSettings.AllowSegmentsReset](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_AllowSegmentsReset) to **False**.
+To prevent the segments from being updated dynamically when the connector's ends are moved, set [BezierConnectorSettings.AllowSegmentsReset](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_AllowSegmentsReset) to **false**.
 
 
 ```cshtml

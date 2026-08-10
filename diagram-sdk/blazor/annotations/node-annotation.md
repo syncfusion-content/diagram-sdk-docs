@@ -142,7 +142,7 @@ The following code demonstrates how to align an annotation.
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Annotations/AlignmentOfNodeAnnotation.razor)
 
 
-> * The default value of `HorizontalAlignment` is Center.
+> * The default value of `HorizontalAlignment` is **Center**.
 <br/>* The default value of `VerticalAlignment` is **Center**.
 <br/>* The alignment is applied at the position determined by the offset value.
 

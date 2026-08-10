@@ -11,7 +11,7 @@ documentation: ug
 
 ## How to Edit Bezier Segments Using Bezier Connector Settings
 
-The intermediate points between adjacent Bezier segments can be edited interactively by using the [BezierConnectorSettings.SegmentEditOrientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_SegmentEditOrientation) property of the Connector class. The default value of `SegmentEditOrientation` is `Bidirectional`.
+The intermediate points between adjacent Bezier segments can be edited interactively by using the [BezierConnectorSettings.SegmentEditOrientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_SegmentEditOrientation) property of the Connector class. The default value of `SegmentEditOrientation` is **Bidirectional**.
 
 | SegmentEditOrientation value | Description | Output |
 |-------- | -------- | -------- |

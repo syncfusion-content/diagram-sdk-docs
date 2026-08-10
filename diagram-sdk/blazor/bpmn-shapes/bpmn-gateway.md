@@ -52,7 +52,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ![GateWay BPMN Shape](../images/bpmn-gataway-none.webp)
 
-> By default, the `GatewayType` will be set to **None.**
+> **Note:** By default, the `GatewayType` will be set to **None**.
 
 The following table describes the available gateway types.
 

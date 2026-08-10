@@ -190,8 +190,6 @@ If your application uses `Per page/component` interactivity, add the render mode
 
 > The `@using Syncfusion.Blazor.Diagram` directive can be omitted if it is already declared in `~/_Imports.razor` (as described in the previous step).
 
-Run the application at this point. You should see an empty diagram area. If the page is blank or shows a script error, jump to the [Troubleshooting](#troubleshooting) section before continuing.
-
 N> The following table shows which render mode to choose for each hosting model:
 
 | Hosting model | Render mode | Use case |

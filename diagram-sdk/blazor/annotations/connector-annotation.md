@@ -181,7 +181,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Update Annotation Segment Angle
 
-The [SegmentAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_SegmentAngle) property is used to rotate the annotation based on the connector segment direction. By default, the annotation is displayed without rotation. When you set `SegmentAngle` to `true`, the annotation rotates to match the connector segment direction.
+The [SegmentAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PathAnnotation.html#Syncfusion_Blazor_Diagram_PathAnnotation_SegmentAngle) property is used to rotate the annotation based on the connector segment direction. By default, the annotation is displayed without rotation. When you set `SegmentAngle` to **true**, the annotation rotates to match the connector segment direction.
 
 The following code example shows how the connector annotation rotates in its path direction.
 

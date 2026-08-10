@@ -23,7 +23,7 @@ When interacting with multiple Bezier segments, maintain their control points at
 
 ## How to Show or Hide Bezier Segment's Control Points
 
-The visibility of the Bezier segment's control points can be enabled or disabled by setting the value of the [BezierConnectorSettings.ControlPointsVisibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_ControlPointsVisibility) property. By default, the value of the `ControlPointsVisibility` property is `All`.
+The visibility of the Bezier segment's control points can be enabled or disabled by setting the value of the [BezierConnectorSettings.ControlPointsVisibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_ControlPointsVisibility) property. By default, the value of the `ControlPointsVisibility` property is **All**.
 
 | ControlPointsVisibility value | Description | Output |
 |-------- | -------- | -------- |
