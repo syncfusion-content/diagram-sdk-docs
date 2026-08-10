@@ -33,7 +33,7 @@ Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://l
 
 ## Prerequisites
 
-Install the [.NET SDK](https://dotnet.microsoft.com/download) and the .NET MAUI workload by following the [MAUI installation guide for Visual Studio Code](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code), then use a suitable Visual Studio Code extension (for example, the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project)) to create and build MAUI projects.
+Install the .NET SDK and the .NET MAUI workload by following the [MAUI installation guide for Visual Studio Code](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code), then use a suitable Visual Studio Code extension (for example, the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project)) to create and build MAUI projects.
 
 ## Create a new Blazor MAUI App in Visual Studio Code
 
