@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview of the Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features and Overview of the Blazor Diagram component and much more.
+title: About Syncfusion Blazor Diagram Component | Syncfusion®
+description: Visualize, create, and edit flowcharts, organizational charts, mind maps, swimlanes, and BPMN diagrams with the Blazor Diagram Component.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Diagram Component Overview
+# About Syncfusion Blazor Diagram Component.
  The Blazor Diagram component is a high-performance and versatile library designed for visualizing, creating, and editing interactive diagrams. With comprehensive support for flowcharts, organizational charts, mind maps, and other diagram types, this component empowers users to create sophisticated visual representations of data and processes with ease.
 
  {% youtube "youtube:https://www.youtube.com/watch?v=LIlVk9iOo2U" %}

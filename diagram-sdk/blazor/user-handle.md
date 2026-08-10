@@ -1,13 +1,13 @@
 ---
 layout: post
 title: User Handle in Blazor Diagram Component | Syncfusion®
-description: Learn how to create and customize user handles in the Blazor Diagram component, with practical examples, and more.
+description: Add custom Blazor Diagram Component user handles to clone, delete, or link nodes and run custom actions on the selected element.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# User Handles for Node and Connector in Blazor Diagram Component
+# User Handle in Blazor Diagram Component
 
 User handles are customizable, interactive elements that enhance diagram usability. They can execute custom-defined actions as well as perform standard clipboard operations, providing a versatile and user-friendly interface for diagram manipulation.
 

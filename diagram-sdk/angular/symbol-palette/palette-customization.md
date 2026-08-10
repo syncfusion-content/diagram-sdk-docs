@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Symbol Palette Customization in Angular Diagram | Syncfusion®
-description: Learn here all about Symbol palette customization in Syncfusion® Angular Diagram component of Syncfusion Essential® JS 2 and more.
+description: Customize the Syncfusion® Angular Diagram symbol palette with palette headers, expand/collapse animation, icons, heights, and filtering to organize reusable symbols.
 platform: diagram-sdk
 control: Symbol palette 
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symbol Palette Customization in Angular Diagram Component
+# Symbol Palette Customization in Angular Diagram
 
 ## Customize the palette header
 

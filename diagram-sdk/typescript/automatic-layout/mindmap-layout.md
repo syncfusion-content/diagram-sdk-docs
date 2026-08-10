@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mind map layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Mind Map in TypeScript Diagram | Syncfusion®
+description: Create TypeScript Diagram mind maps with horizontal or vertical orientation and custom branch direction per node.
 platform: diagram-sdk
 control: Mind map 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Mind Map layout in TypeScript Diagram control
+# Mind Map in TypeScript Diagram
 
 A mind map is a diagram that displays the nodes as a spider diagram organizes information around a central concept. To create mind map, the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) of layout should be set as `MindMap`.
 

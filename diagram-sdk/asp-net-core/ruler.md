@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Ruler in ASP.NET Core Diagram Component
-description: Learn here all about Ruler in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Ruler in ASP.NET Core Diagram | Syncfusion®
+description: Add horizontal and vertical rulers to Syncfusion® ASP.NET Core Diagram with custom interval, segment width, tick alignment, and marker color.
 platform: diagram-sdk
 control: Ruler
 publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Ruler
+# Ruler in ASP.NET Core Diagram
 
 The Ruler provides a horizontal and vertical guide for measuring in the Diagram control. The Ruler can be used to measure the diagram objects, indicate positions, and align diagram elements. This is especially useful in creating scale models.
 

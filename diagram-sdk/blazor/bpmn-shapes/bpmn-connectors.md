@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BPMN Connectors in Blazor Diagram Component | Syncfusion®
-description: Learn here all about BPMN Connectors such as association, sequence, message in Blazor Diagram component and more.
+description: Connect Blazor Diagram Component BPMN elements with Association, Sequence, and Message flow connectors to model processes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Connectors in Diagram Component
+# BPMN Connectors in Blazor Diagram Component
 
 The `BPMN Connectors` are lines that connect BPMN flow objects.
 

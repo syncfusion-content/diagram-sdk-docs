@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orthogonal connector in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Orthogonal in JavaScript Diagram | Syncfusion®
+description: Create perpendicular connector segments in the Syncfusion® JavaScript Diagram with length, direction, and editing thumb support.
 platform: diagram-sdk
 control: Orthogonal 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Orthogonal Connectors in JavaScript Diagram control
+# Orthogonal in JavaScript Diagram
 
 Orthogonal segments is used to create segments that are perpendicular to each other.
 

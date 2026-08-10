@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orthogonal connector in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Orthogonal in TypeScript Diagram | Syncfusion®
+description: Create TypeScript Diagram orthogonal connectors with custom length, direction, and drag-to-edit segment routing.
 platform: diagram-sdk
 control: Orthogonal 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Orthogonal connector in TypeScript Diagram control
+# Orthogonal in TypeScript Diagram
 
 Orthogonal segments is used to create segments that are perpendicular to each other.
 

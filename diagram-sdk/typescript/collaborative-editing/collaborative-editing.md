@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diagram Collaboration in TypeScript | Syncfusion
-description: Checkout and learn to set up real-time collaborative editing in TypeScript Diagram using SignalR.
+title: Collaborative Editing in TypeScript Diagram | Syncfusion®
+description: Set up real-time collaborative editing in the Syncfusion® TypeScript Diagram using SignalR and Redis for multi-user diagram updates.
 platform: diagram-sdk
 control: Diagram
 documentation: ug

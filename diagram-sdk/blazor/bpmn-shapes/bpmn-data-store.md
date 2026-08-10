@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Data Store in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the BPMN DataStore in Blazor Diagram component and much more details.
+description: Add a Blazor Diagram Component BPMN data store to represent persistent storage accessed by process activities.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

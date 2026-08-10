@@ -1,7 +1,7 @@
 ---
 layout: post
-title: UmlSequenceDiagram in JavaScript Diagram control | Syncfusion®
-description: Learn here all about UmlSequenceDiagram in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: UML Sequence Diagram in JavaScript Diagram | Syncfusion®
+description: Model interactions and message order in a UML Sequence Diagram with participants, lifelines, activations, and fragments in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: UmlSequenceDiagram 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# UML Sequence Diagram Model in JavaScript Diagram Control
+# UML Sequence Diagram in JavaScript Diagram
 
 A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the [UmlSequenceDiagramModel](https://ej2.syncfusion.com/documentation/api/diagram/umlSequenceDiagramModel). To enable this functionality, assign the `UmlSequenceDiagramModel` to the [model](https://ej2.syncfusion.com/documentation/api/diagram#model) property of the diagram control.
 

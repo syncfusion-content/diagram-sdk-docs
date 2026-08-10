@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Node Labels in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Node Annotation in TypeScript Diagram | Syncfusion®
+description: Position TypeScript Diagram node annotations with offset, margin, horizontal and vertical alignment relative to node bounds.
 platform: diagram-sdk
 control: Node Labels 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Node annotations in TypeScript Diagram control
+# Node Annotation in TypeScript Diagram
 
 Diagram allows you to customize the position and appearance of the annotation efficiently. Annotation can be aligned relative to the node boundaries. It has Margin, Offset, Horizontal, and Vertical alignment properties. It is quite tricky when all four alignments are used together but gives more control over alignments properties of the ShapeAnnotation class. Annotations of a node can be positioned using the following properties of ShapeAnnotation.
 

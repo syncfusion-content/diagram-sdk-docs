@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Ports positioning in Vue Diagram component | Syncfusion®
-description: Learn here all about Ports in Syncfusion® Vue Diagram component of Syncfusion Essential® JS 2 and more.
+title: Ports positioning in Vue Diagram | Syncfusion®
+description: Position ports on a node in the Syncfusion® Vue Diagram using offset, margin, and horizontal or vertical alignment relative to the node boundary.
 control: Ports 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Positioning node's port
+# Ports positioning in Vue Diagram
 
 Diagram allows you to customize the position of the port efficiently. Port can be aligned relative to the node boundaries. It has Margin, Offset, Horizontal, and Vertical alignment settings.
 

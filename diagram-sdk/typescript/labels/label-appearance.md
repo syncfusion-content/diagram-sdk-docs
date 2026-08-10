@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Label Appearance in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Labels in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Annotation Appearance in TypeScript Diagram | Syncfusion®
+description: Style TypeScript Diagram annotation text with font size, color, bold, fill, stroke, and opacity properties.
 platform: diagram-sdk
 control: Label Appearance 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Appearance in TypeScript Diagram control
+# Annotation Appearance in TypeScript Diagram
 
 You can change the font style of the annotations with the font specific properties [`fontSize`](https://ej2.syncfusion.com/documentation/api/diagram/textStyleModel#fontsize), [`fontFamily`](https://ej2.syncfusion.com/documentation/api/diagram/textStyleModel#fontfamily), [`color`](https://ej2.syncfusion.com/documentation/api/diagram/textStyleModel#color).
 The label’s [`bold`](https://ej2.syncfusion.com/documentation/api/diagram/textStyleModel#bold), [`italic`](https://ej2.syncfusion.com/documentation/api/diagram/textStyleModel#italic), and [`textDecoration`](https://ej2.syncfusion.com/documentation/api/diagram/textdecoration) properties are used to style the label’s text.

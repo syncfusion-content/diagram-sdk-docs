@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Collaborative Editing in Blazor Diagram | Syncfusion®
-description: Checkout and learn to set up real-time collaborative editing in Blazor Diagram using SignalR and Redis.
+title: SignalR Hub Configuration for Collaborative Editing | Syncfusion®
+description: Enable real-time multi-user Blazor Diagram Component editing with SignalR and Redis for synchronized diagram changes.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Collaborative editing in Blazor diagram
+# SignalR Hub Configuration for Collaborative Editing
 
 Collaborative editing enables multiple users to edit diagrams simultaneously in real-time, providing a seamless collaborative experience in Blazor applications.
 

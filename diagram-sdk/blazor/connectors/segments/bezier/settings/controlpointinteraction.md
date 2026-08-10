@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bezier Segments Interaction in Blazor Diagram | Syncfusion®
-description: Checkout and learn here all about Bezier Segments in Blazor Diagram component and much more details.
+title: Control Point Interaction in Blazor Diagram Component | Syncfusion®
+description: Adjust Blazor Diagram Connector Component Bezier control points with symmetric distance, angle, or both smoothness modes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Bezier Segments Interaction in Blazor Diagram
+# Bezier Segments Interaction in Blazor Diagram Component
 
 ## How to Interact with the Bezier Segments Efficiently
 

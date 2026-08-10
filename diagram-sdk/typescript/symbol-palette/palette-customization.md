@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Palette customization in TypeScript Diagram control | Syncfusion®
-description: Learn here how to customize symbol palette in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Symbol Palette Customization in TypeScript Diagram | Syncfusion®
+description: Customize TypeScript Symbol Palette headers, expansion, height, icon CSS, and expand or collapse animation.
 platform: diagram-sdk
 control: Symbol palette 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symbol Palette customization in TypeScript Diagram control
+# Symbol Palette Customization in TypeScript Diagram
 
 ## Customize the palette properties
 

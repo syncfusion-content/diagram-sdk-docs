@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Endpoint handles in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Endpoint handles in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Connector Endpoint Handles in ASP.NET Core Diagram | Syncfusion®
+description: Adjust Syncfusion® ASP.NET Core Diagram connector source and target points with endpoint handles, raising sourcePoint, targetPoint, and connection events.
 platform: diagram-sdk
 control: Endpoint handles
 publishingplatform: diagram-sdk
 documentation: ug
 ---
 
+# Connector Endpoint Handles in ASP.NET Core Diagram
+
 * Each segment of a selected connector is editable with some specific handles/thumbs.
 
 > For connector editing, you have to inject the [`ConnectorEditing`]() module.
-
-# End point handles in connector
 
 Source and target points of the selected connectors are represented with two handles. Clicking and dragging those handles helps to adjust the source and target points.
 

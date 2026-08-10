@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Grid Lines in ASP.NET Core Diagram Component | Syncfusion®
-description: Learn here all about Grid Lines in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Gridlines in ASP.NET Core Diagram | Syncfusion®
+description: Display and snap to gridlines in Syncfusion® ASP.NET Core Diagram with configurable line color, dash style, intervals, and snap-to-object smart guides.
 platform: diagram-sdk
 control: Grid Lines
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Gridlines in ASP.NET Core Diagram Component
+# Gridlines in ASP.NET Core Diagram
 
 Gridlines are the pattern of lines drawn behind the diagram elements. It provides a visual guidance while dragging or arranging the objects on the diagram surface.
 

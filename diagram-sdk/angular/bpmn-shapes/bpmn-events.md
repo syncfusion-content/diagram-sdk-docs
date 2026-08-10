@@ -1,14 +1,14 @@
 ---
 layout: post
 title: BPMN Events in Angular Diagram | Syncfusion®
-description: Learn about BPMN event shapes including start, intermediate, and end events with triggers in Syncfusion® Angular Diagram component.
+description: Model BPMN events in the Syncfusion® Angular Diagram as start, intermediate, or end circles with message, timer, conditional, or link triggers.
 platform: diagram-sdk
 control: Bpmn Events 
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Events in Angular Diagram component
+# BPMN Events in Angular Diagram
 
 ## Event
 

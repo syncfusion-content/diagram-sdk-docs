@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Data Object in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create BPMN data object in Blazor Diagram component and much more details.
+description: Represent Blazor Diagram Component process data with BPMN Data Object input, output, and collective data shapes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

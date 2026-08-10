@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtualization in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Virtualization in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Virtualization in JavaScript Diagram | Syncfusion®
+description: Enable Virtualization in the Syncfusion® JavaScript Diagram to load only visible nodes and connectors for smooth performance on large diagrams.
 platform: diagram-sdk
 control: Virtualization 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Virtualization in JavaScript Diagram control
+# Virtualization in JavaScript Diagram
 
 Virtualization is a technique to optimize the performance of diagrams, especially when working with larger diagrams
 

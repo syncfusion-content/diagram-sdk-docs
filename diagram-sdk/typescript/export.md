@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Export in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Export in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Exporting in TypeScript Diagram | Syncfusion®
+description: Export the TypeScript Diagram to JPG, PNG, or SVG with options for bounds, region, margin, multi-page, and download mode.
 platform: diagram-sdk
 control: Export 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Export in TypeScript Diagram control
+# Exporting in TypeScript Diagram
 
 Diagram provides support to export its content as image/svg files. The [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram#exportdiagram) method of diagram helps to export the diagram. The following code illustrates how to export the diagram as image.
 

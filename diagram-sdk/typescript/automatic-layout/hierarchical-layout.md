@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hierarchical tree layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Hierarchical Tree in TypeScript Diagram | Syncfusion®
+description: Render TypeScript Diagram hierarchical trees from nodes and connectors or a DataSource with auto parent-child layout.
 platform: diagram-sdk
 control: Hierarchical tree 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Hierarchical tree layout in TypeScript Diagram control
+# Hierarchical Tree in TypeScript Diagram
 
 The hierarchical tree layout arranges nodes in a tree-like structure, where the nodes in the hierarchical layout may have multiple parents. There is no need to specify the layout root.
 
