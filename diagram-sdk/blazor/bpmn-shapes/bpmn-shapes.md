@@ -9,7 +9,7 @@ documentation: ug
 
 # BPMN Shapes in Blazor Diagram Component
 
-BPMN (Business Process Model and Notation) shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, the node property [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) should be set as any one of the built-in shapes.
+BPMN (Business Process Model and Notation) shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate procedures in a standard manner. To create a BPMN shape, the node property [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) should be set to one of the built-in shapes.
 
 The following code example demonstrates how to create a simple BPMN Task shape.
 
@@ -60,7 +60,7 @@ The following table describes the available BPMN shapes.
 
 | Shape | Image | Description|
 | -------- | -------- | -------- |
-| [Event](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html) | ![Event Shape](../images/Bpmn-Event-Start.webp) |Event shape represents something happens during a business process.|
+| [Event](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnEvent.html) | ![Event Shape](../images/Bpmn-Event-Start.webp) |Event shape represents something happens during a business process.|
 | [Gateway](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnGateway.html) | ![Gateway Shape](../images/Gateway.webp) |Gateway is used to control the flow of a process.|
 | [Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html) | ![Activity Shape](../images/Task.webp) |Activities describe the kind of work being done in a particular process instance.|
 | [Message](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnMessage.html) | ![Message Shape](../images/Message.webp) |The message is just the content of the communication.|

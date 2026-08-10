@@ -9,7 +9,7 @@ documentation: ug
 
 # BPMN Text Annotation in Blazor Diagram Component
 
-* A BPMN object can be associated with a text annotation that does not affect the flow but provides information about objects within a flow. 
+* A BPMN object can be associated with a text annotation that does not affect the flow but provides information about the objects. 
 
 * A [BpmnTextAnnotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnTextAnnotation.html) points to or references another BPMN shape, which we call the [TextAnnotationTarget](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnTextAnnotation.html#Syncfusion_Blazor_Diagram_BpmnTextAnnotation_TextAnnotationTarget) of the `BPMNTextAnnotation`. When a target shape is moved, copied, or deleted, any `BPMNTextAnnotation` attached to the shape will be moved, copied, or deleted too. Thus, the `BPMNTextAnnotation` remain with their target shapes though you can reposition the `BPMNTextAnnotation` to any offset from its target. The `TextAnnotationTarget` property of the `BpmnTextAnnotation` is used to connect an annotation element to the BPMN Node.
 
@@ -19,13 +19,13 @@ documentation: ug
 
 * The [TextAnnotationDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnTextAnnotation.html#Syncfusion_Blazor_Diagram_BpmnTextAnnotation_TextAnnotationDirection) property is used to set the shape direction of the text annotation.
 
-* By default, the `TextAnnotationDirection` is set to a **Left**.
+* By default, the `TextAnnotationDirection` is set to **Left**.
 
 * To set the size for text annotation, use the [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Width) and [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Height) properties of the node.
 
 * The [OffsetX](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_OffsetX) and [OffsetY](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_OffsetY) properties are used to set the distance between the BPMN node and the TextAnnotation.
 
-* The TextAnnotation element can be moved (if their have connected with any BPMN Node) while dragging the BPMN node.
+* The TextAnnotation element can be moved (if it is connected with any BPMN Node) while dragging the BPMN node.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -51,7 +51,7 @@ documentation: ug
             Height = 100,
             // Unique Id of the node.
             ID = "node1",
-            // Sets type as Bpmn and shape as DataObject
+            // Sets shape to BpmnTextAnnotation
             Shape = new BpmnTextAnnotation()
             {
                 TextAnnotationDirection = TextAnnotationDirection.Auto,

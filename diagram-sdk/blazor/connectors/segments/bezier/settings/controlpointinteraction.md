@@ -15,16 +15,15 @@ When interacting with multiple Bezier segments, maintain their control points at
 
 | BezierSmoothness value | Description | Output |
 |-------- | -------- | -------- |
-| [SymmetricDistance](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_SymmetricDistance)| keeps both control points of adjacent segments will be at the same distance when one of them is editing. | ![SymmetricDistance](../../../../images/SymmetricDistance.webp) |
-| [SymmetricAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_Both) | keeps both control points of adjacent segments will be at the same angle when one of them is editing. | ![SymmetricAngle](../../../../images/SymmetricAngle.webp) |
+| [SymmetricDistance](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_SymmetricDistance)| Both control points of adjacent segments will be at the same distance when one of them is editing. | ![SymmetricDistance](../../../../images/SymmetricDistance.webp) |
 | [SymmetricAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_) | Both control points of adjacent segments will be at the same angle when one of them is editing. | ![SymmetricAngle](../../../../images/SymmetricAngle.webp) |
-| [Both](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_Both) | keeps both control points of adjacent segments will be at the same angle and same distance when one of them is editing. | ![Symmetric](../../../../images/SmoothnessBoth.webp) |
+| [Both](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_Both) | Both control points of adjacent segments will be at the same angle and same distance when one of them is editing. | ![Symmetric](../../../../images/SmoothnessBoth.webp) |
 | [None](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSmoothness.html#Syncfusion_Blazor_Diagram_BezierSmoothness_None) | Segment’s control points interact independently from each other. | ![SymmetricNone](../../../../images/SymmetricNone.webp)
 
 
 ## How to Show or Hide Bezier Segment's Control Points
 
-The visibility of the Bezier segment's control points can be enabled or disabled by setting the value of the [BezierConnectorSettings.ControlPointsVisibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_ControlPointsVisibility) property.
+The visibility of the Bezier segment's control points can be enabled or disabled by setting the value of the [BezierConnectorSettings.ControlPointsVisibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_ControlPointsVisibility) property. By default, the value of the `ControlPointsVisibility` property is **All**.
 
 | ControlPointsVisibility value | Description | Output |
 |-------- | -------- | -------- |
@@ -56,7 +55,7 @@ The visibility of the Bezier segment's control points can be enabled or disabled
             BezierConnectorSettings = new BezierConnectorSettings() 
             {
                 //Define the visibility of the control points. 
-                ControlPointsVisibility = ControlPointsVisibility.Intermediate 
+                ControlPointsVisibility = ControlPointsVisibility.Intermediate
             },
         };
         _connectors.Add(connector1);

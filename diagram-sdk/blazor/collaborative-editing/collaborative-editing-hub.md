@@ -129,7 +129,7 @@ public class DiagramHub : Hub
 }
 ```
 
-## Conflict Resolution (optimistic concurrency)
+## Conflict Resolution (Optimistic Concurrency)
 
 Collaborative edits use a version-based optimistic concurrency model. In `BroadcastToOtherUsers` method  includes the user’s current `userVersion`, payloads, and the IDs of elements affected by the edit (editedElementIds). Instead of locking, the server validates the version for every update. If discrepancies occur, the server rejects or re-applies changes as needed. This approach ensures data consistency while maintaining real-time responsiveness for all participants.
 
@@ -158,7 +158,7 @@ public class DiagramHub : Hub
         _redisService = redisService;
     }
 
-    // Triggers the method when the user send the data to other users via signalR
+    // Triggers the method when the user sends the data to other users via SignalR
     public async Task BroadcastToOtherUsers(List<string> payloads, long userVersion, List<string>? elementIds, string roomName)
     {
         try
