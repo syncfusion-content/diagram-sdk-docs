@@ -285,7 +285,7 @@ To run the Blazor Diagram component in a Blazor Android MAUI application using t
 
 Refer to [the Android device manager guide](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch Android emulator.
 
-N> If you encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
+N> If encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
 
 ![Blazor MAUI app running on an Android emulator showing the rendered Syncfusion Diagram component with a flowchart of nodes and connectors](images/blazor-diagram-maui-android-page.webp)
 

@@ -131,7 +131,7 @@ The following table shows the different representations of sequence flows.
 | [ConditionalSequenceFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_ConditionalSequenceFlow) | ![Conditional Sequence BPMN Shape](../images/Bpmn-ConditionalSequenceFlow.webp) |
 | [SequenceFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_SequenceFlow) | ![Normal Sequence BPMN Shape](../images/Bpmn-SequenceFlow.webp) |
 
-N> The default value for the property `Sequence` is **Normal.**
+> **Note:** The default value for the property `Sequence` is **Normal.**
 
 ## How to Create a Message
 
@@ -190,4 +190,4 @@ The following table shows the different representations of message flows.
 | [InitiatingMessageFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_InitiatingMessageFlow) | ![InitiatingMessage Message BPMN Shape](../images/Bpmn-NonInitiatingMessageFlow.webp) |
 | [NonInitiatingMessageFlow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnFlowType.html#Syncfusion_Blazor_Diagram_BpmnFlowType_NonInitiatingMessageFlow) | ![NonInitiatingMessage Message BPMN Shape](../images/Bpmn-InitiatingMessageFlow.webp) |
 
-N> The default value for the `Flow` property of a `BpmnFlow` shape is **SequenceFlow.**
+> **Note:** The default value for the `Flow` property of a `BpmnFlow` shape is **SequenceFlow.**
