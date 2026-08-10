@@ -343,7 +343,7 @@ A connection string contains the information needed to connect the application t
 ```json
 {
     "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgresql@123"
+        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgres123"
     },
   "Logging": {
     "LogLevel": {

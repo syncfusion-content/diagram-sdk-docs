@@ -147,7 +147,7 @@ The following table illustrates the different chart orientations and chart types
 |Orientation|Type|Description|Example|
 | -------- | ----------- | ------------- |------|
 |Horizontal|Left|Arranges the child nodes horizontally at the left side of the parent.|![Blazor Organization Chart Diagram ChildNode in Horizontal Left Position](../images/blazor-diagram-childnode-at-horizontal-left-side.webp)|
-||Right|Arranges the child nodes horizontally at the right side of the parent.|![Blazor Organization Chart Diagram ChildNode in Horizontal Left Position](../images/blazor-diagram-childnode-at-horizontal-right-side.webp)|
+||Right|Arranges the child nodes horizontally at the right side of the parent.|![Blazor Organization Chart Diagram ChildNode in Horizontal Right Position](../images/blazor-diagram-childnode-at-horizontal-right-side.webp)|
 ||Center|Arranges the children like standard tree layout orientation.|![Blazor Organization Chart Diagram ChildNode in Horizontal Center Position](../images/blazor-diagram-childnode-at-horizontal-center-side.webp)|
 ||Balanced|Arranges the leaf level child nodes in multiple rows.|![Blazor Organization Chart Diagram ChildNode in Horizontal Balance Position](../images/blazor-diagram-childnode-at-horizontal-both-side.webp)|
 |Vertical|Left|Arranges the children vertically at the left side of the parent.|![Blazor Organization Chart Diagram ChildNode in Vertical Left Position](../images/blazor-diagram-childnode-at-vertical-left-side.webp)|
@@ -230,7 +230,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Update Layout Spacing
 
-The layout supports adding space horizontally and vertically between nodes. Use [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_HorizontalSpacing) and [VerticalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_VerticalSpacing) properties of the layout allow you to set the space between nodes horizontally and vertically.
+The layout supports adding space horizontally and vertically between nodes. Use [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_HorizontalSpacing) and [VerticalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_VerticalSpacing) properties of the layout allows to set the space between nodes horizontally and vertically.
 
 ### How to Update Layout Margin
 
@@ -239,7 +239,7 @@ The layout supports adding some blank space between the layout bounds (or viewpo
 ```csharp
 //Initialize the organizational chart layout with Margin.
 <SfDiagramComponent @ref="_diagram" Width="900px" Height="800px" >
-  <Layout Type="LayoutType.HierarchicalTree">
+  <Layout Type="LayoutType.OrganizationalChart">
      <LayoutMargin Top="@_top" Left="@_left"></LayoutMargin>
   </Layout>
 </SfDiagramComponent>
@@ -260,7 +260,7 @@ The following code illustrates arranging nodes in a **TopToBottom** orientation.
 ```csharp
 //Initialize the layout with layout orientation as BottomToTop in page.
 <SfDiagramComponent Height="600px" Width="500px" >
-    <Layout Type="LayoutType.HierarchicalTree" @bind-Orientation="@_orientation"></Layout>
+    <Layout Type="LayoutType.OrganizationalChart" @bind-Orientation="@_orientation"></Layout>
 </SfDiagramComponent>
 @code
 {
@@ -273,10 +273,13 @@ The following code illustrates arranging nodes in a **TopToBottom** orientation.
 
 The layout supports arranging nodes with reference to the position of a fixed node and set it to the [FixedNode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_FixedNode) of the layout property. This is helpful when you try to expand/collapse a node. It might be expected that the position of the double-clicked node should not be changed.
 
+The `FixedNode` property accepts the **ID** (string) of an existing node in the diagram's `Nodes` collection. The specified node's position is preserved while the surrounding nodes are arranged relative to it. The value passed must match a node ID defined in `Nodes` collection.
+
 ```csharp
-//Initialize the organizational chart layout with FixedNode.
-<SfDiagramComponent Height="600px" Width="500px" >
-    <Layout Type="LayoutType.OrganizationalChart" FixedNode="Node1" @bind-HorizontalSpacing="@_horizontalSpacing" @bind-VerticalSpacing="@_verticalSpacing" @bind-Orientation="@_orientation"></Layout>
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Height="600px" Width="500px" Nodes="@_nodeCollection">
+    <Layout Type="LayoutType.OrganizationalChart" FixedNode="node1" @bind-HorizontalSpacing="@_horizontalSpacing" @bind-VerticalSpacing="@_verticalSpacing" @bind-Orientation="@_orientation"></Layout>
 </SfDiagramComponent>
 @code
 {
@@ -285,6 +288,13 @@ The layout supports arranging nodes with reference to the position of a fixed no
     //Initializing the Horizontal and Vertical value.
     private int _horizontalSpacing = 40;
     private int _verticalSpacing = 50;
+
+    //Defines diagram's node collection. The node with ID "node1" is referenced by FixedNode above.
+    private DiagramObjectCollection<Node> _nodeCollection = new DiagramObjectCollection<Node>()
+    {
+        new Node() { ID = "node1", Annotations = new DiagramObjectCollection<ShapeAnnotation>() { new ShapeAnnotation { Content = "Project Management" } } },
+        new Node() { ID = "node2", Annotations = new DiagramObjectCollection<ShapeAnnotation>() { new ShapeAnnotation { Content = "R&D Team" } } }
+    };
 }
 
 ```
@@ -321,7 +331,6 @@ The following code example illustrates how to add assistants to the layout.
     private VerticalAlignment _verticalAlignment = VerticalAlignment.Auto;
     private int _horizontalSpacing = 30;
     private int _verticalSpacing = 30;
-    private string _pattern;
     private Orientation _subTreeOrientation = Orientation.Vertical;
     private SubTreeAlignmentType _subTreeAlignment = SubTreeAlignmentType.Left;
     private string _fixedNode = null;
@@ -372,13 +381,33 @@ The following code example illustrates how to add assistants to the layout.
 
 ## How to Refresh the Layout
 
-The layout can be refreshed at runtime by calling [DoLayoutAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_DoLayoutAsync) method. Use the following code example to refresh the layout.
+The layout can be refreshed at runtime by calling the [DoLayoutAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_DoLayoutAsync) method on the `SfDiagramComponent` instance.
+
+The following example shows how to refresh the layout from a button click:
 
 ```csharp
-//Update the layout at runtime.
-_diagram.DoLayoutAsync();
+@using Syncfusion.Blazor.Diagram
 
-//Here, _diagram is instance of SfDiagramComponent.
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodeCollection" Connectors="@_connectors">
+    <Layout Type="LayoutType.OrganizationalChart" @bind-HorizontalSpacing="@_horizontalSpacing" @bind-VerticalSpacing="@_verticalSpacing"></Layout>
+</SfDiagramComponent>
+
+<button @onclick="RefreshLayout">Refresh Layout</button>
+
+@code {
+    //Reference to the diagram component used to invoke DoLayoutAsync.
+    private SfDiagramComponent? _diagram;
+    private DiagramObjectCollection<Node> _nodeCollection = new DiagramObjectCollection<Node>();
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+    private int _horizontalSpacing = 40;
+    private int _verticalSpacing = 40;
+
+    private async Task RefreshLayout()
+    {
+        //Update the layout at runtime.
+        await _diagram.DoLayoutAsync();
+    }
+}
 ```
 
 ## See also

@@ -59,8 +59,10 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 ### How to Edit Straight Segments
 
 * The end point of each straight segment is represented by a thumb that enables editing the segment.
-* Insert a new segment into a straight line by pressing Ctrl+Shift and clicking (Ctrl+Shift+Click).
-* Remove a straight segment by pressing Ctrl+Shift and clicking the segment end point (Ctrl+Shift+Click).
+* Insert a new segment into a straight line by holding Ctrl+Shift and clicking the connector.
+* Remove a straight segment by holding Ctrl+Shift and clicking the segment end point.
+
+To enable the segment thumbs for editing, add the [DragSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_DragSegmentThumb) constraint to the connector's `Constraints` property.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -100,27 +102,27 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LDrHZRhozSoiByQY?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Editing Straight Segment in Blazor Diagram](../../images/blazor-diagram-edit-straight-segment.webp)" %}
 
-## How to Customize Straight Segment Thumb Shape 
+## How to Customize Straight Segment Thumb Shape
 
 The straight connector can have multiple segments between the source and target points. By default, segment thumbs are rendered as **circles**. They can be customized globally or per connector using the [SegmentThumbSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbSettings.html) class.
 
 To change the segment thumb shape for all Straight connectors, configure the [ConnectorSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_ConnectorSegmentThumb) property of the SfDiagramComponent class and set the [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SegmentThumbSettings.html#Syncfusion_Blazor_Diagram_SegmentThumbSettings_Shape) property to the desired shape.
 
-To customize the segment thumb shape for a specific connector, first disable the [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) constraint. Then set the shape on the connector’s  `SegmentThumbSettings` property of the Connector class, specifying the desired shape using the `Shape` property of the `SegmentThumbSettings` class. 
+To customize the segment thumb shape for a specific connector, first disable the [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) constraint. Then set the shape on the connector’s `SegmentThumbSettings` property of the Connector class, specifying the desired shape using the `Shape` property of the `SegmentThumbSettings` class. 
 
 The following predefined shapes are available for segment thumbs:
 
 | Shape name | Shape |
 |-------- | -------- |
-|Rhombus| ![Rhombus](../../images/RhombusStraight.webp) |
+| Rhombus| ![Rhombus](../../images/RhombusStraight.webp) |
 | Square | ![Square](../../images/SquareStraight.webp) |
 | Rectangle | ![Rectangle](../../images/RectangleStraight.webp) |
 | Ellipse |![Ellipse](../../images/EllipseStraight.webp) |
 | Circle |![Circle](../../images/CircleStraight.webp) |
-|Arrow| ![Arrow](../../images/ArrowStraight.webp) |
+| Arrow | ![Arrow](../../images/ArrowStraight.webp) |
 | OpenArrow | ![OpenArrow](../../images/OpenArrowStraight.webp) |
-| Fletch|![Fletch](../../images/FletchStraight.webp) |
-|OpenFetch| ![OpenFetch](../../images/OpenFetchStraight.webp) |
+| Fletch |![Fletch](../../images/FletchStraight.webp) |
+| OpenFletch | ![OpenFletch](../../images/OpenFetchStraight.webp) |
 | IndentedArrow | ![IndentedArrow](../../images/IndentedStraight.webp) |
 | OutdentedArrow | ![OutdentedArrow](../../images/OutdentedStraight.webp) |
 | DoubleArrow |![DoubleArrow](../../images/DoubleArrowStraight.webp) |
@@ -130,7 +132,6 @@ The following code example illustrates how to create a customized straight segme
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using Syncfusion.Blazor.Diagram.Internal
 
 <SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors" ConnectorSegmentThumb="@_connectorSegmentThumb" />
 
@@ -205,5 +206,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BjrxZnhyTIQSiybV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Connector with Straight Segment Shape and Style in Blazor Diagram](../../images/StraightSegmentShape1.webp)" %}
 
->Note:  This feature ensures that the shape is updated regardless of whether the  [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) enum value is added to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Constraints) property of the diagram. If you apply the `InheritSegmentThumbShape` constraints, the shape will be updated at the diagram level. Without these constraints, the shape will be updated at the connector level. 
- To make the shapes visible, ensure that the [DragSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_DragSegmentThumb) enum is added to the connector's constraints.
+>Note: This feature ensures that the shape is updated regardless of whether the [InheritSegmentThumbShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_InheritSegmentThumbShape) enum value is added to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Constraints) property of the diagram. If you apply the `InheritSegmentThumbShape` constraints, the shape will be updated at the diagram level. Without these constraints, the shape will be updated at the connector level.
+
+>Note: To make the shapes visible, ensure that the [DragSegmentThumb](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorConstraints.html#Syncfusion_Blazor_Diagram_ConnectorConstraints_DragSegmentThumb) enum is added to the connector's constraints.

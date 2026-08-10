@@ -251,12 +251,12 @@ Each compartment — **Attributes**, **Operations**, and **Members** — has a h
 
 | Property | Description |
 |---|---|
-| `HeaderText` | Specifies the text label for the section header. |
-| `Style` | Defines the visual style for the section header row. |
-| `EnableAddAction` | Shows or hides the `+` button. The default value is **true**. |
-| `EnableRemoveAction` | Shows or hides the `–` button. The default value is **true**. |
-| `IsExpanded` | Specifies whether the section content is visible. The default value is **true**. |
-| `ShowExpandCollapseIcon` | Shows or hides the expand or collapse icon. The default value is **true**. |
+| [HeaderText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_HeaderText) | Specifies the text label for the section header. |
+| [Style](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_Style) | Defines the visual style for the section header row. |
+| [EnableAddAction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_EnableAddAction) | Shows or hides the `+` button. The default value is **true**. |
+| [EnableRemoveAction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_EnableRemoveAction) | Shows or hides the `–` button. The default value is **true**. |
+| [IsExpanded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_IsExpanded) | Specifies whether the section content is visible. The default value is **true**. |
+| [ShowExpandCollapseIcon](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UmlSectionHeaderSettings.html#Syncfusion_Blazor_Diagram_UmlSectionHeaderSettings_ShowExpandCollapseIcon) | Shows or hides the expand or collapse icon. The default value is **true**. |
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
