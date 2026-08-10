@@ -484,7 +484,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Update Node Group Position at Runtime
 
-Change the position of the node group similar to a node. For more information about node positioning, refer to the [Positioning](https://blazor.syncfusion.com/documentation/diagram/nodes/positioning).
+Change the position of the node group similar to a node. For more information about node positioning, refer to the [Positioning](https://help.syncfusion.com/diagram-sdk/blazor/nodes/positioning).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -554,11 +554,11 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Customize Node Group Appearance
 
-Change the appearance of the node group similar to a node. For more information about node appearance, refer to the [Appearance](https://blazor.syncfusion.com/documentation/diagram/nodes/customization).
+Change the appearance of the node group similar to a node. For more information about node appearance, refer to the [Appearance](https://help.syncfusion.com/diagram-sdk/blazor/nodes/customization).
 
 ## How to Interact with Node Group at Runtime
 
-Edit the node group and its children at runtime. Interact with the node group similar to node interactions like resize, rotate, and drag. For more information about node interaction, refer to the [Interaction](https://blazor.syncfusion.com/documentation/diagram/nodes/interaction).
+Edit the node group and its children at runtime. Interact with the node group similar to node interactions like resize, rotate, and drag. For more information about node interaction, refer to the [Interaction](https://help.syncfusion.com/diagram-sdk/blazor/nodes/interaction).
 
 ### How to Select Node Group
 
@@ -576,6 +576,6 @@ For more information about group node flip, refer to [Group Flip](./flip#how-to-
 
 * [How to Select a Group Child Element Without Selecting the Parent Group Node in Blazor Diagram Component](https://support.syncfusion.com/kb/article/18996/how-to-select-a-group-child-element-without-selecting-the-parent-group-node-in-syncfusion-blazor-diagram-component)
 
-* [How to Select Only the GroupNode Without Selecting Child Nodes in Blazor Diagram](https://support.syncfusion.com/kb/article/16302/how-to-select-only-the-groupnode-without-selecting-child-nodes-in-syncfusion-blazor-diagram)
+* [How to Select Only the GroupNode Without Selecting Child Nodes in Blazor Diagram](https://support.syncfusion.com/kb/article/17264/how-to-select-only-the-groupnode-without-selecting-child-nodes-in-syncfusion-blazor-diagram)
 
 * [How to Drag a Node Programmatically Without User Interaction in Blazor Diagram](https://support.syncfusion.com/kb/article/20172/how-to-drag-a-node-programmatically-without-user-interaction-in-syncfusion-blazor-diagram)

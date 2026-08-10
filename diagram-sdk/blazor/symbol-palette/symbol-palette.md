@@ -29,7 +29,7 @@ The [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Symb
                           SymbolHeight="80" SymbolWidth="80">
 </SfSymbolPaletteComponent>
 ```
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/CreateSymbolPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/CreateSymbolPalette.razor)
 
 
 ### How to Add Node to Palette
@@ -158,7 +158,7 @@ The [SymbolWidth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagra
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rjhdtxrkpILDYTld?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddNodeToPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddNodeToPalette.razor)
 
 
 ![Adding Node to Symbol Palette in Blazor Diagram](../images/blazor-diagram-add-node-to-palette.webp)
@@ -230,7 +230,7 @@ The following example illustrates how to add a connector to a palette.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BNLxNRBapoBUqjOR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddConnectorToSymbolPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddConnectorToSymbolPalette.razor)
 
 
 ![Adding Connector to Symbol Palette in Blazor Diagram](../images/blazor-diagram-add-connector-to-palette.webp)
@@ -321,7 +321,7 @@ The following example illustrates how to add a node group to a palette.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZrdjnhuTIroogEV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddGroupToPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddGroupToPalette.razor)
 
 
 ![Adding NodeGroup to Symbol Palette in Blazor Diagram](../images/blazor-diagram-add-node-group-to-palette.webp)
@@ -480,7 +480,7 @@ _palettes = new DiagramObjectCollection<Palette>()
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LZLRDdrupSVlRJcJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddPaletteToSymbolPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddPaletteToSymbolPalette.razor)
 
 ![Adding Palette to SymbolPalette in Blazor Diagram](../images/blazor-diagram-add-palette-to-symbol-palette.webp)
 
@@ -639,7 +639,7 @@ To enable drag and drop functionality, add the diagram component to the [Targets
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtLxjnVufIqijoIo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/DragAndDrop.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/DragAndDrop.razor)
 
 ![Drag and Drop in Blazor Diagram](../images/blazor-diagram-drag-and-drop.webp)
 
@@ -674,7 +674,7 @@ Remove symbols at runtime using [RemovePaletteItem](https://help.syncfusion.com/
 ```csharp
 _symbolPalette.RemovePaletteItem("FlowShapes", "Decision");
 ```
-You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddRemoveSymbolAtRuntime.razor)
+You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddRemoveSymbolAtRuntime.razor)
 
 
 ## How to Add or Remove Palettes at Runtime 
@@ -718,7 +718,7 @@ Remove palettes at runtime using [RemovePalettes](https://help.syncfusion.com/cr
 ```csharp
 _symbolPalette.RemovePalettes("BasicShapes");
 ```
-You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/AddRemovePaletteAtRuntime.razor)
+You can download a complete working sample from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/AddRemovePaletteAtRuntime.razor)
 
 ## How to Enable Symbol Search Option in Symbol Palette
 
@@ -838,7 +838,7 @@ The symbol palette supports searching for symbols by ID or tag. By utilizing the
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VjLxDRhaTIqTdrvl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SearchOption.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SearchOption.razor)
 
 ![Search Option in Blazor Diagram](../images/SymbolSearch.webp)
 
@@ -906,7 +906,7 @@ The [SearchTags](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BjBdDnrOpoAdbXbv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SearchTag.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SearchTag.razor)
 
 ## How to Update Common Values for All Nodes and Connectors
 
@@ -1076,7 +1076,7 @@ The [RefreshSymbols](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Dia
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtrxZHVEzeJxRBFm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/RefereshPalette.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/RefereshPalette.razor)
 
 ## How to Set a Template for Symbol Palette Symbols
 
@@ -1119,7 +1119,7 @@ Customize the appearance of symbols using [SymbolPaletteTemplates](https://help.
 
 ![Symbol palette templates](../images/SymbolPaletteTemplate.webp)
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTemplate.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/SymbolPalette/SymbolPaletteTemplate.razor)
 
 ## See Also
 

@@ -854,7 +854,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZBRtxqZVTAgZgHz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[ToolTip During hover the node with Stikcy Mode](images/StickyConnector.webp)" %}
 
-For more information about tooltip, refer to [Tooltip](https://blazor.syncfusion.com/documentation/diagram/tool-tip)
+For more information about tooltip, refer to [Tooltip](https://help.syncfusion.com/diagram-sdk/blazor/tool-tip)
 
 ## How to Set Tooltip for User Handles
 

@@ -1094,7 +1094,7 @@ The following table illustrates those commands with the associated key values.
 
 * [How to Drag a Node Programmatically Without User Interaction in Blazor Diagram](https://support.syncfusion.com/kb/article/20172/how-to-drag-a-node-programmatically-without-user-interaction-in-syncfusion-blazor-diagram)
 
-* [How to Add Nodes and Connectors at Runtime Asynchronously in Blazor Diagram Component](https://support.syncfusion.com/kb/article/16312/how-to-add-nodes-and-connectors-at-runtime-asynchronously-in-blazor-diagram-component)
+* [How to Add Nodes and Connectors at Runtime Asynchronously in Blazor Diagram Component](https://support.syncfusion.com/kb/article/17285/how-to-add-nodes-and-connectors-at-runtime-asynchronously-in-blazor-diagram-component)
 
 * [How to Identify the Clicked Diagram Elements in Blazor Diagram](https://support.syncfusion.com/kb/article/17226/how-to-identify-the-clicked-diagram-elments-in-syncfusion-blazor-diagram)
 

@@ -227,7 +227,7 @@ Nodes can be drawn interactively by clicking and dragging on the diagram surface
 }
 ```
 
-For more information about drawing nodes, refer to the [Draw Nodes](https://blazor.syncfusion.com/documentation/diagram/tools#how-to-draw-shapes-using-the-drawing-tool).
+For more information about drawing nodes, refer to the [Draw Nodes](https://help.syncfusion.com/diagram-sdk/blazor/tools#how-to-draw-shapes-using-the-drawing-tool).
 
 ![Drawing a node on the diagram surface in Blazor Diagram](../images/blazor-diagram-node-drawing.webp)
 

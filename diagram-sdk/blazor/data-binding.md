@@ -764,7 +764,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Bind OData V4 Services
 
-OData V4 is an updated version of the OData protocols, and the `SfDataManager` can also retrieve and consume OData v4 services. For more details on OData v4 services, refer to the [OData documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197). To bind an OData v4 service, use the OData V4 adaptor.
+OData V4 is an updated version of the OData protocols, and the `SfDataManager` can also retrieve and consume OData v4 services. For more details on OData v4 services, refer to the [OData documentation](https://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html). To bind an OData v4 service, use the OData V4 adaptor.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -1495,7 +1495,7 @@ GraphQL is a query language for APIs that allows you to can get exactly what you
 
 ![Binding with GraphQL service](images/GraphQLAdaptor.webp) 
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/GraphQLAdaptor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/GraphQLAdaptor)
 
 ### How to Perform CRUD Operations Using Mutations
 
@@ -1759,7 +1759,7 @@ namespace ASPNetCoreGraphQlServer.GraphQl
 }
 
 ```
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/GraphQLAdaptorCRUD)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/GraphQLAdaptorCRUD)
 
 ## Entity Framework
 Follow these steps to consume data from **Entity Framework** in the Diagram.
