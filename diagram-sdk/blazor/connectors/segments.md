@@ -21,8 +21,8 @@ A segment represents a single line or curve between two points of a connector. M
 
 ## See also
 
-* [How to create a Straight Segments](./segments/straight.md)
+* [How to create a Straight Segments](../connectors/connector-segments/straight.md)
 
-* [How to create a Orthogonal Segments](./segments/orthogonal.md)
+* [How to create a Orthogonal Segments](../connectors/connector-segments/orthogonal.md)
 
-* [How to create a Bezier Segments](./segments/bezier/bezier.md)
+* [How to create a Bezier Segments](../connectors/connector-segments/bezier/bezier.md)

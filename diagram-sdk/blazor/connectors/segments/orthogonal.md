@@ -96,13 +96,15 @@ The [Length](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Ort
                 new OrthogonalSegment 
                 {
                     Length = 100,
+                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Right
                 },
                 new OrthogonalSegment 
                 {
                     Length = 100,
+                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Bottom,
-                } 
+                }
             },
             TargetDecorator = new DecoratorSettings()
             {
