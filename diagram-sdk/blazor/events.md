@@ -15,7 +15,6 @@ The [Created](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Sf
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 
 <SfDiagramComponent @ref="@_diagram"
                     Width="100%"
@@ -40,7 +39,6 @@ The [Created](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Sf
     }
     private void OnCreated(object args)
     {
-
         _diagram.Select(new ObservableCollection<IDiagramObject>() { _diagram.Nodes[0] });
     }
 }
@@ -55,7 +53,6 @@ The [Click](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDi
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 
 <SfDiagramComponent @ref="@_diagram"
                     Width="100%"
@@ -95,7 +92,6 @@ The [KeyDown](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Sf
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 
 <SfDiagramComponent @ref="@_diagram"
                     Width="100%"
@@ -134,7 +130,6 @@ The [KeyUp](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDi
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 
 <SfDiagramComponent @ref="@_diagram"
                     Width="100%"
@@ -173,7 +168,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 @using Syncfusion.Blazor.Diagram.SymbolPalette
-@using System.Collections.ObjectModel
+
 <SfSymbolPaletteComponent @ref="_paletteInstance" Palettes="@_palettes"  SymbolHeight="40" GetSymbolInfo="GetSymbolInfo" SymbolWidth="40" >
 </SfSymbolPaletteComponent >
 <SfDiagramComponent @ref="@_diagram"
@@ -214,7 +209,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
         _paletteInstance.Targets = new DiagramObjectCollection<SfDiagramComponent>() { };
         _paletteInstance.Targets.Add(_diagram);
     }
-     //Notify the drag start event.
+    //Handle the drag start event.
     private void DragStart(DragStartEventArgs args)
     {
         //Action to be performed.
@@ -229,20 +224,18 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 ## How to Handle the Dragging Event
 * The [Dragging](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_Dragging) event is raised when a diagram element is being dragged over another element in the diagram. This event provides real-time feedback during the dragging process. To explore the available arguments and properties associated with this event, refer to the [DraggingEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DraggingEventArgs.html).
 
-
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 @using Syncfusion.Blazor.Diagram.SymbolPalette
-@using System.Collections.ObjectModel
-<SfSymbolPaletteComponent Palettes="@_palettes"  SymbolHeight="40" GetSymbolInfo="GetSymbolInfo" SymbolWidth="40" >
+
 <SfDiagramComponent @ref="@_diagram"
                     Width="100%"
                     Height="700px"
                     Nodes="_nodes"
                     Dragging="Dragging">
 </SfDiagramComponent>
-
-</SfSymbolPaletteComponent >
+<SfSymbolPaletteComponent Palettes="@_palettes"  SymbolHeight="40" GetSymbolInfo="GetSymbolInfo" SymbolWidth="40">
+</SfSymbolPaletteComponent>
 @code{
     private SfDiagramComponent _diagram;
     private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
@@ -268,7 +261,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
             new Palette(){Symbols =TNodes,Title="Flow Shapes",ID="Flow Shapes" },
         };
     }
-     // Notify the dragging event.
+    // Notify the dragging event.
     private void Dragging(DraggingEventArgs args)
     {
         //Action to be performed.
@@ -285,7 +278,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 @using Syncfusion.Blazor.Diagram.SymbolPalette
 <SfSymbolPaletteComponent Palettes="@_palettes" SymbolDragPreviewSize="@_symbolPreview" SymbolHeight="40" GetSymbolInfo="GetSymbolInfo" SymbolWidth="40" >
 </SfSymbolPaletteComponent >
@@ -341,7 +333,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 @using Syncfusion.Blazor.Diagram.SymbolPalette
 
 <SfSymbolPaletteComponent Palettes="@_palettes" SymbolDragPreviewSize="@_symbolPreview" SymbolHeight="40" GetSymbolInfo="GetSymbolInfo" SymbolWidth="40" >
@@ -394,6 +385,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Events/DragDrop.razor)
 
 ## How to Handle the On Auto Scroll Change Event
+
 The [OnAutoScrollChange](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_OnAutoScrollChange) event is raised when changes are detected in the scroll position, extent, or viewport size due to auto-scrolling of diagram elements. This event provides an [AutoScrollChangeEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.AutoScrollChangeEventArgs.html) argument containing relevant information.
 
 The [AutoScrollChangeEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.AutoScrollChangeEventArgs.html) include the following properties:

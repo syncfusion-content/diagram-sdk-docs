@@ -101,10 +101,10 @@ Tooltips can be attached to 12 predefined positions around the target element. W
 * [LeftCenter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_LeftCenter)
 * [LeftBottom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_LeftBottom)
 * [RightTop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_RightTop)
-* [`RightCenter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_RightCenter)
-* [RightBottom`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_RightCenter)
+* [RightCenter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_RightCenter)
+* [RightBottom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Popups.Position.html#Syncfusion_Blazor_Popups_Position_RightBottom)
 
-N> By default, the Tooltip is placed at the **BottomRight** of the target element.
+> **Note:** By default, the Tooltip is placed at the **BottomRight** of the target element.
 
 The following code example sets the tooltip position for the nodes.
 
@@ -594,8 +594,7 @@ The Tooltip activation mode can be customized to determine how it appears on the
 * `Custom`
 * `Click`
 
-
-N> By default, the Tooltip open mode is **Auto**.
+> **Note:** By default, the Tooltip open mode is **Auto**.
 
 The following code example illustrates how to set the open mode for tooltips on nodes.
 
@@ -780,7 +779,7 @@ Tooltips for nodes and connectors can be configured to remain visible until manu
 
 To enable or disable this sticky mode, use the `IsSticky` property in the tooltip configuration. By default, the `IsSticky` property is set to `false`.
 
-N> The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
+> **Note:** The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
 
 The following code example demonstrates how to set `IsSticky` property to **true** for a node:
 
@@ -855,7 +854,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZBRtxqZVTAgZgHz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[ToolTip During hover the node with Stikcy Mode](images/StickyConnector.webp)" %}
 
-For more information about tooltip, refer to [Tooltip](https://blazor.syncfusion.com/documentation/diagram/tool-tip)
+For more information about tooltip, refer to [Tooltip](https://help.syncfusion.com/diagram-sdk/blazor/tool-tip)
 
 ## How to Set Tooltip for User Handles
 
@@ -918,7 +917,7 @@ Tooltips for user handles can be configured to remain visible until manually dis
 
 To enable or disable this sticky mode, use the `IsSticky` property in the tooltip configuration. By default, the `IsSticky` property is set to **false**.
 
-N> The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
+> **Note:** The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
 
 The following code example demonstrates how to set `IsSticky` property to **true** for a user handle:
 
@@ -1148,7 +1147,7 @@ Enhance the diagram's user experience with sticky tooltips for ports. This featu
 
 To enable or disable this sticky mode, use the `IsSticky` property in the tooltip configuration. By default, the `IsSticky` property is set to **false**.
 
-N> The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
+> **Note:** The tooltip will have an open and close state whenever the mouse hovers over different diagram elements. Only one "sticky" tooltip can be visible in the diagram at a time.
 
 The following code example demonstrates how to set `IsSticky` property to **true** for a ports:
 

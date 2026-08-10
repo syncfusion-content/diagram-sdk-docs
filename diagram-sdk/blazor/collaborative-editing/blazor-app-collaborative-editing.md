@@ -18,7 +18,7 @@ This guide explains how to configure SignalR Hub in a Blazor application for rea
 
 ## How to Create Blazor sample
 
-To create a Blazor Web App, follow the steps outlined in the Blazor Web App [Getting Started](https://blazor.syncfusion.com/documentation/diagram/getting-started-with-web-app) documentation.
+To create a Blazor Web App, follow the steps outlined in the Blazor Web App [Getting Started](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app) documentation.
 
 ## How to Add Packages in the Blazor Application
 
@@ -36,7 +36,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your Blazo
 * Configure the `/diagramHub` endpoint with WebSockets transport and `SkipNegotiation = true` and enable automatic reconnect to handle transient network issues.
 * Subscribe to the `OnConnectedAsync` callback to receive the unique connection ID, confirming a successful handshake with the server.
 * Join a SignalR group by calling `JoinDiagram(roomName)` after connecting. This ensures updates are shared only with users in the same diagram session.
-* Refer to Create Blazor [Simple Diagram](https://blazor.syncfusion.com/documentation/diagram/getting-started-with-web-app#how-to-create-blazor-flowchart-diagram)
+* Refer to Create Blazor [Simple Diagram](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app#create-your-first-diagram-with-nodes-and-connectors)
 
 ```csharp
 @using Microsoft.AspNetCore.SignalR.Client

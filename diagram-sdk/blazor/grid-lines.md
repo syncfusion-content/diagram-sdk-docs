@@ -184,7 +184,6 @@ Snapping to gridlines can be enabled or disabled with the [SnapConstraints](http
 ```
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Gridlines/SnapToLines.razor)
 
-
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtVHNdVuTYswKeuS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Snapping to GridLines in Blazor Diagram](images/blazor-diagram-snap-to-gridlines.webp)" %}
 
 ### How to Customize Snap Intervals
@@ -192,8 +191,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 By default, objects snapped towards the nearest gridline. The gridline or position towards where the diagram object snaps can be customized by using the [SnapIntervals](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramGridLines.html#Syncfusion_Blazor_Diagram_DiagramGridLines_SnapIntervals) property of HorizontalGridLines and VerticalGridLines.
 
 ```cshtml
-@page "/CustomSnapLineInterval Sample"
-
 @using Syncfusion.Blazor.Diagram
 
 <SfDiagramComponent Height="600px" Nodes="@_nodes">
@@ -242,7 +239,7 @@ The snap to object provides visual cues to assist with aligning and spacing diag
 
 * The [SnapAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SnapSettings.html#Syncfusion_Blazor_Diagram_SnapSettings_SnapAngle) property allows you to define the snap angle by which the object needs to be rotated.
 
-* The Constraints property of the SnapSettings class allows you to enable or disable certain features of the snapping, refer to [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SnapSettings.html#Syncfusion_Blazor_Diagram_SnapSettings_Constraints).
+* The [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SnapSettings.html#Syncfusion_Blazor_Diagram_SnapSettings_Constraints) property of `SnapSettings` controls the visibility of gridlines.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -291,7 +288,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 The [SnapLineStyle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SnapSettings.html#Syncfusion_Blazor_Diagram_SnapSettings_SnapLineStyle) property of the [SnapSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SnapSettings.html) class allows to adjust the appearance of snapping lines to enhance visibility or match specific aesthetic preferences. By customizing this property, modify the color, stroke width, stroke dash array, and opacity of the snap lines. These adjustments improve visual contrast, making it easier to align objects with precision. By default, the snap line color is **#07EDE1**.
 
 The following code example illustrates how to customize the snap line style.
-
 
 ```cshtml
 @page "/"

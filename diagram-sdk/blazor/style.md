@@ -380,9 +380,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Customize the Orthogonal Segment Thumb
 
-
 To customize the visual appearance of the orthogonal segment thumb, apply the following CSS code to the stylesheet:
-
 
 ```cshtml
 <style>
@@ -397,7 +395,8 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ![Segment Thumb style in Blazor Diagram](images/OrthogonalThumbStyle.webp)
 
-## How to Customize the Bezier and Straight Segment Thumb 
+## How to Customize the Bezier and Straight Segment Thumb
+
 To customize the visual appearance of Bezier and Straight connector segments, apply the following CSS code:
 
 ```cshtml
@@ -412,6 +411,6 @@ You can download a complete working sample from [GitHub](https://github.com/Sync
 
 ![Segment shape  in Blazor Diagram](images/SegmentStyle.webp)
 
-## see also
+## See also
 
 * [How to Set Background Color for Entire Diagram Area in Blazor Diagram](https://support.syncfusion.com/kb/article/16016/how-to-set-background-color-for-entire-diagram-area-in-blazor-diagram)

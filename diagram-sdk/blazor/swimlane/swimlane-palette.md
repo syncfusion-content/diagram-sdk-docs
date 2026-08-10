@@ -42,7 +42,7 @@ The following code shows how to add lanes and phases to a palette.
     // Define palettes collection
     private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
     // Defines palette's swimlane-shape collection
-    private DiagramObjectCollection<NodeBase> _swimlaneNodes = new DiagramObjectCollection<NodeBase>();
+    private DiagramObjectCollection<NodeBase> _swimlaneNodes;
 
     protected override void OnInitialized()
     {

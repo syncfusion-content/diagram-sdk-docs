@@ -704,7 +704,8 @@ The following code illustrates the clipboard commands.
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hNrdtnqjqHYQdTvL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Commands/ClipboardCommands.razor)
-## How to Use Grouping commands
+
+## How to Use Grouping Commands
 
 **Grouping commands** are used to group or ungroup the selected elements on the diagram. To group the elements, select the elements using the select all command and group the selected elements using the group command.
 
@@ -1269,60 +1270,60 @@ The following code illustrates how to execute the FitToPage method.
 <SfDiagramComponent @ref="_diagram" Width="1000px" Height="600px" Nodes="_nodes" Connectors="_connectors">
 </SfDiagramComponent>
 @code {
-        //Initialize of all the variables, methods and classes.
-        private SfDiagramComponent _diagram;
-        private FitOptions _options = new FitOptions() {Mode = FitMode.Both, Region = DiagramRegion.Content };
-        private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-        private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
-        private string _selectedMode;
-        private string _selectedRegion;
-     
-      protected override void OnInitialized()
+    //Initialize of all the variables, methods and classes.
+    private SfDiagramComponent _diagram;
+    private FitOptions _options = new FitOptions() {Mode = FitMode.Both, Region = DiagramRegion.Content };
+    private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+    private string _selectedMode;
+    private string _selectedRegion;
+    
+    protected override void OnInitialized()
+    {
+        Node node1 = new Node()
         {
-            Node node1 = new Node()
-            {
-                ID = "node1",
-                OffsetX = 100,
-                OffsetY = 100,
-                Width = 100,
-                Height = 100,
-                Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
-            };
-            Node node2 = new Node()
-            {
-                ID = "node2",
-                OffsetX = 500,
-                OffsetY = 700,
-                Width = 100,
-                Height = 100,
-                Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
-            };
-            Node node3 = new Node()
-            {
-                ID = "node3",
-                OffsetX = 500,
-                OffsetY = 500,
-                Width = 100,
-                Height = 100,
-                Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
-            };
-            Node node4 = new Node()
-            {
-                ID = "node4",
-                OffsetX = 1000,
-                OffsetY = 700,
-                Width = 100,
-                Height = 100,
-                Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
-            };
-            Node node5 = new Node()
-            {
-                ID = "node5",
-                OffsetX = 1150,
-                OffsetY = 400,
-                Width = 100,
-                Height = 100,
-                Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+            ID = "node1",
+            OffsetX = 100,
+            OffsetY = 100,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+        };
+        Node node2 = new Node()
+        {
+            ID = "node2",
+            OffsetX = 500,
+            OffsetY = 700,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+        };
+        Node node3 = new Node()
+        {
+            ID = "node3",
+            OffsetX = 500,
+            OffsetY = 500,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+        };
+        Node node4 = new Node()
+        {
+            ID = "node4",
+            OffsetX = 1000,
+            OffsetY = 700,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+        };
+        Node node5 = new Node()
+        {
+            ID = "node5",
+            OffsetX = 1150,
+            OffsetY = 400,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
         };
         Node node6 = new Node()
         {
@@ -1340,7 +1341,7 @@ The following code illustrates how to execute the FitToPage method.
         _nodes.Add(node5);
         _nodes.Add(node6);
     }
-      private void Mode(ChangeEventArgs e)
+    private void Mode(ChangeEventArgs e)
     {
         if (e.Value != null)
         {
@@ -1363,7 +1364,6 @@ The following code illustrates how to execute the FitToPage method.
         }
     }
 
-
     private void RegionChange(ChangeEventArgs e)
     {
         if (e.Value != null)
@@ -1384,10 +1384,10 @@ The following code illustrates how to execute the FitToPage method.
     }
 
     //fit the diagram to the page with respect to mode and region.
-        private void FitToPage()
-        {
-         _diagram.FitToPage(_options);
-        }
+    private void FitToPage()
+    {
+        _diagram.FitToPage(_options);
+    }
 }
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rXLnZHAjAmpgOojf?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

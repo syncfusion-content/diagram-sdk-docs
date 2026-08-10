@@ -27,8 +27,6 @@ The complex hierarchical tree layout arranges nodes in a tree-like structure in 
 
 @code 
 {
-    private int left = 40;
-    private int top = 50;
     //Initialize the diagram's nodes collection
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
     //Initialize the diagram's connectors collection
@@ -111,7 +109,7 @@ The following code example shows how to create a complex hierarchical tree with 
     //Creates connectors with some default values.
     private void OnConnectorCreating(IDiagramObject connector)
     {
-         (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
+        (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
         (connector as Connector).CornerRadius = 7;
         (connector as Connector).Style.StrokeWidth = 1;
         (connector as Connector).TargetDecorator.Height = 7;
@@ -183,7 +181,7 @@ The following code illustrates how to arrange the nodes in a non linear manner.
     //Creates connectors with some default values.
     private void OnConnectorCreating(IDiagramObject connector)
     {
-         (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
+        (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
         (connector as Connector).CornerRadius = 7;
         (connector as Connector).Style.StrokeWidth = 1;
         (connector as Connector).TargetDecorator.Height = 7;
@@ -219,7 +217,7 @@ The following code illustrates how to arrange the nodes in a non linear manner.
 ```
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Layout/LinearArrangementNonLinear.razor)
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLxNxBHKaXxOYVM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor complex hierarchical layout with nonlinear child arrangemen](../images/blazor-diagram-non-linear.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjLxNxBHKaXxOYVM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor complex hierarchical layout with nonlinear child arrangement](../images/blazor-diagram-non-linear.webp)" %}
 
 The following code illustrates how to arrange the nodes in  linear manner by enabling linear arrangement.
 
@@ -249,7 +247,7 @@ The following code illustrates how to arrange the nodes in  linear manner by ena
     //Creates connectors with some default values.
     private void OnConnectorCreating(IDiagramObject connector)
     {
-         (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
+        (connector as Connector).Type = ConnectorSegmentType.Orthogonal;
         (connector as Connector).CornerRadius = 7;
         (connector as Connector).Style.StrokeWidth = 1;
         (connector as Connector).TargetDecorator.Height = 7;

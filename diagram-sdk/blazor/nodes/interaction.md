@@ -53,7 +53,7 @@ A node can be selected at runtime by using the [Select](https://help.syncfusion.
     private void OnSelect()
     {
         // Select the node
-        _diagram.Select(new ObservableCollection<IDiagramObject> { diagram.Nodes[0] });
+        _diagram.Select(new ObservableCollection<IDiagramObject> { _diagram.Nodes[0] });
     }
 
     private void UnSelect()
@@ -175,7 +175,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 Resizing is also supported during interaction:
 
 * The selector displays eight resize handles. Drag these handles to resize the selected items.
-* When one corner of the selector is dragged, the opposite corner will be in a static position.
+* When one corner of the selector is dragged, the opposite corner will remains static.
 * When a node is resized, the [SizeChanging](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_SizeChanging) and [SizeChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_SizeChanged) events get triggered.
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LZBHZRhSAvUbrOXq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Resizing a node using the selection handles in Blazor Diagram](../images/blazor-diagram-node-resizing.webp)" %}
@@ -235,7 +235,7 @@ Rotation is also supported during interaction:
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hZVHZdroqFynFImD?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Rotating a node using the rotation handle in Blazor Diagram](../images/blazor-diagram-node-rotation.webp)" %}
 
-## How to rotate a node using the RotationAngle property
+## How to Rotate a Node Using the RotationAngle Property
 
 The [RotationAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_RotationAngle)  property gets or sets the rotation angle of a node in degrees. This defines the fixed angle at which the node is displayed. The default value is **0**.
 
@@ -268,7 +268,48 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Flip a Node
 
-The [Flip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_Flip) is performed to give the mirrored image of the original element.
+The [Flip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Flip) and [FlipMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_FlipMode) properties are used to give the mirrored image of the original element. `FlipMode` accepts [FlipDirection](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FlipDirection.html) values such as **Horizontal**, **Vertical**, or **Both**.
+
+The following code example illustrates how to flip a node horizontally and vertically at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Horizontal Flip" OnClick="@FlipHorizontal" />
+<SfButton Content="Vertical Flip" OnClick="@FlipVertical" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            Width = 100,
+            Height = 100,
+            OffsetX = 250,
+            OffsetY = 250,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+    }
+
+    private void FlipHorizontal()
+    {
+        _diagram.Nodes[0].Flip = _diagram.Nodes[0].Flip == FlipDirection.Horizontal ? FlipDirection.None : FlipDirection.Horizontal;
+    }
+
+    private void FlipVertical()
+    {
+        _diagram.Nodes[0].Flip = _diagram.Nodes[0].Flip == FlipDirection.Vertical ? FlipDirection.None : FlipDirection.Vertical;
+    }
+}
+```
 
 For more information about node flip, refer to [Node Flip](../flip#how-to-flip-the-node-or-group).
 

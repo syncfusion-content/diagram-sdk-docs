@@ -21,7 +21,7 @@ A [Lane](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Lane.ht
 * A lane can be resized by using the resize selector of the lane.
 * A lane can be resized by dragging the bottom and right border of the lane without making a selection.
 * When a lane is resized, the parent swimlane will automatically adjust its size.
-* A lane can resized either by resizing the selector or the tight bounds of the child objects. If a child node moves to the edge of the lane, it can be automatically resized.
+* A lane can be resized either by resizing the selector or the tight bounds of the child objects. If a child node moves to the edge of the lane, it can be automatically resized.
 
 The following image shows how to resize the lane.
 
@@ -262,4 +262,11 @@ The following example demonstrates that a constraint can also be enabled or disa
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htBxtnBkqMvKzUMZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Allow Drag Within Swimlane](../Swimlane-images/AllowDragWithinSwimlane.webp)" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/tree/master/Diagram/Server/Pages/Swimlanes/LaneInteraction/AllowDragWithinSwimlane.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Swimlanes/LaneInteraction/AllowDragWithinSwimlane.razor)
+
+## See also
+
+* [How to create a lane](./lane)
+* [How to customize the swimlane header](../swimlane)
+* [How to add child elements to a lane](./lane#how-to-add-children-to-lane)
+* [How to restrict nodes from being dragged outside their swimlane](#how-to-restrict-nodes-from-being-dragged-outside-their-swimlane)

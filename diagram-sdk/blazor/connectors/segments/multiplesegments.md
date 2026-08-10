@@ -67,8 +67,8 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## See also
 
-* [How to customize the connector properties](https://blazor.syncfusion.com/documentation/diagram/connectors/customization)
+* [How to customize the connector properties](https://help.syncfusion.com/diagram-sdk/blazor/connectors/customization)
 
-* [How to interact with the connector](https://blazor.syncfusion.com/documentation/diagram/connectors/interactions)
+* [How to interact with the connector](https://help.syncfusion.com/diagram-sdk/blazor/connectors/interactions)
 
-* [How to get the connector events](https://blazor.syncfusion.com/documentation/diagram/connectors/events)
+* [How to get the connector events](https://help.syncfusion.com/diagram-sdk/blazor/connectors/events)

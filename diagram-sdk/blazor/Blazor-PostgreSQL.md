@@ -183,7 +183,7 @@ The exact procedure for creating and applying migrations is described in the [au
 
 ### Step 1: Install Required NuGet Packages
 
-Before installing the necessary NuGet packages, a new Blazor web application must be created using the default template. For full step-by-step instructions on creating a Blazor project, see the getting-started guide: **[Getting Started](https://blazor.syncfusion.com/documentation/diagram/getting-started)**.
+Before installing the necessary NuGet packages, a new Blazor web application must be created using the default template. For full step-by-step instructions on creating a Blazor project, see the getting-started guide: **[Getting Started](https://help.syncfusion.com/diagram-sdk/blazor/getting-started)**.
 
 For this guide, a Blazor application named **BlazorServerStyle** has been created. Once the project is set up, the next step involves installing the required NuGet packages. These packages enable Entity Framework Core and PostgreSQL integration.
 
@@ -343,7 +343,7 @@ A connection string contains the information needed to connect the application t
 ```json
 {
     "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgresql@123"
+        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgres123"
     },
   "Logging": {
     "LogLevel": {
@@ -575,7 +575,7 @@ Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY
 ```
 For this project, the Bootstrap 5 theme is used. A different theme can be selected or the existing theme can be customized based on project requirements. Refer to the [Blazor Components Appearance](https://blazor.syncfusion.com/documentation/appearance/themes) documentation to learn more about theming and customization options.
 
-For additional guidance, refer to the Diagram component [getting-started](https://blazor.syncfusion.com/documentation/diagram/getting-started-with-web-app) documentation.
+For additional guidance, refer to the Diagram component [getting-started](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app) documentation.
 
 ### Step 2: Update the Blazor Diagram
 
@@ -740,5 +740,5 @@ The application now provides a complete solution for visualizing organizational 
 
 ## See Also
 
-- [Data Binding](https://blazor.syncfusion.com/documentation/diagram/data-binding#how-to-specify-parent-child-relationship-in-data-source)
-- [Organizational Chart Layout](https://blazor.syncfusion.com/documentation/diagram/layout/organizational-chart)
+- [Data Binding](https://help.syncfusion.com/diagram-sdk/blazor/data-binding#how-to-specify-parent-child-relationship-in-data-source)
+- [Organizational Chart Layout](https://help.syncfusion.com/diagram-sdk/blazor/layout/organizational-chart)

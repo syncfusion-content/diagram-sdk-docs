@@ -18,7 +18,7 @@ Multiple lanes can be added to a swimlane and rendered in the diagram. Lanes are
 
 * Create a [Lane](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Lane.html) and add it to the [Lanes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Swimlane.html#Syncfusion_Blazor_Diagram_Swimlane_Lanes) collection of the swimlane.
 
-> Note: For a horizontal swimlane, set the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Height) of the lane. For a vertical swimlane, set the [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Width) of the lane.
+>**Note:** For a horizontal swimlane, set the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Height) of the lane. For a vertical swimlane, set the [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Width) of the lane.
 
 The following code example explains how to define a swimlane with lane.
 
@@ -320,7 +320,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
  The node [LaneOffsetX](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_LaneOffsetX) and [LaneOffsetY](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_LaneOffsetY) properties position the element within the lane canvas.
 
->Note: By default, lane children maintain a **20** pixels padding from the lane canvas.
+>**Note:** By default, lane children maintain a **20** pixels padding from the lane canvas.
 
 The following code example shows how to add nodes to a lane.
 
