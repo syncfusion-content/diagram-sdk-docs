@@ -4,7 +4,6 @@ title: Shapes in ASP.NET MVC Diagram | Syncfusion®
 description: Add text, image, HTML, native, basic, or flow shape nodes to Syncfusion® ASP.NET MVC Diagram, with custom styling and built-in shape library.
 platform: diagram-sdk
 control: Shapes
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -101,9 +100,9 @@ Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetc
 
 N> Deploy your HTML file in the web application and export the diagram (image node) or else the image node will not be exported in the Chrome and Firefox due to security issues.
 
-**Link 1**: [Draw images on canvas locally using chrome](http://asked.online/draw-images-on-canvas-locally-using-chrome/2546077/)
+**Link 1**: [Draw images on canvas locally using chrome](https://asked.online/draw-images-on-canvas-locally-using-chrome/2546077)
 
-**Link 2**: [Local image in canvas in chrome](http://stackoverflow.com/questions/4761711/local-image-in-canvas-in-chrome)
+**Link 2**: [Local image in canvas in chrome](https://stackoverflow.com/questions/4761711/local-image-in-canvas-in-chrome)
 
 ## Image alignment
 

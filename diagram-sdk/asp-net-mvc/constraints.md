@@ -4,7 +4,6 @@ title: Constraints in ASP.NET MVC Diagram | Syncfusion®
 description: Enable or disable diagram, node, and connector behaviors in Syncfusion® ASP.NET MVC Diagram using flagged constraints and bitwise operators.
 platform: diagram-sdk
 control: Constraints
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -47,7 +46,7 @@ Diagram constraints allows to enable or disable the following behaviors:
 
 
 
-For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.htmll).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConstraints.html).
 
 ## Node constraints
 
