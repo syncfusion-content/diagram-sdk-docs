@@ -2,7 +2,7 @@
 layout: post
 title: Installing Syncfusion Diagram SDK web installer - Syncfusion
 description: Learn here about how to install Syncfusion Diagram SDK web installer after downloading from our Syncfusion website.
-platform: Diagram-SDK
+platform: diagram-sdk
 control: Installation and Deployment
 documentation: ug
 ---
