@@ -4,14 +4,13 @@ title: Export in Syncfusion® ASP.NET MVC Diagram Component
 description: Learn here all about Export in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Export
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
-# Exporting in Diagram
+# Exporting in ASP.NET MVC Diagram Control
 
-Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/#exportDiagram) helps to export the diagram.
+Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportdiagram) helps to export the diagram.
 
 N> To use Print and Export, you need to inject `PrintAndExport` in the diagram.
 
@@ -168,7 +167,7 @@ diagram.exportDiagram(options);
 
 ## Print
 
-The client-side method [`print`](https://ej2.syncfusion.com/documentation/api/diagram/#print) helps to print the diagram as image.
+The client-side method [`print`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#print) helps to print the diagram as image.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |

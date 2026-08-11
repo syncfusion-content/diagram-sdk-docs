@@ -154,7 +154,7 @@ The following code example illustrates how to create activation boxes.
 
 #### Types of Fragments
 
-The [UmlSequenceFragmentType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.UmlSequenceFragmentType) enum defines the following fragment types:
+The `UmlSequenceFragmentType` enum defines the following fragment types:
 
 | Fragment Type  | Description  | Example  |  
 |---------------|-------------|--------|  

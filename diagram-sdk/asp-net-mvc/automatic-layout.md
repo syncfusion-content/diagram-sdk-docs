@@ -4,12 +4,11 @@ title: Automatic Layout in Syncfusion® ASP.NET MVC Diagram Component
 description: Learn here all about Automatic Layout in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Automatic Layout
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
-# Automatic Layout in Diagram
+# Automatic Layout in ASP.NET MVC Diagram Control
 
 Diagram provides support to auto-arrange the nodes in the diagram area that is referred as [`Layout`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html). It includes the following layout modes:
 
@@ -334,7 +333,7 @@ An [`Orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 
 N> If you want to use mind map layout in diagram, you need to inject MindMap in the diagram.
 
-The following code example illustrates how to create an mindmap layout.
+The following code example illustrates how to create an mind map layout.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

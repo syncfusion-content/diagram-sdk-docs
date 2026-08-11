@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Umldiagram in ASP.NET MVC Diagram Component
+title: Umldiagram in ASP.NET MVC Diagram Control | Syncfusion
 description: Learn here all about Umldiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
 platform: diagram-sdk
 control: Umldiagram
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
-# UML Diagram Shapes
+# UML Diagram Shapes in ASP.NET MVC Diagram Control
 
 ## UML Class Diagram
 
