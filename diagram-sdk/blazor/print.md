@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Printing in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about the Printing feature in Blazor Diagram component and more.
+description: Print the Blazor Diagram Component with custom region, page size, orientation, margins, and single or multi-page fit options.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -45,7 +45,7 @@ The following code example illustrates how to print the region occupied by the d
 <SfButton Content="Print" OnClick="@OnPrintAsync" />
 
 <SfDiagramComponent Height="600px" @ref="@_diagram">
-    <PageSettings MultiplePage="true" Width="@_width" Height="@_height" Orientation="@_pageOrientation" ShowPageBreaks="@_showPageBreak">
+    <PageSettings MultiplePage="@_multiplePage" Width="@_width" Height="@_height" Orientation="@_pageOrientation" ShowPageBreaks="@_showPageBreak">
         <PageMargin Left="@_left" Right="@_right" Top="@_top" Bottom="@_bottom"></PageMargin>
     </PageSettings>
 </SfDiagramComponent>

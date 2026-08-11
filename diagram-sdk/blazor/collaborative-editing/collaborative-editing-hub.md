@@ -1,14 +1,13 @@
 ---
 layout: post
-title: SignalR Hub for Real-Time Collaboration in Diagram | Syncfusion®
-description: Checkout and learn to implement SignalR hub services with Redis for real-time collaborative editing in Blazor Diagram.
+title: Collaborative Editing Hub in Blazor Diagram Component | Syncfusion®
+description: Configure the ASP.NET Core SignalR hub with Redis backplane that powers real-time Blazor Diagram Component collaboration.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# SignalR Hub Configuration for Collaborative Editing
-
+# SignalR Hub Configuration in Blazor Diagram Component
 ## Overview
 
 This guide explains how to configure ASP.NET Core SignalR with Redis for real-time collaborative editing in a Blazor application. It covers creating the app, installing packages, configuring SignalR, implementing the hub, handling conflicts, and managing Redis cleanup.
@@ -130,7 +129,7 @@ public class DiagramHub : Hub
 }
 ```
 
-## Conflict Resolution (optimistic concurrency)
+## Conflict Resolution (Optimistic Concurrency)
 
 Collaborative edits use a version-based optimistic concurrency model. In `BroadcastToOtherUsers` method  includes the user’s current `userVersion`, payloads, and the IDs of elements affected by the edit (editedElementIds). Instead of locking, the server validates the version for every update. If discrepancies occur, the server rejects or re-applies changes as needed. This approach ensures data consistency while maintaining real-time responsiveness for all participants.
 
@@ -159,7 +158,7 @@ public class DiagramHub : Hub
         _redisService = redisService;
     }
 
-    // Triggers the method when the user send the data to other users via signalR
+    // Triggers the method when the user sends the data to other users via SignalR
     public async Task BroadcastToOtherUsers(List<string> payloads, long userVersion, List<string>? elementIds, string roomName)
     {
         try

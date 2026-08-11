@@ -1,24 +1,26 @@
 ---
 layout: post
-title: Bezier Segments in Blazor Diagram Component | Syncfusion®
-description:  Check out and learn about how to edit the Bezier Segments in Blazor Diagram component and much more details.
+title: Segment Edit Orientation in Blazor Diagram Component | Syncfusion®
+description: Edit Blazor Diagram Connector Component Bezier segment points bidirectionally or freeform using the SegmentEditOrientation setting.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Bezier Segments in Blazor Diagram Component
+# Bezier Segment Edit Orientation in Blazor Diagram Component
 
 ## How to Edit Bezier Segments Using Bezier Connector Settings
 
-The intermediate points between adjacent Bezier segments can be edited interactively by using the [BezierConnectorSettings.SegmentEditOrientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_SegmentEditOrientation) property of the Connector class.
+The intermediate points between adjacent Bezier segments can be edited interactively by using the [BezierConnectorSettings.SegmentEditOrientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_SegmentEditOrientation) property of the Connector class. The default value of `SegmentEditOrientation` is **Bidirectional**.
 
 | SegmentEditOrientation value | Description | Output |
 |-------- | -------- | -------- |
 | [Bidirectional](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSegmentEditOrientation.html#Syncfusion_Blazor_Diagram_BezierSegmentEditOrientation_Bidirectional) | Allows intermediate points to be dragged in either the vertical or horizontal direction. | ![Bidirectional](../../../../images/Bidirectional.webp) |
-| [Freeform](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSegmentEditOrientation.html#Syncfusion_Blazor_Diagram_BezierSegmentEditOrientation_FreeForm) | Allows intermediate points to be dragged freely in any direction. | ![Freeform](../../../../images/Freeform.webp) |
+| [Freeform](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierSegmentEditOrientation.html#Syncfusion_Blazor_Diagram_BezierSegmentEditOrientation_FreeForm) | Allows intermediate points to be dragged in any direction. | ![Freeform](../../../../images/Freeform.webp) |
 
 The following code illustrates how to interact with Bezier efficiently by using the [BezierConnectorSettings.Smoothness](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_Smoothness) and [BezierConnectorSettings.SegmentEditOrientation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BezierConnectorSettings.html#Syncfusion_Blazor_Diagram_BezierConnectorSettings_SegmentEditOrientation) properties.
+
+> **Note:** The `DragSegmentThumb` constraint must be included in `ConnectorConstraints` to allow the intermediate segment control points to be dragged.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Context Menu in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Diagram Context Menu in Blazor Diagram component and much more.
+description: Open a right-click context menu in the Blazor Diagram Component with default and custom items, submenus, and template support.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Context Menu in Diagram Component
+# Context Menu in Blazor Diagram Component
 
 <!-- markdownlint-disable MD010 -->
 
-In graphical user interfaces (GUIs), a context menu is a menu that opens on right-click and can create a nested level of context menu items.
+In graphical user interfaces (GUIs), a context menu is a menu that opens on right-click and can include nested submenu items.
 The Diagram component provides built-in context menu items and supports custom items through the [ContextMenuSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html) property.
 
 ## How to Enable Default Context Menu

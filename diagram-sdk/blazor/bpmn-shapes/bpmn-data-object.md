@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Data Object in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create BPMN data object in Blazor Diagram component and much more details.
+description: Represent Blazor Diagram Component process data with BPMN Data Object input, output, and collective data shapes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # BPMN Data Object in Blazor Diagram Component
 
-A [BpmnDataObject](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html) represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a `BpmnDataObject`, the node property [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) should be set as `BpmnDataObject`, and the [DataObjectType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_DataObjectType) property defines whether data is an input or output. You can indicate the collection of data object by setting the [IsCollectiveData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_IsCollectiveData) property of `BpmnDataObject` as **True.**
+A [BpmnDataObject](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html) represents data used or produced by a process—such as data collected, stored, passed into the process, or generated as output. To define a `BpmnDataObject`, set the node's [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) property to `BpmnDataObject`, and use the [DataObjectType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_DataObjectType) property to specify whether the data is an input or output. Mark the data as a collection by setting the [IsCollectiveData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_IsCollectiveData) property of `BpmnDataObject` to **true**.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -58,4 +58,4 @@ The following table describes the different types of BPMN Data Objects.
 | -------- | -------- |-------- | -------- |
 | [None](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObjectType.html#Syncfusion_Blazor_Diagram_BpmnDataObjectType_None) | ![Collection Data BPMN Shape](../images/Bpmn-DataObject-None.webp) |![ Data BPMN Shape](../images/Bpmn-DataObject-Collective-None.webp) |None of the business processes with the signified information collected within a DataObject|
 | [Input](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObjectType.html#Syncfusion_Blazor_Diagram_BpmnDataObjectType_Input) | ![Data Input BPMN Shape](../images/Bpmn-DataObject-Input.webp) |![Data Input BPMN Shape](../images/Bpmn-DataObject-Collective-Input.webp) |Represents the data requirements on which the tasks in the business process depend on with the signified information collected within a DataObject|
-| [Output](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObjectType.html#Syncfusion_Blazor_Diagram_BpmnDataObjectType_Output) | ![Data Output BPMN Shape](../images/Bpmn-DataObject-Output.webp) |![Data Output BPMN Shape](../images/Bpmn-DataObject-Collective-OutPut.webp) |Demonstrates information produced as the result of a business process with the signified information collected within a DataObject|
+| [Output](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObjectType.html#Syncfusion_Blazor_Diagram_BpmnDataObjectType_Output) | ![Data Output BPMN Shape](../images/Bpmn-DataObject-Output.webp) |![Data Output BPMN Shape](../images/Bpmn-DataObject-Collective-OutPut.webp) |Represents data produced by the business process with the signified information collected within a DataObject|

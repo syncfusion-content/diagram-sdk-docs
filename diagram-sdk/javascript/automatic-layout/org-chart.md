@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Org-chart layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Organizational Chart in JavaScript Diagram | Syncfusion®
+description: Build an Organizational Chart in the Syncfusion® JavaScript Diagram by setting the layout type to OrganizationalChart, with data source support.
 platform: diagram-sdk
 control: Org-chart 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Organizational Chart layout in JavaScript Diagram control
+# Organizational Chart in JavaScript Diagram
 
 An organizational chart is a diagram that displays the structure of an organization and relationships. To create an organizational chart, the [`type`](../../api/diagram/layout#type) of layout should be set as an `OrganizationalChart`.
 

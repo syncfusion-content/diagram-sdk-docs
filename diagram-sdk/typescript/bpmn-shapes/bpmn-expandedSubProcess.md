@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn Expanded subProcess in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Expanded SubProcess shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Expanded SubProcess in TypeScript Diagram | Syncfusion®
+description: Compose child nodes inside an expanded BPMN subProcess in the Syncfusion® TypeScript Diagram for hierarchical process modeling.
 platform: diagram-sdk
 control: Bpmn Expanded subProcess 
 publishingplatform: diagram-sdk
@@ -10,8 +10,8 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
-# Expanded SubProcess in TypeScript Diagram control
-An expanded subProcess can contain certain child processess within it.
+# BPMN Expanded SubProcess in TypeScript Diagram
+An expanded subProcess can contain certain child processes within it.
 
 ### Create BPMN Expanded subProcess
 

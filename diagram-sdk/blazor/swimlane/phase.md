@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Phase in Blazor Diagram Component | Syncfusion®
-description: Check out and learn here all about Phase support in Blazor Diagram component, its elements and more.
+description: Divide swimlane lanes into sequential phases in the Blazor Diagram Component to represent process stages along a timeline.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -15,7 +15,7 @@ documentation: ug
 
 Create a [Phase](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Phase.html) and add it to the [Phases](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Swimlane.html#Syncfusion_Blazor_Diagram_Swimlane_Phases) collection of the swimlane.
 
->Note: For a horizontal swimlane, set the phase [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Width). For a vertical swimlane, set the phase [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Height).
+>**Note:** For a horizontal swimlane, set the phase [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Width). For a vertical swimlane, set the phase [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SwimlaneChild.html#Syncfusion_Blazor_Diagram_SwimlaneChild_Height).
 
 The following code example explains how to add a phase to a swimlane.
 

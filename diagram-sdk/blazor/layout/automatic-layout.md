@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Automatic Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create automatic layout in Blazor Diagram component and much more details.
+description: Auto-arrange Blazor Diagram Component nodes with built-in hierarchical, organizational, flowchart, mind map, and radial tree layouts.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Automatic Layout in Diagram Component
+# Automatic Layout in Blazor Diagram Component
 
-The Diagram component includes a set of built-in automatic layout algorithms that arrange nodes within the diagram area based on predefined layout logic. This feature, referred to as [Layout](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html), simplifies organizing nodes and their connections, providing a clear and visually appealing structure for diagrams. The Diagram component supports the following  layout algorithms:
+The Diagram component includes a set of built-in automatic layout algorithms that arrange nodes within the diagram area based on predefined layout logic. This feature, referred to as [Layout](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html), simplifies organizing nodes and their connections, providing a clear and visually appealing structure for diagrams. The Diagram component supports the following layout algorithms:
 
 * Organizational chart layout
 * Flowchart layout
@@ -119,6 +119,10 @@ The [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.
 Default values: `HorizontalSpacing` is **30** and `VerticalSpacing` is **30**. Modify these to achieve the required layout density.
 
 ```csharp
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Update Spacing" OnClick="@UpdateSpacingAsync" />
 <SfDiagramComponent @ref="_diagram" Width="900px" Height="800px">
     <Layout Type="LayoutType.ComplexHierarchicalTree" @bind-HorizontalSpacing="@HorizontalSpacing" @bind-VerticalSpacing="@VerticalSpacing"/>
 </SfDiagramComponent>
@@ -260,7 +264,7 @@ The [SamePoint](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.
 * **true**: Connectors are arranged to avoid overlapping with other connectors (default).
 * **false**: Connectors can overlap with each other.
 
-Here’s an example of how to use this property:
+The following example demonstrates this property:
 ```csharp
 <SfDiagramComponent @ref="_diagram" Width="900px" Height="800px">
     <Layout Type="LayoutType.ComplexHierarchicalTree" SamePoint="false"></Layout>

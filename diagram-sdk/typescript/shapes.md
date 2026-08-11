@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Shapes in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Shapes in TypeScript Diagram | Syncfusion®
+description: Add text, image, HTML, native, basic, and flow shapes to the Syncfusion® TypeScript Diagram with style, scale, and alignment options.
 platform: diagram-sdk
 control: Shapes 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Shapes in TypeScript Diagram control
+# Shapes in TypeScript Diagram
 
 Diagram provides support to add different kind of nodes. They are as follows:
 

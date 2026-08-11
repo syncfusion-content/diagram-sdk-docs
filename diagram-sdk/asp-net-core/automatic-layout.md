@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automatic Layout in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Automatic Layout in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Automatic Layout in ASP.NET Core Diagram | Syncfusion®
+description: Auto-arrange nodes in Syncfusion® ASP.NET Core Diagram using hierarchical, organizational, radial tree, symmetric, mind map, or complex tree layouts.
 platform: diagram-sdk
 control: Automatic Layout
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Automatic Layout in Diagram
+# Automatic Layout in ASP.NET Core Diagram
 
 Diagram provides support to auto-arrange the nodes in the diagram area that is referred as [`Layout`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html). It includes the following layout modes:
 

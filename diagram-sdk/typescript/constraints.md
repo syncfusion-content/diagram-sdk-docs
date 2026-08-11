@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Constraints in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Constraints in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Constraints in TypeScript Diagram | Syncfusion®
+description: Enable or disable specific TypeScript Diagram, node, and connector behaviors using bitwise constraint flags.
 platform: diagram-sdk
 control: Constraints 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Constraints in TypeScript Diagram control
+# Constraints in TypeScript Diagram
 
 Constraints are used to enable or disable certain behaviors of the diagram, nodes, and connectors. Constraints are provided as flagged enumerations, so that multiple behaviors can be enabled or disabled using the Bitwise operators (`&`, `|`, `~`, `<<`, etc.).
 

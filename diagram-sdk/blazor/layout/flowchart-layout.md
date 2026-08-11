@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flowchart Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create flowchart layout in Blazor Diagram component and much more details.
+description: Auto-arrange Blazor Diagram Component process flows with the flowchart layout using standard symbols and directional connectors.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -20,11 +20,11 @@ Different flowchart symbols have different meanings that are used to represent v
 |![Blazor Diagram terminator symbol](../images/FlowShapes_Terminator.webp)|[Terminator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Terminator)|Indicates the beginning and ending of the process.|
 |![Blazor Diagram data symbol](../images//FlowShapes_Data.webp)|[Data](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Data)|Indicates data input or output for a process.|
 |![Blazor Diagram process symbol](../images/FlowShapes_Process.webp)|[Process](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Process)|Represents an operation or set of operations and data manipulations.|
-|![Blazor Diagram decision symbol](../images/FlowShapes_Decision.webp)|[Decision](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Decision)|Shows a branching point where the decision is made to choose one of the two paths|
+|![Blazor Diagram decision symbol](../images/FlowShapes_Decision.webp)|[Decision](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Decision)|Represents a branching point where the flow chooses between two paths|
 |![Blazor Diagram document symbol](../images//FlowShapes_Document.webp)|[Document](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Document)|Represents a single document or report in the process.|
 |![Blazor Diagram subprocess symbol](../images/FlowShapes_PreDefinedProcess.webp)|[PreDefinedProcess](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_PreDefinedProcess)|Represents a sequence of actions that combine to perform a specific task that is defined elsewhere.|
 |![Blazor Diagram direct data symbol](../images/FlowShapes_DirectData.webp)|[DirectData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_DirectData)|Represents a collection of information that allows searching, sorting, and filtering.|
-|![Blazor Diagrm stored data symbol](../images/FlowShapes_StoredData.webp)|[StoredData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_StoredData)|Represents a step where data get stored within a process.|
+|![Blazor Diagram stored data symbol](../images/FlowShapes_StoredData.webp)|[StoredData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_StoredData)|Represents a step where data get stored within a process.|
 |![Blazor Diagram manual input symbol](../images/FlowShapes_ManualInput.webp)|[ManualInput](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_ManualInput)|Represents the manual input of data into a field or step in a process.|
 |![Blazor Diagram manual operation symbol](../images/FlowShapes_ManualOperation.webp)|[ManualOperation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_ManualOperation)|Represents an operation in a process that must be done manually, not automatically.|
 |![Blazor Diagram preparation symbol](../images/FlowShapes_Preparation.webp)|[Preparation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeFlowShapes.html#Syncfusion_Blazor_Diagram_NodeFlowShapes_Preparation)|Represents a setup or initialization process to another step in the process.|
@@ -35,7 +35,7 @@ Different flowchart symbols have different meanings that are used to represent v
 ```csharp
 @using Syncfusion.Blazor.Diagram
 
-<SfDiagramComponent @ref="Diagram" Width="100%" Height="900px" ConnectorCreating="@OnConnectorCreating" NodeCreating="@OnNodeCreating" DataLoaded="@OnDataLoaded">
+<SfDiagramComponent @ref="_diagram" Width="100%" Height="900px" ConnectorCreating="@OnConnectorCreating" NodeCreating="@OnNodeCreating" DataLoaded="@OnDataLoaded">
     <DataSourceSettings ID="Id" ParentID="ParentId" DataSource="DataSource"> </DataSourceSettings>
     <Layout Type="LayoutType.Flowchart" HorizontalSpacing="50" Orientation="LayoutOrientation.TopToBottom" VerticalSpacing="50" FlowchartLayoutSettings="@flowchartSettings">
     </Layout>
@@ -46,7 +46,7 @@ Different flowchart symbols have different meanings that are used to represent v
     //Initialize diagram component.
     private SfDiagramComponent _diagram;
     //Initialize flowchart layout settings.
-    private FlowchartLayoutSettings _flowchartSettings = new FlowchartLayoutSettings()
+    private FlowchartLayoutSettings flowchartSettings = new FlowchartLayoutSettings()
     {
         YesBranchDirection = BranchDirection.LeftInFlow,
         NoBranchDirection = BranchDirection.RightInFlow
@@ -113,7 +113,7 @@ Different flowchart symbols have different meanings that are used to represent v
     }
 
     //Initialize data source collection.
-    public List<ItemInfo> DataSource = new List<ItemInfo>(){
+    private List<ItemInfo> DataSource = new List<ItemInfo>(){
         new ItemInfo()
         {
             Id = "1",
@@ -302,7 +302,7 @@ Any text value can be given as a connector text to describe the flow. Also, any 
     //Initialize diagram component.
     private SfDiagramComponent _diagram;
     //Initialize flowchart layout settings.
-    private FlowchartLayoutSettings _flowchartSettings = new FlowchartLayoutSettings()
+    private FlowchartLayoutSettings flowchartSettings = new FlowchartLayoutSettings()
     {
         YesBranchValues = new List<string> { "Accept", "Yes" },
         NoBranchValues = new List<string> { "Reject", "No" },
@@ -440,6 +440,14 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rDVRtdVHKazBanQB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor flowchart layout with custom Yes/No branch values](../images/Flowchart_CustomYesOrNoBranches.webp)" %}
 
-## How to Update Spacing Between Nodes 
+## How to Update Spacing Between Nodes
 
 Control the spacing between node using the [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_HorizontalSpacing) and [VerticalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_VerticalSpacing) in the layout. These properties adjust the distance between nodes horizontally and vertically, giving you precise control over the appearance and organization of your diagram.
+
+## See Also
+
+* [How to create a Hierarchical Layout](./hierarchical-layout.md)
+* [How to create an Organizational Chart](./organizational-chart.md)
+* [How to create a Mind Map](./mind-map.md)
+* [How to create a Complex Hierarchical Layout](./complex-hierarchical-layout.md)
+* [How to create a Radial Tree](./radial-tree.md)

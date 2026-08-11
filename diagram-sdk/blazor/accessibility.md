@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Accessibility Features in Blazor Diagram Component | Syncfusion®
-description: Checkout and Learn all the features about accessibility in Blazor Diagram component and many more details.
+title: Accessibility in Blazor Diagram Component | Syncfusion®
+description: Meet WCAG 2.2 and Section 508 in the Blazor Diagram Component with WAI-ARIA labels, full keyboard navigation, and axe-core validation.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Accessibility Features in Blazor Diagram Component
+# Accessibility in Blazor Diagram Component
 
 Accessibility in the Blazor Diagram component is achieved through compliance with [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), and [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, as well as [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) and supports keyboard navigation. This ensures that users can effectively interact with diagram features using assistive technologies such as screen readers.
 
@@ -155,7 +155,7 @@ The Blazor Diagram component supports the [keyboard interaction](https://www.w3.
 |<kbd>Ctrl</kbd> + <kbd>5</kbd> | <kbd>⌘</kbd> + <kbd>5</kbd> | Activate the free form tool.|
 |<kbd>Ctrl</kbd> + <kbd>9</kbd> | <kbd>⌘</kbd> + <kbd>9</kbd> | Activate the ellipse tool.|
 
-N> You can download a complete working sample for keyboard navigation from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Accessibility/KeyBoardNavigation.razor)
+> **Note**: You can download a complete working sample for keyboard navigation from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Accessibility/KeyBoardNavigation.razor)
 
 ## How to Ensure Accessibility
 

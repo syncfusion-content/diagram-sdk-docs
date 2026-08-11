@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Events in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Events in JavaScript Diagram | Syncfusion®
+description: Handle click and selectionChange events on connectors in the Syncfusion® JavaScript Diagram to react to user interaction.
 platform: diagram-sdk
 control: Connector Events
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector Events in JavaScript Diagram control
+# Connector Events in JavaScript Diagram
 
 Diagram provides some events support for connectors that triggers when interacting with the connector.
 

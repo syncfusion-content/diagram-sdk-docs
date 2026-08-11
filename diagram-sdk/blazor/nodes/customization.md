@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Customization in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about customization support in Blazor Diagram component, it's elements and more.
+description: Customize Blazor Diagram Component node fill, stroke, gradient, shadow, and visibility to match your application's visual style.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Appearance of a Node in Diagram Component
+# Node Customization in Blazor Diagram Component
 
 The appearance of a node can be customized by changing its [Fill](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_Fill), [StrokeDashArray](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeDashArray), [StrokeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeColor), [StrokeWidth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ShapeStyle.html#Syncfusion_Blazor_Diagram_ShapeStyle_StrokeWidth), and [Shadow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shadow.html) properties. The [IsVisible](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_IsVisible) property indicates whether the node is visible.
 
@@ -30,7 +30,7 @@ The following code shows how to customize the appearance of a shape.
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             // Position of the node
@@ -50,7 +50,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htLdtxhffufuLKgz?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Node appearance in Blazor Diagram](../images/blazor-diagram-node-appearance.webp)" %}
 
-N> The [ID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_ID) for each node must be unique. `ID` property is used to find nodes at runtime for further customization.
+>**Note:** The [ID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_ID) for each node must be unique. `ID` property is used to find nodes at runtime for further customization.
 
 ## How to Update Common Node Properties Using the NodeCreating Event
 
@@ -73,7 +73,7 @@ The following code shows how to customize the appearance of a shape.
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node1 = new Node()
         {
             // Position of the node
@@ -109,7 +109,7 @@ The following code shows how to customize the appearance of a shape.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/NodeDefaultSample.razor)
 
-## How to Update Node Templates 
+## How to Define Node Templates
 
 Define node style using a template in [NodeTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTemplates.html#Syncfusion_Blazor_Diagram_DiagramTemplates_NodeTemplate) at tag level. To apply different templates to individual nodes, differentiate the nodes by the [ID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_ID) property. The following code explains how to define template for a node.
 
@@ -193,7 +193,7 @@ Define node style using a template in [NodeTemplate](https://help.syncfusion.com
 ```
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/NodeTemplate.razor)
 
-N> In this example, the node's background color is updated using the click event of the button defined in the template.
+>**Note:** In this example, the node's background color is updated using the click event of the button defined in the template.
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjVxjHhfJaRzAWyn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Diagram with Node Template](../images/blazor-diagram-node-template.webp)" %}
 
@@ -321,7 +321,7 @@ The diagram provides the ability to customize the border color of a node using t
     {
         _nodes = new DiagramObjectCollection<Node>();
 
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             ID = "node1",
@@ -364,7 +364,7 @@ The diagram allows customizing the border width of a node using the [BorderWidth
     {
         _nodes = new DiagramObjectCollection<Node>();
 
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             ID = "node1",
@@ -404,7 +404,7 @@ Diagram supports adding a [Shadow](https://help.syncfusion.com/cr/blazor/Syncfus
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             // Position of the node
@@ -445,7 +445,7 @@ The [Angle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shad
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             // Position of the node
@@ -504,7 +504,7 @@ There are two types of gradients:
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             // Position of the node
@@ -572,7 +572,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
             },
             Style = new ShapeStyle()
             {
-                Fill = "37909A#",
+                Fill = "#37909A",
                 StrokeColor = "#024249",
                 Gradient = new RadialGradientBrush()
                 {
@@ -668,7 +668,7 @@ The following code illustrates how to render nodes based on the stack order.
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // nodes are created and stored in nodes array.
+        // nodes are created and stored in nodes collection.
         Node node1 = new Node()
         {
             ID = "node1",
@@ -713,8 +713,11 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Set Pivot Property for a Node
 
-*  Node rotation is based on [Pivot](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Pivot) values which range from **0 to 1** similar to offset values. By default, `Pivot` is X = **0.5** and Y = **0.5**.
-
+*  Node rotation and resizing are based on [Pivot](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Pivot) values, which range from **0 to 1** as fractional offsets within the node's bounding box. By default, `Pivot` is X = **0.5** and Y = **0.5** (the center of the node).
+* The pivot acts as the anchor point for transformations:
+  * `Pivot = { X = 0, Y = 0 }` anchors the **top-left** corner — the node rotates around and resizes from its top-left, so `OffsetX`/`OffsetY` refer to the top-left corner.
+  * `Pivot = { X = 0.5, Y = 0.5 }` (default) anchors the **center** — the node rotates around and resizes from its midpoint, so `OffsetX`/`OffsetY` refer to the node's center.
+  * `Pivot = { X = 1, Y = 1 }` anchors the **bottom-right** corner.
 
 The following code illustrates how to set the Pivot value.
 
@@ -732,7 +735,7 @@ The following code illustrates how to set the Pivot value.
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             ID = "node",
@@ -742,7 +745,6 @@ The following code illustrates how to set the Pivot value.
             // Size of the node.
             Width = 100,
             Height = 100,
-            ZIndex = 2,
             Style = new ShapeStyle()
             {
                 Fill = "#6495ED",
@@ -763,7 +765,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 * The node's [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_BackgroundColor) property sets the node’s background color. By default, it is **transparent**.
 
-
 The following code illustrates how to set the background color for the node.
 
 ```cshtml
@@ -780,7 +781,7 @@ The following code illustrates how to set the background color for the node.
     protected override void OnInitialized()
     {
         _nodes = new DiagramObjectCollection<Node>();
-        // A node is created and stored in nodes array.
+        // A node is created and stored in nodes collection.
         Node node = new Node()
         {
             ID = "node",
@@ -806,7 +807,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Check if a Node Is Automatically Positioned
 
-* The node's [CanAutoLayout](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_CanAutoLayout) property indicates whether the node should be automatically positioned or not. This is applicable when a layout is enabled..
+* The node's [CanAutoLayout](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_CanAutoLayout) property indicates whether the node should be automatically positioned or not. By default, the value is **true**. This property is applicable only when a layout is enabled.
 
 
 The following code illustrates how to set the auto layout property for nodes.
@@ -883,7 +884,7 @@ The following code illustrates how to set the auto layout property for nodes.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/CanAutoLayout.razor)
 
-### How to Get InEdges and OutEdges of a Node
+## How to Get InEdges and OutEdges of a Node
 
 [InEdges](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_InEdges) returns the incoming connectors of the node. [OutEdges](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_OutEdges) returns the outgoing connectors of the node.
 

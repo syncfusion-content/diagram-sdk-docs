@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Import and Export Visio Files in Angular | Syncfusion®
-description: Learn how to import and export Microsoft Visio (.vsdx) files using the Syncfusion® Angular Diagram component of Syncfusion Essential® JS 2 and more.
+title: Import and Export Visio files in Angular Diagram | Syncfusion®
+description: Import and export Microsoft Visio .vsdx files in the Syncfusion® Angular Diagram to round-trip diagrams between web and Visio desktop applications.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Import and Export Visio files
+# Import and Export Visio files in Angular Diagram
 
 N> Visio import and export support is currently **experimental**. Certain features may be limited or may not function as expected.
 

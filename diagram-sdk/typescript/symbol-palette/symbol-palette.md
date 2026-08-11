@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symbol palette in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Symbol Palette in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more
+title: Symbol Palette in TypeScript Diagram | Syncfusion®
+description: Display a TypeScript Symbol Palette of reusable shapes that users can drag and drop onto the diagram surface.
 platform: diagram-sdk
 control: Symbol palette 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symbol palette in TypeScript Diagram control
+# Symbol Palette in TypeScript Diagram
 
 The [`symbolPalette`](https://ej2.syncfusion.com/documentation/api/diagram/symbolPaletteModel) is a gallery of reusable symbols and diagram elements that can be dragged and dropped on the diagram surface multiple times.
 

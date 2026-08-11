@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Automatic Layout in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Automatic Layout in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Automatic Layout in ASP.NET MVC Diagram | Syncfusion®
+description: Auto-arrange nodes in Syncfusion® ASP.NET MVC Diagram using hierarchical, organizational, radial tree, symmetric, mind map, or complex tree layouts.
 platform: diagram-sdk
 control: Automatic Layout
 documentation: ug
 ---
 
 
-# Automatic Layout in ASP.NET MVC Diagram Control
+# Automatic Layout in ASP.NET MVC Diagram
 
 Diagram provides support to auto-arrange the nodes in the diagram area that is referred as [`Layout`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html). It includes the following layout modes:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symmetric layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Symmetric Layout in JavaScript Diagram | Syncfusion®
+description: Lay out nodes using the Symmetric Layout in the Syncfusion® JavaScript Diagram, with spring length, spring factor, and max iteration properties.
 platform: diagram-sdk
 control: Symmetric 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Symmetric layout in JavaScript Diagram control
+# Symmetric Layout in JavaScript Diagram
 
 The symmetric layout has been formed using nodes position by closer together or pushing them further apart. This is repeated iteratively until the system comes to an equilibrium state.
 

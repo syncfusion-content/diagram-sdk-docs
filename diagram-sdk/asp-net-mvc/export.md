@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Export in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Export in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Printing and Exporting in ASP.NET MVC Diagram | Syncfusion®
+description: Print or export Syncfusion® ASP.NET MVC Diagram as JPG, PNG, BMP, or SVG with options for file name, margin, region, and export mode.
 platform: diagram-sdk
 control: Export
 documentation: ug
 ---
 
 
-# Exporting in ASP.NET MVC Diagram Control
+# Printing and Exporting in ASP.NET MVC Diagram
 
 Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportdiagram) helps to export the diagram.
 

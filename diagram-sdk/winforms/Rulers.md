@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Rulers in Windows Forms Diagram control | Syncfusion®
-description: Learn about Rulers support in Syncfusion® Windows Forms Diagram control, its elements and more details.
+title: Rulers in Windows Forms Diagram | Syncfusion®
+description: Display and customize horizontal and vertical rulers in the Syncfusion® Windows Forms Diagram control to measure and align diagram elements.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
@@ -184,4 +184,5 @@ Sample diagram is as follows,
 
 
 ![Change HRuler Minor lines colors](Rulers_images/Rulers_img3.jpeg)
+
 

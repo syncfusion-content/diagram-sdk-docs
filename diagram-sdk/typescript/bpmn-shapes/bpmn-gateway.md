@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn Gateway in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Gateway shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Gateway in TypeScript Diagram | Syncfusion®
+description: Control the flow of a BPMN process with exclusive, parallel, inclusive, and event-based gateways in the Syncfusion® TypeScript Diagram.
 platform: diagram-sdk
 control: Bpmn Gateway 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# BPMN Gateway in TypeScript Diagram control
+# BPMN Gateway in TypeScript Diagram
 
 ## Gateway
 

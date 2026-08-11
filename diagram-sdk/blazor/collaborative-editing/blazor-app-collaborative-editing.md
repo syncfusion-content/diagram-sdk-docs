@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Collaborative Editing Configuration in Diagram | Syncfusion®
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Blazor Diagram.
+title: Collaborative Editing in Blazor Diagram Component | Syncfusion®
+description: Connect a Blazor app to the SignalR collaboration hub so the Blazor Diagram Component syncs in real time across users.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# SignalR Hub Configuration in Blazor Application
+# Collaborative Editing in Blazor Diagram Component
 
 ## Overview
 This guide explains how to configure SignalR Hub in a Blazor application for real-time collaborative diagram editing.
@@ -33,7 +33,7 @@ Open the NuGet package manager in Visual Studio (Tools → NuGet Package Manager
 To enable real-time collaboration, configure SignalR HubConnection in your Blazor component as follows:
 
 * Initialize the `HubConnection` during the component’s first render (`OnAfterRenderAsync`) and start it using `StartAsync`.
-* Connect to the `/diagramHub` endpoint with option WebSockets `SkipNegotiation = true` and enable automatic reconnect to handle transient network issues.
+* Configure the `/diagramHub` endpoint with WebSockets transport and `SkipNegotiation = true` and enable automatic reconnect to handle transient network issues.
 * Subscribe to the `OnConnectedAsync` callback to receive the unique connection ID, confirming a successful handshake with the server.
 * Join a SignalR group by calling `JoinDiagram(roomName)` after connecting. This ensures updates are shared only with users in the same diagram session.
 * Refer to Create Blazor [Simple Diagram](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app#create-your-first-diagram-with-nodes-and-connectors)
@@ -89,7 +89,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your Blazo
 
 * The Blazor Diagram component triggers the [HistoryChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_HistoryChanged) event whenever the diagram is modified (e.g., add, delete, move, resize, or edit nodes/connectors).
 * Use [GetDiagramUpdates](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_GetDiagramUpdates_Syncfusion_Blazor_Diagram_HistoryChangedEventArgs_) to produce a compact set of incremental updates (JSON-formatted changes) representing just the changes, not the entire diagram.
-* Send these changes to the hub method `BroadcastToOtherUsers`, which relays them to all users joined to the same SignalR group (room).
+* Send these changes to the hub method `BroadcastToOtherUsers`, which relays them to all users in the same SignalR group (room).
 * Each remote user listens for ReceiveData and applies the incoming changes with [SetDiagramUpdatesAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_SetDiagramUpdatesAsync_System_Collections_Generic_List_System_String__), keeping their view synchronized without reloading the full diagram.
 * Enable [EnableGroupActions](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html#Syncfusion_Blazor_Diagram_DiagramHistoryManager_EnableGroupActions) in [DiagramHistoryManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramHistoryManager.html) to treat multi-step edits (like drag/resize sequences or batch changes) as a single operation.
 

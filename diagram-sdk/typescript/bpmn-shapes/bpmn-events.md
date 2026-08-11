@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bpmn Events in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Event shapes in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Events in TypeScript Diagram | Syncfusion®
+description: Represent start, intermediate, and end events in a BPMN process with the Syncfusion® TypeScript Diagram event shape and trigger configuration.
 platform: diagram-sdk
 control: Bpmn Events 
 publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
-# BPMN Event in TypeScript Diagram control
+# BPMN Events in TypeScript Diagram
 
 ## Event
 

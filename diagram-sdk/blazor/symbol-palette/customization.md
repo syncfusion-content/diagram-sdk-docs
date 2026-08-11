@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Symbol Palette Appearance in Blazor Diagram | Syncfusion®
-description: Checkout and learn here all about symbol palette appearance in Syncfusion&reg; Blazor Diagram component and more.
+title: Symbol Palette Customization in Blazor Diagram Component | Syncfusion®
+description: Customize the Blazor Diagram Component symbol palette header, expand state, icon, and individual symbol size and filters.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Symbol Palette Appearance in Blazor Diagram Component
+# Symbol Palette Customization in Blazor Diagram Component
 
 The [SymbolPalette](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.html) component showcases a collection of [Palettes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Palettes), each containing a set of predefined nodes and connectors. This feature enables users to drag and drop these elements into the diagram, streamlining the process of creating and modifying complex diagrams.
 
@@ -59,7 +59,7 @@ The following code example illustrates how to change the size of a symbol and up
 </div>
 
 @code {
-    //Define symbolpreview
+    //Define symbol preview
     private DiagramSize _symbolPreview;
     //Define symbolmargin
     private SymbolMargin _symbolMargin = new SymbolMargin { Left = 15, Right = 15, Top = 15, Bottom = 15 };
@@ -1099,15 +1099,15 @@ Here is an example demonstrating how to use the [EnableChunkMessages](https://he
 @code{
 
     private DiagramSize _symbolDragPreviewSize;
-    private DiagramObjectCollection<Palette> _palettes;
+    private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
     private double _symbolHeight = 75;
     private double _symbolWidth = 75;
 
     protected override void OnInitialized()
     {
-        symbolDragPreviewSize = new DiagramSize();
-        symbolDragPreviewSize.Width = 80;
-        symbolDragPreviewSize.Height = 80;
+        _symbolDragPreviewSize = new DiagramSize();
+        _symbolDragPreviewSize.Width = 80;
+        _symbolDragPreviewSize.Height = 80;
         InitializeFloorPlannerPalettes();
     }
 

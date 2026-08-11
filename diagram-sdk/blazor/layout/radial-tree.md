@@ -1,17 +1,17 @@
 ---
 layout: post
-title: RadialTree Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the RadialTree layout in Blazor Diagram component and much more details.
+title: Radial Tree Layout in Blazor Diagram Component | Syncfusion®
+description: Arrange Blazor Diagram Component nodes in a radial tree layout with concentric levels expanding outward from a central root.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Radial Tree Layout in Diagram Component
+# Radial Tree Layout in Blazor Diagram Component
 
 A [RadialTree](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.LayoutType.html#Syncfusion_Blazor_Diagram_LayoutType_RadialTree) layout is a diagram that presents information in a hierarchical structure, with a central node at the core of the diagram. The central node represents the main concept or topic, and branches extend outward in a radial fashion, creating a tree-like structure. The layout [Root](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Root) property can be used to define the root node of the layout. When no root node is set, the algorithm automatically considers the node without any incoming edges (InEdges connector count of 0) as the root node. To create radial tree, the [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) of layout should be set as **RadialTree**.
 
-The radial tree layout supports adding space between the nodes. Use [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_HorizontalSpacing) and [VerticalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_VerticalSpacing) to control the spacing. The arrangement results in an ever-expanding concentric arrangement with radial proximity to the root node indicating the node's level in the hierarchy.
+The radial tree layout supports adding space between the nodes. Use [HorizontalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_HorizontalSpacing) and [VerticalSpacing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_VerticalSpacing) to control the spacing. Nodes are arranged in concentric circles around the root, where each ring represents a level in the hierarchy.
 
 >**Note:** The radial tree layout supports a single-parent hierarchy. Nodes with multiple parents are not supported.
 
@@ -196,9 +196,7 @@ Render a radial tree layout without using a `Datasource`. The following example 
         {
             Node node1 = new Node()
             {
-                ID = "node" + i,
-                Width = 70,
-                Height = 70,
+                ID = "node" + i
             };
             _nodes.Add(node1);
         }
@@ -252,6 +250,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## See also
 
-* [How to create a node](../nodes/nodes)
+* [How to Create a Node](../nodes/nodes)
 
-* [How to create a connector](../connectors/connectors)
+* [How to Create a Connector](../connectors/connectors)

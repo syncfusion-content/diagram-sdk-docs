@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Style in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Style in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: CSS Structure in ASP.NET Core Diagram | Syncfusion®
+description: Customize Syncfusion® ASP.NET Core Diagram end point handles, bezier handles and lines, resize handles, and selected items using CSS classes.
 platform: diagram-sdk
 control: Style
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# CSS Structure in Diagram
+# CSS Structure in ASP.NET Core Diagram
 
 ## Customizing the connector end point handle
 

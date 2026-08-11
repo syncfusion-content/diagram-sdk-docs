@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn Group in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn Group shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Group in JavaScript Diagram | Syncfusion®
+description: Visually group related BPMN elements in the Syncfusion® JavaScript Diagram using a labeled group shape that frames a part of the diagram.
 platform: diagram-sdk
 control: Bpmn Group 
 publishingplatform: diagram-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
-# Group in TypeScript Diagram Control
+# BPMN Group in JavaScript Diagram
 
 A group is used to frame a part of the diagram, shows that elements included in it are logically belong together and does not have any other semantics other than organizing elements. To create a group, the shape property of the node should be set as **group**. The following code example illustrates how to create a BPMN group.
 

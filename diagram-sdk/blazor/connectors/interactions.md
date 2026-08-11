@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Interaction in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about connector interaction in Blazor Diagram component and much more details.
+description: Select, drag, and route Blazor Diagram Component connectors interactively while keeping connections glued to nearby nodes or ports.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Interaction in Diagram Component
+# Interaction in Blazor Diagram Component
 
 Connectors support interactive operations such as selection, dragging, and routing to improve diagram editing and readability.
 
@@ -92,7 +92,7 @@ Selection can also be performed through user interaction:
 
 ## How to Drag a Connector
 
-A connector can be programmatically moved at runtime by using the [Drag](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_Drag_Syncfusion_Blazor_Diagram_IDiagramObject_System_Double_System_Double_) method. The following example shows how to drag the connector by using the drag method.
+A connector can be programmatically moves at runtime by using the [Drag](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_Drag_Syncfusion_Blazor_Diagram_IDiagramObject_System_Double_System_Double_) method. The following example shows how to drag the connector by using the drag method.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -105,7 +105,7 @@ A connector can be programmatically moved at runtime by using the [Drag](https:/
 {
     //Reference the diagram
     private SfDiagramComponent _diagram;
-    //Intialize the connector collection
+    //Initialize the connector collection
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     
     protected override void OnInitialized()
@@ -175,7 +175,7 @@ The connector can be selected by clicking it. When the connector is selected, ci
 {
     //Reference the diagram
     private SfDiagramComponent _diagram;
-    //Intialize the diagram's connector collection
+    //Initialize the diagram's connector collection
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     
     protected override void OnInitialized()
@@ -242,9 +242,9 @@ Routing is the process of adjusting the geometry of connectors to prevent them f
 {
     // Enable routing constraints for diagram.
     private DiagramConstraints _diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    // Intialize the node collection.
+    // Initialize the node collection.
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    // Intialize the connector collection.
+    // Initialize the connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
     protected override void OnInitialized()
@@ -263,27 +263,6 @@ Routing is the process of adjusting the geometry of connectors to prevent them f
                 Type = ConnectorSegmentType.Orthogonal
             }
         };
-    }
-
-    private void OnNodeCreating(IDiagramObject obj)
-    {
-        if (obj is Node node)
-        {
-            node.Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "#6BA5D7" };
-        }
-    }
-
-    private void OnConnectorCreating(IDiagramObject obj)
-    {
-        if (obj is Connector connector)
-        {
-            connector.Style = new ShapeStyle() { StrokeColor = "#6BA5D7", StrokeWidth = 1 };
-            connector.TargetDecorator = new DecoratorSettings()
-            {
-                Shape = DecoratorShape.Arrow,
-                Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "#6BA5D7", StrokeWidth = 1 }
-            };
-        }
     }
 }
 ```
@@ -315,9 +294,9 @@ The [Classic](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Ro
     private RoutingTypes routingTypes = RoutingTypes.Classic;
     // Enable routing constraints for diagram.
     private DiagramConstraints diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    // Intialize the node collection.
+    // Initialize the node collection.
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    // Intialize the connector collection.
+    // Initialize the connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
     protected override void OnInitialized()
@@ -362,9 +341,9 @@ The [Advanced](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.R
     private double _padding = 20;
     // Enable routing constraints for diagram.
     private DiagramConstraints _diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    // Intialize the node collection.
+    // Initialize the node collection.
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    // Intialize the connector collection.
+    // Initialize the connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     
     protected override void OnInitialized()
@@ -406,9 +385,9 @@ By default, connectors treat all nodes as obstacles, causing connections to navi
 {
     // Enable routing constraints for the diagram.
     private DiagramConstraints _diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    // Intialize the node collection.
+    // Initialize the node collection.
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    // Intialize the connector collection.
+    // Initialize the connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     protected override void OnInitialized()
     {
@@ -541,9 +520,9 @@ By default, connector routing behavior is inherited based on the value of the di
 {
     // Enable routing constraints for the diagram.
     private DiagramConstraints _diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    //Intialize the node collection
+    //Initialize the node collection
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    //Intialize the connector collection
+    //Initialize the connector collection
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     
     protected override void OnInitialized()
@@ -709,9 +688,9 @@ The [ObstaclePadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Di
     private double _padding = 12;
     // Enable routing constraints for diagram.
     private DiagramConstraints _diagramConstraints = DiagramConstraints.Default | DiagramConstraints.Routing;
-    // Intialize the node collection.
+    // Initialize the node collection.
     private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
-    // Intialize the connector collection.
+    // Initialize the connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
     
     protected override void OnInitialized()
@@ -803,7 +782,7 @@ The following table shows the various obstacle padding.
 **Note:** [ObstaclePadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.LineRoutingSettings.html#Syncfusion_Blazor_Diagram_LineRoutingSettings_ObstaclePadding) property is only applicable when the [RoutingType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.LineRoutingSettings.html#Syncfusion_Blazor_Diagram_LineRoutingSettings_RoutingType) property is set to [RoutingTypes.Advanced]. Default value of `ObstaclePadding` is **12**.
 
 ## How to Avoid Line Overlapping
-The diagram can prevent connectors from overlapping to enhance clarity and readability. This feature intelligently adjusts connector paths to minimise stacking orthogonal connectors on top of each other, reducing visual clutter and enhancing diagram structure. It is especially useful in complex diagrams with multiple orthogonal connectors, where overlapping lines can make interpretation difficult.
+The diagram can prevent connectors from overlapping to enhance clarity and readability. This feature intelligently adjust connector paths to minimise stacking orthogonal connectors on top of each other, reducing visual clutter and enhancing diagram structure. It is especially useful in complex diagrams with multiple orthogonal connectors, where overlapping lines can make interpretation difficult.
 
 Enable this behavior by adding the [AvoidLineOverlapping](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramConstraints.html#Syncfusion_Blazor_Diagram_DiagramConstraints_AvoidLineOverlapping) enum value to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_Constraints) property.
 
@@ -829,7 +808,7 @@ Enable this behavior by adding the [AvoidLineOverlapping](https://help.syncfusio
 
 The Avoid Connector Overlapping behavior ensures connectors do not visually overlap within the viewport, improving readability and reducing visual clutter.
 
-**Viewport-Based Resolution:** Overlaps are resolved only for connectors visible in the current viewport. As you scroll through the diagram, additional connectors will automatically adjusted to avoid overlapping once they come into view.
+**Viewport-Based Resolution:** Overlaps are resolved only for connectors visible in the current viewport. As you scroll through the diagram, additional connectors will be automatically adjusted to avoid overlapping once they come into view.
 
 **Overview Behavior:** In the Overview panel, connectors outside the current viewport may initially appear overlapped. These will also be resolved dynamically as the corresponding area comes into focus in the main diagram view.
 
@@ -1188,6 +1167,35 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 The [Flip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_Flip) is performed to give the mirrored image of the original element.
 
+The following example demonstrates how to flip a connector.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors" />
+
+@code
+{
+    //Initialize the connector collection
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        _connectors = new DiagramObjectCollection<Connector>()
+        {
+            new Connector()
+            {
+                ID = "connector1",
+                SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+                TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
+                Type = ConnectorSegmentType.Orthogonal,
+                Flip = FlipDirection.Horizontal
+            }
+        };
+    }
+}
+```
+
 For more information, refer to [Connector Flip](../flip#how-to-flip-the-connector).
 
 ## See also
@@ -1197,5 +1205,3 @@ For more information, refer to [Connector Flip](../flip#how-to-flip-the-connecto
 * [How to change the segments](./segments/straight)
 
 * [How to get the connector events](./events)
-
-* [How to animate connectors using annotationtemplate in angular diagram](https://support.syncfusion.com/kb/article/20265/how-to-animate-connectors-using-annotationtemplate-in-angular-diagram )

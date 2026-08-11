@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Interaction in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Interaction in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Diagram Interaction in JavaScript Diagram | Syncfusion®
+description: Select, drag, resize, rotate, and zoom diagram elements in the Syncfusion® JavaScript Diagram with the selector, selection, and keyboard interactions.
 platform: diagram-sdk
 control: Interaction 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Interaction in JavaScript Diagram control
+# Diagram Interaction in JavaScript Diagram
 
 ## Selector
 
@@ -97,10 +97,10 @@ The [`canToggleSelection`](../api/diagram/selectorModel#canToggleSelection) prop
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-toggle/index.js %}
+{% include code-snippet/diagram-sdk/javascript/interaction-toggle/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-toggle/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-toggle/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -137,10 +137,10 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-aspect/index.js %}
+{% include code-snippet/diagram-sdk/javascript/interaction-aspect/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-aspect/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-aspect/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -152,10 +152,10 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -174,10 +174,10 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-pivot/index.js %}
+{% include code-snippet/diagram-sdk/javascript/interaction-pivot/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/interaction-pivot/index.html %}
+{% include code-snippet/diagram-sdk/javascript/interaction-pivot/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector customization in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Connector Customization in TypeScript Diagram | Syncfusion®
+description: Customize TypeScript Diagram connector decorators, padding, hit padding, corners, and bridge styles.
 platform: diagram-sdk
 control: Connector customization
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connector customization
+# Connector Customization in TypeScript Diagram
 
 Diagram allows you to customize the connector appearances. The following topics shows how to customize several properties of the connectors.
 

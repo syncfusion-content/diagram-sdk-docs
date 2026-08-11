@@ -1,15 +1,15 @@
 ---
 layout: post
-title: DiagramIcon in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the Diagram Icon handles in Blazor Diagram component and much more details.
+title: Expand and Collapse for Nodes in Blazor Diagram | Syncfusion®
+description: Expand and collapse Blazor Diagram Component child nodes with custom icons to compress hierarchies and focus on key elements.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Expand and Collapse Support for Nodes in Blazor Diagram Component
+# Expand and Collapse for Nodes in Blazor Diagram
 
-The Diagram component supports to describe the state of the node. i.e., whether the node is in an expanded or collapsed state. Use the [IsExpanded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_IsExpanded) property on a node to expand or collapse its children nodes. Expand and Collapse support is used to compress the hierarchy view so that only the roots of each elements are visible.
+The Diagram component supports describing the state of the node. i.e., whether the node is in an expanded or collapsed state. Use the [IsExpanded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_IsExpanded) property on a node to expand or collapse its children nodes. Expand and Collapse support is used to compress the hierarchy view so that only the root of each element are visible.
 
 The following Node properties represent the state of the node and allows user to Expand and Collapse the desired Node :
 
@@ -114,7 +114,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 The following code example illustrates how to create an icon of various shapes in a layout.
 ```csharp
 @using Syncfusion.Blazor.Diagram
-@using Syncfusion.Blazor.Diagram.Internal
 @using System.Collections.ObjectModel
 
 <SfDiagramComponent @ref="diagram" Width="1500px" Height="800px" NodeCreating="NodeCreating" ConnectorCreating="ConnectorCreating">
@@ -460,7 +459,7 @@ The following code explains how to change the icon appearance using the `CornerR
 ```csharp
 @using Syncfusion.Blazor.Diagram
 
-<SfDiagramComponent Height="600px" Nodes="@nodes" Connectors="@connectors" />
+<SfDiagramComponent Height="600px" Nodes="@_nodes" Connectors="@_connectors" />
 
 @code
 {
@@ -568,14 +567,14 @@ The following table shows the relationship between the Icon position and Icon **
 | OffsetX,OffsetY values | Output |
 |---|---|
 | (0,0) | ![Blazor Diagram Icon in Left Top Offset Values](../images/blazor-diagram-DiagramIcon-in-lefttop-offset-values.webp) |
-| (0,0.5) | ![Blazor Diagram Port in Left Center Offset Values](../images/blazor-diagram-DiagramIcon-in-leftcenter-offset-values.webp) |
-| (0,1) | ![Blazor Diagram Port in Left Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-leftbottom-offset-values.webp) |
-| (0.5,0) | ![Blazor Diagram Port in Center Top Offset Values](../images/blazor-diagram-DiagramIcon-in-centertop-offset-values.webp) |
-| (0.5,0.5) | ![Blazor Diagram Port in Center Offset Values](../images/blazor-diagram-DiagramIcon-in-center-offset-values.webp) |
-| (0.5,1) | ![Blazor Diagram Port in Center Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-centerbottom-offset-values.webp) |
-| (1,0) | ![Blazor Diagram Port in Right Top Offset Values](../images/blazor-diagram-DiagramIcon-in-righttop-offset-values.webp) |
-| (1,0.5) | ![Blazor Diagram Port in Right Center Offset Values](../images/blazor-diagram-DiagramIcon-in-rightcenter-offset-values.webp) |
-| (1,1) | ![Blazor Diagram Port in Right Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-rightbottom-offset-values.webp) |
+| (0,0.5) | ![Blazor Diagram Icon in Left Center Offset Values](../images/blazor-diagram-DiagramIcon-in-leftcenter-offset-values.webp) |
+| (0,1) | ![Blazor Diagram Icon in Left Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-leftbottom-offset-values.webp) |
+| (0.5,0) | ![Blazor Diagram Icon in Center Top Offset Values](../images/blazor-diagram-DiagramIcon-in-centertop-offset-values.webp) |
+| (0.5,0.5) | ![Blazor Diagram Icon in Center Offset Values](../images/blazor-diagram-DiagramIcon-in-center-offset-values.webp) |
+| (0.5,1) | ![Blazor Diagram Icon in Center Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-centerbottom-offset-values.webp) |
+| (1,0) | ![Blazor Diagram Icon in Right Top Offset Values](../images/blazor-diagram-DiagramIcon-in-righttop-offset-values.webp) |
+| (1,0.5) | ![Blazor Diagram Icon in Right Center Offset Values](../images/blazor-diagram-DiagramIcon-in-rightcenter-offset-values.webp) |
+| (1,1) | ![Blazor Diagram Icon in Right Bottom Offset Values](../images/blazor-diagram-DiagramIcon-in-rightbottom-offset-values.webp) |
 
 
 ### How to find node is in expanded or not 

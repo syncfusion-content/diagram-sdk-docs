@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation Appearance in Blazor Diagram Component | Syncfusion®
-description: Checkout and Learn how to customize the appearance of annotation in the Blazor Diagram component and much more details.
+description: Style Blazor Diagram Component annotation size, text font, hyperlinks, wrap, overflow, and custom templates for rich labels.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -52,7 +52,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add a Hyperlink to an Annotation
 
-A [Hyperlink](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_Hyperlink) can be added to the node's or connector's annotation. It can also be customized.
+A [Hyperlink](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_Hyperlink) can be added to a node or connector annotation and customized as needed.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -307,7 +307,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Control Text Overflow
 
-The [TextOverflow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.TextStyle.html#Syncfusion_Blazor_Diagram_TextStyle_TextOverflow) property specifies how the overflowed content that is not displayed should be signaled to the user. The `TextOverflow` property can have the following values.
+The [TextOverflow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.TextStyle.html#Syncfusion_Blazor_Diagram_TextStyle_TextOverflow) property specifies how hidden overflow content is handled. The `TextOverflow` property can have the following values.
 
 * **Wrap**: Wraps the text to the next line when it exceeds its bounds.
 * **Ellipsis**: Truncates the overflown text and renders an ellipsis ("...") to represent the clipped text.
@@ -496,8 +496,8 @@ The font style of annotations can be changed dynamically at runtime by modifying
         _diagram.BeginUpdate();
         _diagram.Nodes[0].Annotations[0].Style.Bold = false;
         _diagram.Nodes[0].Annotations[0].Style.TextDecoration = TextDecoration.None;
-        _diagram.Nodes[0].Annotations[0].Style.Color = "Red";
-        _Diagram.EndUpdateAsync();
+        _diagram.Nodes[0].Annotations[0].Style.Color = "red";
+        _diagram.EndUpdateAsync();
     }
 }
 ```
@@ -509,7 +509,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 Annotations can be edited at runtime either programmatically or interactively. By default, annotations are in view mode. Edit mode can be enabled in the following ways:
 
-* Programmatically: Invoke the [StartTextEdit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_StartTextEdit_Syncfusion_Blazor_Diagram_IDiagramObject_System_String_) method of the diagram component.
+* Programmatically: Invoke the [StartTextEdit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_StartTextEdit_Syncfusion_Blazor_Diagram_IDiagramObject_System_String_) method of the diagram component. Pass the parent node or connector as the first parameter and, optionally, the annotation ID as the second parameter. If the ID is not provided, the first annotation in the collection is edited.
 * Interactively:
     * Double-click the annotation.
     * Select the parent and press the F2 or enter key.
@@ -545,7 +545,7 @@ Annotations can be set to read-only mode by configuring their [Constraints](http
                 new ShapeAnnotation 
                 {
                     Content = "Annotation Text",
-                    // Sets the constraints as Read only.           
+                    // Sets the constraints as ReadOnly.           
                     Constraints = AnnotationConstraints.ReadOnly
                 }
             },
@@ -587,7 +587,7 @@ Multiple annotations can be added to a single node or connector. The following c
             OffsetX = 100,
             OffsetY = 100,
             Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "white" },
-            // Sets the multiple annotation for the node.
+            // Sets the multiple annotations for the node.
             Annotations = new DiagramObjectCollection<ShapeAnnotation>()
             {
                 new ShapeAnnotation 
@@ -669,7 +669,7 @@ Refer to [Constraints](https://help.syncfusion.com/diagram-sdk/blazor/constraint
 
 The Diagram component supports templating for annotations. HTML content can be defined within the `DiagramTemplates` tag and linked to an annotation by setting the [UseTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_UseTemplate) property to **true**. To define separate templates for individual annotations, use the `ID` property to differentiate them.
 
-The following code illustrates how to define a template for both a node's and a connector's annotation.
+The following code illustrates how to define a template for both a node and a connector annotation.
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Interaction in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Interaction in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Diagram Interaction in TypeScript Diagram | Syncfusion®
+description: Select, drag, resize, and rotate TypeScript Diagram elements with the selector, rubber-band selection, and runtime APIs.
 platform: diagram-sdk
 control: Interaction 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Interaction in TypeScript Diagram control
+# Diagram Interaction in TypeScript Diagram
 
 ## Selector
 

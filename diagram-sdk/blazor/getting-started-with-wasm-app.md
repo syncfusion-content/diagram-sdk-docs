@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Getting Started with Diagram in Blazor WASM App | Syncfusion®
-description: Checkout and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
+title: Getting Started with Blazor Diagram in Blazor WASM App | Syncfusion®
+description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor WASM App.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Getting Started with Diagram Component in the Blazor WASM App
+# Getting Started with Blazor Diagram in the Blazor WebAssembly App
 
-This section explains the step-by-step process for integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component into a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/). We'll break it down into simple steps to make it easy to follow. Additionally, you can find a fully functional example project on our [GitHub repository](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/DiagramComponent).
+This section explains the step-by-step process for integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component into a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/). This guide walks you through each step to make it easy to follow. Additionally, you can find a fully functional example project on our [GitHub repository](https://github.com/SyncfusionExamples/Blazor-Getting-Started-Examples/tree/main/DiagramComponent).
+
+N> The Blazor Diagram component requires .NET 8.0 or later and a modern browser with ES6 and WebAssembly support.
 
 > **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
@@ -21,7 +23,7 @@ This section explains the step-by-step process for integrating the [Blazor Diagr
 
 * [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
 
-## Create a new Blazor App in Visual Studio
+## Create a new Blazor WebAssembly App in Visual Studio
 
 Create a **Blazor WebAssembly App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio). For detailed instructions, refer to the [Blazor WebAssembly Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app) documentation.
 
@@ -33,7 +35,7 @@ Create a **Blazor WebAssembly App** using Visual Studio via [Microsoft Templates
 
 * [System requirements for Blazor components](https://blazor.syncfusion.com/documentation/system-requirements)
 
-## Create a new Blazor App in Visual Studio Code
+## Create a new Blazor WebAssembly App in Visual Studio Code
 
 Create a **Blazor WebAssembly App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor WebAssembly Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app?tabcontent=visual-studio-code) documentation.
 
@@ -55,7 +57,7 @@ dotnet --version
 
 ## Create a Blazor WebAssembly App using .NET CLI
 
-Run the following command to create a new Blazor WebAssembly App in a command prompt (Windows) or terminal (macOS) or command shell (Linux). For detailed instructions, refer to the [Blazor WASM App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app?tabcontent=.net-cli) documentation.
+Run the following command to create a new Blazor WebAssembly App in a command prompt (Windows) or terminal (macOS) or command shell (Linux). For detailed instructions, refer to the [Blazor WebAssembly App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app?tabcontent=.net-cli) documentation.
 
 {% tabs %}
 {% highlight c# tabtitle=".NET CLI" %}
@@ -117,18 +119,7 @@ dotnet add package Syncfusion.Blazor.Themes --version {{ site.releaseversion }}
 
 N> All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
-## Add import namespaces
-
-After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
-
-{% tabs %}
-{% highlight razor tabtitle="~/_Imports.razor" %}
-
-@using Syncfusion.Blazor;
-@using Syncfusion.Blazor.Diagram;
-
-{% endhighlight %}
-{% endtabs %}
+N> Register your Syncfusion license key before calling `AddSyncfusionBlazor()` by using `Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR_LICENSE_KEY")`. A missing or invalid license will cause trial license warnings at runtime. See the [Syncfusion Licensing FAQ](https://www.syncfusion.com/sales/communitylicense) for details.
 
 ## Register Blazor service
 
@@ -140,9 +131,22 @@ Register the Blazor service in the **Program.cs** file of your Blazor WebAssembl
 ....
 using Syncfusion.Blazor;
 ....
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.Services.AddSyncfusionBlazor();
 ....
+
+{% endhighlight %}
+{% endtabs %}
+
+## Add import namespaces
+
+After the packages are installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Diagram` namespaces.
+
+{% tabs %}
+{% highlight razor tabtitle="~/_Imports.razor" %}
+
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Diagram
 
 {% endhighlight %}
 {% endtabs %}
@@ -198,7 +202,9 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
         {
             new Node()
             {
-               ID = "node1", OffsetX = 300, OffsetY = 100,
+               ID = "node1",
+               OffsetX = 300,
+               OffsetY = 100,
                Shape = new FlowShape() { Type = NodeShapes.Flow, Shape = NodeFlowShapes.Terminator },
                Annotations = new DiagramObjectCollection<ShapeAnnotation>()
                {
@@ -207,7 +213,9 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
             },
             new Node()
             {
-               ID = "node2", OffsetX = 300, OffsetY = 200,
+               ID = "node2",
+               OffsetX = 300,
+               OffsetY = 200,
                Shape = new FlowShape() { Type = NodeShapes.Flow, Shape = NodeFlowShapes.Process },
                Annotations = new DiagramObjectCollection<ShapeAnnotation>()
                {
@@ -215,8 +223,10 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
                }
             },
             new Node()
-            { 
-               ID = "node3", OffsetX = 300, OffsetY = 300,
+            {
+               ID = "node3",
+               OffsetX = 300,
+               OffsetY = 300,
                Shape = new FlowShape() { Type = NodeShapes.Flow, Shape = NodeFlowShapes.Decision },
                Annotations = new DiagramObjectCollection<ShapeAnnotation>()
                {
@@ -225,7 +235,9 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
             },
             new Node()
             {
-               ID = "node4", OffsetX = 300, OffsetY = 400,
+               ID = "node4",
+               OffsetX = 300,
+               OffsetY = 400,
                Shape = new FlowShape() { Type = NodeShapes.Flow, Shape = NodeFlowShapes.Terminator },
                Annotations = new DiagramObjectCollection<ShapeAnnotation>()
                {

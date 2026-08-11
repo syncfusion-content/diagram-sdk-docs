@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MindMap Layout in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the MindMap layout in Blazor Diagram component and much more details.
+title: Mind Map Layout in Blazor Diagram Component | Syncfusion®
+description: Visualize ideas around a central concept in the Blazor Diagram Component with an auto-arranged mind map layout of branched nodes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # Mind Map Layout in Blazor Diagram Component
 
-A mind map is a diagram that displays the nodes as a spider diagram organizes information around a central concept. To create a [MindMap](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.LayoutType.html#Syncfusion_Blazor_Diagram_LayoutType_MindMap), set the layout [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) to **MindMap**.
+A mind map is a diagram that organizes information around a central concept, similar to a spider diagram. To create a [MindMap](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.LayoutType.html#Syncfusion_Blazor_Diagram_LayoutType_MindMap), set the layout [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Layout.html#Syncfusion_Blazor_Diagram_Layout_Type) to **MindMap**.
 
 To see a quick walkthrough of creating a mind map layout, watch the following video:
 
@@ -37,9 +37,8 @@ The following code example illustrates how to create a mind map layout using a d
         Node node = obj as Node;
         node.Height = 25;
         node.Width = 25;
-        node.BackgroundColor = "#6BA5D7";
         node.Style = new ShapeStyle() { Fill = "#6495ED", StrokeWidth = 1, StrokeColor = "white" };
-        node.Shape = new BasicShape() { Type = NodeShapes.Basic }; ;
+        node.Shape = new BasicShape() { Type = NodeShapes.Basic };
     }
     
     //Creates connectors with some default values.
@@ -107,7 +106,7 @@ You can also control the branch for a mind map using the [GetBranch](https://hel
         return BranchType.Right;
     }
     
-    //Creates connectors with some default values.
+    //Creates node with some default values.
     private void OnNodeCreating(IDiagramObject obj)
     {
         Node node = obj as Node;
@@ -125,7 +124,7 @@ You can also control the branch for a mind map using the [GetBranch](https://hel
         };
     }
     
-    //Creates node with some default values.
+    //Creates connectors with some default values.
     private void OnConnectorCreating(IDiagramObject connector)
     {
         Connector connectors = connector as Connector;
@@ -216,17 +215,17 @@ Also, you can render a mind map layout without using a Datasource. The following
                 Width = 70,
                 Height = 70,
                 Ports = new DiagramObjectCollection<PointPort>()
-{
-                new PointPort()
                 {
-                    ID="left",
-                    Offset = new DiagramPoint() { X = 1, Y = 0.5},
-                },new PointPort()
-                {
-                    ID="right",
-                    Offset = new DiagramPoint() { X = 0, Y = 0.5},
-                }
-            },
+                    new PointPort()
+                    {
+                        ID="left",
+                        Offset = new DiagramPoint() { X = 1, Y = 0.5},
+                    },new PointPort()
+                    {
+                        ID="right",
+                        Offset = new DiagramPoint() { X = 0, Y = 0.5},
+                    }
+                },
             };
         _nodes.Add(node1);
         Node node2 = new Node()
@@ -234,13 +233,13 @@ Also, you can render a mind map layout without using a Datasource. The following
                 ID = "node2",
                 Width = 70,
                 Ports = new DiagramObjectCollection<PointPort>()
-{
-                new PointPort()
                 {
-                    ID="left",
-                    Offset = new DiagramPoint() { X = 0, Y = 0.5},
-                }
-            },
+                    new PointPort()
+                    {
+                        ID="left",
+                        Offset = new DiagramPoint() { X = 0, Y = 0.5},
+                    }
+                },
                 Height = 70
             };
         _nodes.Add(node2);
@@ -249,13 +248,13 @@ Also, you can render a mind map layout without using a Datasource. The following
                 ID = "node3",
                 Width = 70,
                 Ports = new DiagramObjectCollection<PointPort>()
-{
-                new PointPort()
                 {
-                    ID="right",
-                    Offset = new DiagramPoint() { X = 1, Y = 0.5},
-                }
-            },
+                    new PointPort()
+                    {
+                        ID="right",
+                        Offset = new DiagramPoint() { X = 1, Y = 0.5},
+                    }
+                },
                 Height = 70
             };
         _nodes.Add(node3);
@@ -352,13 +351,13 @@ Also, you can render a mind map layout without using a Datasource. The following
             {
                 ID = "node17",
                 Ports = new DiagramObjectCollection<PointPort>()
-{
-                new PointPort()
                 {
-                    ID = "right",
-                    Offset = new DiagramPoint() { X = 1, Y = 0.5 },
-                }
-            },
+                    new PointPort()
+                    {
+                        ID = "right",
+                        Offset = new DiagramPoint() { X = 1, Y = 0.5 },
+                    }
+                },
                 Width = 70,
                 Height = 70,
             };
@@ -432,13 +431,6 @@ The following example demonstrates configuring the mind map layout with a vertic
 @code {
     private SfDiagramComponent? _diagram;
     public LayoutOrientation SelectedOrientation { get; set; } = LayoutOrientation.Vertical;
-    public List<OrientationItem> LayoutOrientationOptions { get; set; } = new()
-    {
-        new OrientationItem { Text = "Vertical", Value = LayoutOrientation.Vertical },
-        new OrientationItem { Text = "Horizontal", Value = LayoutOrientation.Horizontal },
-        new OrientationItem { Text = "Left to Right", Value = LayoutOrientation.LeftToRight },
-        new OrientationItem { Text = "Right to Left", Value = LayoutOrientation.RightToLeft }
-    };
 
     public List<MindMapDetails> DataSource { get; set; } = new()
     {
@@ -475,7 +467,6 @@ The following example demonstrates configuring the mind map layout with a vertic
         // Apply default node styling.
         node.Height = 100;
         node.Width = 100;
-        node.BackgroundColor = "#6BA5D7";
         node.Style = new ShapeStyle 
         { 
             Fill = "#6495ED", 
@@ -563,14 +554,6 @@ The following example demonstrates how to update the layout orientation dynamica
     
     // Property bound to dropdown and diagram layout, updated at runtime by user interaction.
     public LayoutOrientation SelectedOrientation { get; set; } = LayoutOrientation.Vertical;
-    
-    public List<OrientationItem> LayoutOrientationOptions { get; set; } = new()
-    {
-        new OrientationItem { Text = "Vertical", Value = LayoutOrientation.Vertical },
-        new OrientationItem { Text = "Horizontal", Value = LayoutOrientation.Horizontal },
-        new OrientationItem { Text = "Left to Right", Value = LayoutOrientation.LeftToRight },
-        new OrientationItem { Text = "Right to Left", Value = LayoutOrientation.RightToLeft }
-    };
 
     public List<MindMapDetails> DataSource { get; set; } = new()
     {
@@ -607,7 +590,6 @@ The following example demonstrates how to update the layout orientation dynamica
         // Apply default node styling.
         node.Height = 100;
         node.Width = 100;
-        node.BackgroundColor = "#6BA5D7";
         node.Style = new ShapeStyle 
         { 
             Fill = "#6495ED", 

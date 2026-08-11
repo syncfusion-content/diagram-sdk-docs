@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Scroll Settings in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Scroll Setting in Blazor Diagram component and much more.
+description: Configure the Blazor Diagram Component scrollbar, auto-scroll, zoom limits, and pan offsets for smooth navigation of large diagrams.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Scroll Settings in Diagram Component
+# Scroll Settings in Blazor Diagram Component
 
 The diagram can be scrolled using vertical and horizontal scrollbars. In addition to the scrollbars, the mouse wheel can be used to scroll the diagram. The Diagram’s [ScrollSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html) allows to read the current scroll status, current zoom and zoom factor values. 
 
@@ -70,7 +70,7 @@ Programmatically change the scroll offsets at runtime by using the external butt
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/ScrollSettings/ScrollStatus.razor)
 
-## How to Handle the Scroll Changed Event 
+## How to Handle the Scroll Changed Event
 
 The Diagram control provides the following event for scroll settings.
 
@@ -110,15 +110,15 @@ The Diagram control provides the following event for scroll settings.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rNLdDxKXMavQUfRi?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-## How to Enable or Disable Auto Scroll 
-Autoscroll feature automatically scrolls the Diagram whenever the Node or Connector is moved beyond the boundary of the diagram. So that, it is always visible during dragging, resizing, and multiple selection operations. Autoscroll is automatically triggered when any one of the following is done towards the edges of the Diagram:
+## How to Enable or Disable Auto Scroll
+
+Auto Scroll feature automatically scrolls the Diagram whenever the Node or Connector is moved beyond the boundary of the diagram. So that, it is always visible during dragging, resizing, and multiple selection operations. Auto Scroll is automatically triggered when any one of the following is done towards the edges of the Diagram:
 
 * Node dragging, resizing
 * Connector dragging and end thumb dragging
 * Rubber band selection
 
 The auto-scroll behavior in the diagram can be enabled or disabled by using the [EnableAutoScroll](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html#Syncfusion_Blazor_Diagram_ScrollSettings_EnableAutoScroll) property of the diagram. The following code example illustrates enabling or disabling the auto-scroll support for nodes.
-
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -187,7 +187,7 @@ You can download a complete working sample from [GitHub](https://github.com/Sync
 ## How to Set Auto Scroll Padding
 The [AutoScrollPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html#Syncfusion_Blazor_Diagram_ScrollSettings_AutoScrollPadding) is used to specify the maximum distance between the object and the diagram's edge that will trigger auto-scrolling. When auto-scrolling is enabled, the diagram viewport will automatically scroll in the direction of the mouse movement when the user drags a node or connector to the edge of the viewport. The padding to start the auto-scrolling at the edge can be controlled by setting `AutoScrollPadding` property.
 
-N> The default value is **20 pixels**.
+**Note:** The default value is **20 pixels**.
 
 The following example illustrates how to set auto scroll padding.
 
@@ -271,7 +271,7 @@ To explore about the options , refer [ScrollLimitMode](https://help.syncfusion.c
 ## How to Set Scroll Padding
 The [ScrollPadding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html#Syncfusion_Blazor_Diagram_ScrollSettings_ScrollPadding) property in the scroll settings allows you to extend the scrollable region based on the [ScrollLimit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html#Syncfusion_Blazor_Diagram_ScrollSettings_ScrollLimit), when an element is interacted with at the edges of the viewport. It defines the maximum distance between the object and the edge of the diagram area, ensuring smoother navigation and interaction. This behavior enhances the user experience, particularly in large diagrams where users may need to move or extend elements across different sections of the canvas.
 
-N> The default value is **0 pixels**.
+**Note:** The default value is **0 pixels**.
 
 The following example illustrates how to sets scroll padding.
 

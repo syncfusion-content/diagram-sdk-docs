@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connectors in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about Connectors in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Connectors in ASP.NET MVC Diagram | Syncfusion®
+description: Create connectors in Syncfusion® ASP.NET MVC Diagram with straight, orthogonal, or bezier segments, decorators, ports, bridging, flip, and runtime add or update.
 platform: diagram-sdk
 control: Connectors
 documentation: ug
 ---
 
 
-# Connector in ASP.NET MVC Diagram Control
+# Connectors in ASP.NET MVC Diagram
 
 Connectors are objects used to create link between two points, nodes or ports to represent the relationships between them.
 

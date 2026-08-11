@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview in Blazor Diagram Component | Syncfusion®
-description: Check out and learn here all the features and Overview Control in Blazor Diagram component and much more.
+description: Add an overview panel to the Blazor Diagram Component to enable panning and zooming of large diagrams.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -102,7 +102,7 @@ The following code illustrates how to create an overview.
         new HierarchicalDetails(){ Name ="Management", Category="Organizational chart",FillColor="#659be5"},
         new HierarchicalDetails(){ Name ="Human resources", Category="Management",FillColor="#659be5"},
         new HierarchicalDetails(){ Name ="University", Category="Management",FillColor="#659be5"},
-        new HierarchicalDetails(){ Name ="Business", Category="#Management",FillColor="#659be5"}
+        new HierarchicalDetails(){ Name ="Business", Category="Management",FillColor="#659be5"}
     };
 }
 ```

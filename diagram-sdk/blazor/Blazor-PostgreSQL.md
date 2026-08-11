@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Loading Blazor Diagram from PostgreSQL Database | Syncfusion®
-description: Fetch organizational chart layout data from PostgreSQL and bind it to a .NET API-backed Blazor Diagram for Server and WASM samples.
+title: PostgreSQL in Blazor Diagram Component | Syncfusion®
+description: Build a PostgreSQL-backed organizational chart in the Blazor Diagram Component using Entity Framework Core, Npgsql, and a .NET API.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Loading Blazor Diagram from PostgreSQL Database
+# PostgreSQL in Blazor Diagram Component
 
 This guide explains how to display an organizational chart using data stored in a PostgreSQL database and visualize it with the Blazor Diagram component.
 
@@ -343,7 +343,7 @@ A connection string contains the information needed to connect the application t
 ```json
 {
     "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgresql@123"
+        "DefaultConnection": "Server=localhost;Port=5432;Database=org_chart_db;User Id=postgres;Password=postgres123"
     },
   "Logging": {
     "LogLevel": {

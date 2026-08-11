@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Umldiagram in ASP.NET Core Diagram Component
-description: Learn here all about Umldiagram in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: UML Diagram Shapes in ASP.NET Core Diagram | Syncfusion®
+description: Model object-oriented systems in Syncfusion® ASP.NET Core Diagram with UML class, interface, enumeration, and connector shapes for static structure.
 platform: diagram-sdk
 control: Umldiagram
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# UML Diagram Shapes
+# UML Diagram Shapes in ASP.NET Core Diagram
 
 ## UML Class Diagram
 

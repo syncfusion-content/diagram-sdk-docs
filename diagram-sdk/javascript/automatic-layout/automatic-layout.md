@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automatic layout in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Automatic Layout in JavaScript Diagram | Syncfusion®
+description: Auto-arrange nodes in the Syncfusion® JavaScript Diagram with Hierarchical, Organization Chart, Flowchart, Mind Map, Radial, and Symmetric layouts.
 platform: diagram-sdk
 control: Automatic layout 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Automatic layouts in JavaScript Diagram control
+# Automatic Layout in JavaScript Diagram
 
 Diagram provides support to auto-arrange the nodes in the diagram area that is referred as `Layout`. It includes the following layout modes:
 
