@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preview Settings in WPF Diagram Control | Syncfusion®
+title: Preview Settings in WPF SfDiagram control | Syncfusion®
 description: How to select and edit nodes and connectors during runtime and how to arrange the node and connectors while dragging?
 platform: diagram-sdk
 control: SfDiagram
@@ -8,7 +8,7 @@ documentation: ug
 ---
 # Preview Settings in WPF Diagram
 
-[WPF Diagram](https://www.syncfusion.com/wpf-controls/diagram) provides support to drag objects as an outline without affecting original object. When multiple elements are selected, outline of every selected element will be moved.
+[WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) provides support to drag objects as an outline without affecting original object. When multiple elements are selected, outline of every selected element will be moved.
 
 Preview Dragging can be enabled by assigning values other than `PreviewMode.Preview` to `SfDiagram.PreviewSettings.PreviewMode`.
 
