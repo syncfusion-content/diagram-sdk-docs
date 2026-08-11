@@ -4,7 +4,6 @@ title: Commands in ASP.NET MVC Diagram | Syncfusion®
 description: Use built-in commands in Syncfusion® ASP.NET MVC Diagram to align, space, size, copy, group, order, zoom, nudge, fit, and undo/redo objects.
 platform: diagram-sdk
 control: Commands
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -28,14 +27,14 @@ There are several commands available in the diagram as follows.
 
 ## Align
 
-Alignment commands enables to align the selected or defined objects such as nodes and connectors with respect to the selection boundary. Refer to [`align`](https://ej2.syncfusion.com/documentation/api/diagram/#align) commands which shows how to use align methods in the diagram.
+Alignment commands enables to align the selected or defined objects such as nodes and connectors with respect to the selection boundary. Refer to [`align`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#align) commands which shows how to use align methods in the diagram.
 
 <table>
 <th>Parameters</th>
 <th>Description</th>
 <tr>
 <td>
-{{'[`Alignment Options`](https://ej2.syncfusion.com/documentation/api/diagram/#align)' | markdownify}}</td><td><p align="left">Defines the specific direction, with respect to which the objects to be aligned. <br> The accepted values of the argument "alignment options" are as follows.</p> <table><tr><td> Left </td><td align="left"> Aligns all the selected objects at the left of the selection boundary. </td></tr><tr><td> Right </td><td align="left"> Aligns all the selected objects at the right of the selection boundary. </td></tr><tr><td> Center </td><td align="left"> Aligns all the selected objects at the center of the selection boundary. </td></tr><tr><td>Top </td><td align="left"> Aligns all the selected objects at the top of the selection boundary. </td></tr><tr><td> Bottom </td><td align="left"> Aligns all the selected objects at the bottom of the selection boundary. </td></tr><tr><td> Middle </td><td align="left"> Aligns all the selected objects at the middle of the selection boundary. </td></tr></table></td>
+{{'[`Alignment Options`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#align)' | markdownify}}</td><td><p align="left">Defines the specific direction, with respect to which the objects to be aligned. <br> The accepted values of the argument "alignment options" are as follows.</p> <table><tr><td> Left </td><td align="left"> Aligns all the selected objects at the left of the selection boundary. </td></tr><tr><td> Right </td><td align="left"> Aligns all the selected objects at the right of the selection boundary. </td></tr><tr><td> Center </td><td align="left"> Aligns all the selected objects at the center of the selection boundary. </td></tr><tr><td>Top </td><td align="left"> Aligns all the selected objects at the top of the selection boundary. </td></tr><tr><td> Bottom </td><td align="left"> Aligns all the selected objects at the bottom of the selection boundary. </td></tr><tr><td> Middle </td><td align="left"> Aligns all the selected objects at the middle of the selection boundary. </td></tr></table></td>
 </tr>
 <tr>
 <td>Objects</td>
@@ -43,7 +42,7 @@ Alignment commands enables to align the selected or defined objects such as node
 </tr>
 <tr>
 <td>
-{{'[`Alignment Mode`](https://ej2.syncfusion.com/documentation/api/diagram/alignmentMode/)' | markdownify}}</td>
+{{'[`Alignment Mode`](https://ej2.syncfusion.com/documentation/api/diagram/alignmentmode)' | markdownify}}</td>
 <td> <p align="left">Defines the specific mode, with respect to which the objects to be aligned. This is an optional parameter. The default alignment mode is `Object`.<br> The accepted values of the argument "alignment mode" are as follows.</p> <table><tr><td> Object </td><td align="left"> Aligns the objects based on the first object in the selected list. </td></tr><tr><td> Selector </td><td align="left"> Aligns the objects based on the selection boundary. </td></tr></table>
 </td>
 </tr>
@@ -87,9 +86,9 @@ diagram.dataBind();
 
 ## Distribute
 
-The [`Distribute`](https://ej2.syncfusion.com/documentation/api/diagram#distribute) commands enable to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary.
+The [`Distribute`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#distribute) commands enable to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary.
 
-The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion.com/documentation/api/diagram/distributeOptions/) are listed as follows:
+The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion.com/documentation/api/diagram/distributeoptions) are listed as follows:
 
 * RightToLeft: Distributes the objects based on the distance between the right and left sides of the adjacent objects.
 * Left: Distributes the objects based on the distance between the left sides of the adjacent objects.
@@ -136,9 +135,9 @@ diagram.distribute('RightToLeft', diagram.selectedItems.nodes);
 
 ## Sizing
 
-Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) commands enable to equally size the selected nodes with respect to the first selected object.
+Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#samesize) commands enable to equally size the selected nodes with respect to the first selected object.
 
-[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) are as follows:
+[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/sizingoptions) are as follows:
 
 * Width: Scales the width of the selected objects.
 * Height: Scales the height of the selected objects.
@@ -182,11 +181,11 @@ diagram.sameSize('Width', diagram.selectedItems.nodes);
 
 Clipboard commands are used to cut, copy, or paste the selected elements.
 
-* Cuts the selected elements from the diagram to the diagram’s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/#cut).
+* Cuts the selected elements from the diagram to the diagram’s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#cut).
 
-* Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/#copy).
+* Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#copy).
 
-* Pastes the diagram’s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
+* Pastes the diagram’s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#paste).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -224,9 +223,9 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 **Grouping commands** are used to group or ungroup the selected elements on the diagram.
 
-[`Group`](https://ej2.syncfusion.com/documentation/api/diagram/#group) the selected nodes and connectors in the diagram.
+[`Group`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#group) the selected nodes and connectors in the diagram.
 
-[`Ungroup`](https://ej2.syncfusion.com/documentation/api/diagram/#ungroup) the selected nodes and connectors in the diagram.
+[`Ungroup`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#ungroup) the selected nodes and connectors in the diagram.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -266,7 +265,7 @@ diagram.group();
 
 ### bringToFront command
 
-The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/#bringtofront) command visually brings the selected element to front over all the other overlapped elements. The following code illustrates how to execute the `bringToFront` command.
+The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringtofront) command visually brings the selected element to front over all the other overlapped elements. The following code illustrates how to execute the `bringToFront` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -305,7 +304,7 @@ diagram.bringToFront();
 
 ### sendToBack command
 
-The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/#sendtoback) command visually moves the selected element behind all the other overlapped elements. The following code illustrates how to execute the `sendToBack` command.
+The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#sendtoback) command visually moves the selected element behind all the other overlapped elements. The following code illustrates how to execute the `sendToBack` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -343,7 +342,7 @@ diagram.sendToBack();
 
 ### moveForward command
 
-The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/#moveforward) command visually moves the selected element over the nearest overlapping element. The following code illustrates how to execute the `moveForward` command.
+The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#moveforward) command visually moves the selected element over the nearest overlapping element. The following code illustrates how to execute the `moveForward` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -381,7 +380,7 @@ diagram.moveForward();
 
 ### sendBackward command
 
-The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/#sendbackward) command visually moves the selected element behind the underlying element. The following code illustrates how to execute the `sendBackward` command.
+The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#sendbackward) command visually moves the selected element behind the underlying element. The following code illustrates how to execute the `sendBackward` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -418,7 +417,7 @@ diagram.sendBackward();
 
 ## Zoom
 
-The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/#zoom) command is used to zoom-in and zoom-out the diagram view.
+The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#zoom) command is used to zoom-in and zoom-out the diagram view.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -457,9 +456,9 @@ diagram.zoom(1.2, {
 
 ## Nudge command
 
-The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
+The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
 
-[`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgeDirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
+[`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgedirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
 
 The accepted values of the argument "direction" are as follows:
 
@@ -508,7 +507,7 @@ Nudge commands are particularly useful for accurate placement of elements.
 
 ## BringIntoView
 
-The [`bringIntoView`](https://ej2.syncfusion.com/documentation/api/diagram/#bringintoview) command brings the specified rectangular region into the viewport of the diagram.
+The [`bringIntoView`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringintoview) command brings the specified rectangular region into the viewport of the diagram.
 
 The following code illustrates how to execute the `bringIntoView` command.
 
@@ -544,7 +543,7 @@ diagram.bringIntoView(bound);
 
 ## BringToCenter
 
-The [`bringToCenter`](https://ej2.syncfusion.com/documentation/api/diagram/#bringtocenter) command brings the specified rectangular region of the diagram content to the center of the viewport.
+The [`bringToCenter`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringtocenter) command brings the specified rectangular region of the diagram content to the center of the viewport.
 
 The following code illustrates how to execute the `bringToCenter` command.
 
@@ -581,17 +580,17 @@ diagram.bringToCenter(bound);
 
 ## FitToPage command
 
-The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
+The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
 
-The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitModes/) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
+The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitmodes) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
 
-The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRegions/) parameter defines the region that has to be drawn as an image.
+The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramregions) parameter defines the region that has to be drawn as an image.
 
-The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions/) parameter defines the region/bounds of the diagram content that is to be fit into the view.
+The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions) parameter defines the region/bounds of the diagram content that is to be fit into the view.
 
-The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#canZoomIn/) parameter enables/disables zooming to fit the smaller content into a larger viewport.
+The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions#canzoomin) parameter enables/disables zooming to fit the smaller content into a larger viewport.
 
-The [`customBounds`](../api/diagram/iFitOpthttps://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#customBounds) parameter the custom region that has to be fit into the viewport.
+The [`customBounds`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions#custombounds) parameter the custom region that has to be fit into the viewport.
 
 The following code illustrates how to execute `FitToPage` command.
 
@@ -634,16 +633,16 @@ diagram.fitToPage({
 
 ## Command manager
 
-Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandManager/) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
+Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
 
 ## Custom command
 
 To define a custom command, specify the following properties:
-* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#execute): A method to be executed.
-* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers/).
-* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#parameter): Defines any additional parameters that are required at runtime.
-* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#name): Defines the name of the command.
+* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#execute): A method to be executed.
+* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#canexecute): A method to define whether the command can be executed at the moment.
+* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keymodifiers).
+* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#parameter): Defines any additional parameters that are required at runtime.
+* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#name): Defines the name of the command.
 
 To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/command#commands).
 

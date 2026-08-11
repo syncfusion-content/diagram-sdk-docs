@@ -4,14 +4,13 @@ title: Printing and Exporting in ASP.NET MVC Diagram | Syncfusion®
 description: Print or export Syncfusion® ASP.NET MVC Diagram as JPG, PNG, BMP, or SVG with options for file name, margin, region, and export mode.
 platform: diagram-sdk
 control: Export
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
 # Printing and Exporting in ASP.NET MVC Diagram
 
-Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/#exportDiagram) helps to export the diagram.
+Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportdiagram) helps to export the diagram.
 
 N> To use Print and Export, you need to inject `PrintAndExport` in the diagram.
 
@@ -33,11 +32,11 @@ Diagram provides support to export the desired region of the diagram to desired 
 
 ## File Name
 
-[`FileName`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/) is the name of the file to be downloaded. By default, the file name is set to **Diagram**.
+[`FileName`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions) is the name of the file to be downloaded. By default, the file name is set to **Diagram**.
 
 ## Format
 
-[`Format`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/) is to specify the type or format of the exported file. By default, the diagram is exported as .jpg format. You can export diagram to the following formats:
+[`Format`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions) is to specify the type or format of the exported file. By default, the diagram is exported as .jpg format. You can export diagram to the following formats:
 
 * JPG
 * PNG
@@ -57,7 +56,7 @@ diagram.exportDiagram(options);
 
 ## Margin
 
-[`Margin`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#margin) specifies the amount of space that has to be left around the diagram.
+[`Margin`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#margin) specifies the amount of space that has to be left around the diagram.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -77,7 +76,7 @@ diagram.exportDiagram(options);
 
 ## Mode
 
-[`Mode`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#mode) specifies whether the diagram is to be exported as files or as data (ImageURL/SVG). The exporting options are as follows:
+[`Mode`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#mode) specifies whether the diagram is to be exported as files or as data (ImageURL/SVG). The exporting options are as follows:
 
 * Data: Exports and downloads the diagram as image.
 * Download: Exports the diagram as data of formats ImageURL/SVG.
@@ -100,7 +99,7 @@ diagram.exportDiagram(options);
 
 ## Region
 
-You can export any particular [`region`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#region) of the diagram and the region is categorized as follows.
+You can export any particular [`region`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#region) of the diagram and the region is categorized as follows.
 
 * Region that fits all nodes and connectors that are added to model.
 * Region that fits all pages (single or multiple pages based on page settings).
@@ -125,7 +124,7 @@ diagram.exportDiagram(options);
 
 ## Custom bounds
 
-Diagram provides support to export any specific region of the diagram by using [`bounds`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#region).
+Diagram provides support to export any specific region of the diagram by using [`bounds`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#region).
 
 ```javascript
 
@@ -148,7 +147,7 @@ diagram.exportDiagram(options);
 
 ## Export diagram with stretch option
 
-Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions/#stretch) option. The exported images will be clearer but larger in file size.
+Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#stretch) option. The exported images will be clearer but larger in file size.
 
 ```javascript
 
@@ -168,7 +167,7 @@ diagram.exportDiagram(options);
 
 ## Print
 
-The client-side method [`print`](https://ej2.syncfusion.com/documentation/api/diagram/#print) helps to print the diagram as image.
+The client-side method [`print`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#print) helps to print the diagram as image.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |
