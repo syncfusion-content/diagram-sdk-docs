@@ -43,7 +43,7 @@ Alignment commands enables to align the selected or defined objects such as node
 </tr>
 <tr>
 <td>
-{{'[`Alignment Mode`](https://ej2.syncfusion.com/documentation/api/diagram/alignmentMode/)' | markdownify}}</td>
+{{'[`Alignment Mode`](https://ej2.syncfusion.com/documentation/api/diagram/alignmentmode)' | markdownify}}</td>
 <td> <p align="left">Defines the specific mode, with respect to which the objects to be aligned. This is an optional parameter. The default alignment mode is `Object`.<br> The accepted values of the argument "alignment mode" are as follows.</p> <table><tr><td> Object </td><td align="left"> Aligns the objects based on the first object in the selected list. </td></tr><tr><td> Selector </td><td align="left"> Aligns the objects based on the selection boundary. </td></tr></table>
 </td>
 </tr>
@@ -87,9 +87,9 @@ diagram.dataBind();
 
 ## Distribute
 
-The [`Distribute`](https://ej2.syncfusion.com/documentation/api/diagram#distribute) commands enable to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary.
+The [`Distribute`](https://ej2.syncfusion.com/documentation/api/diagram/#distribute) commands enable to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary.
 
-The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion.com/documentation/api/diagram/distributeOptions/) are listed as follows:
+The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion.com/documentation/api/diagram/distributeoptions) are listed as follows:
 
 * RightToLeft: Distributes the objects based on the distance between the right and left sides of the adjacent objects.
 * Left: Distributes the objects based on the distance between the left sides of the adjacent objects.
@@ -459,7 +459,7 @@ diagram.zoom(1.2, {
 
 The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
 
-[`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgeDirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
+[`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgedirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
 
 The accepted values of the argument "direction" are as follows:
 
@@ -581,17 +581,17 @@ diagram.bringToCenter(bound);
 
 ## FitToPage command
 
-The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
+The [`fitToPage`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#fittopage) command helps to fit the diagram content into the view with respect to either width, height, or at the whole.
 
-The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitModes/) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
+The [`mode`](https://ej2.syncfusion.com/documentation/api/diagram/fitmodes) parameter defines whether the diagram has to be horizontally/vertically fits into the viewport with respect to width, height, or entire bounds of the diagram.
 
-The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRegions/) parameter defines the region that has to be drawn as an image.
+The [`region`](https://ej2.syncfusion.com/documentation/api/diagram/diagramregions) parameter defines the region that has to be drawn as an image.
 
-The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions/) parameter defines the region/bounds of the diagram content that is to be fit into the view.
+The [`margin`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions) parameter defines the region/bounds of the diagram content that is to be fit into the view.
 
-The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#canZoomIn/) parameter enables/disables zooming to fit the smaller content into a larger viewport.
+The [`canZoomIn`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions#canzoomin) parameter enables/disables zooming to fit the smaller content into a larger viewport.
 
-The [`customBounds`](../api/diagram/iFitOpthttps://ej2.syncfusion.com/documentation/api/diagram/iFitOptions#customBounds) parameter the custom region that has to be fit into the viewport.
+The [`customBounds`](https://ej2.syncfusion.com/documentation/api/diagram/ifitoptions#custombounds) parameter the custom region that has to be fit into the viewport.
 
 The following code illustrates how to execute `FitToPage` command.
 
@@ -634,16 +634,16 @@ diagram.fitToPage({
 
 ## Command manager
 
-Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandManager/) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
+Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
 
 ## Custom command
 
 To define a custom command, specify the following properties:
-* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#execute): A method to be executed.
-* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers/).
-* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#parameter): Defines any additional parameters that are required at runtime.
-* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel/#name): Defines the name of the command.
+* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#execute): A method to be executed.
+* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#canexecute): A method to define whether the command can be executed at the moment.
+* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keymodifiers).
+* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#parameter): Defines any additional parameters that are required at runtime.
+* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#name): Defines the name of the command.
 
 To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/command#commands).
 
