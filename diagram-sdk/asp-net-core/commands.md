@@ -4,7 +4,6 @@ title: Commands in ASP.NET Core Diagram | Syncfusion®
 description: Use built-in commands in Syncfusion® ASP.NET Core Diagram to align, space, size, copy, group, order, zoom, nudge, fit, and undo/redo objects.
 platform: diagram-sdk
 control: Commands
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -28,14 +27,14 @@ There are several commands available in the diagram as follows.
 
 ## Align
 
-Alignment commands enables to align the selected or defined objects such as nodes and connectors with respect to the selection boundary. Refer to [`align`](https://ej2.syncfusion.com/documentation/api/diagram/#align) commands which shows how to use align methods in the diagram.
+Alignment commands enables to align the selected or defined objects such as nodes and connectors with respect to the selection boundary. Refer to `align` commands which shows how to use align methods in the diagram.
 
 <table>
 <th>Parameters</th>
 <th>Description</th>
 <tr>
 <td>
-{{'[`Alignment Options`](https://ej2.syncfusion.com/documentation/api/diagram/#align)' | markdownify}}</td><td><p align="left">Defines the specific direction, with respect to which the objects to be aligned. <br> The accepted values of the argument "alignment options" are as follows.</p> <table><tr><td> Left </td><td align="left"> Aligns all the selected objects at the left of the selection boundary. </td></tr><tr><td> Right </td><td align="left"> Aligns all the selected objects at the right of the selection boundary. </td></tr><tr><td> Center </td><td align="left"> Aligns all the selected objects at the center of the selection boundary. </td></tr><tr><td>Top </td><td align="left"> Aligns all the selected objects at the top of the selection boundary. </td></tr><tr><td> Bottom </td><td align="left"> Aligns all the selected objects at the bottom of the selection boundary. </td></tr><tr><td> Middle </td><td align="left"> Aligns all the selected objects at the middle of the selection boundary. </td></tr></table></td>
+{{'[`Alignment Options`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#align)' | markdownify}}</td><td><p align="left">Defines the specific direction, with respect to which the objects to be aligned. <br> The accepted values of the argument "alignment options" are as follows.</p> <table><tr><td> Left </td><td align="left"> Aligns all the selected objects at the left of the selection boundary. </td></tr><tr><td> Right </td><td align="left"> Aligns all the selected objects at the right of the selection boundary. </td></tr><tr><td> Center </td><td align="left"> Aligns all the selected objects at the center of the selection boundary. </td></tr><tr><td>Top </td><td align="left"> Aligns all the selected objects at the top of the selection boundary. </td></tr><tr><td> Bottom </td><td align="left"> Aligns all the selected objects at the bottom of the selection boundary. </td></tr><tr><td> Middle </td><td align="left"> Aligns all the selected objects at the middle of the selection boundary. </td></tr></table></td>
 </tr>
 <tr>
 <td>Objects</td>
@@ -136,9 +135,9 @@ diagram.distribute('RightToLeft', diagram.selectedItems.nodes);
 
 ## Sizing
 
-Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) commands enable to equally size the selected nodes with respect to the first selected object.
+Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#samesize) commands enable to equally size the selected nodes with respect to the first selected object.
 
-[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/#samesize) are as follows:
+[`SizingOptions`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#samesize) are as follows:
 
 * Width: Scales the width of the selected objects.
 * Height: Scales the height of the selected objects.
@@ -182,11 +181,11 @@ diagram.sameSize('Width', diagram.selectedItems.nodes);
 
 Clipboard commands are used to cut, copy, or paste the selected elements.
 
-* Cuts the selected elements from the diagram to the diagram’s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/#cut).
+* Cuts the selected elements from the diagram to the diagram’s clipboard, [`cut`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#cut).
 
-* Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/#copy).
+* Copies the selected elements from the diagram to the diagram’s clipboard, [`copy`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#copy).
 
-* Pastes the diagram’s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/#paste).
+* Pastes the diagram’s clipboard data (nodes/connectors) into the diagram, [`paste`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#paste).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -224,9 +223,9 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 **Grouping commands** are used to group or ungroup the selected elements on the diagram.
 
-[`Group`](https://ej2.syncfusion.com/documentation/api/diagram/#group) the selected nodes and connectors in the diagram.
+[`Group`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#group) the selected nodes and connectors in the diagram.
 
-[`Ungroup`](https://ej2.syncfusion.com/documentation/api/diagram/#ungroup) the selected nodes and connectors in the diagram.
+[`Ungroup`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#ungroup) the selected nodes and connectors in the diagram.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -266,7 +265,7 @@ diagram.group();
 
 ### bringToFront command
 
-The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/#bringtofront) command visually brings the selected element to front over all the other overlapped elements. The following code illustrates how to execute the `bringToFront` command.
+The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringtofront) command visually brings the selected element to front over all the other overlapped elements. The following code illustrates how to execute the `bringToFront` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -305,7 +304,7 @@ diagram.bringToFront();
 
 ### sendToBack command
 
-The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/#sendtoback) command visually moves the selected element behind all the other overlapped elements. The following code illustrates how to execute the `sendToBack` command.
+The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#sendtoback) command visually moves the selected element behind all the other overlapped elements. The following code illustrates how to execute the `sendToBack` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -343,7 +342,7 @@ diagram.sendToBack();
 
 ### moveForward command
 
-The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/#moveforward) command visually moves the selected element over the nearest overlapping element. The following code illustrates how to execute the `moveForward` command.
+The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#moveforward) command visually moves the selected element over the nearest overlapping element. The following code illustrates how to execute the `moveForward` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -381,7 +380,7 @@ diagram.moveForward();
 
 ### sendBackward command
 
-The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/#sendbackward) command visually moves the selected element behind the underlying element. The following code illustrates how to execute the `sendBackward` command.
+The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#sendbackward) command visually moves the selected element behind the underlying element. The following code illustrates how to execute the `sendBackward` command.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -418,7 +417,7 @@ diagram.sendBackward();
 
 ## Zoom
 
-The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/#zoom) command is used to zoom-in and zoom-out the diagram view.
+The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#zoom) command is used to zoom-in and zoom-out the diagram view.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -457,7 +456,7 @@ diagram.zoom(1.2, {
 
 ## Nudge command
 
-The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
+The [`nudge`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#nudge) commands move the selected elements towards up, down, left, or right by 1 pixel.
 
 [`NudgeDirection`](https://ej2.syncfusion.com/documentation/api/diagram/nudgedirection) nudge command moves the selected elements towards the specified direction by 1 pixel, by default.
 
@@ -508,7 +507,7 @@ Nudge commands are particularly useful for accurate placement of elements.
 
 ## BringIntoView
 
-The [`bringIntoView`](https://ej2.syncfusion.com/documentation/api/diagram/#bringintoview) command brings the specified rectangular region into the viewport of the diagram.
+The [`bringIntoView`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringintoview) command brings the specified rectangular region into the viewport of the diagram.
 
 The following code illustrates how to execute the `bringIntoView` command.
 
@@ -544,7 +543,7 @@ diagram.bringIntoView(bound);
 
 ## BringToCenter
 
-The [`bringToCenter`](https://ej2.syncfusion.com/documentation/api/diagram/#bringtocenter) command brings the specified rectangular region of the diagram content to the center of the viewport.
+The [`bringToCenter`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#bringtocenter) command brings the specified rectangular region of the diagram content to the center of the viewport.
 
 The following code illustrates how to execute the `bringToCenter` command.
 

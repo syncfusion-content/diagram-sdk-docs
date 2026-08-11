@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Connectors in ASP.NET Core Diagram | Syncfusion®
-description: Create connectors in Syncfusion® ASP.NET Core Diagram with straight, orthogonal, or bezier segments, decorators, ports, bridging, flip, and runtime add or update.
+description: Create Syncfusion® ASP.NET Core Diagram connectors with straight, orthogonal, or bezier segments, decorators, ports, bridging, flip, and runtime updates.
 platform: diagram-sdk
 control: Connectors
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -400,7 +399,7 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property.
 To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments) property in the diagram’s model.
-To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments/).
+To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.ConnectorConstraints.html#Syncfusion_EJ2_Diagrams_ConnectorConstraints_InheritSegmentThumbSize) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/documentation/api/diagram/segments).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

@@ -4,7 +4,6 @@ title: Accessibility in ASP.NET Core Diagram | Syncfusion®
 description: Learn WAI-ARIA accessibility support in Syncfusion® ASP.NET Core Diagram, including aria-label defaults, screen reader, and keyboard navigation compliance.
 platform: diagram-sdk
 control: Accessibility
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 

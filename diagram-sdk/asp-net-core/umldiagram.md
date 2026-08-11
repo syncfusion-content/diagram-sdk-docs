@@ -4,7 +4,6 @@ title: UML Diagram Shapes in ASP.NET Core Diagram | Syncfusion®
 description: Model object-oriented systems in Syncfusion® ASP.NET Core Diagram with UML class, interface, enumeration, and connector shapes for static structure.
 platform: diagram-sdk
 control: Umldiagram
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
