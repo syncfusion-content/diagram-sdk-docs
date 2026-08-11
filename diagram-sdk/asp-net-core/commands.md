@@ -640,7 +640,7 @@ Diagram provides support to map or bind command execution with desired combinati
 To define a custom command, specify the following properties:
 * [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#execute): A method to be executed.
 * [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#canexecute): A method to define whether the command can be executed at the moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys/) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keymodifiers).
+* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#gesture): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keymodifiers).
 * [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#parameter): Defines any additional parameters that are required at runtime.
 * [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#name): Defines the name of the command.
 
