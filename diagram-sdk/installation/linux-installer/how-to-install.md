@@ -2,7 +2,7 @@
 layout: post
 title: Installing Syncfusion Diagram SDK Linux Installer
 description: Learn how to install Syncfusion Diagram SDK Linux installer after downloading from our Syncfusion website.
-platform: Diagram SDK
+platform: diagram-sdk
 control: Installation and Deployment
 documentation: ug
 

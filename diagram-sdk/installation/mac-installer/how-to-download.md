@@ -2,7 +2,7 @@
 layout: post
 title: Downloading Syncfusion Diagram SDK Mac Installer
 description: Learn how to download the Syncfusion Diagram SDK Mac installer from the Syncfusion website using your license.
-platform: Diagram-SDK
+platform: diagram-sdk
 control: Installation and Deployment
 documentation: ug
 --- 
