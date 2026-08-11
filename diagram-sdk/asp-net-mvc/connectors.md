@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connectors in ASP.NET MVC Diagram | Syncfusion®
-description: Create connectors in Syncfusion® ASP.NET MVC Diagram with straight, orthogonal, or bezier segments, decorators, ports, bridging, flip, and runtime add or update.
+description: Create connectors in Syncfusion® ASP.NET MVC Diagram with straight, orthogonal, decorators, ports, bridging, flip, and runtime add or update.
 platform: diagram-sdk
 control: Connectors
 documentation: ug
