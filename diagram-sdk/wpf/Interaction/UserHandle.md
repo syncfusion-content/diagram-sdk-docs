@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Quick Command in WPF Diagram control | Syncfusion®
-description: Learn here all about Quick Command support in Syncfusion® WPF Diagram (SfDiagram) control, its elements and more.
+title: Quick Command in WPF SfDiagram | Syncfusion®
+description: Use quick commands in Syncfusion® WPF SfDiagram to perform common actions, create custom commands, and customize their appearance.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Quick Command in WPF Diagram (SfDiagram)
+# Quick Command in WPF SfDiagram
 
-### Define QuickCommand
+## Define QuickCommand
 
 Quick Commands are used to execute the commonly or frequently used commands around the [Nodes](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.NodeViewModel.html), [Connectors](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.ConnectorViewModel.html) and [Groups](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.GroupViewModel.html). There are 3 default Quick Commands for Nodes and Groups to execute Draw, Delete and Duplicate commands.For example, if you select the node then the quick command of the node will get visible.
 
@@ -17,7 +17,7 @@ Quick Commands are used to execute the commonly or frequently used commands arou
 
 ### Define Custom QuickCommand
 
-[WPF Diagram](https://www.syncfusion.com/wpf-controls/diagram) provides support to define custom quick command around the Nodes, Connectors and Groups.
+[WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) provides support to define custom quick command around the Nodes, Connectors and Groups.
 
 {% tabs %}
 
