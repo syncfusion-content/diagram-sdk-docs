@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with WPF Diagram control | Syncfusion®
-description: Learn here about getting started with Syncfusion® WPF Diagram (SfDiagram) control, its elements and more details.
+title: Getting Started with WPF SfDiagram | Syncfusion®
+description: Learn how to get started with the Syncfusion® WPF SfDiagram control. Explore setup, diagram elements, flowchart creation, layouts, themes, and more.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Getting Started with WPF Diagram (SfDiagram)
+# Getting Started with WPF SfDiagram
 
 ## Assembly deployment
 
@@ -17,7 +17,7 @@ You can find more details about installing the NuGet package in a WPF applicatio
 [How to install nuget packages](https://help.syncfusion.com/wpf/installation/install-nuget-packages)
 
 
-The following section helps you to build your application with [WPF Diagram](https://www.syncfusion.com/wpf-controls/diagram).
+The following section helps you to build your application with [WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram).
 
 ## Creating the project
 
@@ -25,7 +25,7 @@ Create a new WPF project using Visual Studio. For more [details](https://learn.m
 
 ### Adding control via Designer
 
-[WPF Diagram](https://www.syncfusion.com/wpf-controls/diagram) (SfDiagram) control can be added to the application by dragging it from Toolbox and dropping it in Designer view. The required assembly references will be added automatically.
+[WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) (SfDiagram) control can be added to the application by dragging it from Toolbox and dropping it in Designer view. The required assembly references will be added automatically.
 
 ![WPF Diagram from Designer](getting-started_images\wpf-diagram-designer.png)
 
@@ -740,7 +740,7 @@ For more information about stencil, please [refer](https://help.syncfusion.com/w
 
 WPF Diagram (SfDiagram) provides support to auto-arrange the nodes in the diagram area that is referred to as a Layout.
 
-#### Business object (employee information)
+### Business object (employee information)
 
 Define employee information as collection of data. The following code example shows the employee information whose, `EmpId` is used as a unique identifier and `ParentId` is used to identify the person to whom an employee reports to, in the organization.
 
@@ -928,6 +928,7 @@ SfDiagram supports various built-in themes. Refer to the links below to apply th
   
 [View Sample in GitHub](https://github.com/SyncfusionExamples/WPF-Diagram-Examples/tree/master/Samples/Theme)
 
+
 ## See Also
 
 [How to create treeview and diagram with editing options in the WPF Diagram?](https://support.syncfusion.com/kb/article/9926/how-to-create-treeview-and-diagram-with-editing-options-in-the-wpf-diagram-sfdiagram)
@@ -936,4 +937,4 @@ SfDiagram supports various built-in themes. Refer to the links below to apply th
 
 [How to Automate Diagram using WinAppDriver](https://support.syncfusion.com/kb/article/15642/how-to-automate-diagram-using-winappdriver)
 
-[How to get the coordinates of the current viewport in WPF Diagram (SfDiagram)?](https://support.syncfusion.com/kb/article/18032/how-to-get-the-coordinates-of-the-current-viewport-in-wpf-diagram-sfdiagram)
+[How to get the coordinates of the current viewport in WPF SfDiagram?](https://support.syncfusion.com/kb/article/18032/how-to-get-the-coordinates-of-the-current-viewport-in-wpf-diagram-sfdiagram)

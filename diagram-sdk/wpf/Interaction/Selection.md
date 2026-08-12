@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Selection in WPF Diagram control | Syncfusion®
-description: Learn here all about Selection support in Syncfusion® WPF Diagram (SfDiagram) control, its elements and more.
+title: Selection in WPF SfDiagram | Syncfusion®
+description: Select diagram elements in Syncfusion® WPF SfDiagram using single, multiple, and programmatic selection with customizable indicators.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Selection in WPF Diagram (SfDiagram)
+# Selection in WPF SfDiagram
 
 [Selector](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Selector.html) provides a visual representation of selected elements. It behaves like a container and enables you to update the size, position, and rotation angle of the selected elements through interaction and programmatically. Single or multiple elements can be selected at a time.
 
-### Single Selection
+## Single Selection
 
 An element can be selected by clicking that element. During single click, all previously selected items are cleared.The following image shows how the selected elements are visually represented.
 
@@ -21,7 +21,7 @@ An element can be selected by clicking that element. During single click, all pr
 
 When a child element of any [Group](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.GroupViewModel.html) is clicked, its contained Group is selected instead of the child element. With consecutive clicks on the selected element, selection is changed from top to bottom in the hierarchy of parent Group to its children.
 
-### Multiple Selection
+## Multiple Selection
 
 Multiple elements can be selected with the following ways.
 
@@ -43,7 +43,7 @@ Multiple selected elements are visually represented as shown.
 
 * [SelectorChangedEvent](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IGraphInfo.html#Syncfusion_UI_Xaml_Diagram_IGraphInfo_SelectorChangedEvent) will notify you the OffsetX, OffsetY, Height, Width, Rotate Angle and interaction state with their old and new values. To explore about arguments, please refer to [SelectorChangedEventArgs](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SelectorChangedEventArgs.html) .
 
-#### Selection mode
+## Selection mode
 
 [SingleSelectionMode](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SfDiagram.html#Syncfusion_UI_Xaml_Diagram_SfDiagram_SingleSelectionMode) and [MultipleSelectionMode](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SfDiagram.html#Syncfusion_UI_Xaml_Diagram_SfDiagram_MultipleSelectionMode) properties of `SfDiagram` allows us to decide which kind of selection need to be handle .To explore about modes, please refer to [SingleSelectionMode](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SingleSelectionMode.html) and [MultipleSelectionMode](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.MultipleSelectionMode.html).
 
