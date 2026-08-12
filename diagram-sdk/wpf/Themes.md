@@ -13,7 +13,7 @@ documentation: ug
 
 To know more about DiagramTheme properties, refer to the [DiagramTheme](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Theming.DiagramTheme.html).
 
-### Built-In Themes
+## Built-In Themes
 
 Built-In themes are predefined themes inherited from DiagramTheme. Each Built-In themes has four variants. Based on the selected theme and variants, the style of the node and connector will be changed. By default, first variant style of the specified Built-In theme will be applied to the Diagram elements.
 
