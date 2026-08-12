@@ -740,7 +740,7 @@ For more information about stencil, please [refer](https://help.syncfusion.com/w
 
 WPF Diagram (SfDiagram) provides support to auto-arrange the nodes in the diagram area that is referred to as a Layout.
 
-#### Business object (employee information)
+### Business object (employee information)
 
 Define employee information as collection of data. The following code example shows the employee information whose, `EmpId` is used as a unique identifier and `ParentId` is used to identify the person to whom an employee reports to, in the organization.
 

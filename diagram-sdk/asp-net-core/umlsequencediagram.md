@@ -4,7 +4,6 @@ title: UML Sequence Diagram in ASP.NET Core Diagram | Syncfusion®
 description: Visualize object interactions in Syncfusion® ASP.NET Core Diagram with UML sequence participants, messages, activation boxes, and fragments.
 platform: diagram-sdk
 control: UmlSequenceDiagram
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
@@ -154,7 +153,7 @@ The following code example illustrates how to create activation boxes.
 
 #### Types of Fragments
 
-The [UmlSequenceFragmentType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.UmlSequenceFragmentType) enum defines the following fragment types:
+The [UmlSequenceFragmentType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.html) enum defines the following fragment types:
 
 | Fragment Type  | Description  | Example  |  
 |---------------|-------------|--------|  
