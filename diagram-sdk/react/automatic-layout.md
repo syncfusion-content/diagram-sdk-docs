@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatic Layout in React Diagram | Syncfusion®
-description: Auto-arrange nodes in the React Diagram with built-in layouts: hierarchical, complex hierarchical, organizational, flowchart, mind map, radial, and symmetric.
+description: Auto-arrange nodes in the React Diagram with built-in layouts such as hierarchical, complex hierarchical, organizational, flowchart, mind map, radial, and symmetric.
 control: Automatic layout 
 platform: diagram-sdk
 documentation: ug
