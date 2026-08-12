@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collaborative Editing in JavaScript Diagram | Syncfusion
-description: Checkout and learn to configure SignalR and Redis for real-time collaborative editing in Syncfusion JavaScript Diagram.
+title: SignalR Hub Configuration in JavaScript Diagram | Syncfusion®
+description: Configure the SignalR client in the Syncfusion® JavaScript Diagram app to connect to a hub and enable real-time collaborative editing.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
@@ -9,7 +9,7 @@ publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# SignalR hub configuration in JavaScript application
+# SignalR Hub Configuration in JavaScript Diagram
 
 ## Overview
 

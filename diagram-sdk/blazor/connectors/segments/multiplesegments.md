@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Multiple Segments in Blazor Diagram Component | Syncfusion®
-description: Check out and learn about how to create connectors with Multiple Segments in the Blazor Diagram component and much more details.
+description: Combine multiple connector segments into a single connector in the Blazor Diagram Component to build complex paths between source and target.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
 # Multiple Segments in Blazor Diagram Component
+
+A segment represents a single line or curve between two points within a connector. By combining multiple segments, connectors can follow complex paths, change direction, or route around obstacles between the source and target points.
 
 ## How to Create Connectors with Multiple Segments
 
@@ -42,13 +44,11 @@ Connectors can include a sequence of segment objects. To create a connector with
                 new OrthogonalSegment
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Right
                 },
                 new OrthogonalSegment
                 {
                     Length = 100,
-                    Type = ConnectorSegmentType.Orthogonal,
                     Direction = Direction.Bottom
                 }
             },
@@ -62,9 +62,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BNhRZRroJwivHxsq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Diagram with Multiple Segment](../../images/blazor-diagram-multiple-segment.webp)" %}
 
-* Similarly, you can create multiple segments for all the connector type.
-
-
+* Similarly, you can create multiple segments for all connector type.
 
 
 ## See also

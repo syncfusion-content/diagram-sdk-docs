@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Umldiagram in ASP.NET MVC Diagram Component
-description: Learn here all about Umldiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: UML Diagram Shapes in ASP.NET MVC Diagram | Syncfusion®
+description: Model object-oriented systems in Syncfusion® ASP.NET MVC Diagram with UML class, interface, enumeration, and connector shapes for static structure.
 platform: diagram-sdk
 control: Umldiagram
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
-# UML Diagram Shapes
+# UML Diagram Shapes in ASP.NET MVC Diagram
 
 ## UML Class Diagram
 
@@ -21,13 +20,13 @@ The UML class diagram shapes are explained as follows.
 
 ### Class
 
-* A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#classshape) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the essential characteristics and behavior that objects belonging to the class will exhibit.
+* A class defines a group of objects that share common specifications, features, constraints, and semantics. To create a class object, the classifier should be defined using the [`class`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassifiershapemodel#classshape) notation. This notation serves as a foundational element in object-oriented programming, encapsulating the essential characteristics and behavior that objects belonging to the class will exhibit.
 
-* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassModel#methods) of the class using the class property of node.
+* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmodel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmodel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmodel#methods) of the class using the class property of node.
 
-* The attribute’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#name), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassAttributeModel#scope) properties allows to define the name, data type, and visibility of the attribute.
+* The attribute’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassattributemodel#name), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassattributemodel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassattributemodel#scope) properties allows to define the name, data type, and visibility of the attribute.
 
-* The method’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#name), [`parameters`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassMethodModel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
+* The method’s [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmethodmodel#name), [`parameters`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmethodmodel#parameters), [`type`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmethodmodel#type), and [`scope`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassmethodmodel#scope) properties allows to define the name, parameter, return type, and visibility of the methods.
 
 * The method parameters object properties allows to define the name and type of the parameter.
 
@@ -58,9 +57,9 @@ The UML class diagram shapes are explained as follows.
 
 ### Interface
 
-* An interface is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the [`interface`](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#interfaceshape) notation. This essential concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
+* An interface is a specific type of classifier that signifies a declaration of a cohesive set of public features and obligations. When creating an interface, it involves defining the classifier property using the [`interface`](https://ej2.syncfusion.com/documentation/api/diagram/umlclassifiershapemodel#interfaceshape) notation. This essential concept in object-oriented programming outlines a contract for classes to adhere to, specifying the required methods and behaviors without delving into the implementation details.
 
-* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlInterfaceModel#methods) of the interface using the interface property of the node.
+* Also, define the [`name`](https://ej2.syncfusion.com/documentation/api/diagram/umlinterfacemodel#name), [`attributes`](https://ej2.syncfusion.com/documentation/api/diagram/umlinterfacemodel#attributes), and [`methods`](https://ej2.syncfusion.com/documentation/api/diagram/umlinterfacemodel#methods) of the interface using the interface property of the node.
 
 * The attribute’s name, type, and scope properties allows to define the name, data type, and visibility of the attribute.
 
@@ -95,7 +94,7 @@ The UML class diagram shapes are explained as follows.
 
 ### Enumeration
 
-* To establish an enumeration, designate the classifier property of the node as [enumeration](https://ej2.syncfusion.com/documentation/api/diagram/umlClassifierShapeModel#enumerationshape). Additionally, define the name and enumerate the members of the enumeration using the appropriate enumeration property of the node. This process encapsulates a set of distinct values within the enumeration, allowing for a clear representation of specific, named constants within a system.
+* To establish an enumeration, designate the classifier property of the node as [enumeration](https://ej2.syncfusion.com/documentation/api/diagram/umlclassifiershapemodel#enumerationshape). Additionally, define the name and enumerate the members of the enumeration using the appropriate enumeration property of the node. This process encapsulates a set of distinct values within the enumeration, allowing for a clear representation of specific, named constants within a system.
 
 * You can set a name for the enumeration members collection using the name property of members collection.
 
@@ -304,7 +303,7 @@ Multiplicity is a definition of an inclusive interval of non-negative integers t
 
 * To set an optionality or cardinality for the connector source label, use optional property.
 
-* The [`lowerBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicityLabelModel#lowerbounds) and [`upperBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicityLabelModel#upperbounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk ‘\*’ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
+* The [`lowerBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicitylabelmodel#lowerbounds) and [`upperBounds`](https://ej2.syncfusion.com/documentation/api/diagram/multiplicitylabelmodel#upperbounds) could be natural constants or constant expressions evaluated to natural (non negative) number. Upper bound could be also specified as asterisk ‘\*’ which denotes unlimited number of elements. Upper bound should be greater than or equal to the lower bound.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -336,7 +335,7 @@ In UML nodes, child elements such as member, method and attribute can be added e
 
 ### Adding UML child through code
 
-The [addChildToUmlNode](https://ej2.syncfusion.com/documentation/api/diagram#addchildtoumlnode) method is employed for dynamically adding a child to the UML node during runtime, providing flexibility in modifying the diagram structure programmatically.
+The [addChildToUmlNode](https://ej2.syncfusion.com/documentation/api/diagram/index-default#addchildtoumlnode) method is employed for dynamically adding a child to the UML node during runtime, providing flexibility in modifying the diagram structure programmatically.
 
 The following code illustrates how to add methods to UML nodes in diagram.
 

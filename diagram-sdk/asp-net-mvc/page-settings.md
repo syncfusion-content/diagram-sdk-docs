@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Page Settings in ASP.NET MVC Diagram Component | Syncfusion®
-description: Learn here all about Page Settings in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: Page Settings in ASP.NET MVC Diagram | Syncfusion®
+description: Customize Syncfusion® ASP.NET MVC Diagram page width, height, orientation, background image, margins, and multiple page or page breaks.
 platform: diagram-sdk
 control: Page Settings
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
-# Page Settings in ASP.NET MVC Diagram Component
+# Page Settings in ASP.NET MVC Diagram
 
 Page settings can customize the appearance, width, and height of the diagram page.
 
@@ -23,7 +22,7 @@ Page settings can customize the appearance, width, and height of the diagram pag
 
 * The [`margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html#Syncfusion_EJ2_Diagrams_DiagramPageSettings_Margin) property is used to define the page margin.
 
-* To explore those properties, refer to [`Page Settings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.htmll).
+* To explore those properties, refer to [`Page Settings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramPageSettings.html).
 
 {% if page.publishingplatform == "aspnet-core" %}
 

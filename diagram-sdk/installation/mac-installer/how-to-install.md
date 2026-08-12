@@ -70,7 +70,7 @@ The steps below show how to install the Syncfusion Diagram SDK Mac installer.
 
 ## License key registration in samples
 
-After the installation, the license key is required to register the demo source included in the Mac installer. For license registration steps, refer to the [Syncfusion licensing documentation](https://help.syncfusion.com/file-formats/licensing/overview).
+After the installation, the license key is required to register the demo source included in the Mac installer. For license registration steps, refer to the [Syncfusion licensing documentation](https://help.syncfusion.com/diagram-sdk/licensing/overview).
 
 * Register the license key in the [Program.cs](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/how-to-register-in-an-application#for-aspnet-core-application-using-net-60) file if you created the ASP.NET Core web application with Visual Studio 2022 and .NET 6.0.
 * Register the license key in Configure method of [Startup.cs](https://ej2.syncfusion.com/aspnetcore/documentation/licensing/how-to-register-in-an-application#for-aspnet-core-application-using-net-50-or-net-31)

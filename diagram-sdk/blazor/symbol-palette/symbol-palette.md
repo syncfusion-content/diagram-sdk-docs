@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Symbol Palette in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Symbol Palette in Blazor Diagram component and much more details.
+description: Drag and drop predefined nodes, connectors, and groups from the Blazor Diagram Component symbol palette onto the diagram canvas.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Symbol Palette in Diagram Component
+# Symbol Palette in Blazor Diagram Component
 
 The [SymbolPalette](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.html) component displays a collection of [Palettes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Palettes), each containing predefined nodes and connectors. This versatile tool enables users to easily drag and drop these elements into the diagram, streamlining the process of creating and modifying diagrams efficiently.
 
@@ -352,7 +352,7 @@ The following example shows how to define a palette.
 }
 ```
 
-The following example illustrates how to add nodes, connectors, nodegroups to the palette and add the palette to the palettes collection of the symbol palette.
+The following example illustrates how to add nodes, connectors, nodegroups to the palette and add the palette to the symbol palette's palettes collection.
 
 ```csharp
 _palettes = new DiagramObjectCollection<Palette>()
@@ -722,7 +722,7 @@ You can download a complete working sample from [GitHub](https://github.com/Sync
 
 ## How to Enable Symbol Search Option in Symbol Palette
 
-The diagram component offers a search functionality within the symbol palette. By utilizing the [ShowSearchTextBox](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_ShowSearchTextBox) property of the palette, you can control the visibility of the search textbox. This feature allows users to quickly locate specific symbols by entering either the symbol ID (e.g., "rectangle") or relevant search keywords into the search field. After inputting the search criteria, clicking the search button will filter and display matching symbols. The search mechanism works by comparing the entered text with the value of each symbol's ID property, ensuring efficient and accurate symbol retrieval within the palette.
+The symbol palette supports searching for symbols by ID or tag. By utilizing the [ShowSearchTextBox](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_ShowSearchTextBox) property of the palette, you can control the visibility of the search textbox. This feature allows users to quickly locate specific symbols by entering either the symbol ID (e.g., "rectangle") or relevant search keywords into the search field. After inputting the search criteria, clicking the search button will filter and display matching symbols. The search mechanism works by comparing the entered text with the value of each symbol's ID property, ensuring efficient and accurate symbol retrieval within the palette.
 
 ```csharp
 @using Syncfusion.Blazor.Diagram

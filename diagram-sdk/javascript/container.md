@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Container in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Container in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Container in JavaScript Diagram | Syncfusion®
+description: Group related shapes inside a visible boundary in the Syncfusion® JavaScript Diagram Container, with header text and dynamic add/remove.
 platform: diagram-sdk
 control: Group 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Container in JavaScript Diagram control
+# Container in JavaScript Diagram
 
 A Container is a group of logically related shapes surrounded by a visible boundary. Shapes can be added or removed from the container at runtime. Changes made to the container do not affect its child elements, which can be individually selected, moved, or edited.
 

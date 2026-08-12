@@ -1,14 +1,14 @@
 ---
 layout: post
-title: BPMN Gateway in Angular Diagram component | Syncfusion®
-description: Learn how to create and configure BPMN gateways in Syncfusion Angular Diagram component to control process flows with various gateway types.
+title: BPMN Gateway in Angular Diagram | Syncfusion®
+description: Add BPMN gateways in the Syncfusion® Angular Diagram to split or merge process flows using exclusive, parallel, inclusive, complex, or event-based types.
 platform: diagram-sdk
 control: Bpmn Gateway 
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Gateway in Angular Diagram Component
+# BPMN Gateway in Angular Diagram
 
 ## Overview
 

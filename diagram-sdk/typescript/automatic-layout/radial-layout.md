@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Radial tree layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Radial Tree in TypeScript Diagram | Syncfusion®
+description: Lay out TypeScript Diagram nodes in concentric rings around a central root, with horizontal and vertical spacing per ring.
 platform: diagram-sdk
 control: Radial tree 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Radial tree layout in TypeScript Diagram control
+# Radial Tree in TypeScript Diagram
 
 A Radial tree layout is a diagram that presents information in a hierarchical structure, with a central node at the core of the diagram. The central node represents the main concept or topic, and branches extend outward in a radial fashion, creating a tree-like structure. The layout [`root`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#root) property can be used to define the root node of the layout. When no root node is set, the algorithm automatically considers the node without any incoming edges (InEdges connector count of 0) as the root node. To create radial tree, the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) of the layout as `RadialTree`.
 

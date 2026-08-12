@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Overview in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Overview in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Overview in JavaScript Diagram | Syncfusion®
+description: Show a navigable preview of the entire Syncfusion® JavaScript Diagram with the Overview control, including viewport rectangle and pan/zoom support.
 platform: diagram-sdk
 control: Overview 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Overview in JavaScript Diagram control
+# Overview in JavaScript Diagram
 
 The Overview control allows you to see a preview or an overall view of the entire content of a diagram. This helps you to grasp the overall picture of a large diagram and navigate, pan, or zoom to a specific position on the page.
 

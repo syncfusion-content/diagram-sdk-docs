@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Context menu in React Diagram Component | Syncfusion®
-description: Learn here all about Context menu in Syncfusion® React Diagram Component of Syncfusion Essential® JS 2 and more.
+title: Context Menu in React Diagram | Syncfusion®
+description: Customize the React Diagram right-click context menu with built-in commands, custom items, and nested submenus through menu settings configuration.
 control: Context menu 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Context Menu in React Diagram Component
+# Context Menu in React Diagram
 
 <!-- markdownlint-disable MD010 -->
 

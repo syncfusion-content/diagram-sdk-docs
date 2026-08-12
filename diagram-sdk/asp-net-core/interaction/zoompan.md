@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Zoom pan in Syncfusion® ASP.NET Core Diagram Component
-description: Learn here all about Zoompan in Syncfusion® ASP.NET Core Diagram component of Syncfusion Essential® JS 2 and more.
+title: Zoom Pan in ASP.NET Core Diagram | Syncfusion®
+description: Zoom and pan large Syncfusion® ASP.NET Core Diagram canvases, and track the pan status of the tool as start, in progress, or completed.
 platform: diagram-sdk
 control: Zoompan
 publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Zoom pan in diagram control
+# Zoom Pan in ASP.NET Core Diagram
 * When a large diagram is loaded, only certain portion of the diagram is visible. The remaining portions are clipped. Clipped portions can be explored by scrolling the scrollbars or panning the diagram.
 * Diagram can be zoomed in or out by using Ctrl + mouse wheel.
 * When the diagram is zoomed or panned, the [`scrollChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange) event gets triggered.

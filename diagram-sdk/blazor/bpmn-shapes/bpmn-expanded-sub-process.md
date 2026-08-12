@@ -1,15 +1,15 @@
 ---
 layout: post
-title: BPMN Expanded Sub-Process in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create and update the BPMN Expanded Sub-Process in Blazor Diagram component and more.
+title: BPMN Expanded Sub Process in Blazor Diagram Component | Syncfusion®
+description: Group Blazor Diagram Component BPMN activities inside an Expanded Sub-Process with loop, compensation, and ad-hoc variants.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Expanded Sub-Process in Blazor Diagram Component
+# BPMN Expanded Sub Process in Blazor Diagram Component
 
-An `[BpmnExpandedSubProcess](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html) is used to frame a part of the diagram, shows that elements included in it logically belong together, and has no other semantics other than organizing elements. It is represented by a rounded rectangle.
+A [`BpmnExpandedSubProcess`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html) is used to frame a part of the diagram, groups related elements visually without implying any additional process semantics. It is represented by a rounded rectangle.
 
 ## How to Create an Expanded Sub-Process
 To create an Expanded Sub-Process, define the `Shape` property of the node as `BpmnExpandedSubProcess` and enable `AllowDrop` constraint of the node.
@@ -55,9 +55,9 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add BPMN Nodes into a BPMN Expanded Sub-Process
 
-To add a BPMN node into [BpmnExpandedSubProcess](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html), define the BPMN node object and add it to the [Children](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_Children) collection of the `BpmnExpandedSubProcess`.
+To add a BPMN node into a BPMN Expanded Sub-Process, define the BPMN node object and add it to the [Children](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_Children) collection of the `BpmnExpandedSubProcess`.
 
-The following code example explains how to add a BPMN node to an BPMN Expanded Sub-Process using the `Children` property.
+The following code example explains how to add a BPMN node to a BPMN Expanded Sub-Process using the `Children` property.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -105,23 +105,23 @@ The following code example explains how to add a BPMN node to an BPMN Expanded S
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/BpmnEditor/BpmnExpandedSubProcess/AddChildren.razor)
 
 
-![ExpandedSubProcess BPMN Shape](../images/Bpmn-ExpandedSubProcess-WithChildren.webp)
+![BPMN Expanded Sub-Process with child nodes](../images/Bpmn-ExpandedSubProcess-WithChildren.webp)
 
 
 ## How to Add BPMN Nodes into BPMN Expanded Sub-Process at Runtime
 
-* Drag and drop the BPMN nodes to the BPMN ExpandedSubProcess.
+* Drag and drop the BPMN nodes to the BPMN Expanded Sub-Process.
 
-While resizing or dragging the child element, if the child element bounds are within the ExpandedSubProcess bounds, the ExpandedSubProcess size will be updated along with that.
+While resizing or dragging the child element, if the child element bounds are within the BPMN Expanded Sub-Process bounds, the BPMN Expanded Sub-Process size will be updated along with that.
 
-The following image shows how to add BPMN node into the BPMN ExpandedSubProcess at runtime.
+The following image shows how to add a BPMN node into the BPMN Expanded Sub-Process at runtime.
 
-![BPMN Expanded Sub-Process](../images/Bpmn-ExpandedSubProcess1.webp)
+![Adding BPMN nodes into a BPMN Expanded Sub-Process at runtime](../images/Bpmn-ExpandedSubProcess1.webp)
 
 
 ### How to Set Loop Type
 
- The [Loop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_Loop) property in the `BpmnExpandedSubProcess` component defines the type of loop behavior for a task that is internally repeated. By default, the `Loop` property is set to **None**.
+ The [Loop](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_Loop) property in the `BpmnExpandedSubProcess` component defines the type of loop behavior for a task that is internally repeated within a BPMN Expanded Sub-Process. By default, the `Loop` property is set to **None**.
  The `Loop` property can be configured within the `BpmnExpandedSubProcess` component, as demonstrated in the following example.
 
 ```cshtml
@@ -148,7 +148,7 @@ The following image shows how to add BPMN node into the BPMN ExpandedSubProcess 
             Height = 100,
             // Unique Id of the node.
             ID = "node1",
-            // Defines the shape to Bpmn ExpandedSubProcess.
+            // Defines the shape to a BPMN Expanded Sub-Process.
             Shape = new BpmnExpandedSubProcess()
             {
                 Loop = BpmnLoopCharacteristic.Standard,
@@ -162,9 +162,9 @@ The following image shows how to add BPMN node into the BPMN ExpandedSubProcess 
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/BpmnEditor/BpmnExpandedSubProcess/ExpandedSubProcessLoop.razor)
 
-![Standard ExpandedSubProcess BPMN Shape](../images/Bpmn-Task-Loop-Standard.webp)  
+![BPMN Expanded Sub-Process with Standard loop marker](../images/Bpmn-Task-Loop-Standard.webp)  
 
-The following table describes the available loop types for an Expanded Sub-Process.
+The following table describes the available loop types for a BPMN Expanded Sub-Process.
 
 
 | LoopActivity | Task | Description|
@@ -176,7 +176,7 @@ The following table describes the available loop types for an Expanded Sub-Proce
 
 ### How to Enable Compensation
 
-[IsCompensation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_IsCompensation) is triggered when the operation is partially failed and can be enabled with the `IsCompensation` property of the `BpmnExpandedSubProcess`. By default, the `IsCompensation` is set to **false**.
+[IsCompensation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_IsCompensation) is triggered when the operation partially fails and can be enabled with the `IsCompensation` property of the `BpmnExpandedSubProcess`. By default, the `IsCompensation` is set to **false**.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -202,7 +202,7 @@ The following table describes the available loop types for an Expanded Sub-Proce
             Height = 100,
             // Unique id of the node.
             ID = "node1",
-            // Defines the shape to Bpmn ExpandedSubProcess.
+            // Defines the shape to a BPMN Expanded Sub-Process.
             Shape = new BpmnExpandedSubProcess()
             {
                 IsCompensation = true,
@@ -247,7 +247,7 @@ An Ad-Hoc Expanded Sub-Process is a group of tasks that are executed in any orde
             Height = 100,
             // Unique id of the node.
             ID = "node1",
-            // Defines shape to Bpmn ExpandedSubProcess
+            // Defines shape to a BPMN Expanded Sub-Process.
             Shape = new BpmnExpandedSubProcess()
             {
                 IsAdhoc = true,
@@ -266,7 +266,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Set Sub-Process Type
 
-The [SubProcessType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_SubProcessType) represents the type of task being processed within a BPMN expanded subprocess. The `SubProcessType` property of the `BpmnExpandedSubProcess` component allows specification of the subprocess type. By default, it is set to **Default**.
+The [SubProcessType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnExpandedSubProcess.html#Syncfusion_Blazor_Diagram_BpmnExpandedSubProcess_SubProcessType) represents the type of task being processed within a BPMN Expanded Sub-Process. The `SubProcessType` property of the `BpmnExpandedSubProcess` component allows specification of the sub-process type. By default, it is set to **Default**.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -292,7 +292,7 @@ The [SubProcessType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Dia
             Height = 100,
             // Unique Id of the node.
             ID = "node1",
-            // Sets shape to Bpmn ExpandedSubProcess.
+            // Sets shape to a BPMN Expanded Sub-Process.
             Shape = new BpmnExpandedSubProcess()
             {
                 SubProcessType = BpmnSubProcessType.Event
@@ -314,6 +314,6 @@ The following table describes the available sub-process types.
 | -------- | -------- | -------- |
 | [Call](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Call) | ![Call Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-Call.webp) |It is a global sub-process that is reused at various points in the business flow.|
 | [Event](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Event) | ![Event Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-Event.webp) |The event sub-process is a sub-process that is triggered by an event. An event sub-process can be added at the process level or at any sub-process level.|
-| [Transaction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Transaction) | ![Default Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-Transaction.webp) |It is a specialized sub-process that involves payment.|
-| [Default](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Default) | ![Default Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-None.webp) |The task that is performed in a business process. It is represented by a rounded rectangle.|
+| [Transaction](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Transaction) | ![Default Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-Transaction.webp) |A specialized sub-process where all activities must be completed successfully or compensated/canceled.|
+| [Default](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnSubProcessType.html#Syncfusion_Blazor_Diagram_BpmnSubProcessType_Default) | ![Default Boundary BPMN Shape](../images/Bpmn-ExpandedSub-Process-None.webp) |A standard expanded sub-process with no special semantics, represented by a rounded rectangle.|
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Commands in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Commands in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Commands in JavaScript Diagram | Syncfusion®
+description: Run alignment, distribute, sizing, clipboard, grouping, z-order, zoom, nudge, fitToPage, and undo/redo commands in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Commands 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Commands in JavaScript Diagram control
+# Commands in JavaScript Diagram
 
 <!-- markdownlint-disable MD010 -->
 

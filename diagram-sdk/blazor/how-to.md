@@ -1,19 +1,19 @@
 ---
 layout: post
-title: How to Use Diagram Methods and Properties | Syncfusion®
-description: Checkout and learn here all about how to achieve common use cases in Blazor Diagram component, it's elements and more.
+title: How-To Guides in Blazor Diagram Component | Syncfusion®
+description: Learn how to perform common tasks in the Blazor Diagram Component, including adding nodes, measuring elements, and loading data using methods and properties.
 platform: diagram-sdk
 control: DiagramComponent
 documentation: ug
 ---
 
-# How to Use Diagram Methods and Properties for Common Scenarios
+# How-To Guides in Blazor Diagram Component
 
 The diagram's core functionalities are implemented through a comprehensive set of methods and properties, enabling robust manipulation and interaction with diagram elements.
 
 ## How to Add Nodes Using the Add Method
 
-Create a node in a Blazor diagram, define a Node object and add it to the diagram's nodes collection using the `Add` method. It's crucial to call the `Add` method within the `OnInitialized` lifecycle method. This approach ensures that each diagram element is properly measured and rendered individually before the entire diagram is displayed. Attempting to use the `Add` method outside of `OnInitialized` is not recommended, as it may lead to unexpected behavior or rendering issues in the diagram. The following code example shows how to add a node to the diagram.
+Create a node in a Blazor diagram, define a Node object and add it to the diagram's nodes collection using the `Add` method. Call the `Add` method within the `OnInitialized` lifecycle method. This approach ensures that each diagram element is properly measured and rendered individually before the entire diagram is displayed. Attempting to use the `Add` method outside of `OnInitialized` is not recommended, as it may lead to unexpected behavior or rendering issues in the diagram. The following code example shows how to add a node to the diagram.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -54,7 +54,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Nodes Using the AddDiagramElementsAsync Method
 
-The [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method offers advantages over the Add() method. It measures the passed elements before re-rendering the entire diagram component at once. When using the Add() method to add multiple nodes and connectors simultaneously, connectors may render before nodes, potentially leading to misplacement due to the method's synchronous nature. To avoid this issue and ensure proper positioning, use the asynchronous AddDiagramElementsAsync() method.
+The [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method offers advantages over the Add() method. It measures the passed elements before re-rendering the entire diagram component at once. When using the Add() method to add multiple nodes and connectors simultaneously, connectors may render before their nodes, which can cause incorrect positioning due to the method's synchronous nature. To avoid this issue and ensure proper positioning, use the asynchronous AddDiagramElementsAsync() method.
 
 * The AddDiagramElementsAsync() method is the recommended approach for adding multiple items to the diagram. It provides superior performance compared to the Add() method, especially when dealing with a collection of elements.
 
@@ -338,7 +338,7 @@ The [Delete](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfD
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/Delete.razor)
 
 ## How to Reset Diagram Zoom Level
-The [ResetZoom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_ResetZoom) method restores the current zoom level of the diagram page to its default value of **100%**. This method is particularly useful when the diagram is in a zoomed-in or zoomed-out state, allowing users to quickly return to the standard view. The following code example demonstrates how to implement the ResetZoom method to restore the diagram's default zoom level.
+The [ResetZoom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_ResetZoom) method restores the current zoom level of the diagram page to its default value of **100%**. This method is particularly useful when the diagram is zoomed, allowing users to quickly return to the standard view. The following code example demonstrates how to implement the ResetZoom method to restore the diagram's default zoom level.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -1551,6 +1551,7 @@ The [GetCustomTool](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diag
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/ZoomAndPan.razor)
 
 ## How to Refresh the Data Source
+
 The [RefreshDataSourceAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_RefreshDataSourceAsync) method dynamically updates the diagram layout to reflect any changes made to the underlying data source. This ensures that the visual representation remains synchronized with the most current data.
 
 ```cshtml
@@ -1614,7 +1615,7 @@ The [RefreshDataSourceAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Bl
         new MindMapDetails() { Id= "8", Label= "Individual", ParentId ="3", Branch = "subRight" },
         new MindMapDetails() { Id= "9", Label= "Teams", ParentId ="3", Branch = "subRight" },
         new MindMapDetails() { Id= "10", Label= "Ideas", ParentId ="5", Branch = "subRight" },
-        new MindMapDetails() { Id= "11", Label= "Engagement", ParentId ="5", Branch = "subRight" },
+        new MindMapDetails() { Id= "11", Label= "Engagement", ParentId ="5", Branch = "subRight" }
     };
     private async Task RefreshDataSourceAsync()
     {
@@ -1624,10 +1625,10 @@ The [RefreshDataSourceAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Bl
             new MindMapDetails() { Id= "2",  Label="Brainstorming", ParentId ="1", Branch = "Right" },
             new MindMapDetails() { Id= "3",  Label="Complementing", ParentId ="1", Branch = "Left" },
             new MindMapDetails() { Id= "4",  Label="Sessions", ParentId ="2", Branch = "subRight" },
-            new MindMapDetails() { Id= "5",  Label="Complementing", ParentId ="2", Branch = "subRight" },
-            };
-            await _diagram.RefreshDataSourceAsync();
-        }
+            new MindMapDetails() { Id= "5",  Label="Complementing", ParentId ="2", Branch = "subRight" }
+        };
+        await _diagram.RefreshDataSourceAsync();
+    }
 }
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VDVHXxBaeLcEnnuZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

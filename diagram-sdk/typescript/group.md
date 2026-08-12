@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Group in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Group in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Group in TypeScript Diagram | Syncfusion®
+description: Cluster multiple nodes and connectors into a single group in the Syncfusion® TypeScript Diagram, edit children individually or together.
 platform: diagram-sdk
 control: Group 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Group in TypeScript Diagram control
+# Group in TypeScript Diagram
 
 ## Create group
 

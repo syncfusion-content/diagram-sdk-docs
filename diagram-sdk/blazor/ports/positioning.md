@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Positioning a Port in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about Port positioning in Blazor Diagram component and much more details.
+title: Port Positioning in Blazor Diagram Component | Syncfusion®
+description: Position Blazor Diagram Component ports with offset, horizontal, vertical alignment, and margin for precise connection points.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Positioning a Port in Diagram Component
+# Port Positioning in Blazor Diagram Component
 
 Customize the position and appearance of the port efficiently. Ports can be aligned relative to node boundaries. It has Margin, Offset, Horizontal, and Vertical alignment settings. It is quite tricky when all four alignments are used together but gives more control over alignments properties of the [PointPort](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PointPort.html) class. Ports of a node can be positioned using the following properties of `PointPort`.
 
@@ -16,7 +16,7 @@ Customize the position and appearance of the port efficiently. Ports can be alig
 * VerticalAlignment
 * Margin
 
-## How to Change Offset at Runtime
+## How to Set Offset for Port
 
 Use [Offset](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PointPort.html#Syncfusion_Blazor_Diagram_PointPort_Offset) to place a port using fractional values relative to the node: **0** represents the top/left, **1** represents the bottom/right, and **0.5** represents the center along each axis.
 
@@ -67,6 +67,55 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LDhRNxrxpfVbzAaG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Port positioned using Offset values in Blazor Diagram](../images/blazor-diagram-port-offset.webp)" %}
 
+## How to Update Port Offset at Runtime
+
+The `Offset` of a port can be changed at runtime by reassigning the [Offset](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PointPort.html#Syncfusion_Blazor_Diagram_PointPort_Offset).
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Move Port" OnClick="@MovePort" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
+
+    protected override void OnInitialized()
+    {
+        _nodes.Add(new Node()
+        {
+            ID = "node",
+            Width = 100,
+            Height = 100,
+            OffsetX = 250,
+            OffsetY = 250,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" },
+            Ports = new DiagramObjectCollection<PointPort>()
+            {
+                new PointPort()
+                {
+                    ID = "port1",
+                    Offset = new DiagramPoint() { X = 0, Y = 0.5 },
+                    Visibility = PortVisibility.Visible,
+                    Style = new ShapeStyle() { Fill = "gray", StrokeColor = "black" },
+                    Width = 12,
+                    Height = 12,
+                    Shape = PortShapes.Square
+                }
+            }
+        });
+    }
+
+    private void MovePort()
+    {
+        _diagram.Nodes[0].Ports[0].Offset = new DiagramPoint() { X = 1, Y = 0.5 };
+    }
+}
+```
+
 The following table shows the relationship between the shape port position and path port offset (fraction values).
 
 | Offset values | Output |
@@ -83,7 +132,7 @@ The following table shows the relationship between the shape port position and p
 
 ## How to Set Path Position for Connector Port
 
-Use the `PathPosition` property to place a connector port along the connector path. It accepts values between **0 to 1**, where:
+Use the [PathPosition](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ConnectorPort.html#Syncfusion_Blazor_Diagram_ConnectorPort_PathPosition) property to place a connector port along the connector path. It accepts values between **0 to 1**, where:
 
 * **0** represents the start point of the connector
 * **1** represents the end point of the connector
@@ -263,6 +312,58 @@ N> The default values for `HorizontalAlignment` and `VerticalAlignment` are `Cen
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Ports/Positioning/PortMargin.razor)
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BXBnZHVnTzyADtAa?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Diagram Port with Margin](../images/blazor-diagram-port-margin.webp)" %}
+
+## How to Update Port Margin at Runtime
+
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Port.html#Syncfusion_Blazor_Diagram_Port_Margin) of a port can be changed at runtime by reassigning the property.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Update Margin" OnClick="@UpdateMargin" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
+
+    protected override void OnInitialized()
+    {
+        _nodes.Add(new Node()
+        {
+            ID = "node",
+            Width = 100,
+            Height = 100,
+            OffsetX = 250,
+            OffsetY = 250,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" },
+            Ports = new DiagramObjectCollection<PointPort>()
+            {
+                new PointPort()
+                {
+                    ID = "port1",
+                    Offset = new DiagramPoint() { X = 0.5, Y = 1 },
+                    Visibility = PortVisibility.Visible,
+                    Style = new ShapeStyle() { Fill = "gray", StrokeColor = "black" },
+                    Width = 12,
+                    Height = 12,
+                    Shape = PortShapes.Square,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    VerticalAlignment = VerticalAlignment.Top,
+                    Margin = new DiagramThickness() { Top = 20 }
+                }
+            }
+        });
+    }
+
+    private async Task UpdateMargin()
+    {
+        _diagram.Nodes[0].Ports[0].Margin = new DiagramThickness() { Top = 50, Left = 20 };
+    }
+}
+```
 
 ## See also
 

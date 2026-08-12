@@ -1,14 +1,13 @@
 ---
 layout: post
-title: UmlSequenceDiagram in Syncfusion® ASP.NET MVC Diagram Component
-description: Learn here all about UmlSequenceDiagram in Syncfusion® ASP.NET MVC Diagram component of Syncfusion Essential® JS 2 and more.
+title: UML Sequence Diagram in ASP.NET MVC Diagram | Syncfusion®
+description: Visualize object interactions in Syncfusion® ASP.NET MVC Diagram with UML sequence participants, messages, activation boxes, and fragments.
 platform: diagram-sdk
 control: UmlSequenceDiagram
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# UML Sequence Diagram Model in Diagram
+# UML Sequence Diagram in ASP.NET MVC Diagram
 
 A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the `UmlSequenceDiagramModel`. To enable this functionality, assign the `UmlSequenceDiagramModel` to the `Model` property of the diagram control.
 
@@ -154,7 +153,7 @@ The following code example illustrates how to create activation boxes.
 
 #### Types of Fragments
 
-The [UmlSequenceFragmentType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.UmlSequenceFragmentType) enum defines the following fragment types:
+The `UmlSequenceFragmentType` enum defines the following fragment types:
 
 | Fragment Type  | Description  | Example  |  
 |---------------|-------------|--------|  

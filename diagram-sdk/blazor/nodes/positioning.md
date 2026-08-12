@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Positioning a Node in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about Node Positioning in Blazor Diagram component and much more details.
+description: Position Blazor Diagram Component nodes with OffsetX, OffsetY, and Pivot to anchor them by center, top-left, or bottom-right corner.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Positioning a Node in Diagram Component
+# Positioning a Node in Blazor Diagram Component
 
 ## How to Arrange Nodes
 
@@ -29,7 +29,6 @@ The following code shows how to change the pivot value.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using System.Collections.ObjectModel
 
 <SfDiagramComponent Height="600px" @ref="@_diagram" Nodes="@_nodes" />
 
@@ -76,6 +75,48 @@ The following code shows how to change the pivot value.
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Position/Positioning.razor)
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VDhHZdVyfVjvvKiv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Positioning a node using pivot and offsets in Blazor Diagram](../images/blazor-diagram-node-position.webp)" %}
+
+### How to Update Node Position at Runtime
+
+The `OffsetX` and `OffsetY` properties can be updated at runtime. The following code shows how to change the offset value at run time.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Move Node" OnClick="@MoveNode" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+        _nodes.Add(new Node()
+        {
+            ID = "node",
+            Width = 100,
+            Height = 100,
+            OffsetX = 250,
+            OffsetY = 250,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+    }
+
+    private async Task MoveNode()
+    {
+        _diagram.BeginUpdate();
+        _diagram.Nodes[0].OffsetX += 50;
+        _diagram.Nodes[0].OffsetY += 50;
+        await _diagram.EndUpdateAsync();
+    }
+}
+```
+
+### How to Rotate a Node Using RotationAngle
 
 Rotation of a node is controlled by the [RotationAngle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_RotationAngle) property. The following code shows how to change the `RotationAngle` value.
 

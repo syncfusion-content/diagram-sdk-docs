@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data binding in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Data binding in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Data Binding in JavaScript Diagram | Syncfusion®
+description: Bind external data to the Syncfusion® JavaScript Diagram with Data Manager, id, parentId, root, and doBinding to populate nodes and connectors.
 platform: diagram-sdk
 control: Data binding 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Data binding in JavaScript Diagram control
+# Data Binding in JavaScript Diagram
 
 Its Essential<sup style="font-size:70%">&reg;</sup> for binding external data to the diagram, enabling dynamic creation of nodes and connectors based on the provided data. Here's a detailed explanation of the key properties and their usage:
 

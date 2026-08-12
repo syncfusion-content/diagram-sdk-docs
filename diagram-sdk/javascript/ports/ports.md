@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Ports in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Port in JavaScript Diagram | Syncfusion®
+description: Glue connectors to specific connection points on a node with ports in the Syncfusion® JavaScript Diagram, supporting node-to-node and port-to-port links.
 platform: diagram-sdk
 control: Ports 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Ports in JavaScript Diagram control
+# Port in JavaScript Diagram
 
 Port is a special connection point in a Node where you can glue the connectors. When you glue a connector to a node or port, they remain connected even if one of the nodes is moved.
 

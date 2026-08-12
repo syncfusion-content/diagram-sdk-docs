@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Constraints in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all about diagram Constraints in Blazor Diagram component and much more details.
+description: Toggle Blazor Diagram Component behaviors for diagrams, nodes, connectors, ports, and selectors using bitwise flag constraints.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Constraints in Diagram Component
+# Constraints in Blazor Diagram Component
 
 Constraints are used to enable or disable specific behaviors of the diagram, nodes, and connectors. Constraints are provided as flagged enumerations, so multiple behaviors can be enabled or disabled using bitwise operators `(&, |, ~, <<, etc.)`.
 
@@ -128,7 +128,7 @@ The [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagra
 |[ResizeEast](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeEast)|Enable or disable to resize East side of the node.|
 |[ResizeSouthEast](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeSouthEast)|Enable or disable to resize SouthEast side of the node.|
 |[ResizeSouth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeSouth)|Enable or disable to resize South side of the node.|
-|[ResizeSouthWest](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeSouthWast)|Enable or disable to resize SouthWest side of the node.|
+|[ResizeSouthWest](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeSouthWest)|Enable or disable to resize SouthWest side of the node.|
 |[ResizeWest](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeWest)|Enable or disable to resize West side of the node.|
 |[ResizeNorthWest](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeNorthWest)|Enable or disable to resize NorthWest side of the node.|
 |[ResizeNorth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeConstraints.html#Syncfusion_Blazor_Diagram_NodeConstraints_ResizeNorth)|Enable or disable to resize North side of the node.|
@@ -484,7 +484,7 @@ Selector visually represents the selected elements with certain editable thumbs.
 |[ResizeEast](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_ResizeEast)|Shows or hides the middle right resize handle of the selector.|
 |[ResizeWest](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_ResizeWest)|Shows or hides the middle left resize handle of the selector.|
 |[ResizeSouth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_ResizeSouth)|Shows or hides the bottom center resize handle of the selector.|
-|[ResizeNorth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_ResizeNorth[)|Shows or hides the top center resize handle of the selector.|
+|[ResizeNorth](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_ResizeNorth)|Shows or hides the top center resize handle of the selector.|
 |[Rotate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_Rotate)|Shows or hides the rotate handle of the selector.|
 |[UserHandle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_UserHandle)|Shows or hides the user handles of the selector.|
 |[Tooltip](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_Tooltip)| Shows or hides the tooltip for the drag, resize, and rotate operation of nodes and connectors. |
@@ -593,7 +593,7 @@ The following code example shows how to disable the userhandle functionality for
 
 ```csharp
 //Enable userhandle constraint for the selected item.
-selectedItems.Constraints = SelectorConstraints.All &~ SelectorConstraints.UserHandle;
+_selection.Constraints = SelectorConstraints.All &~ SelectorConstraints.UserHandle;
 ```
 
 For more information about selector constraints, refer to [SelectorConstraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html).

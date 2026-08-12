@@ -1,14 +1,14 @@
 ---
 layout: post
-title: BPMN Events in React Diagram Component | Syncfusion®
-description: Learn about BPMN event shapes including start, intermediate, and end events with triggers in Syncfusion® React Diagram Component.
+title: BPMN Events in React Diagram | Syncfusion®
+description: Add Start, Intermediate, and End BPMN events to the React Diagram with NonInterrupting and Throwing variants to model process flow triggers.
 control: Bpmn Events 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Event in React Diagram Component
+# BPMN Events in React Diagram
 
 ## Overview
 

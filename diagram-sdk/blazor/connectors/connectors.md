@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Actions of Connectors in Diagram Component | Syncfusion®
-description: Checkout and learn here all about actions of connectors in Blazor Diagram component and much more details.
+title: Connectors in Blazor Diagram Component | Syncfusion®
+description: Link Blazor Diagram Component nodes, points, and ports with connectors whose path is defined by straight, orthogonal, or Bezier segments.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Connector in Diagram Component
+# Connectors in Blazor Diagram Component
 
 Connectors create links between points, nodes or ports to represent the relationships between them.
 
@@ -34,9 +34,9 @@ The following code example illustrates how to add a connector through the connec
 
 @code
 {
-    private SnapConstraints _snapConstraints  = SnapConstraints.None;
-    //Defines diagram's connector collection.
-    private DiagramObjectCollection<Connector> _connectors  = new DiagramObjectCollection<Connector>();
+    private SnapConstraints _snapConstraints = SnapConstraints.None;
+    // Defines diagram's connector collection.
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
     protected override void OnInitialized()
     {
@@ -46,7 +46,7 @@ The following code example illustrates how to add a connector through the connec
             // Set the source and target point of the connector.
             SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
             TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
-            // Type of the connector segments.
+            // Type of the connector.
             Type = ConnectorSegmentType.Straight
         };
         _connectors .Add(connector);
@@ -74,7 +74,7 @@ Add a connector at runtime by adding it to the connectors collection in the Diag
 
 @code
 {
-    //Defines diagram's connector collection.
+    // Defines diagram's connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
     protected override void OnInitialized()
@@ -98,7 +98,7 @@ Add a connector at runtime by adding it to the connectors collection in the Diag
             TargetPoint = new DiagramPoint() { X = 400, Y = 400 },
             Type = ConnectorSegmentType.Straight
         };
-        //Add the connector at the runtime.
+        // Add the connector at the runtime.
         _connectors.Add(newConnector);
     }
 }
@@ -113,12 +113,11 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 @using Syncfusion.Blazor.Diagram
 @using System.Collections.ObjectModel
 @using Syncfusion.Blazor.Buttons
-@inject IJSRuntime js
 
 <SfButton Content="Clone Connector" OnClick="@CloneConnectors" />
 <SfDiagramComponent @ref="_diagram" Width="50%" Height="500px" @bind-Connectors="@_connectors"></SfDiagramComponent>
 
-@functions
+@code
 {
     private SfDiagramComponent _diagram;
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
@@ -170,7 +169,7 @@ The following code explains how to add a connector with annotation  at runtime b
 {
     private SfDiagramComponent _diagram;
 
-    //Defines diagram's connector collection.
+    // Defines diagram's connector collection.
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
     private DiagramObjectCollection<NodeBase> _connectorCollection = new DiagramObjectCollection<NodeBase>();
@@ -187,7 +186,7 @@ The following code explains how to add a connector with annotation  at runtime b
         _connectors.Add(connector);
     }
 
-    private async void AddConnector()
+    private async Task AddConnector()
     {
         Connector newConnector = new Connector()
         { 
@@ -229,7 +228,7 @@ Connectors can be predefined and added to the symbol palette. Then, drag and dro
 {
     private SfSymbolPaletteComponent _paletteInstance;
     private SfDiagramComponent _diagramInstance;
-    //Defines Symbol palette's PaletteConnector collection.
+    // Defines Symbol palette's PaletteConnector collection.
     private DiagramObjectCollection<NodeBase> _paletteConnector = new DiagramObjectCollection<NodeBase>();
     private DiagramObjectCollection<Palette> _palettes = new DiagramObjectCollection<Palette>();
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
@@ -299,133 +298,32 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 Connectors can be interactively drawn by clicking and dragging on the diagram surface by using the [DrawingObject](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_DrawingObject).
 
-![Drawing a Connector interactively in Blazor Diagram](../images/blazor-diagram-draw-connector.webp)
-
-## How to Remove Connectors at Runtime
-
-Remove a connector from the diagram at runtime by using the `Remove` method.
-
-The following code shows how to remove a connector at runtime.
+The following code example illustrates how to draw a connector at runtime using the `DrawingObject` property.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
-@using Syncfusion.Blazor.Buttons
 
-<SfButton Content="Remove Connector" OnClick="@RemoveConnector" />
-<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors">
-    <SnapSettings Constraints="@_snapConstraints"></SnapSettings>
-</SfDiagramComponent>
-
-@code
-{
-    //Defines snap consttraints
-    private SnapConstraints _snapConstraints = SnapConstraints.None;
-    //Defines diagram's connector collection
-    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
-    
-    protected override void OnInitialized()
-    {
-        Connector connector = new Connector()
-        {
-            ID = "connector1",
-            // Set the source and target point of the connector
-            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
-            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
-            TargetDecorator = new DecoratorSettings()
-            {
-                Shape = DecoratorShape.Arrow,
-                // Style of the connector segment
-                Style = new ShapeStyle() { Fill = "#6f409f", StrokeColor = "#6f409f", StrokeWidth = 1 }
-            },
-            Style = new ShapeStyle() { StrokeColor = "#6f409f", StrokeWidth = 1 },
-            // Type of the connector
-            Type = ConnectorSegmentType.Straight,
-        };
-        _connectors.Add(connector);
-    }
-
-    private void RemoveConnector()
-    {
-        // Remove connector at runtime
-        _connectors.Remove(_connectors[0]);
-    }
-}
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBnXnhkpCltupeN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveConnectorsAtRunTime.razor)
-
-A connector can also be removed from the diagram by using the native `RemoveAt` method. Refer to the following example that shows how to remove the connector at runtime.
-
-```cshtml
-public void RemoveConnector()
-{
-    connectors.RemoveAt(0);
-}
-```
-
-## How to Update Connector Properties at Runtime
-
-Connector properties can be changed at runtime.
-
-The following code example explains how to change the connector properties.
-
-```cshtml
-@using Syncfusion.Blazor.Diagram
-@using Syncfusion.Blazor.Buttons
-
-<SfButton Content="Update Connector" OnClick="@UpdateConnector" />
-<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Connectors="@_connectors">
-    <SnapSettings Constraints="@_snapConstraints"></SnapSettings>
-</SfDiagramComponent>
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" />
 
 @code {
-    //Reference the diagram
     private SfDiagramComponent _diagram;
-    //Defines the snap constraints
-    private SnapConstraints _snapConstraints = SnapConstraints.None;
-    //Defines diagram's connector collection
-    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
 
-    protected override void OnInitialized()
+    private void DrawFreehand()
     {
-        Connector connector = new Connector()
+        // Enable drawing once interaction.
+        _diagram.InteractionController = DiagramInteractions.DrawOnce;
+
+        // Initialize the drawing object to draw a Straight connector.
+        _diagram.DrawingObject = new Connector()
         {
             ID = "connector1",
-            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
-            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
-            TargetDecorator = new DecoratorSettings() 
-            { 
-                Shape = DecoratorShape.Arrow, 
-                Style = new ShapeStyle() 
-                { 
-                    Fill = "#6f409f", 
-                    StrokeColor = "#6f409f", 
-                    StrokeWidth = 1 
-                } 
-            },
-            Style = new ShapeStyle() { StrokeColor = "#6f409f", StrokeWidth = 1 },
-            // Type of the connector
             Type = ConnectorSegmentType.Straight,
         };
-        _connectors.Add(connector);
-    }
-
-    //Method to update connector at runtime.
-    private async Task UpdateConnector()
-    {
-        _diagram.BeginUpdate();
-        _diagram.Connectors[0].SourcePoint.X = 50;
-        _diagram.Connectors[0].SourcePoint.Y = 50;
-        await _diagram.EndUpdateAsync();
     }
 }
 ```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrnDxBEJCaUQqRl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/UpdateConnectorAtRunTime.razor).
-
-N> [BeginUpdate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_BeginUpdate) and [EndUpdateAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_EndUpdateAsync) methods allow you to temporarily stop the continuous update of the control and resume it once the updates are complete.
+![Drawing a Connector interactively in Blazor Diagram](../images/blazor-diagram-draw-connector.webp)
 
 ## Connections
 
@@ -476,7 +374,7 @@ The following code example illustrates how to connect two nodes.
         Connector connector = new Connector()
         {
             ID = "connector1",
-            //Source node id of the connector.
+            // Source node id of the connector.
             SourceID = "node1",
             TargetDecorator = new DecoratorSettings()
             {
@@ -486,7 +384,7 @@ The following code example illustrates how to connect two nodes.
                     StrokeColor = "#6495ED",
                 }
             },
-            //Target node id of the connector.
+            // Target node id of the connector.
             TargetID = "node2",
             Style = new ShapeStyle()
             {
@@ -575,13 +473,13 @@ The following code example illustrates how to create port to port connections.
         Connector connector = new Connector()
         {
             ID = "connector1",
-            //Source node id of the connector.
+            // Source node id of the connector.
             SourceID = "node1",
-            //source node port id.
+            // source node port id.
             SourcePortID = "port1",
-            //Target node id of the connector.
+            // Target node id of the connector.
             TargetID = "node2",
-            //Target node port id.
+            // Target node port id.
             TargetPortID = "port2",
             TargetDecorator = new DecoratorSettings()
             {
@@ -609,6 +507,132 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 * Set [PortConstraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PortConstraints.html) to **InConnect**, to accept only incoming connection to dock in it. Similarly, Set PortConstraints to **OutConnect**, to accept only an outgoing connection to dock in it.
 * Setting **None**, the port restricts connectors from establishing a connection to the port.
+
+## How to Remove Connectors at Runtime
+
+Remove a connector from the diagram at runtime by using the `Remove` method.
+
+The following code shows how to remove a connector at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Remove Connector" OnClick="@RemoveConnector" />
+<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors">
+    <SnapSettings Constraints="@_snapConstraints"></SnapSettings>
+</SfDiagramComponent>
+
+@code
+{
+    // Defines snap consttraints
+    private SnapConstraints _snapConstraints = SnapConstraints.None;
+    // Defines diagram's connector collection
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+    
+    protected override void OnInitialized()
+    {
+        Connector connector = new Connector()
+        {
+            ID = "connector1",
+            // Set the source and target point of the connector
+            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
+            TargetDecorator = new DecoratorSettings()
+            {
+                Shape = DecoratorShape.Arrow,
+                // Style of the connector segment
+                Style = new ShapeStyle() { Fill = "#6f409f", StrokeColor = "#6f409f", StrokeWidth = 1 }
+            },
+            Style = new ShapeStyle() { StrokeColor = "#6f409f", StrokeWidth = 1 },
+            // Type of the connector
+            Type = ConnectorSegmentType.Straight,
+        };
+        _connectors.Add(connector);
+    }
+
+    private void RemoveConnector()
+    {
+        // Remove connector at runtime
+        _connectors.Remove(_connectors[0]);
+    }
+}
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBnXnhkpCltupeN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveConnectorsAtRunTime.razor)
+
+A connector can also be removed from the diagram by using the native `RemoveAt` method. Refer to the following example that shows how to remove the connector at runtime.
+
+```cshtml
+public void RemoveConnector()
+{
+    connectors.RemoveAt(0);
+}
+```
+
+## How to Update Connector Properties at Runtime
+
+Connector properties can be changed at runtime.
+
+The following code example explains how to change the connector properties.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Update Connector" OnClick="@UpdateConnector" />
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Connectors="@_connectors">
+    <SnapSettings Constraints="@_snapConstraints"></SnapSettings>
+</SfDiagramComponent>
+
+@code {
+    // Reference the diagram
+    private SfDiagramComponent _diagram;
+    // Defines the snap constraints
+    private SnapConstraints _snapConstraints = SnapConstraints.None;
+    // Defines diagram's connector collection
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        Connector connector = new Connector()
+        {
+            ID = "connector1",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
+            TargetDecorator = new DecoratorSettings() 
+            { 
+                Shape = DecoratorShape.Arrow, 
+                Style = new ShapeStyle() 
+                { 
+                    Fill = "#6f409f", 
+                    StrokeColor = "#6f409f", 
+                    StrokeWidth = 1 
+                } 
+            },
+            Style = new ShapeStyle() { StrokeColor = "#6f409f", StrokeWidth = 1 },
+            // Type of the connector
+            Type = ConnectorSegmentType.Straight,
+        };
+        _connectors.Add(connector);
+    }
+
+    //Method to update connector at runtime.
+    private async Task UpdateConnector()
+    {
+        _diagram.BeginUpdate();
+        _diagram.Connectors[0].SourcePoint.X = 50;
+        _diagram.Connectors[0].SourcePoint.Y = 50;
+        await _diagram.EndUpdateAsync();
+    }
+}
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtrnDxBEJCaUQqRl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/UpdateConnectorAtRunTime.razor).
+
+N> [BeginUpdate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_BeginUpdate) and [EndUpdateAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_EndUpdateAsync) methods allow you to temporarily stop the continuous update of the control and resume it once the updates are complete.
 
 ## See also
 

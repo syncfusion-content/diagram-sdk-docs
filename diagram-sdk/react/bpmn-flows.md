@@ -1,14 +1,14 @@
 ---
 layout: post
-title: BPMN Flows in React Diagram Component | Syncfusion®
-description: Learn here all about Bpmn flows in Syncfusion® React Diagram Component of Syncfusion Essential® JS 2 and more.
+title: BPMN Flow Connectors in React Diagram | Syncfusion®
+description: Connect BPMN elements in the React Diagram with Association, Sequence, and Message flows, including directional and bidirectional association variants.
 control: Bpmn Flows 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN flows in React Diagram Component
+# BPMN Flow Connectors in React Diagram
 
 ## Overview
 

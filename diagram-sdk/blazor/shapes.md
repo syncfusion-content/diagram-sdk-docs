@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Shapes in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about Shapes in Blazor Diagram component and much more details.
+title: Node Shapes in Blazor Diagram Component | Syncfusion®
+description: Create Blazor Diagram Component nodes with text, image, path, basic, flow, SVG, HTML, and BPMN shapes, then customize them fully.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
@@ -20,7 +20,7 @@ Diagram supports creating several kinds of nodes. The available shape types incl
 * HTML template 
 * BPMN shape
 
-## How to Create and Customize a Text Node
+## How to Create a Text Node
 
 The diagram allows to add texts as [TextShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.TextShape.html). The [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.TextShape.html#Syncfusion_Blazor_Diagram_TextShape_Content) property defines the text that is to be added. The [Style](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Style) of the node is used as [TextStyle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.TextStyle.html) to customize the appearance of the text.
 
@@ -63,7 +63,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rjBHDRLIpLIYqgnG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Text Node in Blazor Diagram](images/blazor-diagram-TextNode.webp)" %}
 
-## How to Create a Image Node
+## How to Create an Image Node
 
 The diagram allows to add images as [ImageShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ImageShape.html). The [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_Shape) property of node allows to set the type of node and for image nodes, it should be set as **Image**. In addition, the [Source](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ImageShape.html#Syncfusion_Blazor_Diagram_ImageShape_Source) property of shape enables to set the image.
 
@@ -450,7 +450,7 @@ The list of flow shapes are as follows.
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rNLnXdrepgfXuqKm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[FlowShape Node in Blazor Diagram](images/blazor-diagram-flow-shapes-node.webp)" %}
 
-## How to Create a SVG Template Shape
+## How to Create an SVG Template Shape
 
 The diagram provides support to embed [SVG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeShapes.html#Syncfusion_Blazor_Diagram_NodeShapes_SVG) element into a node. The Shape property of the node allows to set the type of node. To create a SVG node, it should be set as **SVG**. The following code illustrates how a SVG node is created.
 
@@ -508,7 +508,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 N> Similar to HTML node, SVG nodes cannot be exported to image format. The fill color of an SVG node can be overridden by inline style or fill of the SVG element specified in the template.
 
-## Node with BPMN shapes
+## How to Create a BPMN Shape
 
 The [BPMN](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeShapes.html#Syncfusion_Blazor_Diagram_NodeShapes_Bpmn) shapes visually represent Business Process Model and Notation elements such as events, tasks, gateways, and more. To create BPMN shapes, set the `Type` property of the shape to **Bpmn**.
 

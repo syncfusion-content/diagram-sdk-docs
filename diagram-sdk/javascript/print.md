@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Print in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Export in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Printing in JavaScript Diagram | Syncfusion®
+description: Print the Syncfusion® JavaScript Diagram as an image using the print method with customizable printOptions for region, scale, and page layout.
 platform: diagram-sdk
 control: Print 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Print in JavaScript Diagram control
+# Printing in JavaScript Diagram
 
 The [`print`](../api/diagram#print) method helps to print the diagram as image.
 

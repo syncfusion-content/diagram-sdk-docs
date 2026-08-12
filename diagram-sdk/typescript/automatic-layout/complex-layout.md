@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Complex hierarchical tree layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Automatic layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Complex Hierarchical Tree in TypeScript Diagram | Syncfusion®
+description: Build complex hierarchical TypeScript Diagrams where any child can have multiple parents using the ComplexHierarchicalTree layout.
 platform: diagram-sdk
 control: Complex hierarchical tree  
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Complex hierarchical tree layout in TypeScript Diagram control
+# Complex Hierarchical Tree in TypeScript Diagram
 
 Complex hierarchical tree layout arranges nodes in a tree-like structure, where the child node can have more than one parent. This layout is an extended version of the hierarchical tree layout. To create a complex hierarchical tree, the [`type`](https://ej2.syncfusion.com/documentation/api/diagram/layoutModel#type) property of layout should be set as `ComplexHierarchicalTree`.
 
@@ -20,10 +20,10 @@ The following example demonstrates how to render a complex hierarchical tree lay
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -57,10 +57,10 @@ The following code example illustrates how to create a complex hierarchical tree
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -81,10 +81,10 @@ The following code illustrates how to allow a linear arrangement in diagram layo
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -100,10 +100,10 @@ The following example shows how to activate enableRouting in the layout:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/AutomaticLayout-complex3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/AutomaticLayout-complex3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         

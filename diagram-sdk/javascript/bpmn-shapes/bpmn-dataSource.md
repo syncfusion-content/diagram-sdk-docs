@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn DataSource in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn DataSource shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Data Source in JavaScript Diagram | Syncfusion®
+description: Store and access process data in a BPMN diagram using the DataSource shape in the Syncfusion® JavaScript Diagram control.
 platform: diagram-sdk
 control: Bpmn DataSource 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Data source in JavaScript Diagram control
+# BPMN Data Source in JavaScript Diagram
 
 ## Datasource
 

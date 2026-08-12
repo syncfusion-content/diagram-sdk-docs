@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bpmn DataObject in JavaScript Diagram control | Syncfusion®
-description: Learn here all about Bpmn DataObject shapes in Syncfusion® JavaScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: BPMN Data Object in JavaScript Diagram | Syncfusion®
+description: Show data flowing through a BPMN process in the Syncfusion® JavaScript Diagram using input, output, and collection DataObject shapes.
 platform: diagram-sdk
 control: Bpmn DataObject 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# BPMN Data object in JavaScript Diagram control
+# BPMN Data Object in JavaScript Diagram
 
 ## Data Object
 

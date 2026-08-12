@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bezier connector in TypeScript Diagram control | Syncfusion®
-description: Learn here all about Connectors in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Bezier in TypeScript Diagram | Syncfusion®
+description: Create bezier TypeScript Diagram connectors with configurable control points or vector-based curve segments.
 platform: diagram-sdk
 control: Connectors 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Bezier connector TypeScript Diagram control
+# Bezier in TypeScript Diagram
 
 Bezier segments are used to create curve segments and the curves are configurable either with the control points or with vectors.
 

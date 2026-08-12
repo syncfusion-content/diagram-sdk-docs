@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview of the Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features and Overview of the Blazor Diagram component and much more.
+title: About Syncfusion Blazor Diagram Component | Syncfusion®
+description: Visualize, create, and edit flowcharts, organizational charts, mind maps, swimlanes, and BPMN diagrams with the Blazor Diagram Component.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Diagram Component Overview
+# About Syncfusion Blazor Diagram Component.
  The Blazor Diagram component is a high-performance and versatile library designed for visualizing, creating, and editing interactive diagrams. With comprehensive support for flowcharts, organizational charts, mind maps, and other diagram types, this component empowers users to create sophisticated visual representations of data and processes with ease.
 
  {% youtube "youtube:https://www.youtube.com/watch?v=LIlVk9iOo2U" %}
@@ -19,11 +19,11 @@ documentation: ug
 * **Flowchart:** Provides all the standard flowchart shapes as ready-made objects, making it easy to add them to a diagram surface in a single call.
 * **Ports:** Connect connectors to specific locations on a node using various types of ports or connecting points for precise connectivity.
 * **Nodes:** Visualize and arrange any graphical object using nodes, which can be manipulated freely on the Blazor diagram surface.
-* **Built-in Shapes:** Provided built-in shapes such as basic and flow shapes.
+* **Built-in Shapes:** Provided built-in shapes such as Basic and Flow shapes.
 * **Swimlane:** Visualize groups and categorizes activities or tasks based on the role or department responsible for their execution, aiding in illustrating complex processes involving multiple participants or departments within an organization.
 * **Connectors:** Represent connections between nodes, defining relationships and workflows within the diagram.
 * **Annotations:** Add textual representations to nodes or connectors using annotations. These editable text blocks can be displayed over diagram elements to provide additional information or labels. Multiple annotations can be attached to a single node or connector, allowing for flexible and detailed labeling of diagram components. Annotations support real-time editing, enabling dynamic updates to the diagram's textual content during runtime.
-* **Routing:** Enhanced the dynamic updating of connector routes based on the placement or movement of nearby shapes. This feature is activated by setting the Routing enum value to the Constraints property for both the diagram and connectors, and setting the `RoutingType` to **Classic** or **Advanced**.
+* **Routing:** Enhanced the dynamic updating of connector routes based on the placement or movement of nearby shapes. This feature is activated by setting the [Routing](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramConstraints.html#Syncfusion_Blazor_Diagram_DiagramConstraints_Routing) enum value to the [Constraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_Constraints) property for both the diagram and connectors, and setting the [RoutingType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Diagram.RoutingType.html) to **Classic** or **Advanced**.
 * **Interaction:** Diagram elements can be selected, rotated, resized, and moved.
 * **Z-Order:** Diagram elements overlapping can be controlled by changing their Z-Order value.
 * **Pan and Zoom:** Navigate the diagram with pan and zoom options for detailed and broad views.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flowchart layout in TypeScript Diagram control | Syncfusion®
-description: Learn here all about flowchart layout in Syncfusion® TypeScript Diagram control of Syncfusion Essential® JS 2 and more.
+title: Flowchart Layout in TypeScript Diagram | Syncfusion®
+description: Render flowcharts in the Syncfusion® TypeScript Diagram with common symbols like Terminator, Process, Decision, Document, and PreDefinedProcess shapes.
 platform: diagram-sdk
 control: Flowchart layout 
 publishingplatform: diagram-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Flowchart layout in TypeScript Diagram control
+# Flowchart Layout in TypeScript Diagram
 
 The flowchart layout provides a visual representation of processes, workflows, systems, or algorithms in a diagrammatic format. It uses various symbols to depict different actions, with arrows connecting these symbols to indicate the flow or direction of the process. Flowcharts are Essential<sup style="font-size:70%">&reg;</sup> tools for illustrating step-by-step sequences, making complex processes easier to understand and communicate.
 

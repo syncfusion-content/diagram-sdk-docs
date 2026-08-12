@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC Diagram Control | Syncfusion®
-description: Checkout and learn about getting started with ASP.NET MVC Diagram control of Syncfusion Essential® JS 2 and more details.
+title: Getting Started with ASP.NET MVC Diagram | Syncfusion®
+description: Get started with the Syncfusion® ASP.NET MVC Diagram in Visual Studio or VS Code, including NuGet installation, project setup, and a first render.
 platform: diagram-sdk
 control: Getting Started
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET MVC Diagram Control
+# Getting Started with ASP.NET MVC Diagram
 
 This section explains the steps required to create a simple diagram and demonstrates the basic usage of the ASP.NET MVC Diagram control.
 
@@ -247,4 +246,4 @@ The output will appear as follows:
 
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
-N> You can refer to our [ASP.NET MVC Diagram](https://www.syncfusion.com/aspnet-mvc-ui-controls/diagram) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET MVC Diagram example](https://ej2.syncfusion.com/aspnetmvc/Diagram/DefaultFunctionalities#/material) that shows how to render the Diagram in ASP.NET MVC.
+N> You can refer to our [ASP.NET MVC Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-mvc-diagram) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET MVC Diagram example](https://ej2.syncfusion.com/aspnetmvc/diagram/defaultfunctionalities#/fluent2) that shows how to render the Diagram in ASP.NET MVC.
