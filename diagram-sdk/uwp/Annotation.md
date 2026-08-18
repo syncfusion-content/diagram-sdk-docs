@@ -252,7 +252,7 @@ You can change the appearance by ViewTemplate. The following code illustrates ho
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <DataTemplate x:Key="viewtemplate">
   <TextBlock Text="{Binding Path=Content, Mode=TwoWay}" FontStyle="Italic" 
@@ -300,7 +300,7 @@ The Appearance of the Annotation can also be customized with appearance specific
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <DataTemplate x:Key="viewtemplate">
   <Border BorderBrush="Black" BorderThickness="1">
