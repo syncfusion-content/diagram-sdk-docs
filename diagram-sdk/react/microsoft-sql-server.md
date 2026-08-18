@@ -107,7 +107,7 @@ A dedicated database named **DiagramDb** is used to store organizational chart d
 #### Manual approach (using SSMS UI)
 
 1. In **Object Explorer**, right‑click the **Databases** folder.
-   ![Right‑click the Databases Folder in Object Explorer](images/microsoft-sql-server-images/CreateDataBaseStep1.png)
+   ![Right-click the Databases Folder in Object Explorer](images/microsoft-sql-server-images/CreateDataBaseStep1.png)
 2. Select **New Database** from the context menu.
 3. Enter **DiagramDb** as the database name.
 4. Click the **OK** button to create the database.
