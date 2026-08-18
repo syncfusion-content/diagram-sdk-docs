@@ -3,9 +3,9 @@ layout: post
 title: Undo and Redo in React Diagram | Syncfusion®
 description: Track and reverse React Diagram edits through history support; users invoke undo and redo with keyboard shortcuts or programmatic methods.
 control: Undo redo 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Undo and Redo in React Diagram
@@ -24,11 +24,12 @@ Use these standard keyboard shortcuts for quick undo/redo operations:
 - **Undo**: `Ctrl+Z`
 - **Redo**: `Ctrl+Y`
 
-### Programmatic undo and redo
+### Programmatic Undo and Redo
 
 The [`undo`](https://helpej2.syncfusion.com/react/documentation/api/diagram#undo) and [`redo`](https://helpej2.syncfusion.com/react/documentation/api/diagram#redo) methods allow you to control undo/redo operations programmatically. The following example demonstrates how to implement these methods:
 
 ```ts
+import { DiagramComponent, Inject, UndoRedo } from '@syncfusion/ej2-react-diagrams';
 
 // initialize Diagram component
 let diagramInstance: DiagramComponent;
@@ -39,7 +40,9 @@ function App() {
       ref={(diagram) => (diagramInstance = diagram)}
       width={'100%'}
       height={'600px'}
-    />
+    >
+      <Inject services={[UndoRedo]} />
+    </DiagramComponent>
   );
 }
 const root = ReactDOM.createRoot(document.getElementById('diagram'));
@@ -53,11 +56,7 @@ diagramInstance.redo();
 
 Undo/Redo for diagram can be enabled/disabled with the [`constraints`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramConstraints) property of the diagram component.
 
-### History Change Events
-
-The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/diagram#historychange) event triggers whenever an action is undone or redone, allowing you to respond to history state changes.
-
-## Advanced history management
+## Advanced History Management
 
 ### Grouping multiple actions
 
@@ -67,28 +66,28 @@ Use [`startGroupAction`](https://helpej2.syncfusion.com/react/documentation/api/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/groupAction-cs1/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/groupAction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/groupAction-cs1/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/groupAction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/groupAction-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/groupAction-cs1" %}
 
 ### Managing History Stack Size
 The [`stackLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#stacklimit) property controls the maximum number of actions stored in the history manager. Setting an appropriate limit helps manage memory usage in applications with extensive editing operations.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/es5Connect-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/es5Connect-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs6" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/es5Connect-cs6" %}
 
 ### Restricting History Logging
 
@@ -96,14 +95,14 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/es5Connect-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/es5Connect-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs5" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/es5Connect-cs5" %}
 
 ## History Stack Inspection
 
@@ -112,6 +111,17 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 The [`undoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#undostack) property is used to get the collection of undo actions which should be performed in the diagram. The [`redoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#redostack) property is used to get the collection of redo actions which should be performed in the diagram. The undoStack/redoStack is the read-only property.
 
 ```ts
+import { DiagramComponent, Inject, UndoRedo, NodeModel } from '@syncfusion/ej2-react-diagrams';
+
+let nodes: NodeModel[] = [{
+  id: 'node1',
+  width: 100,
+  height: 100,
+  offsetX: 300,
+  offsetY: 200,
+  annotations: [{ id: 'label1', content: 'Node' }]
+}];
+
 let diagramInstance: DiagramComponent;
 function App() {
   return (
@@ -140,14 +150,14 @@ The [`canUndo`](https://helpej2.syncfusion.com/react/documentation/api/diagram/h
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Undo-cs1/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/es5Undo-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5Undo-cs1/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/es5Undo-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/es5Undo-cs1" %}
 
 ### Current Entry Tracking
 
@@ -157,20 +167,20 @@ The following code shows how to get the current entry from the diagram history:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/es5CurrentEntry-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/es5CurrentEntry-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/es5CurrentEntry-cs1" %}
 
 ## History Management Utilities
 
 ### Clearing History
 
-The [`clearHistory`](https://helpej2.syncfusion.com/react/documentation/api/diagram#clearhistory)  method to remove all recorded actions from both undo and redo history stacks:
+The [`clearHistory`](https://helpej2.syncfusion.com/react/documentation/api/diagram#clearhistory) method removes all recorded actions from both undo and redo history stacks:
 
 ```ts
 //Clears all the histories
@@ -198,13 +208,13 @@ The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/dia
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1/app/index.jsx %}
+{% include code-snippet/diagram/undoredo/es5HistoryChange-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1/app/index.tsx %}
+{% include code-snippet/diagram/undoredo/es5HistoryChange-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/undoredo/es5HistoryChange-cs1" %}
 
-While interacting with diagram, this event can be used to do the customization.
+While interacting with the diagram, this event can be used for customization.

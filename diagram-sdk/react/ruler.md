@@ -3,9 +3,9 @@ layout: post
 title: Ruler in React Diagram | Syncfusion®
 description: Show horizontal and vertical Rulers in the React Diagram to measure element positions and align shapes precisely on the canvas.
 control: Ruler 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Ruler in React Diagram
@@ -23,18 +23,18 @@ The following code shows how to add a ruler to the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.jsx %}
+{% include code-snippet/diagram/ruler/ruler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.tsx %}
+{% include code-snippet/diagram/ruler/ruler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/ruler-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/ruler/ruler-cs1" %}
 
 ## Customizing the Ruler
 
-The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` customize the rulers appearance in the diagram.
+The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` customize the ruler's appearance in the diagram.
 
 By default, the ruler segments are arranged based on pixel values, with each segment representing a unit of measurement on the diagram canvas.
 
@@ -45,7 +45,7 @@ These properties apply to both horizontal and vertical rulers.
 
 ### Tick Alignment
 
-The [`tickAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#tickalignment) property controls the positioning of ruler tick marks. For the horizontal ruler, ticks can be aligned to the left or right side, while for the vertical ruler, they can be aligned to the top or bottom.
+The [`tickAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#tickalignment) property controls the positioning of ruler tick marks. Valid values are `LeftOrTop` and `RightOrBottom`. For the horizontal ruler, ticks can be aligned to the left or right side, while for the vertical ruler, they can be aligned to the top or bottom.
 
 ### Ruler Thickness
 
@@ -55,14 +55,14 @@ The following code shows how the diagram ruler can be customized.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.jsx %}
+{% include code-snippet/diagram/ruler/customRuler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.tsx %}
+{% include code-snippet/diagram/ruler/customRuler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/ruler/customRuler-cs1" %}
 
 
 ### Arrange Tick
@@ -73,17 +73,23 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.jsx %}
+{% include code-snippet/diagram/ruler/customRuler-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.tsx %}
+{% include code-snippet/diagram/ruler/customRuler-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs2" %}
+{% previewsample "page.domainurl/code-snippet/diagram/ruler/customRuler-cs2" %}
 
 ### Marker Color
 
-The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor)property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
+The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor) property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
 
-N>  The MarkerColor property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
+N> The `markerColor` property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
+
+## See also
+
+* [Grid lines](./grid-lines)
+* [Page settings](./page-settings)
+* [Scroll settings](./scroll-settings)

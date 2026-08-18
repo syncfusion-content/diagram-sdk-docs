@@ -3,9 +3,9 @@ layout: post
 title: Connector Segments in React Diagram | Syncfusion®
 description: Combine Straight, Orthogonal, and Bezier segments in the React Diagram connector to build custom routing paths between source and target points.
 control: Segments 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Connector Segments in React Diagram
@@ -16,6 +16,6 @@ Connector segments define the path and visual appearance of connectors between n
 
 The React Diagram component supports three primary types of connector segments, each serving different visual and functional requirements:
 
-* Straight
-* Orthogonal
-* Bezier
+* [Straight](./connector-straight)
+* [Orthogonal](./connector-orthogonal)
+* [Bezier](./connector-bezier)

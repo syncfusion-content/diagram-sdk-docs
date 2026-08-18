@@ -3,24 +3,41 @@ layout: post
 title: Connector Labels in React Diagram | Syncfusion®
 description: Place text annotations along React Diagram connector paths with offset, alignment, displacement, segment angle, and margin controls for precise labeling.
 control: Connector Labels 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Connector Labels in React Diagram
 
 Connector annotations are text labels that can be positioned along connector paths to provide descriptive information or context. These annotations offer flexible positioning and styling options to enhance diagram readability and communication.
 
+N> Use the current Syncfusion® React Diagram package with the React version supported by your package release.
+
 Annotations on connectors can be precisely positioned and customized using the following properties of the Annotation class:
 
-* **Offset** - Controls position along the connector path (0 to 1).
-* **Alignment** - Aligns annotation relative to connector segments.
-* **Displacement** - Moves annotation away from its calculated position.
-* **SegmentAngle** - Rotates annotation based on connector direction.
-* **HorizontalAlignment** - Controls horizontal positioning.
-* **VerticalAlignment** - Controls vertical positioning.
-* **Margin** - Adds spacing around the annotation.
+* **offset** - Controls position along the connector path (0 to 1).
+* **alignment** - Aligns the annotation relative to connector segments.
+* **displacement** - Moves the annotation away from its calculated position.
+* **segmentAngle** - Rotates the annotation based on connector direction.
+* **horizontalAlignment** - Controls horizontal positioning.
+* **verticalAlignment** - Controls vertical positioning.
+* **margin** - Adds spacing around the annotation.
+
+## Basic example
+
+The following basic example shows a connector with a path annotation positioned on the connector path.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/diagram/annotations/es5Update-cs5/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/diagram/annotations/es5Update-cs5/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Update-cs5" %}
 
 ## Annotation offset
 
@@ -30,14 +47,14 @@ The following code example demonstrates how to configure the offset for connecto
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs5/app/index.jsx %}
+{% include code-snippet/diagram/annotations/es5Update-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs5/app/index.tsx %}
+{% include code-snippet/diagram/annotations/es5Update-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs5" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Update-cs5" %}
 
 The following image shows the position of the annotation with respect to different offsets.
 
@@ -55,14 +72,31 @@ The following code example illustrates how to align connector annotations.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Segment-cs1/app/index.jsx %}
+{% include code-snippet/diagram/annotations/es5Segment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Segment-cs1/app/index.tsx %}
+{% include code-snippet/diagram/annotations/es5Segment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Segment-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Segment-cs1" %}
+
+## Horizontal and vertical alignment
+
+The [`horizontalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/horizontalAlignment) and [`verticalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/verticalAlignment) properties control the final placement of the annotation relative to its computed position. Use `horizontalAlignment` to place the annotation on the left, center, or right, and `verticalAlignment` to place it at the top, center, or bottom.
+
+The following example demonstrates both properties:
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/diagram/annotations/es5Alignment-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/diagram/annotations/es5Alignment-cs1/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Alignment-cs1" %}
 
 ## Displacement of annotation
 
@@ -72,16 +106,16 @@ The following example shows how to apply displacement to connector annotations:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1/app/index.jsx %}
+{% include code-snippet/diagram/annotations/es5Displacement-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1/app/index.tsx %}
+{% include code-snippet/diagram/annotations/es5Displacement-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Displacement-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Displacement-cs1" %}
 
-N> Displacement is only applicable when we use alignment as **After** or **Before**.
+N> Displacement applies only when `alignment` is set to **Before** or **After**.
 
 ## Segment angle for annotation
 
@@ -91,14 +125,14 @@ The following code example demonstrates how to configure segment angle rotation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1/app/index.jsx %}
+{% include code-snippet/diagram/annotations/es5SegmentAngle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1/app/index.tsx %}
+{% include code-snippet/diagram/annotations/es5SegmentAngle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5SegmentAngle-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5SegmentAngle-cs1" %}
 
 |Segment angle|Output|
 |-----|-----|

@@ -3,9 +3,9 @@ layout: post
 title: BPMN Expanded SubProcess in React Diagram | Syncfusion®
 description: Use expanded BPMN subprocesses in the React Diagram to display internal child activities directly and let users drop new nodes into the container.
 control: Bpmn Expanded subProcess 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # BPMN Expanded SubProcess in React Diagram
@@ -18,20 +18,20 @@ The expanded subprocess automatically adjusts its size to accommodate child elem
 
 ### Create BPMN Expanded SubProcess
 
-To create an expanded subprocess, configure the shape as [`activity`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnActivityModel)  and [`collapsed`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnSubProcessModel#collapsed) to false. Enable the [`AllowDrop`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeConstraints) constraint to allow child nodes to be dropped inside the expanded subprocess container.
+To create an expanded subprocess, configure the shape as [`activity`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnActivityModel) and [`collapsed`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnSubProcessModel#collapsed) to false. Enable the [`AllowDrop`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeConstraints) constraint to allow child nodes to be dropped inside the expanded subprocess container.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1/app/index.jsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1/app/index.tsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs1" %}
 
-### Add BPMN Nodes into Expanded SubProcess
+### Add BPMN Nodes to Expanded SubProcess
 
 The [`Processes`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnSubProcessModel#processes) property is an array collection that defines the child node values for the BPMN subprocess. This allows you to programmatically specify which BPMN elements should be contained within the expanded subprocess during initialization.
 
@@ -39,24 +39,26 @@ The following code example demonstrates how to define child processes within an 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2/app/index.jsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2/app/index.tsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2" %}
+{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs2" %}
 
-### Add BPMN Nodes into Expanded SubProcess at Runtime
+### Add BPMN Nodes to Expanded SubProcess at Runtime
 
 Users can drag and drop BPMN nodes directly onto the expanded subprocess container during runtime. The expanded subprocess automatically maintains proper containment by monitoring the bounds of child elements. When a child element is resized or repositioned within the subprocess boundaries, the expanded subprocess container dynamically adjusts its size to accommodate the changes.
+
+Ensure the Diagram's `drop` event is wired and the `AllowDrop` constraint is enabled on the expanded subprocess node for runtime drag-and-drop to work.
 
 This interactive behavior ensures that the subprocess container always properly encompasses all its child processes while maintaining visual clarity and proper BPMN structure.
 
 ![Expanded subProcess BPMN Shape](images/expanded-Gif.gif)
 
-#### Add/Remove Process Programmatically
+### Add/Remove Process Programmatically
 
 The expanded subprocess supports dynamic process management through dedicated methods. Use the [`addProcess`](https://ej2.syncfusion.com/react/documentation/api/diagram#addprocess) method to add new child processes at runtime, and the [`removeProcess`](https://ej2.syncfusion.com/react/documentation/api/diagram#removeprocess) method to remove existing processes. These methods provide programmatic control over subprocess content without requiring manual manipulation.
 
@@ -64,11 +66,17 @@ The following example demonstrates how to implement dynamic process addition and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3/app/index.jsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3/app/index.tsx %}
+{% include code-snippet/diagram/bpmnShapes/es5expand-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3" %}
+{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs3" %}
+
+## See also
+
+* [BPMN Activities](./bpmn-activities)
+* [BPMN Events](./bpmn-events)
+* [BPMN Shapes](./bpmn-shapes)

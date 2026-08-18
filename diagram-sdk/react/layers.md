@@ -3,9 +3,9 @@ layout: post
 title: Layers in React Diagram | Syncfusion®
 description: Organize React Diagram elements into named layers to bulk-toggle visibility, lock interaction, and store custom metadata per group.
 control: Layers 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Layers in React Diagram
@@ -31,14 +31,14 @@ In the following example, basic shapes are categorized in layer 1, and flow shap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs1/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs1/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs1" %}
 
 
 ## Visible
@@ -51,14 +51,14 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs2/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs2/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs2" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs2" %}
 
 ## Lock
 
@@ -70,14 +70,14 @@ In the following example, the objects in layer one are locked. By default, the `
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs3/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs3/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs3" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs3" %}
 
 
 
@@ -90,6 +90,7 @@ The [`addInfo`](https://ej2.syncfusion.com/react/documentation/api/diagram/layer
 The following code illustrates how to add additional information to layers:
 
 ```ts
+import { DiagramComponent, NodeModel, ConnectorModel } from "@syncfusion/ej2-react-diagrams";
 
 // A node is created and stored in nodes array.
 let nodes: NodeModel[] = [{
@@ -141,12 +142,11 @@ function App() {
       nodes={nodes}
       connectors={connectors}
       // Add layer
-      layers = {
-            [
+      layers={[
                 {
                     id: 'layer1',
                     visible: true,
-                    objects: ['node1', 'node2'],
+                    objects: ['node1'],
                     addInfo: addInfo
                 },
                 {
@@ -154,8 +154,7 @@ function App() {
                     visible: true,
                     objects: ['node2'],
                 }
-            ]
-        }
+            ]}
       // render initialized Diagram
     />
   );
@@ -175,14 +174,14 @@ The following code illustrates how to add a new layer with new connectors stored
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs4/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs4/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs4" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs4" %}
 
 
 ## Remove Layer at Runtime
@@ -195,17 +194,17 @@ The following code illustrates how to remove a layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs5/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs5/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs5" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs5" %}
 
 
-### MoveObjects
+## Move Objects
 
 You can move objects from one layer to another dynamically using the [`moveObjects`](https://ej2.syncfusion.com/react/documentation/api/diagram#moveobjects) public method of the diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions.
 
@@ -213,14 +212,14 @@ The following code illustrates how to move objects from one layer to another lay
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs6/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs6/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs6" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs6" %}
 
 ## Z-Index
 
@@ -229,9 +228,9 @@ The following code illustrates how to move objects from one layer to another lay
 
 ### Bring Layer Forward
 
-Move a layer forward in the stacking order using the  [`bringLayerForward`](https://ej2.syncfusion.com/react/documentation/api/diagram#bringlayerforward) public method.
+Move a layer forward in the stacking order using the [`bringLayerForward`](https://ej2.syncfusion.com/react/documentation/api/diagram#bringlayerforward) public method.
 
-The following code illustrates how to bring forward to layer.
+The following code illustrates how to bring a layer forward.
 
 ```ts
 
@@ -248,23 +247,22 @@ Move a layer backward in the stacking order using the [`sendLayerBackward`](http
 ```ts
 // move the layer backward
 diagram.sendLayerBackward('layer1');
-  
 ```
 
 The following code illustrates how to send the layer forward/backward to another layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs7/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs7/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs7" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs7" %}
 
-### Layer and Objects Rendering Order
+## Layer and Objects Rendering Order
 
 The rendering of diagram elements with layer properties involves grouping them within a `diagram_diagramLayer` for basic shape nodes and `diagram_nativeLayer_svg` for SVG-native elements. Even if different types of nodes are added within the same layer, the rendering at the DOM level occurs in separate layers. Therefore, when executing layering commands like [`bringLayerForward`](https://ej2.syncfusion.com/react/documentation/api/diagram#bringlayerforward) and [`sendLayerBackward`](https://ej2.syncfusion.com/react/documentation/api/diagram#sendlayerbackward), the native SVG elements will always render above the basic shape elements. 
 
@@ -272,22 +270,22 @@ The order of rendering is as follows: HTML shapes -> SVG shapes -> Path data sha
 
 ## Clone Layer
 
-Layers can be cloned with its object by using the [`cloneLayer`](https://ej2.syncfusion.com/react/documentation/api/diagram#clonelayer) public method.This creates an identical copy of the layer and all its assigned elements.
+Layers can be cloned with their objects by using the [`cloneLayer`](https://ej2.syncfusion.com/react/documentation/api/diagram#clonelayer) public method. This creates an identical copy of the layer and all its assigned elements.
 
 **Use case**: Create template layers or duplicate complex layer configurations for reuse in different diagram sections.
 
-The following code illustrates how clone the layer.
+The following code illustrates how to clone the layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs8/app/index.jsx %}
+{% include code-snippet/diagram/layers/layers-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/layers/layers-cs8/app/index.tsx %}
+{% include code-snippet/diagram/layers/layers-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs8" %}
+{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs8" %}
 
 ## Active Layer
 
@@ -299,7 +297,7 @@ The active layer represents the layer with the highest z-index in a diagram. Whe
 
 Retrieve the current active layer of the diagram using the [`getActiveLayer`](https://ej2.syncfusion.com/react/documentation/api/diagram#getactivelayer) public method.
 
-The following code illustrates how fetch active layer from the diagram
+The following code illustrates how to fetch the active layer from the diagram:
 
 ```ts
     
@@ -312,7 +310,7 @@ diagram.getActiveLayer();
 
 You can set any layer to be the active layer of the diagram by using the [`setActiveLayer`](https://ej2.syncfusion.com/react/documentation/api/diagram#setactivelayer) public method.
 
-The following code illustrates how to set active layer for diagram
+The following code illustrates how to set the active layer for the diagram:
 
 ```ts
 // set the active layer

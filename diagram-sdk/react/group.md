@@ -3,9 +3,9 @@ layout: post
 title: Group in React Diagram | Syncfusion®
 description: Cluster nodes, sub-groups, and connectors into a React Diagram Group node that can be transformed or ungrouped while preserving individual child edits.
 control: Group 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Group in React Diagram
@@ -15,70 +15,79 @@ Groups enable developers to cluster multiple nodes and connectors into a single 
 
 A group functions as a container for its children (nodes, groups, and connectors). Every change made to the group affects all children proportionally, while child elements remain individually editable. Groups can contain other groups, creating nested hierarchies for complex diagram structures.
 
+A group can be defined either while initializing the diagram or added at runtime. The following sections explain both approaches.
+
 ## Add Group when Initializing Diagram
 
 A group can be added to the diagram model through [`nodes`](https://ej2.syncfusion.com/react/documentation/api/diagram#nodes) collection. To define an object as group, add the child objects to the [`children`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#children) collection of the group.  The following code illustrates how to create a group node.
 
-* While creating group, its child node need to be declared before the group declaration.
+N> While creating a group, its child nodes need to be declared before the group declaration.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/group-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/group-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-cs1" %}
 
 Connectors can be added to a group. The following code illustrates how to add connectors into a group.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupaddconnector-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/groupaddconnector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupaddconnector-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/groupaddconnector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupaddconnector-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/groupaddconnector-cs1" %}
 
 ## Runtime Group Operations
 
 ### Group Nodes at Runtime
 
-Groups can be dynamically created during runtime in the diagram by invoking the [`diagram.group`](https://ej2.syncfusion.com/react/documentation/api/diagram#group) method. To initiate this process, first, select the nodes that you intend to include within the group. Subsequently, by utilizing the `diagram.group` method will encapsulate the selected nodes within a newly formed group node.
+Groups can be dynamically created during runtime in the diagram by invoking the [`diagram.group`](https://ej2.syncfusion.com/react/documentation/api/diagram#group) method. To initiate this process, first, select the nodes that you intend to include within the group. Subsequently, utilizing the `diagram.group` method encapsulates the selected nodes within a newly formed group node.
+
+Before grouping, select the required nodes either through user interaction or programmatically using the [`diagram.select`](https://ej2.syncfusion.com/react/documentation/api/diagram#select) method.
 
 The following code illustrates how to group at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-runtime/app/index.jsx %}
+{% include code-snippet/diagram/group/group-runtime/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-runtime/app/index.tsx %}
+{% include code-snippet/diagram/group/group-runtime/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-runtime" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-runtime" %}
 
 ### Ungroup Nodes at Runtime
 
-Group node can be unGrouped dynamically using the [`diagram.unGroup`](https://ej2.syncfusion.com/react/documentation/api/diagram#ungroup) method.This operation dissolves the group container while preserving all child elements as individual diagram elements.
+A group node can be ungrouped dynamically using the [`diagram.unGroup`](https://ej2.syncfusion.com/react/documentation/api/diagram#ungroup) method. This operation dissolves the group container while preserving all child elements as individual diagram elements.
+
+A reference to the group node to be ungrouped can be obtained from the diagram's `nodes` collection or from the current selection.
+
+N> When ungrouping a group that contains nested groups, the nested group structure is preserved within the dissolved children.
+
 The following code example shows how to ungroup a group node at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/ungroup-runtime/app/index.jsx %}
+{% include code-snippet/diagram/group/ungroup-runtime/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/ungroup-runtime/app/index.tsx %}
+{% include code-snippet/diagram/group/ungroup-runtime/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/ungroup-runtime" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/ungroup-runtime" %}
 
 ### Add Group Node at Runtime
 
@@ -88,14 +97,14 @@ The following code illustrates how a group node is added at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupadd-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/groupadd-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupadd-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/groupadd-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupadd-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/groupadd-cs1" %}
 
 ### Add Collection of Group Nodes at Runtime
 
@@ -105,14 +114,14 @@ The following code illustrates how to add group nodes collection at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupcollection-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/groupcollection-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupcollection-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/groupcollection-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupcollection-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/groupcollection-cs1" %}
 
 ## Manage Group Children at Runtime
 
@@ -135,19 +144,19 @@ The following code illustrates how a child node is removed from a group at runti
 
 ```html
 
-diagram.removeChildFromGroup (groupNode, childNode); 
+diagram.removeChildFromGroup(groupNode, childNode); 
 
 ```
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupchild-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/groupchild-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/groupchild-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/groupchild-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupchild-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/groupchild-cs1" %}
 
 ## Group Styling and Layout
 
@@ -160,18 +169,18 @@ The following code illustrates how to add padding to a node group:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-padding/app/index.jsx %}
+{% include code-snippet/diagram/group/group-padding/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-padding/app/index.tsx %}
+{% include code-snippet/diagram/group/group-padding/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-padding" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-padding" %}
 
 ### Group Flip
 
-The flip functionality for a group node works similarly to that of normal nodes. When flipping a group node, the child nodes inherit the group's flip transformation while retaining their individual flip settings. The combined effect creates a hierarchical flip behavior where both the group and child transformations are applied.
+The [`flip`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodemodel#flip) functionality for a group node works similarly to that of normal nodes. When flipping a group node, the child nodes inherit the group's flip transformation while retaining their individual flip settings. The combined effect creates a hierarchical flip behavior where both the group and child transformations are applied.
 
 **Example of combined flip behavior:**
 - If a child node's flip is set to Vertical and the group node's flip is set to Horizontal, the resulting flip for the child node combines both transformations (effectively a "both" flip).
@@ -181,14 +190,14 @@ The following example shows how to apply flip transformations to group nodes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-flip/app/index.jsx %}
+{% include code-snippet/diagram/group/group-flip/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-flip/app/index.tsx %}
+{% include code-snippet/diagram/group/group-flip/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flip" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-flip" %}
 
 ### Group Flip Mode
 
@@ -199,14 +208,14 @@ In the code below, the `flipMode` for the child node `Node1` is set to `LabelTex
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-flipMode/app/index.jsx %}
+{% include code-snippet/diagram/group/group-flipMode/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-flipMode/app/index.tsx %}
+{% include code-snippet/diagram/group/group-flipMode/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flipMode" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-flipMode" %}
 
 
 
@@ -216,20 +225,20 @@ Nested groups are groups within groups, where a group can contain other groups a
 
 ![Nested Group GIF](images/nestedGroup.gif)
 
- The following code illustrates how to create nested group nodes:
+The following code illustrates how to create nested group nodes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-nested/app/index.jsx %}
+{% include code-snippet/diagram/group/group-nested/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-nested/app/index.tsx %}
+{% include code-snippet/diagram/group/group-nested/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-nested" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-nested" %}
 
-### Add Groups to Symbol Palette
+## Add Groups to Symbol Palette
 
 Group nodes can be added to the symbol palette like normal nodes, enabling reusable group templates for consistent diagram creation. This feature allows developers to create standardized group configurations that can be dragged and dropped into diagrams.
 
@@ -237,16 +246,16 @@ The following code illustrates how to render group nodes in the palette:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-palette/app/index.jsx %}
+{% include code-snippet/diagram/group/group-palette/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-palette/app/index.tsx %}
+{% include code-snippet/diagram/group/group-palette/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-palette" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-palette" %}
 
-### Update Group Nodes at Runtime
+## Update Group Nodes at Runtime
 
 Groups can be updated dynamically similar to normal nodes, allowing modification of group properties, styling, and behavior during runtime operations.
 
@@ -254,14 +263,14 @@ The following code illustrates how to update group nodes at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-update/app/index.jsx %}
+{% include code-snippet/diagram/group/group-update/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/group-update/app/index.tsx %}
+{% include code-snippet/diagram/group/group-update/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-update" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/group-update" %}
 
 ## Container Types
 
@@ -269,7 +278,7 @@ Containers provide automatic measurement and arrangement of child element size a
 
 ### Canvas Container
 
-The canvas panel supports absolute positioning and provides minimal layout functionality to its contained diagram elements. This container type offers maximum flexibility for precise element placement.
+The Canvas Container supports absolute positioning and provides minimal layout functionality to its contained diagram elements. This container type offers maximum flexibility for precise element placement.
 
 **Canvas Container Characteristics:**
 - Supports absolute positioning using margin and alignment properties.
@@ -278,22 +287,22 @@ The canvas panel supports absolute positioning and provides minimal layout funct
 - Child elements are defined using the [`canvas.children`](https://ej2.syncfusion.com/react/documentation/api/diagram/canvas#children) property.
 - Basic elements can be defined within the `basicElements` collection.
 
-The following code illustrates how to add canvas panel.
+The following code illustrates how to add a Canvas Container.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/es5canvas-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/es5canvas-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/es5canvas-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/es5canvas-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5canvas-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/es5canvas-cs1" %}
 
 ### Stack Container
 
-The stack panel arranges its children in a single line or stack order, either vertically or horizontally. This container provides structured layout control through spacing and alignment properties.
+The Stack Container arranges its children in a single line or stack order, either vertically or horizontally. This container provides structured layout control through spacing and alignment properties.
 
 **Stack Container Characteristics:**
 - Controls spacing using margin properties of child elements and padding properties of the group.
@@ -301,18 +310,18 @@ The stack panel arranges its children in a single line or stack order, either ve
 - Provides consistent alignment and distribution of child elements.
 - Ideal for creating organized, sequential layouts.
 
-The following code illustrates how to add a stack panel:
+The following code illustrates how to add a Stack Container:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/group/es5stack-cs1/app/index.jsx %}
+{% include code-snippet/diagram/group/es5stack-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/group/es5stack-cs1/app/index.tsx %}
+{% include code-snippet/diagram/group/es5stack-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5stack-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/group/es5stack-cs1" %}
 
 ### Difference Between Basic Groups and Containers
 

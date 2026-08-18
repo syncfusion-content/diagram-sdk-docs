@@ -3,9 +3,9 @@ layout: post
 title: Overview in React Diagram | Syncfusion®
 description: Add the React Diagram Overview (mini-map) panel for one-click navigation, panning, and zoom-to-area in large canvases through a small reference control.
 control: Overview 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Overview in React Diagram
@@ -24,27 +24,27 @@ The Overview component is essential when working with:
 
 ## Create Overview Component
 
-To implement an overview, configure the [`sourceID`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#sourceid) property to reference the target diagram's identifier. This establishes the connection between the overview and the main diagram.
+To implement an overview, configure the [`sourceID`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#sourceid) property to reference the target diagram's identifier. This establishes the connection between the overview and the main diagram. The target `DiagramComponent` must have a valid `id` and be rendered in the DOM before the Overview binds to it via `sourceID`.
 
-Define the overview dimensions using the [`width`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#width) and [`height`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#height) properties to ensure optimal visibility and performance.
+Define the overview dimensions using the [`width`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#width) and [`height`](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel#height) properties to ensure optimal visibility and performance. For the complete list of available properties, see the [Overview API reference](https://ej2.syncfusion.com/react/documentation/api/overview/overviewModel). The example below also sets `snapSettings` to `SnapConstraints.None` and defines a `NodeModel` array to populate the diagram.
 
 
-The following code demonstrates basic overview implementation:
+The following code demonstrates a basic overview implementation. The component is rendered to the DOM using `ReactDOM.createRoot(...).render(<App />)`.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/overView/es5Node-cs2/app/index.jsx %}
+{% include code-snippet/diagram/overView/es5Node-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/overView/es5Node-cs2/app/index.tsx %}
+{% include code-snippet/diagram/overView/es5Node-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs2" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/overView/es5Node-cs2" %}
 
 ## Overview Interactions
 
-The overview displays the current viewport as a red rectangle overlay. This rectangle serves as an interactive control for diagram navigation and zoom operations.
+The overview displays the current viewport as a red rectangle overlay. This rectangle serves as an interactive control for diagram navigation and zoom operations. These interactions are enabled by default; no additional configuration or code is required to enable drag, resize, or click navigation when the Overview is bound to a diagram.
 
 ### Available Interactions
 
@@ -57,15 +57,17 @@ The overview displays the current viewport as a red rectangle overlay. This rect
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/overView/es5Node-cs1/app/index.jsx %}
+{% include code-snippet/diagram/overView/es5Node-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/overView/es5Node-cs1/app/index.tsx %}
+{% include code-snippet/diagram/overView/es5Node-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs1" %}
-
-The following demonstration shows overview interaction capabilities:
+ {% previewsample "page.domainurl/code-snippet/diagram/overView/es5Node-cs1" %}
 
 ![Overview-interaction](images/overview-interaction.gif)
+
+## Troubleshooting
+
+If the Overview appears blank, verify that the diagram's `id` matches the Overview's `sourceID` and that the target diagram is rendered before the Overview.

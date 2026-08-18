@@ -3,32 +3,32 @@ layout: post
 title: Node Customization in React Diagram | Syncfusion®
 description: Apply consistent defaults across every node in the React Diagram through a defaults callback to centralize size, style, and shape settings.
 control: Appearence of nodes 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Node Customization in React Diagram
 
-To customize the appearance and position of nodes in the React Diagram component, refer to the video link below.
+The appearance of nodes in the React Diagram component can be customized using styles, gradients, shadows, and other visual properties. To see how to customize the appearance of nodes, refer to the video link below.
 
 {% youtube "https://www.youtube.com/watch?v=pn02S_rwupw" %}
 
-## Common values to the node.
+## Common Values for Nodes
 The [`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getnodedefaults) property in the React Diagram control allows you to define default settings that apply to all nodes based on specific conditions or requirements. This approach ensures consistency across your diagram and reduces repetitive code.
 
 The following code example shows how to use the getNodeDefaults function to apply common styling to all nodes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs1/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs1/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs1" %}
+{% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs1" %}
 
 N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
@@ -36,20 +36,20 @@ N> The value we set in the getNodeDefaults has the higher priority in rendering.
 
 ### Apply style to nodes
 
-The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokedasharray), ['strokeWidth'](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokewidth), ['strokeColor'](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#opacity). The [`visible`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
- 
+The appearance of a node can be customized by changing its [`fill`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#fill) color, [`strokeDashArray`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokedasharray), [`strokeWidth`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokewidth), [`strokeColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#strokecolor) and [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shapeStyleModel#opacity). The [`visible`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#visible) property of the node enables or disables the visibility of the node.
+
 The following code illustrates how to customize the appearance of nodes using style properties:
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs2/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs2/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs2" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs2" %}
 
 ### Apply gradient style to nodes
  
@@ -70,41 +70,39 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs3/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs3/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs3" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs3" %}
  
 #### Radial gradient
 
-* [`RadialGradient`](https://ej2.syncfusion.com/react/documentation/api/diagram/radialGradientModel) defines a smooth transition between stops that radiates from a central point in a circular pattern. This creates a spotlight or glow effect on nodes.
+* [`RadialGradient`](https://ej2.syncfusion.com/react/documentation/api/diagram/radialgradientmodel) defines a smooth transition between stops that radiates from a central point in a circular pattern. This creates a spotlight or glow effect on nodes.
 
 A radial gradient's cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs4/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs4/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs4" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs4" %}
 
-## Customize the style of node selector
-
-### Customize the style of main node selector indicator
+## Customize the style of main node selector indicator
 
 In the diagram, multiple nodes can be selected simultaneously. When selecting multiple nodes, a highlighter renders to indicate the selection of each node. The border style of the first node in the multiple selection can be customized using the CSS class name [`e-diagram-first-selection-indicator`].
 
 Use the following CSS to customize the style of the main node during multiple selection:
 
-```css
+```
 
  .e-diagram-first-selection-indicator{
    stroke-width: 5px;
@@ -126,48 +124,48 @@ The following code shows how to set the rotate angle and corner radius for nodes
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs5/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs5/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs5" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs5" %}
 
 ## Apply shadow effect to nodes
  
-Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#shadow) effects to nodes, which is disabled by default. Shadow effects can be enabled using the constraints property of the node to create depth and visual hierarchy in your diagrams.
+Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#shadow) effects to nodes, which is disabled by default. Shadow effects can be enabled by adding the `NodeConstraints.Shadow` value to the `constraints` property of the node to create depth and visual hierarchy in your diagrams.
 
 The following code illustrates how to apply shadow effects to nodes:
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs6/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs6/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs6" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs6" %}
  
 ### Customizing shadow effects
  
-The [`angle`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#angle), [`distance`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#distance), and [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#opacity) of the shadow can be customized using the `shadow` property of the node. These properties allow you to control the direction, positioning, and transparency of the shadow effect.
+The [`angle`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#angle), [`distance`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#distance), [`opacity`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#opacity), and [`color`](https://ej2.syncfusion.com/react/documentation/api/diagram/shadowModel#color) of the shadow can be customized using the `shadow` property of the node. These properties allow you to control the direction, positioning, transparency, and color of the shadow effect.
 
 The following code example illustrates how to customize shadow properties:
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs7/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs7/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs7" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs7" %}
 
 ## Provide additional information to the node
 
@@ -175,7 +173,7 @@ The [`addInfo`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#
 
 The following code shows how to set the addInfo value:
 
-```ts
+```
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {
@@ -189,7 +187,7 @@ let node: NodeModel[] = [{
     // Position of the node
     offsetX: 250,
     offsetY: 250,
-    //Additional informations about the node.
+    //Additional information about the node.
     addInfo: addInfo,
     // Size of the node
     width: 100,
@@ -222,47 +220,53 @@ The [`zIndex`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#z
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs8/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nCustomization-cs8/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nCustomization-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nCustomization-cs8" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nCustomization-cs8" %}
 
 N> By default, the zIndex will be generated automatically based on the order of the diagram elements added to the diagram. The default value will be Number.MIN_VALUE.
 
 ## Pivot
 
-Node rotation angle will be based on [`Pivot`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#pivot) values which range from 0 to 1, similar to offset values. By default, the pivot values are set to X = 0.5 and Y = 0.5, meaning rotation occurs around the center of the node.
+The node's rotation angle is based on [`pivot`](https://ej2.syncfusion.com/react/documentation/api/diagram/node#pivot) values that range from 0 to 1, similar to offset values. By default, the pivot values are set to X = 0.5 and Y = 0.5, meaning rotation occurs around the center of the node.
 
 The following table illustrates how pivot relates to offset values with node boundaries:
 
 | Pivot | Offset |
 |-------- | -------- |
-| (0.5,0.5)| offsetX and offsetY values are considered as the node’s center point. |
-| (0,0) | offsetX and offsetY values are considered as the top-left corner of the node. |
-| (1,1) | offsetX and offsetY values are considered as the bottom-right corner of the node. |
+| (0.5, 0.5) | offsetX and offsetY values are considered as the node’s center point. |
+| (0, 0) | offsetX and offsetY values are considered as the top-left corner of the node. |
+| (1, 1) | offsetX and offsetY values are considered as the bottom-right corner of the node. |
+| (0, 1) | offsetX and offsetY values are considered as the bottom-left corner of the node. |
+| (1, 0) | offsetX and offsetY values are considered as the top-right corner of the node. |
+
+N> The pivot values range between 0 and 1, where 0 represents the top/left edge, 0.5 represents the center, and 1 represents the bottom/right edge of the node.
  
 The following code illustrates how to change the `pivot` value.
+
+N> For more details on pivot points and node positioning, refer to the [Positioning a Node](./nodes-positioning#position) topic.
  
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.jsx %}
+{% include code-snippet/diagram/nodes/nPositioning-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.tsx %}
+{% include code-snippet/diagram/nodes/nPositioning-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/nodes/nPositioning-cs1" %}
 
-## Get connected connector from node
+## Get the Connectors Connected to a Node
 
 Node has the inEdges and outEdges read-only properties. These properties allow you to identify all connectors that are connected to the node. You can then retrieve these connectors using the [`getObject`](https://ej2.syncfusion.com/react/documentation/api/diagram#getobject) method in the diagram.
 
-```ts
+```
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {
@@ -271,6 +275,9 @@ import {
     NodeModel,
     ConnectorModel,
 } from "@syncfusion/ej2-react-diagrams";
+
+let diagramInstance: DiagramComponent;
+
 let nodes: NodeModel[] = [{
         id: 'Start',
         width: 140,
@@ -323,23 +330,19 @@ let connectors: ConnectorModel[] = [{
 }];
 function App() {
     return (
-        <DiagramComponent id="container"
-        ref={(diagram) => (diagramInstance = diagram)}
-        width = {
-            '100%'
-        }
-        height = {
-            '600px'
-        }
-        nodes = {
-            nodes
-        }
-        connectors = {
-            connectors
-        }
+        <DiagramComponent
+            id="container"
+            ref={(diagram) => (diagramInstance = diagram)}
+            width={'100%'}
+            height={'600px'}
+            nodes={nodes}
+            connectors={connectors}
+            created={() => {
+                diagramInstance.getObject(diagramInstance.nodes[0].outEdges[0]);
+            }}
         />
-        diagramInstance.getObject(diagramInstance.nodes[0].outEdges[0]);
-    )}
+    );
+}
 const root = ReactDOM.createRoot(document.getElementById('diagram'));
 root.render(<App />);
 ```

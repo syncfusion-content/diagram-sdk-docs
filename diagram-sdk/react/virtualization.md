@@ -3,9 +3,9 @@ layout: post
 title: Virtualization in React Diagram | Syncfusion®
 description: Enable Virtualization in the React Diagram to render only the in-viewport nodes and connectors, keeping large diagrams fast and memory-light.
 control: Virtualization 
-platform: diagram-sdk
+platform: ej2-react
 documentation: ug
-domainurl: https://help.syncfusion.com/diagram-sdk
+domainurl: ##DomainURL##
 ---
 
 # Virtualization in React Diagram
@@ -34,13 +34,13 @@ Virtualization is recommended for diagrams that meet any of these criteria:
 
 ## Enabling Virtualization
 
-To activate virtualization, include the `Virtualization` constraint in the diagram's constraints property. The virtualization feature works in conjunction with the diagram's scrolling capabilities to manage object loading dynamically.
-
-To enable virtualization in a diagram, you need to include the virtualization constraint in the diagram's constraints. For more information, refer to the  [`diagram constraints`](https://ej2.syncfusion.com/react/documentation/api/diagram#constraints).
+To activate virtualization, include the `Virtualization` constraint in the diagram's constraints property. The virtualization feature works in conjunction with the diagram's scrolling capabilities to manage object loading dynamically. For more information, refer to the [`diagram constraints`](https://helpej2.syncfusion.com/react/documentation/api/diagram#constraints).
 
 The following code illustrates how to enable Virtualization mode in the diagram.
 
 ```js
+import { DiagramComponent, DiagramConstraints } from "@syncfusion/ej2-react-diagrams";
+
 function App() {
   return (
     <DiagramComponent
@@ -58,15 +58,14 @@ const root = ReactDOM.createRoot(document.getElementById("diagram"));
 root.render(<App />);
 ```
 
-
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram-sdk/react/virtualization/virtualization-cs1/app/index.jsx %}
+{% include code-snippet/diagram/virtualization/virtualization-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/virtualization/virtualization-cs1/app/index.tsx %}
+{% include code-snippet/diagram/virtualization/virtualization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/virtualization/virtualization-cs1" %}
+ {% previewsample "page.domainurl/code-snippet/diagram/virtualization/virtualization-cs1" %}
