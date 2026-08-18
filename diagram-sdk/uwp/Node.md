@@ -76,7 +76,7 @@ refer to [Data Source](/diagram-sdk/uwp/datasource).
 
 ### Draw Nodes
 
-Nodes can be interactively drawn by clicking and dragging the Diagram surface by using **Drawing Tool**. For more information about drawing Nodes, refer to [Draw Nodes](/diagram-sdk/uwp/tools#drawing-tools:shapes).
+Nodes can be interactively drawn by clicking and dragging the Diagram surface by using **Drawing Tool**. For more information about drawing Nodes, refer to [Draw Nodes](/diagram-sdk/uwp/tools).
 
 ## Position
 
@@ -228,12 +228,12 @@ Node can be selected by clicking on it.
 
 ![node with selection](Node_images/Node_img7.jpg)
 
-To explore about selection and selection related events , refer to [Selection](/diagram-sdk/uwp/interaction#selection) .
+To explore about selection and selection related events , refer to [Selection](/diagram-sdk/uwp/interaction) .
 
 ### Drag
 
 * Selected object can be dragged by clicking and dragging it. When multiple elements are selected, dragging any one of the selected elements move every selected element.
-* While dragging, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines#snapping).
+* While dragging, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines).
 
 * `NodeChangedEvent` will notify the `OffsetX` and `OffsetY` changes with their old and new values.Along with that, this event will give information about interaction state. To explore about aruguments, please refer to [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
@@ -243,7 +243,7 @@ To explore about selection and selection related events , refer to [Selection](/
 
 * Selector is surrounded by eight thumbs. When dragging these thumbs, selected items can be resized smaller or larger.
 * When one corner of the selector is dragged, opposite corner is in a static position.
-* While resizing, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines#snapping).
+* While resizing, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines).
 
 * `NodeChangedEvent` will notify the `UnitHeight` and `UnitWidth` changes with their old and new values.Along with that, this event will give information about  interaction state. To explore about arguments, please refer to [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
@@ -253,7 +253,7 @@ To explore about selection and selection related events , refer to [Selection](/
 
 * A rotate handler is placed above the selector. Clicking and dragging the handler in a circular direction lead to rotate the Node.
 * The Node is rotated with reference to the static pivot point.
-* Pivot thumb (thumb at the middle of the Node) appears while rotating the Node to represent the static point.For more information about pivot, refer to [Position](/diagram-sdk/uwp/node#position).
+* Pivot thumb (thumb at the middle of the Node) appears while rotating the Node to represent the static point.For more information about pivot, refer to [Position](/diagram-sdk/uwp/node).
 
 * `NodeChangedEvent` will notify the `RotateAngle` changes with their old and new values.Along with that, this event will give information about iteraction State. To explore about arguments, please refer to the [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
@@ -261,4 +261,4 @@ To explore about selection and selection related events , refer to [Selection](/
 
 ## Constraints
 
-The `Constraints` property of Node allows you to enable/disable certain features. For more information about Node constraints, refer to [Node Constraints](/diagram-sdk/uwp/constraints#node-constraints).
+The `Constraints` property of Node allows you to enable/disable certain features. For more information about Node constraints, refer to [Node Constraints](/diagram-sdk/uwp/constraints).
