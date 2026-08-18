@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Entity Relationship Diagram in React Diagram | Syncfusion®
-platform: ej2-react
+platform: diagram-sdk
 description: Build Entity Relationship Diagrams in React Diagram using entity nodes, field rows, and relationship connectors.
 control: ERDiagram
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 
@@ -31,14 +31,14 @@ N> Before using ER shapes, inject the `ErDiagrams` module by placing `<Inject se
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/erDiagram/er-diagram-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-1" %}
 
 ### Configure the entity header
 
@@ -52,14 +52,14 @@ The header is the top section of an ER entity node that displays the entity name
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-header/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-header/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-header/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/erDiagram/er-diagram-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-header" %}
 
 N> If no header is specified, a default header is automatically added to the ER entity node with the default style and height.
 
@@ -80,14 +80,14 @@ Fields represent the columns or attributes of an entity. They can be defined usi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-fields/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-fields/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/erDiagram/er-diagram-fields" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-fields" %}
 
 N> If no fields are specified, a default single field is automatically added to the ER entity node.
 
@@ -157,14 +157,14 @@ The snippet below also sets [fieldDefaults](https://ej2.syncfusion.com/react/doc
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-styling/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-styling/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/erDiagram/er-diagram-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-styling" %}
 
 N> Field-level styles override applicable node-level and field default styles.
 
@@ -256,14 +256,14 @@ The [sourceMultiplicity](https://ej2.syncfusion.com/react/documentation/api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-cardinality/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/erDiagram/er-diagram-cardinality/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/erDiagram/er-diagram-cardinality" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/erDiagram/er-diagram-cardinality" %}
 
 ## See also
 

@@ -3,9 +3,9 @@ layout: post
 title: Migration from EJ1 in React Diagram | Syncfusion®
 description: Migrate EJ1 diagram JSON into the React EJ2 Diagram by injecting the EJ1 serialization module to preserve backward-compatible data structures.
 control: EJ1 Migration 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Migration from EJ1 in React Diagram

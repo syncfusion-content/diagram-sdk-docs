@@ -3,9 +3,9 @@ layout: post
 title: BPMN Text Annotation in React Diagram | Syncfusion®
 description: Attach BPMN text annotations to any target shape in the React Diagram; annotations follow the target on move and can be dragged to another node.
 control: Bpmn Text annotation 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Text Annotation in React Diagram
@@ -26,14 +26,14 @@ The [`offsetX`](https://ej2.syncfusion.com/react/documentation/api/diagram/bpmnT
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Text-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text-cs1" %}
 
 ### Text Annotation in Palette
 
@@ -41,14 +41,14 @@ Text annotation nodes can be rendered in the symbol palette alongside other BPMN
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text1-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text1-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Text1-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text1-cs1" %}
 
 ### Connect the TextAnnotation to BPMN Node
 
@@ -95,11 +95,11 @@ The following example shows how to use these methods to add a text annotation no
 
  {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text2-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Text2-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Text2-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Text2-cs1" %}

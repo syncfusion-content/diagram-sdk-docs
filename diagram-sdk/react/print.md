@@ -3,9 +3,9 @@ layout: post
 title: Print in React Diagram | Syncfusion®
 description: Print the current React Diagram to produce a high-quality paper copy with customizable region, scale, page size, and orientation options.
 control: Print
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Print in React Diagram
@@ -73,15 +73,15 @@ The following code example illustrates how to print the diagram based on differe
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/print/print-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/print/print-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/print/print-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs1" %}
 
 ### Multiple Page
 
@@ -91,15 +91,15 @@ The following code example demonstrates how to enable multiple page printing:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/print/print-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/print/print-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/print/print-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs2" %}
 
 ### Margin
 
@@ -107,15 +107,15 @@ The margin for the print region can be set using the [`margin`](https://ej2.sync
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/print/print-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/print/print-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/print/print-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs3" %}
 
 ### Page Width and Page Height
 
@@ -125,15 +125,15 @@ N> The example values `816` and `1056` correspond to US Letter size (8.5" × 11"
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/print/print-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/print/print-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/print/print-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs4" %}
 
 ### Page Orientation
 
@@ -146,15 +146,15 @@ The following example shows how to configure page orientation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/print/print-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs5/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/print/print-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/print/print-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/print/print-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/print/print-cs5" %}
 
 ## Limitations
 

@@ -3,9 +3,9 @@ layout: post
 title: BPMN Group in React Diagram | Syncfusion®
 description: Visually group related BPMN elements in the React Diagram with a Group shape that uses dashed borders to organize without changing process semantics.
 control: Bpmn Group 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Group in React Diagram
@@ -22,14 +22,14 @@ To create a BPMN group, set the [`shape`](https://ej2.syncfusion.com/react/docum
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Group-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Group-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Group-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Group-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Group-cs1" %}
 
 ## See Also
 

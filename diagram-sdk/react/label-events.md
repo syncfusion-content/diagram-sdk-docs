@@ -3,9 +3,9 @@ layout: post
 title: Label Events in React Diagram | Syncfusion®
 description: Listen for React Diagram annotation events including KeyDown, KeyUp, DoubleClick, TextEdit, and SelectionChange to drive custom edit-mode behavior.
 control: Label Events
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Label Events in React Diagram
@@ -28,14 +28,14 @@ The event arguments include details about the pressed key, modifier keys, and th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Event-cs1" %}
 
 ## KeyUp Event
 
@@ -45,14 +45,14 @@ Unlike the keyDown event, keyUp ensures that the key action has been fully compl
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Event-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Event-cs2" %}
 
 ## DoubleClick Event
 
@@ -62,14 +62,14 @@ The event provides information about the clicked element, mouse position, and cu
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Event-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Event-cs3" %}
 
 ## TextEdit Event
 
@@ -79,14 +79,14 @@ This event is particularly useful for implementing text validation, formatting, 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Event-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Event-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Event-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Event-cs4" %}
 
 ### Preventing Text Changes
 

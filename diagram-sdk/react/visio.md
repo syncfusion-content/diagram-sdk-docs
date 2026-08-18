@@ -2,10 +2,10 @@
 layout: post
 title: Import and Export Visio files in React Diagram | Syncfusion®
 description: Import existing Microsoft Visio (vsdx) files into the React Diagram and export diagrams back to Visio for round-trip editing across tools.
-platform: ej2-react
+platform: diagram-sdk
 control: Diagram
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Import and Export Visio files in React Diagram
@@ -51,14 +51,14 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/visioimportexport/visioImport-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/visioimportexport/visioImport-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "page.domainurl/code-snippet/diagram/visioimportexport/visioImport-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1" %}
 
 ### Import options
 
@@ -123,14 +123,14 @@ The following example exports a React Diagram to a Microsoft Visio (**.vsdx**) f
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/visioimportexport/visioExport-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/visioimportexport/visioExport-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "page.domainurl/code-snippet/diagram/visioimportexport/visioExport-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1" %}
 
 ### Export options
 

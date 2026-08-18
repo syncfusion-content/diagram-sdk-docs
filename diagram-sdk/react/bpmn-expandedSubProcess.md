@@ -3,9 +3,9 @@ layout: post
 title: BPMN Expanded SubProcess in React Diagram | Syncfusion®
 description: Use expanded BPMN subprocesses in the React Diagram to display internal child activities directly and let users drop new nodes into the container.
 control: Bpmn Expanded subProcess 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Expanded SubProcess in React Diagram
@@ -22,14 +22,14 @@ To create an expanded subprocess, configure the shape as [`activity`](https://ej
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs1" %}
 
 ### Add BPMN Nodes to Expanded SubProcess
 
@@ -39,14 +39,14 @@ The following code example demonstrates how to define child processes within an 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs2" %}
 
 ### Add BPMN Nodes to Expanded SubProcess at Runtime
 
@@ -66,14 +66,14 @@ The following example demonstrates how to implement dynamic process addition and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5expand-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5expand-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5expand-cs3" %}
 
 ## See also
 

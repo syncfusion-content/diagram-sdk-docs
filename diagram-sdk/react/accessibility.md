@@ -3,9 +3,9 @@ layout: post
 title: Accessibility in React Diagram | Syncfusion®
 description: Review the WAI-ARIA and Section 508 compliance matrix for the React Diagram, including screen reader, color contrast, and keyboard navigation support.
 control: Accessibility 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Accessibility in React Diagram

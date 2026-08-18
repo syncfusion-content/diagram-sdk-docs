@@ -3,9 +3,9 @@ layout: post
 title: Interaction in React Diagram | Syncfusion®
 description: Select, click, drag, resize, and rotate React Diagram elements; group selection and selector-based bulk edits are supported out of the box.
 control: Interaction 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Interaction in React Diagram
@@ -153,14 +153,14 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/react/documentation/api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/interaction/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs1" %}
 
 ## Select entire elements in diagram programmatically
 
@@ -240,14 +240,14 @@ Maintaining the aspect ratio in a diagram means that when you resize a node by d
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/interaction/interaction-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs2" %}
 
 ## Customize the resize-thumb size
 
@@ -256,14 +256,14 @@ The appearance such as fill, stroke, and stroke width of the node resize thumb a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/interaction/interaction-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/interaction/interaction-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/interaction/interaction-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs3" %}
 
 ## Rotate
 
@@ -279,14 +279,14 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/es5Node-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/es5Node-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/es5Node-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/es5Node-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/nodes/es5Node-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/es5Node-cs4" %}
 
 ![Node interaction](./images/node-interactions.gif)
 

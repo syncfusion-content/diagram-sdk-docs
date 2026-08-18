@@ -3,9 +3,9 @@ layout: post
 title: Page Settings in React Diagram | Syncfusion®
 description: Configure the React Diagram page dimensions, background, margin, and orientation, with optional multiple pages, page breaks, and fit options.
 control: Page settings 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Page Settings in React Diagram
@@ -26,14 +26,14 @@ The following example shows the customization of page settings.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5pagesettings-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5pagesettings-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5pagesettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs1" %}
 
 ## Set Background Image
 
@@ -43,14 +43,14 @@ The following code illustrates how to set a background image on the diagram page
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5BGImage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5BGImage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5BGImage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5BGImage-cs1" %}
 
 ## Page Orientation
 
@@ -65,14 +65,14 @@ The following example demonstrates how orientation affects page dimensions by sw
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5pagesettings-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5pagesettings-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5pagesettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5pagesettings-cs2" %}
 
 ## Multiple Page and Page Breaks
 
@@ -82,14 +82,14 @@ The [`multiplePage`](https://ej2.syncfusion.com/react/documentation/api/diagram/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5multiplepage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5multiplepage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5multiplepage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5multiplepage-cs1" %}
 
 The color of the page break lines can be customized by overriding the styles of the .e-diagram-page-break class. For more details, refer to [`CSS customization`](https://ej2.syncfusion.com/react/documentation/diagram/style#customizing-the-page-breaks).
 
@@ -109,14 +109,14 @@ The following example shows how to configure boundary constraints to restrict el
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5boundaryconstraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5boundaryconstraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5boundaryconstraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5boundaryconstraints-cs1" %}
 
 ## Fit Options
 
@@ -126,11 +126,11 @@ The following example demonstrates the configuration and usage of fit options fo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/pagesettings/es5FitOption-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/pagesettings/es5FitOption-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/pagesettings/es5FitOption-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/pagesettings/es5FitOption-cs1" %}

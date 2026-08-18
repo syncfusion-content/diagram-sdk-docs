@@ -3,9 +3,9 @@ layout: post
 title: Symmetric Layout in React Diagram | Syncfusion®
 description: Use the Symmetric force-directed layout in the React Diagram to balance node placement via spring attraction and repulsion forces for organic graphs.
 control: Symmetric layout 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Symmetric Layout in React Diagram
@@ -32,15 +32,15 @@ To arrange nodes using the symmetric layout, set the layout [`type`](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/symmetric-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/symmetric-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/symmetric-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/symmetric-cs1" %}
  
 
 ![Symmetric layout arranging nodes via spring attraction and repulsion forces](images/symmetric.png)

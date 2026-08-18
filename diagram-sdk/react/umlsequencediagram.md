@@ -3,9 +3,9 @@ layout: post
 title: UML Sequence Diagram in React Diagram | Syncfusion®
 description: Visualize object interactions over time in the React Diagram using UML Sequence Diagrams with participants, messages, activations, and fragments.
 control: UmlSequenceDiagram 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # UML Sequence Diagram in React Diagram
@@ -50,14 +50,14 @@ The following code example demonstrates how to create different types of partici
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/umlsequencediagram/umlsequencediagram-1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-1" %}
 
 ### Messages
 
@@ -92,14 +92,14 @@ The following example shows how to create different types of messages between pa
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/umlsequencediagram/umlsequencediagram-2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-2" %}
  
 ### Activation Boxes
 
@@ -119,14 +119,14 @@ The following example demonstrates how to create activation boxes that span spec
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/umlsequencediagram/umlsequencediagram-3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-3" %}
 
 ### Fragments
 
@@ -173,14 +173,14 @@ The following example illustrates how to create fragments with different conditi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/umlsequencediagram/umlsequencediagram-4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/umlsequencediagram/umlsequencediagram-4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/umlsequencediagram/umlsequencediagram-4" %}
 
 ## Customization Options
 

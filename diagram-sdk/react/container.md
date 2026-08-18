@@ -3,9 +3,9 @@ layout: post
 title: Container in React Diagram | Syncfusion®
 description: Group related shapes into a React Diagram Container node with a header, child management, and automatic boundary sizing for organized composite layouts.
 control: Container 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Container in React Diagram
@@ -20,14 +20,14 @@ Container nodes require specific configuration to enable child element managemen
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/container/container-1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/container/container-1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/container/container-1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/container/container-1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "page.domainurl/code-snippet/diagram/container/container-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-1" %}
 
 ### Setting a Header
 
@@ -37,14 +37,14 @@ The following example shows header configuration with custom styling:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/container/container-2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/container/container-2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/container/container-2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/container/container-2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "page.domainurl/code-snippet/diagram/container/container-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/container/container-2" %}
 
 N> Double-click the header region to enable inline text editing functionality.
 

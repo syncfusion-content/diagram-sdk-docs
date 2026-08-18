@@ -3,9 +3,9 @@ layout: post
 title: Label Appearance in React Diagram | Syncfusion®
 description: Style React Diagram labels with font, color, fill, stroke, opacity, bold, italic, and text-decoration for any text annotation.
 control: Label Appearance
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Label Appearance in React Diagram
@@ -24,14 +24,14 @@ The following code demonstrates comprehensive label appearance customization:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Appear-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Appear-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Appear-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Appear-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Appear-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Appear-cs1" %}
 
 ## Horizontal and vertical alignment
 
@@ -53,14 +53,14 @@ The following code example shows how to configure label alignment:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Alignment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Alignment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Alignment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Alignment-cs1" %}
 
 ## Annotation Margin
 
@@ -70,14 +70,14 @@ The following example demonstrates label positioning using [`margin`](https://he
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Margin-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Margin-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Margin-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Margin-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Margin-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Margin-cs1" %}
 
 ## Hyperlink
 
@@ -91,14 +91,14 @@ The following example shows hyperlink implementation and customization:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Link-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Link-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Link-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Link-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Link-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Link-cs1" %}
 
 ## Rotate Annotation
 
@@ -107,14 +107,14 @@ Labels can be rotated to any angle using the [`rotateAngle`](https://helpej2.syn
 The following example demonstrates label rotation:
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5RotateAngle-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5RotateAngle-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5RotateAngle-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5RotateAngle-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5RotateAngle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5RotateAngle-cs1" %}
 
 ## Template support for Annotation
 
@@ -128,14 +128,14 @@ The following code illustrates how to define a template in annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5labeltemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5labeltemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5labeltemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5labeltemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5labeltemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5labeltemplate-cs1" %}
 
 N> Specify width and height for labels when using templates to ensure proper alignment and rendering.
 
@@ -147,14 +147,14 @@ Define the template markup inside a `<script>` tag with a unique `id`, then bind
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Annotationtemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Annotationtemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Annotationtemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Annotationtemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Annotationtemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotationtemplate-cs1" %}
 
 ### Functional template
 
@@ -164,14 +164,14 @@ The following code illustrates how to define a functional template.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5AnnotationFunctionaltemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5AnnotationFunctionaltemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5AnnotationFunctionaltemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5AnnotationFunctionaltemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5AnnotationFunctionaltemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5AnnotationFunctionaltemplate-cs1" %}
 
 ## Text align
 
@@ -181,14 +181,14 @@ The following code demonstrates text alignment configuration:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5TextAlign-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5TextAlign-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5TextAlign-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5TextAlign-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5TextAlign-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5TextAlign-cs1" %}
 
 The following table shows the different text alignment.
 
@@ -207,14 +207,14 @@ The following code shows text wrapping implementation:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Wrap-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Wrap-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Wrap-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Wrap-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Wrap-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Wrap-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -242,14 +242,14 @@ The types of text overflow are shown in the following table.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Overflow-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Overflow-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Overflow-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Overflow-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Overflow-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Overflow-cs1" %}
 
 ## See also
 

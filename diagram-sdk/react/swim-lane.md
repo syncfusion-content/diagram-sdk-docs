@@ -3,9 +3,9 @@ layout: post
 title: Swimlane in React Diagram | Syncfusion®
 description: Create horizontal or vertical Swimlane nodes in the React Diagram to visualize cross-functional business processes grouped by department or role.
 control: Swim lane 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Swimlane in React Diagram
@@ -23,14 +23,14 @@ The following code example demonstrates how to define a basic swimlane object:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5Swimlaneheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5Swimlaneheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5Swimlaneheader-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs1" %}
 
 ## Orientation
 
@@ -44,14 +44,14 @@ Lanes are arranged from left to right, with the header positioned at the top. Th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5SwimlaneOrientation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5SwimlaneOrientation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5SwimlaneOrientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5SwimlaneOrientation-cs1" %}
 
 
 ## Headers
@@ -64,14 +64,14 @@ The following code example illustrates how to define a swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5Swimlaneheader-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5Swimlaneheader-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5Swimlaneheader-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Swimlaneheader-cs2" %}
 
 ### Header Customization
 
@@ -83,14 +83,14 @@ The following code example illustrates how to customize the swimlane header.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5HeaderCustomize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5HeaderCustomize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5HeaderCustomize-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5HeaderCustomize-cs1" %}
 
 ### Dynamic Header Customization
 
@@ -98,14 +98,14 @@ Headers can be modified programmatically during runtime to respond to user inter
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5Dynamicheader-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5Dynamicheader-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5Dynamicheader-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Dynamicheader-cs1" %}
 
 ### Header Editing
 

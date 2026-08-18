@@ -3,9 +3,9 @@ layout: post
 title: Swimlane Palette in React Diagram | Syncfusion®
 description: Add pre-built Swimlane and Phase shapes to the React Diagram Symbol Palette for fast drag-and-drop assembly of process diagrams.
 control: Swim lane in symbol palette 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Swimlane Palette in React Diagram
@@ -20,14 +20,14 @@ The following example shows how to add preconfigured swimlane and phase shapes t
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5Palette-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Palette-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5Palette-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Palette-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5Palette-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Palette-cs1" %}
 
 ## Drag and Drop Swimlanes from the Palette
 

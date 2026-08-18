@@ -3,9 +3,9 @@ layout: post
 title: Straight Connectors in React Diagram | Syncfusion®
 description: Render straight-line connector segments in the React Diagram by setting the segment type and endpoint coordinates for clean, direct node-to-node links.
 control: Straight 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Straight Connectors in React Diagram
@@ -20,14 +20,14 @@ The following code example illustrates how to create a default straight segment.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsSegments-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegments-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsSegments-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegments-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsSegments-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegments-cs1" %}
 
 ## Defining Segment End Points
 
@@ -35,14 +35,14 @@ The [`point`](https://helpej2.syncfusion.com/react/documentation/api/diagram/str
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsSegmentsPoints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegmentsPoints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsSegmentsPoints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegmentsPoints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsSegmentsPoints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegmentsPoints-cs1" %}
 
 ## Straight Segment Editing
 
@@ -66,13 +66,13 @@ The following example shows how to add segments at runtime for the straight conn
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5StraightSegEdit-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5StraightSegEdit-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5StraightSegEdit-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5StraightSegEdit-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5StraightSegEdit-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5StraightSegEdit-cs1" %}
 
 ![Straight Segment editing GIF](images/StraightSegEdit.gif)

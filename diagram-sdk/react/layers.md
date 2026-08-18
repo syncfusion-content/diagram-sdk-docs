@@ -3,9 +3,9 @@ layout: post
 title: Layers in React Diagram | Syncfusion®
 description: Organize React Diagram elements into named layers to bulk-toggle visibility, lock interaction, and store custom metadata per group.
 control: Layers 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Layers in React Diagram
@@ -31,14 +31,14 @@ In the following example, basic shapes are categorized in layer 1, and flow shap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs1" %}
 
 
 ## Visible
@@ -51,14 +51,14 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs2" %}
 
 ## Lock
 
@@ -70,14 +70,14 @@ In the following example, the objects in layer one are locked. By default, the `
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs3" %}
 
 
 
@@ -174,14 +174,14 @@ The following code illustrates how to add a new layer with new connectors stored
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs4" %}
 
 
 ## Remove Layer at Runtime
@@ -194,14 +194,14 @@ The following code illustrates how to remove a layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs5" %}
 
 
 ## Move Objects
@@ -212,14 +212,14 @@ The following code illustrates how to move objects from one layer to another lay
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs6" %}
 
 ## Z-Index
 
@@ -253,14 +253,14 @@ The following code illustrates how to send the layer forward/backward to another
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs7" %}
 
 ## Layer and Objects Rendering Order
 
@@ -278,14 +278,14 @@ The following code illustrates how to clone the layer.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/layers/layers-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/layers/layers-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/layers/layers-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/layers/layers-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/layers/layers-cs8" %}
 
 ## Active Layer
 

@@ -3,9 +3,9 @@ layout: post
 title: Expand and Collapse Nodes in React Diagram | Syncfusion®
 description: Show or hide hierarchical children in the React Diagram by configuring expand/collapse icons on parent nodes for interactive tree navigation.
 control: Expand and collapse of nodes
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Expand and Collapse Nodes in React Diagram
@@ -51,14 +51,14 @@ The following code example demonstrates how to create icons with various shapes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nExpandAndCollapse-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nExpandAndCollapse-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nExpandAndCollapse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1" %}
 
 ### Styling and appearance
 
@@ -80,14 +80,14 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nExpandAndCollapse-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nExpandAndCollapse-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nExpandAndCollapse-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2" %}
 
 ## Managing node expansion state
 

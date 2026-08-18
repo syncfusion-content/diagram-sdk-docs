@@ -3,9 +3,9 @@ layout: post
 title: BPMN Shapes in React Diagram | Syncfusion®
 description: Activate the BpmnDiagrams module in the React Diagram to render standardized BPMN event, activity, gateway, data, and flow shapes in business process models.
 control: Bpmn shapes 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Shapes in React Diagram
@@ -18,14 +18,14 @@ To create a BPMN shape, set the node's `shape.type` property to **Bpmn** and spe
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5bpmn-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5bpmn-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5bpmn-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1" %}
 
 N> The default value for the property `shape` is **Event**.
 

@@ -3,9 +3,9 @@ layout: post
 title: PostgreSQL Server in React Diagram | Syncfusion®
 description: Bind the React Diagram to PostgreSQL via a Node.js and Express REST API to render an organizational chart from relational data.
 control: Data binding 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # PostgreSQL Server in React Diagram
@@ -608,7 +608,7 @@ The Diagram component fetches data on mount, binds it to the **DataManager**, an
 
 {% tabs %}
 {% highlight js tabtitle="index.tsx" %}
-{% include code-snippet/diagram/reactCurlyExamples/postgreSQL-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/postgreSQL-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

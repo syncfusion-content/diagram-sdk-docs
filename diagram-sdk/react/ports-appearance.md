@@ -3,9 +3,9 @@ layout: post
 title: Port Appearance in React Diagram | Syncfusion®
 description: Style React Diagram ports with stroke color, width, fill, opacity, and size, and toggle port visibility per connector and interaction needs.
 control: Ports 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Port Appearance in React Diagram
@@ -22,14 +22,14 @@ The following code illustrates how to change the appearance of a port.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs5" %}
 
 ## Change Appearance of Port at Runtime
 
@@ -37,14 +37,14 @@ The appearance of a port can be changed at runtime by customizing the style prop
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-cs6" %}
 
 ## Port Visibility
 
@@ -79,14 +79,14 @@ To render a custom shape, set shape to **Custom** and define the path by using t
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-shapes/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-shapes/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-shapes/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-shapes/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-shapes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-shapes" %}
 
 
 ## Constraints

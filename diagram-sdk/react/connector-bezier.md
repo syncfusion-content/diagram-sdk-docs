@@ -3,9 +3,9 @@ layout: post
 title: Bezier Connectors in React Diagram | Syncfusion®
 description: Create curved Bezier connectors in the React Diagram with control-point and vector-based segment shapes, plus interactive editing of the curve.
 control: Connectors 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Bezier Connectors in React Diagram
@@ -18,14 +18,14 @@ The following code example illustrates how to create a default bezier segment.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezier-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezier-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezier-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezier-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsBezier-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezier-cs1" %}
 
 ## Bezier Segment Editing
 
@@ -46,14 +46,14 @@ The [`point1`](https://helpej2.syncfusion.com/react/documentation/api/diagram/be
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierPoints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierPoints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierPoints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierPoints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsBezierPoints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierPoints-cs1" %}
 
 ![Bezier Control point set by point1 and point2](images/Bezier-point1.gif)
 
@@ -63,14 +63,14 @@ The [`vector1`](https://helpej2.syncfusion.com/react/documentation/api/diagram/b
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierVector-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierVector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierVector-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierVector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsBezierVector-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierVector-cs1" %}
 
 ![Bezier Control point set by vector1 and vector2](images/Bezier-vector1.gif)
 
@@ -80,14 +80,14 @@ By default, if no segments are explicitly defined for a Bezier connector, the Di
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorBezierAvoidOverlapping-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorBezierAvoidOverlapping-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorBezierAvoidOverlapping-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorBezierAvoidOverlapping-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorBezierAvoidOverlapping-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorBezierAvoidOverlapping-cs1" %}
 
 ### Allow Segment Reset
 
@@ -107,14 +107,14 @@ When `allowSegmentReset` is **false**, the custom positions of the control point
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5Segmentreset-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Segmentreset-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5Segmentreset-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5Segmentreset-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5Segmentreset-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5Segmentreset-cs1" %}
 
 ### How to Customize Bezier Segment Thumb Size
 
@@ -125,11 +125,11 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierThumbSize-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierThumbSize-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectorsBezierThumbSize-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierThumbSize-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectorsBezierThumbSize-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsBezierThumbSize-cs1" %}

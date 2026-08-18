@@ -3,9 +3,9 @@ layout: post
 title: Node Positioning in React Diagram | Syncfusion®
 description: Position React Diagram nodes precisely with offset coordinates and the pivot property to control whether offset is measured from center or corner.
 control: Nodes 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Node Positioning in React Diagram
@@ -44,14 +44,14 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nPositioning-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nPositioning-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nPositioning-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs1" %}
 
 ## Minimum and Maximum Size for Nodes
 
@@ -65,11 +65,11 @@ These constraints are particularly useful when creating diagrams where nodes nee
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nPositioning-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nPositioning-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nPositioning-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nPositioning-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nPositioning-cs2" %}

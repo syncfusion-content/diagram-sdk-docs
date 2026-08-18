@@ -3,9 +3,9 @@ layout: post
 title: Virtualization in React Diagram | Syncfusion®
 description: Enable Virtualization in the React Diagram to render only the in-viewport nodes and connectors, keeping large diagrams fast and memory-light.
 control: Virtualization 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Virtualization in React Diagram
@@ -60,12 +60,12 @@ root.render(<App />);
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/virtualization/virtualization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/virtualization/virtualization-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/virtualization/virtualization-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/virtualization/virtualization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/virtualization/virtualization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/virtualization/virtualization-cs1" %}

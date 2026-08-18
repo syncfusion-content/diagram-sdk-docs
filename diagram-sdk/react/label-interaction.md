@@ -3,9 +3,9 @@ layout: post
 title: Label Interaction in React Diagram | Syncfusion®
 description: Enable label interaction on React Diagram nodes and connectors for select, drag, rotate, resize, and edit operations at runtime.
 control: Label Interaction
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Label Interaction in React Diagram
@@ -14,14 +14,14 @@ The Diagram component allows labels to be interactive through selecting, draggin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Interaction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Interaction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Interaction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs1" %}
 
 ## Constraints
 
@@ -29,14 +29,14 @@ The [`constraints`](https://helpej2.syncfusion.com/react/documentation/api/diagr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Constraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Constraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Constraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Constraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Constraints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Constraints-cs1" %}
 
 ## Label Editing
 
@@ -47,14 +47,14 @@ By using [`startTextEdit`](https://helpej2.syncfusion.com/react/documentation/ap
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Opacity-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Opacity-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Opacity-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Opacity-cs1" %}
 
 ### Interactive Editing
 Labels can be edited interactively through user actions:
@@ -69,14 +69,14 @@ The [`rotationReference`](https://helpej2.syncfusion.com/react/documentation/api
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Rotation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Rotation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Rotation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Rotation-cs1" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -89,14 +89,14 @@ The Diagram component supports creating read-only labels that cannot be edited b
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Read-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Read-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Read-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Read-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Read-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Read-cs1" %}
 
 ## Drag Limits
 
@@ -110,14 +110,14 @@ The following code demonstrates how to configure dragLimit for connector labels:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Interaction-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Interaction-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Interaction-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Interaction-cs2" %}
 
 ## Multiple Labels
 
@@ -125,14 +125,14 @@ Nodes and connectors support multiple labels. Each label can have independent pr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Multiple-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Multiple-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Multiple-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Multiple-cs1" %}
 
 ## See also
 

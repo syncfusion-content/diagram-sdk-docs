@@ -2,10 +2,10 @@
 layout: post
 title: Symbol Palette Customization in React Diagram | Syncfusion®
 description: Customize the React Diagram Symbol Palette with header title, expanded state, icon, animation, and per-palette height and symbol size controls.
-platform: ej2-react
+platform: diagram-sdk
 control: Symbol palette 
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 # Symbol Palette Customization in React Diagram
 
@@ -25,14 +25,14 @@ The following code example illustrates how to customize palette headers.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/palette-header/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-header/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/palette-header/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-header/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/palette-header" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-header" %}
 
 ## Animation
 
@@ -40,28 +40,28 @@ The expand and collapse operations of the symbol palette can be animated by util
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/palette-animate/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-animate/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/palette-animate/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-animate/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/palette-animate" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/palette-animate" %}
 
 ## Description for Symbols
 The [`description`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription) property defines the descriptive text that appears beneath each symbol in the palette. This text provides additional information about the symbol's purpose or usage within the diagramming context. The description can be dynamically retrieved and defined using the [`getSymbolInfo`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#getsymbolinfo) method, allowing information to assist users in understanding the function or meaning of each symbol.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-desc" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc" %}
 
 ### Text wrapping and Text Overflow
 The descriptive text that appears beneath each symbol can vary in length. In cases where the text might overlap neighboring symbols in the palette, text wrapping is employed. Text wrapping is controlled using the symbolInfo's [`description`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#symboldescription) property [`wrap`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#wrap) , which supports three modes: `Wrap`, `NoWrap`, `WrapWithOverflow`. By default, text wrapping is set to '`Wrap`'.
@@ -71,14 +71,14 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-textWrp/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-textWrp/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-textWrp/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-textWrp/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-textWrp" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-textWrp" %}
 
 ### Appearance of Symbol Description
 The appearance of a symbol description in the palette can be customized by changing its [`color`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#color) , [`fill`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#fill), [`fontSize`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#fontsize) , [`fontFamily`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#fontfamily), [`bold`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#bold) [`italic`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#italic), [`textDecoration`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#textdecoration)  and [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolDescription#margin)
@@ -87,14 +87,14 @@ The following code example shows how to customize the symbol description.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-text/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-text/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-text/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-text/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-text" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-text" %}
 
 ## Symbol Size and Symbol Margin
 The size of individual symbols can be customized. The [`symbolWidth`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#symbolwidth) and  [`symbolHeight`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#symbolheight) properties enables you to define the size of the symbols.
@@ -104,14 +104,14 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/size-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/size-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/size-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/size-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/size-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/size-cs1" %}
 
 ## Symbol Preview
 
@@ -122,28 +122,28 @@ The following code example illustrates how to change the preview size of a palet
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-preview/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-preview/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-preview" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-preview" %}
 
 ## Symbol Drag Size
 The [`symbolDragSize`](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolPaletteModel#symboldragsize) property sets the dimensions (height and width) of a shape while it is being dragged from the palette to the diagram canvas. This differs from the preview size, which only affects how symbols appear in the palette itself. The following code illustrates how to set `symbolDragSize` for the symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-dragSize/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-dragSize/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-dragSize/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-dragSize/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-dragSize" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-dragSize" %}
 
 N> If the size of the symbol is not defined, the default size will be determined based on its shape. If `symbolDragSize` is not defined, the symbol's default size is used.
 
@@ -155,14 +155,14 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/expandMode/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/expandMode/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/expandMode/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/expandMode/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/expandMode" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/expandMode" %}
 
 ### Restrict Expand/Collapse of the Palette
 The symbol palette panel can be restricted from expanding. When the expand icon of the palette is clicked, the [paletteExpanding](https://ej2.syncfusion.com/react/documentation/api/diagram/symbolPaletteModel#paletteexpanding) event is triggered. In this event, we can determine whether the palette's panel should be expanded or collapsed by utilizing the **cancel** argument of the event. See the [paletteExpanding event arguments reference](https://ej2.syncfusion.com/react/documentation/api/diagram/iPaletteExpandEventArgs) for the full event argument list. By default, the panel is expanded. This restriction can be applied to each palette in the symbol palette as desired.
@@ -171,14 +171,14 @@ In the following code example, the basic shapes palette is restricted from expan
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/restrict-expand/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-expand/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/restrict-expand/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-expand/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/restrict-expand" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-expand" %}
 
 ## Tooltip for Symbols in Symbol Palette
 The symbol palette supports displaying tooltips when the mouse hovers over symbols. You can customize the tooltip for each symbol in the symbol palette.
@@ -195,14 +195,14 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-desc" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-desc" %}
 
 ### How to enable or disable the default tooltip for shapes in the symbol palette
 
@@ -212,14 +212,14 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/tooltip-custom/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/tooltip-custom/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/tooltip-custom/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/tooltip-custom/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/tooltip-custom" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/tooltip-custom" %}
 
 
 ### Provide Different Tooltip for Symbol Palette and Diagram Elements
@@ -236,14 +236,14 @@ The following code snippet demonstrates how to define two different tooltips for
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-tooltip/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-tooltip/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-tooltip/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-tooltip/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-tooltip" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-tooltip" %}
 
 ## Localization
 
@@ -252,28 +252,28 @@ The following code shows how to localize symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/locale/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/locale/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/locale/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/locale/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/locale" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/locale" %}
 
 ## Restrict Symbol Dragging from Palette
 You can restrict the symbols getting dragged from the symbol palette by setting the [`allowDrag`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#allowdrag) property of the symbol palette to **false**. By default, `allowDrag` is set to **true**.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/restrict-drag/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/restrict-drag/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/restrict-drag" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag" %}
 
 N> The diagram provides support to cancel the drag and drop operation from the symbol palette to the diagram when the ESC key is pressed.
 
@@ -282,14 +282,14 @@ The diagram provides support for enabling the search option in the palette. The 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-search/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-search/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-search" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search" %}
 
 ## Ignore Symbols on Search
 The [`ignoreSymbolsOnSearch`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#ignoresymbolsonsearch) property allows you to specify which symbols should be excluded from search results within the symbol palette. By setting this property, you can control the visibility of specific symbols during a search operation. This feature is useful for hiding certain symbols that should not be shown through search functionality.
@@ -297,28 +297,28 @@ In the following example, the symbol with the ID 'plus' is ignored, so it will n
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-search-ig/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search-ig/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-search-ig/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search-ig/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-search-ig" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-search-ig" %}
 
 ## Filter Search
 You can filter the search results based on your specific requirements. To achieve this, customize the [`filterSymbols`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#filtersymbols) method of the symbol palette as needed. The `filterSymbols` method receives the search input and the symbol list to be filtered. In the following example, the results are filtered to display only flow shapes in the search palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-filter/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-filter/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/symbol-palette/custompalette/symbol-filter/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-filter/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/symbol-palette/custompalette/symbol-filter" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/symbol-filter" %}
 
 ## See Also
 

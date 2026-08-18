@@ -3,9 +3,9 @@ layout: post
 title: Ruler in React Diagram | Syncfusion®
 description: Show horizontal and vertical Rulers in the React Diagram to measure element positions and align shapes precisely on the canvas.
 control: Ruler 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Ruler in React Diagram
@@ -23,14 +23,14 @@ The following code shows how to add a ruler to the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ruler/ruler-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ruler/ruler-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/ruler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ruler/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/ruler-cs1" %}
 
 ## Customizing the Ruler
 
@@ -55,14 +55,14 @@ The following code shows how the diagram ruler can be customized.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ruler/customRuler-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ruler/customRuler-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ruler/customRuler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs1" %}
 
 
 ### Arrange Tick
@@ -73,14 +73,14 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ruler/customRuler-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ruler/customRuler-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ruler/customRuler-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ruler/customRuler-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs2" %}
 
 ### Marker Color
 

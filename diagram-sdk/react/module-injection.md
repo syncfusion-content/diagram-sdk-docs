@@ -3,9 +3,9 @@ layout: post
 title: Module Injection in React Diagram | Syncfusion®
 description: Inject feature modules into the React Diagram to enable BPMN shapes, layouts, undo/redo, flowchart, Visio I/O, and real-time collaboration.
 control: Module injection
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Module Injection in React Diagram

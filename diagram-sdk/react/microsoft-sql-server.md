@@ -3,9 +3,9 @@ layout: post
 title: Microsoft SQL Server in React Diagram | Syncfusion®
 description: Connect the React Diagram to Microsoft SQL Server through an ASP.NET Core Web API to render an organizational chart from a relational database.
 control: diagram
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Microsoft SQL Server in React Diagram

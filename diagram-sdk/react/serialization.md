@@ -3,9 +3,9 @@ layout: post
 title: Serialization in React Diagram | Syncfusion®
 description: Save the React Diagram to a JSON string and restore it later for persistence, template reuse, and Mermaid syntax import and export.
 control: Serialization 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Serialization in React Diagram
@@ -116,7 +116,7 @@ When enabled, only explicitly set properties are included in the JSON output, si
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/reactCurlyExamples/serialization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/serialization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -156,15 +156,15 @@ For more on configuring the uploader, see the [Uploader component](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/serialization/serialization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/serialization/serialization-cs1" %}
 
 ## Mermaid Syntax Integration
 
@@ -199,15 +199,15 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/serialization/serialization-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/serialization/serialization-cs2" %}
 
 #### Loading Mind Map Layout
 
@@ -215,15 +215,15 @@ The following example demonstrates loading a mind map diagram from Mermaid synta
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/serialization/serialization-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/serialization/serialization-cs3" %}
  
 #### Loading UML Sequence Diagram
 
@@ -231,14 +231,14 @@ The following example demonstrates loading a UML Sequence diagram from Mermaid s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/serialization/serialization-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/serialization/serialization-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/serialization/serialization-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/serialization/serialization-cs4" %}
 
 N> Mermaid syntax-based serialization and deserialization supports only Flowchart layout, Mind map layout, and UML Sequence Diagram. Ensure that your Mermaid data aligns with one of these supported layouts for successful diagram loading.

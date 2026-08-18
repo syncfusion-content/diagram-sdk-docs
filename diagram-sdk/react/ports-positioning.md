@@ -3,9 +3,9 @@ layout: post
 title: Port Positioning in React Diagram | Syncfusion®
 description: Position React Diagram node ports with fractional offset values, alignment, and margin for exact slot placement on node boundaries.
 control: Ports 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Port Positioning in React Diagram
@@ -44,14 +44,14 @@ The alignment combinations shown below use offset (0, 0) as a representative exa
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-pos1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-pos1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-pos1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-pos1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-pos1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos1" %}
 
 The following table shows all possible alignment combinations when using offset (0, 0):
 
@@ -73,14 +73,14 @@ The [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/margin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-pos2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-pos2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-pos2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-pos2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-pos2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos2" %}
 
 ## See also
 

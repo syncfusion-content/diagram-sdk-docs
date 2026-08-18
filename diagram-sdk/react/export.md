@@ -3,9 +3,9 @@ layout: post
 title: Export in React Diagram | Syncfusion®
 description: Export the React Diagram to JPG, PNG, or SVG using the export API to save diagrams, documentation, or print-ready output programmatically.
 control: Export 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Export in React Diagram
@@ -92,15 +92,15 @@ The default export format is JPG. The following example shows format specificati
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs1" %}
 
 ## Margin Configuration
 
@@ -108,15 +108,15 @@ The [`margin`](https://ej2.syncfusion.com/react/documentation/api/diagram/iExpor
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs2" %}
 
 ## Export Modes
 
@@ -178,15 +178,15 @@ The following example demonstrates different region export options:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs3" %}
 
 N> The [`bounds`](https://ej2.syncfusion.com/react/documentation/api/diagram/iExportOptions#bounds) property of `exportOptions` must be set when `region` is `CustomBounds`.
 
@@ -201,15 +201,15 @@ The following example shows multi-page export configuration:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs4" %}
 
 ## Direct Image Export
 
@@ -223,15 +223,15 @@ The [`exportImage`](https://ej2.syncfusion.com/react/documentation/api/diagram#e
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs5/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs5" %}
 
 ## Diagram Content Retrieval
 
@@ -239,15 +239,15 @@ The [`getDiagramContent`](https://ej2.syncfusion.com/react/documentation/api/dia
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/export/export-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs6/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/export/export-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/export/export-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/export/export-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/export/export-cs6" %}
 
 ## Stretch Option for Enhanced Quality
 

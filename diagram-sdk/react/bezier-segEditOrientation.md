@@ -3,9 +3,9 @@ layout: post
 title: Bezier Segment Edit Orientation in React Diagram | Syncfusion®
 description: Set the segment edit orientation in the React Diagram to Bidirectional or Freeform, constraining how users drag bezier intermediate points.
 control: Bezier Segment edit orientation 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Bezier Segment Edit Orientation in React Diagram
@@ -33,14 +33,14 @@ The following code demonstrates how to configure Bezier connectors with interact
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5EditOrientation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5EditOrientation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5EditOrientation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5EditOrientation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5EditOrientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5EditOrientation-cs1" %}
 
 ## See also
 

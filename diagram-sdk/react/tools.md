@@ -3,9 +3,9 @@ layout: post
 title: Tools in React Diagram | Syncfusion®
 description: Switch the React Diagram tool between Select, Pan, and Draw to let users click, navigate, or create nodes, connectors, and free-hand shapes at runtime.
 control: Tools 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Tools in React Diagram
@@ -34,14 +34,14 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs1" %}
 
 N> After a single draw, the tool resets to `SingleSelect` unless `ContinuousDraw` is set.
 
@@ -49,14 +49,14 @@ Path shapes can be drawn using the same approach with custom path data. The foll
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs2" %}
 
 ### Text Nodes
 
@@ -64,14 +64,14 @@ Similarly, you can draw a text node by setting the type of shape as 'Text' in th
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs3" %}
 
 ### Draw Connectors
 
@@ -80,14 +80,14 @@ Connectors are drawn by defining the connector configuration in the `drawingObje
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs4" %}
 
 ### Polygon Shapes
 
@@ -95,14 +95,14 @@ The diagram supports interactive polygon creation through point-and-click intera
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs5" %}
 
 ![Polygon drawing](images/polygon-drawing.gif)
 
@@ -112,14 +112,14 @@ Polyline connectors enable creation of multi-segment connections with straight l
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs6" %}
 
  The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
@@ -135,14 +135,14 @@ The following code illustrates how to perform freehand drawing:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs7" %}
 
 The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
@@ -173,14 +173,14 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs8/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs8/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs8/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs8/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs8" %}
 
 N> Please note that panning the diagram is not possible when 'multiplePage' is set to false if any diagram object (node or connector) is outside the defined page break area.
 
@@ -194,11 +194,11 @@ N> For other diagram events such as `collectionChange` and `click`, see the [Dia
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/Tools/tools-cs9/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs9/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/Tools/tools-cs9/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/Tools/tools-cs9/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/Tools/tools-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/Tools/tools-cs9" %}

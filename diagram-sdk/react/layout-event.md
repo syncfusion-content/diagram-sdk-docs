@@ -3,9 +3,9 @@ layout: post
 title: Layout Events in React Diagram | Syncfusion®
 description: Handle layout lifecycle stages in the React Diagram such as data load, node expand and collapse, animation completion, and layout updates in code.
 control: Layout events
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Layout Events in React Diagram
@@ -25,7 +25,7 @@ The following code example explains the data loaded event in the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/reactCurlyExamples/layout-event-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/layout-event-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,15 +37,15 @@ The event provides information about the affected node, its current state, and w
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layoutEvent-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layoutEvent-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layoutEvent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs1" %}
 
 
 ## Animation Complete Event
@@ -56,15 +56,15 @@ The event fires at the end of the animation cycle, ensuring that all visual upda
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layoutEvent-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layoutEvent-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layoutEvent-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layoutEvent-cs2" %}
 
 ## Layout Updated Event
 
@@ -74,7 +74,7 @@ The event includes a state parameter that indicates whether the layout process i
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/reactCurlyExamples/layout-event-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/layout-event-cs2/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 

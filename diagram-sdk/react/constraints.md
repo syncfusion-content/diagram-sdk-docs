@@ -3,9 +3,9 @@ layout: post
 title: Constraints in React Diagram | Syncfusion®
 description: Enable or disable React Diagram, node, and connector behaviors with flagged-enum constraints controlled via Bitwise operators at the API or UI level.
 control: Constraints 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Constraints in React Diagram
@@ -242,14 +242,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs1" %}
 
 For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/nodeConstraints).
 
@@ -454,14 +454,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs2" %}
 
 For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/connectorConstraints).
 
@@ -577,14 +577,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs3" %}
 
 For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/portConstraints).
 
@@ -672,14 +672,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs4" %}
 
 For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/annotationConstraints#AnnotationConstraints).
 
@@ -781,14 +781,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs5" %}
 
 For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/selectorConstraints).
 
@@ -867,14 +867,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs6" %}
  
 For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/snapConstraints).
 
@@ -927,14 +927,14 @@ Refer to the sample below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs7/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs7/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/constraints/constraints-cs7/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/constraints/constraints-cs7/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "page.domainurl/code-snippet/diagram/constraints/constraints-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/constraints/constraints-cs7" %}
 
 For more information about boundary constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/react/documentation/api/diagram/boundaryConstraints).
 

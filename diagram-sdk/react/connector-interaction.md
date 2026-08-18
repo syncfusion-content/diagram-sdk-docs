@@ -3,9 +3,9 @@ layout: post
 title: Connector Interaction in React Diagram | Syncfusion®
 description: Select, drag, edit endpoints, flip, and modify segments on React Diagram connectors interactively using both mouse gestures and runtime methods.
 control: Connector Interaction
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Connector Interaction in React Diagram
@@ -20,14 +20,14 @@ Connectors can be selected programmatically at runtime using the **select** meth
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5SelectUnselect-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5SelectUnselect-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5SelectUnselect-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1" %}
 
 ## Drag Connector
 
@@ -39,14 +39,14 @@ A connector can be dragged at runtime by using the `drag` method. The following 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5DragConnector-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5DragConnector-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5DragConnector-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1" %}
 
 ## End Point Dragging
 
@@ -60,14 +60,14 @@ The following code example demonstrates how to drag connector end points at runt
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5dragEnd-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5dragEnd-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5dragEnd-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1" %}
 
 ## Segment Editing
 
@@ -110,13 +110,13 @@ The available flip types are:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectNode-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ConnectNode-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ConnectNode-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3" %}
 
  N> The flip operation is not applicable when connectors are connected to nodes.

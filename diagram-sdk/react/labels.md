@@ -3,9 +3,9 @@ layout: post
 title: Labels in React Diagram | Syncfusion®
 description: Add one or many text labels to any React Diagram node or connector and edit them at runtime via the annotations collection on the element.
 control: Labels 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Labels in React Diagram
@@ -20,14 +20,14 @@ An annotation can be added to a node or connector by defining the annotation obj
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Annotation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Annotation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Annotation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Annotation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Annotation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Annotation-cs1" %}
 
 By default, an annotation is positioned at the center of the node/connector. For details on offset, margin, and alignment, see [Label Appearance](./label-appearance).
 
@@ -41,14 +41,14 @@ N> When setting an Annotation's ID, ensure that it does not contain white spaces
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Run-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Run-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Run-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Run-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Run-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Run-cs1" %}
 
 ## Update annotations at runtime
 
@@ -58,14 +58,14 @@ The following code example illustrates how to change the annotation properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Update-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Update-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Update-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs2" %}
 
 
 ## Remove annotations
@@ -74,14 +74,14 @@ A collection of annotations can be removed from the node by using the diagram me
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/annotations/es5Update-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/annotations/es5Update-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/annotations/es5Update-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/annotations/es5Update-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/annotations/es5Update-cs1" %}
 
 ## See also
 

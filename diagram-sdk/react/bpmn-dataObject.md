@@ -3,9 +3,9 @@ layout: post
 title: BPMN Data Object in React Diagram | Syncfusion®
 description: Visualize process data with BPMN data object nodes in the React Diagram using the Input, Output, and Collection types to show inputs and results.
 control: Bpmn DataObject 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Data Object in React Diagram
@@ -23,14 +23,14 @@ The following example demonstrates how to create a basic BPMN data object:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Data-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Data-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Data-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Data-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Data-cs1" %}
 
 ## Data Object Types
 

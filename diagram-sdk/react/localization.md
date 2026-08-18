@@ -3,9 +3,9 @@ layout: post
 title: Localization in React Diagram | Syncfusion®
 description: Localize the React Diagram symbol palette search box and context menu items to match the target language and regional culture.
 control: Localization 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Localization in React Diagram
@@ -26,7 +26,7 @@ The following code example shows how to set the `locale` property of the diagram
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/reactCurlyExamples/localization-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/localization-cs1/app/index.jsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,14 +67,14 @@ The following code example demonstrates the complete locale settings for the con
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/localization/es5localeContextMenu-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/localization/es5localeContextMenu-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/localization/es5localeContextMenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeContextMenu-cs1" %}
 
 ## Localize Symbol Palette
 
@@ -120,14 +120,14 @@ The following code example summarizes the locale settings for the symbol palette
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/localization/es5localeSymbolpalette-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/localization/es5localeSymbolpalette-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/localization/es5localeSymbolpalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/localization/es5localeSymbolpalette-cs1" %}
 
 Refer [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization) for more information.
 

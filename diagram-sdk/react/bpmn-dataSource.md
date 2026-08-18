@@ -3,9 +3,9 @@ layout: post
 title: BPMN Data Source in React Diagram | Syncfusion®
 description: Add BPMN data source shapes to the React Diagram to represent databases, files, and other repositories that business processes read from or write to.
 control: Bpmn DataSource 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # BPMN Data Source in React Diagram
@@ -24,14 +24,14 @@ The following code example demonstrates how to create a basic BPMN data source s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Datasource-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Datasource-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/bpmnShapes/es5Datasource-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/bpmnShapes/es5Datasource-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/bpmnShapes/es5Datasource-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Datasource-cs1" %}
 
 ## See also
 

@@ -3,9 +3,9 @@ layout: post
 title: Multiple Segments in React Diagram | Syncfusion®
 description: Chain multiple Straight, Orthogonal, or Bezier segments together in the React Diagram to route connectors around obstacles with custom paths.
 control: Multiple segments 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Multiple Segments for Connectors
@@ -20,14 +20,14 @@ The following example demonstrates how to create a connector with multiple segme
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5multipleSegment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5multipleSegment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/connectors/es5multipleSegment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1" %}
 
 ## Undo/Redo support for connector segments
 
@@ -47,14 +47,14 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/connectors-segundo/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/connectors-segundo/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/connectors-segundo/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/connectors-segundo/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/connectors/connectors-segundo" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/connectors-segundo" %}
 
 ## See also
 

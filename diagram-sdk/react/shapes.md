@@ -3,9 +3,9 @@ layout: post
 title: Shapes in React Diagram | Syncfusion®
 description: Add Text, Image, HTML, Native SVG, Basic, Path, and Flow shapes to the React Diagram to build rich, interactive node visuals.
 control: Shapes 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Shapes in React Diagram
@@ -33,14 +33,14 @@ To create a text node, set the shape property to [`text`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Text-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Text-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Text-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Text-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Text-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Text-cs1" %}
 
 ## Image Nodes
 
@@ -50,14 +50,14 @@ To create an image node, set the shape property to [`image`](https://ej2.syncfus
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Image-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Image-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Image-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs1" %}
 
 ### Base64 Encoded Images
 
@@ -65,14 +65,14 @@ For scenarios where you need to embed images directly without external dependenc
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Image-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Image-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Image-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image-cs2" %}
 
 N> When deploying applications with image nodes, ensure your HTML files are served from a web server. Local file access restrictions in Chrome and Firefox may prevent image export functionality due to security policies. For more information, refer to browser-specific documentation on local image handling.
 
@@ -88,14 +88,14 @@ The following code illustrates how to use scale and align properties to stretch 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Image2-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image2-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Image2-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Image2-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Image2-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Image2-cs1" %}
 
 The following table illustrates all the possible scale options for the image node.
 
@@ -122,14 +122,14 @@ To render an HTML node with a content template, we need to define the desired te
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5ContentTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5ContentTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5ContentTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentTemplate-cs1" %}
 
 #### Functional Content Template
 
@@ -139,14 +139,14 @@ The following code illustrates how to render an HTML node using the function and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5ContentFunctionalTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5ContentFunctionalTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5ContentFunctionalTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5ContentFunctionalTemplate-cs1" %}
 
 ### HTML Node with Node Template
 
@@ -154,14 +154,14 @@ To render an HTML node with a nodeTemplate, we need to define the nodeTemplate i
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5NodeTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5NodeTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5NodeTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeTemplate-cs1" %}
 
 #### Functional Node Template
 
@@ -171,14 +171,14 @@ Refer to the code example below.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5NodeFunctionalTemplate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5NodeFunctionalTemplate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5NodeFunctionalTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5NodeFunctionalTemplate-cs1" %}
 
 ## Native Nodes
 
@@ -188,14 +188,14 @@ To create a [`native`](https://ej2.syncfusion.com/react/documentation/api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Native-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Native-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Native-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Native-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Native-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Native-cs1" %}
 
 N> Similar to HTML nodes, native nodes cannot be exported to image formats due to canvas rendering limitations. Fill colors of native nodes can be overridden by inline SVG styles or fill attributes specified in the SVG template.
 
@@ -224,14 +224,14 @@ The following code example illustrates how to create a basic shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Basic-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Basic-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Basic-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Basic-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Basic-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Basic-cs1" %}
 
 N> By default, the `type` property of the node's `shape` object is set to `Basic`. When the basic shape variant is not specified, the node is rendered as a rectangle.
 
@@ -249,14 +249,14 @@ To create a [`Path`](https://ej2.syncfusion.com/react/documentation/api/diagram/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Path-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Path-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Path-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Path-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Path-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Path-cs1" %}
 
 ## Flow Shapes
 
@@ -266,14 +266,14 @@ To create [`flow`](https://ej2.syncfusion.com/react/documentation/api/diagram/no
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/shapes/es5Flow-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Flow-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/shapes/es5Flow-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/shapes/es5Flow-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/shapes/es5Flow-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/shapes/es5Flow-cs1" %}
 
 The list of flow shapes is as follows.
 

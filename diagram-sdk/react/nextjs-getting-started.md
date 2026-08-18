@@ -3,9 +3,9 @@ layout: post
 title: Getting Started with React Diagram in Next.js | Syncfusion
 description: Set up the Syncfusion React Diagram inside a Next.js app to render interactive diagrams with server-side rendering and route-based navigation.
 control: Next.js
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 

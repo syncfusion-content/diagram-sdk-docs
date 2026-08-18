@@ -3,9 +3,9 @@ layout: post
 title: Commands in React Diagram | Syncfusion®
 description: Run alignment, distribute, sizing, clipboard, grouping, z-order, zoom, nudge, fit-to-page, and undo-redo commands programmatically in the React Diagram.
 control: Commands 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Commands in React Diagram
@@ -68,14 +68,14 @@ The following code example illustrates how to align all the selected objects at 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/alignMode-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/alignMode-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/alignMode-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/alignMode-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/alignMode-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/alignMode-cs1" %}
 
 ![Align Sample](images/Commands_img1.png)
 
@@ -106,14 +106,14 @@ The following code example illustrates how the nodes are distributed using the *
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/distribute-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/distribute-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/distribute-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/distribute-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/distribute-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/distribute-cs1" %}
 
 ![Distribute Sample](images/Commands_img2.png)
 
@@ -139,14 +139,14 @@ The following code example illustrates how to execute the size commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/sizing-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/sizing-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/sizing-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/sizing-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/sizing-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/sizing-cs1" %}
 
 ![Sizing Sample](images/Commands_img3.png)
 
@@ -166,14 +166,14 @@ The following code illustrates how to execute the clipboard commands.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5clipboard-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5clipboard-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5clipboard-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5clipboard-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5clipboard-cs1" %}
 
 ## Grouping Commands
 
@@ -188,14 +188,14 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5grouping-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5grouping-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5grouping-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5grouping-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5grouping-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5grouping-cs1" %}
 
 ## Rotate Commands
 
@@ -212,14 +212,14 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate counter-clockwi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/rotate-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/rotate-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/rotate-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/rotate-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/rotate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/rotate-cs1" %}
 
 ## Z-Order Commands
 
@@ -231,14 +231,14 @@ The [`bringToFront`](https://ej2.syncfusion.com/react/documentation/api/diagram#
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5bringfront-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5bringfront-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5bringfront-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5bringfront-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5bringfront-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5bringfront-cs1" %}
 
 ### Send To Back Command
 
@@ -246,14 +246,14 @@ The [`sendToBack`](https://ej2.syncfusion.com/react/documentation/api/diagram#se
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5sendback-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendback-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5sendback-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendback-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5sendback-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5sendback-cs1" %}
 
 ### Move Forward Command
 
@@ -261,14 +261,14 @@ The [`moveForward`](https://ej2.syncfusion.com/react/documentation/api/diagram#m
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5moveforward-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5moveforward-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5moveforward-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5moveforward-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5moveforward-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5moveforward-cs1" %}
 
 ### Send Backward Command
 
@@ -276,14 +276,14 @@ The [`sendBackward`](https://ej2.syncfusion.com/react/documentation/api/diagram#
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/es5sendbackward-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendbackward-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/es5sendbackward-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/es5sendbackward-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/es5sendbackward-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/es5sendbackward-cs1" %}
 
  
 The Z-order commands can also be performed using keyboard shortcuts. For more information, refer to the [`keyboard commands`](./interaction#keyboard).
@@ -349,14 +349,14 @@ The following code illustrates how to execute the nudge command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/nudge-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/nudge-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/nudge-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/nudge-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/nudge-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/nudge-cs1" %}
 
 ### Nudge by Using Arrow Keys
 
@@ -378,14 +378,14 @@ The following code illustrates how to execute the `bringIntoView` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/bringIntoView-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringIntoView-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/bringIntoView-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringIntoView-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/bringIntoView-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/bringIntoView-cs1" %}
 
 ## Bring To Center
 
@@ -397,14 +397,14 @@ The following code illustrates how to execute the `bringToCenter` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/bringToCenter-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringToCenter-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/bringToCenter-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/bringToCenter-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/bringToCenter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/bringToCenter-cs1" %}
 
 ## FitToPage
 
@@ -428,14 +428,14 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/fitToPage-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/fitToPage-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/fitToPage-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/fitToPage-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/fitToPage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/fitToPage-cs1" %}
 
 ## Command Manager
 
@@ -457,14 +457,14 @@ The following code example illustrates how to use the command manager to clone a
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/customCommand-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/customCommand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/customCommand-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/customCommand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/customCommand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/customCommand-cs1" %}
 
 ### Disable/Modify the Existing Command
 
@@ -474,14 +474,14 @@ The following code example illustrates how to disable the default cut and delete
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/commands/modifyCommand-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/commands/modifyCommand-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/commands/modifyCommand-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/commands/modifyCommand-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/commands/modifyCommand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/commands/modifyCommand-cs1" %}
 
 ## Undo-Redo
 

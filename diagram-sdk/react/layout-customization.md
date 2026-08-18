@@ -3,9 +3,9 @@ layout: post
 title: Layout Customization in React Diagram | Syncfusion®
 description: Tune React Diagram layout orientation, spacing, alignment, and bounds for hierarchical, organizational, and tree-based automatic layouts.
 control: Customizing layout
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Layout Customization in React Diagram
@@ -24,15 +24,15 @@ The following example shows how to align the layout within specified layout boun
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-bounds-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-bounds-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-bounds-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1" %}
 
 
 For more information about bounds, refer to [`bounds`](https://ej2.syncfusion.com/react/documentation/api/diagram/layoutModel#bounds).
@@ -48,15 +48,15 @@ The following code illustrates how to configure layout alignment and modify alig
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-alignment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-alignment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-alignment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1" %}
 
 
 ## Layout Spacing
@@ -69,15 +69,15 @@ The following code illustrates how to set initial horizontal and vertical spacin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-spacing-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-spacing-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-spacing-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1" %}
 
 ## Layout Margin
 
@@ -89,15 +89,15 @@ The following code demonstrates how to set initial layout margin and modify marg
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-margin-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-margin-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-margin-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1" %}
 
 
 ## Layout Orientation
@@ -118,15 +118,15 @@ The following code demonstrates how to set the initial orientation for the layou
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-orientation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-orientation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-orientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1" %}
 
 N> In the diagram, the default orientation is **TopToBottom**.
 
@@ -141,15 +141,15 @@ The following code example demonstrates how to exclude a node from the layout an
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-exclude-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-exclude-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-exclude-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1" %}
 
 ## Fixed Node
 
@@ -159,15 +159,15 @@ This feature is particularly beneficial during expand/collapse operations, where
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-fixed-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-fixed-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-fixed-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1" %}
 
 ## Expand and Collapse
 
@@ -179,15 +179,15 @@ The following code example shows how to expand/collapse the children of a node:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-expandandcollapse-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-expandandcollapse-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-expandandcollapse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1" %}
 
 
 For more details about customizing the expand and collapse icon refer [`expand Collapse`](./nodes-expandAndCollapse).
@@ -212,15 +212,15 @@ The following example demonstrates how layout animation enhances the visual expe
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-animation-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-animation-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-animation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1" %}
 
 
 ## Parent - Child Relation with Dropped Nodes from Symbol Palette
@@ -233,15 +233,15 @@ The following code example creates parent-child relationships between source and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-parentChildren-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-parentChildren-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-parentChildren-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1" %}
 
 
 ![Layout drag and drop](images/drag-drop-layout.gif)
@@ -258,15 +258,15 @@ The [`orientation`](https://ej2.syncfusion.com/react/documentation/api/diagram/s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/layout-setNodeTemplete-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1" %}
 
 
 ## Refresh Layout

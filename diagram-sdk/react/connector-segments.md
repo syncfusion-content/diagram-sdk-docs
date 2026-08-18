@@ -3,9 +3,9 @@ layout: post
 title: Connector Segments in React Diagram | Syncfusion®
 description: Combine Straight, Orthogonal, and Bezier segments in the React Diagram connector to build custom routing paths between source and target points.
 control: Segments 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Connector Segments in React Diagram

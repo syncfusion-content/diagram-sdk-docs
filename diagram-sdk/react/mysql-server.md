@@ -2,10 +2,10 @@
 layout: post
 title: MySQL Server in React Diagram | Syncfusion
 description: Bind the React Diagram to MySQL via LINQ2DB and an ASP.NET Core Web API to render an organizational chart from relational data.
-platform: ej2-react
+platform: diagram-sdk
 control: diagram
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # MySQL Server in React Diagram

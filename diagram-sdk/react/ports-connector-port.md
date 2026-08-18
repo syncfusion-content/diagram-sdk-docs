@@ -3,9 +3,9 @@ layout: post
 title: Connector Port in React Diagram | Syncfusion®
 description: Define connector port drop points in the React Diagram so other connectors can attach mid-path through alignment and displacement for precision.
 control: Ports 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Connector Port in React Diagram
@@ -22,14 +22,14 @@ The following code example shows how to create a connector port:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-con1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-con1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-con1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con1" %}
 
 
 ## Port Alignment
@@ -44,14 +44,14 @@ The following code example shows how to set different alignment values for conne
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-con2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-con2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-con2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con2" %}
 
 ## Port Displacement
 
@@ -61,14 +61,14 @@ The following code example demonstrates how to apply displacement to connector p
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-con3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-con3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-con3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con3" %}
 
 N> Displacement only takes effect when `alignment` is set to `Before` or `After`.
 
@@ -80,14 +80,14 @@ The following code example shows how to connect a connector to a connector port:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/ports/ports-con4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/ports/ports-con4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/ports/ports-con4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/ports/ports-con4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con4" %}
 
 ## See also
 

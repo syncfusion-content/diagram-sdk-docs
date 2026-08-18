@@ -3,9 +3,9 @@ layout: post
 title: Overview in React Diagram | Syncfusion®
 description: Add the React Diagram Overview (mini-map) panel for one-click navigation, panning, and zoom-to-area in large canvases through a small reference control.
 control: Overview 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Overview in React Diagram
@@ -33,14 +33,14 @@ The following code demonstrates a basic overview implementation. The component i
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/overView/es5Node-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/overView/es5Node-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/overView/es5Node-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/overView/es5Node-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/overView/es5Node-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs2" %}
 
 ## Overview Interactions
 
@@ -57,14 +57,14 @@ The overview displays the current viewport as a red rectangle overlay. This rect
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/overView/es5Node-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/overView/es5Node-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/overView/es5Node-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/overView/es5Node-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/overView/es5Node-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/overView/es5Node-cs1" %}
 
 ![Overview-interaction](images/overview-interaction.gif)
 

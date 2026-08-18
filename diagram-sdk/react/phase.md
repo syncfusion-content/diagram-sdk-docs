@@ -3,9 +3,9 @@ layout: post
 title: Phase in React Diagram | Syncfusion®
 description: Add horizontal or vertical Phase markers to React Diagram swimlane Lanes to depict time stages or process milestones within a workflow.
 control: Phase 
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Phase in React Diagram
@@ -18,14 +18,14 @@ The following code example illustrates how to create phase.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5Phase-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5Phase-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5Phase-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1" %}
 
 ### Dynamically add and remove phases from lanes
 
@@ -35,14 +35,14 @@ The following code example illustrates how to add and remove phases at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5PhaseCustomize-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3" %}
 
 ### Customizing Phase Appearance and Properties
 
@@ -58,14 +58,14 @@ The following code example illustrates how to customize the phase in swimlane.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5PhaseCustomize-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4" %}
 
 ### Dynamic Customization of Phases
 
@@ -75,14 +75,14 @@ The following code example illustrates how to customize the phase at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/swimlane/es5PhaseCustomize-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/swimlane/es5PhaseCustomize-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5" %}
 
 ### Phase Interaction Capabilities
 

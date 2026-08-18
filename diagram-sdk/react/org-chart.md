@@ -3,9 +3,9 @@ layout: post
 title: Organizational Chart Layout in React Diagram | Syncfusion®
 description: Render an organizational chart layout in the React Diagram; bind nodes and connectors from a data source or define them manually for hierarchies.
 control: Org-chart layout
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Organizational Chart Layout in React Diagram
@@ -21,15 +21,15 @@ N> When using organizational chart layout with the data source, both Hierarchica
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/organizationalchart-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1" %}
 
 
 ## Organizational Chart with Nodes and Connectors
@@ -38,15 +38,15 @@ You can render an org-chart layout without using DataSource. In this approach, n
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/organizationalchart-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2" %}
 
 ![Organizational chart](images/org-chart.png)
 
@@ -98,15 +98,15 @@ The following example demonstrates customizing subtree alignment for horizontal 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/organizationalchart-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3" %}
 
 ### Vertical Subtree Orientation Example
 
@@ -114,15 +114,15 @@ This example shows how to implement vertical arrangement for leaf-level organiza
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/organizationalchart-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4" %}
 
 
 ### Assistant Nodes
@@ -134,15 +134,15 @@ The following code example illustrates how to add assistants to layout.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/organizationalchart-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/organizationalchart-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5" %}
 
 
 ![Assistant](images/assistant.png)

@@ -3,9 +3,9 @@ layout: post
 title: Bezier Control Points Interaction in React Diagram | Syncfusion®
 description: Configure bezier smoothness modes and control-point visibility in the React Diagram to keep adjacent curve handles symmetric or independent during editing.
 control: Bezier control points interaction
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Bezier Control Points Interaction in React Diagram
@@ -29,14 +29,14 @@ When working with multiple bezier segments, maintain visual consistency by confi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5BezierSegment-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5BezierSegment-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5BezierSegment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5BezierSegment-cs1" %}
 
 ## How to Show or Hide the Bezier Segment’s Control Points
 
@@ -54,14 +54,14 @@ The following code example shows how to configure `controlPointsVisibility` to s
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/connectors/es5ControlPointsVisibility-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ControlPointsVisibility-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/connectors/es5ControlPointsVisibility-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/connectors/es5ControlPointsVisibility-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/connectors/es5ControlPointsVisibility-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ControlPointsVisibility-cs1" %}
 
 ## See also
 

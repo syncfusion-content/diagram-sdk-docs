@@ -3,9 +3,9 @@ layout: post
 title: Node Interaction in React Diagram | Syncfusion®
 description: Select, drag, resize, rotate, and flip React Diagram nodes interactively or programmatically through built-in selection and transformation methods.
 control: Nodes interaction
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Node Interaction in React Diagram
@@ -26,14 +26,14 @@ Nodes can be selected at runtime by using the [`select`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs1" %}
 ### Selection Methods Reference
 
 |Method | Parameter | Description|
@@ -56,14 +56,14 @@ Nodes can be moved programmatically using the [`drag`](https://ej2.syncfusion.co
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs2" %}
 
 ## Resize
 
@@ -79,14 +79,14 @@ Node dimensions can be modified at runtime using the [`scale`](https://ej2.syncf
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs3" %}
 
 ## Rotate
 
@@ -102,14 +102,14 @@ Nodes can be rotated at runtime using the [`rotate`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs4" %}
 
 ## Flip
 
@@ -131,14 +131,14 @@ The following example demonstrates how to apply flip transformations to nodes:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs5/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs5/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs5/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs5" %}
 
 N> The flip is also applicable for group and BPMN shapes.
 
@@ -150,14 +150,14 @@ The following example demonstrates how to update the flip for a node dynamically
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/node-cs4-flip/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/node-cs4-flip/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/node-cs4-flip/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/node-cs4-flip/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/node-cs4-flip" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/node-cs4-flip" %}
 
 
 ### Flip Modes
@@ -208,11 +208,11 @@ The following table demonstrates how different flip modes affect node appearance
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs6/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs6/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/nodes/nInteraction-cs6/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/nodes/nInteraction-cs6/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/nodes/nInteraction-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs6" %}
