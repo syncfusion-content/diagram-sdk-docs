@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Automatic Layouts in UWP Diagram control | Syncfusion®
-description: Learn here all about Automatic Layouts support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Automatic Layouts in UWP SfDiagram | Syncfusion®
+description: Learn about automatic layouts in the Syncfusion® UWP SfDiagram control, including organizational, directed-tree, and radial-tree layouts.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Automatic Layouts in UWP Diagram (SfDiagram)
+# Automatic Layouts in UWP SfDiagram
 
 SfDiagram provides support to auto-arrange the nodes in the Diagram area that is referred as **Layout**. It includes the following layout modes.
 

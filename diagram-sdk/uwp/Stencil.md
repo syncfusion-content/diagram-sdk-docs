@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Stencil in UWP Diagram control | Syncfusion®
-description: Learn here all about Stencil support in the Syncfusion® UWP Diagram (SfDiagram) control and much more.    
+title: Stencil in UWP SfDiagram | Syncfusion®
+description: Learn about the stencil in the Syncfusion® UWP SfDiagram control, including symbols, symbol groups, filters, drag-and-drop previews, and events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Stencil in UWP Diagram (SfDiagram)
+# Stencil in UWP SfDiagram
 
 Stencil has a collection of Symbols. Stencil is used to clone the desired symbol by dragging it from the Stencil and dropping it into the SfDiagram. Each symbol can be grouped together by using the SymbolGroupProvider and filters by using the SymbolFilterProvider through delegates.
 

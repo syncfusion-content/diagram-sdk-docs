@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Node in UWP Diagram control | Syncfusion®
-description: Learn here all about Node support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Node in UWP SfDiagram | Syncfusion®
+description: Learn about nodes in the Syncfusion® UWP SfDiagram control, including shapes, positioning, appearance, interaction, and constraints.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Node in UWP Diagram (SfDiagram)
+# Node in UWP SfDiagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure or any other kind of data and it represents the functions of a complete system in regards to how it interacts with external entities.
 

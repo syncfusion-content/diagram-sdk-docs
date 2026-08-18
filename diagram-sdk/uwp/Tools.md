@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tools in UWP Diagram control | Syncfusion®
-description: Learn here all about Tools support in the Syncfusion® UWP Diagram (SfDiagram) control and much more.      
+title: Tools in UWP SfDiagram | Syncfusion®
+description: Learn about tools in the Syncfusion® UWP SfDiagram control, including drawing nodes, connectors, text elements, selection, and zooming.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Tools in UWP Diagram (SfDiagram)
+# Tools in UWP SfDiagram
 
 ## Drawing Tools
 

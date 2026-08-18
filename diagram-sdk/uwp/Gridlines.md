@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Gridlines in UWP Diagram control | Syncfusion®
-description: Learn here all about Gridlines support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Gridlines in UWP SfDiagram | Syncfusion®
+description: Learn about gridlines in the Syncfusion® UWP SfDiagram control, including visibility, appearance customization, and object snapping.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Gridlines in UWP Diagram (SfDiagram)
+# Gridlines in UWP SfDiagram
 
 **Gridlines** are the pattern of lines drawn behind the Diagram elements. It provides a visual guidance while dragging or arranging the objects on the Diagram surface.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with UWP Diagram control | Syncfusion®
-description: Learn here about getting started with the Syncfusion® UWP Diagram (SfDiagram) control, its elements and more.
+title: Getting Started with UWP SfDiagram | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP SfDiagram control. Explore setup, flowchart creation, nodes, connectors, and annotations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Getting Started with UWP Diagram (SfDiagram)
+# Getting Started with UWP SfDiagram
 
 The following section helps you to build your application with SfDiagram. 
 
