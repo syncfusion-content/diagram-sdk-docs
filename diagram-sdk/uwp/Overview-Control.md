@@ -119,7 +119,7 @@ The [Constraint](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.C
 
 Diagram supports the deferred scrolling behaviour to improve the zoom and pan performances.
 
-To learn more about deferred scrolling, refer to [Deferred Scrolling](/uwp/diagram/virtualization#deferred-scrolling "DeferredScrolling").
+To learn more about deferred scrolling, refer to [Deferred Scrolling](/diagram-sdk/uwp/diagram/virtualization#deferred-scrolling).
 
 ## Event
 
@@ -129,10 +129,10 @@ Find the [Overview control sample](https://github.com/SyncfusionExamples/UWP-Dia
 
 {% seealso %}
 
-[How to virtualize the diagram control](/uwp/diagram/virtualization)
+[How to virtualize the diagram control](/diagram-sdk/uwp/diagram/virtualization)
 
-[How to serialize the diagram control](/uwp/diagram/serialization)
+[How to serialize the diagram control](/diagram-sdk/uwp/diagram/serialization)
 
-[How to localize the diagram control](/uwp/diagram/localization)
+[How to localize the diagram control](/diagram-sdk/uwp/diagram/localization)
 
 {% endseealso %}
