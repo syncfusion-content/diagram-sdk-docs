@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Interaction in UWP Diagram control | Syncfusion®
-description: Learn here all about Interaction support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Interaction in UWP SfDiagram | Syncfusion®
+description: Learn about interaction in the Syncfusion® UWP SfDiagram control, including selection, drag and drop, zooming, panning, keyboard shortcuts, and events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Interaction in UWP Diagram (SfDiagram)
+# Interaction in UWP SfDiagram
 
 ## Selection
 
@@ -74,7 +74,7 @@ Selected objects can be deleted by <kdb> Delete </kdb> and In-built Delete comma
 
 * `ItemDeletingEvent` will notify you with the item , option to cancel the deleting operation of item. To explore about arguments , please refer to [DiagramPreviewEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.DiagramPreviewEventArgs.html)   
 
-#### Selection Indicator Style
+## Selection Indicator Style
 
 Multiple Selection will show the preview for the selected Items. We have provided customization option for the appearance of the Preview.
 
@@ -209,5 +209,4 @@ The following table illustrates List of Commands with key Gesture.
 | Ctrl + Shift + ] | BringFront | Brings the selected element to front over all the other overlapped elements. |
 | Ctrl + ] | BringForward | Moves the selected element over the nearest overlapping element. |
 
-To add custom commands, configure or modify key/mouse gesture through [Command Manager](/uwp/diagram/commands#command-manager "Command Manager").
-
+To add custom commands, configure or modify key/mouse gesture through [Command Manager](/diagram-sdk/uwp/commands).

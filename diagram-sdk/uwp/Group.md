@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Group in UWP Diagram control | Syncfusion®
-description: Learn here all about Group support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Group in UWP SfDiagram | Syncfusion®
+description: Learn how to group nodes and connectors in the Syncfusion® UWP SfDiagram control to create, manage, and interact with grouped elements.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Group in UWP Diagram (SfDiagram)
+# Group in UWP SfDiagram
 
 Group is used to cluster multiple Nodes and Connectors into a single element. It acts like a container for its children (Nodes, Groups, and Connectors). Every change made to the Group also affects the children. Child elements can be edited individually.
 
@@ -63,8 +63,8 @@ diagram.Groups = groups;
 
 Group Nodes can be predefined and added to stencil. You can drop those Groups into Diagram, when required. 
 
-To explore how to add Groups from stencil, refer to [Stencil](/uwp/diagram/stencil "Stencil").
+To explore how to add Groups from stencil, refer to [Stencil](/diagram-sdk/uwp/stencil).
 
 ## Interaction
 
-You can edit the Group and its children at runtime. For more information about how to interact with a Group, refer to [Interaction](/uwp/diagram/interaction "Interaction").
+You can edit the Group and its children at runtime. For more information about how to interact with a Group, refer to [Interaction](/diagram-sdk/uwp/interaction).

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Serialization in UWP Diagram control | Syncfusion®
-description: Learn here all about Serialization support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Serialization in UWP SfDiagram | Syncfusion®
+description: Learn about serialization in the Syncfusion® UWP SfDiagram control, including saving, loading, state persistence, and node serialization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Serialization in UWP Diagram (SfDiagram)
+# Serialization in UWP SfDiagram
 
 Serialization is the process of saving and loading the Essential® Diagram for state persistence of the SfDiagram.
 
