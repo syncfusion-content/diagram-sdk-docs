@@ -36,7 +36,7 @@ diagram.SnapSettings.SnapConstraints = SnapConstraints.ShowLines;
 
 ![Gridlines](Gridlines_images/Gridlines_img1.jpeg)
 
-To show only horizontal/vertical gridlines or to hide gridlines, refer to [SnapConstraints](/diagram-sdk/uwp/diagram/constraints#snap-constraints).
+To show only horizontal/vertical gridlines or to hide gridlines, refer to [SnapConstraints](/diagram-sdk/uwp/diagram/constraints).
 
 ## Appearance
 
@@ -193,7 +193,7 @@ diagram.SnapSettings.SnapConstraints = SnapConstraints.SnapToLines;
 
 {% endhighlight %}
 
-To enable/disable snapping to horizontal/vertical lines, refer to [SnapConstraints](/diagram-sdk//uwp/diagram/constraints#snap-constraints).
+To enable/disable snapping to horizontal/vertical lines, refer to [SnapConstraints](/diagram-sdk//uwp/diagram/constraints).
 
 ### Snap To Objects
 

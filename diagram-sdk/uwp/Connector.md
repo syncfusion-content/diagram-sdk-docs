@@ -85,7 +85,7 @@ Connectors are automatically generated based on the relationships defined throug
 
 ### Draw Connectors
 
-Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/diagram-sdk/uwp/tools#drawing-tools:connectors).
+Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/diagram-sdk/uwp/tools).
 
 ## Connect Nodes
 
@@ -517,7 +517,7 @@ To explore about arguments, please refer to [ChangedEventArgs](https://help.sync
 
 ### Constraints
 
-The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/diagram-sdk/uwp/constraints#connector-constraints).
+The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/diagram-sdk/uwp/constraints).
 
 {% seealso %}
 
