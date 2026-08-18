@@ -220,7 +220,7 @@ public class PortCollection : ObservableCollection<IPort>
 
 ## Connect with ports
 
-Connector’s `SourcePort` and `TargetPort` properties allow to create connections between some specific points of Source/Target Nodes. For more information about creating connections with port, refer to [Connections with Ports](/diagram-sdk/uwp/diagram/connector#connections-with-ports).
+Connector’s `SourcePort` and `TargetPort` properties allow to create connections between some specific points of Source/Target Nodes. For more information about creating connections with port, refer to [Connections with Ports](/diagram-sdk/uwp/connector#connections-with-ports).
 
 ##Appearance
 
@@ -285,4 +285,4 @@ The following code illustrates how to change the appearance of port.
 
 ## Constraints
 
-The Constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [Port Constraints](/diagram-sdk/uwp/diagram/constraints#port-constraints).
+The Constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [Port Constraints](/diagram-sdk/uwp/constraints#port-constraints).

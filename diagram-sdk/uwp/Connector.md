@@ -77,15 +77,15 @@ ConnectorViewModel connector = new ConnectorViewModel()
 
 Connectors can be predefined and added to the stencil. You can drop those Connectors into the Diagram, when required. 
 
-For more information about adding Connectors from stencil, refer to [Stencil](/diagram-sdk/uwp/diagram/stencil).
+For more information about adding Connectors from stencil, refer to [Stencil](/diagram-sdk/uwp/stencil).
 
 ### Connectors through data source
 
-Connectors are automatically generated based on the relationships defined through the data source. For more information about data source, refer to [Data Source](/diagram-sdk/uwp/diagram/datasource).
+Connectors are automatically generated based on the relationships defined through the data source. For more information about data source, refer to [Data Source](/diagram-sdk/uwp/datasource).
 
 ### Draw Connectors
 
-Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/diagram-sdk/uwp/diagram/tools#drawing-tools:connectors).
+Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/diagram-sdk/uwp/tools#drawing-tools:connectors).
 
 ## Connect Nodes
 
@@ -140,7 +140,7 @@ N> By default, connections are created at the intersecting point of Segments and
 
 The `SourcePort`/`SourcePortID` and `TargetPort`/`TargetPortID` properties allow to create connections between some specific points of Source/Target Nodes. 
 
-For Connections with Ports, please refer to [Port](/diagram-sdk/uwp/diagram/port).
+For Connections with Ports, please refer to [Port](/diagram-sdk/uwp/port).
 
 ## Segments
 
@@ -517,7 +517,7 @@ To explore about arguments, please refer to [ChangedEventArgs](https://help.sync
 
 ### Constraints
 
-The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/diagram-sdk/uwp/diagram/constraints#connector-constraints).
+The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/diagram-sdk/uwp/constraints#connector-constraints).
 
 {% seealso %}
 

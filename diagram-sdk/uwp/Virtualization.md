@@ -107,10 +107,10 @@ Find the [Virtualization sample](https://github.com/SyncfusionExamples/UWP-Diagr
 
 {% seealso %}
 
-[How to serialize the diagram control](/diagram-sdk/uwp/diagram/serialization)
+[How to serialize the diagram control](/diagram-sdk/uwp/serialization)
 
-[How to localize the diagram control](/diagram-sdk/uwp/diagram/localization)
+[How to localize the diagram control](/diagram-sdk/uwp/localization)
 
-[How to have overview for diagram control](/diagram-sdk/uwp/diagram/overview-control)
+[How to have overview for diagram control](/diagram-sdk/uwp/overview-control)
 
 {% endseealso %}
