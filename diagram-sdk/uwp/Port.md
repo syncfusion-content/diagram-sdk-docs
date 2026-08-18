@@ -130,7 +130,7 @@ port.Constraints |= PortConstraints.Dynamic;
 
 {% endhighlight %}
 
-To know more about bitwise operators, refer to [Bitwise Operations](/diagram-sdk/uwp/diagram/constraints).
+To know more about bitwise operators, refer to [Bitwise Operations](/diagram-sdk/uwp/constraints).
 
 ![Dynamic port](Port_images/Port_img9.jpeg)
 
