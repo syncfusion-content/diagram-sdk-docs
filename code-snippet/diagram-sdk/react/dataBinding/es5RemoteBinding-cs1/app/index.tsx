@@ -14,12 +14,17 @@ import {
     TreeInfo,
     DiagramTools,
     Inject,
-    ConnectorModel
+    ConnectorModel,
+    SnapSettingsModel
 } from "@syncfusion/ej2-react-diagrams";
 import {
     DataManager,
     Query
 } from '@syncfusion/ej2-data';
+
+let snapSettings: SnapSettingsModel = {
+    constraints: 0,
+};
 
 const layout = {
   type: 'HierarchicalTree',
@@ -97,9 +102,7 @@ function App() {
       dataSourceSettings={dataSourceSettings}
       //Disables all interactions except zoom/pan
       tool={DiagramTools.ZoomPan}
-      snapSettings={{
-        constraints: 0,
-      }}
+      snapSettings={snapSettings}
     >
       <Inject services={[DataBinding, HierarchicalTree]} />
     </DiagramComponent>
