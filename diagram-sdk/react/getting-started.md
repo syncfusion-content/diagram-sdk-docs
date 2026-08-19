@@ -400,6 +400,6 @@ N> To build the application for production, run `npm run build`. The generated o
 
 To explore the Diagram component in more depth, refer to the following topics:
 
-* [Nodes](https://help.syncfusion.com/diagram-sdk/react/nodes)
-* [Connectors](https://help.syncfusion.com/diagram-sdk/react/connectors)
-* [Annotations](https://help.syncfusion.com/diagram-sdk/react/labels)
+* [Nodes](https://ej2.syncfusion.com/react/documentation/diagram/nodes)
+* [Connectors](https://ej2.syncfusion.com/react/documentation/diagram/connectors)
+* [Annotations](https://ej2.syncfusion.com/react/documentation/diagram/labels)
