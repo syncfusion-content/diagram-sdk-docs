@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tools in UWP Diagram control | Syncfusion®
-description: Learn here all about Tools support in the Syncfusion® UWP Diagram (SfDiagram) control and much more.      
+title: Tools in UWP SfDiagram | Syncfusion®
+description: Learn about tools in the Syncfusion® UWP SfDiagram control, including drawing nodes, connectors, text elements, selection, and zooming.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Tools in UWP Diagram (SfDiagram)
+# Tools in UWP SfDiagram
 
 ## Drawing Tools
 
@@ -19,7 +19,7 @@ To draw a shape, You have to activate the drawing tool by using the Tool propert
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <Style TargetType="Path" x:Key="shapestyle">
   <Setter Property="Fill" Value="#fcbc7c"></Setter>
@@ -67,7 +67,7 @@ The following code example illustrates how to draw a path.
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <Style TargetType="Path" x:Key="shapestyle">
   <Setter Property="Fill" Value="#fbe172"></Setter>
@@ -116,7 +116,7 @@ To draw Connectors, you have to set the Connector to DrawingTool property. The d
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <Style x:Key="decoratorstyle" TargetType="Path">
   <Setter Property="Stroke" Value="Black" />

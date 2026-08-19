@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Connector in UWP Diagram control | Syncfusion®
-description: Learn here all about Connector support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Connector in UWP SfDiagram | Syncfusion®
+description: Learn about connectors in the Syncfusion® UWP SfDiagram control, including segments, ports, decorators, bridging, appearance, and editing.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Connector in UWP Diagram (SfDiagram)
+# Connector in UWP SfDiagram
 
 Connectors are objects used to create link between two Points, Nodes or ports to represent the relationships between them.
 
@@ -77,15 +77,15 @@ ConnectorViewModel connector = new ConnectorViewModel()
 
 Connectors can be predefined and added to the stencil. You can drop those Connectors into the Diagram, when required. 
 
-For more information about adding Connectors from stencil, refer to [Stencil](/uwp/diagram/stencil "Stencil").
+For more information about adding Connectors from stencil, refer to [Stencil](/diagram-sdk/uwp/stencil).
 
 ### Connectors through data source
 
-Connectors are automatically generated based on the relationships defined through the data source. For more information about data source, refer to [Data Source](/uwp/diagram/datasource "DataSource").
+Connectors are automatically generated based on the relationships defined through the data source. For more information about data source, refer to [Data Source](/diagram-sdk/uwp/datasource).
 
 ### Draw Connectors
 
-Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/uwp/diagram/tools#drawing-tools:connectors "Draw Connectors").
+Connectors can be interactively drawn by clicking and dragging on the Diagram surface by using Drawing Tool. For more information about drawing Connectors, refer to [Draw Connectors](/diagram-sdk/uwp/tools).
 
 ## Connect Nodes
 
@@ -140,7 +140,7 @@ N> By default, connections are created at the intersecting point of Segments and
 
 The `SourcePort`/`SourcePortID` and `TargetPort`/`TargetPortID` properties allow to create connections between some specific points of Source/Target Nodes. 
 
-For Connections with Ports, please refer to [Port](https://help.syncfusion.com/uwp/diagram/port "Port").
+For Connections with Ports, please refer to [Port](/diagram-sdk/uwp/port).
 
 ## Segments
 
@@ -401,7 +401,7 @@ ConnectorViewModel connector1 = new ConnectorViewModel()
 
 N> Bezier segments do not support Bridging.
 
-#### BridgeSpace
+### BridgeSpace
 
 The `BridgeSpace` property allows to customize the size of bridge in a connector.
 
@@ -474,9 +474,9 @@ ConnectorViewModel connector1 = new ConnectorViewModel()
 
 ## Interaction
 
-#### Draw Connector
+### Draw Connector
 
-* On drawing a connector, `ObjectDrawn` event will notify the DragState and Item. To explore about arguments, please refer to [ObjectDrawn](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.ObjectDrawnEventArgs.html) . 
+* On drawing a connector, `ObjectDrawn` event will notify the DragState and Item. To explore about arguments, please refer to [ObjectDrawn](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.ObjectDrawnEventArgs.html). 
 
 ### Connection Editing
 
@@ -515,9 +515,9 @@ To explore about arguments, please refer to [ChangedEventArgs](https://help.sync
 
 ![bezier connector with control thumbs](Connector_images/Bezier3.gif)
 
-## Constraints
+### Constraints
 
-The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/uwp/diagram/constraints#connector-constraints "Connector Constraints").
+The `Constraints` property of Connector allows to enable/disable certain features of Connectors. For more information about	constraints, refer to [Connector Constraints](/diagram-sdk/uwp/constraints).
 
 {% seealso %}
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Virtualization in UWP Diagram control | Syncfusion®
-description: Learn here all about Virtualization support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements and more.
+title: Virtualization in UWP SfDiagram | Syncfusion®
+description: Learn about virtualization in the Syncfusion® UWP SfDiagram control, including deferred scrolling, outline rendering, and performance optimization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Virtualization in UWP Diagram (SfDiagram)
+# Virtualization in UWP SfDiagram
 
 Virtualization is the process of loading the diagramming objects available in the visible area of the Diagram control, that is, only the diagramming objects that lie within the ViewPort of the ScrollViewer are loaded (remaining objects are loaded only when they come into view).
 
@@ -107,10 +107,10 @@ Find the [Virtualization sample](https://github.com/SyncfusionExamples/UWP-Diagr
 
 {% seealso %}
 
-[How to serialize the diagram control](/uwp/diagram/serialization)
+[How to serialize the diagram control](/diagram-sdk/uwp/serialization)
 
-[How to localize the diagram control](/uwp/diagram/localization)
+[How to localize the diagram control](/diagram-sdk/uwp/localization)
 
-[How to have overview for diagram control](/uwp/diagram/overview-control)
+[How to have overview for diagram control](/diagram-sdk/uwp/overview-control)
 
 {% endseealso %}
