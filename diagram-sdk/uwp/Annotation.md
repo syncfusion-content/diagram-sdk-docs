@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Annotation in UWP Diagram control | Syncfusion®
-description: Learn here all about Annotation support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Annotation in UWP SfDiagram | Syncfusion®
+description: Learn how to use annotations in the Syncfusion® UWP SfDiagram control, including alignment, wrapping, editing, rotation, and customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Annotation in UWP Diagram (SfDiagram)
+# Annotation in UWP SfDiagram
 
 Annotation is a block of text that can be displayed over a Node or Connector. Annotation is used to textually represent an object with a string that can be edited at run time. 
 You can add Multiple Labels to a Node/Connector.
@@ -252,7 +252,7 @@ You can change the appearance by ViewTemplate. The following code illustrates ho
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <DataTemplate x:Key="viewtemplate">
   <TextBlock Text="{Binding Path=Content, Mode=TwoWay}" FontStyle="Italic" 
@@ -300,7 +300,7 @@ The Appearance of the Annotation can also be customized with appearance specific
 
 [XAML]
 
-{% highlight xml %}
+{% highlight xaml %}
 
 <DataTemplate x:Key="viewtemplate">
   <Border BorderBrush="Black" BorderThickness="1">

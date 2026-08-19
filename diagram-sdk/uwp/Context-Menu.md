@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Context Menu in UWP Diagram control | Syncfusion®
-description: Learn here all about Context Menu support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Context Menu in UWP SfDiagram | Syncfusion®
+description: Learn about context menus in the Syncfusion® UWP SfDiagram control, including default menus, custom menu items, and menu events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Context Menu in UWP Diagram (SfDiagram)
+# Context Menu in UWP SfDiagram
 
 In graphical user interface (GUI), a ContextMenu is a type of Menu that appears when you perform right-click operation. Nested level of Context Menu items can be created. Diagram provided some in-build ContextMenu items and allows to define custom menu items.
 

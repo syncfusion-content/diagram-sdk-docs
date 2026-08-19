@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with UWP Diagram control | Syncfusion®
-description: Learn here about getting started with the Syncfusion® UWP Diagram (SfDiagram) control, its elements and more.
+title: Getting Started with UWP SfDiagram | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP SfDiagram control. Explore setup, flowchart creation, nodes, connectors, and annotations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Getting Started with UWP Diagram (SfDiagram)
+# Getting Started with UWP SfDiagram
 
 The following section helps you to build your application with SfDiagram. 
 
@@ -84,7 +84,7 @@ namespace Flow_Diagram
 ## Flow Chart
 Let us create a simple flow chart using SfDiagram.
 
-#### Initialize the Diagram
+### Initialize the Diagram
 
 The SfDiagram exists in the Syncfusion.UI.Xaml.Diagram namespace. Initialize SfDiagram in XAML as shown in the following code example.
 
@@ -99,7 +99,7 @@ The SfDiagram exists in the Syncfusion.UI.Xaml.Diagram namespace. Initialize SfD
 {% endhighlight %} 
 {% endtabs %}
 
-#### Initialize Nodes and Connectors
+### Initialize Nodes and Connectors
 
 To initialize the Nodes and Connectors properties of the SfDiagram, Nodes property is assigned to the NodeCollection, that is, ObservableCollection of the Node. 
 Connectors property is assigned to the ConnectorCollection, that is, ObservableCollection of the Connector.
@@ -166,7 +166,7 @@ Creating NodeViewModel with Specified Height and Width.
 #### Adding Shape and ShapeStyle to Node
 
  We have provided a set of basic shapes for Diagram as ResourceDictionary. In order to use the built-in shapes, Shapes dictionary should be merged in Application.  
- Please refer to [Shapes](https://help.syncfusion.com/uwp/diagram/shapes) to know about built-in Shapes.
+ Please refer to [Shapes](/diagram-sdk/uwp/shapes) to know about built-in Shapes.
   
 {% tabs %}
 {% highlight xaml %}
