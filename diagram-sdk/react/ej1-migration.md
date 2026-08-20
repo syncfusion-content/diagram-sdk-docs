@@ -53,6 +53,6 @@ function App() {
 
 ```
 
-Render the `App` component in your application entry point using `createRoot` from `react-dom/client`.
+Use `createRoot` to render the `App` component in your application entry point.
 
 N> If the EJ1 JSON is not rendered, ensure you have passed `true` as the second argument to `loadDiagram`; otherwise it is treated as EJ2 JSON and migration is skipped.
