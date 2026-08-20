@@ -23,14 +23,14 @@ This example demonstrates how to create a complex hierarchical tree layout by ma
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/complexhiertree-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/complexhiertree-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/complexhiertree-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs1" %}
 
 
 ## Complex Hierarchical Tree Layout with DataSource
