@@ -3,7 +3,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent, Inject, IExportOptions, NodeModel,
-  PrintAndExport, SnapConstraints } from "@syncfusion/ej2-react-diagrams";
+  PrintAndExport, SnapConstraints, SnapSettingsModel } from "@syncfusion/ej2-react-diagrams";
+
+let snapSettings: SnapSettingsModel = { constraints: SnapConstraints.None };
 
 export default function App() {
   let diagramInstance: DiagramComponent;
@@ -49,7 +51,7 @@ export default function App() {
         width={'100%'}
         height={'600px'}
         nodes={nodes}
-        snapSettings={{ constraints: SnapConstraints.None }}
+        snapSettings={snapSettings}
       >
         <Inject services={[PrintAndExport]} />
       </DiagramComponent>

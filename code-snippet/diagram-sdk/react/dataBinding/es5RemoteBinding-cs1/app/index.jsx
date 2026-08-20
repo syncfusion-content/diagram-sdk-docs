@@ -4,6 +4,10 @@ import * as ReactDOM from "react-dom";
 import { DiagramComponent, DataBinding, HierarchicalTree, DiagramTools, Inject } from "@syncfusion/ej2-react-diagrams";
 import { DataManager, Query } from '@syncfusion/ej2-data';
 
+let snapSettings = {
+    constraints: 0,
+};
+
 const layout = {
     type: 'HierarchicalTree',
     margin: {
@@ -74,9 +78,7 @@ function App() {
     //Configures data source
         dataSourceSettings={dataSourceSettings}
     //Disables all interactions except zoom/pan
-    tool={DiagramTools.ZoomPan} snapSettings={{
-            constraints: 0,
-        }}>
+    tool={DiagramTools.ZoomPan} snapSettings={snapSettings}>
       <Inject services={[DataBinding, HierarchicalTree]}/>
     </DiagramComponent>);
 }

@@ -4,6 +4,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent, Inject, PrintAndExport } from "@syncfusion/ej2-react-diagrams";
 
+let pageSettings = { width: 200, height: 200 };
+
 export default function App() {
   let diagramInstance;
   let regionInstance;
@@ -49,7 +51,7 @@ export default function App() {
         width={'100%'}
         height={'600px'}
         nodes={nodes}
-        pageSettings={{ width: 200, height: 200 }}
+        pageSettings={pageSettings}
       >
         <Inject services={[PrintAndExport]} />
       </DiagramComponent>

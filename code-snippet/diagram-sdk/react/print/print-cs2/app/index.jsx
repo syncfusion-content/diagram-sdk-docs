@@ -4,6 +4,14 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent, Inject, PrintAndExport, SnapConstraints } from "@syncfusion/ej2-react-diagrams";
 
+let snapSettings = { constraints: SnapConstraints.None };
+let pageSettings = {
+  width: 300,
+  height: 500,
+  multiplePage: true,
+  showPageBreaks: true,
+};
+
 export default function App() {
   let diagramInstance;
 
@@ -68,13 +76,8 @@ export default function App() {
         width={'100%'}
         height={'600px'}
         nodes={nodes}
-        snapSettings={{ constraints: SnapConstraints.None }}
-        pageSettings={{
-          width: 300,
-          height: 500,
-          multiplePage: true,
-          showPageBreaks: true,
-        }}
+        snapSettings={snapSettings}
+        pageSettings={pageSettings}
       >
         <Inject services={[PrintAndExport]} />
       </DiagramComponent>
