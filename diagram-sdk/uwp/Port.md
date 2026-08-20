@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Port in UWP Diagram control | Syncfusion®
-description: Learn here all about Port support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Port in UWP SfDiagram | Syncfusion®
+description: Learn about ports in the Syncfusion® UWP SfDiagram control, including node ports, connector ports, connections, appearance, and constraints.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Port in UWP Diagram (SfDiagram)
+# Port in UWP SfDiagram
 
 Essential® Diagram for UWP provides support to define custom ports for making connections.
 
@@ -130,7 +130,7 @@ port.Constraints |= PortConstraints.Dynamic;
 
 {% endhighlight %}
 
-To know more about bitwise operators, refer to [Bitwise Operations](/uwp/diagram/constraints#bitwise-operations).
+To know more about bitwise operators, refer to [Bitwise Operations](/diagram-sdk/uwp/constraints).
 
 ![Dynamic port](Port_images/Port_img9.jpeg)
 
@@ -220,7 +220,7 @@ public class PortCollection : ObservableCollection<IPort>
 
 ## Connect with ports
 
-Connector’s `SourcePort` and `TargetPort` properties allow to create connections between some specific points of Source/Target Nodes. For more information about creating connections with port, refer to [Connections with Ports](/uwp/diagram/connector#connections-with-ports "Connections with Ports").
+Connector’s `SourcePort` and `TargetPort` properties allow to create connections between some specific points of Source/Target Nodes. For more information about creating connections with port, refer to [Connections with Ports](/diagram-sdk/uwp/connector).
 
 ##Appearance
 
@@ -285,4 +285,4 @@ The following code illustrates how to change the appearance of port.
 
 ## Constraints
 
-The Constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [Port Constraints](/uwp/diagram/constraints#port-constraints "Port Constraints").
+The Constraints property allows to enable/disable certain behaviors of ports. For more information about port constraints, refer to [Port Constraints](/diagram-sdk/uwp/constraints).

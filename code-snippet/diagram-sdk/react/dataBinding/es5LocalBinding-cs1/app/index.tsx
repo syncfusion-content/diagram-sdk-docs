@@ -12,11 +12,14 @@ import {
     DataBinding,
     HierarchicalTree,
     DiagramTools,
-    Inject
+    Inject,
+    SnapSettingsModel
 } from "@syncfusion/ej2-react-diagrams";
 import {
     DataManager
 } from '@syncfusion/ej2-data';
+
+let snapSettings: SnapSettingsModel = { constraints: 0 };
 
 let species: object[] = [
     { 'Name': 'Species', 'fillColor': '#3DD94A' },
@@ -113,7 +116,7 @@ function App() {
       }}
       //Disables all interactions except zoom/pan
       tool={DiagramTools.ZoomPan}
-      snapSettings={{ constraints: 0 }}
+      snapSettings={snapSettings}
     >
       <Inject services={[DataBinding, HierarchicalTree]} />
     </DiagramComponent>

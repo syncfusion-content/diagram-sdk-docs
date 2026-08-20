@@ -1,13 +1,13 @@
 ---
 layout: post
-title: DataSource in UWP Diagram control | Syncfusion®
-description: Learn here all about DataSource settings support and its declaration in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: DataSource in UWP SfDiagram | Syncfusion®
+description: Learn how to bind and visualize data in the Syncfusion® UWP SfDiagram control using DataSource settings, relationships, and layouts.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# DataSource in UWP Diagram (SfDiagram)
+# DataSource in UWP SfDiagram
 
 Diagram can be populated with the nodes and connectors based on the information provided from an external data source.
 

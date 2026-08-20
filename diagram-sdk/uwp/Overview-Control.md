@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About UWP Diagram Overview control | Syncfusion®
-description: Learn here all about Overview Control support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Overview Control in UWP SfDiagram | Syncfusion®
+description: Learn about the overview control in the Syncfusion® UWP SfDiagram control, including navigation, zooming, panning, and viewport management.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# UWP Diagram (SfDiagram) Overview
+# Overview Control in UWP SfDiagram
 
 Overview control is used to display a preview (overall view) of the entire content of a Diagram. This helps you to look overall picture of large Diagram and also to navigate (pan or zoom) to a particular position of the page.
 
@@ -57,7 +57,7 @@ Steps to add Overview control manually in XAML:
 
 ## ZoomSlider
 
-The [ShowZoomSlider](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.Controls.Overview.html#Syncfusion_UI_Xaml_Diagram_Controls_Overview_ShowZoomSliderProperty) property is used to show or hide the zoom slider in the overview control. By default, the ShowZoomSlider is true.
+The [ShowZoomSlider](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.Controls.Overview.html) property is used to show or hide the zoom slider in the overview control. By default, the ShowZoomSlider is true.
 
 You can zoom in or zoom out the overview as well as the diagram by changing the slider or click on the zoom in or zoom out button.
 
@@ -104,7 +104,7 @@ Overview control allows Zoom and Pan interactions. The red rectangle indicates t
 {% endhighlight %}	
 {% endtabs %}
 
-The [Constraint](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.Controls.Overview.html#Syncfusion_UI_Xaml_Diagram_Controls_Overview_ConstraintProperty) property of the Overview class allows you to control the Pan and Zoom interactions based the value assigned to that property. The following table explains the various values and their behaviors:
+The [Constraint](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.Controls.Overview.html) property of the Overview class allows you to control the Pan and Zoom interactions based the value assigned to that property. The following table explains the various values and their behaviors:
 
 | OverviewConstraints | Description | Output |
 |---|---|---|
@@ -119,7 +119,7 @@ The [Constraint](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.C
 
 Diagram supports the deferred scrolling behaviour to improve the zoom and pan performances.
 
-To learn more about deferred scrolling, refer to [Deferred Scrolling](/uwp/diagram/virtualization#deferred-scrolling "DeferredScrolling").
+To learn more about deferred scrolling, refer to [Deferred Scrolling](/diagram-sdk/uwp/virtualization).
 
 ## Event
 
@@ -129,10 +129,10 @@ Find the [Overview control sample](https://github.com/SyncfusionExamples/UWP-Dia
 
 {% seealso %}
 
-[How to virtualize the diagram control](/uwp/diagram/virtualization)
+[How to virtualize the diagram control](/diagram-sdk/uwp/virtualization)
 
-[How to serialize the diagram control](/uwp/diagram/serialization)
+[How to serialize the diagram control](/diagram-sdk/uwp/serialization)
 
-[How to localize the diagram control](/uwp/diagram/localization)
+[How to localize the diagram control](/diagram-sdk/uwp/localization)
 
 {% endseealso %}

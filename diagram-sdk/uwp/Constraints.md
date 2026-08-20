@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Constraints in UWP Diagram control | Syncfusion®
-description: Learn here all about Constraints support in the Syncfusion® UWP Diagram (SfDiagram) control and more.
+title: Constraints in UWP SfDiagram | Syncfusion®
+description: Learn about constraints in the Syncfusion® UWP SfDiagram control to enable or disable diagram, node, connector, port, and annotation behaviors.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Constraints in UWP Diagram (SfDiagram)
+# Constraints in UWP SfDiagram
 
 `Constraints` are used to enable/disable certain behaviors of the diagram, Node and Connector. Constraints are provided as flagged enumerations, so that multiple behaviors can be enabled/disabled with bitwise operators (&, |, ~, <<, etc.). 
 To know more about bitwise operators, refer to [Bitwise Operations](#bitwise-operations).
