@@ -48,7 +48,7 @@ The [`dragLeave`](https://ej2.syncfusion.com/react/documentation/api/diagram#dra
 
 The [`dragOver`](https://ej2.syncfusion.com/react/documentation/api/diagram#dragover) event triggers continuously while a symbol is being dragged over the diagram surface. This event is wired on the `DiagramComponent` and provides real-time feedback during drag operations, enabling developers to implement dynamic drop validation. The event arguments are of type [`IDragOverEventArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/iDragOverEventArgs).
 
-* **Key args:** `element`, `source`, `target`, `cancel`
+* **Key args:** `diagram`, `element`, `mousePosition`, `target`
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -82,7 +82,7 @@ The [`drop`](https://ej2.syncfusion.com/react/documentation/api/diagram#drop) ev
 
 The [`paletteExpanding`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#paletteexpanding) event triggers when a palette group is expanded or collapsed within the symbol palette. This event is wired on the `SymbolPaletteComponent` and enables developers to control palette expansion behavior and implement custom logic based on palette state changes. The event arguments are of type [`IPaletteExpandArgs`](https://ej2.syncfusion.com/react/documentation/api/diagram/iPaletteExpandArgs).
 
-* **Key args:** `palette`, `isExpanded`, `cancel`
+* **Key args:** `content`, `element`, `cancel`, `index`
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -115,5 +115,5 @@ The [`paletteSelectionChange`](https://ej2.syncfusion.com/react/documentation/ap
 * [Symbol Palette](./symbol-palette)
 * [Symbol Palette customization](./palette-customization)
 * [Nodes](./nodes)
-* [Diagram events](./nodes-events)
+* [Node events](./nodes-events)
 
