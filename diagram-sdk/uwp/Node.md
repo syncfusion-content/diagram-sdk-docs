@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Node in UWP Diagram control | Syncfusion®
-description: Learn here all about Node support in the Syncfusion® UWP Diagram (SfDiagram) control, its elements, and more.
+title: Node in UWP SfDiagram | Syncfusion®
+description: Learn about nodes in the Syncfusion® UWP SfDiagram control, including shapes, positioning, appearance, interaction, and constraints.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Node in UWP Diagram (SfDiagram)
+# Node in UWP SfDiagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure or any other kind of data and it represents the functions of a complete system in regards to how it interacts with external entities.
 
@@ -15,7 +15,7 @@ Nodes are graphical objects used to visually represent the geometrical informati
 
 ## Shapes
 
-We have provided some basic built-in shapes as ResourceDictionary.For more information, refer to [Shapes](/uwp/diagram/shapes). 
+We have provided some basic built-in shapes as ResourceDictionary.For more information, refer to [Shapes](/diagram-sdk/uwp/shapes). 
 
 ## Create Node
 
@@ -66,17 +66,17 @@ Now,Node would be like this,
 
 ### Add Node from stencil
 
-Nodes can be predefined and added to palette and can be dropped into the Diagram when needed. For more information about adding Nodes from Stencil, refer to [Stencil](/uwp/diagram/stencil "Stencil").
+Nodes can be predefined and added to palette and can be dropped into the Diagram when needed. For more information about adding Nodes from Stencil, refer to [Stencil](/diagram-sdk/uwp/stencil).
 
 ### Create Node through data source
 
 Nodes can be generated automatically with the information provided through data source.For more information about data source, 
 
-refer to [Data Source](/uwp/diagram/datasource "DataSource").
+refer to [Data Source](/diagram-sdk/uwp/datasource).
 
 ### Draw Nodes
 
-Nodes can be interactively drawn by clicking and dragging the Diagram surface by using **Drawing Tool**. For more information about drawing Nodes, refer to [Draw Nodes](/uwp/diagram/tools#drawing-tools:shapes "Draw Nodes").
+Nodes can be interactively drawn by clicking and dragging the Diagram surface by using **Drawing Tool**. For more information about drawing Nodes, refer to [Draw Nodes](/diagram-sdk/uwp/tools).
 
 ## Position
 
@@ -223,42 +223,42 @@ The flip types are below,
 
 Diagram provides support to drag, resize, or rotate the Node interactively. 
 
-#### Select
+### Select
 Node can be selected by clicking on it.
 
 ![node with selection](Node_images/Node_img7.jpg)
 
-To explore about selection and selection related events , refer to [Selection](/uwp/diagram/interaction#selection) .
+To explore about selection and selection related events , refer to [Selection](/diagram-sdk/uwp/interaction) .
 
-#### Drag
+### Drag
 
 * Selected object can be dragged by clicking and dragging it. When multiple elements are selected, dragging any one of the selected elements move every selected element.
-* While dragging, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/uwp/diagram/gridlines#snapping).
+* While dragging, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines).
 
 * `NodeChangedEvent` will notify the `OffsetX` and `OffsetY` changes with their old and new values.Along with that, this event will give information about interaction state. To explore about aruguments, please refer to [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
 ![dragging the nodes](Node_images/Drag.gif)
 
-#### Resize
+### Resize
 
 * Selector is surrounded by eight thumbs. When dragging these thumbs, selected items can be resized smaller or larger.
 * When one corner of the selector is dragged, opposite corner is in a static position.
-* While resizing, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/uwp/diagram/gridlines#snapping).
+* While resizing, the objects are snapped towards the nearest objects to make better alignments. For better alignments, refer to [Snapping](/diagram-sdk/uwp/gridlines).
 
 * `NodeChangedEvent` will notify the `UnitHeight` and `UnitWidth` changes with their old and new values.Along with that, this event will give information about  interaction state. To explore about arguments, please refer to [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
 ![resizing the selected the node](Node_images/Resize.gif)
 
-#### Rotate
+### Rotate
 
 * A rotate handler is placed above the selector. Clicking and dragging the handler in a circular direction lead to rotate the Node.
 * The Node is rotated with reference to the static pivot point.
-* Pivot thumb (thumb at the middle of the Node) appears while rotating the Node to represent the static point.For more information about pivot, refer to [Position](/uwp/diagram/node#position "Position").
+* Pivot thumb (thumb at the middle of the Node) appears while rotating the Node to represent the static point.For more information about pivot, refer to [Position](/diagram-sdk/uwp/node).
 
 * `NodeChangedEvent` will notify the `RotateAngle` changes with their old and new values.Along with that, this event will give information about iteraction State. To explore about arguments, please refer to the [NodeChangedEventArgs](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Diagram.NodeChangedEventArgs.html) .
 
 ![rotating the selected node](Node_images/Rotate.gif)
 
 ## Constraints
-aa
-The `Constraints` property of Node allows you to enable/disable certain features. For more information about Node constraints, refer to [Node Constraints](/uwp/diagram/constraints#node-constraints "Node Constraints").
+
+The `Constraints` property of Node allows you to enable/disable certain features. For more information about Node constraints, refer to [Node Constraints](/diagram-sdk/uwp/constraints).
