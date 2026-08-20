@@ -104,13 +104,6 @@ export function getBasicShapes(): NodeModel[] {
     ];
     return basicShapes;
 }
-export function removePalette(): void {
-    /**
-     * parameter - The ID of palette to be removed in symbol palette.
-     */
-    symbolPaletteRef.current.removePalette('basic');
-    symbolPaletteRef.current.refresh();
-};
 export function removePalettes(): void {
     let palettes = ['flow', 'connectors'];
     /**
@@ -138,7 +131,6 @@ function App() {
     symbolPaletteRef = useRef(null);
     return (
         <div>
-            <input type="button" value="Remove Palette" onClick={removePalette} />
             <input type="button" value="Remove Palettes" onClick={removePalettes} />
             <SymbolPaletteComponent
                 id="symbolpalette"
