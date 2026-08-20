@@ -3,9 +3,9 @@ layout: post
 title: Hierarchical Tree Layout in React Diagram | Syncfusion®
 description: Apply the Hierarchical Tree layout in the React Diagram to auto-arrange parent-child nodes from manual data or a data source for matrix-style orgs.
 control: Hierarchical tree layout
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Hierarchical Tree Layout in React Diagram
@@ -26,14 +26,14 @@ N> The **HierarchicalTree** module must be injected into the diagram using the `
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs1" %}
 
 ## Hierarchical Layout with DataSource
 
@@ -43,14 +43,14 @@ N> When using a DataSource, configure `dataSourceSettings` with the `id` and `pa
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/hierarchicallayout-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/hierarchicallayout-cs2" %}
 
 N> When using DataSource for layout generation, both DataBinding and HierarchicalTree modules must be injected into the diagram.
 

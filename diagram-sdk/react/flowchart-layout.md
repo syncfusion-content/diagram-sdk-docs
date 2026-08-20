@@ -3,9 +3,9 @@ layout: post
 title: Flowchart Layout in React Diagram | Syncfusion®
 description: Render standard flowchart symbols in the React Diagram using Terminator, Process, Decision, Document, and Data shapes connected by directional arrows.
 control: Flowchart layout
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Flowchart Layout in React Diagram
@@ -55,14 +55,14 @@ To render a flowchart layout, set the layout [`type`](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs1" %}
 
 ![EJ2 Flowchart layout diagram](./images/flowchart-images/Flowchart_Layout.png)
 
@@ -121,14 +121,14 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs2" %}
 
 ## Customize Flowchart Layout Orientation
 
@@ -222,14 +222,14 @@ The following example shows a flowchart layout with `yesBranchDirection` set to 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs3/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs3/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs3" %}
 
 The following table illustrates the visual behavior of different branch direction combinations:
 
@@ -261,13 +261,13 @@ The following example demonstrates how to set custom text values for yes and no 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs4/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/flowchart-cs4/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/flowchart-cs4" %}
 
 ![Flowchart layout with custom yes and no branch values](./images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

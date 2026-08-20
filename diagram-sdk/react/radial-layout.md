@@ -3,9 +3,9 @@ layout: post
 title: Radial Tree Layout in React Diagram | Syncfusion®
 description: Use the RadialTree layout in the React Diagram to position a central root with child nodes arranged in concentric rings for org charts and concept maps.
 control: Radial tree layout
-platform: ej2-react
+platform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Radial Tree Layout in React Diagram
@@ -24,15 +24,15 @@ Creating a radial tree layout with a data source provides automatic node generat
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/radiallayout-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs1" %}
 
 
 N> When converting a data source into a radial layout, inject both DataBinding and RadialTree modules in the diagram component.
@@ -44,15 +44,15 @@ For scenarios requiring manual control over node creation and positioning, the r
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/diagram/AutomaticLayout/radiallayout-cs2/app/index.jsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs2/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/diagram/AutomaticLayout/radiallayout-cs2/app/index.tsx %}
+{% include code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "page.domainurl/code-snippet/diagram/AutomaticLayout/radiallayout-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/radiallayout-cs2" %}
  
 
 N> To use radial tree layout functionality, inject the RadialTree module in the diagram component.
