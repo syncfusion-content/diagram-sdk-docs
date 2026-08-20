@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UML Diagram in React Diagram | Syncfusion®
-description: Model software in the React Diagram with UML Class and Activity diagram shapes — class attributes, methods, lifelines, and decisions — for object-oriented design.
+description: Model software in the React Diagram with UML Class and Activity shapes — class attributes, methods, lifelines, and decisions — for object-oriented design.
 control: Umldiagram
 platform: diagram-sdk
 documentation: ug
