@@ -114,7 +114,7 @@ Templates can be defined as strings and assigned to the node's `content` propert
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-contentTemplate" %}
 
 ## Drag and Drop Symbols from Palette to Diagram
-To drag and drop symbols from the palette to the diagram canvas, perform a mousedown action on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
+To drag and drop a symbol from the palette onto the diagram canvas, press and hold the mouse button on the desired symbol, drag it to the desired location on the diagram canvas, and then release the mouse button to drop it.
 ![Drag and drop symbols](images/symbol-palette-drag-drop.gif)
 ## Symbol Defaults
 
