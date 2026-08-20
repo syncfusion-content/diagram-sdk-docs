@@ -10,13 +10,15 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Connector Port in React Diagram
 
+Before working with connector ports, ensure the Diagram component is set up with connectors and ports. For details, see [Ports](./ports.md) and [Connectors](./connectors.md).
+
 Connector ports serve as connection points along connectors, enabling other connectors to attach at specific locations rather than just the endpoints. This guide covers creating connector ports, configuring their alignment and displacement, and establishing port-to-port connections.
 
 ## Create Connector Port
 
-Connector ports serve as connection points along connectors, enabling other connectors to attach at specific locations rather than just the endpoints. Creating connector ports follows the same pattern as node ports - define a port collection and assign it to the connector's [`ports`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#ports) property.
+Creating connector ports follows the same pattern as node ports - define a port collection and assign it to the connector's [`ports`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#ports) property.
 
-The following code example shows how to create connector port.
+The following code example shows how to create a connector port:
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -32,7 +34,7 @@ The following code example shows how to create connector port.
 
 ## Port Alignment
 
-Control the position of ports along the connector using the [`alignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/portAlignment) property. This property determines where the port appears relative to the connector's path:
+Control the position of ports along the connector using the [`alignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/portalignment) property. This property determines where the port appears relative to the connector's path. Valid `PortAlignment` values are `Before`, `Center` (default), and `After`:
 
 - **Before**: Positions the port at the source end of the connector.
 - **After**: Positions the port at the target end of the connector.
@@ -51,11 +53,9 @@ The following code example shows how to set different alignment values for conne
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con2" %}
 
-
-
 ## Port Displacement
 
-Fine-tune port positioning using the [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/point) property, which applies offset values to move ports from their aligned position. Displacement works by shifting the port by specified x and y coordinates relative to the alignment point.
+Fine-tune port positioning using the [`displacement`](https://ej2.syncfusion.com/react/documentation/api/diagram/point) property, which applies offset values to move ports from their aligned position. Displacement works with alignment by shifting the port by the specified x and y coordinates relative to the alignment point. Displacement has no effect when `alignment` is set to `Center` (the default).
 
 The following code example demonstrates how to apply displacement to connector ports:
 
@@ -70,12 +70,11 @@ The following code example demonstrates how to apply displacement to connector p
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-con3" %}
 
-
-N> The displacement will work only if we set alignment as after or before.
+N> Displacement only takes effect when `alignment` is set to `Before` or `After`.
 
 ## Establish Port-to-Port Connections
 
-Connect one connector to another connector's port by specifying the port ID in the [`sourcePortID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#sourceportid) or [`targetPortID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#targetportid) property. This creates precise connection points along connector paths instead of connecting to endpoints.
+Connect one connector to another connector's port by specifying the port ID in the [`sourcePortID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#sourceportid) or [`targetPortID`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#targetportid) property, creating precise mid-path connection points. For example, set `sourcePortID: 'port1'` and `targetPortID: 'port2'` on the connecting connector. If the specified port ID does not exist on the target connector, the connection falls back to the connector endpoint.
 
 The following code example shows how to connect a connector to a connector port:
 
@@ -92,8 +91,7 @@ The following code example shows how to connect a connector to a connector port:
 
 ## See also
 
-* [How to customize the ports.](./ports-appearance)
-
-* [How to set the position of the port.](./ports-positioning)
-
-* [How to interact with the ports.](./ports-interaction)
+* [How to customize the ports](./ports-appearance)
+* [How to set the position of the port](./ports-positioning)
+* [How to interact with the ports](./ports-interaction)
+* [Ports overview](./ports)
