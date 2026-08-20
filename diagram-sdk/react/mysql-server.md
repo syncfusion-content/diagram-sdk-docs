@@ -68,7 +68,7 @@ N> The MySQL installer automatically configures and starts the MySQL Server as a
 
 MySQL Workbench is a graphical tool used to connect to MySQL Server, manage databases, execute SQL queries, and inspect data.
 
-1. Download MySQL Workbench Installer version 8.0.47 from [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/)
+1. Download MySQL Workbench Installer version 8.0.47 from the [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/index.html).
 2. Run the installer and follow the setup wizard.
    - Choose the setup type as **Complete**.
    - Click **Finish** after installing MySQL Workbench.
