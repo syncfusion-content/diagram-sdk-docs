@@ -30,9 +30,9 @@ The Windows Forms Diagram package is comprised of the following controls:
 
 The [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram) control is an interactive two-dimensional graphics control for diagramming, technical drawing, visualization, and simulation applications. It provides a surface for rendering and manipulating 2-D shapes, text, images, and Windows Form controls.  The UI supports drag and drop, scaling, zooming, rotation, grouping, ungrouping, connection points, layouts, and many other features.
 
-The Diagram control’s architecture is composed of three objects, namely Model, View, and Controller and it provides a clear separation between data, visualization, and user interface. One advantage of model-view-controller architecture is that the parts are interchangeable. The model, view, and controller can be swapped in and out independently.
+The WinForms Diagram control’s architecture is composed of three objects, namely Model, View, and Controller and it provides a clear separation between data, visualization, and user interface. One advantage of model-view-controller architecture is that the parts are interchangeable. The model, view, and controller can be swapped in and out independently.
 
-The model contains the data (nodes and connectors) portion of a diagram. The view is responsible for rendering the diagram, and the controller handles user interaction. The Diagram control supports both horizontal and vertical rulers.
+The model contains the data (nodes and connectors) portion of a diagram. The view is responsible for rendering the diagram, and the controller handles user interaction. The WinForms Diagram control supports both horizontal and vertical rulers.
 
 
 
@@ -52,7 +52,7 @@ The Overview control provides a perspective view of a diagram model and allows u
 
 ### PaletteGroupBar
 
-The PaletteGroupBar control provides a way for users to drag symbols onto a diagram. It is based on the GroupBar control of Essential® Tools. Each symbol palette loaded in the PaletteGroupBar control occupies a panel that can be selected by a bar button. The bar button is labeled with the name of the symbol palette. Each symbol palette is a list of symbols that have an icon and a label. The symbols in the palette are shown as icons that can be dragged onto the diagram. This control allows users to add symbols to a palette, and save or load the palette whenever necessary. It provides a way to classify and maintain symbols. It also provides a preview of symbols during drag and drop operations.
+The PaletteGroupBar control provides a way for users to drag symbols onto a diagram. It is based on the GroupBar control of WinForms Diagram Tools. Each symbol palette loaded in the PaletteGroupBar control occupies a panel that can be selected by a bar button. The bar button is labeled with the name of the symbol palette. Each symbol palette is a list of symbols that have an icon and a label. The symbols in the palette are shown as icons that can be dragged onto the diagram. This control allows users to add symbols to a palette, and save or load the palette whenever necessary. It provides a way to classify and maintain symbols. It also provides a preview of symbols during drag and drop operations.
 
 
 
@@ -64,7 +64,7 @@ The PaletteGroupBar control provides a way for users to drag symbols onto a diag
 
 The PaletteGroupView control provides an easy way to serialize a symbol palette to and from a resource file of a form. At design time, users can attach a symbol palette to the PaletteGroupView control in the form. Selecting PaletteGroupView and clicking the Palette property in the Visual Studio .NET Properties window will open a standard Open File dialog, which allows the user to select a symbol palette file that has been created with the Symbol Designer.
 
-It displays the symbol models belonging to a symbol palette in the GroupView control of Essential® Tools for Windows Forms. It contains a list of icons and labels that can be hosted in the PaletteGroupBar control. The symbol models can be dragged from this control and dropped onto the diagram. It also provides a preview of symbols during drag and drop operation.
+It displays the symbol models belonging to a symbol palette in the GroupView control of WinForms Diagram® Tools. It contains a list of icons and labels that can be hosted in the PaletteGroupBar control. The symbol models can be dragged from this control and dropped onto the diagram. It also provides a preview of symbols during drag and drop operation.
 
 ### PropertyEditor
 
@@ -108,7 +108,7 @@ To create a Diagram control using the designer:
 
 
 
-The Diagram control will be added to the designer and its dependent assemblies will be added to the project once you drag and drop it onto the Designer Form.
+The WinForms Diagram control will be added to the designer and its dependent assemblies will be added to the project once you drag and drop it onto the Designer Form.
 
 
 
@@ -116,11 +116,11 @@ The Diagram control will be added to the designer and its dependent assemblies w
 
 
 
-#### Creating a Diagram Control through Code
+#### Creating a WinForms Diagram control through Code
 
 This section shows the step-by-step procedure to create a Diagram control programmatically in a .NET Windows Forms application.
 
-To create a Diagram control using code:
+To create a WinForms Diagram control using code:
 
 1. Create a new Windows Forms application.
 2. Add the following basic dependent Syncfusion® assemblies to the project:
@@ -128,13 +128,13 @@ To create a Diagram control using code:
    * Syncfusion.Diagram.Base.dll
    * Syncfusion.Diagram.Windows.dll
    * Syncfusion.Shared.Base.dll
-3. Create a Diagram control using the following code.
+3. Create a WinForms Diagram control  using the following code.
 
 {% capture codesnippet1 %}
 {% tabs %}
 {% highlight c# %}
 
-//Imports the Diagram control’s namespaces
+//Imports the WinForms Diagram’s namespaces
 using Syncfusion.Windows.Forms.Diagram.Controls;
 using Syncfusion.Windows.Forms.Diagram;
 
@@ -155,7 +155,7 @@ diagram.Location = new Point(20, 5);
 {% endhighlight %}
 {% highlight vb %}
 
-'Imports the Diagram control’s namespaces
+'Imports the WinForms Diagram control’s namespaces
 Imports Syncfusion.Windows.Forms.Diagram
 Imports Syncfusion.Windows.Forms.Diagram.Controls
 
@@ -215,7 +215,7 @@ this.Controls.Add(diagram);
 {% endhighlight %}
 {% highlight vb %}
 
-'Add the Diagram control to the Diagram Form
+'Add the WinForms Diagram control  to the Diagram Form
 Me.Controls.Add(diagram)
             
 {% endhighlight %}
@@ -229,7 +229,7 @@ Me.Controls.Add(diagram)
 
 #### Adding Nodes to the Model
 
-The Diagram control has a list of predefined basic shapes ([nodes](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.Model.html#Syncfusion_Windows_Forms_Diagram_Model_Nodes)) which help you to draw diagrams according to your requirement. You can create your own shapes by inheriting the existing shape’s class and the Symbol Designer utility tool which is shipped with the WinForms Diagram package. 
+The WinForms Diagram control has a list of predefined basic shapes ([nodes](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.Model.html#Syncfusion_Windows_Forms_Diagram_Model_Nodes)) which help you to draw diagrams according to your requirement. You can create your own shapes by inheriting the existing shape’s class and the Symbol Designer utility tool which is shipped with the WinForms Diagram package. 
 
 The following code creates a rectangular node and adds it to the model.
 
@@ -309,7 +309,7 @@ diagram.Model.AppendChild(rectangle)
 
 #### Connecting Nodes
 
-The Diagram control has a set of predefined links (connectors) which help you to connect the nodes with each other. You can create your own connectors by inheriting the ConnectorBase class.
+The WinForms Diagram control has a set of predefined links (connectors) which help you to connect the nodes with each other. You can create your own connectors by inheriting the ConnectorBase class.
 
 The following code illustrates how to connect a process node to a decision node by OrthogonalConnector.
 
