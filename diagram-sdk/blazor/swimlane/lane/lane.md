@@ -79,6 +79,8 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VXVxZnhEgVsgQKxp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Lane](../Swimlane-images/Swimlane_Lane.webp)" %}
 
+>**Note:** When the combined height of the lanes and the swimlane header is less than the total height of the swimlane, an additional empty lane is automatically added to fill the remaining height.
+
 ## How to Create and Customize Lane Header
 
 * Use the [Header](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Lane.html#Syncfusion_Blazor_Diagram_Lane_Header) property to describe the lane and customize the header appearance.

@@ -52,9 +52,9 @@ Create a node in a Blazor diagram, define a Node object and add it to the diagra
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/AddMethod.razor)
 
-## How to Add Nodes Using the AddDiagramElementsAsync Method
+## How to Add Nodes, Connectors, and Swimlanes Using the AddDiagramElementsAsync Method
 
-The [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method offers advantages over the Add() method. It measures the passed elements before re-rendering the entire diagram component at once. When using the Add() method to add multiple nodes and connectors simultaneously, connectors may render before their nodes, which can cause incorrect positioning due to the method's synchronous nature. To avoid this issue and ensure proper positioning, use the asynchronous AddDiagramElementsAsync() method.
+The [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method offers advantages over the Add() method. It measures the passed elements before re-rendering the entire diagram component at once. When using the Add() method to add multiple nodes, connectors and swimlanes simultaneously, connectors may render before their nodes, which can cause incorrect positioning due to the method's synchronous nature. To avoid this issue and ensure proper positioning, use the asynchronous AddDiagramElementsAsync() method.
 
 * The AddDiagramElementsAsync() method is the recommended approach for adding multiple items to the diagram. It provides superior performance compared to the Add() method, especially when dealing with a collection of elements.
 
@@ -145,17 +145,117 @@ The [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.B
             // Type of the connector
             Type = ConnectorSegmentType.Straight,
         };
+
+        Swimlane swimlane = new Swimlane()
+        {
+            ID = "swimlane1",
+            OffsetX = 650,
+            OffsetY = 200,
+            Height = 150,
+            Width = 450,
+            Header = new SwimlaneHeader()
+            {
+                Annotation = new ShapeAnnotation() { Content = "Sales Process" },
+                Height = 50,
+            },
+            Lanes = new DiagramObjectCollection<Lane>()
+            {
+                new Lane()
+                {
+                    ID = "lane1",
+                    Height = 100,
+                    Header = new SwimlaneHeader()
+                    {
+                        Width = 30,
+                        Annotation = new ShapeAnnotation() { Content = "Consumer" }
+                    },
+                    Children = new DiagramObjectCollection<Node>()
+                    {
+                        new Node(){Height = 50, Width = 50, LaneOffsetX = 100, LaneOffsetY = 30},
+                        new Node(){Height = 50, Width = 50, LaneOffsetX = 250, LaneOffsetY = 30},
+                    }
+                }
+            }
+        };
+
         DiagramObjectCollection<NodeBase> nodeCollection = new DiagramObjectCollection<NodeBase>();
         nodeCollection.Add(node1);
         nodeCollection.Add(node2);
         nodeCollection.Add(Connector);
+        nodeCollection.Add(swimlane);
         await _diagram.AddDiagramElementsAsync(nodeCollection);
     }
 }
 ```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rjVdtdVayrLypXlU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXhdNlLGJdutLZmg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/AddDiagramElements.razor)
+
+## How to Add Ports and Annotations Using the AddAsync Method
+
+The [AddAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramObjectCollection-1.html#Syncfusion_Blazor_Diagram_DiagramObjectCollection_1_AddAsync__0_) method is used to add ports or annotations to an existing diagram element at runtime. This method is asynchronous and is intended only for adding `Port` and `Annotation` objects to their respective collections. It returns a `Task` and should be awaited.
+
+The following code example shows how to add a port and an annotation dynamically to a node.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Add Port and Annotation" OnClick="@AddPortAndAnnotationAsync" />
+
+<SfDiagramComponent @ref="_diagram" Width="900px" Height="500px" Nodes="@_nodes" Connectors="@_connectors">
+</SfDiagramComponent>
+
+@code
+{
+    // Reference the diagram.
+    private SfDiagramComponent _diagram;
+
+    // Initialize the nodes and connectors collections.
+    private DiagramObjectCollection<Node> _nodes = new DiagramObjectCollection<Node>();
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        Node node = new Node()
+        {
+            ID = "node1",
+            OffsetX = 300,
+            OffsetY = 200,
+            Width = 120,
+            Height = 60,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "#6495ED" },
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle },
+        };
+
+        _nodes.Add(node);
+    }
+
+    private async Task AddPortAndAnnotationAsync()
+    {
+        Node node = _diagram.Nodes[0];
+
+        await node.Ports.AddAsync(new PointPort()
+        {
+            ID = "port1",
+            Offset = new DiagramPoint() { X = 1, Y = 0.5 },
+            Visibility = PortVisibility.Visible,
+            Height = 10,
+            Width = 10,
+            Style = new ShapeStyle() { Fill = "#FFFFFF", StrokeColor = "#1F3A93" }
+        });
+
+        await node.Annotations.AddAsync(new ShapeAnnotation()
+        {
+            Content = "Node 1",
+            Offset = new DiagramPoint() { X = 0.5, Y = 0.5 }
+        });
+    }
+}
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtrxjlVcfdbJwkAg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/AddAsyncMethod.razor)
 
 ## How to Clear Nodes and Connectors from the Diagram
 
