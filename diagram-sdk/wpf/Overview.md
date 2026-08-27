@@ -10,7 +10,7 @@ documentation: ug
 
 # About WPF SfDiagram Control
 
-[WPF SfDiagram control](https://www.syncfusion.com/diagram-sdk/wpf-diagram) is a powerful, extensible, and feature-rich library for visualizing, creating, and editing interactive diagrams. It supports creating flowcharts, organizational charts, mind maps, floor plans, UML diagrams, and BPMN charts either through code or a visual interface.
+[WPF SfDiagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) control is a powerful, extensible, and feature-rich library for visualizing, creating, and editing interactive diagrams. It supports creating flowcharts, organizational charts, mind maps, floor plans, UML diagrams, and BPMN charts either through code or a visual interface.
 
 ![WPF Diagram Overview](Overview_images/wpf-diagram-overview.png)
 
