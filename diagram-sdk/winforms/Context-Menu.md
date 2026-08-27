@@ -9,7 +9,7 @@ documentation: ug
 
 # Context Menu in Windows Forms Diagram
 
-### Built-in context menu
+## Built-in context menu
 
 The [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram) provides built-in context menu support to the Diagram.
 

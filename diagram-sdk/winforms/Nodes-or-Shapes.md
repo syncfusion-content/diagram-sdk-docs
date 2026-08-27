@@ -44,7 +44,7 @@ The [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram) 
 * Link
 * PolyLineConnector
 
-### Creating a Node in the WinForms Diagram control at Run Time
+## Creating a Node in the WinForms Diagram control at Run Time
 
 To create a node in the WinForms Diagram control:
 

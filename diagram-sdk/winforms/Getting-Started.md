@@ -1235,7 +1235,7 @@ Diagram1.Controller.SelectAll();</td></tr>
 </table>
 
 
-#### Pan & Zoom Tool
+### Pan & Zoom Tool
 
 The following screenshot illustrates the pan and zoom tools.
 
@@ -1286,7 +1286,7 @@ Diagram1.ShowRulers=true;</td></tr>
 </table>
 
 
-#### Alignment Tool
+### Alignment Tool
 
 The following screen shot illustrates the Alignment tools.
 
@@ -1338,7 +1338,7 @@ diagram1.AlignBottom();</td></tr>
 </table>
 
 
-#### Rotate Tool
+### Rotate Tool
 
 The following screen shot illustrates the Rotate tools.
 
@@ -1377,7 +1377,7 @@ diagram1.FlipHorizontal();</td></tr>
 </table>
 
 
-#### Resize Tool
+### Resize Tool
 
 The following screen shot illustrates the Resize tools.
 
@@ -1422,7 +1422,7 @@ diagram1.SameWidth();</td></tr>
 </table>
 
 
-#### Nudge Tool
+### Nudge Tool
 
 The following screen shot illustrates the Nudge tools.
 
@@ -1550,7 +1550,7 @@ int nCurrentOffset = this.diagram1.Controller.TextEditor.CharOffset;nCurrentOffs
 </table>
 
 
-#### Group & Order Tool
+### Group & Order Tool
 
 The following screen shot illustrates the Group and Order tools.
 
@@ -1601,7 +1601,7 @@ Diagram1.Controller.SendBackward();</td></tr>
 </table>
 
 
-#### Drawing Tools
+### Drawing Tools
 
 The following screen shot illustrates the drawing tools.
 
@@ -1699,7 +1699,7 @@ diagram1.Controller.ActivateTool("ConnectionPointTool");</td></tr>
 </table>
 
 
-#### Diagram Connector Tools
+### Diagram Connector Tools
 
 The following screen shot illustrates the Diagram Connector tools.
 
@@ -1707,7 +1707,7 @@ The following screen shot illustrates the Diagram Connector tools.
 
 ![Diagram connector tools in WindowsForms Diagram](getting-started_images/windowsforms-diagram-connector-tools.jpeg)
 
-#### LineConnectorTool  
+### LineConnectorTool  
 
 
 Line Connector Tool is used to connect nodes in a straight line. It creates line shape nodes. The name of the [LineConnectorTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.LineConnectorTool.html#) is LineLinkTool.
@@ -1759,7 +1759,7 @@ if (t is Syncfusion.Windows.Forms.Diagram.LineConnectorTool)
 {% endhighlight %}
 {% endtabs %}
 
-#### Orthogonal Connector Tool
+### Orthogonal Connector Tool
 
 Orthogonal Connector Tool is used to connect nodes in an orthogonal manner by providing its start point and end point. It creates the Orthogonal Line Shape node. The name of the Orthogonal Connector Tool is [OrthogonalLinkTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.OrthogonalLinkTool.html#). The below table lists the properties of the tool.
 
@@ -1808,7 +1808,7 @@ if (t is Syncfusion.Windows.Forms.Diagram.OrthogonalConnectorTool)
 {% endhighlight %}
 {% endtabs %}
 
-#### DirectedLineConnector Tool
+### DirectedLineConnector Tool
 
 DirectedLineConnector Tool is used to connect the nodes in a directed line. It creates the directed line shape node. The name of the [DirectedLineConnectorTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.DirectedLineConnectorTool.html#) is [DirectedLineLinkTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.DirectedLineLinkTool.html#). The below table lists the properties of the tool.
 
@@ -1856,7 +1856,7 @@ if (t is Syncfusion.Windows.Forms.Diagram.DirectedLineConnectorTool)
 {% endhighlight %}
 {% endtabs %}
 
-#### PolyLineConnector Tool
+### PolyLineConnector Tool
 
 This is an interactive tool for drawing Polyline Connector. The name of the tool is "PolyLineLinkTool". The below table lists the properties of the [PolyLine tool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.PolyLineTool.html#).
 
@@ -1951,7 +1951,7 @@ Software Path
 
 "[Installed Drive:]\Program Files\Syncfusion\Essential Studio\{{ site.releaseversion }}\Utilities\Diagram\Windows Forms\ Symbol Designer"
 
-#### Creating EDP File
+### Creating EDP File
 
 To create our own custom symbols in the symbol designer, follow the procedure given below.
 
@@ -2102,7 +2102,7 @@ diagram.Location = new Point(20, 5);
 {% endhighlight %}
 {% endtabs %}
 
-#### Establishing Database Connectivity
+### Establishing Database Connectivity
 
 2. You can populate Nodes and Connectors in diagram automatically based on content from database by using binding APIs. To achieve this, you need a table in a database that has two columns, one representing ‘Id’ to uniquely identify objects, and one ‘ParentId’ representing relationship with the parent object. The following code example explains how to bind diagram with data from database by initializing the binding properties.
 
