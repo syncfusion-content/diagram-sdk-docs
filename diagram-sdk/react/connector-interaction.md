@@ -54,7 +54,7 @@ When a connector is selected, circular handles (thumbs) appear at the source and
 
 ![End Point drag GIF](images/EndPointDragGif.gif)
 
-The end points of connectors can also be updated programmatically using the [`dragSourceEnd`](https://helpej2.syncfusion.com/react/documentation/api/diagram#dragsourceend) and [`dragTargetEnd`](https://helpej2.syncfusion.com/react/documentation/api/diagram#dragtargetend) methods of the diagram component.
+The end points of connectors can also be updated programmatically using the [`dragSourceEnd`](https://helpej2.syncfusion.com/react/documentation/api/diagram#dragsourceend) and [`dragTargetEnd`](https://helpej2.syncfusion.com/react/documentation/api/diagram#dragtargetend) methods of the React Diagram component.
 
 The following code example demonstrates how to drag connector end points at runtime.
 

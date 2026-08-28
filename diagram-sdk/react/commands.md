@@ -298,7 +298,7 @@ import {
     DiagramComponent,
 } from "@syncfusion/ej2-react-diagrams";
 let diagramInstance: DiagramComponent;
-//Initializes the Diagram component
+//Initializes the React Diagram component
 function App() {
   return (
     <DiagramComponent
