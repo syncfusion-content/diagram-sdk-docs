@@ -14,7 +14,7 @@ The Angular Diagram component provides a comprehensive set of interactive tools 
 
 ## Overview
 
-The diagram control offers three primary tool categories:
+The Angular Diagram control offers three primary tool categories:
 
 - **Select**: Choose and manipulate specific elements within the diagram
 - **Pan**: Navigate the diagram view to different areas without modifying elements  

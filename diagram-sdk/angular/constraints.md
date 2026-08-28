@@ -61,7 +61,7 @@ import { Component, ViewEncapsulation, ViewChild } from "@angular/core";
 import { DiagramConstraints } from '@syncfusion/ej2-diagrams';
 @Component({
   selector: "app-container",
-  // specifies the template string for the diagram component
+  // specifies the template string for the Angular Diagram component
   template: `<ejs-diagram id="diagram" width="100%" height="580px" [constraints]='diagramConstraints'></ejs-diagram>`
 })
 export class AppComponent {
@@ -80,7 +80,7 @@ import { Component, ViewEncapsulation, ViewChild } from "@angular/core";
 import { DiagramConstraints } from '@syncfusion/ej2-diagrams';
 @Component({
   selector: "app-container",
-  // specifies the template string for the diagram component
+  // specifies the template string for the Angular Diagram component
   template: `<ejs-diagram id="diagram" width="100%" height="580px" [constraints]='diagramConstraints'></ejs-diagram>`
 })
 export class AppComponent {
