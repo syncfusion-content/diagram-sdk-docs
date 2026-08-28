@@ -2,7 +2,7 @@
 layout: post
 title: PostgreSQL in Angular Diagram | Syncfusion®
 description: Bind PostgreSQL data to the Syncfusion® Angular Diagram via a Node.js/Express REST API and DataManager to render an organizational chart.
-control: Angular Diagram 
+control: Diagram 
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk

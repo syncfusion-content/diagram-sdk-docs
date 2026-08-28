@@ -2,7 +2,7 @@
 layout: post
 title: Collaborative Editing Hub in Angular Diagram | Syncfusion®
 description: Configure an ASP.NET Core SignalR hub with Redis in the Syncfusion® Angular Diagram collaborative-editing backend for hub routing and connections.
-control: Angular Diagram
+control: Diagram
 documentation: ug
 platform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk

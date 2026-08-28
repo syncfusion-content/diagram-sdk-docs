@@ -2,7 +2,7 @@
 layout: post
 title: SignalR Hub Configuration in Angular Diagram | Syncfusion®
 description: Wire the Syncfusion® Angular Diagram into a SignalR HubConnection for collaborative editing, including join-group, reconnect, and connection lifecycle handling.
-control: Angular Diagram
+control: Diagram
 documentation: ug
 platform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk

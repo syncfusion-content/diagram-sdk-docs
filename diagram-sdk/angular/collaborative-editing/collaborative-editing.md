@@ -2,7 +2,7 @@
 layout: post
 title: Collaborative Editing in Angular Diagram | Syncfusion®
 description: Enable real-time collaborative editing in the Syncfusion® Angular Diagram over SignalR with Redis-backed state for multiple simultaneous users.
-control: Angular Diagram
+control: Diagram
 documentation: ug
 platform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
