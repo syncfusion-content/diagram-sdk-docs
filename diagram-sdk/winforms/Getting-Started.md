@@ -52,7 +52,7 @@ The Overview control provides a perspective view of a diagram model and allows u
 
 ### PaletteGroupBar
 
-The PaletteGroupBar control provides a way for users to drag symbols onto a diagram. It is based on the GroupBar control of WinForms Diagram Tools. Each symbol palette loaded in the PaletteGroupBar control occupies a panel that can be selected by a bar button. The bar button is labeled with the name of the symbol palette. Each symbol palette is a list of symbols that have an icon and a label. The symbols in the palette are shown as icons that can be dragged onto the diagram. This control allows users to add symbols to a palette, and save or load the palette whenever necessary. It provides a way to classify and maintain symbols. It also provides a preview of symbols during drag and drop operations.
+The PaletteGroupBar control provides a way for users to drag symbols onto a diagram. It is based on the GroupBar control of WinForms Tools. Each symbol palette loaded in the PaletteGroupBar control occupies a panel that can be selected by a bar button. The bar button is labeled with the name of the symbol palette. Each symbol palette is a list of symbols that have an icon and a label. The symbols in the palette are shown as icons that can be dragged onto the diagram. This control allows users to add symbols to a palette, and save or load the palette whenever necessary. It provides a way to classify and maintain symbols. It also provides a preview of symbols during drag and drop operations.
 
 
 
@@ -64,7 +64,7 @@ The PaletteGroupBar control provides a way for users to drag symbols onto a diag
 
 The PaletteGroupView control provides an easy way to serialize a symbol palette to and from a resource file of a form. At design time, users can attach a symbol palette to the PaletteGroupView control in the form. Selecting PaletteGroupView and clicking the Palette property in the Visual Studio .NET Properties window will open a standard Open File dialog, which allows the user to select a symbol palette file that has been created with the Symbol Designer.
 
-It displays the symbol models belonging to a symbol palette in the GroupView control of WinForms Diagram® Tools. It contains a list of icons and labels that can be hosted in the PaletteGroupBar control. The symbol models can be dragged from this control and dropped onto the diagram. It also provides a preview of symbols during drag and drop operation.
+It displays the symbol models belonging to a symbol palette in the GroupView control of WinForms Tools. It contains a list of icons and labels that can be hosted in the PaletteGroupBar control. The symbol models can be dragged from this control and dropped onto the diagram. It also provides a preview of symbols during drag and drop operation.
 
 ### PropertyEditor
 
@@ -134,7 +134,7 @@ To create a WinForms Diagram control using code:
 {% tabs %}
 {% highlight c# %}
 
-//Imports the WinForms Diagram’s namespaces
+//Imports the WinForms Diagram control’s namespaces
 using Syncfusion.Windows.Forms.Diagram.Controls;
 using Syncfusion.Windows.Forms.Diagram;
 
