@@ -3,7 +3,7 @@ layout: post
 title: BPMN Expanded Sub Process in Blazor Diagram Component | Syncfusion®
 description: Group Blazor Diagram Component BPMN activities inside an Expanded Sub-Process with loop, compensation, and ad-hoc variants.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

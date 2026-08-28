@@ -3,7 +3,7 @@ layout: post
 title: Hierarchical Layout in Blazor Diagram Component | Syncfusion®
 description: Arrange Blazor Diagram Component nodes in a hierarchical tree layout with horizontal and vertical spacing for clear top-down flows.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Migrating from SfDiagram to SfDiagramComponent in Blazor | Syncfusion®
 description: Learn how to migrate from the classic SfDiagram to the native SfDiagramComponent in Blazor, including API mapping, namespace changes, and performance gains.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

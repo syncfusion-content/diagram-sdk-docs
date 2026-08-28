@@ -45,7 +45,7 @@ Ensure that the following software and packages are installed:
 | .NET SDK | 10.0 or later | Build & run projects |
 | PostgreSQL Server | 12.x or later | Stores organizational chart data |
 | pgAdmin 4 (optional) | Latest | DB management UI |
-| Syncfusion.Blazor.Diagram | {{site.blazorversion}} | Diagram component |
+| Syncfusion.Blazor.Diagram | {{site.blazorversion}} | Blazor Diagram component |
 | Syncfusion.Blazor.Themes | {{site.blazorversion}} | Styling for Blazor components |
 | Microsoft.EntityFrameworkCore.Design | 10.x |  EF Core design‑time tools |
 | Microsoft.EntityFrameworkCore.Tools | 10.x | EF Core CLI tools |
@@ -575,7 +575,7 @@ Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY
 ```
 For this project, the Bootstrap 5 theme is used. A different theme can be selected or the existing theme can be customized based on project requirements. Refer to the [Blazor Components Appearance](https://blazor.syncfusion.com/documentation/appearance/themes) documentation to learn more about theming and customization options.
 
-For additional guidance, refer to the Diagram component [getting-started](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app) documentation.
+For additional guidance, refer to the Blazor Diagram component [getting-started](https://help.syncfusion.com/diagram-sdk/blazor/getting-started-with-web-app) documentation.
 
 ### Step 2: Update the Blazor Diagram
 

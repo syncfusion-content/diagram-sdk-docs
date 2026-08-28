@@ -3,7 +3,7 @@ layout: post
 title: Context Menu in Blazor Diagram Component | Syncfusion®
 description: Open a right-click context menu in the Blazor Diagram Component with default and custom items, submenus, and template support.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -12,7 +12,7 @@ documentation: ug
 <!-- markdownlint-disable MD010 -->
 
 In graphical user interfaces (GUIs), a context menu is a menu that opens on right-click and can include nested submenu items.
-The Diagram component provides built-in context menu items and supports custom items through the [ContextMenuSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html) property.
+The Blazor Diagram Component provides built-in context menu items and supports custom items through the [ContextMenuSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html) property.
 
 ## How to Enable Default Context Menu
 
@@ -280,11 +280,11 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## Events
 
-The Diagram control provides events for the context menu, triggered when rendering the context menu and when clicking the items of the context menu.
+The Blazor Diagram Component provides events for the context menu, triggered when rendering the context menu and when clicking the items of the context menu.
 
 ### How to Handle Context Menu Opening Event
 
-The Diagram control triggers the event [ContextMenuOpening](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html#Syncfusion_Blazor_Diagram_ContextMenuSettings_ContextMenuOpening)  when performing a right click on the diagram or the diagram elements such as Node, Connector and Groups. To explore the arguments, refer to the [DiagramMenuOpeningEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramMenuOpeningEventArgs.html).
+The Blazor Diagram Component triggers the event [ContextMenuOpening](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html#Syncfusion_Blazor_Diagram_ContextMenuSettings_ContextMenuOpening)  when performing a right click on the diagram or the diagram elements such as Node, Connector and Groups. To explore the arguments, refer to the [DiagramMenuOpeningEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramMenuOpeningEventArgs.html).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -306,7 +306,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to Handle Context Menu Item Clicked Event
 
-The Diagram control triggers the event [ContextMenuItemClicked](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html#Syncfusion_Blazor_Diagram_ContextMenuSettings_ContextMenuItemClicked) when the context menu item is clicked. To explore the arguments, refer to the [DiagramMenuClickEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramMenuClickEventArgs.html).
+The Blazor Diagram Component triggers the event [ContextMenuItemClicked](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ContextMenuSettings.html#Syncfusion_Blazor_Diagram_ContextMenuSettings_ContextMenuItemClicked) when the context menu item is clicked. To explore the arguments, refer to the [DiagramMenuClickEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramMenuClickEventArgs.html).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

@@ -72,7 +72,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Handle the Scroll Changed Event
 
-The Diagram control provides the following event for scroll settings.
+The Blazor Diagram Component provides the following event for scroll settings.
 
 | Event Name | Event Type | Description |
 | -------- | -------- | -------- |

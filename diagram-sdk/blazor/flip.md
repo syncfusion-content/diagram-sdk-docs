@@ -3,13 +3,13 @@ layout: post
 title: Flip in Blazor Diagram Component | Syncfusion®
 description: Flip nodes, groups, and connectors in the Blazor Diagram Component horizontally, vertically, or both, with independent control over labels and ports.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
 # Flip in Blazor Diagram Component
 
-The diagram component supports flipping nodes, connectors, and groups. Flipping creates a mirror image of the original element, allowing for versatile visual representations within the diagram.
+The Blazor Diagram Component supports flipping nodes, connectors, and groups. Flipping creates a mirror image of the original element, allowing for versatile visual representations within the diagram.
 
 ## How to Flip the Node or Group
 

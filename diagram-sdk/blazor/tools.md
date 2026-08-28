@@ -3,7 +3,7 @@ layout: post
 title: Tools in Blazor Diagram Component | Syncfusion®
 description: Draw shapes, text, connectors, and free-form paths in the Blazor Diagram Component at runtime using built-in drawing tools.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

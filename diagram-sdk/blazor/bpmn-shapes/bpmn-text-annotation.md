@@ -3,7 +3,7 @@ layout: post
 title: BPMN Text Annotation in Blazor Diagram Component | Syncfusion®
 description: Attach Blazor Diagram Component BPMN text annotations to nodes with auto, left, right, top, or bottom connector directions.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

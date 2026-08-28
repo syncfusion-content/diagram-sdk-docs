@@ -3,7 +3,7 @@ layout: post
 title: Connectors in Blazor Diagram Component | Syncfusion®
 description: Link Blazor Diagram Component nodes, points, and ports with connectors whose path is defined by straight, orthogonal, or Bezier segments.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -63,7 +63,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Connectors at Runtime
 
-Add a connector at runtime by adding it to the connectors collection in the Diagram component. The following code explains how to add connectors at runtime.
+Add a connector at runtime by adding it to the connectors collection in the Blazor Diagram component. The following code explains how to add connectors at runtime.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -154,7 +154,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add a Connector with Annotations at Runtime
 
-Add a connector with annotations at runtime in the diagram component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
+Add a connector with annotations at runtime in the Blazor Diagram component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
 
 The following code explains how to add a connector with annotation  at runtime by using the `AddDiagramElementsAsync` method.
 

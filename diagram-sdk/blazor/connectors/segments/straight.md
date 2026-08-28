@@ -3,7 +3,7 @@ layout: post
 title: Straight Segments in Blazor Diagram Component | Syncfusion®
 description: Add straight connector segments in the Blazor Diagram Component to create direct, point-to-point connections between nodes, ports, or custom coordinates.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

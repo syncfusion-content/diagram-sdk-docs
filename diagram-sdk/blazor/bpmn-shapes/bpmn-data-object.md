@@ -3,7 +3,7 @@ layout: post
 title: BPMN Data Object in Blazor Diagram Component | Syncfusion®
 description: Represent Blazor Diagram Component process data with BPMN Data Object input, output, and collective data shapes.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

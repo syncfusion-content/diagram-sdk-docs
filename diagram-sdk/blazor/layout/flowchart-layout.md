@@ -3,7 +3,7 @@ layout: post
 title: Flowchart Layout in Blazor Diagram Component | Syncfusion®
 description: Auto-arrange Blazor Diagram Component process flows with the flowchart layout using standard symbols and directional connectors.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

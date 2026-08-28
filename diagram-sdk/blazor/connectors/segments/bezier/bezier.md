@@ -3,7 +3,7 @@ layout: post
 title: Bezier Segments in Blazor Diagram Component | Syncfusion®
 description: Draw curved Blazor Diagram Connector Component links using Bezier segments shaped by control points and vectors.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

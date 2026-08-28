@@ -3,7 +3,7 @@ layout: post
 title: Commands in Blazor Diagram Component | Syncfusion®
 description: Run alignment, sizing, distribute, Z-order, zoom, undo/redo, and grouping commands on selected nodes in the Blazor Diagram Component.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

@@ -3,15 +3,15 @@ layout: post
 title: Rulers in Blazor Diagram Component | Syncfusion®
 description: Measure and align Blazor Diagram Component elements with horizontal and vertical rulers that show tick marks and a cursor guide.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
 # Rulers in Blazor Diagram Component
 
-The Ruler provides horizontal and vertical guides for measuring in the Diagram control. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful in creating scale models.
+The Ruler provides horizontal and vertical guides for measuring in the Blazor Diagram Component. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful in creating scale models.
 
-## How to Add Rulers to the Diagram Component
+## How to Add Rulers to the Blazor Diagram Component
 
 The [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_RulerSettings) property of [SfDiagramComponent](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html) is used to control the visibility and appearance of the ruler in the diagram. The [HorizontalRuler](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_HorizontalRuler) and [VerticalRuler](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_VerticalRuler) properties of the `RulerSettings` are used to define and customize the horizontal ruler and vertical ruler in the diagram canvas.
 

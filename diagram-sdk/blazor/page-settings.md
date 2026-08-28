@@ -3,7 +3,7 @@ layout: post
 title: Page Settings in Blazor Diagram Component | Syncfusion®
 description: Set Blazor Diagram Component page width, height, orientation, margins, and page-break visibility to control print and export layout.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

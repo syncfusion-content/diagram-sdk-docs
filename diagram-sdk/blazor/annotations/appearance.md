@@ -3,7 +3,7 @@ layout: post
 title: Annotation Appearance in Blazor Diagram Component | Syncfusion®
 description: Style Blazor Diagram Component annotation size, text font, hyperlinks, wrap, overflow, and custom templates for rich labels.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -509,7 +509,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 Annotations can be edited at runtime either programmatically or interactively. By default, annotations are in view mode. Edit mode can be enabled in the following ways:
 
-* Programmatically: Invoke the [StartTextEdit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_StartTextEdit_Syncfusion_Blazor_Diagram_IDiagramObject_System_String_) method of the diagram component. Pass the parent node or connector as the first parameter and, optionally, the annotation ID as the second parameter. If the ID is not provided, the first annotation in the collection is edited.
+* Programmatically: Invoke the [StartTextEdit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_StartTextEdit_Syncfusion_Blazor_Diagram_IDiagramObject_System_String_) method of the Blazor Diagram component. Pass the parent node or connector as the first parameter and, optionally, the annotation ID as the second parameter. If the ID is not provided, the first annotation in the collection is edited.
 * Interactively:
     * Double-click the annotation.
     * Select the parent and press the F2 or enter key.
@@ -667,7 +667,7 @@ Refer to [Constraints](https://help.syncfusion.com/diagram-sdk/blazor/constraint
 
 ## How to Define Templates in Annotations
 
-The Diagram component supports templating for annotations. HTML content can be defined within the `DiagramTemplates` tag and linked to an annotation by setting the [UseTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_UseTemplate) property to **true**. To define separate templates for individual annotations, use the `ID` property to differentiate them.
+The Blazor Diagram component supports templating for annotations. HTML content can be defined within the `DiagramTemplates` tag and linked to an annotation by setting the [UseTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html#Syncfusion_Blazor_Diagram_Annotation_UseTemplate) property to **true**. To define separate templates for individual annotations, use the `ID` property to differentiate them.
 
 The following code illustrates how to define a template for both a node and a connector annotation.
 ```cshtml
