@@ -161,7 +161,7 @@ Node node1 = new Node()
        Constraints=NodeConstraints.Default | NodeConstraints.AllowDrop
 };
 
-//Adds the Node to the SfDiagram
+//Adds the Node to the UWP SfDiagram
 nodes.Add(node1);
 diagram.Nodes = nodes;
 
