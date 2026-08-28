@@ -144,7 +144,7 @@ builder.Services.AddSyncfusionBlazor();
 {% endhighlight %}
 {% endtabs %}
 
-## Add stylesheet and script resources
+### Add stylesheet and script resources
 
 The theme stylesheet and script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [stylesheet](https://blazor.syncfusion.com/documentation/appearance/themes) at the end of the `<head>` section in the **~wwwroot/index.html** file.
 
@@ -168,7 +168,7 @@ Include the required [script references](https://blazor.syncfusion.com/documenta
 
 ### Add Blazor Diagram component
 
-Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the DiagramComponent inside the razor file to create an empty diagram.
+Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component inside the razor file to create an empty diagram.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -178,7 +178,7 @@ Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor*
 {% endhighlight %}
 {% endtabs %}
 
-## Create your first Diagram with nodes and connectors
+### Create your first Diagram with nodes and connectors
 
 This section explains how to create a simple flowchart by adding nodes, customizing their appearance, and connecting them using connectors.
 
