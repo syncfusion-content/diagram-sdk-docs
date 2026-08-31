@@ -89,7 +89,7 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 
 ## Drag Limit
 
-* The diagram control now supports defining the [`dragLimit`](../../api/diagram/annotationModel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
+* The JavaScript Diagram control now supports defining the [`dragLimit`](../../api/diagram/annotationModel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
 
 * You can set the value to dragLimit [`left`](../../api/diagram/marginModel#left), [`right`](../../api/diagram/marginModel#right), [`top`](../../api/diagram/marginModel#top), and [`bottom`](../../api/diagram/marginModel#bottom) properties which allow the dragging of connector labels to a certain limit based on the user defined values.
 

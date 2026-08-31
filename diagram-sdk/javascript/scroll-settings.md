@@ -200,7 +200,7 @@ N> To use auto scroll the `scrollLimit` should be set as **Infinity**.
 
 ### Controlling Autoscroll Speed
 
-You can control how often the scrolling needs to be performed automatically in the Diagram component during the auto-scrolling behavior. You can now adjust the frequency, ranging from slow and smooth to quick and rapid, to suit their preferences. To configure, set the value in milliseconds to the [`autoScrollFrequency`](../api/diagram/scrollsettingsmodel#autoscrollfrequency) property within the scrollSettings class, allowing precise control over how often auto-scrolling occurs. 
+You can control how often the scrolling needs to be performed automatically in the JavaScript Diagram component during the auto-scrolling behavior. You can now adjust the frequency, ranging from slow and smooth to quick and rapid, to suit their preferences. To configure, set the value in milliseconds to the [`autoScrollFrequency`](../api/diagram/scrollsettingsmodel#autoscrollfrequency) property within the scrollSettings class, allowing precise control over how often auto-scrolling occurs. 
 
 ![AutoscrollFrequency GIF](images/AutoscrollFrequency.gif)
 

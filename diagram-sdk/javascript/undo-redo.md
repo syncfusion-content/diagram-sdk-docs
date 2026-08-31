@@ -29,7 +29,7 @@ The client-side methods [`undo`](../api/diagram#undo) and [`redo`](../api/diagra
 
 ```javascript
 
-// initialize diagram component
+// initialize JavaScript Diagram component
 var diagram = new ej.diagrams.Diagram({
     width: '100%',
     height: '600px',

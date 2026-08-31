@@ -27,7 +27,7 @@ Multiple segments can be defined one after another. To create a connector with m
 
 ## Undo/Redo support for connector segments
 
-The Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
+The TypeScript Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
 
 Key undo/redo capabilities include:
 

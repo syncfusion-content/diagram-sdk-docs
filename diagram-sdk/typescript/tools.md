@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Tools in TypeScript Diagram
 
-The tools in the diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
+The tools in the TypeScript Diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
 
 - `Select`: Allows you to choose specific elements within the diagram.
 - `Pan`: Enables you to move the view of the diagram to different areas without altering the elements.
@@ -105,7 +105,7 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 ### Polyline Connector
 
-The diagram control enables users to create polyline connectors interactively by clicking and dragging the mouse on the diagram canvas at runtime. It allows creating polyline segments with straight lines and angled vertices at control points directly within the diagram interface. 
+The TypeScript Diagram control enables users to create polyline connectors interactively by clicking and dragging the mouse on the diagram canvas at runtime. It allows creating polyline segments with straight lines and angled vertices at control points directly within the diagram interface. 
 
 To draw a polyline connector, set the type of the [`drawingObject`](https://ej2.syncfusion.com/documentation/api/diagram/connectormodel) as **Polyline**.
 

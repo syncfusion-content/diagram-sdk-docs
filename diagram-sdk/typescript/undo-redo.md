@@ -29,7 +29,7 @@ The client-side methods [`undo`](https://ej2.syncfusion.com/documentation/api/di
 
 ```javascript
 
-// initialize diagram component
+// initialize TypeScript Diagram component
 var diagram = new Diagram({
     width: '100%',
     height: '600px',

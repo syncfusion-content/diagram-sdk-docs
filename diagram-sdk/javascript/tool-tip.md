@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 <!-- markdownlint-disable MD010 -->
 
-In a Graphical User Interface (GUI), a tooltip is a message that appears when the mouse hovers over an element. The diagram control provides tooltip support while dragging, resizing, rotating a node, and when the mouse hovers over any diagram element.
+In a Graphical User Interface (GUI), a tooltip is a message that appears when the mouse hovers over an element. The JavaScript Diagram control provides tooltip support while dragging, resizing, rotating a node, and when the mouse hovers over any diagram element.
 
 ## Default tooltip
 
@@ -125,7 +125,7 @@ The tooltip on mouse over can be disabled by setting the diagram's [`tooltip`](.
 
 ```ts
 
-//Initializes the diagram component
+//Initializes the JavaScript Diagram component
 let diagram: Diagram = new Diagram({
     width: '100%', height: '350px',
 	//Disables mouse over tooltip at runtime
@@ -138,7 +138,7 @@ let diagram: Diagram = new Diagram({
 
 ```ts
 
-//Initializes the diagram component
+//Initializes the JavaScript Diagram component
 let diagram = new ej.diagrams.Diagram({
     width: '100%', height: '350px',
 	//Disables mouse over tooltip at runtime

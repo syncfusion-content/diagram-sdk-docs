@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Layers in JavaScript Diagram
 
-**Layer** organizes related shapes within a diagram control as named categories. Assigning shapes to different layers enables selective viewing, removal, and locking of distinct shape categories.
+**Layer** organizes related shapes within a JavaScript Diagram control as named categories. Assigning shapes to different layers enables selective viewing, removal, and locking of distinct shape categories.
 
 In a diagram, [Layers](../api/diagram/layermodel) facilitate the modification of properties for all shapes assigned to a specific layer. Key properties that can be configured include:
 
@@ -107,7 +107,7 @@ var connectors = [{
 }];
 //Additional informations of layer
 var addInfo = { Description: 'Layer1' };
-// initialize Diagram component
+// initialize JavaScript Diagram component
 var diagram = new ej.diagrams.Diagram({
     width: '100%',
     height: '600px',
@@ -171,7 +171,7 @@ The following code illustrates how to remove a layer.
 
 ## moveObjects
 
-You can move objects from one layer to another dynamically using the [`moveObjects`](../api/diagram/index-default#moveobjects) public method of the diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions..
+You can move objects from one layer to another dynamically using the [`moveObjects`](../api/diagram/index-default#moveobjects) public method of the JavaScript Diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions..
 
 The following code illustrates how to move objects from one layer to another layer.
 

@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 <!-- markdownlint-disable MD010 -->
 
-The commands in diagram control are used to perform various interactions within the diagram when called. Several commands are available in the diagram, as follows:
+The commands in TypeScript Diagram control are used to perform various interactions within the diagram when called. Several commands are available in the diagram, as follows:
 
 * Alignment commands
 * Distribute commands
@@ -297,7 +297,7 @@ The following code illustrates how to zoom-in the diagram.
 import {
     Diagram
 } from '@syncfusion/ej2-diagrams';
-//Initializes the diagram component
+//Initializes the TypeScript Diagram component
 let diagram:Diagram = new Diagram({
     width: '100%',
     height: '350px',

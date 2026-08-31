@@ -25,7 +25,7 @@ The get the diagram bounds, the [`getDiagramBounds`](../api/diagram#getdiagrambo
 
 ## Refresh diagram
 
-Refreshing the diagram will re-render the entire diagram component while preserving all the property changes you have made. The [`refresh`](../api/diagram#refresh) method is used to refresh the diagram. 
+Refreshing the diagram will re-render the entire JavaScript Diagram component while preserving all the property changes you have made. The [`refresh`](../api/diagram#refresh) method is used to refresh the diagram. 
 
 ``` javascript
    /**
@@ -49,7 +49,7 @@ The [`clear`](../api/diagram#clear) method is used to clear the diagram. It remo
 
 ## Destroy diagram
 
-The [`destroy`](../api/diagram#destroy) method is used to completely remove the diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
+The [`destroy`](../api/diagram#destroy) method is used to completely remove the JavaScript Diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
 
 ``` javascript
    /**
