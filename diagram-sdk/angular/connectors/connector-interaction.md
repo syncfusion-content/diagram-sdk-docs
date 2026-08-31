@@ -56,7 +56,7 @@ When a connector is selected, circular handles (thumbs) appear at the source and
 
 ![End Point Drag Animation](../images/EndPointDragGif.gif)
 
-The end points of connectors can also be updated programmatically using the [`dragSourceEnd`](https://ej2.syncfusion.com/angular/documentation/api/diagram#dragsourceend) and [`dragTargetEnd`](https://ej2.syncfusion.com/angular/documentation/api/diagram#dragtargetend) methods of the diagram component.
+The end points of connectors can also be updated programmatically using the [`dragSourceEnd`](https://ej2.syncfusion.com/angular/documentation/api/diagram#dragsourceend) and [`dragTargetEnd`](https://ej2.syncfusion.com/angular/documentation/api/diagram#dragtargetend) methods of the Angular Diagram component.
 
 The following code example demonstrates how to drag connector end points at runtime.
 

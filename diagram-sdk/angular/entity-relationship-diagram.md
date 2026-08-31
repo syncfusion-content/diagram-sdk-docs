@@ -181,7 +181,7 @@ erEntityChanged: (args: IErEntityChangedEventArgs): void => {
 
 ## Creating ER relationships
 
-Relationships define how one ER entity is connected to another entity. In the Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorshape#type) property to **Er**.
+Relationships define how one ER entity is connected to another entity. In the Angular Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorshape#type) property to **Er**.
 
 | ER Connector Shape Property | Description |
 |---|---|

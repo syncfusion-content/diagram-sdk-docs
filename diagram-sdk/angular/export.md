@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 The Angular Diagram component provides comprehensive support for exporting diagram content as image files (JPG, PNG) or vector graphics (SVG). This functionality enables users to save diagrams for documentation, presentations, or further processing. The [`exportDiagram`](https://ej2.syncfusion.com/angular/documentation/api/diagram#exportdiagram) method serves as the primary interface for all export operations.
 
-N> To export diagrams, inject `PrintAndExport` in the diagram component.
+N> To export diagrams, inject `PrintAndExport` in the Angular Diagram component.
 
 To print and export the diagram in Angular, refer to the below video link.
 
@@ -35,7 +35,7 @@ this.diagram.exportDiagram(this.options);
 
 ## Export Configuration Options
 
-The diagram component supports extensive customization through the [`exportOptions`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iExportOptions) interface. The following table details all available configuration properties:
+The Angular Diagram component supports extensive customization through the [`exportOptions`](https://ej2.syncfusion.com/angular/documentation/api/diagram/iExportOptions) interface. The following table details all available configuration properties:
 
 | Name | Type | Description|
 |-------- | -------- | -------- |
