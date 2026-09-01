@@ -20,7 +20,7 @@ These properties enable developers to read and adjust the scroll status, scroll 
 
 ## Define Scroll Offset
 
-The diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the  `horizontalOffset` and `verticalOffset` properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the `scrollLimit`
+The React Diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the  `horizontalOffset` and `verticalOffset` properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the `scrollLimit`
 
 In the example below, the vertical scrollbar is scrolled down by 100 px, and the horizontal scrollbar is scrolled to the right by 100 px.
 
@@ -37,7 +37,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 
 ## Update Scroll Offset at Runtime
 
-The diagram provides multiple methods to update scroll offsets during runtime:
+The React Diagram provides multiple methods to update scroll offsets during runtime:
 
 * **Scrollbar**: Use the horizontal and vertical scrollbars of the diagram for direct navigation.
 * **Mouse wheel**: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.

@@ -276,10 +276,10 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/custompalette/restrict-drag" %}
 
-N> The diagram provides support to cancel the drag and drop operation from the symbol palette to the diagram when the <kbd>ESC</kbd> key is pressed.
+N> The React Diagram provides support to cancel the drag and drop operation from the symbol palette to the diagram when the <kbd>ESC</kbd> key is pressed.
 
 ## Search Symbol
-The diagram provides support for enabling the search option in the palette. The [`enableSearch`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#enablesearch) property of the palette is used to show or hide the search textbox in the palette. You can search for symbols in the palette by entering the symbol id (e.g., “rectangle”) and search keywords into the search text box. The symbols are retrieved by matching the search text against each symbol's `id` field by default.
+The React Diagram provides support for enabling the search option in the palette. The [`enableSearch`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#enablesearch) property of the palette is used to show or hide the search textbox in the palette. You can search for symbols in the palette by entering the symbol id (e.g., “rectangle”) and search keywords into the search text box. The symbols are retrieved by matching the search text against each symbol's `id` field by default.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

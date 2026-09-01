@@ -158,7 +158,7 @@ The following code example illustrates how to add formatted HTML content to the 
 
 ### Tooltip Relative to Object
 
-The diagram provides support to show tooltip around the node/connector that is hovered by the mouse. The tooltip can be aligned by using the [`position`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#position) property.  The [`relativeMode`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#relativemode) property of the tooltip defines whether the tooltip has to be displayed around the object or at the mouse position.
+The React Diagram provides support to show tooltip around the node/connector that is hovered by the mouse. The tooltip can be aligned by using the [`position`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#position) property.  The [`relativeMode`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramTooltip#relativemode) property of the tooltip defines whether the tooltip has to be displayed around the object or at the mouse position.
 
 The following code example illustrates how to position the tooltip around object.
 
