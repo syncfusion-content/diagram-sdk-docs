@@ -3,7 +3,7 @@ layout: post
 title: BPMN Activity in Blazor Diagram Component | Syncfusion®
 description: Model Blazor Diagram Component BPMN activities as Tasks or Sub-Processes with loop, call, compensation, and ad-hoc variants.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

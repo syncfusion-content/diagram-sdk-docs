@@ -3,13 +3,13 @@ layout: post
 title: Tooltip in Blazor Diagram Component | Syncfusion®
 description: Show interactive tooltips on Blazor Diagram Component nodes, connectors, and resize or rotate operations with custom content.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
 # Tooltip in Blazor Diagram Component
 
-In a Graphical User Interface (GUI), a tooltip is an informative pop-up message that appears when the user hovers their cursor over an interactive element. The diagram component offers comprehensive tooltip support, enhancing user experience during various interactions. These tooltips are displayed when dragging, resizing, or rotating nodes, as well as when the mouse hovers over any diagram element, providing contextual information and improving overall usability.
+In a Graphical User Interface (GUI), a tooltip is an informative pop-up message that appears when the user hovers their cursor over an interactive element. The Blazor Diagram Component offers comprehensive tooltip support, enhancing user experience during various interactions. These tooltips are displayed when dragging, resizing, or rotating nodes, as well as when the mouse hovers over any diagram element, providing contextual information and improving overall usability.
 
 ## How to Show Default Tooltip
 
@@ -858,7 +858,7 @@ For more information about tooltip, refer to [Tooltip](https://help.syncfusion.c
 
 ## How to Set Tooltip for User Handles
 
-The Diagram component offers robust tooltip functionality for [UserHandles](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_UserHandle), enhancing user interaction. To implement this feature, configure the `Tooltip` property of the `UserHandle` with the desired [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Content) and specify its [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Position). This setup ensures that informative tooltips appear at the optimal location when users hover over the handles, providing a more intuitive and user-friendly diagramming experience.
+The Blazor Diagram Component offers robust tooltip functionality for [UserHandles](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SelectorConstraints.html#Syncfusion_Blazor_Diagram_SelectorConstraints_UserHandle), enhancing user interaction. To implement this feature, configure the `Tooltip` property of the `UserHandle` with the desired [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Content) and specify its [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Position). This setup ensures that informative tooltips appear at the optimal location when users hover over the handles, providing a more intuitive and user-friendly diagramming experience.
 
 By default, tooltips are not displayed. Need to explicitly configure the tooltip settings as shown in the following example:
 
@@ -972,7 +972,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Set Tooltip for Fixed User Handle
 
-The diagram component offers robust tooltip functionality for [FixedUserHandles](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FixedUserHandle.html), enhancing user interaction and information display. To enable this feature, configure the tooltip property within the diagram model. Specifically, define the tooltip [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Content) and set its [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Position) relative to the handle. This configuration ensures that when users hover over a fixed user handle, contextual information appears at the specified location. It's important to note that tooltips are disabled by default and require explicit activation through these settings. Need to add the tooltip as shown in the following example.
+The Blazor Diagram Component offers robust tooltip functionality for [FixedUserHandles](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FixedUserHandle.html), enhancing user interaction and information display. To enable this feature, configure the tooltip property within the diagram model. Specifically, define the tooltip [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Content) and set its [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Position) relative to the handle. This configuration ensures that when users hover over a fixed user handle, contextual information appears at the specified location. It's important to note that tooltips are disabled by default and require explicit activation through these settings. Need to add the tooltip as shown in the following example.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -1066,7 +1066,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Set Tooltip for Ports
 
-The Diagram component offers robust support for displaying tooltips when the mouse hovers over ports. This feature can be customized for each port individually, allowing for a more informative and interactive user experience.
+The Blazor Diagram Component offers robust support for displaying tooltips when the mouse hovers over ports. This feature can be customized for each port individually, allowing for a more informative and interactive user experience.
 
 To implement a tooltip for a port, you need to utilize the Tooltip property of the port object. This property provides options to define the tooltip's [Content](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Content) and [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramTooltip.html#Syncfusion_Blazor_Diagram_DiagramTooltip_Position). By configuring these attributes, you can create tailored tooltips that enhance the functionality and usability of your diagram.
 

@@ -3,7 +3,7 @@ layout: post
 title: Commands in Blazor Diagram Component | Syncfusion®
 description: Run alignment, sizing, distribute, Z-order, zoom, undo/redo, and grouping commands on selected nodes in the Blazor Diagram Component.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -1394,11 +1394,11 @@ The following code illustrates how to execute the FitToPage method.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Commands/FitToPage.razor)
 
-#### FitToPage Parameters
+### FitToPage Parameters
 
 The [FitOptions](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FitOptions.html) parameter allows you to customize the behavior of the `FitToPage` command. By configuring various properties of the `FitOptions` object, Control how the diagram is adjusted within the view. 
 
-#### FitToPage
+### FitToPage
 
 The [FitToPage](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.FitMode.html) property is used to control the fit-to-page behavior of the diagram. It allows you to adjust the diagram's content to fit within the page boundaries, either by width, height, or both. This feature helps optimize the diagram's layout and visibility, ensuring that all elements are properly displayed within the specified page dimensions.
 

@@ -669,7 +669,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 To bind remote data to the [Diagram component](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html), assign service data as an instance of [SfDataManager](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.SfDataManager.html) to the [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DataSourceSettings.html#Syncfusion_Blazor_Diagram_DataSourceSettings_DataSource) property or use the SfDataManager component. To interact with a remote data source, provide the endpoint Url.
 
-When using `SfDataManager` for data binding, the TValue must be provided explicitly in the diagram component. By default, `SfDataManager` uses `ODataAdaptor` for remote data-binding.
+When using `SfDataManager` for data binding, the TValue must be provided explicitly in the Blazor Diagram Component. By default, `SfDataManager` uses `ODataAdaptor` for remote data-binding.
 
 ### How to Bind OData Services
 
@@ -1041,7 +1041,7 @@ The following sample code demonstrates how to bind data to the Diagram component
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/DataBinding/URLAdaptor.razor)
 
 ### How to Bind Custom Data
-Custom data binding can be performed in the diagram component by providing a custom adaptor class and overriding the `Read` or `ReadAsync` method of the `DataAdaptor` abstract class.
+Custom data binding can be performed in the Blazor Diagram Component by providing a custom adaptor class and overriding the `Read` or `ReadAsync` method of the `DataAdaptor` abstract class.
 
 The following sample code demonstrates implementing custom data binding using custom adaptor,
 
@@ -1178,7 +1178,7 @@ The following sample code demonstrates implementing custom data binding using cu
 
 ### How to Perform CRUD Operation
 
-The CRUD operations for custom bounded data in the diagram component can be implemented by overriding the following CRUD methods of the **DataAdaptor** abstract class,
+The CRUD operations for custom bounded data in the Blazor Diagram Component can be implemented by overriding the following CRUD methods of the **DataAdaptor** abstract class,
 
 * **Insert/InsertAsync**
 * **Remove/RemoveAsync**

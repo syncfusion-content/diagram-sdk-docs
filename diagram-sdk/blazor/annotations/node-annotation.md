@@ -3,7 +3,7 @@ layout: post
 title: Node Annotation in Blazor Diagram Component | Syncfusion®
 description: Position Blazor Diagram Component node annotations precisely with offset, alignment, margin, and text-alignment settings.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Port Positioning in Blazor Diagram Component | Syncfusion®
 description: Position Blazor Diagram Component ports with offset, horizontal, vertical alignment, and margin for precise connection points.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

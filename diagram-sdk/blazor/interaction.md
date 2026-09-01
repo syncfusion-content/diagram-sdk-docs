@@ -3,7 +3,7 @@ layout: post
 title: Interaction in Blazor Diagram Component | Syncfusion®
 description: Select, drag, resize, rotate, pan, and zoom the Blazor Diagram Component elements using mouse, touch, and keyboard inputs.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -1003,7 +1003,7 @@ Margin is an absolute value used to add some blank space on any one of its four 
 
 ## How to Receive Mouse Button Click Notifications
 
-The diagram component notifies the mouse button clicked. For example, whenever the right mouse button is clicked, the clicked button is notified as right. The mouse click is notified with,
+The Blazor Diagram Component notifies the mouse button clicked. For example, whenever the right mouse button is clicked, the clicked button is notified as right. The mouse click is notified with,
 
 | Notification | Description |
 |----------------|--------------|

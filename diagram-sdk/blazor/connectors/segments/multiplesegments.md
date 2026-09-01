@@ -3,7 +3,7 @@ layout: post
 title: Multiple Segments in Blazor Diagram Component | Syncfusion®
 description: Combine multiple connector segments into a single connector in the Blazor Diagram Component to build complex paths between source and target.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

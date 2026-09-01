@@ -3,7 +3,7 @@ layout: post
 title: Control Point Interaction in Blazor Diagram Component | Syncfusion®
 description: Adjust Blazor Diagram Connector Component Bezier control points with symmetric distance, angle, or both smoothness modes.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

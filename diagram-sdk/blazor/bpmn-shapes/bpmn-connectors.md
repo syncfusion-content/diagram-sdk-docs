@@ -3,7 +3,7 @@ layout: post
 title: BPMN Connectors in Blazor Diagram Component | Syncfusion®
 description: Connect Blazor Diagram Component BPMN elements with Association, Sequence, and Message flow connectors to model processes.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

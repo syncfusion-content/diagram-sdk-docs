@@ -3,7 +3,7 @@ layout: post
 title: UML Class Diagram in Blazor Diagram Component | Syncfusion®
 description: Build UML class diagrams in the Blazor Diagram Component with class, interface, and enumeration classifiers plus relationship connectors.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

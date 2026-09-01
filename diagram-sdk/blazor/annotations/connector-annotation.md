@@ -3,7 +3,7 @@ layout: post
 title: Connector Annotation in Blazor Diagram Component | Syncfusion®
 description: Position Blazor Diagram Component connector annotations along the path with offset, alignment, displacement, and segment angle.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

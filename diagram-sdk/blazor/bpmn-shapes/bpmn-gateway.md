@@ -3,7 +3,7 @@ layout: post
 title: BPMN Gateway in Blazor Diagram Component | Syncfusion®
 description: Control Blazor Diagram Component process flow with Exclusive, Parallel, Inclusive, Complex, and Event-Based BPMN gateways.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

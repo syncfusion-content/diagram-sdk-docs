@@ -3,7 +3,7 @@ layout: post
 title: Positioning a Node in Blazor Diagram Component | Syncfusion®
 description: Position Blazor Diagram Component nodes with OffsetX, OffsetY, and Pivot to anchor them by center, top-left, or bottom-right corner.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

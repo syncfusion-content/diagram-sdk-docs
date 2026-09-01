@@ -322,7 +322,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Handle Property Changed Event
 
-The [PropertyChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_PropertyChanged) event is triggered when a node property of the diagram component is modified at runtime. This event provides details about the changes occurring in the diagram. For event argument details, refer to [PropertyChangedEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PropertyChangedEventArgs.html).
+The [PropertyChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_PropertyChanged) event is triggered when a node property of the Blazor Diagram Component is modified at runtime. This event provides details about the changes occurring in the diagram. For event argument details, refer to [PropertyChangedEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PropertyChangedEventArgs.html).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

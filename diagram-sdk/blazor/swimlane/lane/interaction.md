@@ -3,7 +3,7 @@ layout: post
 title: Lane Interaction in Blazor Diagram Component | Syncfusion®
 description: Interactively select, resize, and reorder swimlane lanes in the Blazor Diagram Component, and move child nodes within lane boundaries.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

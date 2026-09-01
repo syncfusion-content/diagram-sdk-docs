@@ -3,7 +3,7 @@ layout: post
 title: Symbol Palette in Blazor Diagram Component | Syncfusion®
 description: Drag and drop predefined nodes, connectors, and groups from the Blazor Diagram Component symbol palette onto the diagram canvas.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -486,7 +486,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Drag and Drop Symbols from Palette to Diagram
 
-To enable drag and drop functionality, add the diagram component to the [Targets](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Targets) collection of the symbol palette. This connects the palette to the diagram so users can drop symbols onto the canvas.
+To enable drag and drop functionality, add the Blazor Diagram Component to the [Targets](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_Targets) collection of the symbol palette. This connects the palette to the diagram so users can drop symbols onto the canvas.
  The following code illustrates how to add diagram to the Targets collection.
 
 ```csharp

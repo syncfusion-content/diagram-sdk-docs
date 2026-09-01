@@ -3,7 +3,7 @@ layout: post
 title: Swimlane in Blazor Diagram Component | Syncfusion®
 description: Visualize business processes in the Blazor Diagram Component using swimlanes to group activities by role or department.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

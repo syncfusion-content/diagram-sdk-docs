@@ -3,7 +3,7 @@ layout: post
 title: Group in Blazor Diagram Component | Syncfusion®
 description: Cluster nodes and connectors in the Blazor Diagram Component into a single NodeGroup that you can move, style, and ungroup later.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
