@@ -140,7 +140,7 @@ The following code shows how to set the rotate angle and corner radius for the n
 
 ## Apply shadow effect to node
 
-Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#shadow) effect to a node that is disabled, by default. It can be enabled with the
+Vue Diagram provides support to add [`shadow`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#shadow) effect to a node that is disabled, by default. It can be enabled with the
 constraints property of the node. The following code illustrates how to drop shadow.
 
 {% tabs %}

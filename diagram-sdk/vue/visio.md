@@ -18,25 +18,25 @@ Microsoft Visio is a diagramming application used to create visual representatio
 
 ## Why use Visio with the Vue Diagram?
 
-Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The Diagram component provides Visio integration to support the following scenarios:
+Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The Vue Diagram component provides Visio integration to support the following scenarios:
 
 - Reuse existing Visio diagrams in web applications.  
-- Visualize and edit Visio diagrams using the Diagram component.  
-- Export diagrams created or modified in Diagram component for use in Microsoft Visio.  
+- Visualize and edit Visio diagrams using the Vue Diagram component.  
+- Export diagrams created or modified in Vue Diagram component for use in Microsoft Visio.  
 
 This integration enables seamless collaboration between desktop‑based Visio tools and web‑based diagramming applications.
 
 ## Visio support in the Vue Diagram
 
-The Syncfusion Essential Vue Diagram component supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the Diagram component and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
+The Syncfusion Essential Vue Diagram component supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the Vue Diagram component and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
 
-N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the Diagram component.
+N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the Vue Diagram component.
 
 ## Import Visio files in Vue Diagram
 
 ### How Visio import works
 
-A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the Diagram component as a **File** object using the [`importFromVisio`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#importfromvisio) method.
+A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the Vue Diagram component as a **File** object using the [`importFromVisio`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#importfromvisio) method.
 
 During the import process:
 
@@ -114,7 +114,7 @@ diagramImporting: function (args: IImportingEventArgs) {
 
 ### How Visio export works
 
-The Diagram component supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
+The Vue Diagram component supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
 
 ### Exporting a diagram
 
@@ -173,7 +173,7 @@ The table below outlines Visio's import and export limitations, offering a conci
 |--------------------------|--------------------------|
 | **Gradient page backgrounds:** Only solid fills are imported; gradient page background fills are not supported. | **Diagram-level tooltips:** Diagram‑level tooltips are not exported. |
 | **Gradient types:** Only linear and radial gradient types are supported; other gradient styles are ignored. | **Connector segment thumbs:** Connector segment thumb customizations are not supported. |
-| **Ruler settings:** Ruler settings may not be preserved accurately due to coordinate origin differences (Visio uses bottom‑left; Diagram component uses top‑left). | **Templates & tools:** Templates and custom tool configurations are not exported. |
+| **Ruler settings:** Ruler settings may not be preserved accurately due to coordinate origin differences (Visio uses bottom‑left; Vue Diagram component uses top‑left). | **Templates & tools:** Templates and custom tool configurations are not exported. |
 | **Layer support:** Only a single layer per shape is supported. | **Layer Z‑index ordering:** Layer Z‑index ordering is not preserved. |
 | **Line styles:** Rounded line caps and compound line styles are not supported. | **Annotation properties:** Annotation displacement and flip properties are not supported. |
 | **Image formatting:** Image formatting options such as brightness, contrast, and cropping are not supported. | **Port customization:** Port customization properties are not exported. |

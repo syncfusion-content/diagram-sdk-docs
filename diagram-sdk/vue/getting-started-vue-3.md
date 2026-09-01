@@ -116,7 +116,7 @@ Before getting started, ensure that your development environment meets the [syst
 This guide uses a Vue 3 project created with Vite using the JavaScript template, which provides fast builds and an optimized development experience.
 
 The main files used in this guide are:
-- `src/App.vue` — Defines the root Vue component and renders the Diagram component.
+- `src/App.vue` — Defines the root Vue component and renders the Vue Diagram component.
 - `src/main.js` — Application entry point.
 - `index.html` — Root HTML file.
 
@@ -164,7 +164,7 @@ N> Installing `@syncfusion/ej2-vue-diagrams` automatically installs the required
 
 ## Step 3: Add the required styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported controls.
+The Vue Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported controls.
 
 To add the styles, install the Tailwind 3 theme package using the following command:
 
@@ -184,7 +184,7 @@ For the list of available themes, refer to the [Themes](https://ej2.syncfusion.c
 
 N> Syncfusion® provides multiple built-in themes. If the application uses a different theme, replace **@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css** with the corresponding stylesheet from the desired theme package. For example, to use the Material 3 theme, import **@syncfusion/ej2-material3-theme/styles/diagram/index.css**. Install the theme package at the same version as `@syncfusion/ej2-vue-diagrams` to avoid style mismatches.
 
-## Step 4: Add the Diagram component
+## Step 4: Add the Vue Diagram component
 
 Import `DiagramComponent` from `@syncfusion/ej2-vue-diagrams` and use it in your component. Then add the `ejs-diagram` element to the template.
 
@@ -208,9 +208,9 @@ Replace the entire contents of **src/App.vue** with the following code:
 </style>
 ```
 
-At this stage, the Diagram component renders an empty canvas.
+At this stage, the Vue Diagram component renders an empty canvas.
 
-N> The `DiagramComponent as EjsDiagram` alias is required for `<script setup>`, because the `<ejs-diagram>` element name in the template must match the registered component alias. The Diagram component must also have a valid height; if the height is not set, the canvas may not be visible. If the canvas does not render, verify that the height is set, the theme CSS is imported, and the component alias matches the `EjsDiagram` import.
+N> The `DiagramComponent as EjsDiagram` alias is required for `<script setup>`, because the `<ejs-diagram>` element name in the template must match the registered component alias. The Vue Diagram component must also have a valid height; if the height is not set, the canvas may not be visible. If the canvas does not render, verify that the height is set, the theme CSS is imported, and the component alias matches the `EjsDiagram` import.
 
 ## Step 5: Create your first Diagram with nodes and connectors
 

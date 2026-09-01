@@ -76,7 +76,7 @@ The following codes illustrates how to align annotations.
 
 ## Hyperlink
 
-Diagram provides a support to add a [`hyperlink`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#hyperlink) for the nodes/connectors annotation. It can also be customized with the below properties.
+Vue Diagram provides a support to add a [`hyperlink`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#hyperlink) for the nodes/connectors annotation. It can also be customized with the below properties.
 
 A User can open the hyperlink in the new window, the same tab and the new tab by using the  [`hyperlinkOpenState`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel#hyperlinkopenstate) property.
 
@@ -111,7 +111,7 @@ Annotation can be rotated by setting the [`rotateAngle`](https://ej2.syncfusion.
 
 ## Template support for annotation
 
-Diagram provides template support for annotation. You can either define a string template and assign it to [`template`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#template) property of annotation or define a annotation template in html file and assign it to the [`annotationTemplate`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#annotationtemplate) property of the diagram.
+Vue Diagram provides template support for annotation. You can either define a string template and assign it to [`template`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#template) property of annotation or define a annotation template in html file and assign it to the [`annotationTemplate`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#annotationtemplate) property of the diagram.
 
 ### String template
 

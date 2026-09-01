@@ -468,7 +468,7 @@ The following code illustrates how to execute `FitToPage` command.
 
 ## Command manager
 
-The Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the
+The Vue Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the
 [`CommandManager`](https://ej2.syncfusion.com/vue/documentation/api/diagram/commandmanager#commandmanager). Custom commands are executed when the specified key gesture is recognized.
 
 ### Custom command
