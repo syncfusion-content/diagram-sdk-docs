@@ -30,7 +30,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-The diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](../api/diagram/iExportOptions) in diagram.
+The JavaScript Diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](../api/diagram/iExportOptions) in diagram.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |

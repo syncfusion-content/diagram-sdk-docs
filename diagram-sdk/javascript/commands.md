@@ -429,7 +429,7 @@ The following code illustrates how to execute `FitToPage` command.
 
 ## Command manager
 
-The Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](../api/diagram/commandManagerModel). Custom commands are executed when the specified key gesture is recognized.
+The JavaScript Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](../api/diagram/commandManagerModel). Custom commands are executed when the specified key gesture is recognized.
 
 ### Custom Command
 

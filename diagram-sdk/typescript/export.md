@@ -30,7 +30,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-The diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions) in diagram.
+The TypeScript Diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](https://ej2.syncfusion.com/documentation/api/diagram/iExportOptions) in diagram.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |

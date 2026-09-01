@@ -84,7 +84,7 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 
 ### Polygon shape
 
-The diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
+The JavaScript Diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
 
 To draw a polygon shape, you need to set the [`drawingObject`](../api/diagram#drawingobject) property with the appropriate JSON configuration for a `polygon`. This includes specifying the type as **Polygon**.
 

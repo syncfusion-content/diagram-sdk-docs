@@ -84,7 +84,7 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](https
 
 ### Polygon shape
 
-The diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
+The TypeScript Diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
 
 To draw a polygon shape, you need to set the [`drawingObject`](https://ej2.syncfusion.com/documentation/api/diagram/nodemodel) property with the appropriate JSON configuration for a `polygon`. This includes specifying the type as **Polygon**.
 
