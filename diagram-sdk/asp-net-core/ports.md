@@ -11,7 +11,7 @@ documentation: ug
 
 # Ports in ASP.NET Core Diagram
 
-Diagram provides support to define custom ports for making connections.
+ASP.NET Core Diagram provides support to define custom ports for making connections.
 
 ![Port](images/Port1.png)
 
@@ -274,7 +274,7 @@ var port= [{
 
 ## Automatic Port Creation
 
-The Diagram component allows you to dynamically create ports on nodes or connectors by clicking and dragging the mouse while holding the Control (Ctrl) key. This feature is disabled by default and can be enabled by using the `DiagramConstraints.AutomaticPortCreation` constraint.
+The ASP.NET Core Diagram component allows you to dynamically create ports on nodes or connectors by clicking and dragging the mouse while holding the Control (Ctrl) key. This feature is disabled by default and can be enabled by using the `DiagramConstraints.AutomaticPortCreation` constraint.
 
 You can also remove a port using the same Ctrl + Click interaction, but only if the port is not currently connected to any connector.
 

@@ -329,7 +329,7 @@ Navigate large diagrams using zoom and pan operations. Scroll bars enable naviga
 
 ## Keyboard shortcuts
 
-The diagram provides comprehensive keyboard support for common operations. The following table lists available keyboard shortcuts:
+The Angular Diagram provides comprehensive keyboard support for common operations. The following table lists available keyboard shortcuts:
 
 ### Selection and Navigation
 

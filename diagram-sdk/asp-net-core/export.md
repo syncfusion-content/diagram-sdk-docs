@@ -10,7 +10,7 @@ documentation: ug
 
 # Printing and Exporting in ASP.NET Core Diagram
 
-Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportDiagram) helps to export the diagram.
+ASP.NET Core Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportDiagram) helps to export the diagram.
 
 N> To use Print and Export, you need to inject `PrintAndExport` in the diagram.
 
@@ -28,7 +28,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-Diagram provides support to export the desired region of the diagram to desired formats.
+ASP.NET Core Diagram provides support to export the desired region of the diagram to desired formats.
 
 ## File Name
 

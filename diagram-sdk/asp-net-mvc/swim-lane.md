@@ -85,7 +85,7 @@ diagram.dataBind();
 
 ### Header editing
 
-Diagram provides the support to edit swimlane headers at runtime. The header editing is achieved by double click event. Double clicking the header label will enable the editing.
+ASP.NET MVC Diagram provides the support to edit swimlane headers at runtime. The header editing is achieved by double click event. Double clicking the header label will enable the editing.
 
 ![Phase Header Editing](images/phase-header-edit.gif)
 
@@ -300,7 +300,7 @@ diagram.dataBind();
   
 ### Lane Header editing
 
-Diagram provides the support to edit Lane headers at runtime. The header editing can be achieved by double click event. Double clicking the header label will enable its editing.
+ASP.NET MVC Diagram provides the support to edit Lane headers at runtime. The header editing can be achieved by double click event. Double clicking the header label will enable its editing.
 ![Lane Header Editing](images/lane-header-edit.gif)
 
 ## Phase
@@ -385,12 +385,12 @@ You can add the phase at runtime by using client side API method called `addPhas
 
 ### Phase header editing
 
-Diagram provides the support to edit phase headers at runtime. The header editing is achieved by double click event. Double clicking the header label will enable the editing of that.
+ASP.NET MVC Diagram provides the support to edit phase headers at runtime. The header editing is achieved by double click event. Double clicking the header label will enable the editing of that.
 ![Phase Header Editing](images/phase-header-edit.gif)
 
 ## Add swimlane to palette
 
-Diagram provides support to add swimlane and phases to symbol palette.
+ASP.NET MVC Diagram provides support to add swimlane and phases to symbol palette.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

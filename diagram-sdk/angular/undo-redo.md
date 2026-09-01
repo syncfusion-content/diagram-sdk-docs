@@ -20,7 +20,7 @@ N> The UndoRedo module must be injected to access undo/redo features in the Angu
 
 ## Basic undo and redo operations
 
-The diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
+The Angular Diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
 
 ### Keyboard shortcuts
 

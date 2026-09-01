@@ -15,7 +15,7 @@ Diagram tracks the history of actions that are performed after initializing the 
 
 ## Undo and redo
 
-Diagram provides built-in support to track the changes that are made through interaction and through public APIs. The changes can be reverted or restored either through shortcut keys or through commands.
+ASP.NET MVC Diagram provides built-in support to track the changes that are made through interaction and through public APIs. The changes can be reverted or restored either through shortcut keys or through commands.
 
 ## Undo/redo through shortcut keys
 
@@ -84,7 +84,7 @@ var diagram = document.getElementById('container').ej2_instances[0];
 
 ### Track custom changes
 
-Diagram provides options to track the changes that are made to custom properties. For example, in case of an employee relationship diagram, track the changes in the employee information. The historyList of the diagram enables to track such changes.
+ASP.NET MVC Diagram provides options to track the changes that are made to custom properties. For example, in case of an employee relationship diagram, track the changes in the employee information. The historyList of the diagram enables to track such changes.
 
 Before changing the employee information, save the existing information to historyList by using the client-side method push of historyList. The historyList canLog method can be used which takes a history entry as argument and returns whether the specific entry can be added or not.
 

@@ -63,7 +63,7 @@ You can change the size of the node resize thumb and the connector end point han
 
 ## Restrict Interaction in Negative Axis Area
 
-The Diagram component includes a built-in option to restrict user interactions within the negative axis region—areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
+The ASP.NET Core Diagram component includes a built-in option to restrict user interactions within the negative axis region—areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
 
 * **Dragging**: Diagram elements cannot be dragged into areas with negative coordinates.
 * **Resizing**: The size of diagram objects cannot be adjusted to extend into the negative axis.

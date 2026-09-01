@@ -10,7 +10,7 @@ documentation: ug
 
 # Shapes in ASP.NET MVC Diagram
 
-Diagram provides support to add different kind of nodes. They are as follows:
+ASP.NET MVC Diagram provides support to add different kind of nodes. They are as follows:
 
 * Text node
 * Image node
@@ -50,7 +50,7 @@ Texts can be added to the diagram as [`text`](https://help.syncfusion.com/cr/asp
 
 ## Image
 
-Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of node allows you to set the type of node and for image nodes, it should be set as **image**. In addition, the source property of shape enables you to set the image source.
+ASP.NET MVC Diagram allows to add images as [`image`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html) nodes. The shape property of node allows you to set the type of node and for image nodes, it should be set as **image**. In addition, the source property of shape enables you to set the image source.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -246,7 +246,7 @@ Refer the code example below.
 
 ## Native
 
-Diagram provides support to embed SVG element into a node. The shape property of node allows to set the type of node. To create a [`native`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Native) node, it should be set as **native**.
+ASP.NET MVC Diagram provides support to embed SVG element into a node. The shape property of node allows to set the type of node. To create a [`native`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Shapes.html#Syncfusion_EJ2_Diagrams_Shapes_Native) node, it should be set as **native**.
 
 N> Like HTML node, the native node also cannot be exported to image format. Fill color of native node can be overridden by the inline style or fill of the SVG element specified in the template.
 

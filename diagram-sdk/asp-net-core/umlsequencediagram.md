@@ -9,11 +9,11 @@ documentation: ug
 
 # UML Sequence Diagram in ASP.NET Core Diagram
 
-A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the `UmlSequenceDiagramModel`. To enable this functionality, assign the `UmlSequenceDiagramModel` to the `Model` property of the diagram control.
+A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The Syncfusion® ASP.NET Core Diagram control provides comprehensive support for creating and visualizing UML sequence diagrams through the `UmlSequenceDiagramModel`. To enable this functionality, assign the `UmlSequenceDiagramModel` to the `Model` property of the ASP.NET Core Diagram control.
 
 ## UML Sequence Diagram Elements
 
-A sequence diagram contains several key elements, such as participants, messages, activation boxes, and fragments. Let's discuss how to implement these components using the diagram control.
+A sequence diagram contains several key elements, such as participants, messages, activation boxes, and fragments. Let's discuss how to implement these components using the ASP.NET Core Diagram control.
 
 ### Participants
 
