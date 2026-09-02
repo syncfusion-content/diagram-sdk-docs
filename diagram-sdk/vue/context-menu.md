@@ -21,7 +21,7 @@ N> If you want to use contextMenu in diagram, you need to inject `DiagramContext
 
 ## Default context menu
 
-Diagram provides some default context menu items to ease the execution of some frequently used commands. The [`show`](https://ej2.syncfusion.com/vue/documentation/api/diagram/contextmenusettings#show) property helps you to enable/disable the context menu. The following code illustrates how to enable the default context menu items.
+Vue Diagram provides some default context menu items to ease the execution of some frequently used commands. The [`show`](https://ej2.syncfusion.com/vue/documentation/api/diagram/contextmenusettings#show) property helps you to enable/disable the context menu. The following code illustrates how to enable the default context menu items.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -94,7 +94,7 @@ N> To open the links in new tab, set `target` attribute with the value `_blank` 
 
 ## Template Support for Context menu
 
-Diagram provides template support for the context menu. The template for the context menu items can be customized before rendering by using the [`contextMenuBeforeItemRender`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#contextmenubeforeitemrender) event, which triggers while rendering each menu item.
+Vue Diagram provides template support for the context menu. The template for the context menu items can be customized before rendering by using the [`contextMenuBeforeItemRender`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#contextmenubeforeitemrender) event, which triggers while rendering each menu item.
 
 In the following example, menu items are rendered with shortcut key codes for specific actions in the context menu using a template. The key codes for cut, copy, and paste actions are displayed at the right corner of the menu items by adding a span element in the `contextMenuBeforeItemRender` event.
 

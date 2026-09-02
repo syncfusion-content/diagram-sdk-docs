@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Automatic layout in Vue Diagram
 
-Diagram provides support to auto-arrange the nodes in the diagram area that is referred as `Layout`. It includes the following layout modes:
+Vue Diagram provides support to auto-arrange the nodes in the diagram area that is referred as `Layout`. It includes the following layout modes:
 
 ## Layout modes
 
