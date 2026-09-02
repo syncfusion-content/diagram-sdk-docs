@@ -228,7 +228,7 @@ The following image shows the interactions with connector
 
 ## Restrict Interaction in Negative Axis Area
 
-The Diagram component includes a built-in option to restrict user interactions within the negative axis region—areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
+The JavaScript Diagram component includes a built-in option to restrict user interactions within the negative axis region—areas defined by negative X or Y coordinates. By enabling the `RestrictNegativeAxisDragDrop` constraint, the following interactions are prevented:
 
 * **Dragging**: Diagram elements cannot be dragged into areas with negative coordinates.
 * **Resizing**: The size of diagram objects cannot be adjusted to extend into the negative axis.
@@ -281,7 +281,7 @@ For more information, refer to the [`fixed user handle events`](./user-handle#fi
 
 ## Determining Mouse Button Clicks
 
-The diagram component can determine which mouse button was clicked. For example, when the right mouse button is clicked, the click event will specify that the right button was clicked. This is handled through the mouse [`click`](../api/diagram/iclickeventargs) event, which provides details about whether the left or right button was clicked.
+The JavaScript Diagram component can determine which mouse button was clicked. For example, when the right mouse button is clicked, the click event will specify that the right button was clicked. This is handled through the mouse [`click`](../api/diagram/iclickeventargs) event, which provides details about whether the left or right button was clicked.
 
 | Notification | Description |
 |----------------|--------------|

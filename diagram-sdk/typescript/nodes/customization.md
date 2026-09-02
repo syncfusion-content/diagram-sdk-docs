@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Common values to the node.
 
-The [`getNodeDefaults`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getnodedefaults) property in the EJ2 Diagram control allows you to define default settings for nodes based on specific conditions or requirements.
+The [`getNodeDefaults`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#getnodedefaults) property in the EJ2 TypeScript Diagram control allows you to define default settings for nodes based on specific conditions or requirements.
 
 The following code example shows how to use getNodeDefaults function.
 

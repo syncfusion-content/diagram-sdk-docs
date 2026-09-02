@@ -19,25 +19,25 @@ Microsoft Visio is a diagramming application used to create visual representatio
 
 ## Why use Visio with the JavaScript Diagram?
 
-Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The Diagram control provides Visio integration to support the following scenarios:
+Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The JavaScript Diagram control provides Visio integration to support the following scenarios:
 
 - Reuse existing Visio diagrams in web applications.  
-- Visualize and edit Visio diagrams using the Diagram control.  
-- Export diagrams created or modified in Diagram control for use in Microsoft Visio.  
+- Visualize and edit Visio diagrams using the JavaScript Diagram control.  
+- Export diagrams created or modified in JavaScript Diagram control for use in Microsoft Visio.  
 
 This integration enables seamless collaboration between desktop‑based Visio tools and web‑based diagramming applications.
 
 ## Visio support in the JavaScript Diagram
 
-The Syncfusion Essential JavaScript Diagram control supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the Diagram control and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
+The Syncfusion Essential JavaScript Diagram control supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the JavaScript Diagram control and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
 
-N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the Diagram control.
+N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the JavaScript Diagram control.
 
 ## Import Visio files in JavaScript Diagram
 
 ### How Visio import works
 
-A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the Diagram control as a **File** object using the [`importFromVisio`](../api/diagram/index-default#importfromvisio) method.
+A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the JavaScript Diagram control as a **File** object using the [`importFromVisio`](../api/diagram/index-default#importfromvisio) method.
 
 During the import process:
 
@@ -115,7 +115,7 @@ diagramImporting: function (args) {
 
 ### How Visio export works
 
-The Diagram control supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](../api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
+The JavaScript Diagram control supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](../api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
 
 ### Exporting a diagram
 

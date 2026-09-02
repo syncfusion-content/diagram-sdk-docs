@@ -90,7 +90,7 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 
 ## Drag Limit
 
-* The diagram control now supports defining the [`dragLimit`](https://ej2.syncfusion.com/documentation/api/diagram/marginmodel) to the label while dragging from the connector and also update the position to the nearest segment offset.
+* The TypeScript Diagram control now supports defining the [`dragLimit`](https://ej2.syncfusion.com/documentation/api/diagram/marginmodel) to the label while dragging from the connector and also update the position to the nearest segment offset.
 
 * You can set the value to dragLimit [`left`](https://ej2.syncfusion.com/documentation/api/diagram/marginModel#left), [`right`](https://ej2.syncfusion.com/documentation/api/diagram/marginModel#right), [`top`](https://ej2.syncfusion.com/documentation/api/diagram/marginModel#top), and [`bottom`](https://ej2.syncfusion.com/documentation/api/diagram/marginModel#bottom) properties which allow the dragging of connector labels to a certain limit based on the user defined values.
 

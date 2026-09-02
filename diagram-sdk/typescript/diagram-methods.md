@@ -25,7 +25,7 @@ The get the diagram bounds, the [`getDiagramBounds`](https://ej2.syncfusion.com/
 
 ## Refresh diagram
 
-Refreshing the diagram will re-render the entire diagram component while preserving all the property changes you have made. The [`refresh`](https://ej2.syncfusion.com/documentation/api/diagram#refresh) method is used to refresh the diagram. 
+Refreshing the diagram will re-render the entire TypeScript Diagram component while preserving all the property changes you have made. The [`refresh`](https://ej2.syncfusion.com/documentation/api/diagram#refresh) method is used to refresh the diagram. 
 
 ``` javascript
    /**
@@ -49,7 +49,7 @@ The [`clear`](https://ej2.syncfusion.com/documentation/api/diagram#clear) method
 
 ## Destroy diagram
 
-The [`destroy`](https://ej2.syncfusion.com/documentation/api/diagram#destroy) method is used to completely remove the diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
+The [`destroy`](https://ej2.syncfusion.com/documentation/api/diagram#destroy) method is used to completely remove the TypeScript Diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
 
 ``` javascript
    /**

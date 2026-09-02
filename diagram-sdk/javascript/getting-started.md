@@ -139,7 +139,7 @@ function connectorDefaults(connector) {
     return connector;
 }
 
-// Initialize the Diagram control
+// Initialize the JavaScript Diagram control
 let diagram = new ej.diagrams.Diagram({
     width: '100%',
     height: '580px',

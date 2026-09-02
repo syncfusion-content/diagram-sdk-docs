@@ -89,7 +89,7 @@ N> To edit a connector segment, you need to inject the `ConnectorEditing` module
 
 ## Flip
 
-The diagram Provides support to flip the connector. The [`flip`](../../api/diagram/connector#flip) is performed to give the mirrored image of the original element.
+The JavaScript Diagram provides support to flip the connector. The [`flip`](../../api/diagram/connector#flip) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 

@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Node Interaction in TypeScript Diagram
 
-The diagram provides support for selecting, dragging, resizing, and rotating nodes interactively. A node can be selected by simply clicking on it, dragged by dragging it on diagram canvas, resized using the resize handle, and rotated using the rotate handle. Additionally, interactions can be performed using some public methods, which are explained below:
+The TypeScript Diagram provides support for selecting, dragging, resizing, and rotating nodes interactively. A node can be selected by simply clicking on it, dragged by dragging it on diagram canvas, resized using the resize handle, and rotated using the rotate handle. Additionally, interactions can be performed using some public methods, which are explained below:
 
 ## Select
 
@@ -105,7 +105,7 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 
 ## Flip
 
-The diagram Provides support to flip the node. [`flip`](https://ej2.syncfusion.com/documentation/api/diagram/flipdirection) is performed to give the mirrored image of the original element.
+The TypeScript Diagram provides support to flip the node. [`flip`](https://ej2.syncfusion.com/documentation/api/diagram/flipdirection) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 

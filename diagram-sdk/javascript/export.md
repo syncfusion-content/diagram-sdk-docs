@@ -30,7 +30,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-The diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](../api/diagram/iExportOptions) in diagram.
+The JavaScript Diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](../api/diagram/iExportOptions) in diagram.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |
@@ -117,7 +117,7 @@ Exporting particular region of diagram is possible by using the [`region`](../ap
 | Region | Description |
 |-------- | -------- |
 | PageSettings | The region to be exported will be based on the given page settings |
-| Content | Only the content of the diagram control will be exported | 
+| Content | Only the content of the JavaScript Diagram control will be exported | 
 | CustomBounds | The region to be exported will be explicitly defined |
 
 The following example shows how to export diagram with different regions.
