@@ -101,7 +101,7 @@ yarn add @syncfusion/ej2-react-diagrams
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
+The React Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 ```
 npm install @syncfusion/ej2-tailwind3-theme
@@ -127,7 +127,7 @@ N> Syncfusion® provides multiple built-in themes. If the application uses a dif
 
 Follow these steps to add the React Diagram component to the Preact project:
 
-1\. Before adding the Diagram component to your markup, create a **datasource.jsx** file within the **src** folder and add the Diagram component data.
+1\. Before adding the React Diagram component to your markup, create a **datasource.jsx** file within the **src** folder and add the React Diagram component data.
 
 {% tabs %}
 {% highlight js tabtitle="~/src/datasource.jsx" %}
@@ -183,7 +183,7 @@ export let data = [{
 {% endhighlight %}
 {% endtabs %}
 
-2\. Then, import and define the Diagram component in the **src/index.jsx** file, as shown below:
+2\. Then, import and define the React Diagram component in the **src/index.jsx** file, as shown below:
 
 {% tabs %}
 {% highlight js tabtitle="~/src/index.jsx" %}

@@ -604,7 +604,7 @@ export const fetchLayoutData = async (): Promise<LayoutNode[]> => {
 
 Create a `OrganizationalLayout.tsx` file inside  **client/src/components/** folder to render the organizational chart layout:
 
-The Diagram component fetches data on mount, binds it to the **DataManager**, and configures organizational chart layout properties.
+The React Diagram component fetches data on mount, binds it to the **DataManager**, and configures organizational chart layout properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.tsx" %}

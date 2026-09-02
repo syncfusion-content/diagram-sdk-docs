@@ -14,7 +14,7 @@ The React Diagram component provides a comprehensive set of interactive tools th
 
 ## Overview
 
-The diagram control offers three primary tool categories:
+The React Diagram control offers three primary tool categories:
 
 - **Select**: Choose and manipulate specific elements within the diagram.
 - **Pan**: Navigate the diagram view to different areas without modifying elements.

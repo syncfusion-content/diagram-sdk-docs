@@ -107,7 +107,7 @@ yarn add @syncfusion/ej2-react-diagrams
 
 ## Add the required styles
 
-The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
+The React Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -152,7 +152,7 @@ N> In Next.js, global styles should be added to the global stylesheet. For App R
 
 Follow the below steps to add the React Diagram component to the Next.js project:
 
-1. Before adding the Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the Diagram component data.
+1. Before adding the React Diagram component to your markup, create a `datasource.tsx` file within the **app** folder and add the React Diagram component data.
 
 {% tabs %}
 {% highlight ts tabtitle="datasource.tsx" %}
@@ -208,7 +208,7 @@ export let data: object[] = [{
 {% endhighlight %}
 {% endtabs %}
 
-2. Then, import and define the Diagram component in the **app/page.tsx** file, as shown below:
+2. Then, import and define the React Diagram component in the **app/page.tsx** file, as shown below:
 
 {% raw %}
 
@@ -324,6 +324,6 @@ Open the generated local URL (for example, http://localhost:3000) from the termi
 
 ![nextjs](./images/preact.png)
 
-To learn more about the functionality of the Diagram component, refer to the [documentation](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection).
+To learn more about the functionality of the React Diagram component, refer to the [documentation](https://ej2.syncfusion.com/react/documentation/diagram/getting-started#module-injection).
 
 > [View the Next.js Diagram sample in the GitHub repository](https://github.com/SyncfusionExamples/ej2-nextjs-diagram).

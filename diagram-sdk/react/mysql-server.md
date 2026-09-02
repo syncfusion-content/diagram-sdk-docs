@@ -3,7 +3,7 @@ layout: post
 title: MySQL Server in React Diagram | Syncfusion
 description: Bind the React Diagram to MySQL via LINQ2DB and an ASP.NET Core Web API to render an organizational chart from relational data.
 platform: diagram-sdk
-control: diagram
+control: Diagram
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -44,7 +44,7 @@ To store and manage diagram data, MySQL Server must be installed and configured 
 
 ### Installing MySQL Server
 
-MySQL Server provides the relational database engine used to store organizational chart data required by the diagram component.
+MySQL Server provides the relational database engine used to store organizational chart data required by the React Diagram component.
 
 1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/windows/installer/8.0.html).
 ![MySQL Installer](images/mysql-installer.png)
@@ -462,7 +462,7 @@ npm install @syncfusion/ej2-react-diagrams --save
 ```
 
 After installation, the necessary CSS files are available in the **node_modules** directory.
-Add the required CSS references to the **src/index.css** file to apply styling to the Diagram component.
+Add the required CSS references to the **src/index.css** file to apply styling to the React Diagram component.
 
 ```css
 @import "../node_modules/@syncfusion/ej2-react-diagrams/styles/bootstrap5.3.css";
