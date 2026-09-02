@@ -119,7 +119,7 @@ The following code explains how to enable port drag.
 
 ## Automatic Port Creation
 
-The JavaScript Diagram component allows you to dynamically create ports on nodes or connectors by clicking and dragging the mouse while holding the Control (Ctrl) key. This feature is disabled by default and can be enabled by using the `DiagramConstraints.AutomaticPortCreation` constraint.
+The JavaScript Diagram allows you to dynamically create ports on nodes or connectors by clicking and dragging the mouse while holding the Control (Ctrl) key. This feature is disabled by default and can be enabled by using the `DiagramConstraints.AutomaticPortCreation` constraint.
 
 You can also remove a port using the same Ctrl + Click interaction, but only if the port is not currently connected to any connector.
 
