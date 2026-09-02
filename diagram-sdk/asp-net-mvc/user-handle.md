@@ -147,7 +147,7 @@ N> The PathData needs to be provided to render fixed user handle.
 
 ### Size
 
-Diagram allows to set size for the fixed user handles by using the `width` and `height` property. The default value of the width and height property is 10.
+ASP.NET MVC Diagram allows to set size for the fixed user handles by using the `width` and `height` property. The default value of the width and height property is 10.
 
 ### Style
 

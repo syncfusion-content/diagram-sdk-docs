@@ -41,7 +41,7 @@ Margin is an absolute value used to add some blank space in any one of its four 
 
 ## Notification for the mouse button clicked
 
-The diagram component notifies the mouse button clicked. For example, whenever the right mouse button is clicked, the clicked button is notified as right. The mouse click is notified with,
+The ASP.NET Core Diagram component notifies the mouse button clicked. For example, whenever the right mouse button is clicked, the clicked button is notified as right. The mouse click is notified with,
 
 | Notification | Description |
 |----------------|--------------|

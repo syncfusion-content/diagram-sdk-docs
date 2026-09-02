@@ -744,11 +744,11 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 ## Interaction
 
-* Diagram allows to edit the connectors at runtime. To edit the connector segments at runtime, refer to [`Connection Editing`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.html).
+* ASP.NET Core Diagram allows to edit the connectors at runtime. To edit the connector segments at runtime, refer to [`Connection Editing`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.html).
 
 ## Automatic line routing
 
-Diagram provides additional flexibility to re-route the diagram connectors. A connector will frequently re-route itself when a shape moves next to it. The following screenshot illustrates how the connector automatically re-routes the segments.
+ASP.NET Core Diagram provides additional flexibility to re-route the diagram connectors. A connector will frequently re-route itself when a shape moves next to it. The following screenshot illustrates how the connector automatically re-routes the segments.
 
 * The line routing constraints must be included to the default diagram constraints to enable automatic line routing support like below.
 
@@ -877,7 +877,7 @@ The connectors [`zIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 
 ## Undo/Redo support for connector segments
 
-The Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
+The ASP.NET Core Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
 
 Key undo/redo capabilities include:
 

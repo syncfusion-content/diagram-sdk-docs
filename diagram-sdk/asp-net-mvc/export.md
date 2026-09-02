@@ -10,7 +10,7 @@ documentation: ug
 
 # Printing and Exporting in ASP.NET MVC Diagram
 
-Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportdiagram) helps to export the diagram.
+ASP.NET MVC Diagram provides support to export its content as image or svg files. The client-side method [`exportDiagram`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#exportdiagram) helps to export the diagram.
 
 N> To use Print and Export, you need to inject `PrintAndExport` in the diagram.
 
@@ -28,7 +28,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-Diagram provides support to export the desired region of the diagram to desired formats.
+ASP.NET MVC Diagram provides support to export the desired region of the diagram to desired formats.
 
 ## File Name
 
@@ -124,7 +124,7 @@ diagram.exportDiagram(options);
 
 ## Custom bounds
 
-Diagram provides support to export any specific region of the diagram by using [`bounds`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#region).
+ASP.NET MVC Diagram provides support to export any specific region of the diagram by using [`bounds`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#region).
 
 ```javascript
 
@@ -147,7 +147,7 @@ diagram.exportDiagram(options);
 
 ## Export diagram with stretch option
 
-Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#stretch) option. The exported images will be clearer but larger in file size.
+ASP.NET MVC Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/documentation/api/diagram/iexportoptions#stretch) option. The exported images will be clearer but larger in file size.
 
 ```javascript
 

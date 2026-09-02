@@ -33,7 +33,7 @@ localStorage.setItem('fileName', saveData);
 saveData = localStorage.getItem('fileName');
 ```
 
-Diagram can also be saved as raster or vector image files. For more information about saving the diagram as images, refer to `Print and Export`.
+ASP.NET MVC Diagram can also be saved as raster or vector image files. For more information about saving the diagram as images, refer to `Print and Export`.
 
 ## Load
 
