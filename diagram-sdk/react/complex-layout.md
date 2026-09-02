@@ -121,7 +121,6 @@ The following code illustrates how to allow a linear arrangement in diagram layo
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/complexhiertree-cs4" %}
 
 
-
 ## Enable Routing for Layout
 
 In complex diagrams with intricate parent-child relationships, connectors may pass through or overlap with nodes, making the diagram difficult to read. Routing functionality automatically calculates connector paths that avoid intersecting with nodes and other obstacles.
