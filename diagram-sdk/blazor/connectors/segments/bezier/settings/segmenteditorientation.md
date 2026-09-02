@@ -3,7 +3,7 @@ layout: post
 title: Segment Edit Orientation in Blazor Diagram Component | Syncfusion®
 description: Edit Blazor Diagram Connector Component Bezier segment points bidirectionally or freeform using the SegmentEditOrientation setting.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: BPMN Event in Blazor Diagram Component | Syncfusion®
 description: Model Blazor Diagram Component business processes with Start, Intermediate, and End BPMN events and trigger subtypes.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

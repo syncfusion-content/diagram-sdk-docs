@@ -496,7 +496,7 @@ The following image illustrates the differentiation of tooltips displayed in the
 The following code snippet will demonstrate how to define two different tooltip for symbol in the symbol palette and dropped node in the diagram canvas.
 
 ```js
-//Initialize the Diagram
+//Initialize the ASP.NET MVC Diagram
  let diagram: Diagram = new Diagram({
             width: '100%', height: '500px',
             connectors: connectors, nodes: nodes,

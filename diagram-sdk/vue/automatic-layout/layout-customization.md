@@ -17,7 +17,7 @@ To explore layout properties, refer to [`Layout Properties`](https://ej2.syncfus
 ## Layout bounds
 
 
-Diagram provides support to align the layout within any custom rectangular area. 
+Vue Diagram provides support to align the layout within any custom rectangular area. 
 
 The following example shows how to align the layout within the given layout bounds.
 
@@ -105,7 +105,7 @@ The layout orientation can used to arrange the layout based on the direction. th
 |BottomToTop|Aligns the layout from bottom to top. All the roots are placed at bottom of the diagram.|
 |RightToLeft|Aligns the layout from right to left. All the roots are placed at right of the diagram.|
 
-Diagram provides support to customize the  [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layout/#orientation) of layout. You can set the desired orientation using layout.orientation.
+Vue Diagram provides support to customize the  [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layout/#orientation) of layout. You can set the desired orientation using layout.orientation.
 
 N> In the diagram the default orientation is `TopToBottom`.
 
@@ -162,7 +162,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 ## Expand and collapse
 
-Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpanded property allows you to expand/collapse its children. The following code example shows how to expand/collapse the children of a node.
+Vue Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpanded property allows you to expand/collapse its children. The following code example shows how to expand/collapse the children of a node.
 
 
 {% tabs %}
@@ -244,7 +244,7 @@ The [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/sta
 
 ## Refresh layout
 
-Diagram allows refreshing the layout at runtime. To refresh the layout, you need to call the [`doLayout`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#dolayout) method.
+Vue Diagram allows refreshing the layout at runtime. To refresh the layout, you need to call the [`doLayout`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#dolayout) method.
 
 
 ```typescript

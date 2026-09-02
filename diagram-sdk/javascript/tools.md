@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Tools in JavaScript Diagram
 
-The tools in the diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
+The tools in the JavaScript Diagram control can perform various actions such as selecting, panning, and drawing. These tools are explained below.
 
 - `Select`: Allows you to choose specific elements within the diagram.
 - `Pan`: Enables you to move the view of the diagram to different areas without altering the elements.
@@ -84,7 +84,7 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 
 ### Polygon shape
 
-The diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
+The JavaScript Diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
 
 To draw a polygon shape, you need to set the [`drawingObject`](../api/diagram#drawingobject) property with the appropriate JSON configuration for a `polygon`. This includes specifying the type as **Polygon**.
 
@@ -105,7 +105,7 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 ### Polyline Connector
 
-The diagram control enables users to create polyline connectors interactively by clicking and dragging the mouse on the diagram canvas at runtime. It allows creating polyline segments with straight lines and angled vertices at control points directly within the diagram interface. 
+The JavaScript Diagram control enables users to create polyline connectors interactively by clicking and dragging the mouse on the diagram canvas at runtime. It allows creating polyline segments with straight lines and angled vertices at control points directly within the diagram interface. 
 
 To draw a polyline connector, set the type of the [`drawingObject`](../api/diagram#drawingobject) as **Polyline**.
 

@@ -10,7 +10,7 @@ documentation: ug
 
 # Automatic Layout in ASP.NET MVC Diagram
 
-Diagram provides support to auto-arrange the nodes in the diagram area that is referred as [`Layout`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html). It includes the following layout modes:
+ASP.NET MVC Diagram provides support to auto-arrange the nodes in the diagram area that is referred as [`Layout`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html). It includes the following layout modes:
 
 ## Layout modes
 
@@ -428,7 +428,7 @@ To explore layout properties, refer to [`Layout Properties`](https://help.syncfu
 
 ### Layout bounds
 
-Diagram provides support to align the layout within any custom rectangular area. For more information about bounds, refer to [`bounds`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Bounds).
+ASP.NET MVC Diagram provides support to align the layout within any custom rectangular area. For more information about bounds, refer to [`bounds`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Bounds).
 
 ### Layout alignment
 
@@ -497,7 +497,7 @@ The layout orientation can used to arrange the layout based on the direction. Th
 |BottomToTop|Aligns the layout from bottom to top. All the roots are placed at bottom of the diagram.|
 |RightToLeft|Aligns the layout from right to left. All the roots are placed at right of the diagram.|
 
-Diagram provides support to customize the  [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Orientation) of layout. You can set the desired orientation using layout.orientation.
+ASP.NET MVC Diagram provides support to customize the  [`orientation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayout.html#Syncfusion_EJ2_Diagrams_DiagramLayout_Orientation) of layout. You can set the desired orientation using layout.orientation.
 
 N> In the diagram the default orientation is TopToBottom.
 
@@ -551,7 +551,7 @@ Layout provides support to arrange the nodes with reference to the position of a
 
 ### Expand and collapse
 
-Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpanded property allows you to expand or collapse its children.
+ASP.NET MVC Diagram allows to expand/collapse the subtrees of a layout. The node’s isExpanded property allows you to expand or collapse its children.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -609,7 +609,7 @@ In the previous example, while expanding or collapsing a node, it is set as fixe
 
 ### Refresh layout
 
-Diagram allows to refresh the layout at runtime. To refresh the layout, refer to Refresh layout.
+ASP.NET MVC Diagram allows to refresh the layout at runtime. To refresh the layout, refer to Refresh layout.
 
 ### setNodeTemplate
 

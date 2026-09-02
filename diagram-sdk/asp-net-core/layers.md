@@ -11,7 +11,7 @@ documentation: ug
 
 # Layers in ASP.NET Core Diagram
 
-**Layer** is used to organize related shapes on a diagram control. A layer is a named category of shapes. By assigning shapes to different layers, you can selectively view, remove, and lock different categories of shapes.
+**Layer** is used to organize related shapes on a ASP.NET Core Diagram control. A layer is a named category of shapes. By assigning shapes to different layers, you can selectively view, remove, and lock different categories of shapes.
 
 In diagram, [Layers](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramLayer.html) provide a way to change the properties of all shapes that have been assigned to that layer. The following properties can be set.
 
@@ -71,7 +71,7 @@ let connectors: ConnectorModel[] = [{
         y: 400
     },
 }];
-// initialize diagram component
+// initialize ASP.NET Core Diagram component
 let diagram: Diagram = new Diagram({
     width: '100%',
     height: '600px',
@@ -140,7 +140,7 @@ let connectors: ConnectorModel[] = [{
         y: 400
     },
 }];
-// initialize diagram component
+// initialize ASP.NET Core Diagram component
 let diagram: Diagram = new Diagram({
     width: '100%',
     height: '600px',
@@ -216,7 +216,7 @@ let connectors: ConnectorModel[] = [{
         y: 400
     },
 }];
-// initialize diagram component
+// initialize ASP.NET Core Diagram component
 let diagram: Diagram = new Diagram({
     width: '100%',
     height: '600px',
@@ -291,7 +291,7 @@ let connectors: ConnectorModel[] = [{
     },
 }];
 let addInfo: Object = { Description: 'Layer1' };
-// initialize Diagram component
+// initialize ASP.NET Core Diagram component
 let diagram: Diagram = new Diagram({
     width: '100%',
     height: '600px',

@@ -41,7 +41,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your Vue c
 ```typescript
 <template>
   <div>
-    <!-- Diagram component will be added here -->
+    <!-- Vue Diagram component will be added here -->
   </div>
 </template>
 

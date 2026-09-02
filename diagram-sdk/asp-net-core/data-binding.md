@@ -10,9 +10,9 @@ documentation: ug
 
 # Data Binding in ASP.NET Core Diagram
 
-* Diagram can be populated with the `nodes` and `connectors` based on the information provided from an external data source.
+* ASP.NET Core Diagram can be populated with the `nodes` and `connectors` based on the information provided from an external data source.
 
-* Diagram exposes its specific data-related properties allowing you to specify the data source fields from where the node information has to be retrieved from.
+* ASP.NET Core Diagram exposes its specific data-related properties allowing you to specify the data source fields from where the node information has to be retrieved from.
 
 * The [`dataManager`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_DataManager) property is used to define the data source either as a collection of objects or as an instance of `DataManager` that needs to be populated in the diagram.
 
@@ -24,7 +24,7 @@ documentation: ug
 
 * To explore those properties, see [`DataSourceSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html).
 
-* Diagram supports two types of data binding. They are:
+* ASP.NET Core Diagram supports two types of data binding. They are:
 
 1. Local data
 2. Remote data

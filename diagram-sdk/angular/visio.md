@@ -18,25 +18,25 @@ Microsoft Visio is a diagramming application used to create visual representatio
 
 ## Why use Visio with the Angular Diagram?
 
-Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The Diagram component provides Visio integration to support the following scenarios:
+Many organizations maintain existing diagrams created using Microsoft Visio. Recreating these diagrams in a web application can require significant effort. The Angular Diagram component provides Visio integration to support the following scenarios:
 
 - Reuse existing Visio diagrams in web applications.  
-- Visualize and edit Visio diagrams using the Diagram component.  
+- Visualize and edit Visio diagrams using the Angular Diagram component.  
 - Export diagrams created or modified in Diagram component for use in Microsoft Visio.  
 
 This integration enables seamless collaboration between desktop‑based Visio tools and web‑based diagramming applications.
 
 ## Visio support in the Angular Diagram
 
-The Syncfusion Essential Angular Diagram component supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the Diagram component and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
+The Syncfusion Essential Angular Diagram component supports Microsoft Visio integration by allowing **.vsdx** files to be imported into the Angular Diagram component and diagrams to be exported back to Visio format. During import, Visio shapes, connectors, and annotations are mapped to their corresponding Diagram elements, while export converts the diagram content into a valid **.vsdx** file.
 
-N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the Diagram component.
+N>To enable Visio import and export functionality, inject the `ImportAndExportVisio` module into the Angular Diagram component.
 
 ## Import Visio files in Angular Diagram
 
 ### How Visio import works
 
-A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the Diagram component as a **File** object using the [`importFromVisio`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#importfromvisio) method.
+A Visio file can be selected from the local file system or retrieved from a server or cloud storage. Once the **.vsdx** file is available, it is passed to the Angular Diagram component as a **File** object using the [`importFromVisio`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#importfromvisio) method.
 
 During the import process:
 
@@ -115,7 +115,7 @@ public diagramImporting(args: IImportingEventArgs): void {
 
 ### How Visio export works
 
-The Diagram component supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
+The Angular Diagram component supports exporting diagrams to Microsoft Visio format using the [`exportToVisio`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#exporttovisio) method. This method generates a **.vsdx** file and automatically downloads it through the browser.
 
 ### Exporting a diagram
 

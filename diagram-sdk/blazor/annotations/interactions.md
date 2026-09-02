@@ -3,7 +3,7 @@ layout: post
 title: Annotation Interaction in Blazor Diagram Component | Syncfusion®
 description: Let users select, drag, resize, and rotate Blazor Diagram Component annotations by enabling the Interaction flag in constraints.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

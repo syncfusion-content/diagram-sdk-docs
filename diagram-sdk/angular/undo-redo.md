@@ -14,13 +14,13 @@ The Angular Diagram component automatically tracks all user interactions and pro
 
 ## Prerequisites and setup
 
-To enable undo/redo functionality in the diagram, inject the UndoRedo module into the diagram component.
+To enable undo/redo functionality in the diagram, inject the UndoRedo module into the Angular Diagram component.
 
-N> The UndoRedo module must be injected to access undo/redo features in the diagram component.
+N> The UndoRedo module must be injected to access undo/redo features in the Angular Diagram component.
 
 ## Basic undo and redo operations
 
-The diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
+The Angular Diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
 
 ### Keyboard shortcuts
 
@@ -54,7 +54,7 @@ export class AppComponent {
 
 ### Enabling and disabling undo/redo
 
-Control undo/redo availability using the [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramConstraints) property of the diagram component.
+Control undo/redo availability using the [`constraints`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramConstraints) property of the Angular Diagram component.
 
 ### History change events
 

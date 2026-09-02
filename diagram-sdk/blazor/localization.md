@@ -3,7 +3,7 @@ layout: post
 title: Localization in Blazor Diagram Component | Syncfusion®
 description: Localize every static text in the Blazor Diagram Component to any supported language using the standard Blazor localization workflow.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

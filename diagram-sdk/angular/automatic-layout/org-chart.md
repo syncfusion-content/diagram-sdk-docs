@@ -41,7 +41,7 @@ This approach is ideal when working with dynamic data from databases, APIs, or w
 
 {% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/organizationalchart-cs1" %}
 
-> **Note:** When using organizational chart layout, both HierarchicalTree and DataBinding modules must be injected into the diagram component.
+> **Note:** When using organizational chart layout, both HierarchicalTree and DataBinding modules must be injected into the Angular Diagram component.
 
 ### Organizational Chart with Nodes and Connectors
 

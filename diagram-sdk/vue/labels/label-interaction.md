@@ -49,7 +49,7 @@ The [`rotationReference`](https://ej2.syncfusion.com/vue/documentation/api/diagr
 
 ### Read-only annotations
 
-Diagram allows to create read-only annotations. You have to set the read-only constraints to the annotation's [`constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#constraints) property. The following code illustrates how to enable read-only mode.
+Vue Diagram allows to create read-only annotations. You have to set the read-only constraints to the annotation's [`constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#constraints) property. The following code illustrates how to enable read-only mode.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -64,7 +64,7 @@ Diagram allows to create read-only annotations. You have to set the read-only co
 
 ## Edit
 
-Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
+Vue Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
 
 ### Programmatically
 By using [`startTextEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#starttextedit) method, edit the text through programmatically.
@@ -88,7 +88,7 @@ Double-clicking any annotation will enables editing mode. When the focus of edit
 
 ## Drag Limit
 
-* The diagram control now supports defining the [`dragLimit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
+* The Vue Diagram control now supports defining the [`dragLimit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
 
 * You can set the value to dragLimit [`left`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel#left), [`right`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel#right), [`top`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel#top), and [`bottom`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel#bottom) properties which allow the dragging of connector labels to a certain limit based on the user defined values.
 

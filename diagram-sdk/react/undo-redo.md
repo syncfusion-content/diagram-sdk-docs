@@ -14,9 +14,9 @@ The React Diagram component automatically tracks all user interactions and progr
 
 ## Basic Undo and Redo Operations
 
-The diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
+The React Diagram provides built-in support to track changes made through both user interactions and public API calls. These changes can be reversed or restored using keyboard shortcuts or programmatic commands.
 
-N> The UndoRedo module must be injected to access undo/redo features in the diagram component.
+N> The UndoRedo module must be injected to access undo/redo features in the React Diagram component.
 
 ### Keyboard Shortcuts
 
@@ -24,11 +24,12 @@ Use these standard keyboard shortcuts for quick undo/redo operations:
 - **Undo**: `Ctrl+Z`
 - **Redo**: `Ctrl+Y`
 
-### Programmatic undo and redo
+### Programmatic Undo and Redo
 
 The [`undo`](https://helpej2.syncfusion.com/react/documentation/api/diagram#undo) and [`redo`](https://helpej2.syncfusion.com/react/documentation/api/diagram#redo) methods allow you to control undo/redo operations programmatically. The following example demonstrates how to implement these methods:
 
 ```ts
+import { DiagramComponent, Inject, UndoRedo } from '@syncfusion/ej2-react-diagrams';
 
 // initialize Diagram component
 let diagramInstance: DiagramComponent;
@@ -39,7 +40,9 @@ function App() {
       ref={(diagram) => (diagramInstance = diagram)}
       width={'100%'}
       height={'600px'}
-    />
+    >
+      <Inject services={[UndoRedo]} />
+    </DiagramComponent>
   );
 }
 const root = ReactDOM.createRoot(document.getElementById('diagram'));
@@ -51,13 +54,9 @@ diagramInstance.redo();
 ```
 ### Enabling and Disabling Undo/Redo
 
-Undo/Redo for diagram can be enabled/disabled with the [`constraints`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramConstraints) property of the diagram component.
+Undo/Redo for diagram can be enabled/disabled with the [`constraints`](https://helpej2.syncfusion.com/react/documentation/api/diagram/diagramConstraints) property of the React Diagram component.
 
-### History Change Events
-
-The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/diagram#historychange) event triggers whenever an action is undone or redone, allowing you to respond to history state changes.
-
-## Advanced history management
+## Advanced History Management
 
 ### Grouping multiple actions
 
@@ -112,6 +111,17 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 The [`undoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#undostack) property is used to get the collection of undo actions which should be performed in the diagram. The [`redoStack`](https://helpej2.syncfusion.com/react/documentation/api/diagram/history#redostack) property is used to get the collection of redo actions which should be performed in the diagram. The undoStack/redoStack is the read-only property.
 
 ```ts
+import { DiagramComponent, Inject, UndoRedo, NodeModel } from '@syncfusion/ej2-react-diagrams';
+
+let nodes: NodeModel[] = [{
+  id: 'node1',
+  width: 100,
+  height: 100,
+  offsetX: 300,
+  offsetY: 200,
+  annotations: [{ id: 'label1', content: 'Node' }]
+}];
+
 let diagramInstance: DiagramComponent;
 function App() {
   return (
@@ -147,7 +157,7 @@ The [`canUndo`](https://helpej2.syncfusion.com/react/documentation/api/diagram/h
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5CurrentEntry-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Undo-cs1" %}
 
 ### Current Entry Tracking
 
@@ -170,7 +180,7 @@ The following code shows how to get the current entry from the diagram history:
 
 ### Clearing History
 
-The [`clearHistory`](https://helpej2.syncfusion.com/react/documentation/api/diagram#clearhistory)  method to remove all recorded actions from both undo and redo history stacks:
+The [`clearHistory`](https://helpej2.syncfusion.com/react/documentation/api/diagram#clearhistory) method removes all recorded actions from both undo and redo history stacks:
 
 ```ts
 //Clears all the histories
@@ -207,4 +217,4 @@ The [`historyChange`](https://helpej2.syncfusion.com/react/documentation/api/dia
 
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5HistoryChange-cs1" %}
 
-While interacting with diagram, this event can be used to do the customization.
+While interacting with the diagram, this event can be used for customization.

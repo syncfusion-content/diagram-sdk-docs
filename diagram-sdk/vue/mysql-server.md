@@ -44,7 +44,7 @@ To store and manage diagram data, MySQL Server must be installed and configured 
 
 ### Installing MySQL Server
 
-MySQL Server provides the relational database engine used to store organizational chart data required by the diagram component.
+MySQL Server provides the relational database engine used to store organizational chart data required by the Vue Diagram component.
 
 1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/windows/installer/8.0.html).
 ![MySQL Installer](images/mysql-installer.png)
@@ -463,7 +463,7 @@ npm install @syncfusion/ej2-vue-diagrams --save
 ```
 
 After installation, the necessary CSS files are available in the **node_modules** directory.
-Add the required CSS references to the **src/style.css** file to apply styling to the Diagram component.
+Add the required CSS references to the **src/style.css** file to apply styling to the Vue Diagram component.
 
 ```
 @import "../node_modules/@syncfusion/ej2-vue-diagrams/styles/bootstrap5.3.css";
@@ -476,7 +476,7 @@ For this project, the "Bootstrap 5.3" theme is applied. Other themes can be sele
 
 ### Step 3: Add Vue Diagram
 
-Create a basic Diagram component in **src/App.vue**:
+Create a basic Vue Diagram component in **src/App.vue**:
 
 ```
 <template>

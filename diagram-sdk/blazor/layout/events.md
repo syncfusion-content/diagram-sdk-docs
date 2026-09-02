@@ -3,7 +3,7 @@ layout: post
 title: Layout Events in Blazor Diagram Component | Syncfusion®
 description: Handle layout completion in the Blazor Diagram Component to perform custom actions after rendering and initialization are complete.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

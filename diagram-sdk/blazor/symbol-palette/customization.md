@@ -412,7 +412,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Symbol Descriptions to Palette Symbols
 
-The diagram component supports adding descriptive text below each symbol in the palette. This visual enhancement provides additional details about each symbol, improving user understanding and usability. The height and width of the symbol description can be customized individually. To add or modify symbol descriptions at runtime, use the [GetSymbolInfo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_GetSymbolInfo) method provided by the SfSymbolPaletteComponent.
+The Blazor Diagram Component supports adding descriptive text below each symbol in the palette. This visual enhancement provides additional details about each symbol, improving user understanding and usability. The height and width of the symbol description can be customized individually. To add or modify symbol descriptions at runtime, use the [GetSymbolInfo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SymbolPalette.SfSymbolPaletteComponent.html#Syncfusion_Blazor_Diagram_SymbolPalette_SfSymbolPaletteComponent_GetSymbolInfo) method provided by the SfSymbolPaletteComponent.
 The following code is an example to set a symbol description for symbols in the palette.
 
 ```csharp

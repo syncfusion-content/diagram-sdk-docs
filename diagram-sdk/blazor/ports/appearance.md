@@ -3,7 +3,7 @@ layout: post
 title: Port Appearance in Blazor Diagram Component | Syncfusion®
 description: Style Blazor Diagram Component ports with custom shape, fill, stroke, size, and visibility for clear connection visuals.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

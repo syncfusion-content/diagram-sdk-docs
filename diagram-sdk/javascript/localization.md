@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Localization in JavaScript Diagram
 
-The EJ2 Diagram component supports `localization`. In the Diagram component, the symbol palette search box and context menu items can be localized based on the selected culture. By using the locale property of the diagram, you can change the culture.
+The EJ2 JavaScript Diagram component supports `localization`. In the JavaScript Diagram component, the symbol palette search box and context menu items can be localized based on the selected culture. By using the locale property of the diagram, you can change the culture.
 
 ## Localize Diagram context menu
 

@@ -3,7 +3,7 @@ layout: post
 title: Connector Events in Blazor Diagram Component | Syncfusion®
 description: Handle Blazor Diagram connector events for selection, drag, source, and target end events to validate or customize link behavior.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -644,7 +644,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Handle PropertyChanged Event
 
-The [Property Changed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_PropertyChanged) event is raised when connector's property of the diagram component is modified at runtime. This event provides valuable information about the changes occurring in the diagram. For a detailed understanding of the event arguments, refer to the [PropertyChangedEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PropertyChangedEventArgs.html).
+The [Property Changed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_PropertyChanged) event is raised when connector's property of the Blazor Diagram Component is modified at runtime. This event provides valuable information about the changes occurring in the diagram. For a detailed understanding of the event arguments, refer to the [PropertyChangedEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PropertyChangedEventArgs.html).
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

@@ -3,7 +3,7 @@ layout: post
 title: Grid Lines in Blazor Diagram Component | Syncfusion®
 description: Show dotted or dashed grid lines in the Blazor Diagram Component with custom intervals, snap-to-line, and snap-to-object guides.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

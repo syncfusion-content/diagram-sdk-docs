@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Scroll Settings in Angular Diagram
 
-The diagram component provides comprehensive scrolling capabilities through both vertical and horizontal scrollbars, as well as mouse wheel navigation. The diagram's [`scrollSettings`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel) enable developers to monitor the current scroll status, viewport dimensions, zoom levels, and programmatically control diagram navigation. These settings are essential for managing large diagrams and providing smooth user interaction experiences.
+The Angular Diagram component provides comprehensive scrolling capabilities through both vertical and horizontal scrollbars, as well as mouse wheel navigation. The diagram's [`scrollSettings`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel) enable developers to monitor the current scroll status, viewport dimensions, zoom levels, and programmatically control diagram navigation. These settings are essential for managing large diagrams and providing smooth user interaction experiences.
 
 ## Access and Customize Scroll Settings
 
@@ -20,7 +20,7 @@ These properties enable developers to read and adjust the scroll status, scroll 
 
 ## Define Scroll Offset
 
-The diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the [`horizontalOffset`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the [`scrollLimit`](https://helpej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-limit) section.
+The Angular Diagram allows developers to set the initial scroll position before loading, ensuring that any desired region of a large diagram is immediately visible. The initial scroll position can be programmatically configured using the [`horizontalOffset`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically set the diagram's initial scroll position upon initialization, with `scrollLimit` defined as 'Infinity' to enable infinite scrolling. To learn more about scroll limits, refer to the [`scrollLimit`](https://helpej2.syncfusion.com/angular/documentation/diagram/scroll-settings#scroll-limit) section.
 
 In the example below, the vertical scrollbar is positioned 100 pixels down, and the horizontal scrollbar is positioned 100 pixels to the right.
 
@@ -38,7 +38,7 @@ In the example below, the vertical scrollbar is positioned 100 pixels down, and 
 
 ## Update Scroll Offset at Runtime
 
-The diagram provides multiple methods to update scroll offsets during runtime:
+The Angular Diagram provides multiple methods to update scroll offsets during runtime:
 
 * **Scrollbar**: Use the horizontal and vertical scrollbars of the diagram for direct navigation.
 * **Mouse wheel**: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.
@@ -139,7 +139,7 @@ N> To use autoscroll, the scrollLimit should be set as 'Infinity'.
 
 ## Controlling Autoscroll Speed
 
-The frequency of automatic scrolling in the Diagram component during autoscroll behavior can be precisely controlled. The scrolling frequency can be adjusted from slow and smooth to quick and rapid to suit different requirements. Configure this by setting a value in milliseconds to the [`autoScrollFrequency`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#autoscrollfrequency) property within the scrollSettings, allowing precise control over autoscroll timing.
+The frequency of automatic scrolling in the Angular Diagram component during autoscroll behavior can be precisely controlled. The scrolling frequency can be adjusted from slow and smooth to quick and rapid to suit different requirements. Configure this by setting a value in milliseconds to the [`autoScrollFrequency`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#autoscrollfrequency) property within the scrollSettings, allowing precise control over autoscroll timing.
 
 ![AutoscrollFrequency](./images/AutoscrollFrequency.gif)
 

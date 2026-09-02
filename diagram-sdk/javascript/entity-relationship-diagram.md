@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Entity Relationship Diagram in JavaScript Diagram
 
-An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](../api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](../api/diagram/erConnectorShapeModel).
+An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® JavaScript Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](../api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](../api/diagram/erConnectorShapeModel).
 
 ER entity nodes are added to the [nodes](../api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](../api/diagram#connectors) property.
 
@@ -234,7 +234,7 @@ erEntityChanged: (args) => {
 
 ## Creating ER relationships
 
-Relationships define how one ER entity is connected to another entity. In the Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](../api/diagram/connectorshape#type) property to **Er**.
+Relationships define how one ER entity is connected to another entity. In the JavaScript Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](../api/diagram/connectorshape#type) property to **Er**.
 
 | ER Connector Shape Property | Description |
 |---|---|

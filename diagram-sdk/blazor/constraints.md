@@ -3,7 +3,7 @@ layout: post
 title: Constraints in Blazor Diagram Component | Syncfusion®
 description: Toggle Blazor Diagram Component behaviors for diagrams, nodes, connectors, ports, and selectors using bitwise flag constraints.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

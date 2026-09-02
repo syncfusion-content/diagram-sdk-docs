@@ -3,6 +3,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent, DataBinding, HierarchicalTree, DiagramTools, Inject } from "@syncfusion/ej2-react-diagrams";
 import { DataManager } from '@syncfusion/ej2-data';
+
+let snapSettings = { constraints: 0 };
 let species = [
     { 'Name': 'Species', 'fillColor': '#3DD94A' },
     { 'Name': 'Plants', 'Category': 'Species' },
@@ -93,7 +95,7 @@ function App() {
             connector.targetDecorator.shape = 'None';
         }} 
     //Disables all interactions except zoom/pan
-    tool={DiagramTools.ZoomPan} snapSettings={{ constraints: 0 }}>
+    tool={DiagramTools.ZoomPan} snapSettings={snapSettings}>
       <Inject services={[DataBinding, HierarchicalTree]}/>
     </DiagramComponent>);
 }

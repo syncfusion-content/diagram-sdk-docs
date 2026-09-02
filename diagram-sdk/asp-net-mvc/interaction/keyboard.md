@@ -9,7 +9,7 @@ documentation: ug
 ---
 # Keyboard Interactions in ASP.NET MVC Diagram
 
-Diagram provides support to interact with the elements with key gestures. By default, some in-built commands are bound with a relevant set of key combinations.
+ASP.NET MVC Diagram provides support to interact with the elements with key gestures. By default, some in-built commands are bound with a relevant set of key combinations.
 
 The following table illustrates those commands with the associated key values.
 

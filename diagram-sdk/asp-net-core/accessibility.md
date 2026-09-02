@@ -10,9 +10,9 @@ documentation: ug
 
 # Accessibility in ASP.NET Core Diagram
 
-Diagram provides built-in compliance with the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/) specifications. WAI-ARIA Accessibility supports are achieved through the attributes like `aria-label`. It helps to provide information about elements in a document for assistive technology.
+ASP.NET Core Diagram provides built-in compliance with the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/) specifications. WAI-ARIA Accessibility supports are achieved through the attributes like `aria-label`. It helps to provide information about elements in a document for assistive technology.
 
-The accessibility compliance for the diagram component is outlined below.
+The accessibility compliance for the ASP.NET Core Diagram component is outlined below.
 
 | Accessibility Criteria                                                              | Compatibility                                                                        |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -33,11 +33,11 @@ The accessibility compliance for the diagram component is outlined below.
 
 ## WAI-ARIA attributes
 
-The Diagram component followed the [WAI-ARIA](?) patterns to meet the accessibility. The following ARIA attributes are used in the Diagram component:
+The ASP.NET Core Diagram component followed the [WAI-ARIA](?) patterns to meet the accessibility. The following ARIA attributes are used in the ASP.NET Core Diagram component:
 
 | Attributes | Purpose |
 | --- | --- |
-| `aria-label` | Provides an accessible name for the Diagram Objects. |
+| `aria-label` | Provides an accessible name for the ASP.NET Core Diagram Objects. |
 
 ## Aria-label
 Attribute provides the text label with some default description for below elements in diagram.
@@ -96,19 +96,19 @@ Attribute provides the text label with some default description for below elemen
 
 ### Mobile device support
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Diagram component are more user-friendly and accessible to individuals using mobile devices, including those with disabilities. These are designed to be responsive, adaptable to various screen sizes and orientations, and touch-friendly.
+Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Diagram component are more user-friendly and accessible to individuals using mobile devices, including those with disabilities. These are designed to be responsive, adaptable to various screen sizes and orientations, and touch-friendly.
 
 ### Screen Reader Support
 
-The Diagram component supports and its information was dictated properly by the screen readers based on the ARIA attributes and content.
+The ASP.NET Core Diagram component supports and its information was dictated properly by the screen readers based on the ARIA attributes and content.
 
 ### Keyboard navigation support
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> Diagram component support keyboard navigation, allowing users who rely on alternate methods to effortlessly navigate and interact with the component.
+Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Diagram component support keyboard navigation, allowing users who rely on alternate methods to effortlessly navigate and interact with the component.
 
 ## Keyboard interaction
 
-The Diagram component followed the [keyboard interaction](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation. The following keyboard shortcuts are supported by the Diagram component.
+The ASP.NET Core Diagram component followed the [keyboard interaction](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation. The following keyboard shortcuts are supported by the ASP.NET Core Diagram component.
 
 | **Command** | **Action** |
 | --- | --- |
@@ -129,9 +129,9 @@ The Diagram component followed the [keyboard interaction](https://www.w3.org/WAI
 
 ## Ensuring accessibility
 
-The Diagram component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The ASP.NET Core Diagram component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Diagram component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/diagram.html) in a new window to evaluate the accessibility of the Diagram component with accessibility tools.
+The accessibility compliance of the ASP.NET Core Diagram component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/diagram.html) in a new window to evaluate the accessibility of the ASP.NET Core Diagram component with accessibility tools.
 
 ## See also
 

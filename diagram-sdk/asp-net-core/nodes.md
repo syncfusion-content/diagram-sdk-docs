@@ -304,7 +304,7 @@ There are two types of gradients as follows:
 
 ## Shadow
 
-Diagram provides support to add [`shadow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Shadow) effect to a node that is disabled, by default. It can be enabled with the constraints property of the node.
+ASP.NET Core Diagram provides support to add [`shadow`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNode.html#Syncfusion_EJ2_Diagrams_DiagramNode_Shadow) effect to a node that is disabled, by default. It can be enabled with the constraints property of the node.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -352,7 +352,7 @@ The angle, distance, and opacity of the shadow can be customized with the shadow
 
 ## Icon
 
-Diagram provides support to describe the state of the node. i.e., the node is expanded or collapsed state.
+ASP.NET Core Diagram provides support to describe the state of the node. i.e., the node is expanded or collapsed state.
 
 N> Icon can be created only when the node has outEdges.
 
@@ -402,7 +402,7 @@ N> Icon can be created only when the node has outEdges.
 
 ## Interaction
 
-Diagram provides support to drag, resize, or rotate the node interactively. For more information about editing a node at runtime, refer to Edit Nodes.
+ASP.NET Core Diagram provides support to drag, resize, or rotate the node interactively. For more information about editing a node at runtime, refer to Edit Nodes.
 
 ## Constraints
 

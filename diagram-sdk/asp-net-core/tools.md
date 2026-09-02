@@ -141,7 +141,7 @@ function Created() {
 
 ## Text
 
-Diagram allows to create a textNode, when you click on the diagram page.
+ASP.NET Core Diagram allows to create a textNode, when you click on the diagram page.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -184,7 +184,7 @@ Once you activate the TextTool, perform label editing of a node/connector.
 
 ## Polygon shape
 
-Diagram allows to create the polygon shape by clicking and moving the mouse at runtime on the diagram page.
+ASP.NET Core Diagram allows to create the polygon shape by clicking and moving the mouse at runtime on the diagram page.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -224,7 +224,7 @@ function Created() {
 
 ## Polyline Connector
 
-Diagram allows to create the polyline segments with straight lines and angled vertices at the control points by clicking and moving the mouse at runtime on the diagram page.
+ASP.NET Core Diagram allows to create the polyline segments with straight lines and angled vertices at the control points by clicking and moving the mouse at runtime on the diagram page.
 
 {% if page.publishingplatform == "aspnet-core" %}
 

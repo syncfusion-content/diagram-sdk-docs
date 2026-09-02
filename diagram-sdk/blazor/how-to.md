@@ -902,7 +902,7 @@ The [Scale](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDi
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/ScaleMethod.razor)
 
 ## How to Get and Customize Cursor Style
-The [GetCustomCursor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_GetCustomCursor) method create and customize own cursor. Define the cursor style according to your specific requirements, enhancing user interaction with the diagram component.
+The [GetCustomCursor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_GetCustomCursor) method create and customize own cursor. Define the cursor style according to your specific requirements, enhancing user interaction with the Blazor Diagram Component.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -1244,7 +1244,7 @@ The [Clone](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDi
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Methods/CloneMethod.razor)
 
 ## How to Get Custom Tool
-The [GetCustomTool](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_GetCustomTool) method enables users to create and implement custom tools, extending the functionality of the diagram component. This powerful feature allows for tailored interactions and specialized behaviors within the diagram.
+The [GetCustomTool](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_GetCustomTool) method enables users to create and implement custom tools, extending the functionality of the Blazor Diagram Component. This powerful feature allows for tailored interactions and specialized behaviors within the diagram.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram

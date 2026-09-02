@@ -51,7 +51,7 @@ The [`dataLoaded`](../api/diagram/iDataLoadedEventArgs) event is triggered when 
 
 ## Created event
 
-The [`created`](../api/diagram#created) event is triggered when the diagram component is rendered. You can perform any action in the created event such as selecting any object in the diagram or customizing the nodes/connector.
+The [`created`](../api/diagram#created) event is triggered when the JavaScript Diagram component is rendered. You can perform any action in the created event such as selecting any object in the diagram or customizing the nodes/connector.
 
 The following example shows the order of these event triggers and how to handle these events in a diagram.
 

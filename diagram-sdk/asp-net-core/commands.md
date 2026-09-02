@@ -633,7 +633,7 @@ diagram.fitToPage({
 
 ## Command manager
 
-Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
+ASP.NET Core Diagram provides support to map or bind command execution with desired combination of key gestures. ASP.NET Core Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
 
 ## Custom command
 

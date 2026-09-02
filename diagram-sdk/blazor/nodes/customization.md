@@ -3,7 +3,7 @@ layout: post
 title: Customization in Blazor Diagram Component | Syncfusion®
 description: Customize Blazor Diagram Component node fill, stroke, gradient, shadow, and visibility to match your application's visual style.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

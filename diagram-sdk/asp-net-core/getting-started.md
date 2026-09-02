@@ -144,7 +144,7 @@ Add the [ASP.NET Core Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-cor
 {% endhighlight %}
 {% endtabs %}
 
-N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
+N> The ASP.NET Core Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
 ## Step 7: Create your first Diagram with nodes and connectors
 

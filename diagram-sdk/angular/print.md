@@ -24,7 +24,7 @@ this.options = {
 diagram.print(this.options);
 ```
 
-N> To print diagrams, inject the `PrintAndExport` service into the diagram component using `Diagram.Inject(PrintAndExport)`.
+N> To print diagrams, inject the `PrintAndExport` service into the Angular Diagram component using `Diagram.Inject(PrintAndExport)`.
 
 ## Print Options
 

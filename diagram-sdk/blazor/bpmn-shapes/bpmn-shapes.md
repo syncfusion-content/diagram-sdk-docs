@@ -3,7 +3,7 @@ layout: post
 title: BPMN Shapes in Blazor Diagram Component | Syncfusion®
 description: Use built-in Blazor Diagram Component BPMN shapes including events, gateways, activities, data objects, and text annotations.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

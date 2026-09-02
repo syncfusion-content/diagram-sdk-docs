@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Node Interaction in JavaScript Diagram
 
-The diagram provides support for selecting, dragging, resizing, and rotating nodes interactively. A node can be selected by simply clicking on it, dragged by dragging it on diagram canvas, resized using the resize handle, and rotated using the rotate handle. Additionally, interactions can be performed using some public methods, which are explained below:
+The JavaScript Diagram provides support for selecting, dragging, resizing, and rotating nodes interactively. A node can be selected by simply clicking on it, dragged by dragging it on diagram canvas, resized using the resize handle, and rotated using the rotate handle. Additionally, interactions can be performed using some public methods, which are explained below:
 
 ## Select
 
@@ -106,7 +106,7 @@ A node can be rotated at runtime by using the [`rotate`](../../api/diagram#rotat
 
 ## Flip
 
-The diagram Provides support to flip the node. [`flip`](../../api/diagram/node#flip) is performed to give the mirrored image of the original element.
+The JavaScript Diagram provides support to flip the node. [`flip`](../../api/diagram/node#flip) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 

@@ -63,7 +63,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Nodes at Runtime
 
-A node can be added at runtime by adding it to the `Nodes` collection of the Diagram component. The following code explains how to add a node at runtime.
+A node can be added at runtime by adding it to the `Nodes` collection of the Blazor Diagram Component. The following code explains how to add a node at runtime.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -119,7 +119,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add a Node with Annotations at Runtime
 
-A node with an annotation can be added at runtime in the diagram component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
+A node with an annotation can be added at runtime in the Blazor Diagram Component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
 
 The following code explains how to add a node with an annotation at runtime by using the `AddDiagramElementsAsync` method.
 

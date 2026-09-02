@@ -536,7 +536,7 @@ The following code illustrates how to execute the `bringIntoView` command.
 ```javascript
 
 var diagram = document.getElementById("container").ej2_instances[0];
-//Brings the specified rectangular region of the Diagram content to the viewport of the page.
+//Brings the specified rectangular region of the ASP.NET MVC Diagram content to the viewport of the page.
 var bound = new Rect(200, 400, 500, 400);
 diagram.bringIntoView(bound);
 ```
@@ -633,7 +633,7 @@ diagram.fitToPage({
 
 ## Command manager
 
-Diagram provides support to map or bind command execution with desired combination of key gestures. Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
+Diagram provides support to map or bind command execution with desired combination of key gestures. ASP.NET MVC Diagram provides some built-in commands. [`CommandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanager) provides support to define custom commands. The custom commands are executed, when the specified key gesture is recognized.
 
 ## Custom command
 

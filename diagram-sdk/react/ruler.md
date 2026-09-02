@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Ruler in React Diagram
 
-The ruler provides horizontal and vertical guides for measuring in the diagram control. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful for creating scale models. The ruler also includes a position indicator that displays the precise location of the mouse cursor on the diagram canvas, with the default color of the position indicator marker being red.
+The ruler provides horizontal and vertical guides for measuring in the React Diagram control. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful for creating scale models. The ruler also includes a position indicator that displays the precise location of the mouse cursor on the diagram canvas, with the default color of the position indicator marker being red.
 
 The diagram ruler consists of two components: a horizontal ruler displayed along the top edge and a vertical ruler along the left edge of the diagram canvas. Both rulers work together to provide comprehensive positioning and measurement capabilities.
 
@@ -34,7 +34,7 @@ The following code shows how to add a ruler to the diagram.
 
 ## Customizing the Ruler
 
-The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` customize the rulers appearance in the diagram.
+The [`horizontalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#horizontalruler) and [`verticalRuler`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#verticalruler) properties of `rulerSettings` customize the ruler's appearance in the diagram.
 
 By default, the ruler segments are arranged based on pixel values, with each segment representing a unit of measurement on the diagram canvas.
 
@@ -45,7 +45,7 @@ These properties apply to both horizontal and vertical rulers.
 
 ### Tick Alignment
 
-The [`tickAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#tickalignment) property controls the positioning of ruler tick marks. For the horizontal ruler, ticks can be aligned to the left or right side, while for the vertical ruler, they can be aligned to the top or bottom.
+The [`tickAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#tickalignment) property controls the positioning of ruler tick marks. Valid values are `LeftOrTop` and `RightOrBottom`. For the horizontal ruler, ticks can be aligned to the left or right side, while for the vertical ruler, they can be aligned to the top or bottom.
 
 ### Ruler Thickness
 
@@ -63,7 +63,6 @@ The following code shows how the diagram ruler can be customized.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs1" %}
-
 
 ### Arrange Tick
 
@@ -84,6 +83,12 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 ### Marker Color
 
-The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor)property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
+The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramRuler#markercolor) property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.
 
-N>  The MarkerColor property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
+N> The `markerColor` property can be customized using the [`marker`](./style#customizing-the-ruler) CSS style.
+
+## See also
+
+* [Grid lines](./grid-lines)
+* [Page settings](./page-settings)
+* [Scroll settings](./scroll-settings)

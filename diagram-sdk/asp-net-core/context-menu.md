@@ -13,11 +13,11 @@ documentation: ug
 
 <!-- markdownlint-disable MD010 -->
 
-In graphical user interface (GUI), a context menu is a type of menu that appears when you perform right-click operation. Nested level of context menu items can be created. Diagram provides some in-built context menu items and allows to define custom menu items through the [`contextMenuSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) property.
+In graphical user interface (GUI), a context menu is a type of menu that appears when you perform right-click operation. Nested level of context menu items can be created. ASP.NET Core Diagram provides some in-built context menu items and allows to define custom menu items through the [`contextMenuSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html) property.
 
 ## Customize context menu
 
-The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Show) property helps to enable or disable the context menu. Diagram provides some default context menu items to ease the execution of some frequently used commands.
+The [`show`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramContextMenuSettings.html#Syncfusion_EJ2_Diagrams_DiagramContextMenuSettings_Show) property helps to enable or disable the context menu. ASP.NET Core Diagram provides some default context menu items to ease the execution of some frequently used commands.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -81,7 +81,7 @@ To display the custom context menu items alone, set the `showCustomMenuOnly` pro
 
 ## Template Support for Context menu
 
-* Diagram provides template support for context menu. The context menu items can be customized by using the `contextMenuBeforeItemRender` event. The contextMenuBeforeItemRender event triggers while rendering each menu item.
+* ASP.NET Core Diagram provides template support for context menu. The context menu items can be customized by using the `contextMenuBeforeItemRender` event. The contextMenuBeforeItemRender event triggers while rendering each menu item.
 
 * In the following sample, the menu item is rendered with key code for specified action in ContextMenu using the template. Here, the key code is specified for the cut and copy at right corner of the menu items by adding a span element in the `contextMenuBeforeItemRender` event.
 

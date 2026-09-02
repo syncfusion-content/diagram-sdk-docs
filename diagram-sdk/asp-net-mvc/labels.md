@@ -334,7 +334,7 @@ The [`textAlign`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.D
 
 ## Hyperlink
 
-Diagram provides a support to add a [`hyperlink`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Hyperlink) for the nodes/connectors annotation. It can also be customized.
+ASP.NET MVC Diagram provides a support to add a [`hyperlink`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Hyperlink) for the nodes/connectors annotation. It can also be customized.
 
 A user can open the hyperlink in the new window, the same tab and the new tab by using the [`hyperlinkOpenState`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Hyperlink_HyperlinkOpenState) property.
 
@@ -365,7 +365,7 @@ A user can open the hyperlink in the new window, the same tab and the new tab by
 
 ## Template Support for Annotation
 
-Diagram provides template support for annotation. You should define a SVG/HTML content as string in the annotation's [`template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Template) property.
+ASP.NET MVC Diagram provides template support for annotation. You should define a SVG/HTML content as string in the annotation's [`template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotation.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotation_Template) property.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -518,7 +518,7 @@ The fill, border, and opacity appearances of the text can also be customized wit
 
 ## Interaction
 
-Diagram allows annotation to be interacted by selecting, dragging, rotating, and resizing. Annotation interaction is disabled, by default. You can enable annotation interaction with the [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html) property of annotation. You can also curtail the services of interaction by enabling either selecting, dragging, rotating, or resizing individually with the respective constraints property of annotation.
+ASP.NET MVC Diagram allows annotation to be interacted by selecting, dragging, rotating, and resizing. Annotation interaction is disabled, by default. You can enable annotation interaction with the [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html) property of annotation. You can also curtail the services of interaction by enabling either selecting, dragging, rotating, or resizing individually with the respective constraints property of annotation.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -547,7 +547,7 @@ Diagram allows annotation to be interacted by selecting, dragging, rotating, and
 
 ## Edit
 
-Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
+ASP.NET MVC Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
 
 * Programmatically - By using [`startTextEdit`](../api/diagram/#startTextEdit) method, edit the text through programmatically.
 
@@ -559,7 +559,7 @@ Double-clicking any annotation will enable editing and the node enables first an
 
 ## Read-only annotations
 
-Diagram allows to create read-only annotations. You have to set the read-only property of annotation to enable/disable the read-only [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
+ASP.NET MVC Diagram allows to create read-only annotations. You have to set the read-only property of annotation to enable/disable the read-only [`constraints`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.AnnotationConstraints.html).
 
 {% if page.publishingplatform == "aspnet-core" %}
 
@@ -588,7 +588,7 @@ Diagram allows to create read-only annotations. You have to set the read-only pr
 
 ## Drag Limit
 
-* The diagram control now supports defining the [`dragLimit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotationBuilder.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotationBuilder_DragLimit_Syncfusion_EJ2_Diagrams_DiagramMargin_) to the label while dragging from the connector and also update the position to the nearest segment offset.
+* The ASP.NET MVC Diagram control now supports defining the [`dragLimit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramNodeAnnotationBuilder.html#Syncfusion_EJ2_Diagrams_DiagramNodeAnnotationBuilder_DragLimit_Syncfusion_EJ2_Diagrams_DiagramMargin_) to the label while dragging from the connector and also update the position to the nearest segment offset.
 
 * You can set the value to dragLimit [`left`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Left), [`right`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Right), [`top`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Top), and [`bottom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramMargin.html#Syncfusion_EJ2_Diagrams_DiagramMargin_Bottom) properties which allows the dragging of connector labels to a certain limit based on the user defined values.
 

@@ -147,7 +147,7 @@ In the example below, multiple user handles are utilized for various functionali
 
 ## Different types of user handle
 
-Diagram provides support to render different types of user handles:
+Vue Diagram provides support to render different types of user handles:
 
 * `Source`: Renders an image as a user handle using an image source.
 * `Content`: Renders a user handle using SVG content.

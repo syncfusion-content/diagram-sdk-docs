@@ -3,7 +3,7 @@ layout: post
 title: Phase in Blazor Diagram Component | Syncfusion®
 description: Divide swimlane lanes into sequential phases in the Blazor Diagram Component to represent process stages along a timeline.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

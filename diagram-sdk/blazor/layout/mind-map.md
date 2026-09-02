@@ -3,7 +3,7 @@ layout: post
 title: Mind Map Layout in Blazor Diagram Component | Syncfusion®
 description: Visualize ideas around a central concept in the Blazor Diagram Component with an auto-arranged mind map layout of branched nodes.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

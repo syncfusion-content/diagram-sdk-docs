@@ -222,7 +222,7 @@ The following image illustrates children interaction in lanes.
   
 #### Lane Header Editing
 
-The diagram provides support to edit lane headers at runtime. Header editing is achieved by double-click events. Double-clicking the header label will enable the editing of that header.
+The React Diagram provides support to edit lane headers at runtime. Header editing is achieved by double-click events. Double-clicking the header label will enable the editing of that header.
 
 The following image illustrates how to edit the lane header.
 ![Lane Header Editing](images/lane-header-edit.gif)

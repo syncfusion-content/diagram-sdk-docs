@@ -25,7 +25,7 @@ The main files used in this guide are:
 
 - `~/Views/Web.config` — Registers the Syncfusion<sup style="font-size:70%">&reg;</sup> namespace for HTML helpers.
 - `~/Views/Shared/_Layout.cshtml` — Contains shared layout, style, and script references.
-- `~/Views/Home/Index.cshtml` — Hosts the Diagram control.
+- `~/Views/Home/Index.cshtml` — Hosts the ASP.NET MVC Diagram control.
 - `~/Controllers/HomeController.cs` — Defines the nodes and connectors data passed to the view.
 
 ## Step 1: Create an ASP.NET MVC application
@@ -92,7 +92,7 @@ Add the `@Html.EJS().ScriptManager()` at the end of `<body>` in the **~/Views/Sh
 </body>
 ```
 
-## Step 6: Add the Diagram control
+## Step 6: Add the ASP.NET MVC Diagram control
 
 Add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Diagram control in the **~/Views/Home/Index.cshtml** file using the `@Html.EJS().Diagram()` HTML helper.
 
@@ -102,7 +102,7 @@ Add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Diagram con
 
 This renders an empty diagram in the application.
 
-N> The Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
+N> The ASP.NET MVC Diagram control must have a valid height. If the height is not set, the Diagram canvas may not be visible.
 
 ## Step 7: Create your first Diagram with nodes and connectors
 

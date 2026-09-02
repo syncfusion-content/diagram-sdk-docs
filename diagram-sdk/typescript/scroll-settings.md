@@ -21,7 +21,7 @@ These properties enable you to read and adjust the scroll status, scroll offset,
 
 ## Define scroll offset
 
-The diagram allows you to pan before loading, ensuring that any desired region of a large diagram is visible. You can programmatically pan the diagram using the [`horizontalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically pan the diagram upon initialization also defined `scrollLimit` as **Infinity** to scroll infinitely in diagram. To learn more about scroll limit refer to [`scrollLimit`](#scroll-limit).
+The TypeScript Diagram allows you to pan before loading, ensuring that any desired region of a large diagram is visible. You can programmatically pan the diagram using the [`horizontalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#horizontaloffset) and [`verticalOffset`](https://ej2.syncfusion.com/documentation/api/diagram/scrollSettingsModel#verticaloffset) properties of the scroll settings. The following code illustrates how to programmatically pan the diagram upon initialization also defined `scrollLimit` as **Infinity** to scroll infinitely in diagram. To learn more about scroll limit refer to [`scrollLimit`](#scroll-limit).
 
 In the example below, the vertical scrollbar is scrolled down by 100 px, and the horizontal scrollbar is scrolled to the right by 100 px.
 
@@ -152,7 +152,7 @@ N> To use auto scroll the `scrollLimit` should be set as **Infinity**.
 
 ### Controlling Autoscroll Speed
 
-You can control how often the scrolling needs to be performed automatically in the Diagram component during the auto-scrolling behavior. You can now adjust the frequency, ranging from slow and smooth to quick and rapid, to suit their preferences. To configure, set the value in milliseconds to the [`autoScrollFrequency`](https://ej2.syncfusion.com/documentation/api/diagram/scrollsettingsmodel#autoscrollfrequency) property within the scrollSettings class, allowing precise control over how often auto-scrolling occurs. 
+You can control how often the scrolling needs to be performed automatically in the TypeScript Diagram component during the auto-scrolling behavior. You can now adjust the frequency, ranging from slow and smooth to quick and rapid, to suit their preferences. To configure, set the value in milliseconds to the [`autoScrollFrequency`](https://ej2.syncfusion.com/documentation/api/diagram/scrollsettingsmodel#autoscrollfrequency) property within the scrollSettings class, allowing precise control over how often auto-scrolling occurs. 
 
 ![AutoscrollFrequency GIF](images/AutoscrollFrequency.gif)
 

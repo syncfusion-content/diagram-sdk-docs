@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Entity Relationship Diagram in Vue Diagram
 
-An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel).
+An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Vue Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel).
 
 Entity nodes are added to the [nodes](https://ej2.syncfusion.com/vue/documentation/api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/vue/documentation/api/diagram#connectors) property.
 
@@ -164,7 +164,7 @@ erEntityChanged: (args) => {
 
 ## Creating ER relationships
 
-Relationships define how one ER entity is connected to another entity. In the Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorshape#type) property to **Er**.
+Relationships define how one ER entity is connected to another entity. In the Vue Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorshape#type) property to **Er**.
 
 | ER Connector Shape Property | Description |
 |---|---|

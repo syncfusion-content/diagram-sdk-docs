@@ -3,7 +3,7 @@ layout: post
 title: User Handle in Blazor Diagram Component | Syncfusion®
 description: Add custom Blazor Diagram Component user handles to clone, delete, or link nodes and run custom actions on the selected element.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -387,7 +387,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ### How to change the size of the user handle
 
-The Diagram component supports customizing user handle dimensions through the [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UserHandle.html#Syncfusion_Blazor_Diagram_UserHandle_Size) property. This sets the width and height of user handles in pixels. If not explicitly set, the `Size` property defaults to **25 pixels**, providing a standard visual representation. Adjusting this value lets create user handles that are appropriately sized for the specific diagram requirements.
+The Blazor Diagram component supports customizing user handle dimensions through the [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.UserHandle.html#Syncfusion_Blazor_Diagram_UserHandle_Size) property. This sets the width and height of user handles in pixels. If not explicitly set, the `Size` property defaults to **25 pixels**, providing a standard visual representation. Adjusting this value lets create user handles that are appropriately sized for the specific diagram requirements.
 
 ### How to Style User Handles
 
@@ -1343,7 +1343,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Handle Fixed User Handle Events
 
-The Diagram control provides the following event for fixed user handle.
+The Blazor Diagram Component provides the following event for fixed user handle.
 
 | Event Name | Event Type | Description |
 | -------- | -------- | -------- |

@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Blazor Diagram in Blazor MAUI App | Syncfusion®
 description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor MAUI App.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 
@@ -134,7 +134,7 @@ N> Check out the [Blazor Themes](https://blazor.syncfusion.com/documentation/app
 
 ## Add Blazor Diagram component
 
-Add the Diagram component in the **~/Components/Pages/Home.razor** file (the default location in .NET 8+ MAUI Blazor Hybrid templates; older templates may use **~/Pages/Home.razor**).
+Add the Blazor Diagram Component in the **~/Components/Pages/Home.razor** file (the default location in .NET 8+ MAUI Blazor Hybrid templates; older templates may use **~/Pages/Home.razor**).
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -273,9 +273,9 @@ Run the sample in Windows Machine mode, and it will run Blazor MAUI in Windows.
 
 ![Visual Studio debug target dropdown showing the Windows Machine option selected for the Blazor MAUI app](images/blazor-diagram-maui.webp)
 
-When the application is successfully launched, the Diagram component will seamlessly render the specified diagram page.
+When the application is successfully launched, the Blazor Diagram Component will seamlessly render the specified diagram page.
 
-![Blazor MAUI app running on Windows showing the rendered Syncfusion Diagram component with a flowchart of nodes and connectors](images/blazor-diagram-maui-page.webp)
+![Blazor MAUI app running on Windows showing the rendered Syncfusion Blazor Diagram Component with a flowchart of nodes and connectors](images/blazor-diagram-maui-page.webp)
 
 ## How to run the sample on Android
 
@@ -287,8 +287,8 @@ Refer to [the Android device manager guide](https://learn.microsoft.com/en-us/do
 
 N> If encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
 
-![Blazor MAUI app running on an Android emulator showing the rendered Syncfusion Diagram component with a flowchart of nodes and connectors](images/blazor-diagram-maui-android-page.webp)
+![Blazor MAUI app running on an Android emulator showing the rendered Syncfusion Blazor Diagram Component with a flowchart of nodes and connectors](images/blazor-diagram-maui-android-page.webp)
 
 ## See also
 
-* [How to Create a Diagram Builder in a .NET MAUI App](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform) — Build an interactive, end-user diagram editor on top of the Syncfusion Diagram component in a .NET MAUI app.
+* [How to Create a Diagram Builder in a .NET MAUI App](https://support.syncfusion.com/kb/article/11346/how-to-create-diagram-builder-in-maui-platform) — Build an interactive, end-user diagram editor on top of the Syncfusion Blazor Diagram Component in a .NET MAUI app.

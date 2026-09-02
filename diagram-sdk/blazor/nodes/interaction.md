@@ -3,7 +3,7 @@ layout: post
 title: Node Interaction in Blazor Diagram Component | Syncfusion®
 description: Select, drag, resize, and rotate Blazor Diagram Component nodes interactively with full programmatic control via APIs and events.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

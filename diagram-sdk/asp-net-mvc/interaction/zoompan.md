@@ -17,7 +17,7 @@ documentation: ug
 
 ## Zoom pan status
 
-Diagram provides the support to notify the pan status of the zoom pan tool. Whenever the diagram is panning the [`scrollChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange), event is triggered and hence the pan status can be obtained. The pan status is notified with Start, Progress, and Completed.
+ASP.NET MVC Diagram provides the support to notify the pan status of the zoom pan tool. Whenever the diagram is panning the [`scrollChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html#Syncfusion_EJ2_Diagrams_Diagram_ScrollChange), event is triggered and hence the pan status can be obtained. The pan status is notified with Start, Progress, and Completed.
 
 |  Pan Status  | Description|
 |--------------|------------|

@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # EJ1 Migration in TypeScript Diagram
 
-This article describes the API migration process of Diagram component from Essential® JS 1 to Essential® JS 2.
+This article describes the API migration process of TypeScript Diagram component from Essential® JS 1 to Essential® JS 2.
 
 ## Background
 

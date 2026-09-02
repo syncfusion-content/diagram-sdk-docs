@@ -3,7 +3,7 @@ layout: post
 title: Organizational Chart in Blazor Diagram Component | Syncfusion®
 description: Build a Blazor Diagram Component organizational chart to visualize reporting structures, roles, and departmental relationships.
 platform: diagram-sdk
-control: Diagram Component
+control: Blazor Diagram Component
 documentation: ug
 ---
 

@@ -298,7 +298,7 @@ import {
     DiagramComponent,
 } from "@syncfusion/ej2-react-diagrams";
 let diagramInstance: DiagramComponent;
-//Initializes the Diagram component
+//Initializes the React Diagram component
 function App() {
   return (
     <DiagramComponent
@@ -436,7 +436,7 @@ The following code illustrates how to execute `FitToPage` command.
 
 ## Command Manager
 
-The Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`CommandManager`](https://ej2.syncfusion.com/react/documentation/api/diagram/commandManager#commandManager) Custom commands are executed when the specified key gesture is recognized.
+The React Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`CommandManager`](https://ej2.syncfusion.com/react/documentation/api/diagram/commandManager#commandManager) Custom commands are executed when the specified key gesture is recognized.
 
 ## Custom Command
 

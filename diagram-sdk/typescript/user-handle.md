@@ -107,7 +107,7 @@ The following table shows all the possible alignments of user handle around the 
 
 ## User handle tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/documentation/api/diagram/diagramtooltipmodel) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
+The TypeScript Diagram provides support to show a tooltip when the mouse hovers over any user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/documentation/api/diagram/diagramtooltipmodel) property of the user handle with the tooltip [`content`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
 
 
 
@@ -374,7 +374,7 @@ The following code explains how to customize the alignment of connector fixed us
 
 ### Fixed user handle tooltip
 
-The diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/documentation/api/diagram/diagramtooltipmodel) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
+The TypeScript Diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/documentation/api/diagram/diagramtooltipmodel) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
 
 
 
