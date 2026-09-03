@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dragging in WPF SfDiagram | Syncfusion®
-description: Drag diagram elements in Syncfusion® WPF SfDiagram with drag limits, drop support, indicator customization, and interaction events.
+title: Dragging in WPF Diagram | Syncfusion®
+description: Drag diagram elements in Syncfusion® WPF Diagram with drag limits, drop support, indicator customization, and interaction events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

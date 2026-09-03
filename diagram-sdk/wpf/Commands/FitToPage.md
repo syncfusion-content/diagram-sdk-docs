@@ -1,7 +1,7 @@
 ---
 layout: post
-title: FitToPage Command in WPF SfDiagram | Syncfusion®
-description: Fit diagram content within the view in Syncfusion® WPF SfDiagram using FitToPage commands and customizable fitting parameters.
+title: FitToPage Command in WPF Diagram | Syncfusion®
+description: Fit diagram content within the view in Syncfusion® WPF Diagram using FitToPage commands and customizable fitting parameters.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

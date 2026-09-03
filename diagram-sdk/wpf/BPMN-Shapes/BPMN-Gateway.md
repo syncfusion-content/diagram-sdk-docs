@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gateway in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN gateways in Syncfusion® WPF SfDiagram control, including exclusive, parallel, inclusive, event-based, and complex gateways.
+title: Gateway in WPF Diagram | Syncfusion®
+description: Learn about BPMN gateways in Syncfusion® WPF Diagram control, including exclusive, parallel, inclusive, event-based, and complex gateways.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

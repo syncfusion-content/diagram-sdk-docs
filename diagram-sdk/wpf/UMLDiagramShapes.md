@@ -1,7 +1,7 @@
 ---
 layout: post
-title: UML Diagrams in WPF SfDiagram | Syncfusion®
-description: Learn about UML diagram shapes in Syncfusion® WPF SfDiagram control, including activity, use case, state, and relationship diagram elements.
+title: UML Diagrams in WPF Diagram | Syncfusion®
+description: Learn about UML diagram shapes in Syncfusion® WPF Diagram control, including activity, use case, state, and relationship diagram elements.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

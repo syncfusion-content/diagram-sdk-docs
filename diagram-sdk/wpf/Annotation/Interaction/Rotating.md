@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation Rotation in WPF SfDiagram | Syncfusion®
-description: Learn about annotation rotation in Syncfusion® WPF SfDiagram control, including rotating annotations, rotation constraints, and rotation reference settings.
+title: Annotation Rotation in WPF Diagram | Syncfusion®
+description: Learn about annotation rotation in Syncfusion® WPF Diagram control, including rotating annotations, rotation constraints, and rotation reference settings.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation Dragging in WPF SfDiagram | Syncfusion®
-description: Learn about annotation dragging in Syncfusion® WPF SfDiagram control, including draggable annotations, nudging, drag limits, and interaction settings.
+title: Annotation Dragging in WPF Diagram | Syncfusion®
+description: Learn about annotation dragging in Syncfusion® WPF Diagram control, including draggable annotations, nudging, drag limits, and interaction settings.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

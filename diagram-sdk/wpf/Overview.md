@@ -1,7 +1,7 @@
 ---
 layout: post
-title: About WPF SfDiagram Control | Syncfusion®
-description: Learn about the introduction of Syncfusion® Essential Studio WPF SfDiagram control, its features, diagram elements, layouts, interactions, and more.
+title: About WPF Diagram Control | Syncfusion®
+description: Learn about the introduction of Syncfusion® Essential Studio WPF Diagram control, its features, diagram elements, layouts, interactions, and more.
 
 platform: diagram-sdk
 control: SfDiagram

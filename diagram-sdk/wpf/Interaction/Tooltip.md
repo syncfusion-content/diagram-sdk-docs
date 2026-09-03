@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in WPF SfDiagram | Syncfusion®
-description: Display informative tooltips in Syncfusion® WPF SfDiagram to show position, size, and rotation details during element interactions.
+title: Tooltip in WPF Diagram | Syncfusion®
+description: Display informative tooltips in Syncfusion® WPF Diagram to show position, size, and rotation details during element interactions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

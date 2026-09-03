@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orthogonal Segments in WPF SfDiagram | Syncfusion®
-description: Learn about orthogonal connector segments in Syncfusion® WPF SfDiagram control, including creation, editing, customization, and routing.
+title: Orthogonal Segments in WPF Diagram | Syncfusion®
+description: Learn about orthogonal connector segments in Syncfusion® WPF Diagram control, including creation, editing, customization, and routing.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

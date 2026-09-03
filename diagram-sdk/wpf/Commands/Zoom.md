@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Zoom Command in WPF SfDiagram | Syncfusion®
-description: Perform zooming, panning, scrolling, and reset operations in Syncfusion® WPF SfDiagram using customizable zoom commands.
+title: Zoom Command in WPF Diagram | Syncfusion®
+description: Perform zooming, panning, scrolling, and reset operations in Syncfusion® WPF Diagram using customizable zoom commands.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Duplicate Nodes and Connectors in WPF SfDiagram | Syncfusion®
-description: Duplicate nodes, connectors, and groups in Syncfusion® WPF SfDiagram by dragging selected elements while holding the Ctrl key.
+title: Duplicate Nodes and Connectors in WPF Diagram | Syncfusion®
+description: Duplicate nodes, connectors, and groups in Syncfusion® WPF Diagram by dragging selected elements while holding the Ctrl key.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

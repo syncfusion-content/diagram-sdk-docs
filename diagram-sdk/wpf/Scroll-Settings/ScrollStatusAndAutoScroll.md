@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Scroll Settings in WPF SfDiagram | Syncfusion®
-description: Manage scrolling in Syncfusion® WPF SfDiagram with scroll status tracking, viewport updates, autoscroll behavior, and border customization.
+title: Scroll Settings in WPF Diagram | Syncfusion®
+description: Manage scrolling in Syncfusion® WPF Diagram with scroll status tracking, viewport updates, autoscroll behavior, and border customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

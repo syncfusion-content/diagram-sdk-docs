@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Snapping in WPF SfDiagram | Syncfusion®
-description: Learn about snapping in Syncfusion® WPF SfDiagram, including snap-to-objects, snap-to-lines, dock port snapping, and indicator customization.
+title: Snapping in WPF Diagram | Syncfusion®
+description: Learn about snapping in Syncfusion® WPF Diagram, including snap-to-objects, snap-to-lines, dock port snapping, and indicator customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

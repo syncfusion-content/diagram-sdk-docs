@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation Selection and Resizing in WPF SfDiagram | Syncfusion®
-description: Learn about annotation selection and resizing in Syncfusion® WPF SfDiagram control, including constraints, interaction, and annotation events.
+title: Annotation Selection and Resizing in WPF Diagram | Syncfusion®
+description: Learn about annotation selection and resizing in Syncfusion® WPF Diagram control, including constraints, interaction, and annotation events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

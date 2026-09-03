@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gridlines in WPF SfDiagram | Syncfusion®
-description: Learn about gridlines in Syncfusion® WPF SfDiagram control, including grid visibility, styling, spacing customization, and static gridline behavior.
+title: Gridlines in WPF Diagram | Syncfusion®
+description: Learn about gridlines in Syncfusion® WPF Diagram control, including grid visibility, styling, spacing customization, and static gridline behavior.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

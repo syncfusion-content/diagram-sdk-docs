@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spacing Commands in WPF SfDiagram | Syncfusion®
-description: Arrange selected diagram elements in Syncfusion® WPF SfDiagram with equal horizontal and vertical spacing using spacing commands.
+title: Spacing Commands in WPF Diagram | Syncfusion®
+description: Arrange selected diagram elements in Syncfusion® WPF Diagram with equal horizontal and vertical spacing using spacing commands.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Z-Order Commands in WPF SfDiagram | Syncfusion®
-description: Arrange diagram elements in Syncfusion® WPF SfDiagram using Z-order commands to bring items forward or send them backward.
+title: Z-Order Commands in WPF Diagram | Syncfusion®
+description: Arrange diagram elements in Syncfusion® WPF Diagram using Z-order commands to bring items forward or send them backward.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

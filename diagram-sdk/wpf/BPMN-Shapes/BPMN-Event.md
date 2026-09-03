@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Event in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN events in Syncfusion® WPF SfDiagram control, including event types, event triggers, start events, intermediate events, and end events.
+title: Event in WPF Diagram | Syncfusion®
+description: Learn about BPMN events in Syncfusion® WPF Diagram control, including event types, event triggers, start events, intermediate events, and end events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

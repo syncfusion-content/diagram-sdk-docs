@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtualization in WPF SfDiagram | Syncfusion®
-description: Improve performance in Syncfusion® WPF SfDiagram by loading only visible elements and enabling deferred scrolling with virtualization.
+title: Virtualization in WPF Diagram | Syncfusion®
+description: Improve performance in Syncfusion® WPF Diagram by loading only visible elements and enabling deferred scrolling with virtualization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

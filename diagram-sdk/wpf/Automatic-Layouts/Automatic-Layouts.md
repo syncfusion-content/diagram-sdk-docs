@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automatic Layout in WPF SfDiagram | Syncfusion®
-description: Automatically arrange diagram elements in Syncfusion® WPF SfDiagram using built-in layout algorithms, spacing, orientation, and layout updates.
+title: Automatic Layout in WPF Diagram | Syncfusion®
+description: Automatically arrange diagram elements in Syncfusion® WPF Diagram using built-in layout algorithms, spacing, orientation, and layout updates.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

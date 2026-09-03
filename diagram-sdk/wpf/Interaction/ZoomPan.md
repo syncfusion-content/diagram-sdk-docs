@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Zoom Pan in WPF SfDiagram | Syncfusion®
-description: Navigate large diagrams in Syncfusion® WPF SfDiagram with zooming, panning, IntelliMouse support, and viewport exploration features.
+title: Zoom Pan in WPF Diagram | Syncfusion®
+description: Navigate large diagrams in Syncfusion® WPF Diagram with zooming, panning, IntelliMouse support, and viewport exploration features.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

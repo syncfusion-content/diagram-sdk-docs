@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector Splitting in WPF SfDiagram | Syncfusion®
-description: Split existing connectors in Syncfusion® WPF SfDiagram by dropping nodes onto connector paths and automatically creating new connections.
+title: Connector Splitting in WPF Diagram | Syncfusion®
+description: Split existing connectors in Syncfusion® WPF Diagram by dropping nodes onto connector paths and automatically creating new connections.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automatic Port Creation in WPF SfDiagram | Syncfusion®
-description: Learn about automatic port creation in Syncfusion® WPF SfDiagram control, including runtime port generation, connector drawing, and port dragging.
+title: Automatic Port Creation in WPF Diagram | Syncfusion®
+description: Learn about automatic port creation in Syncfusion® WPF Diagram control, including runtime port generation, connector drawing, and port dragging.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

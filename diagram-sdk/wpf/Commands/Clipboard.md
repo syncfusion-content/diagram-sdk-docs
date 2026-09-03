@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Clipboard Commands in WPF SfDiagram | Syncfusion®
-description: Use clipboard commands in Syncfusion® WPF SfDiagram to cut, copy, paste, and duplicate selected diagram elements efficiently.
+title: Clipboard Commands in WPF Diagram | Syncfusion®
+description: Use clipboard commands in Syncfusion® WPF Diagram to cut, copy, paste, and duplicate selected diagram elements efficiently.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

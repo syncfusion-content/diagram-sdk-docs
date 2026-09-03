@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collision State in WPF SfDiagram | Syncfusion®
-description: Prevent element overlaps in Syncfusion® WPF SfDiagram using collision detection, spacing control, collision-free positioning, and ignore settings.
+title: Collision State in WPF Diagram | Syncfusion®
+description: Prevent element overlaps in Syncfusion® WPF Diagram using collision detection, spacing control, collision-free positioning, and ignore settings.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Themes in WPF SfDiagram | Syncfusion
-description: Apply built-in themes and variant styles in Syncfusion® WPF SfDiagram to customize the appearance of nodes, connectors, and annotations.
+title: Themes in WPF Diagram | Syncfusion
+description: Apply built-in themes and variant styles in Syncfusion® WPF Diagram to customize the appearance of nodes, connectors, and annotations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

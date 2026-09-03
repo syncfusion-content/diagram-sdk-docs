@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tools in WPF SfDiagram | Syncfusion®
-description: Use drawing, selection, zoom, pan, and customization tools in Syncfusion® WPF SfDiagram to create and interact with diagram elements.
+title: Tools in WPF Diagram | Syncfusion®
+description: Use drawing, selection, zoom, pan, and customization tools in Syncfusion® WPF Diagram to create and interact with diagram elements.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: UML Sequence Diagram Model in WPF SfDiagram | Syncfusion®
-description: Learn about the UML Sequence Diagram Model in Syncfusion® WPF SfDiagram control, including participants, messages, activation boxes, and fragments.
+title: UML Sequence Diagram Model in WPF Diagram | Syncfusion®
+description: Learn about the UML Sequence Diagram Model in Syncfusion® WPF Diagram control, including participants, messages, activation boxes, and fragments.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

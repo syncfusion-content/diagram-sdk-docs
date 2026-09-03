@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Store in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN data stores in Syncfusion® WPF SfDiagram control and how to represent, store, and access business process data.
+title: Data Store in WPF Diagram | Syncfusion®
+description: Learn about BPMN data stores in Syncfusion® WPF Diagram control and how to represent, store, and access business process data.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

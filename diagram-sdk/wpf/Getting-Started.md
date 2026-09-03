@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with WPF SfDiagram | Syncfusion®
-description: Learn how to get started with the Syncfusion® WPF SfDiagram control. Explore setup, diagram elements, flowchart creation, layouts, themes, and more.
+title: Getting Started with WPF Diagram | Syncfusion®
+description: Learn how to get started with the Syncfusion® WPF Diagram control. Explore setup, diagram elements, flowchart creation, layouts, themes, and more.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: DataSource in WPF SfDiagram | Syncfusion®
-description: Populate Syncfusion® WPF SfDiagram from data sources, define layouts, manage hierarchical relationships, and support flowchart mapping.
+title: DataSource in WPF Diagram | Syncfusion®
+description: Populate Syncfusion® WPF Diagram from data sources, define layouts, manage hierarchical relationships, and support flowchart mapping.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

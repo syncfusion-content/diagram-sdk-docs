@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Quick Command in WPF SfDiagram | Syncfusion®
-description: Use quick commands in Syncfusion® WPF SfDiagram to perform common actions, create custom commands, and customize their appearance.
+title: Quick Command in WPF Diagram | Syncfusion®
+description: Use quick commands in Syncfusion® WPF Diagram to perform common actions, create custom commands, and customize their appearance.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

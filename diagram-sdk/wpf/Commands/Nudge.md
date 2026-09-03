@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Nudge Commands in WPF SfDiagram | Syncfusion®
-description: Move selected diagram elements in Syncfusion® WPF SfDiagram using nudge commands with customizable movement distances and directions.
+title: Nudge Commands in WPF Diagram | Syncfusion®
+description: Move selected diagram elements in Syncfusion® WPF Diagram using nudge commands with customizable movement distances and directions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

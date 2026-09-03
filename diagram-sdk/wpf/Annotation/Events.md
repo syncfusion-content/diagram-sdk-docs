@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation Events in WPF SfDiagram | Syncfusion®
-description: Learn about annotation events in Syncfusion® WPF SfDiagram control, including annotation change notifications and selection-related events.
+title: Annotation Events in WPF Diagram | Syncfusion®
+description: Learn about annotation events in Syncfusion® WPF Diagram control, including annotation change notifications and selection-related events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

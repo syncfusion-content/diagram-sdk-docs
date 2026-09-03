@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Undo Redo Commands in WPF SfDiagram | Syncfusion®
-description: Reverse or restore diagram changes in Syncfusion® WPF SfDiagram using undo and redo commands for editing operations.
+title: Undo Redo Commands in WPF Diagram | Syncfusion®
+description: Reverse or restore diagram changes in Syncfusion® WPF Diagram using undo and redo commands for editing operations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

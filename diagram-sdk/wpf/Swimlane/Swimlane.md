@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Swimlane in WPF SfDiagram | Syncfusion®
-description: Learn about swimlane in Syncfusion® WPF SfDiagram control, including swimlane creation, headers, customization, orientation, and interactions.
+title: Swimlane in WPF Diagram | Syncfusion®
+description: Learn about swimlane in Syncfusion® WPF Diagram control, including swimlane creation, headers, customization, orientation, and interactions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

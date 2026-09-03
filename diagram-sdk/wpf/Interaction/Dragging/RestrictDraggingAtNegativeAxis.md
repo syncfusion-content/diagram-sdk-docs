@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Restrict Dragging at Negative Axis in WPF SfDiagram | Syncfusion®
-description: Restrict nodes, connectors, groups, and symbols from dragging into negative coordinates in Syncfusion® WPF SfDiagram.
+title: Restrict Dragging at Negative Axis in WPF Diagram | Syncfusion®
+description: Restrict nodes, connectors, groups, and symbols from dragging into negative coordinates in Syncfusion® WPF Diagram.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

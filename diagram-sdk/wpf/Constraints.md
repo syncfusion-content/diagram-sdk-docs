@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Constraints in WPF SfDiagram | Syncfusion®
-description: Control diagram behaviors in Syncfusion® WPF SfDiagram using graph, node, connector, port, annotation, selector, and snap constraints.
+title: Constraints in WPF Diagram | Syncfusion®
+description: Control diagram behaviors in Syncfusion® WPF Diagram using graph, node, connector, port, annotation, selector, and snap constraints.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

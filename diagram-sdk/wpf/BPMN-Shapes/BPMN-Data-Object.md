@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Object in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN data objects in Syncfusion® WPF SfDiagram control, including data input, data output, collective data, and process data representation.
+title: Data Object in WPF Diagram | Syncfusion®
+description: Learn about BPMN data objects in Syncfusion® WPF Diagram control, including data input, data output, collective data, and process data representation.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

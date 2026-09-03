@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Context Menu Support for Stencil in WPF SfDiagram | Syncfusion®
-description: Customize context menus in Syncfusion® WPF SfDiagram Stencil with built-in actions, custom menu items, and SymbolGroup menus.
+title: Context Menu Support for Stencil in WPF Diagram | Syncfusion®
+description: Customize context menus in Syncfusion® WPF Diagram Stencil with built-in actions, custom menu items, and SymbolGroup menus.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

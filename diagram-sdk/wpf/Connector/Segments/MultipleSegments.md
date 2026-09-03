@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Multiple Connector Segments in WPF SfDiagram | Syncfusion®
-description: Learn about multiple connector segments in Syncfusion® WPF SfDiagram control, including combining straight, orthogonal, and curve segments.
+title: Multiple Connector Segments in WPF Diagram | Syncfusion®
+description: Learn about multiple connector segments in Syncfusion® WPF Diagram control, including combining straight, orthogonal, and curve segments.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

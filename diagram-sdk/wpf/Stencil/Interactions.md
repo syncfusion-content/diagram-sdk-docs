@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stencil Interactions in WPF SfDiagram | Syncfusion®
-description: Manage stencil interactions in Syncfusion® WPF SfDiagram with symbol selection, drag-and-drop, reordering, duplication, and keyboard support.
+title: Stencil Interactions in WPF Diagram | Syncfusion®
+description: Manage stencil interactions in Syncfusion® WPF Diagram with symbol selection, drag-and-drop, reordering, duplication, and keyboard support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

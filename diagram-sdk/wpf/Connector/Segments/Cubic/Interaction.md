@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cubic Bezier Segment Interaction in WPF SfDiagram | Syncfusion®
-description: Learn about cubic bezier segment interactions in Syncfusion® WPF SfDiagram control, including control point editing and smoothness options.
+title: Cubic Bezier Segment Interaction in WPF Diagram | Syncfusion®
+description: Learn about cubic bezier segment interactions in Syncfusion® WPF Diagram control, including control point editing and smoothness options.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

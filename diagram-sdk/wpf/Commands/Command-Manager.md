@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Command Manager in WPF SfDiagram | Syncfusion®
-description: Map keyboard and mouse gestures to commands in Syncfusion® WPF SfDiagram and create custom commands with Command Manager.
+title: Command Manager in WPF Diagram | Syncfusion®
+description: Map keyboard and mouse gestures to commands in Syncfusion® WPF Diagram and create custom commands with Command Manager.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

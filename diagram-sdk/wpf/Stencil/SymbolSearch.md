@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symbol Search in WPF SfDiagram | Syncfusion®
-description: Search stencil symbols in Syncfusion® WPF SfDiagram using symbol names, search tags, and the built-in stencil search box.
+title: Symbol Search in WPF Diagram | Syncfusion®
+description: Search stencil symbols in Syncfusion® WPF Diagram using symbol names, search tags, and the built-in stencil search box.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance of Stencil in WPF SfDiagram | Syncfusion®
-description: Customize the appearance of the Syncfusion® WPF SfDiagram Stencil using SymbolGroup display modes such as accordion, list, and tab views.
+title: Appearance of Stencil in WPF Diagram | Syncfusion®
+description: Customize the appearance of the Syncfusion® WPF Diagram Stencil using SymbolGroup display modes such as accordion, list, and tab views.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

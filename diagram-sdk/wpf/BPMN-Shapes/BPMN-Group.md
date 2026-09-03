@@ -1,7 +1,7 @@
 ---
 layout: post
-title: BPMN Group in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN groups in Syncfusion® WPF SfDiagram control, including group creation, adding BPMN nodes, runtime grouping, and stencil support.
+title: BPMN Group in WPF Diagram | Syncfusion®
+description: Learn about BPMN groups in Syncfusion® WPF Diagram control, including group creation, adding BPMN nodes, runtime grouping, and stencil support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Keyboard Support in WPF SfDiagram | Syncfusion®
-description: Use keyboard shortcuts in Syncfusion® WPF SfDiagram for selection, editing, navigation, zooming, grouping, and diagram commands.
+title: Keyboard Support in WPF Diagram | Syncfusion®
+description: Use keyboard shortcuts in Syncfusion® WPF Diagram for selection, editing, navigation, zooming, grouping, and diagram commands.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

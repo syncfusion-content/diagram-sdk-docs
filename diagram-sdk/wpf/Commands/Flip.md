@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flip Command in WPF SfDiagram | Syncfusion®
-description: Mirror nodes, ports, and groups in Syncfusion® WPF SfDiagram using flip commands with configurable modes and directions.
+title: Flip Command in WPF Diagram | Syncfusion®
+description: Mirror nodes, ports, and groups in Syncfusion® WPF Diagram using flip commands with configurable modes and directions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

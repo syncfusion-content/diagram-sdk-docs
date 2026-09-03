@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stencil in WPF SfDiagram| Syncfusion®
-description: Create and manage reusable symbols in Syncfusion® WPF SfDiagram Stencil using diagram elements, SymbolViewModel, and symbol collections.
+title: Stencil in WPF Diagram| Syncfusion®
+description: Create and manage reusable symbols in Syncfusion® WPF Diagram Stencil using diagram elements, SymbolViewModel, and symbol collections.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

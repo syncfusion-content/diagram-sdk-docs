@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Expand Collapse Command in WPF SfDiagram | Syncfusion®
-description: Expand or collapse hierarchical nodes in Syncfusion® WPF SfDiagram and control layout updates with ExpandCollapse parameters.
+title: Expand Collapse Command in WPF Diagram | Syncfusion®
+description: Expand or collapse hierarchical nodes in Syncfusion® WPF Diagram and control layout updates with ExpandCollapse parameters.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

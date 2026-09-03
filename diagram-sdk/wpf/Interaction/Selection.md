@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Selection in WPF SfDiagram | Syncfusion®
-description: Select diagram elements in Syncfusion® WPF SfDiagram using single, multiple, and programmatic selection with customizable indicators.
+title: Selection in WPF Diagram | Syncfusion®
+description: Select diagram elements in Syncfusion® WPF Diagram using single, multiple, and programmatic selection with customizable indicators.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

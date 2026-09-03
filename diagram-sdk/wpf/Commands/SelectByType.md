@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SelectByType Command in WPF SfDiagram | Syncfusion®
-description: Select specific diagram element types in Syncfusion® WPF SfDiagram using the SelectByType command for targeted operations.
+title: SelectByType Command in WPF Diagram | Syncfusion®
+description: Select specific diagram element types in Syncfusion® WPF Diagram using the SelectByType command for targeted operations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

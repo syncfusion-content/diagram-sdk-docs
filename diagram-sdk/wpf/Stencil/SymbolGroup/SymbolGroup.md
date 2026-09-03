@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symbol Groups in WPF SfDiagram | Syncfusion®
-description: Organize stencil symbols in Syncfusion® WPF SfDiagram using symbol groups, custom headers, display modes, and category-based grouping.
+title: Symbol Groups in WPF Diagram | Syncfusion®
+description: Organize stencil symbols in Syncfusion® WPF Diagram using symbol groups, custom headers, display modes, and category-based grouping.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

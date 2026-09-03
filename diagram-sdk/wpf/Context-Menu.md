@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Context Menu in WPF SfDiagram | Syncfusion®
-description: Customize context menus in Syncfusion® WPF SfDiagram with built-in commands, custom menu items, node menus, and connector menus.
+title: Context Menu in WPF Diagram | Syncfusion®
+description: Customize context menus in Syncfusion® WPF Diagram with built-in commands, custom menu items, node menus, and connector menus.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

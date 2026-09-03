@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Organization Layout in WPF SfDiagram | Syncfusion®
-description: Build organizational charts in Syncfusion® WPF SfDiagram with custom orientations, assistants, and hierarchical relationships.
+title: Organization Layout in WPF Diagram | Syncfusion®
+description: Build organizational charts in Syncfusion® WPF Diagram with custom orientations, assistants, and hierarchical relationships.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

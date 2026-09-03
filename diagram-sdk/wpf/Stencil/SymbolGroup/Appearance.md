@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance of SymbolGroup in WPF SfDiagram | Syncfusion®
-description: Customize SymbolGroup appearance in Syncfusion® WPF SfDiagram by displaying symbol groups in accordion, list, or tab views.
+title: Appearance of SymbolGroup in WPF Diagram | Syncfusion®
+description: Customize SymbolGroup appearance in Syncfusion® WPF Diagram by displaying symbol groups in accordion, list, or tab views.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

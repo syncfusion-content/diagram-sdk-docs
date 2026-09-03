@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Symbol Filtering in WPF SfDiagram | Syncfusion®
-description: Filter and organize stencil symbols in Syncfusion® WPF SfDiagram using SymbolFilters and customizable filter providers.
+title: Symbol Filtering in WPF Diagram | Syncfusion®
+description: Filter and organize stencil symbols in Syncfusion® WPF Diagram using SymbolFilters and customizable filter providers.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

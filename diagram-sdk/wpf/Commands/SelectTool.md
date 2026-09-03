@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SelectTool Command in WPF SfDiagram | Syncfusion®
-description: Switch tools and drawing modes in Syncfusion® WPF SfDiagram using the SelectTool command to create nodes, connectors, and text elements.
+title: SelectTool Command in WPF Diagram | Syncfusion®
+description: Switch tools and drawing modes in Syncfusion® WPF Diagram using the SelectTool command to create nodes, connectors, and text elements.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

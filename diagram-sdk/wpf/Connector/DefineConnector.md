@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connector in WPF SfDiagram | Syncfusion®
-description: Learn about connectors in Syncfusion® WPF SfDiagram control, including connector types, node connections, ports, drawing tools, and routing.
+title: Connector in WPF Diagram | Syncfusion®
+description: Learn about connectors in Syncfusion® WPF Diagram control, including connector types, node connections, ports, drawing tools, and routing.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

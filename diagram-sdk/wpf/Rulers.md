@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Rulers in WPF SfDiagram | Syncfusion®
-description: Measure, align, and position diagram elements in Syncfusion® WPF SfDiagram using horizontal and vertical rulers with customizable units.
+title: Rulers in WPF Diagram | Syncfusion®
+description: Measure, align, and position diagram elements in Syncfusion® WPF Diagram using horizontal and vertical rulers with customizable units.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

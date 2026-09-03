@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Stencil Serialization in WPF Diagram | Syncfusion®
-description: Serialize and deserialize stencil symbols in Syncfusion® WPF SfDiagram while preserving custom symbol data and configurations.
+description: Serialize and deserialize stencil symbols in Syncfusion® WPF Diagram while preserving custom symbol data and configurations.
 platform: diagram-sdk
-control: SfDiagram
+control: Diagram
 documentation: ug
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Lane in WPF SfDiagram | Syncfusion®
-description: Learn about lane in Syncfusion® WPF SfDiagram control, including lane creation, headers, customization, child nodes, and runtime management.
+title: Lane in WPF Diagram | Syncfusion®
+description: Learn about lane in Syncfusion® WPF Diagram control, including lane creation, headers, customization, child nodes, and runtime management.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Lane in WPF Diagram
+# Lane in the WPF Diagram
 
 A [Lane](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.LaneViewModel.html) is a functional unit or a responsible department of a business process that helps to map a process within the functional unit or in between other functional units.
 

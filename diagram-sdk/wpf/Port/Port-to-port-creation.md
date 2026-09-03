@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Port-to-Port Connections in WPF SfDiagram | Syncfusion®
-description: Learn about port-to-port connections in Syncfusion® WPF SfDiagram control, including node ports, connector ports, dock ports, and interactive linking.
+title: Port-to-Port Connections in WPF Diagram | Syncfusion®
+description: Learn about port-to-port connections in Syncfusion® WPF Diagram control, including node ports, connector ports, dock ports, and interactive linking.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

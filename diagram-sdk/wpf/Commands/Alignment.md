@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Alignment Commands in WPF SfDiagram | Syncfusion®
-description: Align nodes and connectors in Syncfusion® WPF SfDiagram using built-in alignment commands for left, right, center, top, bottom, and middle positioning.
+title: Alignment Commands in WPF Diagram | Syncfusion®
+description: Align nodes and connectors in Syncfusion® WPF Diagram using built-in alignment commands for left, right, center, top, bottom, and middle positioning.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

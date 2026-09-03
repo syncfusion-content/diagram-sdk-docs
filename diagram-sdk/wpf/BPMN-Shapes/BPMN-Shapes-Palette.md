@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Shapes Palette in WPF SfDiagram | Syncfusion®
-description: Learn about the shapes palette in Syncfusion® WPF SfDiagram control, including BPMN shape libraries, stencil integration, categories, and drag-and-drop support.
+title: Shapes Palette in WPF Diagram | Syncfusion®
+description: Learn about the shapes palette in Syncfusion® WPF Diagram control, including BPMN shape libraries, stencil integration, categories, and drag-and-drop support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

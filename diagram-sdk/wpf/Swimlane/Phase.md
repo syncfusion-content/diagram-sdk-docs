@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Phase in WPF SfDiagram | Syncfusion®
-description: Learn about phase in Syncfusion® WPF SfDiagram control, including phase creation, headers, customization, runtime management, and interactions.
+title: Phase in WPF Diagram | Syncfusion®
+description: Learn about phase in Syncfusion® WPF Diagram control, including phase creation, headers, customization, runtime management, and interactions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

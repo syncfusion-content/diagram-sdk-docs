@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Straight Segments in WPF SfDiagram | Syncfusion®
-description: Learn about straight connector segments in Syncfusion® WPF SfDiagram control, including segment creation, editing, splitting, and runtime customization.
+title: Straight Segments in WPF Diagram | Syncfusion®
+description: Learn about straight connector segments in Syncfusion® WPF Diagram control, including segment creation, editing, splitting, and runtime customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

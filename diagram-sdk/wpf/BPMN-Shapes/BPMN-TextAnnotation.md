@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TextAnnotation in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN text annotations in Syncfusion® WPF SfDiagram control, including annotation targets, connections, positioning, and customization.
+title: TextAnnotation in WPF Diagram | Syncfusion®
+description: Learn about BPMN text annotations in Syncfusion® WPF Diagram control, including annotation targets, connections, positioning, and customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

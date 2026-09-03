@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Scroll Limit in WPF SfDiagram | Syncfusion®
-description: Define scrolling boundaries in Syncfusion® WPF SfDiagram with scroll limits, custom scrollable areas, and keyboard navigation support.
+title: Scroll Limit in WPF Diagram | Syncfusion®
+description: Define scrolling boundaries in Syncfusion® WPF Diagram with scroll limits, custom scrollable areas, and keyboard navigation support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

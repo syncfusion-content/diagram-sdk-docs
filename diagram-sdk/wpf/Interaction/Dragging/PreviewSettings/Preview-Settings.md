@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Preview Settings in WPF SfDiagram | Syncfusion®
-description: Configure preview dragging in Syncfusion® WPF SfDiagram with outline-based movement, connector refresh timing, and preview appearance customization.
+title: Preview Settings in WPF Diagram | Syncfusion®
+description: Configure preview dragging in Syncfusion® WPF Diagram with outline-based movement, connector refresh timing, and preview appearance customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

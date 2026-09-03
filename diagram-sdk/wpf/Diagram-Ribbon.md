@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diagram Ribbon in WPF SfDiagram | Syncfusion®
-description: Use the Diagram Ribbon in Syncfusion® WPF SfDiagram to access editing, formatting, layout, navigation, and customization tools.
+title: Diagram Ribbon in WPF Diagram | Syncfusion®
+description: Use the Diagram Ribbon in Syncfusion® WPF Diagram to access editing, formatting, layout, navigation, and customization tools.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

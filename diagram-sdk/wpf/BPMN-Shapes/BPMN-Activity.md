@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Activity in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN activities in Syncfusion® WPF SfDiagram control, including tasks, subprocesses, loops, compensation, call activities, and task types.
+title: Activity in WPF Diagram | Syncfusion®
+description: Learn about BPMN activities in Syncfusion® WPF Diagram control, including tasks, subprocesses, loops, compensation, call activities, and task types.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

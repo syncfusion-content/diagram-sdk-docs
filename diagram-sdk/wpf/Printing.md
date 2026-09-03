@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Printing in WPF SfDiagram | Syncfusion®
-description: Print diagrams in Syncfusion® WPF SfDiagram with print preview, page settings, scaling, headers, footers, and custom paper sizes.
+title: Printing in WPF Diagram | Syncfusion®
+description: Print diagrams in Syncfusion® WPF Diagram with print preview, page settings, scaling, headers, footers, and custom paper sizes.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

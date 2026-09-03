@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connectors in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN connectors in Syncfusion® WPF SfDiagram control, including association, sequence flow, message flow, and connector types.
+title: Connectors in WPF Diagram | Syncfusion®
+description: Learn about BPMN connectors in Syncfusion® WPF Diagram control, including association, sequence flow, message flow, and connector types.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

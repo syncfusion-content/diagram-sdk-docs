@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance and Validation in WPF SfDiagram | Syncfusion®
-description: Learn about connector appearance and validation in Syncfusion® WPF SfDiagram control, including decorators, bridging, styling, padding, and events.
+title: Appearance and Validation in WPF Diagram | Syncfusion®
+description: Learn about connector appearance and validation in Syncfusion® WPF Diagram control, including decorators, bridging, styling, padding, and events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

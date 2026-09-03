@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Port Hover Effects in WPF SfDiagram | Syncfusion®
-description: Learn about port hover effects in Syncfusion® WPF SfDiagram control, including ripple, shrink, filled ripple, and connection animation options.
+title: Port Hover Effects in WPF Diagram | Syncfusion®
+description: Learn about port hover effects in Syncfusion® WPF Diagram control, including ripple, shrink, filled ripple, and connection animation options.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

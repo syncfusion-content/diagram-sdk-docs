@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Page Settings in WPF SfDiagram | Syncfusion®
-description: Customize page settings in Syncfusion® WPF SfDiagram, including page size, orientation, margins, scaling, appearance, and multiple-page support.
+title: Page Settings in WPF Diagram | Syncfusion®
+description: Customize page settings in Syncfusion® WPF Diagram, including page size, orientation, margins, scaling, appearance, and multiple-page support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

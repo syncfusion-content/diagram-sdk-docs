@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Grouping Commands in WPF SfDiagram | Syncfusion®
-description: Group and ungroup diagram elements in Syncfusion® WPF SfDiagram using built-in commands and keyboard shortcuts.
+title: Grouping Commands in WPF Diagram | Syncfusion®
+description: Group and ungroup diagram elements in Syncfusion® WPF Diagram using built-in commands and keyboard shortcuts.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

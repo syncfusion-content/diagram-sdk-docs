@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Group in WPF SfDiagram | Syncfusion®
-description: Learn about group in Syncfusion® WPF SfDiagram control, including creating groups, managing grouped nodes and connectors, and group interactions.
+title: Group in WPF Diagram | Syncfusion®
+description: Learn about group in Syncfusion® WPF Diagram control, including creating groups, managing grouped nodes and connectors, and group interactions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

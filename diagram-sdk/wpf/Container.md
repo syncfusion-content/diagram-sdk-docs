@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Container in WPF SfDiagram | Syncfusion®
-description: Learn about container in Syncfusion® WPF SfDiagram control, including container creation, headers, child management, interactions, and events.
+title: Container in WPF Diagram | Syncfusion®
+description: Learn about container in Syncfusion® WPF Diagram control, including container creation, headers, child management, interactions, and events.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

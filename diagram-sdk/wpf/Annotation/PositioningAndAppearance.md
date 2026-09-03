@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation Positioning and Appearance in WPF SfDiagram | Syncfusion®
-description: Learn about annotation positioning and appearance in Syncfusion® WPF SfDiagram control, including alignment, sizing, wrapping, styling, and editing.
+title: Annotation Positioning and Appearance in WPF Diagram | Syncfusion®
+description: Learn about annotation positioning and appearance in Syncfusion® WPF Diagram control, including alignment, sizing, wrapping, styling, and editing.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

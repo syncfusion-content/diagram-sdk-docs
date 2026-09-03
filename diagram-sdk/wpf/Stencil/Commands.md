@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Command Manager for Stencil in WPF SfDiagram | Syncfusion®
-description: Manage keyboard shortcuts and custom commands in Syncfusion® WPF SfDiagram Stencil for navigation, selection, and clipboard operations.
+title: Command Manager for Stencil in WPF Diagram | Syncfusion®
+description: Manage keyboard shortcuts and custom commands in Syncfusion® WPF Diagram Stencil for navigation, selection, and clipboard operations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

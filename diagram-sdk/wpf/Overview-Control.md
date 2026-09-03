@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Overview Control in WPF SfDiagram | Syncfusion®
-description: Use the Overview Control in Syncfusion® WPF SfDiagram to preview, navigate, pan, and zoom large diagrams with ease.
+title: Overview Control in WPF Diagram | Syncfusion®
+description: Use the Overview Control in Syncfusion® WPF Diagram to preview, navigate, pan, and zoom large diagrams with ease.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

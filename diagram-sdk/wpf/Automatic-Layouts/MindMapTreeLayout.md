@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MindMap Tree Layout in WPF SfDiagram | Syncfusion®
-description: Create balanced mind maps in Syncfusion® WPF SfDiagram with customizable orientations, split modes, and branch arrangements.
+title: MindMap Tree Layout in WPF Diagram | Syncfusion®
+description: Create balanced mind maps in Syncfusion® WPF Diagram with customizable orientations, split modes, and branch arrangements.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

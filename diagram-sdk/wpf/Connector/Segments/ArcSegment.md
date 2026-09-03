@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Arc Segments in WPF SfDiagram | Syncfusion®
-description: Learn about arc connector segments in Syncfusion® WPF SfDiagram control, including creation, editing, control points, and customization.
+title: Arc Segments in WPF Diagram | Syncfusion®
+description: Learn about arc connector segments in Syncfusion® WPF Diagram control, including creation, editing, control points, and customization.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

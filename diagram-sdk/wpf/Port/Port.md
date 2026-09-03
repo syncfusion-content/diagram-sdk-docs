@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ports in WPF SfDiagram | Syncfusion®
-description: Learn about ports in Syncfusion® WPF SfDiagram control, including node ports, connector ports, dock ports, connections, appearance, and behavior.
+title: Ports in WPF Diagram | Syncfusion®
+description: Learn about ports in Syncfusion® WPF Diagram control, including node ports, connector ports, dock ports, connections, appearance, and behavior.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

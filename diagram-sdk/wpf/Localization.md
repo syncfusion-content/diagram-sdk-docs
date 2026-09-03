@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Localization in WPF SfDiagram | Syncfusion®
-description: Localize annotations and context menu content in Syncfusion® WPF SfDiagram using resource files and ResourceManager support.
+title: Localization in WPF Diagram | Syncfusion®
+description: Localize annotations and context menu content in Syncfusion® WPF Diagram using resource files and ResourceManager support.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

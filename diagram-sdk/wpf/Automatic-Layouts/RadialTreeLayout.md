@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Radial Tree Layout in WPF SfDiagram | Syncfusion®
-description: Arrange nodes in Syncfusion® WPF SfDiagram with a radial tree layout that positions the root centrally and child nodes in concentric circles.
+title: Radial Tree Layout in WPF Diagram | Syncfusion®
+description: Arrange nodes in Syncfusion® WPF Diagram with a radial tree layout that positions the root centrally and child nodes in concentric circles.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

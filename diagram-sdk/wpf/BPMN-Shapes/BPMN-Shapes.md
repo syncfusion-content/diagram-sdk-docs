@@ -1,7 +1,7 @@
 ---
 layout: post
-title: BPMN Shapes in WPF SfDiagram | Syncfusion®
-description: Learn about BPMN shapes in Syncfusion® WPF SfDiagram control, including activities, events, gateways, data objects, message flows, and associations.
+title: BPMN Shapes in WPF Diagram | Syncfusion®
+description: Learn about BPMN shapes in Syncfusion® WPF Diagram control, including activities, events, gateways, data objects, message flows, and associations.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

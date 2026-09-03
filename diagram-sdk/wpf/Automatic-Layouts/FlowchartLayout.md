@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flowchart Layout in WPF SfDiagram | Syncfusion®
-description: Create and customize flowchart layouts in Syncfusion® WPF SfDiagram with flow directions, decision branches, and spacing options.
+title: Flowchart Layout in WPF Diagram | Syncfusion®
+description: Create and customize flowchart layouts in Syncfusion® WPF Diagram with flow directions, decision branches, and spacing options.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
