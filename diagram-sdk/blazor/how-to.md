@@ -193,7 +193,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Ports and Annotations Using the AddAsync Method
 
-The [AddAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramObjectCollection-1.html#Syncfusion_Blazor_Diagram_DiagramObjectCollection_1_AddAsync__0_) method is used to add ports or annotations to an existing diagram element at runtime. This method is asynchronous and is intended only for adding `Port` and `Annotation` objects to their respective collections. It returns a `Task` and should be awaited.
+The [AddAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramObjectCollection-1.html#Syncfusion_Blazor_Diagram_DiagramObjectCollection_1_AddAsync__0_) method is used to add ports or annotations to an existing diagram element at runtime. This method is asynchronous and is intended only for adding [Port](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Port.html) and [Annotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Annotation.html) objects to their respective collections. It returns a `Task` and should be awaited.
 
 The following code example shows how to add a port and an annotation dynamically to a node.
 
