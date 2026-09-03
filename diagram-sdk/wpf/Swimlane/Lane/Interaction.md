@@ -7,9 +7,9 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Lane Interactions in WPF SfDiagram
+# Lane Interactions in WPF Diagram
 
-The [WPF SfDiagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) control provides support to select, resize, or swap the lane interactively. 
+The [WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) control provides support to select, resize, or swap the lane interactively. 
 
 ## Select
 

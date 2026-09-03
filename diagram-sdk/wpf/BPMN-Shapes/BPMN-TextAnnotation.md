@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# TextAnnotation in WPF SfDiagram
+# TextAnnotation in WPF Diagram
 
 * A [Text Annotation](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Controls.BpmnShapeType.html#fields#TextAnnotation) points at or references the another BPMN shape, which we call the [`TextAnnotationTarget`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.BpmnNodeViewModel.html#Syncfusion_UI_Xaml_Diagram_BpmnNodeViewModel_TextAnnotationTarget) of the `TextAnnotation`. When a target shape is moved, copied, or deleted, any Text Annotations attached to the shape will be moved, copied, or deleted too.  Thus, the Text Annotations stay with their target shapes though you can reposition the `TextAnnotation` to any offset from its target. The `TextAnnotationTarget` property of the [`BpmnNodeViewModel`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.BpmnNodeViewModel.html) is used to connect an annotation element to the `BpmnNodeViewModel`.
 

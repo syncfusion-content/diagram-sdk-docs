@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Context Menu Support for Stencil in WPF SfDiagram
+# Context Menu Support for Stencil in WPF Diagram
 
 The Stencil ships with default context menu items that make common symbol actions easy to run.
 
@@ -324,6 +324,6 @@ stencil.SymbolGroupMenu = new DiagramMenu
 
 [How to restrict the symbol dropping from the SymbolPalette?](https://support.syncfusion.com/kb/article/9919/how-to-restrict-the-symbol-dropping-from-the-symbolpalette-in-the-wpf-diagram-sfdiagram)
 
-[How to enable or disable Stencil symbols in WPF SfDiagram?](https://support.syncfusion.com/kb/article/17888/how-to-enabledisable-the-stencil-symbol-in-wpf-diagram-sfdiagram)
+[How to enable or disable Stencil symbols in WPF Diagram?](https://support.syncfusion.com/kb/article/17888/how-to-enabledisable-the-stencil-symbol-in-wpf-diagram-sfdiagram)
 
 [How to refresh the stencil with a new collection or new symbol?](https://support.syncfusion.com/kb/article/8714/how-to-refresh-stencil-with-new-collection-or-symbol-in-wpf-diagram)

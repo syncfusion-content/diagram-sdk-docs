@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Multiple Connector Segments in WPF SfDiagram
+# Multiple Connector Segments in WPF Diagram
 
 Multiple segments can be added in a single connector one after another. You can add above four type of segments in single connector at a time.
 

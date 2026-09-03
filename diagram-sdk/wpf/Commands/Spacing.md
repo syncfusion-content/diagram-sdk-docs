@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Spacing Commands in WPF SfDiagram
+# Spacing Commands in WPF Diagram
 
 Spacing commands are used to place selected objects on the page at equal intervals from each other. The objects are spaced within the bounds of the first and last objects in the selection.
 
@@ -29,7 +29,7 @@ The [`SpaceAcross`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% highlight c# %}
 
-//Initialize the SfDiagram 
+//Initialize the Diagram 
 SfDiagram diagramcontrol = new SfDiagram();
 
 
@@ -57,7 +57,7 @@ The [`SpaceDown`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.
 
 {% highlight c# %}
 
-//Initialize the SfDiagram 
+//Initialize the Diagram 
 SfDiagram diagramcontrol = new SfDiagram();
 
 

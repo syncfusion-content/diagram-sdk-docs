@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Stencil Appearance in WPF SfDiagram
+# Stencil Appearance in WPF Diagram
 
 You can customize the Stencil title, headers, names, tooltips, and symbol display modes.
 

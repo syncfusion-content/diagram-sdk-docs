@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Cubic Curve Segments in WPF SfDiagram
+# Cubic Curve Segments in WPF Diagram
 
 Cubic curve segments are used to create curve segments and the curves are configurable with end control points.
 
@@ -37,7 +37,7 @@ To create a cubic curve, you should specify the segment as [`CubicCurveSegment`]
 {% endhighlight %}
 
 {% highlight c# %}
-//Initialize the SfDiagram
+//Initialize the Diagram
 SfDiagram diagram = new SfDiagram();
 //create the connector with cubic bezier segments
 ConnectorViewModel cubicBezierConnector = new ConnectorViewModel()

@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Symbol Search in WPF SfDiagram
+# Symbol Search in WPF Diagram
 
 You can search for symbols in the stencil by entering the symbol name (e.g: "rectangle") into the search text box and clicking the search button. The Stencil returns symbols whose `Name` property matches the string entered in the search text box. Use the [`ShowSearchTextBox`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.Stencil.html#Syncfusion_UI_Xaml_Diagram_Stencil_Stencil_ShowSearchTextBox) property to show or hide the search text box.
 

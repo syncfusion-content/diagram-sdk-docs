@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Arc Segments in WPF SfDiagram
+# Arc Segments in WPF Diagram
 
 Arc segments are used to create curved lines and the curvature is configurable with end control points.
 
@@ -37,7 +37,7 @@ To create an arc segment, you should specify the segment as [`ArcSegment`](https
 {% endhighlight %}
 
 {% highlight c# %}
-//Initialize the SfDiagram
+//Initialize the Diagram
 SfDiagram diagram = new SfDiagram();
 //create the connector with arc segments
 ConnectorViewModel arcSegment = new ConnectorViewModel()
@@ -101,7 +101,7 @@ Arc segments can be customized by using below properties of `ArcSegment` class,
 {% endhighlight %}
 
 {% highlight c# %}
-//Initialize the SfDiagram
+//Initialize the Diagram
 SfDiagram diagram = new SfDiagram();
 //create the connector with arc segments
 ConnectorViewModel arcSegment = new ConnectorViewModel()

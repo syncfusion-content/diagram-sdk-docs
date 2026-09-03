@@ -7,9 +7,9 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Overview Control in WPF SfDiagram
+# Overview Control in WPF Diagram
 
-Overview control is used to display a preview (overall view) of the entire content of a [WPF SfDiagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram). This helps you to look overall picture of large diagram and easy to navigate (pan or zoom) to a particular position of the page.
+Overview control is used to display a preview (overall view) of the entire content of a [WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram). This helps you to look overall picture of large diagram and easy to navigate (pan or zoom) to a particular position of the page.
 
 ## Usage Scenario
 
@@ -181,7 +181,7 @@ overview.Constraint = OverviewConstraints.Pan | OverviewConstraints.Zoom;
 
 ## Deferred Scrolling
 
-The SfDiagram supports deferred scrolling to improve zooming and panning performance by deferring updates to the Overview Control until the user finishes interacting with the page. Enable it by setting `EnableDeferredScrolling` on the `SfDiagram`.
+The Diagram supports deferred scrolling to improve zooming and panning performance by deferring updates to the Overview Control until the user finishes interacting with the page. Enable it by setting `EnableDeferredScrolling` on the `SfDiagram`.
 
 To learn more about deferred scrolling, refer to [Deferred Scrolling](https://help.syncfusion.com/wpf/diagram/virtualization#deferred-scrolling).
 

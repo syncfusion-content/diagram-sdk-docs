@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Sizing Commands in WPF SfDiagram
+# Sizing Commands in WPF Diagram
 
 Sizing commands are used to resize all selected objects based on width, height, or size of the reference object (FirstSelectedItem).
 
@@ -29,7 +29,7 @@ The [`SameSize`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.I
 
 {% highlight c# %}
 
-//Initialize the SfDiagram 
+//Initialize the Diagram 
 SfDiagram diagramcontrol = new SfDiagram();
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
@@ -54,7 +54,7 @@ The [`SameHeight`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram
 
 {% highlight c# %}
 
-//Initialize the SfDiagram 
+//Initialize the Diagram 
 SfDiagram diagramcontrol = new SfDiagram();
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
@@ -79,7 +79,7 @@ The [`SameWidth`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.
 
 {% highlight c# %}
 
-//Initialize the SfDiagram 
+//Initialize the Diagram 
 SfDiagram diagramcontrol = new SfDiagram();
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;

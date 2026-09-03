@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Annotation Rotation in WPF SfDiagram
+# Annotation Rotation in WPF Diagram
 
 Rotation process can be applied over annotation and rotation can be controlled by annotation and its parent node or connector.
 

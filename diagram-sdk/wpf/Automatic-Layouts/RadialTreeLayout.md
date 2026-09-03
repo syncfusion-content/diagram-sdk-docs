@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Radial Tree Layout in WPF SfDiagram
+# Radial Tree Layout in WPF Diagram
 
 The [Radial Tree](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Layout.RadialTreeLayout.html) layout is a specialization of the Directed Tree Layout Manager that uses a circular algorithm for locating diagram nodes. It arranges nodes in a circular pattern, positioning the root node at the center of the graph with child nodes in a circle around the root. Sub-trees are placed radially around their parent.
 
@@ -102,7 +102,7 @@ N> `DataSourceSettings.Root` and `RadialTreeLayout.LayoutRoot` serve different p
 //using Syncfusion.UI.Xaml.Diagram.Layout;
 //using System.Collections.ObjectModel;
 
-//Initialize the SfDiagram instance
+//Initialize the Diagram instance
 SfDiagram diagram = new SfDiagram();
 
 //Initialize the employee collection
@@ -206,4 +206,4 @@ diagram.LayoutManager = new LayoutManager()
 {% endtabs %}
 
 ## See Also
-[How to arrange the Nodes in Circular(Radial) mode in WPF SfDiagram?](https://support.syncfusion.com/kb/article/3342/how-to-arrange-the-nodes-in-circularradial-mode-in-wpf-diagram)
+[How to arrange the Nodes in Circular(Radial) mode in WPF Diagram?](https://support.syncfusion.com/kb/article/3342/how-to-arrange-the-nodes-in-circularradial-mode-in-wpf-diagram)

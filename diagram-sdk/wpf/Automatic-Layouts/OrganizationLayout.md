@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Organization Layout in WPF SfDiagram
+# Organization Layout in WPF Diagram
 
 An organizational chart is a diagram that displays the structure of an organization and the relationships between its members. To create an organizational chart, set `Type` to `LayoutType.Organization` in `DirectedTreeLayout`.
 
@@ -218,10 +218,10 @@ employee.Add(new Employee()
     ReportingPerson = "Philip Cramer" 
 });
 
-//Initialize the SfDiagram instance
+//Initialize the Diagram instance
 SfDiagram diagram = new SfDiagram();
 
-//Initialize DataSourceSettings for SfDiagram
+//Initialize DataSourceSettings for Diagram
 diagram.DataSourceSettings = new DataSourceSettings()
 {
     ParentId = "ReportingPerson",
@@ -229,7 +229,7 @@ diagram.DataSourceSettings = new DataSourceSettings()
     DataSource = employee,
 };
 
-//Initialize LayoutManager for SfDiagram
+//Initialize LayoutManager for Diagram
 diagram.LayoutManager = new LayoutManager()
 {
     Layout = new DirectedTreeLayout()
@@ -240,7 +240,7 @@ diagram.LayoutManager = new LayoutManager()
     },
 };
 
-//Add the SfDiagram to the visual tree
+//Add the Diagram to the visual tree
 WindowGrid.Children.Add(diagram);
 
 {% endhighlight %}

@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Quadratic Curve Segments in WPF SfDiagram
+# Quadratic Curve Segments in WPF Diagram
 
 Quadratic curve segments are used to create curve segments as quadratic shape and the curves are configurable with middle control point. 
 
@@ -37,7 +37,7 @@ To create a quadratic curve line, you should specify the segment as [`QuadraticC
 {% endhighlight %}
 
 {% highlight c# %}
-//Initialize the SfDiagram
+//Initialize the Diagram
 SfDiagram diagram = new SfDiagram();
 //create the connector with quadratic bezier segments
 ConnectorViewModel quadraticBezierConnector = new ConnectorViewModel()

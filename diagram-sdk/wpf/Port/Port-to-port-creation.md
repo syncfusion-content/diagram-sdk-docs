@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Port-to-Port Connections in WPF SfDiagram
+# Port-to-Port Connections in WPF Diagram
 
 The connector’s `SourcePort` or `SourcePortID` and `TargetPort` or `TargetPortID` properties allow you to create connections between two specific points of same or different nodes and connectors.
 
@@ -147,7 +147,7 @@ Unlike [`NodePort`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 {% tabs %}
 
 {% highlight c# %}
-//Initialize HitPadding to sfdiagram
+//Initialize HitPadding to Diagram
 diagram.HitPadding = 20;
 
 //Define the ConnectorPort

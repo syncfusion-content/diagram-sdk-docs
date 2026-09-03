@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Connectors in WPF SfDiagram
+# Connectors in WPF Diagram
 
 The [BpmnFlowViewModel](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.BpmnFlowViewModel.html) are lines that used to connection between the BPMN flow objects.
 

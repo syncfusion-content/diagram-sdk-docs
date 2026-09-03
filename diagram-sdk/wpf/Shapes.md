@@ -7,11 +7,11 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Shapes in WPF SfDiagram
+# Shapes in WPF Diagram
 
 We have provided some basic built-in shapes as ResourceDictionary.
 
-The following code example illustrates how to add shape resources to [WPF SfDiagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram).
+The following code example illustrates how to add shape resources to [WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram).
 
 {% tabs %}
 {% highlight xaml %}

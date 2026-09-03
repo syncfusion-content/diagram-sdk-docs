@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Annotation Selection and Resizing in WPF SfDiagram
+# Annotation Selection and Resizing in WPF Diagram
 
 Basic interactions of selecting and resizing can be applied over annotation. These interactions can be controlled by annotation and its parent node or connector.
 
@@ -83,4 +83,4 @@ Annotations = new ObservableCollection<IAnnotation>()
 ![WPF Diagram Annotation Resizing](Annotation_images/wpf-diagram-annotation-resizing.gif)
 
 ## See Also
-[How to highlight the node when selecting an annotation of the node and vice versa in the WPF SfDiagram ?](https://support.syncfusion.com/kb/article/18245/how-to-highlight-the-node-when-selecting-an-annotation-of-the-node-and-vice-versa-in-the-wpf-diagram-sfdiagram)
+[How to highlight the node when selecting an annotation of the node and vice versa in the WPF Diagram ?](https://support.syncfusion.com/kb/article/18245/how-to-highlight-the-node-when-selecting-an-annotation-of-the-node-and-vice-versa-in-the-wpf-diagram-sfdiagram)

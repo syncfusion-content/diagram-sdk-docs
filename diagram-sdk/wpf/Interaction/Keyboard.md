@@ -7,9 +7,9 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Keyboard Support in WPF SfDiagram
+# Keyboard Support in WPF Diagram
 
-[WPF SfDiagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) provides support to interact with elements using key gestures. By default, some built-in commands are mapped to keyboard shortcuts.
+[WPF Diagram](https://www.syncfusion.com/diagram-sdk/wpf-diagram) provides support to interact with elements using key gestures. By default, some built-in commands are mapped to keyboard shortcuts.
 
 The following table illustrates the list of commands and their key gestures.
 
