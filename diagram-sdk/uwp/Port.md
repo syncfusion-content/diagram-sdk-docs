@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Port in UWP Diagram
+# Port in the UWP Diagram
 
 UWP Diagram control provides support to define custom ports for making connections.
 

@@ -7,7 +7,7 @@ control: SfDiagram
 documentation: ug
 ---
 
-# Node in UWP Diagram
+# Node in the UWP Diagram
 
 Nodes are graphical objects used to visually represent the geometrical information, process flow, internal business procedure or any other kind of data and it represents the functions of a complete system in regards to how it interacts with external entities.
 
