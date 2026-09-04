@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Connector in UWP SfDiagram | Syncfusion®
-description: Learn about connectors in the Syncfusion® UWP SfDiagram control, including segments, ports, decorators, bridging, appearance, and editing.
+title: Connector in UWP Diagram | Syncfusion®
+description: Learn about connectors in the Syncfusion® UWP Diagram control, including segments, ports, decorators, bridging, appearance, and editing.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 ---
 
-# Connector in UWP SfDiagram
+# Connector in UWP Diagram
 
 Connectors are objects used to create link between two Points, Nodes or ports to represent the relationships between them.
 
