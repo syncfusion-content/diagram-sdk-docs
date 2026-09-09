@@ -242,7 +242,10 @@ The following code example shows how to add a port and an annotation dynamically
             Visibility = PortVisibility.Visible,
             Height = 10,
             Width = 10,
-            Style = new ShapeStyle() { Fill = "#FFFFFF", StrokeColor = "#1F3A93" }
+            Style = new ShapeStyle() { Fill = "#FFFFFF", StrokeColor = "#1F3A93" },
+            Shape = PortShapes.Custom,
+            // Sets the PathData for port.
+            PathData = "M540.3643,137.9336L546.7973,159.7016L570.3633,159.7296L550.7723,171.9366L558.9053,194.9966L540.3643,179.4996L521.8223,194.9966L529.9553,171.9366L510.3633,159.7296L533.9313,159.7016L540.3643,137.9336z"
         });
 
         await node.Annotations.AddAsync(new ShapeAnnotation()
