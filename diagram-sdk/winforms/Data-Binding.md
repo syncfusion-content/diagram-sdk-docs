@@ -163,7 +163,7 @@ The following is a sample diagram.
 You can bind the Diagram with database data by using `SqlConnection`.
 The following code illustrates how to bind the data to the Diagram.
 
-The connection string used by `cbn.Connection.ConnectionString` is configured through the typed DataSet designer. To configure it manually, set the connection string directly, for example:
+The connection string used by `cdn.Connection.ConnectionString` is configured through the typed DataSet designer. To configure it manually, set the connection string directly, for example:
 
 `string connectionString = "Data Source=SERVER_NAME;Initial Catalog=DATABASE_NAME;Integrated Security=True";`
 

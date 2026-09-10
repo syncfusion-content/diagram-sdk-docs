@@ -63,7 +63,7 @@ Occurs after the viewport bounds have changed.</td></tr>
 <tr>
 <td>
 ViewPortBoundsChanging</td><td>
-Occurs when the viewport bounds are about to change. Cancellable.</td></tr>
+Occurs when the viewport bounds are about to change. Cancelable.</td></tr>
 </table>
 
 The standard `Click`, `DoubleClick`, `MouseDown`, `MouseUp`, and `MouseMove` events are also inherited from `System.Windows.Forms.Control`.
