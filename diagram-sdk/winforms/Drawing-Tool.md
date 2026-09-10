@@ -12,6 +12,8 @@ documentation: ug
 
 [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram) control now provides a drawing tool to draw different types of connectors dynamically and connector types are listed below.
 
+## Available Drawing Tools
+
 1. LineConnector
 2. OrthogonalConnector
 3. OrgLineConnector
@@ -19,7 +21,9 @@ documentation: ug
 5. Spline
 6. BezierCurve
 
-For Example, The [OrgLineConnectorTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.OrgLineConnectorTool.html) is used to draw the Org line connector dynamically.
+## Activating a Drawing Tool
+
+For example, the [OrgLineConnectorTool](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Diagram.OrgLineConnectorTool.html) is used to draw the Org line connector dynamically.
 
 
 {% tabs %}
@@ -39,6 +43,8 @@ diagram1.Controller.ActivateTool("OrgLineConnectorTool")
 
 ![Drawing of Orthogonal Connector](Connectors-or-Links_images/Connectors-or-Links_img4.png)
 
-Please refer to the Connectors sample from Windows Forms control Panel and find navigation path for the Connector sample as link.
+## Sample
 
-Sample : Windows Forms Control Panel -> Diagram -> Getting Started -> Connectors
+Please refer to the Connectors sample from the Windows Forms Control Panel and navigate to the Connector sample using the path below.
+
+Sample: Windows Forms Control Panel > Diagram > Getting Started > Connectors
