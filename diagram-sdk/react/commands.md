@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 <!-- markdownlint-disable MD010 -->
 
-The commands in diagram control are used to perform various interactions within the diagram when called. Several commands are available in the diagram, as follows:
+The commands in React Diagram component are used to perform various interactions within the diagram when called. Several commands are available in the diagram, as follows:
 
 * Alignment commands
 * Distribute commands

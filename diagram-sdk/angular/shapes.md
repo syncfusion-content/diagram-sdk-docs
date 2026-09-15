@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shapes in Angular Diagram | Syncfusion®
-description: Learn to create and customize text, image, HTML, native, basic, path, and flow shapes in the Syncfusion® Angular Diagram control with examples.
+description: Learn to create and customize text, image, HTML, native, basic, path, and flow shapes in the Syncfusion® Angular Diagram component with examples.
 platform: diagram-sdk
 control: Shapes 
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Print in Angular Diagram | Syncfusion®
-description: Learn how to print the Syncfusion® Angular Diagram control with customizable options including regions, multiple pages, margins, and page orientation.
+description: Learn how to print the Syncfusion® Angular Diagram component with customizable options including regions, multiple pages, margins, and page orientation.
 platform: diagram-sdk
 control: Print 
 documentation: ug
