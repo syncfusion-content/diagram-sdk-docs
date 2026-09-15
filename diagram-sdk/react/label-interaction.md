@@ -89,7 +89,7 @@ The React Diagram component supports creating read-only labels that cannot be ed
 
 ## Drag Limits
 
-The React Diagram control supports defining  [`dragLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagram/annotationModel#draglimit) properties for connector labels to restrict dragging within specified boundaries. The drag limit automatically updates the label position to the nearest segment offset when dragging.
+The React Diagram component supports defining  [`dragLimit`](https://helpej2.syncfusion.com/react/documentation/api/diagram/annotationModel#draglimit) properties for connector labels to restrict dragging within specified boundaries. The drag limit automatically updates the label position to the nearest segment offset when dragging.
 
 Configure drag limit boundaries using the [`left`](https://helpej2.syncfusion.com/react/documentation/api/diagram/marginModel#left), [`right`](https://helpej2.syncfusion.com/react/documentation/api/diagram/marginModel#right), [`top`](https://helpej2.syncfusion.com/react/documentation/api/diagram/marginModel#top), and [`bottom`](https://helpej2.syncfusion.com/react/documentation/api/diagram/marginModel#bottom) properties. These properties limit connector label dragging based on user-defined values.
 
