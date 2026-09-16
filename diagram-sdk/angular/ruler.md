@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruler in Angular Diagram | Syncfusion®
-description: Add horizontal and vertical rulers to the Syncfusion® Angular Diagram canvas to measure, align, and indicate the cursor position when interacting with diagram elements.
+description: Show horizontal and vertical Rulers in the Angular Diagram to measure element positions and align shapes precisely on the canvas.
 platform: diagram-sdk
 control: Ruler 
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Ruler in Angular Diagram
 
-The ruler provides horizontal and vertical guides for measuring in the Angular Diagram control. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful for creating scale models. The ruler also includes a position indicator that displays the precise location of the mouse cursor on the diagram canvas, with the default color of the position indicator marker being red.
+The ruler provides horizontal and vertical guides for measuring in the Angular Diagram component. It can be used to measure diagram objects, indicate positions, and align diagram elements, making it especially useful for creating scale models. The ruler also includes a position indicator that displays the precise location of the mouse cursor on the diagram canvas, with the default color of the position indicator marker being red.
 
 The diagram ruler consists of two components: a horizontal ruler displayed along the top edge and a vertical ruler along the left edge of the diagram canvas. Both rulers work together to provide comprehensive positioning and measurement capabilities.
 

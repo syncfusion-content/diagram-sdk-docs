@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodes Customization in Angular Diagram | Syncfusion®
-description: Customize node appearance in the Syncfusion® Angular Diagram with fill, stroke, opacity, gradients, and shadows, using getNodeDefaults to set consistent defaults across all nodes.
+description: Apply consistent defaults across every node in the Angular Diagram through a defaults callback to centralize size, style, and shape settings.
 platform: diagram-sdk
 control: Appearence of a nodes 
 documentation: ug
@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Setting default properties for nodes
 
-The [`getNodeDefaults`](https://ej2.syncfusion.com/angular/documentation/api/diagram#getnodedefaults) property in the Angular Diagram control allows you to define default settings that apply to all nodes based on specific conditions or requirements. This approach ensures consistency across your diagram and reduces repetitive code.
+The [`getNodeDefaults`](https://ej2.syncfusion.com/angular/documentation/api/diagram#getnodedefaults) property in the Angular Diagram component allows you to define default settings that apply to all nodes based on specific conditions or requirements. This approach ensures consistency across your diagram and reduces repetitive code.
 
 The following code example shows how to use the getNodeDefaults function to apply common styling to all nodes:
 
@@ -83,7 +83,7 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 [`RadialGradient`](https://ej2.syncfusion.com/angular/documentation/api/diagram/radialGradientModel) defines a smooth transition between stops that radiates from a central point in a circular pattern. This creates a spotlight or glow effect on nodes.
 
-A radial gradient's cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
+A radial gradient's `cx`, `cy`, `fx`, `fy` properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

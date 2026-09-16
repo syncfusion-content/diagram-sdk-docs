@@ -1,17 +1,16 @@
 ---
 layout: post
 title: Entity Relationship Diagram in Angular Diagram | Syncfusion®
-description: Model database structures visually in the Syncfusion® Angular Diagram using ER entity nodes with fields and key constraints, connected by ER relationship connectors.
+description: Build Entity Relationship Diagrams in Angular Diagram using entity nodes, field rows, and relationship connectors.
 platform: diagram-sdk
-control: ERDiagram 
-publishingplatform: diagram-sdk
+control: ERDiagram
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Entity Relationship Diagram in Angular Diagram
 
-An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erConnectorShapeModel).
+An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram component, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/angular/documentation/api/diagram/erConnectorShapeModel).
 
 ER entity nodes are added to the [nodes](https://ej2.syncfusion.com/angular/documentation/api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/angular/documentation/api/diagram#connectors) property.
 
@@ -181,7 +180,7 @@ erEntityChanged: (args: IErEntityChangedEventArgs): void => {
 
 ## Creating ER relationships
 
-Relationships define how one ER entity is connected to another entity. In the Angular Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorshape#type) property to **Er**.
+Relationships define how one ER entity is connected to another entity. In the Angular Diagram component, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorshape#type) property to **Er**.
 
 | ER Connector Shape Property | Description |
 |---|---|

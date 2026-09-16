@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layers in Angular Diagram | Syncfusion®
-description: Organize diagram elements into named categories in the Syncfusion® Angular Diagram using layers, with bulk visibility, lock, and property control across each layer.
+description: Organize Angular Diagram elements into named layers to bulk-toggle visibility, lock interaction, and store custom metadata per group.
 platform: diagram-sdk
 control: Layers 
 documentation: ug
@@ -177,7 +177,7 @@ The following code illustrates how to remove a layer.
 
 ## MoveObjects
 
-You can move objects from one layer to another dynamically using the [`moveObjects`](https://ej2.syncfusion.com/angular/documentation/api/diagram#moveobjects) public method of the Angular Diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions.
+You can move objects from one layer to another dynamically using the [`moveObjects`](https://ej2.syncfusion.com/angular/documentation/api/diagram#moveobjects) public method of the Angular Diagram component. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions.
 
 The following code illustrates how to move objects from one layer to another layer from the diagram.
 

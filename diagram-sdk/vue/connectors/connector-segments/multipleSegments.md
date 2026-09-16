@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Connectors multiple segments in Vue Diagram
 
-Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to the [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments/) collection. The following code example illustrates how to create a connector with multiple segments.
+Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to the [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) collection. The following code example illustrates how to create a connector with multiple segments.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -25,7 +25,7 @@ Multiple segments can be defined one after another. To create a connector with m
 
 ## Undo/Redo support for connector segments
 
-The Vue Diagram control provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
+The Vue Diagram component provides comprehensive undo and redo functionality for all connector segment operations. This includes reversible actions such as dragging, resizing, and rotating source or target nodes, as well as modifying segment points and endpoints.
 
 Key undo/redo capabilities include:
 
