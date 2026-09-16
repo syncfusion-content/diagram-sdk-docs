@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodes Customization in Angular Diagram | Syncfusion®
-description: Customize node appearance in the Syncfusion® Angular Diagram with fill, stroke, opacity, gradients, and shadows, using getNodeDefaults to set consistent defaults across all nodes.
+description: Apply consistent defaults across every node in the Angular Diagram through a defaults callback to centralize size, style, and shape settings.
 platform: diagram-sdk
 control: Appearence of a nodes 
 documentation: ug

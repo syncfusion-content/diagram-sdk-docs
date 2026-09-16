@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Label Interaction in Angular Diagram | Syncfusion®
-description: Make labels interactive in the Syncfusion® Angular Diagram with selectable, draggable, rotatable, resizable, editable, and read-only modes, plus bounded drag limits on connector labels.
+description: Enable label interaction on Angular Diagram nodes and connectors for select, drag, rotate, resize, and edit operations at runtime.
 platform: diagram-sdk
 control: Label Interaction
 documentation: ug

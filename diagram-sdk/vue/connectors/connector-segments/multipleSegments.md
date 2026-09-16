@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Connectors multiple segments in Vue Diagram
 
-Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to the [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments/) collection. The following code example illustrates how to create a connector with multiple segments.
+Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to the [`segments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) collection. The following code example illustrates how to create a connector with multiple segments.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

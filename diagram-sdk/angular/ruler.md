@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruler in Angular Diagram | Syncfusion®
-description: Add horizontal and vertical rulers to the Syncfusion® Angular Diagram canvas to measure, align, and indicate the cursor position when interacting with diagram elements.
+description: Show horizontal and vertical Rulers in the Angular Diagram to measure element positions and align shapes precisely on the canvas.
 platform: diagram-sdk
 control: Ruler 
 documentation: ug

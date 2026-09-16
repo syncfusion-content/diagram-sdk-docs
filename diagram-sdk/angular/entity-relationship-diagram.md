@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Entity Relationship Diagram in Angular Diagram | Syncfusion®
-description: Model database structures visually in the Syncfusion® Angular Diagram using ER entity nodes with fields and key constraints, connected by ER relationship connectors.
+description: Build Entity Relationship Diagrams in Angular Diagram using entity nodes, field rows, and relationship connectors.
 platform: diagram-sdk
-control: ERDiagram 
-publishingplatform: diagram-sdk
+control: ERDiagram
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

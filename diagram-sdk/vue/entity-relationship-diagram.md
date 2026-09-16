@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Entity Relationship Diagram in Vue Diagram | Syncfusion®
-description: Design entity relationship diagrams in the Syncfusion® Vue Diagram to model database tables, fields, and relationships with customizable entity nodes and ER connectors.
+description: Build Entity Relationship Diagrams in Vue Diagram using entity nodes, field rows, and relationship connectors.
 platform: diagram-sdk
 control: ERDiagram
 documentation: ug

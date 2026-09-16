@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layers in Angular Diagram | Syncfusion®
-description: Organize diagram elements into named categories in the Syncfusion® Angular Diagram using layers, with bulk visibility, lock, and property control across each layer.
+description: Organize Angular Diagram elements into named layers to bulk-toggle visibility, lock interaction, and store custom metadata per group.
 platform: diagram-sdk
 control: Layers 
 documentation: ug
