@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collaborative editing in Vue Diagram | Syncfusion®
+title: Collaborative Editing in Vue Diagram | Syncfusion®
 description: Enable real-time collaborative editing in the Syncfusion® Vue Diagram so multiple users can edit and review the same diagram together.
 control: Diagram
 documentation: ug
@@ -8,7 +8,7 @@ platform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Collaborative editing in Vue Diagram
+# Collaborative Editing in Vue Diagram
 
 Collaborative editing enables multiple users to edit diagrams simultaneously in real-time, providing a seamless collaborative experience in Vue applications.
 
