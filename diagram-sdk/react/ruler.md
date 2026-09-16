@@ -16,7 +16,7 @@ The diagram ruler consists of two components: a horizontal ruler displayed along
 
 ## Define Rulers
 
-The [`rulerSettings`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings) property of Diagram components the visibility and appearance of the ruler in the diagram.
+The [`rulerSettings`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings) property of diagram controls the visibility and appearance of the ruler in the diagram.
 The [`showRulers`](https://ej2.syncfusion.com/react/documentation/api/diagram/rulerSettings#showrulers) property shows or hides the rulers in the diagram.
 
 The following code shows how to add a ruler to the diagram.
