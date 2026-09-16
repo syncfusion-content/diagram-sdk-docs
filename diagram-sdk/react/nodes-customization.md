@@ -83,7 +83,7 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 * [`RadialGradient`](https://ej2.syncfusion.com/react/documentation/api/diagram/radialGradientModel) defines a smooth transition between stops that radiates from a central point in a circular pattern. This creates a spotlight or glow effect on nodes.
 
-A radial gradient's cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
+A radial gradient's `cx`, `cy`, `fx`, `fy` properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
