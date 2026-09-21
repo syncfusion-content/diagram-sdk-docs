@@ -17,7 +17,7 @@ Before you begin, make sure that you have:
 
 - A .NET MAUI development environment. See the [official .NET MAUI installation guide](https://learn.microsoft.com/dotnet/maui/get-started/installation).
 - A supported version of the .NET SDK and Visual Studio for your Syncfusion release.
-- A Syncfusion license key. See [licensing](https://help.syncfusion.com/common/essential-studio/licensing/licensing-overview).
+- A Syncfusion license key. See [licensing](https://help.syncfusion.com/maui/licensing/overview).
 
 > **Note:** Review the release notes for the package version that you plan to install to confirm the supported .NET, .NET MAUI, Visual Studio, and target-platform versions.
 
@@ -64,7 +64,7 @@ public static class MauiProgram
 
 ## Step 4: Register the license key
 
-Register the license key during application startup, before the controls are used. Follow the instructions in the [Syncfusion licensing guide](https://help.syncfusion.com/common/essential-studio/licensing/registering-license-key).
+Register the license key during application startup, before the controls are used. Follow the instructions in the [Syncfusion licensing guide](https://help.syncfusion.com/maui/licensing/how-to-register-in-an-application).
 
 Do not commit a license key to source control. Use the registration method and namespace required by the Syncfusion release used by your project.
 
