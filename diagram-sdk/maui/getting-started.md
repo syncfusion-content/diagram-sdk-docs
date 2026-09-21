@@ -1,3 +1,12 @@
+---
+layout: post
+title: Getting Started with MAUI Diagram | Syncfusion®
+description: Learn how to create a .NET MAUI project, add the Syncfusion® .NET MAUI Diagram (SfDiagram) control, and build a simple diagram with two connected nodes.
+platform: diagram-sdk
+control: SfDiagram
+documentation: ug
+---
+
 # Getting Started with .NET MAUI Diagram
 
 This guide shows how to add the Syncfusion .NET MAUI Diagram control to an application and create a simple diagram with two connected nodes.

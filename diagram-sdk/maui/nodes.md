@@ -1,4 +1,13 @@
-# Nodes
+---
+layout: post
+title: Nodes in MAUI Diagram | Syncfusion®
+description: Learn how to create and customize nodes in the Syncfusion® .NET MAUI Diagram control using the Node class, including position, size, rotation, shapes, annotations, and ports.
+platform: diagram-sdk
+control: SfDiagram
+documentation: ug
+---
+
+# Nodes in .NET MAUI Diagram
 
 Nodes are the primary visual elements used to represent processes, activities, decisions, documents, and other business entities in a diagram.
 
