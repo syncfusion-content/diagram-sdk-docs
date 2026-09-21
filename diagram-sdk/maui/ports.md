@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ports in MAUI Diagram | Syncfusion®
-description: Learn how to add and customize ports in the Syncfusion® .NET MAUI Diagram control using the PointPort class to define precise connector connection points on nodes.
+description: Learn how to add and customize PointPort connections in the Syncfusion® .NET MAUI Diagram control for precise node connector interactions.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

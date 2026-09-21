@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodes in MAUI Diagram | Syncfusion®
-description: Learn how to create and customize nodes in the Syncfusion® .NET MAUI Diagram control using the Node class, including position, size, rotation, shapes, annotations, and ports.
+description: Learn how to create and customize nodes in the Syncfusion® .NET MAUI Diagram control with shapes, annotations, ports, position, size, and rotation.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

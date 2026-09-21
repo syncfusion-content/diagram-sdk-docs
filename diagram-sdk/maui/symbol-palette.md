@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Symbol Palette in MAUI Diagram | Syncfusion®
-description: Learn how to use the SymbolPalette in the Syncfusion® .NET MAUI Diagram control to display reusable symbols and drag them onto the diagram surface to create nodes.
+description: Learn how to use the SymbolPalette in the Syncfusion® .NET MAUI Diagram control to display reusable symbols and drag them onto diagrams.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug

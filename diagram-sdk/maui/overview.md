@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview of MAUI Diagram | Syncfusion®
-description: Overview of the Syncfusion® .NET MAUI Diagram control, which enables creating, visualizing, and interacting with flowcharts, organizational charts, and other diagramming applications.
+description: Overview of the Syncfusion® .NET MAUI Diagram control for creating, visualizing, and interacting with flowcharts and diagramming applications.
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
