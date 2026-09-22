@@ -4,7 +4,6 @@ title: Virtualization in TypeScript Diagram | Syncfusion®
 description: Boost TypeScript Diagram performance on large canvases by loading only nodes and connectors inside the current viewport.
 platform: diagram-sdk
 control: Virtualization 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Port in TypeScript Diagram | Syncfusion®
 description: Glue connectors to specific connection points on a node with ports in the Syncfusion® TypeScript Diagram, supporting node-to-node and port-to-port links.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Port Interaction in TypeScript Diagram | Syncfusion®
 description: Draw connectors from ports and customize port behavior in the Syncfusion® TypeScript Diagram with the port constraints property.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

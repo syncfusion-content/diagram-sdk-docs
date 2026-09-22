@@ -4,7 +4,6 @@ title: Undo and Redo in TypeScript Diagram | Syncfusion®
 description: Track, revert, and restore TypeScript Diagram changes with shortcut keys, public APIs, grouping, and history-stack limits.
 platform: diagram-sdk
 control: Undo redo 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

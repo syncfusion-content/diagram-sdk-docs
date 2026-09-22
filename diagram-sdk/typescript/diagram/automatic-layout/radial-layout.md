@@ -4,7 +4,6 @@ title: Radial Tree in TypeScript Diagram | Syncfusion®
 description: Lay out TypeScript Diagram nodes in concentric rings around a central root, with horizontal and vertical spacing per ring.
 platform: diagram-sdk
 control: Radial tree 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

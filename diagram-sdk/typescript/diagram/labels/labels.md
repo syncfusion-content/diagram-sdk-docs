@@ -4,7 +4,6 @@ title: Annotation in TypeScript Diagram | Syncfusion®
 description: Add and update TypeScript Diagram annotations on nodes and connectors with editable text, ids, and runtime APIs.
 platform: diagram-sdk
 control: Labels 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Orthogonal in TypeScript Diagram | Syncfusion®
 description: Create TypeScript Diagram orthogonal connectors with custom length, direction, and drag-to-edit segment routing.
 platform: diagram-sdk
 control: Orthogonal 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -33,7 +32,7 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSe
 
 N> You need to mention the segment type as same as what you mentioned in connector type. There should be no contradiction between connector type and segment type.
 
-### Orthogonal segment editing
+## Orthogonal segment editing
 
 * Orthogonal thumbs allow you to adjust the length of adjacent segments by clicking and dragging them.
 * When necessary, some segments are added or removed automatically, while dragging the segment. 

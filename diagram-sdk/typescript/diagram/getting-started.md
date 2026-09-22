@@ -4,7 +4,6 @@ title: Getting Started with TypeScript Diagram | Syncfusion®
 description: Set up a TypeScript Diagram project quickly with prerequisites, seed-app cloning, and the basic node/connector usage walkthrough.
 platform: diagram-sdk
 control: Getting started
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

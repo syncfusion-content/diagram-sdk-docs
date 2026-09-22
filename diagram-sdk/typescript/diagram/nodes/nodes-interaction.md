@@ -4,7 +4,6 @@ title: Node Interaction in TypeScript Diagram | Syncfusion®
 description: Select, drag, resize, and rotate TypeScript Diagram nodes interactively or programmatically using public APIs.
 platform: diagram-sdk
 control: Nodes interaction 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -5,7 +5,6 @@ description: Implement ASP.NET Core SignalR hub services with Redis in the Syncf
 platform: diagram-sdk
 control: Diagram
 documentation: ug
-publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 

@@ -4,7 +4,6 @@ title: Annotation Events in TypeScript Diagram | Syncfusion®
 description: Capture keyDown, keyUp, doubleClick, and textEdit events on TypeScript Diagram annotations at runtime.
 platform: diagram-sdk
 control: Label Events
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

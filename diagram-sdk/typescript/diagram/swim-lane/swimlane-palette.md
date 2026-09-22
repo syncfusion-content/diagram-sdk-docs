@@ -4,7 +4,6 @@ title: Swimlane Palette in TypeScript Diagram | Syncfusion®
 description: Add preconfigured Swimlanes and phases to the symbol palette in the Syncfusion® TypeScript Diagram for drag-and-drop reuse.
 platform: diagram-sdk
 control: Swim lane in symbol palette 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -28,7 +27,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 
 
-### Drag and drop swimlane to palette
+## Drag and drop swimlane to palette
 
 * The drag and drop support for swimlane shapes has been provided.
 * Horizontal lanes can be added to vertical swimlanes, and vice versa.

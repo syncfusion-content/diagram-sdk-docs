@@ -4,7 +4,6 @@ title: Shapes in TypeScript Diagram | Syncfusion®
 description: Add text, image, HTML, native, basic, and flow shapes to the Syncfusion® TypeScript Diagram with style, scale, and alignment options.
 platform: diagram-sdk
 control: Shapes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

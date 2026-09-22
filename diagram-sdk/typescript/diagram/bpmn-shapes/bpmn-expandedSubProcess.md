@@ -4,7 +4,6 @@ title: BPMN Expanded SubProcess in TypeScript Diagram | Syncfusion®
 description: Compose child nodes inside an expanded BPMN subProcess in the Syncfusion® TypeScript Diagram for hierarchical process modeling.
 platform: diagram-sdk
 control: Bpmn Expanded subProcess 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -13,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 # BPMN Expanded SubProcess in TypeScript Diagram
 An expanded subProcess can contain certain child processes within it.
 
-### Create BPMN Expanded subProcess
+## Create BPMN Expanded subProcess
 
 To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnActivityModel)  and [`collapsed`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnSubProcessModel#collapsed) as false. Enable [`AllowDrop`](https://ej2.syncfusion.com/documentation/api/diagram/nodeConstraints) constraint for node to allow child to drop inside the expanded subProcess.
 
@@ -32,7 +31,7 @@ To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.
 
 
 
-### Add BPMN nodes into ExpandedSubProcess
+## Add BPMN nodes into ExpandedSubProcess
 
 [`Processes`](https://ej2.syncfusion.com/documentation/api/diagram/bpmnSubProcessModel#processes) is an array collection that defines the children values for BPMN subprocess.
 
@@ -53,7 +52,7 @@ Please refer the following code example.
 
 
 
-### Add BPMN nodes into ExpandedSubProcess at runtime
+## Add BPMN nodes into ExpandedSubProcess at runtime
 
 Drag and drop the BPMN nodes to the BPMN ExpandedSubProcess.
 While resizing or dragging the child element, if the child element bounds are within the ExpandedSubProcess bounds, the ExpandedSubProcess size will be updated along with that.
@@ -62,7 +61,7 @@ The following image shows how to add BPMNNode into the BPMN ExpandedSubProcess a
 
 ![Expanded subProcess BPMN Shape](../images/expanded-Gif.gif)
 
-#### Add/remove Process Programmatically
+### Add/remove Process Programmatically
 
 The process for the expanded sub-process can be added at runtime using the [`addProcess`](https://ej2.syncfusion.com/documentation/api/diagram#addprocess) method and removed at runtime using the [`removeProcess`](https://ej2.syncfusion.com/documentation/api/diagram#removeprocess) method. The following example shows how to add and remove a process at runtime.
 

@@ -4,7 +4,6 @@ title: Localization in TypeScript Diagram | Syncfusion®
 description: Localize the symbol palette search and context menu items in the Syncfusion® TypeScript Diagram by setting the locale property of the component.
 platform: diagram-sdk
 control: Localization 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

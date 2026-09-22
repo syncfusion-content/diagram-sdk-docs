@@ -4,7 +4,6 @@ title: Overview in TypeScript Diagram | Syncfusion®
 description: Show a navigable preview of the entire Syncfusion® TypeScript Diagram with the Overview control, including viewport rectangle and pan/zoom support.
 platform: diagram-sdk
 control: Overview 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

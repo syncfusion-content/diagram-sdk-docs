@@ -4,7 +4,6 @@ title: Scroll Settings in TypeScript Diagram | Syncfusion®
 description: Read and control the horizontal offset, vertical offset, zoom level, and scrollable area of the Syncfusion® TypeScript Diagram.
 platform: diagram-sdk
 control: Scroll settings 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

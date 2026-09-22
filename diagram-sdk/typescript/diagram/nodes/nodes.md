@@ -4,7 +4,6 @@ title: Nodes in TypeScript Diagram | Syncfusion®
 description: Create TypeScript Diagram nodes from a collection or runtime API, set position, size, style, and id constraints.
 platform: diagram-sdk
 control: Nodes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

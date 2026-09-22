@@ -4,7 +4,6 @@ title: BPMN Events in TypeScript Diagram | Syncfusion®
 description: Represent start, intermediate, and end events in a BPMN process with the Syncfusion® TypeScript Diagram event shape and trigger configuration.
 platform: diagram-sdk
 control: Bpmn Events 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Persistence in TypeScript Workflow Designer control | Syncfusion
 description: Checkout and learn about persistence in TypeScript Workflow Designer control of Syncfusion Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/workflow-designer
 ---

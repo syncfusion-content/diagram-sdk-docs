@@ -4,7 +4,6 @@ title: Mind Map in TypeScript Diagram | Syncfusion®
 description: Create TypeScript Diagram mind maps with horizontal or vertical orientation and custom branch direction per node.
 platform: diagram-sdk
 control: Mind map 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Node Expand and Collapse in TypeScript Diagram | Syncfusion®
 description: Show expand and collapse icons on TypeScript Diagram parent nodes to compress hierarchies and reveal children on demand.
 platform: diagram-sdk
 control: Expand and collapse of nodes
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

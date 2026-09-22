@@ -4,7 +4,6 @@ title: Node Annotation in TypeScript Diagram | Syncfusion®
 description: Position TypeScript Diagram node annotations with offset, margin, horizontal and vertical alignment relative to node bounds.
 platform: diagram-sdk
 control: Node Labels 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

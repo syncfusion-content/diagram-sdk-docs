@@ -4,7 +4,6 @@ title: CSS Structure in TypeScript Diagram | Syncfusion®
 description: Customize the CSS structure of the Syncfusion® TypeScript Diagram, including connector end point handles, resize thumbs, and selection visuals.
 platform: diagram-sdk
 control: Style 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

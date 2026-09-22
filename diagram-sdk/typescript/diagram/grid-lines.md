@@ -4,7 +4,6 @@ title: Gridlines in TypeScript Diagram | Syncfusion®
 description: Show and customize horizontal and vertical gridlines in the Syncfusion® TypeScript Diagram, with dot patterns, line intervals, and snap-to-lines support.
 platform: diagram-sdk
 control: Grid lines 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Bezier in TypeScript Diagram | Syncfusion®
 description: Create bezier TypeScript Diagram connectors with configurable control points or vector-based curve segments.
 platform: diagram-sdk
 control: Connectors 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -26,7 +25,7 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs13" %}
 
-### Bezier segment editing
+## Bezier segment editing
 
 * A segment control point of the Bezier connector is used to change the bezier vectors and points of the connector.
 

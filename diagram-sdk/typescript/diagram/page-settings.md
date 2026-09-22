@@ -4,7 +4,6 @@ title: Page Settings in TypeScript Diagram | Syncfusion®
 description: Set the page width, height, background color, and margins of the Syncfusion® TypeScript Diagram using the pageSettings property.
 platform: diagram-sdk
 control: Page settings 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Connectors in TypeScript Diagram | Syncfusion®
 description: Create TypeScript Diagram connectors between points, nodes, or ports and add or remove them at runtime.
 platform: diagram-sdk
 control: Connectors 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

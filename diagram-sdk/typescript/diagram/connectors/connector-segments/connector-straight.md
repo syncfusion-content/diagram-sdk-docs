@@ -4,7 +4,6 @@ title: Straight in TypeScript Diagram | Syncfusion®
 description: Draw straight TypeScript Diagram connectors by adding a Straight segment with a point and editing ends at runtime.
 platform: diagram-sdk
 control: Straight 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -36,7 +35,7 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs8" %}
 
-### Straight segment editing
+## Straight segment editing
 
 End point of each straight segment is represented by a thumb that enables to edit the segment.
 Any number of new segments can be inserted into a straight line by clicking when Shift and Ctrl keys are pressed (Ctrl+Shift+Click).

@@ -4,7 +4,6 @@ title: BPMN Text Annotation in TypeScript Diagram | Syncfusion®
 description: Attach text annotations to BPMN shapes in the Syncfusion® TypeScript Diagram to add context that does not affect the process flow.
 platform: diagram-sdk
 control: Bpmn Text annotation 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

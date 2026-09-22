@@ -4,7 +4,6 @@ title: Connector Port in TypeScript Diagram | Syncfusion®
 description: Add a port collection to a connector in the Syncfusion® TypeScript Diagram to define connection points for connector-level links.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
