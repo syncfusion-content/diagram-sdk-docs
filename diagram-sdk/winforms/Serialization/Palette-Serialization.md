@@ -5,6 +5,7 @@ description: Learn about palette serialization in the Syncfusion® Windows Forms
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Palette Serialization in Windows Forms Diagram

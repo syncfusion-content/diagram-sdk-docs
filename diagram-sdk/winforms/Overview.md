@@ -5,6 +5,7 @@ description: Learn about the introduction, key features, compatibility, and docu
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # About Syncfusion® Windows Forms Diagram Control

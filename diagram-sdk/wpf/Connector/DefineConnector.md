@@ -5,6 +5,7 @@ description: Learn about connectors in Syncfusion® WPF Diagram control, includi
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Connector in WPF Diagram

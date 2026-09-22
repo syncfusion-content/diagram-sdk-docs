@@ -5,6 +5,7 @@ description: Learn about annotation positioning and appearance in Syncfusion® W
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Annotation Positioning and Appearance in WPF Diagram

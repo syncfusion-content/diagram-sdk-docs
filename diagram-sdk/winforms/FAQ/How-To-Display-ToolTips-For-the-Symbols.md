@@ -5,6 +5,7 @@ description: Learn how to display tooltips for symbols in the Syncfusion® Windo
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Display Tooltips for Symbols in Windows Forms Diagram

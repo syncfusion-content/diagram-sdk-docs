@@ -5,6 +5,7 @@ description: Create balanced mind maps in Syncfusion® WPF Diagram with customiz
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # MindMap Tree Layout in WPF Diagram

@@ -5,6 +5,7 @@ description: Learn how to customize the appearance of selection handles, resize 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Customize Selection Handles in Windows Forms Diagram

@@ -5,6 +5,7 @@ description: Learn how to get a node at a specific point or under the mouse loca
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Get Node at a Point or Mouse Location in Windows Forms Diagram

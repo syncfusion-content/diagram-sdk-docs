@@ -5,6 +5,7 @@ description: Learn how to import Visio stencils into the Syncfusion® Windows Fo
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Import Visio Stencils in Windows Forms Diagram

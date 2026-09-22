@@ -5,6 +5,7 @@ description: Learn how to smooth out the edges, lines, and curves of shapes in t
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Smooth out Shape Edges in Windows Forms Diagram

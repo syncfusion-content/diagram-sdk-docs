@@ -5,6 +5,7 @@ description: Learn here all about installation and deployment of Syncfusion® Wi
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 ## Installation And Deployment in Windows Forms Diagram

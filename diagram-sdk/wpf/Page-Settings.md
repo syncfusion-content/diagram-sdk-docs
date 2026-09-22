@@ -5,6 +5,7 @@ description: Customize page settings in Syncfusion® WPF Diagram, including page
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Page Settings in WPF Diagram

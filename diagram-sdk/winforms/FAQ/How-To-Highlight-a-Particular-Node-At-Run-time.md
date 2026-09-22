@@ -5,6 +5,7 @@ description: Learn how to highlight a specific node at run time in the Syncfusio
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Highlight a Node at Run time in Windows Forms Diagram

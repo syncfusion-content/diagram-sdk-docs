@@ -5,6 +5,7 @@ description: Learn how to get the nearest grid point on a diagram in the Syncfus
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Get the Nearest Grid Point in Windows Forms Diagram

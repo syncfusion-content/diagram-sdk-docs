@@ -5,6 +5,7 @@ description: Configure scrolling behavior in the Syncfusion® Windows Forms Diag
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 

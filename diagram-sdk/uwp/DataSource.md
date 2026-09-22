@@ -5,6 +5,7 @@ description: Learn how to bind and visualize data in the Syncfusion® UWP Diagra
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # DataSource in UWP Diagram

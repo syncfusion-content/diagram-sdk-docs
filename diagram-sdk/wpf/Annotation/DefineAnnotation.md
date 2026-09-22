@@ -5,6 +5,7 @@ description: Learn about annotations in Syncfusion® WPF Diagram control, includ
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Annotations in WPF Diagram
