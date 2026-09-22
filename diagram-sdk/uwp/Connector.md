@@ -5,6 +5,7 @@ description: Learn about connectors in the Syncfusion® UWP Diagram control, inc
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Connector in UWP Diagram

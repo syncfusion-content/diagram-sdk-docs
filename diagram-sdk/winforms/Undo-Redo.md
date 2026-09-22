@@ -5,6 +5,7 @@ description: Manage undo and redo operations in the Syncfusion® Windows Forms D
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Undo / Redo in Windows Forms Diagram

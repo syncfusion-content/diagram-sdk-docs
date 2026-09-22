@@ -5,6 +5,7 @@ description: Learn how to change the SelectTool selection mode in the Syncfusion
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Change the Selection Mode of the SelectTool in WinForms Diagram

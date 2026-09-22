@@ -5,6 +5,7 @@ description: Learn how to find and highlight the nearest connection point while 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Find and Highlight the Nearest Port in Windows Forms Diagram

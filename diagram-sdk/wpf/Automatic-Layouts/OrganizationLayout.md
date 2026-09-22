@@ -5,6 +5,7 @@ description: Build organizational charts in Syncfusion® WPF Diagram with custom
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Organization Layout in WPF Diagram

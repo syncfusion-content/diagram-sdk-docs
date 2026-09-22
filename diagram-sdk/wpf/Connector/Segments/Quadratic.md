@@ -5,6 +5,7 @@ description: Learn about quadratic curve connector segments in Syncfusion® WPF 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Quadratic Curve Segments in WPF Diagram

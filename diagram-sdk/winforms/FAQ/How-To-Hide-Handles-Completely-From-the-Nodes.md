@@ -5,6 +5,7 @@ description: Learn how to hide selection handles completely from nodes in the Sy
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 # How to Hide Handles completely From Nodes in Windows Forms Diagram
 

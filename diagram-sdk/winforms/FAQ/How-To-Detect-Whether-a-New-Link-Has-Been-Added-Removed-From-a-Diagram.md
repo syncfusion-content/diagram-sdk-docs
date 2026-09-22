@@ -5,6 +5,7 @@ description: Learn how to detect when links are added or removed in the Syncfusi
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Detect Link Additions and Removals in Windows Forms Diagram

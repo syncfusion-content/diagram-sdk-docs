@@ -5,6 +5,7 @@ description: Create and manage reusable symbols in Syncfusion® WPF Diagram Sten
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Stencil in WPF Diagram

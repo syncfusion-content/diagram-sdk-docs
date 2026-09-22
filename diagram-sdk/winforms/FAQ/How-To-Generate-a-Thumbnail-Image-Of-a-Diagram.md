@@ -5,6 +5,7 @@ description: Learn how to generate a thumbnail image of a diagram in the Syncfus
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Generate a Thumbnail Image of a Diagram in WinForms Diagram

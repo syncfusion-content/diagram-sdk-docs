@@ -5,6 +5,7 @@ description: Arrange nodes in a hierarchical tree structure in Syncfusion® WPF 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Hierarchical Tree Layout in WPF Diagram

@@ -5,6 +5,7 @@ description: Learn how to remove the gray area around a diagram in the Syncfusio
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Remove the Gray Area Around a Diagram in Windows Forms Diagram

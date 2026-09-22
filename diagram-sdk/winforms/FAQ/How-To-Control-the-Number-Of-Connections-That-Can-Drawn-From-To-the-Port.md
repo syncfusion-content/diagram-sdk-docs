@@ -5,6 +5,7 @@ title: How to control connection count in Windows Forms Diagram | Syncfusion®
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Control Connections Count of a Port in Windows Forms Diagram

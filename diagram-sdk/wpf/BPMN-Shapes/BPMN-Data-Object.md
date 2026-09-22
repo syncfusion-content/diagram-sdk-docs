@@ -5,6 +5,7 @@ description: Learn about BPMN data objects in Syncfusion® WPF Diagram control, 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 # Data Object in WPF Diagram
 

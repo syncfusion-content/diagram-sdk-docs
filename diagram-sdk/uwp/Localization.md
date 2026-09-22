@@ -5,6 +5,7 @@ description: Learn about localization in the Syncfusion® UWP Diagram control, i
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Localization in UWP Diagram

@@ -5,6 +5,7 @@ description: Learn about container in Syncfusion® WPF Diagram control, includin
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Container in WPF Diagram

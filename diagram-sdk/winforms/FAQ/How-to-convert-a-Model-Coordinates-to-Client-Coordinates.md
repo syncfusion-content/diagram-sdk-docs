@@ -5,6 +5,7 @@ description: Learn how to convert model coordinates to client coordinates in the
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Convert Model to Client Coordinates in Windows Forms Diagram
