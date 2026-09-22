@@ -4,7 +4,6 @@ title: UML Diagram Shapes in TypeScript Diagram | Syncfusion®
 description: Model class, interface, enumeration, and relationship shapes in the Syncfusion® TypeScript Diagram for UML class diagrams.
 platform: diagram-sdk
 control: Umldiagram 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: BPMN Flow Connectors in TypeScript Diagram | Syncfusion®
 description: Connect BPMN flow objects with Association, Sequence, and Message flows in the Syncfusion® TypeScript Diagram control.
 platform: diagram-sdk
 control: Bpmn Flows
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Multiple Segments in TypeScript Diagram | Syncfusion®
 description: Chain multiple TypeScript Diagram connector segments for complex routes and undo/redo edits to points and endpoints.
 platform: diagram-sdk
 control: Multiple segments
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

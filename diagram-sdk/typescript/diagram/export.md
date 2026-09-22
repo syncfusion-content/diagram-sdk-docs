@@ -4,7 +4,6 @@ title: Exporting in TypeScript Diagram | Syncfusion®
 description: Export the TypeScript Diagram to JPG, PNG, or SVG with options for bounds, region, margin, multi-page, and download mode.
 platform: diagram-sdk
 control: Export 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

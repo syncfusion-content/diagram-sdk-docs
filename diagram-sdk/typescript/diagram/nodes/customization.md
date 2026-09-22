@@ -4,7 +4,6 @@ title: Node Customization in TypeScript Diagram | Syncfusion®
 description: Style TypeScript Diagram nodes with custom fills, strokes, gradients, icons, and getNodeDefaults for shared defaults.
 platform: diagram-sdk
 control: Appearence of nodes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

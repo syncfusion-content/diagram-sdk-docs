@@ -4,7 +4,6 @@ title: UML Sequence Diagram in TypeScript Diagram | Syncfusion®
 description: Model interactions and message order in a UML Sequence Diagram with participants, lifelines, activations, and fragments in the Syncfusion® TypeScript Diagram.
 platform: diagram-sdk
 control: UmlSequenceDiagram 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

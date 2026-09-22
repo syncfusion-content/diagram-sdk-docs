@@ -4,7 +4,6 @@ title: Complex Hierarchical Tree in TypeScript Diagram | Syncfusion®
 description: Build complex hierarchical TypeScript Diagrams where any child can have multiple parents using the ComplexHierarchicalTree layout.
 platform: diagram-sdk
 control: Complex hierarchical tree  
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

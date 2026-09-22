@@ -4,7 +4,6 @@ title: Constraints in TypeScript Diagram | Syncfusion®
 description: Enable or disable specific TypeScript Diagram, node, and connector behaviors using bitwise constraint flags.
 platform: diagram-sdk
 control: Constraints 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Import and Export Visio files in TypeScript Diagram | Syncfusion®
 description: Import and export Microsoft Visio (.vsdx) diagrams in the TypeScript Diagram, including page, shape, and connector mapping.
 platform: diagram-sdk
 control: Diagram
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

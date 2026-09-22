@@ -4,7 +4,6 @@ title: Context Menu in TypeScript Diagram | Syncfusion®
 description: Add default and custom right-click context menus in the Syncfusion® TypeScript Diagram with nested items, icons, URLs, and visibility filters.
 platform: diagram-sdk
 control: Context menu 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

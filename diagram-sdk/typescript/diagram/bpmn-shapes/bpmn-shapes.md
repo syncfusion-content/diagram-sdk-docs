@@ -4,7 +4,6 @@ title: BPMN Shapes in TypeScript Diagram | Syncfusion®
 description: Model business processes in the Syncfusion® TypeScript Diagram with built-in BPMN shapes including events, gateways, activities, and flows.
 platform: diagram-sdk
 control: Bpmn shapes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

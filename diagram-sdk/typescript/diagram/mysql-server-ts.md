@@ -3,8 +3,7 @@ layout: post
 title: How to Connect MySQL in TypeScript Diagram | Syncfusion®
 description: Connect TypeScript Diagram to a MySQL database using LINQ2DB and an ASP.NET Core Web API to render an org chart.
 platform: diagram-sdk
-control: diagram
-documentation: ug
+control: diagramdocumentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
@@ -66,7 +65,7 @@ MySQL Server provides the relational database engine used to store organizationa
 
 MySQL Workbench is a graphical tool used to connect to MySQL Server, manage databases, execute SQL queries, and inspect data.
 
-1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://dev.mysql.com/downloads/workbench)
+1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://dev.mysql.com/downloads/workbench/)
 2. Run the installer and follow the setup wizard.
    - Choose the setup type as **Complete**.
    - Click **Finish** after installing MySQL Workbench.

@@ -4,7 +4,6 @@ title: BPMN Data Source in TypeScript Diagram | Syncfusion®
 description: Store and access process data in a BPMN diagram using the DataSource shape in the Syncfusion® TypeScript Diagram control.
 platform: diagram-sdk
 control: Bpmn DataSource 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

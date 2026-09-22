@@ -4,7 +4,6 @@ title: Printing in TypeScript Diagram | Syncfusion®
 description: Print the TypeScript Diagram with custom regions, multi-page output, margins, and configurable page width and orientation.
 platform: diagram-sdk
 control: Print 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

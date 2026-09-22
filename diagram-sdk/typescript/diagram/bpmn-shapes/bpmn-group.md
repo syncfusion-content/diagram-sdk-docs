@@ -4,7 +4,6 @@ title: BPMN Group in TypeScript Diagram | Syncfusion®
 description: Visually group related BPMN elements in the Syncfusion® TypeScript Diagram using a labeled group shape that frames a part of the diagram.
 platform: diagram-sdk
 control: Bpmn Group 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Connector Segments in TypeScript Diagram | Syncfusion®
 description: Build TypeScript Diagram connector paths from straight, orthogonal, and bezier segment types in one collection.
 platform: diagram-sdk
 control: Segments 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

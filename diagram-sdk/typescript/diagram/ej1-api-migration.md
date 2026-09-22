@@ -4,7 +4,6 @@ title: EJ1 Migration in TypeScript Diagram | Syncfusion®
 description: Migrate Diagram APIs from Essential® JS 1 to Essential® JS 2 with side-by-side property, method, and event mappings.
 platform: diagram-sdk
 control: Ej1 api migration 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

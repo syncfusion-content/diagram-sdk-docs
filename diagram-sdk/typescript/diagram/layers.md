@@ -4,7 +4,6 @@ title: Layers in TypeScript Diagram | Syncfusion®
 description: Group TypeScript Diagram shapes into named layers to selectively show, hide, lock, and store custom metadata.
 platform: diagram-sdk
 control: Layers 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

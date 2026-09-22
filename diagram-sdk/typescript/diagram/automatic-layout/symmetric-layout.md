@@ -4,7 +4,6 @@ title: Symmetric Layout in TypeScript Diagram | Syncfusion®
 description: Position TypeScript Diagram nodes with symmetric force-directed layout using spring length, factor, and iteration settings.
 platform: diagram-sdk
 control: Symmetric 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

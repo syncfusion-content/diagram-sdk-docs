@@ -4,7 +4,6 @@ title: Tooltip in TypeScript Diagram | Syncfusion®
 description: Show default and custom tooltips on diagram elements in the Syncfusion® TypeScript Diagram while dragging, resizing, rotating, or hovering nodes.
 platform: diagram-sdk
 control: Tool tip 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

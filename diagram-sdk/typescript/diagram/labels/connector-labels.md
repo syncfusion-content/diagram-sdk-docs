@@ -4,7 +4,6 @@ title: Connector Annotation in TypeScript Diagram | Syncfusion®
 description: Position TypeScript Diagram connector annotations with offset, alignment, displacement, segment angle, and margin.
 platform: diagram-sdk
 control: Connector Labels
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

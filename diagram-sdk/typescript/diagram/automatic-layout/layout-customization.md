@@ -4,7 +4,6 @@ title: Layout Customization in TypeScript Diagram | Syncfusion®
 description: Customize TypeScript Diagram automatic-layout bounds, alignment, margins, spacing, and orientation at runtime.
 platform: diagram-sdk
 control: Customizing layout
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

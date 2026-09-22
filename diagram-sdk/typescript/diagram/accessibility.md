@@ -4,7 +4,6 @@ title: Accessibility in TypeScript Diagram | Syncfusion®
 description: Build accessible diagrams in the Syncfusion® TypeScript Diagram with WAI-ARIA support, keyboard navigation, and screen reader compatibility.
 platform: diagram-sdk
 control: Accessibility 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

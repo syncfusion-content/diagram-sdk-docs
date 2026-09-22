@@ -4,7 +4,6 @@ title: BPMN Data Object in TypeScript Diagram | Syncfusion®
 description: Show data flowing through a BPMN process in the Syncfusion® TypeScript Diagram using input, output, and collection DataObject shapes.
 platform: diagram-sdk
 control: Bpmn DataObject 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

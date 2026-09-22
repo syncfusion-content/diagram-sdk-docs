@@ -4,7 +4,6 @@ title: Symbol Palette Events in TypeScript Diagram | Syncfusion®
 description: React to TypeScript Symbol Palette drag enter, leave, and over events to style and validate dropped shapes.
 platform: diagram-sdk
 control: Symbol palette 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

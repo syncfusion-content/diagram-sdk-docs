@@ -4,7 +4,6 @@ title: Bezier Segment Edit Orientation in TypeScript Diagram | Syncfusion®
 description: Edit bezier TypeScript Diagram segment intermediate points in bidirectional or freeform drag orientation.
 platform: diagram-sdk
 control: Bezier Segment edit orientation
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

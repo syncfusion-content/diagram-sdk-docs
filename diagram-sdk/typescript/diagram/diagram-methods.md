@@ -4,7 +4,6 @@ title: Diagram Properties in TypeScript Diagram | Syncfusion®
 description: Call Syncfusion® TypeScript Diagram methods like getDiagramBounds, refresh, clear, destroy, and getCustomTool to manage the diagram programmatically.
 platform: diagram-sdk
 control: Diagram API 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

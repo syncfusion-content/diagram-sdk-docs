@@ -4,7 +4,6 @@ title: Port Appearance in TypeScript Diagram | Syncfusion®
 description: Style and size ports in the Syncfusion® TypeScript Diagram with strokeColor, fill, opacity, width, height, and visibility settings.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -33,7 +32,7 @@ The following code illustrates how to change the appearance of port.
 
 
 
-### Change appearance of port at runtime
+## Change appearance of port at runtime
 
 The appearance of port can be changed at runtime by customizing the style of port. The following code illustrates how to change the appearance of port at runtime.
 

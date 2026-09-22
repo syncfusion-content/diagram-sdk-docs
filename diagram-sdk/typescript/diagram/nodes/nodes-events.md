@@ -4,7 +4,6 @@ title: Node Events in TypeScript Diagram | Syncfusion®
 description: Handle TypeScript Diagram node click, selection change, double-click, key events, and drag with runtime event args.
 platform: diagram-sdk
 control: Events of node 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

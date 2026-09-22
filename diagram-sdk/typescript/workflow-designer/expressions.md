@@ -2,9 +2,8 @@
 layout: post
 title: Expressions in TypeScript Workflow Designer control | Syncfusion
 description: Checkout and learn about expressions in TypeScript Workflow Designer control of Syncfusion Workflow Designer.
-platform: ej2-typescript
+platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: ej2-typescript
 documentation: ug
 domainurl: https://help.syncfusion.com/workflow-designer
 ---

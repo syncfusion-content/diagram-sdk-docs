@@ -4,7 +4,6 @@ title: Automatic Layout in TypeScript Diagram | Syncfusion®
 description: Auto-arrange TypeScript Diagram nodes with hierarchical, mind map, radial, symmetric, org chart, or flowchart layouts.
 platform: diagram-sdk
 control: Automatic layout 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

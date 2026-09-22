@@ -4,7 +4,6 @@ title: Annotation Appearance in TypeScript Diagram | Syncfusion®
 description: Style TypeScript Diagram annotation text with font size, color, bold, fill, stroke, and opacity properties.
 platform: diagram-sdk
 control: Label Appearance 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

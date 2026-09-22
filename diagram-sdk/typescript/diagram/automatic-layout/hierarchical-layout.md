@@ -4,7 +4,6 @@ title: Hierarchical Tree in TypeScript Diagram | Syncfusion®
 description: Render TypeScript Diagram hierarchical trees from nodes and connectors or a DataSource with auto parent-child layout.
 platform: diagram-sdk
 control: Hierarchical tree 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

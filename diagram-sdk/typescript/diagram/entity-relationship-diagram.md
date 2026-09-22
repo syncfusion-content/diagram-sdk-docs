@@ -4,7 +4,6 @@ title: Entity Relationship Diagram in TypeScript Diagram | Syncfusion®
 description: Learn how to create and customize Entity Relationship Diagrams in the Syncfusion® TypeScript Diagram control.
 platform: diagram-sdk
 control: ERDiagram
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

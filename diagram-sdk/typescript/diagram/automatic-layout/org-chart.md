@@ -4,7 +4,6 @@ title: Organizational Chart in TypeScript Diagram | Syncfusion®
 description: Render TypeScript Diagram organizational charts from a DataSource or explicit nodes, with assistant and getLayoutInfo.
 platform: diagram-sdk
 control: Org-chart 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

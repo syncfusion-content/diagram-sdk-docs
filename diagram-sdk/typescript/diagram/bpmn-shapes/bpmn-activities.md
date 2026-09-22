@@ -4,7 +4,6 @@ title: BPMN Activity in TypeScript Diagram | Syncfusion®
 description: Model tasks and subprocesses as BPMN activities in the Syncfusion® TypeScript Diagram with task, sub-process, and call activity types.
 platform: diagram-sdk
 control: Bpmn Activity 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

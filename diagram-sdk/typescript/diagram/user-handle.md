@@ -4,7 +4,6 @@ title: Userhandle in TypeScript Diagram | Syncfusion®
 description: Add custom user handles around the selector in the Syncfusion® TypeScript Diagram to expose frequently used commands for nodes, connectors, and groups.
 platform: diagram-sdk
 control: User handle 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
