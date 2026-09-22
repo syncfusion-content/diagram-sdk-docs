@@ -5,6 +5,7 @@ description: Learn about page settings in the Syncfusion® UWP Diagram control, 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Page Settings in UWP Diagram

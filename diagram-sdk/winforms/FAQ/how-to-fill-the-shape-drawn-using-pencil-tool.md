@@ -5,6 +5,7 @@ description: Learn how to create and fill shapes drawn using the Pencil Tool in 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Fill Shapes drawn by the Pencil Tool in Windows Forms Diagram

@@ -5,6 +5,7 @@ description: Use clipboard commands in Syncfusion® WPF Diagram to cut, copy, pa
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Clipboard Commands in WPF Diagram

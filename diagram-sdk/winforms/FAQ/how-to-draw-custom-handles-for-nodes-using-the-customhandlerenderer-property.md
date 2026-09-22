@@ -5,6 +5,7 @@ description: Learn how to draw custom handles for nodes in the Syncfusion® Wind
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Draw Custom Handles for Nodes in Windows Forms Diagram

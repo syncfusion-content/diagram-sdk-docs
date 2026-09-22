@@ -5,6 +5,7 @@ description: Fit diagram content within the view in Syncfusion® WPF Diagram usi
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # FitToPage Command in WPF Diagram

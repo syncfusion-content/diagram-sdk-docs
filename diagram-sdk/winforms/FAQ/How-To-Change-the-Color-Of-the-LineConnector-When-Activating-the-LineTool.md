@@ -5,6 +5,7 @@ description: Learn how to change the LineConnector color when activating the Lin
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Change the Color of Connector in Windows Forms Diagram

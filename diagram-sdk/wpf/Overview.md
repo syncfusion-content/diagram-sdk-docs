@@ -6,6 +6,7 @@ description: Learn about the introduction of Syncfusion® Essential Studio WPF D
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # About WPF Diagram Control

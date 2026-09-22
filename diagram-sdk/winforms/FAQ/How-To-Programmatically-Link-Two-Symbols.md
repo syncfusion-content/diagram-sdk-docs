@@ -5,6 +5,7 @@ description: Learn how to programmatically link two symbols in the Syncfusion® 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Programmatically Link Two Symbols in Windows Forms Diagram

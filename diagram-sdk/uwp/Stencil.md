@@ -5,6 +5,7 @@ description: Learn about the stencil in the Syncfusion® UWP Diagram control, in
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Stencil in UWP Diagram

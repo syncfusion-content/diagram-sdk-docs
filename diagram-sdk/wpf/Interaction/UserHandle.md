@@ -5,6 +5,7 @@ description: Use quick commands in Syncfusion® WPF Diagram to perform common ac
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Quick Command in WPF Diagram

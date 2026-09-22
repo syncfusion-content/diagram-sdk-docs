@@ -5,6 +5,7 @@ description: Learn how to combine multiple actions into a single atomic action i
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Combine Actions into an Atomic Action in Windows Forms Diagram

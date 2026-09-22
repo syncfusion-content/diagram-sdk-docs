@@ -5,6 +5,7 @@ description: Manage scrolling in Syncfusion® WPF Diagram with scroll status tra
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Scroll Settings in WPF Diagram

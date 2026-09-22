@@ -5,6 +5,7 @@ description: Learn how to retrieve port information from a symbol in the Syncfus
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Retrieve Port Information of a Symbol in Windows Forms Diagram

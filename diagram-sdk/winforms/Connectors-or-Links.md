@@ -5,6 +5,7 @@ title: Connectors or Links in Windows Forms Diagram | Syncfusion®
 description: Learn about connectors and links in the Syncfusion® Windows Forms Diagram control, including routing, bridging, decorators, and customization options.
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Connectors or Links in Windows Forms Diagram

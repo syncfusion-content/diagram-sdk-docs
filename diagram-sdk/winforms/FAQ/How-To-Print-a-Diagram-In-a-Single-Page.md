@@ -5,6 +5,7 @@ description: Learn how to print a diagram on a single page in the Syncfusion® W
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Print a Diagram on a Single Page in Windows Forms Diagram

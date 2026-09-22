@@ -5,6 +5,7 @@ description: Move selected diagram elements in Syncfusion® WPF Diagram using nu
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Nudge Commands in WPF Diagram
