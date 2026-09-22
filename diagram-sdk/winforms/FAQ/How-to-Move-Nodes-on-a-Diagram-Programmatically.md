@@ -5,6 +5,7 @@ description: Learn how to move nodes programmatically in the Syncfusion® Window
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Move Nodes Programmatically in Windows Forms Diagram

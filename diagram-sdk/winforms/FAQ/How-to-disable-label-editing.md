@@ -5,6 +5,7 @@ description: Learn how to disable label editing for specific nodes or the entire
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Disable Label Editing in Windows Forms Diagram

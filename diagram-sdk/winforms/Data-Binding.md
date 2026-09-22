@@ -5,6 +5,7 @@ title: Data Binding in Windows Forms Diagram | Syncfusion®
 description: Learn about data binding in the Syncfusion® Windows Forms Diagram control, including XML and database binding for nodes and connectors.
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Data Binding in Windows Forms Diagram

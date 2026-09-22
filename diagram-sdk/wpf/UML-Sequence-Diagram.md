@@ -5,6 +5,7 @@ description: Learn about the UML Sequence Diagram Model in Syncfusion® WPF Diag
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # UML Sequence Diagram Model in WPF Diagram

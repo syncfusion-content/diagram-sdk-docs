@@ -5,6 +5,7 @@ description: Learn how to retain a label's custom position while resizing a node
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Retain Label Position while Resizing Node in WinForms Diagram

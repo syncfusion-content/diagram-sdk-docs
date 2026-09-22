@@ -5,6 +5,7 @@ description: Learn how to retrieve connector vertex points in the Syncfusion® W
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Get a Connector Vertex Point in Windows Forms Diagram

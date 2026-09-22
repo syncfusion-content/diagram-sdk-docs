@@ -5,6 +5,7 @@ description: Learn how to place nodes outside the diagram model bounds in the Sy
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Place Nodes Outside Diagram Bounds in Windows Forms Diagram

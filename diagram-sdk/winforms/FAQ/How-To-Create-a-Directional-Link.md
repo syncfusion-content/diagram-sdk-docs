@@ -5,6 +5,7 @@ description: Learn how to create a directional link in the Syncfusion® Windows 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How To Create a Directional Link in Windows Forms Diagram

@@ -5,6 +5,7 @@ description: Learn how to export a diagram from the Syncfusion® Windows Forms D
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Export a Diagram into a Word Document in Windows Forms Diagram

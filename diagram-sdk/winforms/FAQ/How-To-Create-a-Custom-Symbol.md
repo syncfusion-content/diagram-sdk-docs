@@ -5,6 +5,7 @@ description: Learn how to create and use custom symbols in the Syncfusion® Wind
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Create a Custom Symbol in Windows Forms Diagram

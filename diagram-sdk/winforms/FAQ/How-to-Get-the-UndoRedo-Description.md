@@ -5,6 +5,7 @@ description: Learn how to retrieve undo and redo descriptions from the Syncfusio
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Get Undo and Redo Descriptions in Windows Forms Diagram

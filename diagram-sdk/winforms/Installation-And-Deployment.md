@@ -5,13 +5,14 @@ description: Learn here all about installation and deployment of Syncfusion® Wi
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
-## Installation And Deployment in Windows Forms Diagram
+# Installation And Deployment in Windows Forms Diagram
 
 This section covers information on the install location, samples, licensing, patches update and updation of the recent version of Essential Studio®. It comprises the following sub-sections:
 
-### Installation
+## Installation
 
 For step-by-step installation procedure for the installation of Essential Studio®, refer to the Installation topic under Installation and Deployment in the Common UG.
 
@@ -23,7 +24,7 @@ For licensing, patches and information on adding or removing selective component
 * Patches
 * Add / Remove Components
 
-### Sample And Location
+## Sample And Location
 
 
 This section covers the location of the installed samples and describes the procedure to run the samples through the sample browser. It also lists the location of source code.
@@ -86,17 +87,17 @@ The source code for Essential® Diagram Windows is available at the following de
 
 [System Drive]:\Program Files\Syncfusion\Essential Studio\[Version Number]\Windows\Diagram.Windows\Src
 
-### Deployment Requirements
+## Deployment Requirements
 
 This section provides deployment requirements for using Essential® Diagram under the following topics:
 
-#### Toolbox Entries
+### Toolbox Entries
 
 Essential® Diagram places the following controls into your Visual Studio .NET toolbox from where you can drag each control onto a form and start working with it.
 
 * Diagram
 
-#### Assemblies
+### Assemblies
 
 
 The following assemblies need to be referenced in your application for using Diagram control:

@@ -5,6 +5,7 @@ description: Learn about ports in the Syncfusion® UWP Diagram control, includin
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Port in the UWP Diagram
