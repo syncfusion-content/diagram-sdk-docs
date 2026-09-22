@@ -44,18 +44,20 @@ conditions: [
 
 Fields that accept text interpolate an expression wrapped in double braces.
 
+{% raw %}
 ```ts
 
 props: {
     reviewers: [{ type: 'Role', value: 'Finance Manager' }],
     requestMessage: 'Approve this claim?',
     requestFields: [
-        { label: 'Amount', value: '{% raw %}{{$.input.response.amount}}{% endraw %}' },
-        { label: 'Category', value: '{% raw %}{{$.input.response.category}}{% endraw %}' }
+        { label: 'Amount', value: '{{$.input.response.amount}}' },
+        { label: 'Category', value: '{{$.input.response.category}}' }
     ]
 }
 
 ```
+{% endraw %}
 
 Secrets are redacted from logged output.
 

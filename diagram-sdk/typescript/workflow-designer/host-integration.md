@@ -2,9 +2,9 @@
 layout: post
 title: Host integration in TypeScript Workflow Designer control | Syncfusion
 description: Checkout and learn about host integration in TypeScript Workflow Designer control of Syncfusion Workflow Designer.
-platform: ej2-typescript
+platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: ej2-typescript
+publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/workflow-designer
 ---
