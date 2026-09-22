@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Diagram SDK
 
 Palette serialization allows users to save and load the state of a palette, including all its symbols and their properties. This makes it easier to persist the palette across sessions or share it between applications.
 
-### Saving a Palette
+## Saving a Palette
 
 In a palette, the [DataContractSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=net-8.0) is used for serialization. The functionalities provided by `DataContractSerializer` apply to palette serialization, supporting saving the palette to an XML file while preserving all symbols. The palette's state is fully maintained during serialization.
 
@@ -35,7 +35,7 @@ if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
 {% endtabs %}
 
 
-### Loading Palettes Using DataContractSerializer
+## Loading Palettes Using DataContractSerializer
 
 Loading a palette from an XML file involves deserializing the XML data back into a palette object, ensuring that all symbols and their properties are accurately restored.
 
