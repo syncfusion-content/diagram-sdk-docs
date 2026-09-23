@@ -151,6 +151,7 @@ The following example demonstrates how to add multiple connectors dynamically.
     }
 }
 ```
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/AddMultipleConnectorAtRuntime.razor).
 
 ### How to Clone a Connector at Runtime
 [Clone](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Clone) is a virtual method on connector that creates a copy of a diagram object. After cloning, set a unique ID for the cloned connector. The following code demonstrates how to clone the connector during runtime.
@@ -670,7 +671,9 @@ The following example demonstrates how to remove a connector by its `ID` at runt
 }
 ```
 
-## How to Remove Multiple Connectors Dynamically
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveConnectorById.razor).
+
+## How to Remove Multiple Connectors at Runtime
 
 Multiple connectors can be removed at runtime by iterating through a collection of connector IDs and removing the corresponding connectors from the `Connectors` collection.
 
@@ -729,6 +732,8 @@ The following example demonstrates how to remove multiple connectors dynamically
     }
 }
 ```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveMultipleConnectorAtRuntime.razor).
 
 ## How to Update Connector Properties at Runtime
 

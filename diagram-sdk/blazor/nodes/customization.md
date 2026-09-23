@@ -427,7 +427,7 @@ The following example demonstrates how to change a node's size at runtime.
 }
 ```
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/NodeSize.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/ChangeNodeSize.razor)
 
 ## How to Change Node Position at Runtime
 
@@ -469,7 +469,7 @@ The following example demonstrates how to change the position of a node at runti
 }
 ```
 
-A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/NodePosition.razor)
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/ChangeNodePosition.razor)
 
 ## How to Update Node Shadow
 

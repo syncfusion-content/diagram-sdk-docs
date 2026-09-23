@@ -720,6 +720,7 @@ The following example demonstrates how to change a node's shape type at runtime.
 ```
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Shapes/ChangeShapeDynamically.razor)
+
 ## See also
 
 * [How to Create Polygon and Circle Shapes in Blazor Diagram](https://support.syncfusion.com/kb/article/18054/how-to-create-polygon-and-circle-shapes-in-blazor-diagram)  
