@@ -106,6 +106,53 @@ Add a connector at runtime by adding it to the connectors collection in the Blaz
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjrxNnhEJXvGDtEo?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/AddConnectorAtRuntime.razor).
+
+## How to Add Multiple Connectors Dynamically
+
+Multiple connectors can be added to the diagram at runtime by creating connector instances and adding them to the `Connectors` collection.
+
+The following example demonstrates how to add multiple connectors dynamically.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Add Multiple Connectors" OnClick="@AddMultipleConnectors" />
+<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors" />
+
+@code
+{
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+    private int _count = 1;
+
+    protected override void OnInitialized()
+    {
+        _connectors.Add(new Connector()
+        {
+            ID = "connector1",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 100 },
+            Type = ConnectorSegmentType.Straight
+        });
+    }
+
+    private void AddMultipleConnectors()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            _connectors.Add(new Connector()
+            {
+                ID = "connector" + ++_count,
+                SourcePoint = new DiagramPoint() { X = 100 + (i * 180), Y = 250 },
+                TargetPoint = new DiagramPoint() { X = 220 + (i * 180), Y = 250 },
+                Type = ConnectorSegmentType.Straight
+            });
+        }
+    }
+}
+```
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/AddMultipleConnectorAtRuntime.razor).
+
 ### How to Clone a Connector at Runtime
 [Clone](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_Clone) is a virtual method on connector that creates a copy of a diagram object. After cloning, set a unique ID for the cloned connector. The following code demonstrates how to clone the connector during runtime.
 
@@ -508,18 +555,18 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 * Set [PortConstraints](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.PortConstraints.html) to **InConnect**, to accept only incoming connection to dock in it. Similarly, Set PortConstraints to **OutConnect**, to accept only an outgoing connection to dock in it.
 * Setting **None**, the port restricts connectors from establishing a connection to the port.
 
-## How to Remove Connectors at Runtime
+## How to Remove a Selected Connector at Runtime
 
-Remove a connector from the diagram at runtime by using the `Remove` method.
-
-The following code shows how to remove a connector at runtime.
+A selected connector can be removed from the diagram at runtime by using the `Remove` method. This is useful when you need to delete the connector currently selected by the user.
+ 
+The following example demonstrates how to remove the selected connector at runtime.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 @using Syncfusion.Blazor.Buttons
 
 <SfButton Content="Remove Connector" OnClick="@RemoveConnector" />
-<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors">
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Connectors="@_connectors">
     <SnapSettings Constraints="@_snapConstraints"></SnapSettings>
 </SfDiagramComponent>
 
@@ -529,6 +576,7 @@ The following code shows how to remove a connector at runtime.
     private SnapConstraints _snapConstraints = SnapConstraints.None;
     // Defines diagram's connector collection
     private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+    private SfDiagramComponent _diagram;
     
     protected override void OnInitialized()
     {
@@ -553,8 +601,11 @@ The following code shows how to remove a connector at runtime.
 
     private void RemoveConnector()
     {
-        // Remove connector at runtime
-        _connectors.Remove(_connectors[0]);
+        // Remove selected connector at runtime
+        if (_diagram.SelectionSettings.Connectors.Count > 0)
+        {
+            _connectors.Remove(_diagram.SelectionSettings.Connectors[0]);
+        }
     }
 }
 ```
@@ -570,6 +621,119 @@ public void RemoveConnector()
     connectors.RemoveAt(0);
 }
 ```
+
+## How to Remove a Connector by ID at Runtime
+
+A connector can be removed at runtime by using its `ID`. This is useful when you need to delete a specific connector programmatically without relying on the current selection.
+
+The following example demonstrates how to remove a connector by its `ID` at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Remove Connector by ID" OnClick="@RemoveConnectorById" />
+<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors" />
+
+@code
+{
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        _connectors.Add(new Connector()
+        {
+            ID = "connector1",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
+            Type = ConnectorSegmentType.Straight
+        });
+
+        _connectors.Add(new Connector()
+        {
+            ID = "connector2",
+            SourcePoint = new DiagramPoint() { X = 300, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 400, Y = 200 },
+            Type = ConnectorSegmentType.Straight
+        });
+    }
+
+    private void RemoveConnectorById()
+    {
+        string connectorId = "connector2";
+        Connector connector = _connectors.FirstOrDefault(c => c.ID == connectorId);
+
+        if (connector != null)
+        {
+            _connectors.Remove(connector);
+        }
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveConnectorById.razor).
+
+## How to Remove Multiple Connectors at Runtime
+
+Multiple connectors can be removed at runtime by iterating through a collection of connector IDs and removing the corresponding connectors from the `Connectors` collection.
+
+The following example demonstrates how to remove multiple connectors dynamically at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Remove Multiple Connectors" OnClick="@RemoveMultipleConnectors" />
+<SfDiagramComponent Width="1000px" Height="500px" Connectors="@_connectors" />
+
+@code
+{
+    private DiagramObjectCollection<Connector> _connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        _connectors.Add(new Connector()
+        {
+            ID = "connector1",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 100 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 100 },
+            Type = ConnectorSegmentType.Straight
+        });
+
+        _connectors.Add(new Connector()
+        {
+            ID = "connector2",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 200 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 200 },
+            Type = ConnectorSegmentType.Straight
+        });
+
+        _connectors.Add(new Connector()
+        {
+            ID = "connector3",
+            SourcePoint = new DiagramPoint() { X = 100, Y = 300 },
+            TargetPoint = new DiagramPoint() { X = 200, Y = 300 },
+            Type = ConnectorSegmentType.Straight
+        });
+    }
+
+    private void RemoveMultipleConnectors()
+    {
+        string[] connectorIds = { "connector2", "connector3" };
+
+        foreach (string connectorId in connectorIds)
+        {
+            Connector connector = _connectors.FirstOrDefault(c => c.ID == connectorId);
+            if (connector != null)
+            {
+                _connectors.Remove(connector);
+            }
+        }
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Connector/RemoveMultipleConnectorAtRuntime.razor).
 
 ## How to Update Connector Properties at Runtime
 

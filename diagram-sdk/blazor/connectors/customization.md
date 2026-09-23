@@ -562,6 +562,291 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Customization/CustomProperty.razor)
 
+## How to Create Connector Between Existing Nodes
+
+You can create a connector between two existing nodes by assigning the [SourceID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourceID) and [TargetID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetID) properties of the connector.
+
+The following example demonstrates how to create a connector between two existing nodes.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Width="900px" Height="500px" Nodes="@nodes" Connectors="@connectors">
+</SfDiagramComponent>
+
+@code
+{
+    private DiagramObjectCollection<Node> nodes = new DiagramObjectCollection<Node>();
+    private DiagramObjectCollection<Connector> connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        nodes.Add(new Node()
+        {
+            ID = "node1",
+            Width = 100,
+            Height = 50,
+            OffsetX = 150,
+            OffsetY = 150,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle },
+            Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "#6BA5D7" }
+        });
+
+        nodes.Add(new Node()
+        {
+            ID = "node2",
+            Width = 100,
+            Height = 50,
+            OffsetX = 400,
+            OffsetY = 250,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle },
+            Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "#6BA5D7" }
+        });
+
+        connectors.Add(new Connector()
+        {
+            ID = "connector1",
+            SourceID = "node1",
+            TargetID = "node2",
+            Type = ConnectorSegmentType.Orthogonal,
+            Style = new ShapeStyle() { StrokeColor = "#6BA5D7", StrokeWidth = 2 }
+        });
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Customization/ConnectorBetweenExistingNodes.razor)
+
+## How to Reconnect Connector Endpoints at Runtime
+
+You can reconnect a connector's source or target endpoint at runtime by updating its `SourceID` or `TargetID` property. This is useful when the relationship between nodes changes and the connector needs to be linked to a different node.
+
+The following example demonstrates how to reconnect the source and target endpoints of a connector at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<div>
+    <SfButton Content="Reconnect Source" OnClick="ReconnectSource"></SfButton>
+    <SfButton Content="Reconnect Target" OnClick="ReconnectTarget"></SfButton>
+</div>
+
+<SfDiagramComponent @ref="diagram" Width="900px" Height="500px" Nodes="@nodes" Connectors="@connectors">
+</SfDiagramComponent>
+
+@code
+{
+    private SfDiagramComponent? diagram;
+    private DiagramObjectCollection<Node> nodes = new DiagramObjectCollection<Node>();
+    private DiagramObjectCollection<Connector> connectors = new DiagramObjectCollection<Connector>();
+
+    protected override void OnInitialized()
+    {
+        nodes.Add(new Node()
+        {
+            ID = "node1",
+            Width = 100,
+            Height = 50,
+            OffsetX = 150,
+            OffsetY = 150,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle }
+        });
+
+        nodes.Add(new Node()
+        {
+            ID = "node2",
+            Width = 100,
+            Height = 50,
+            OffsetX = 300,
+            OffsetY = 150,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle }
+        });
+
+        nodes.Add(new Node()
+        {
+            ID = "node3",
+            Width = 100,
+            Height = 50,
+            OffsetX = 150,
+            OffsetY = 300,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle }
+        });
+
+        nodes.Add(new Node()
+        {
+            ID = "node4",
+            Width = 100,
+            Height = 50,
+            OffsetX = 300,
+            OffsetY = 300,
+            Shape = new BasicShape() { Type = NodeShapes.Basic, Shape = NodeBasicShapes.Rectangle }
+        });
+
+        connectors.Add(new Connector()
+        {
+            ID = "connector1",
+            SourceID = "node1",
+            TargetID = "node2",
+            Type = ConnectorSegmentType.Orthogonal,
+            TargetDecorator = new DecoratorSettings()
+            {
+                Shape = DecoratorShape.Arrow,
+                Style = new ShapeStyle() { Fill = "#6BA5D7", StrokeColor = "#6BA5D7" }
+            },
+            Style = new ShapeStyle() { StrokeColor = "#6BA5D7", StrokeWidth = 2 }
+        });
+    }
+
+    private void ReconnectSource()
+    {
+        if (diagram is not null && diagram.Connectors.Count > 0)
+        {
+            diagram.Connectors[0].SourceID = "node3";
+        }
+    }
+
+    private void ReconnectTarget()
+    {
+        if (diagram is not null && diagram.Connectors.Count > 0)
+        {
+            diagram.Connectors[0].TargetID = "node4";
+        }
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Customization/ReconnectConnectorEndpoints.razor)
+
+## How to Change Connector Type at Runtime
+
+Connector types can be changed dynamically at runtime by updating the connector's `Type` property. This is useful when you need to switch a connector between `Straight`, `Orthogonal`, and `Bezier` based on user selection.
+
+The following example demonstrates how to change a connector's type at runtime using a dropdown list.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.DropDowns
+
+<div style="width:250px; margin-bottom:10px;">
+    <SfDropDownList TValue="string"
+                    TItem="ConnectorTypeItem"
+                    DataSource="@ConnectorTypes"
+                    @bind-Value="@SelectedType"
+                    Placeholder="Select Connector Type">
+
+        <DropDownListFieldSettings Text="Text" Value="Value">
+        </DropDownListFieldSettings>
+
+        <DropDownListEvents TValue="string"
+                            TItem="ConnectorTypeItem"
+                            ValueChange="OnConnectorTypeChanged">
+        </DropDownListEvents>
+
+    </SfDropDownList>
+</div>
+
+<SfDiagramComponent @ref="Diagram"
+                    Width="700px"
+                    Height="500px"
+                    Connectors="@Connectors">
+</SfDiagramComponent>
+
+@code {
+
+    private SfDiagramComponent Diagram;
+
+    private string SelectedType = "Straight";
+
+    private DiagramObjectCollection<Connector> Connectors =
+        new DiagramObjectCollection<Connector>();
+
+    private List<ConnectorTypeItem> ConnectorTypes =
+        new()
+        {
+            new ConnectorTypeItem
+            {
+                Text = "Straight",
+                Value = "Straight"
+            },
+
+            new ConnectorTypeItem
+            {
+                Text = "Orthogonal",
+                Value = "Orthogonal"
+            },
+
+            new ConnectorTypeItem
+            {
+                Text = "Bezier",
+                Value = "Bezier"
+            }
+        };
+
+    protected override void OnInitialized()
+    {
+        Connectors.Add(new Connector()
+        {
+            ID = "connector1",
+
+            SourcePoint = new DiagramPoint()
+            {
+                X = 100,
+                Y = 100
+            },
+            TargetPoint = new DiagramPoint()
+            {
+                X = 400,
+                Y = 300
+            },
+            Type = ConnectorSegmentType.Straight,
+            Style = new ShapeStyle()
+            {
+                StrokeColor = "#6495ED",
+                StrokeWidth = 2
+            }
+        });
+    }
+
+    private async Task OnConnectorTypeChanged(ChangeEventArgs<string, ConnectorTypeItem> args)
+    {
+        Diagram.BeginUpdate();
+
+        switch (args.Value)
+        {
+            case "Straight":
+
+                Diagram.Connectors[0].Type =
+                    ConnectorSegmentType.Straight;
+                break;
+
+            case "Orthogonal":
+
+                Diagram.Connectors[0].Type =
+                    ConnectorSegmentType.Orthogonal;
+                break;
+
+            case "Bezier":
+
+                Diagram.Connectors[0].Type =
+                    ConnectorSegmentType.Bezier;
+                break;
+        }
+
+        await Diagram.EndUpdateAsync();
+    }
+
+    public class ConnectorTypeItem
+    {
+        public string Text { get; set; } = string.Empty;
+
+        public string Value { get; set; } = string.Empty;
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Connectors/Customization/ConnectorTypeRuntime.razor)
+
 ## How to Set Connector Z-Index 
 
 * The connector's  [ZIndex](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.NodeBase.html#Syncfusion_Blazor_Diagram_NodeBase_ZIndex) property specifies the stack order of the connector. A connector with a higher `ZIndex` is rendered above one with a lower `ZIndex`. The default value is **-1**.
