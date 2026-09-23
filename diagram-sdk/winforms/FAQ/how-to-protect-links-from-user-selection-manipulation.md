@@ -5,6 +5,7 @@ description: Learn how to protect links from user selection and manipulation in 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Protect Links from User Selection in Windows Forms Diagram

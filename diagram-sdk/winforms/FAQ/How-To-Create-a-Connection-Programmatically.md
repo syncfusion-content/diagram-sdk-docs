@@ -5,6 +5,7 @@ description: Learn how to create connections programmatically between symbols an
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Create a Connection Programmatically in Windows Forms Diagram

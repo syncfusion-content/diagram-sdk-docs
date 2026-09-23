@@ -5,6 +5,7 @@ title: How to convert a node to an image in WinForms Diagram | Syncfusion®
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Convert a Diagram Node to an Image in Windows Forms Diagram

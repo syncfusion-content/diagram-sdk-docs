@@ -5,6 +5,7 @@ description: Learn how to copy and paste nodes, symbols, shapes, and links in th
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Copy and Paste Nodes in Windows Forms Diagram

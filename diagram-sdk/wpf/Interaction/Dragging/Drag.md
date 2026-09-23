@@ -5,6 +5,7 @@ description: Drag diagram elements in Syncfusion® WPF Diagram with drag limits,
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Dragging in WPF Diagram

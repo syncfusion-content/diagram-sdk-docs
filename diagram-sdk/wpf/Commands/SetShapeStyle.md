@@ -5,6 +5,7 @@ description: Apply custom styles to selected diagram elements in Syncfusion® WP
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # SetShapeStyle Commands in WPF Diagram

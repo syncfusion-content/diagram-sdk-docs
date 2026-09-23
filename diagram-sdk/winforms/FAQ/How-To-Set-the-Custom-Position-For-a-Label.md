@@ -5,6 +5,7 @@ description: Learn how to set a custom position for a label in the Syncfusion® 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Set a Custom Position for a Label in Windows Forms Diagram

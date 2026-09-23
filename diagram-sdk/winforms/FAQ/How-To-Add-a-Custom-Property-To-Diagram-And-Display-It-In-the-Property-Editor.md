@@ -5,6 +5,7 @@ title: How to add a custom property in Windows Forms Diagram | Syncfusion®
 description: Learn how to add a custom property to the Syncfusion® Windows Forms Diagram control and display it in the Property Editor.
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Add a Custom Property to Diagram in Windows Forms Diagram

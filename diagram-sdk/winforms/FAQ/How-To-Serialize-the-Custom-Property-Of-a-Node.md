@@ -5,6 +5,7 @@ description: Learn how to serialize custom properties of a node in the Syncfusio
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Serialize a Custom Property of a Node in Windows Forms Diagram

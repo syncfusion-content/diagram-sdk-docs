@@ -5,6 +5,7 @@ description: Learn how to prevent nodes from being rotated in the Syncfusion® W
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Prevent Nodes from Being Rotated in Windows Forms Diagram

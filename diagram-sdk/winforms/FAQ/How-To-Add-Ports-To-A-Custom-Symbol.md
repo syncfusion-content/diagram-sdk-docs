@@ -5,6 +5,7 @@ description: Learn how to add ports to a custom symbol in the Syncfusion® Windo
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Add Ports to a Custom Symbol in Windows Forms Diagram

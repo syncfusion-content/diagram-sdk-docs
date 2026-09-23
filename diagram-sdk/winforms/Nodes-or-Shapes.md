@@ -5,6 +5,7 @@ description: Create, customize, and manage nodes and shapes in the Syncfusion® 
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Nodes or Shapes in Windows Forms Diagram

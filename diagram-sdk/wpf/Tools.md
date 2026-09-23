@@ -5,6 +5,7 @@ description: Use drawing, selection, zoom, pan, and customization tools in Syncf
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Tools in WPF Diagram

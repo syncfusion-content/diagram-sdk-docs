@@ -5,6 +5,7 @@ description: Learn how to programmatically add a symbol from a symbol palette to
 platform: diagram-sdk
 control: Diagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # How to Add a Symbol to Palette Programmatically in WinForms Diagram

@@ -5,6 +5,7 @@ description: Arrange diagram elements in Syncfusion® WPF Diagram using Z-order 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Z-Order Commands in WPF Diagram

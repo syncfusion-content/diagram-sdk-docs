@@ -5,6 +5,7 @@ description: Arrange selected diagram elements in Syncfusion® WPF Diagram with 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Spacing Commands in WPF Diagram
