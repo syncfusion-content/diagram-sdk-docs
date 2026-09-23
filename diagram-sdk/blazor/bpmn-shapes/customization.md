@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Customization in Blazor Diagram Component | Syncfusion®
-description: Dynamically change BPMN shapes and programmatically expand or collapse BPMN sub-processes in Blazor Diagram Component.
+description: Learn how to customize BPMN shapes in the Blazor Diagram Component.
 platform: diagram-sdk
 control: Blazor Diagram Component
 documentation: ug
