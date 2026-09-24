@@ -11,7 +11,7 @@ documentation: ug
 
 The **.NET MAUI Diagram** control is a versatile component used to create, visualize, and interact with diagrams. It enables developers to build flowcharts, workflow designers, process diagrams, organizational charts, and other graphical applications using nodes, connectors, annotations, ports, and symbol palettes.
 
-![Syncfusion .NET MAUI accordion overview ](Images/diagram_overview.png)
+![Syncfusion .NET MAUI accordion overview ](images/diagram_overview.png)
 
 ---
 
@@ -49,15 +49,15 @@ The following table summarizes the globalization support available in this contr
 
 <div class="legend">
 <span style="display: inline-flex; align-items: center; gap: 6px;">
-<img src="../Images/full-support.svg" width="16"> Full Support
+<img src="../images/full-support.svg" width="16"> Full Support
 </span>
  
 <span style="display: inline-flex; align-items: center; gap: 6px;">
-<img src="../Images/partial-support.svg" width="16"> Partial Support
+<img src="../images/partial-support.svg" width="16"> Partial Support
 </span>
  
 <span style="display: inline-flex; align-items: center; gap: 6px;">
-<img src="../Images/not-applicable.svg" width="16"> Not Applicable
+<img src="../images/not-applicable.svg" width="16"> Not Applicable
 </span>
 </div>
 
@@ -72,11 +72,11 @@ The following table summarizes the globalization support available in this contr
 </tr>
 <tr>
 <td><a href="/maui/diagram/overview" aria-label="MAUI Diagram overview">Diagram</a></td>
-<td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
-<td align="center"><img src="../Images/not-applicable.svg" alt="full-support" width="16" /></td>
-<td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
-<td align="center"><img src="../Images/partial-support.svg" alt="partial-support" width="16" /></td>
-<td align="center"><img src="../Images/full-support.svg" alt="full-support" width="16" /></td>
+<td align="center"><img src="../images/not-applicable.svg" alt="not-applicable" width="16" /></td>
+<td align="center"><img src="../images/not-applicable.svg" alt="full-support" width="16" /></td>
+<td align="center"><img src="../images/not-applicable.svg" alt="not-applicable" width="16" /></td>
+<td align="center"><img src="../images/partial-support.svg" alt="partial-support" width="16" /></td>
+<td align="center"><img src="../images/full-support.svg" alt="full-support" width="16" /></td>
 </tr>
 </table>
 
