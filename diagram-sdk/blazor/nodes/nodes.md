@@ -358,7 +358,7 @@ private void RemoveNodes()
 
 ## How to Remove a Node by ID at Runtime
 
-A node can be removed from the diagram at runtime by using its `ID` value. This approach is useful when you want to delete a specific node without relying on the current selection.
+A node can be removed from the diagram at runtime by using its `ID` value. This approach is useful for deleting a specific node without relying on the current selection.
 
 The following example shows how to remove a node by specifying its `ID` at runtime.
 

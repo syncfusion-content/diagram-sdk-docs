@@ -729,7 +729,7 @@ The following code shows how to set the `AdditionalInfo` value.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/CustomProperty.razor)
 
-**Note:** You can set any type of value for the `AdditionalInfo` property.
+**Note:** Any type of value can be assigned to the `AdditionalInfo` property.
 
 ## How to Set ZIndex Property for a Node
 

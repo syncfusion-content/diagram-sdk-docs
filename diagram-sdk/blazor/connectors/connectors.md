@@ -557,7 +557,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Remove a Selected Connector at Runtime
 
-A selected connector can be removed from the diagram at runtime by using the `Remove` method. This is useful when you need to delete the connector currently selected by the user.
+A selected connector can be removed from the diagram at runtime by using the `Remove` method. This is useful for deleting the connector currently selected by the user.
  
 The following example demonstrates how to remove the selected connector at runtime.
 
@@ -624,7 +624,7 @@ public void RemoveConnector()
 
 ## How to Remove a Connector by ID at Runtime
 
-A connector can be removed at runtime by using its `ID`. This is useful when you need to delete a specific connector programmatically without relying on the current selection.
+A connector can be removed at runtime by using its `ID`. This is useful for deleting a specific connector programmatically without relying on the current selection.
 
 The following example demonstrates how to remove a connector by its `ID` at runtime.
 
