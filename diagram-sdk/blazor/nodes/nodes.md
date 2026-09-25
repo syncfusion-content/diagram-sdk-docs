@@ -117,6 +117,68 @@ A node can be added at runtime by adding it to the `Nodes` collection of the Bla
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/ActionsofNodes/AddNodeAtRuntime.razor)
 
+## How to Add Multiple Nodes at Runtime
+
+Multiple nodes can be added dynamically to the Blazor Diagram Component by creating node instances and adding them to the Nodes collection at runtime.
+
+The following code explains how to add a multiple nodes at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<div>
+    <SfButton Content="Add Multiple Nodes"
+              OnClick="@AddMultipleNodes" />
+</div>
+
+<SfDiagramComponent Height="500px" Width="700px" Nodes="@_nodes" />
+
+@code
+{
+    private DiagramObjectCollection<Node> _nodes = new();
+
+    private int _count = 1;
+
+    protected override void OnInitialized()
+    {
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            OffsetX = 150,
+            OffsetY = 150,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle()
+            {
+                Fill = "#6495ED",
+                StrokeColor = "white"
+            }
+        });
+    }
+
+    private void AddMultipleNodes()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            _nodes.Add(new Node()
+            {
+                ID = "node" + ++_count,
+                OffsetX = 300 + (i * 150),
+                OffsetY = 250,
+                Width = 100,
+                Height = 100,
+                Style = new ShapeStyle()
+                {
+                    Fill = "#6495ED",
+                    StrokeColor = "white"
+                }
+            });
+        }
+    }
+}
+```
+
 ## How to Add a Node with Annotations at Runtime
 
 A node with an annotation can be added at runtime in the Blazor Diagram Component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
@@ -235,11 +297,11 @@ For more information about drawing nodes, refer to the [Draw Nodes](https://help
 
 Nodes can be generated automatically with the information provided through a data source. The default properties for these nodes are fetched from default settings. For more information about datasource, refer to [DataSource](../data-binding).
 
-## How to Remove Nodes at Runtime
+## How to Remove Selected Nodes at Runtime
 
-A node can be removed from the diagram at runtime by using the `Remove` method.
+A selected node can be removed from the diagram at runtime by using the `Remove` method.
 
-The following code shows how to remove a node at runtime.
+The following example demonstrates how to remove the currently selected node from the diagram at runtime.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -247,12 +309,13 @@ The following code shows how to remove a node at runtime.
 
 <SfButton Content="Remove Node" OnClick="@RemoveNodes" />
 
-<SfDiagramComponent Width="1000px" Height="500px" Nodes="@_nodes" />
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Nodes="@_nodes" />
 
 @code
 {
     //Defines diagram's Node collection
     private DiagramObjectCollection<Node> _nodes;
+    SfDiagramComponent _diagram;
 
     protected override void OnInitialized()
     {
@@ -275,7 +338,8 @@ The following code shows how to remove a node at runtime.
     private void RemoveNodes()
     {
         // Remove Node at runtime
-        _nodes.Remove(_nodes[0]);
+        if (_diagram.SelectionSettings.Nodes.Count > 0)
+            _nodes.Remove(_diagram.SelectionSettings.Nodes[0]);
     }
 }
 ```
@@ -289,6 +353,133 @@ A node can also be removed from the diagram by using the native `RemoveAt` metho
 private void RemoveNodes()
 {
     _nodes.RemoveAt(0);
+}
+```
+
+## How to Remove a Node by ID at Runtime
+
+A node can be removed from the diagram at runtime by using its `ID` value. This approach is useful for deleting a specific node without relying on the current selection.
+
+The following example shows how to remove a node by specifying its `ID` at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Remove Node by ID" OnClick="@RemoveNodeById" />
+
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Nodes="@_nodes" />
+
+@code
+{
+    // Defines diagram's node collection
+    private DiagramObjectCollection<Node> _nodes;
+    private SfDiagramComponent _diagram;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            OffsetX = 250,
+            OffsetY = 250,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+        _nodes.Add(new Node()
+        {
+            ID = "node2",
+            OffsetX = 450,
+            OffsetY = 250,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#FFB74D", StrokeColor = "white" }
+        });
+    }
+
+    private void RemoveNodeById()
+    {
+        string nodeId = "node2";
+        Node node = _nodes.FirstOrDefault(n => n.ID == nodeId);
+
+        if (node != null)
+        {
+            _nodes.Remove(node);
+        }
+    }
+}
+```
+
+## How to Remove Multiple Nodes at Runtime
+
+Multiple nodes can be removed from the diagram at runtime by iterating through a collection of node IDs and removing the corresponding nodes from the diagram.
+
+The following example demonstrates how to remove multiple nodes dynamically at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Remove Multiple Nodes" OnClick="@RemoveMultipleNodes" />
+
+<SfDiagramComponent @ref="_diagram" Width="1000px" Height="500px" Nodes="@_nodes" />
+
+@code
+{
+    // Defines diagram's node collection
+    private DiagramObjectCollection<Node> _nodes;
+    private SfDiagramComponent _diagram;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            OffsetX = 150,
+            OffsetY = 200,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+
+        _nodes.Add(new Node()
+        {
+            ID = "node2",
+            OffsetX = 300,
+            OffsetY = 200,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#FFB74D", StrokeColor = "white" }
+        });
+
+        _nodes.Add(new Node()
+        {
+            ID = "node3",
+            OffsetX = 450,
+            OffsetY = 200,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#4DB6AC", StrokeColor = "white" }
+        });
+    }
+
+    private void RemoveMultipleNodes()
+    {
+        string[] nodeIds = { "node2", "node3" };
+
+        foreach (string nodeId in nodeIds)
+        {
+            Node node = _nodes.FirstOrDefault(n => n.ID == nodeId);
+            if (node != null)
+            {
+                _nodes.Remove(node);
+            }
+        }
+    }
 }
 ```
 ## How to Clone a Node at Runtime
