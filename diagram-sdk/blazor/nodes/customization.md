@@ -387,6 +387,90 @@ The diagram allows customizing the border width of a node using the [BorderWidth
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/BorderWidth.razor)
 
+## How to Change Node Size at Runtime
+
+A node's size can be changed at runtime by updating its `Width` and `Height` properties.
+
+The following example demonstrates how to change a node's size at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Change Node Size" OnClick="@ChangeNodeSize" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            OffsetX = 250,
+            OffsetY = 250,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+    }
+
+    private void ChangeNodeSize()
+    {
+        _diagram.Nodes[0].Width = 160;
+        _diagram.Nodes[0].Height = 120;
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/ChangeNodeSize.razor)
+
+## How to Change Node Position at Runtime
+
+A node's position can be changed at runtime by updating its `OffsetX` and `OffsetY` properties. This helps when you need to move a node programmatically across the diagram canvas.
+
+The following example demonstrates how to change the position of a node at runtime.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+@using Syncfusion.Blazor.Buttons
+
+<SfButton Content="Change Node Position" OnClick="@ChangeNodePosition" />
+<SfDiagramComponent @ref="_diagram" Height="600px" Nodes="@_nodes" />
+
+@code
+{
+    private SfDiagramComponent _diagram;
+    private DiagramObjectCollection<Node> _nodes;
+
+    protected override void OnInitialized()
+    {
+        _nodes = new DiagramObjectCollection<Node>();
+        _nodes.Add(new Node()
+        {
+            ID = "node1",
+            OffsetX = 250,
+            OffsetY = 250,
+            Width = 100,
+            Height = 100,
+            Style = new ShapeStyle() { Fill = "#6495ED", StrokeColor = "white" }
+        });
+    }
+
+    private void ChangeNodePosition()
+    {
+        _diagram.Nodes[0].OffsetX = 400;
+        _diagram.Nodes[0].OffsetY = 300;
+    }
+}
+```
+
+A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Nodes/Appearance/ChangeNodePosition.razor)
+
 ## How to Update Node Shadow
 
 Diagram supports adding a [Shadow](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shadow.html) effect to a node.`Shadow` is disabled by default and can be enabled by using the node’s constraints. The following example shows how to draw a shadow.
