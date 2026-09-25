@@ -564,7 +564,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Create Connector Between Existing Nodes
 
-A connector can be created between two existing nodes by assigning the [SourceID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourceID) and [TargetID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetID) properties of the connector.
+You can create a connector between two existing nodes by assigning the [SourceID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_SourceID) and [TargetID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Connector.html#Syncfusion_Blazor_Diagram_Connector_TargetID) properties of the connector.
 
 The following example demonstrates how to create a connector between two existing nodes.
 
@@ -619,7 +619,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Reconnect Connector Endpoints at Runtime
 
-A connector's source or target endpoint can be reconnected at runtime by updating its `SourceID` or `TargetID` property. This is useful when the relationship between nodes changes and the connector needs to be linked to a different node.
+You can reconnect a connector's source or target endpoint at runtime by updating its `SourceID` or `TargetID` property. This is useful when the relationship between nodes changes and the connector needs to be linked to a different node.
 
 The following example demonstrates how to reconnect the source and target endpoints of a connector at runtime.
 
@@ -720,7 +720,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Change Connector Type at Runtime
 
-Connector types can be changed dynamically at runtime by updating the connector's `Type` property. This is useful for switching a connector between `Straight`, `Orthogonal`, and `Bezier` based on user selection.
+Connector types can be changed dynamically at runtime by updating the connector's `Type` property. This is useful when you need to switch a connector between `Straight`, `Orthogonal`, and `Bezier` based on user selection.
 
 The following example demonstrates how to change a connector's type at runtime using a dropdown list.
 

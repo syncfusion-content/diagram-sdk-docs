@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with React Diagram | Syncfusion®
-description: Learn how to get started with the Syncfusion React Diagram control. Explore setup, features, examples, and customization options.
+description: Learn how to get started with the Syncfusion React Diagram component. Explore setup, features, examples, and customization options.
 control: Getting started
 platform: diagram-sdk
 documentation: ug

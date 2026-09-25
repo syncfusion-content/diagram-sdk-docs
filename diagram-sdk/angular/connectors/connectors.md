@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connectors in Angular Diagram | Syncfusion®
-description: Create, customize, and route connectors between nodes or ports in the Syncfusion® Angular Diagram control, with runtime draw, clone, and update support.
+description: Create, customize, and route connectors between nodes or ports in the Syncfusion® Angular Diagram component, with runtime draw, clone, and update support.
 platform: diagram-sdk
 control: Connectors 
 documentation: ug

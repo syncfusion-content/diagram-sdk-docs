@@ -15,7 +15,7 @@ To customize the appearance and position of nodes in the React Diagram component
 {% youtube "https://www.youtube.com/watch?v=pn02S_rwupw" %}
 
 ## Common values to the node.
-The [`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getnodedefaults) property in the React Diagram control allows you to define default settings that apply to all nodes based on specific conditions or requirements. This approach ensures consistency across your diagram and reduces repetitive code.
+The [`getNodeDefaults`](https://ej2.syncfusion.com/react/documentation/api/diagram#getnodedefaults) property in the React Diagram component allows you to define default settings that apply to all nodes based on specific conditions or requirements. This approach ensures consistency across your diagram and reduces repetitive code.
 
 The following code example shows how to use the getNodeDefaults function to apply common styling to all nodes:
 
@@ -83,7 +83,7 @@ A linear gradient's x1, y1, x2, y2 properties are used to define the position (r
 
 * [`RadialGradient`](https://ej2.syncfusion.com/react/documentation/api/diagram/radialGradientModel) defines a smooth transition between stops that radiates from a central point in a circular pattern. This creates a spotlight or glow effect on nodes.
 
-A radial gradient's cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
+A radial gradient's `cx`, `cy`, `fx`, `fy` properties are used to define the position (relative to the node) of the outermost or innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Label Interaction in Angular Diagram | Syncfusion®
-description: Make labels interactive in the Syncfusion® Angular Diagram with selectable, draggable, rotatable, resizable, editable, and read-only modes, plus bounded drag limits on connector labels.
+description: Enable label interaction on Angular Diagram nodes and connectors for select, drag, rotate, resize, and edit operations at runtime.
 platform: diagram-sdk
 control: Label Interaction
 documentation: ug
@@ -93,7 +93,7 @@ The Angular Diagram component supports creating read-only labels that cannot be 
 
 ## Drag Limits
 
-The Angular Diagram control supports defining [`dragLimit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationModel#draglimit) properties for connector labels to restrict dragging within specified boundaries. The drag limit automatically updates the label position to the nearest segment offset when dragging.
+The Angular Diagram component supports defining [`dragLimit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/annotationModel#draglimit) properties for connector labels to restrict dragging within specified boundaries. The drag limit automatically updates the label position to the nearest segment offset when dragging.
 
 Configure drag limit boundaries using the [`left`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel#left), [`right`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel#right), [`top`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel#top), and [`bottom`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marginModel#bottom) properties. These properties limit connector label dragging based on user-defined values.
 
