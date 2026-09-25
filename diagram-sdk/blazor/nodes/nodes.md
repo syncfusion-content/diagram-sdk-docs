@@ -121,7 +121,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 Multiple nodes can be added dynamically to the Blazor Diagram Component by creating node instances and adding them to the Nodes collection at runtime.
 
-The following code explains how to add a multiple nodes at runtime.
+ The following code explains how to add a multiple nodes at runtime.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
@@ -178,7 +178,6 @@ The following code explains how to add a multiple nodes at runtime.
     }
 }
 ```
-
 ## How to Add a Node with Annotations at Runtime
 
 A node with an annotation can be added at runtime in the Blazor Diagram Component by using the [AddDiagramElementsAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_AddDiagramElementsAsync_Syncfusion_Blazor_Diagram_DiagramObjectCollection_Syncfusion_Blazor_Diagram_NodeBase__) method.
@@ -358,7 +357,7 @@ private void RemoveNodes()
 
 ## How to Remove a Node by ID at Runtime
 
-A node can be removed from the diagram at runtime by using its `ID` value. This approach is useful for deleting a specific node without relying on the current selection.
+A node can be removed from the diagram at runtime by using its `ID` value. This approach is useful when you want to delete a specific node without relying on the current selection.
 
 The following example shows how to remove a node by specifying its `ID` at runtime.
 

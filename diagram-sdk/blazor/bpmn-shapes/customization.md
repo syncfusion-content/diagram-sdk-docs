@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BPMN Customization in Blazor Diagram Component | Syncfusion®
-description: Learn how to customize BPMN shapes in the Blazor Diagram component, including appearance, icons, styles, and behavior.
+description: Learn how to customize BPMN shapes in the Blazor Diagram Component.
 platform: diagram-sdk
 control: Blazor Diagram Component
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 ## How to Change BPMN Shape at Runtime
 
-A BPMN node's shape can be changed at runtime by updating its `Shape` property. This is useful when switching between different BPMN shapes, such as Event, Activity, Gateway, and SubProcess, based on user interaction or application requirements.
+You can change a BPMN node's shape at runtime by updating its `Shape` property. This is useful when you need to switch between different BPMN shapes, such as Event, Activity, Gateway, and SubProcess, based on user interaction or application requirements.
 
 The following example demonstrates how to change a BPMN shape dynamically.
 
@@ -106,7 +106,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## How to Add Expand and Collapse Icons to BPMN Shapes
 
-[ExpandIcon](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_ExpandIcon) and [CollapseIcon](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_CollapseIcon) can be added to BPMN shapes by configuring the ExpandIcon and CollapseIcon properties of a BPMN node.
+You can add expand and collapse icons to BPMN shapes by configuring the [ExpandIcon](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_ExpandIcon) and [CollapseIcon](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Node.html#Syncfusion_Blazor_Diagram_Node_CollapseIcon) properties of a BPMN node.
 
 The following example demonstrates how to add custom expand and collapse icons to a BPMN shape.
 

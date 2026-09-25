@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 In graphical user interfaces, a context menu appears when you perform a right-click operation, offering users a set of actions relevant to the current context. The Angular Diagram component provides extensive context menu customization capabilities through the [`contextMenuSettings`](https://ej2.syncfusion.com/angular/documentation/api/diagram#contextmenusettings) property.
 
-The Angular Diagram control includes built-in context menu items and allows you to define custom menu items. This flexibility enables you to tailor menus to specific application needs, including creating nested levels of menu items for complex user interactions.
+The Angular Diagram component includes built-in context menu items and allows you to define custom menu items. This flexibility enables you to tailor menus to specific application needs, including creating nested levels of menu items for complex user interactions.
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with Angular Diagram | Syncfusion®
-description: Learn how to get started with the Syncfusion® Angular Diagram control. Explore setup, features, examples, and customization options.
+description: Learn how to get started with the Syncfusion® Angular Diagram component. Explore setup, features, examples, and customization options.
 platform: diagram-sdk
 control: Getting started
 documentation: ug
