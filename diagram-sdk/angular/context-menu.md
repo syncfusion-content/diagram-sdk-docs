@@ -21,7 +21,7 @@ The Angular Diagram component includes built-in context menu items and allows yo
 To ensure the context menu renders correctly, include the necessary CSS references from the Syncfusion® `ej2-navigations` package by adding the following line to your `src/styles.css` file:
 
 ```css
-@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-material-theme/styles/diagram/index.css";
 ```
 
 ## Default Context Menu
