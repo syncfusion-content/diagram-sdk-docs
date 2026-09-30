@@ -86,9 +86,9 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui) shows how to begin using the Diagram step by step.
-- [Nodes](https://help.syncfusion.com/maui) explains how to create and customize the nodes in Diagram.
-- [Connectors](https://help.syncfusion.com/maui) show how creace, connect and customize connector and represent relationship between nodes.
+- [Getting Started](getting-started) shows how to begin using the Diagram step by step.
+- [Nodes](nodes) explains how to create and customize the nodes in Diagram.
+- [Connectors](connectors) show how creace, connect and customize connector and represent relationship between nodes.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.
 
 ## Resources
@@ -229,7 +229,7 @@ The following table summarizes the globalization support available in this contr
     <h3 class="form-title">Feature Tour</h3>
 </div>
 <div class="form-description">Get a quick overview of key features and capabilities to kick start your journey.</div>
-<!--<a href="https://www.syncfusion.com/maui-controls/maui-diagram" class="explore-link">-->
+<!--<a href="https://www.syncfusion.com/diagram-sdk/maui-diagram" class="explore-link">-->
 Explore Features
   <span class="card-icon card-arrow"></span>
 </a>
@@ -263,7 +263,7 @@ Explore Features
     <div class="form-description">
       Watch step‑by‑step video guides to quickly understand concepts and implementation.
     </div>
-    <a href="https://www.syncfusion.com/tutorial-videos/maui/" class="explore-link">
+    <a href="https://www.syncfusion.com/tutorial-videos/maui" class="explore-link">
     Watch now
   <span class="card-icon card-arrow"></span>
 </a>
