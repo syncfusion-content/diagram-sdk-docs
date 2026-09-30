@@ -11,7 +11,7 @@ documentation: ug
 
 The Diagram control supports exporting the current diagram and sending it to the system printing pipeline. These capabilities let users share, archive, review, and distribute diagram content outside the application.
 
-> **Note:** Visit the [export-print API reference](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.SfDiagram.html) for your package version to confirm the export format parameters and platform availability.
+> **Note:** Visit the [export-print API reference](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.DiagramExportOptions.html) for your package version to confirm the export format parameters and platform availability.
 
 ## Prerequisites
 
@@ -95,6 +95,6 @@ await diagram.PrintAsync();
 
 ## See also
 
-- [Save and load](save-load.md)
-- [Diagram operations](diagram-operations.md)
-- [Getting started](getting-started.md)
+- [Save and load](save-load)
+- [Diagram operations](diagram-operations)
+- [Getting started](getting-started)
