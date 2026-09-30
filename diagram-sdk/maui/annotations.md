@@ -34,7 +34,7 @@ Node annotations display text within or around a node. They are added through th
 ```csharp
 using Syncfusion.Maui.Diagram;
 
-var node = new Node
+Node node = new Node
 {
     Id = "ProcessNode",
     OffsetX = 200,
@@ -49,6 +49,7 @@ node.Annotations.Add(
         Content = "Process Order"
     });
 ```
+![Node_annotation](diagram_images/Node_annotations.png)
 
 ### Multiple annotation
 
@@ -59,16 +60,19 @@ node.Annotations.Add(
     new ShapeAnnotation
     {
         Id = "title",
-        Content = "Order Processing"
+        Content = "Order Processing",
+        Offset = new DiagramPoint(0, 0.5),
     });
 
 node.Annotations.Add(
     new ShapeAnnotation
     {
         Id = "status",
-        Content = "Pending"
+        Content = "Pending",
+        Offset = new DiagramPoint(1, 0.5),
     });
 ```
+![Node_multiple_annotation](diagram_images/Node_multiple_annotations.png)
 
 ---
 
@@ -90,7 +94,7 @@ connector.Annotations.Add(
         Content = "connector"
     });
 ```
-
+![Connector_annotation](diagram_images/Connector_with_nodes_Annotation.png)
 ---
 
 ## Annotation properties
@@ -152,7 +156,7 @@ node.Annotations.Add(
         }
     });
 ```
-
+![Annotation_style](diagram_images/Annotation_Style.png)
 ---
 
 ## Positioning
@@ -181,6 +185,7 @@ node.Annotations.Add(
     });
 
 ```
+![Node_annotation_positioning](diagram_images/Annotation_node_position.png)
 
 ### Connector annotation 
 
@@ -191,6 +196,9 @@ For `PathAnnotation`, the `Offset` value specifies the relative position of the 
 - `1` places the annotation at the target end of the connector.
 
 > Note: Connector annotations support only a single offset value that determines the position along the path. A separate perpendicular offset is not supported.
+
+![Connector_annotation_positioning](diagram_images/Annotation_connector_position.png)
+
 ---
 
 ## See also

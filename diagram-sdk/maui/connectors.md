@@ -56,6 +56,7 @@ diagram.Connectors.Add(connector);
 
 > **Note:** `DiagramPoint` is not implemented in the current release. Verify the supported point type for connector endpoint coordinates before using `SourcePoint` and `TargetPoint`.
 
+![Connector](diagram_images/Connector.png)
 ---
 
 ## Create connection between nodes
@@ -70,6 +71,7 @@ Connector connector = new Connector
     TargetID = "node2"
 };
 ```
+![Create connection between nodes](diagram_images/Connector_with_Nodes.png)
 
 ---
 
@@ -96,6 +98,9 @@ Connector connector = new Connector
 
 Use straight connectors for process diagrams, network diagrams, and entity-relationship diagrams.
 
+![Create connection between nodes](diagram_images/Straight_connector.png)
+
+
 ### Orthogonal connector
 
 An orthogonal connector creates right-angle segments between the source and target points.
@@ -111,6 +116,8 @@ Connector connector = new Connector
 ```
 
 Use orthogonal connectors for flowcharts, workflow designers, and business-process diagrams.
+
+![Create connection between nodes](diagram_images/Connector_with_Nodes.png)
 
 ---
 
@@ -128,6 +135,7 @@ var connector = new Connector
     TargetPortID = "LeftPort"
 };
 ```
+![Create connection between nodes](diagram_images/Connector_with_Ports.png)
 
 ---
 
@@ -149,6 +157,8 @@ Connector connector = new Connector
 diagram.Connectors.Add(connector);
 
 ```
+![Connector](diagram_images/Connector.png)
+
 ---
 
 ## Style connectors
@@ -181,6 +191,7 @@ connector.Style = new ShapeStyle
 };
 
 ```
+![Connector](diagram_images/Connector_style.png)
 
 ---
 
@@ -208,6 +219,7 @@ connector.SourceDecorator = new DecoratorSettings
 };
 
 ```
+![Connector decorators](diagram_images/Connector_decorator.png)
 
 ### Supported decorator shapes
 
@@ -234,12 +246,15 @@ The Diagram control supports the following decorator shapes through the `Decorat
 Annotation is used to textually represent an object with a string that can be edited at run time. Annotations display text along a connector through the `PathAnnotation` class. Connector labels describe the relationship between connected nodes. They help visualize decision branches, transitions, and conditions.
 
 ```csharp
+
 connector.Annotations.Add(
     new PathAnnotation
     {
         Content = "Approved"
     });
+    
 ```
+![Connector annotations](diagram_images/Annotation_connector_position.png)
 
 ### Multiple Annotations
 
@@ -249,19 +264,21 @@ Multiple labels can be displayed on the same connector:
 connector.Annotations.Add(
     new PathAnnotation
     {
-        Content = "Yes",
-        Offset = new DiagramPoint { X = 0.25, Y = 0 }
+        Content = "First Annotation",
+        Offset = 0.25,
     });
 
 connector.Annotations.Add(
     new PathAnnotation
     {
-        Content = "No",
-        Offset = new DiagramPoint { X = 0.75, Y = 0 }
+        Content = "Second Annotation",
+        Offset = 0.75,
     });
 ```
 
 > **Note:** `DiagramPoint` is not implemented in the current release. Confirm whether offset coordinates use the supported point type before using this property.
+
+![Connector decorators](diagram_images/Connector_with_Annotation.png)
 
 ---
 

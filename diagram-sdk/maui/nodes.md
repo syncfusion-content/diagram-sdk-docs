@@ -38,6 +38,7 @@ Node node = new Node
 
 diagram.Nodes.Add(node);
 ```
+![Create node](diagram_images\Node.png)
 
 ## Node properties
 
@@ -73,6 +74,8 @@ node.OffsetY = 200;
 > - Increasing `OffsetX` moves the node toward the right and decreasing the `OffsetX` moves the node toward the left.
 > - Increasing `OffsetY` moves the node downward and decreasing `OffsetY` moves the node downward.
 
+![Position](diagram_images\Node_dragging.gif)
+
 ---
 
 ## Resize
@@ -85,6 +88,7 @@ node.Width = 180;
 node.Height = 90;
 
 ```
+![Resizing](diagram_images\Node_resizing.gif)
 
 ---
 
@@ -109,6 +113,8 @@ diagram.Nodes.Add(node);
 ```
 
 > **Note:** `RotationAngle` rotates the node around its center point.
+
+![Resizing](diagram_images\Node_rotate.gif)
 
 ---
 
@@ -147,6 +153,7 @@ For connector styling, see the [Connectors](connectors.md) topic.
 
  diagram.Nodes.Add(node);
  ```
+![Resizing](diagram_images\ShapeStyle.png)
 
 ---
 
