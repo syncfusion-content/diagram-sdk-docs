@@ -604,7 +604,7 @@ After installation, the necessary CSS files are available in the **node_modules*
 Add the required CSS references to the **src/styles.css** file to apply styling to the Angular Diagram component.
 
 ```css
-@import '../node_modules/@syncfusion/ej2-bootstrap5.3-theme/styles/diagram/index.css';
+@import '../node_modules/@syncfusion/ej2-bootstrap5.3-theme/styles/bootstrap5.3.css';
 ```
 
 For this project, the "Bootstrap 5.3" theme is applied. Other themes can be selected, or the existing theme can be customized to meet specific project requirements. For detailed guidance on theming and customization, refer to the [Syncfusion® Angular Components Appearance](https://ej2.syncfusion.com/angular/documentation/appearance/theme-studio) documentation.

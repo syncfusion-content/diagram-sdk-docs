@@ -20,7 +20,7 @@ The React Diagram component includes built-in context menu items and allows you 
 
 To ensure the context menu renders correctly, include the necessary CSS references from the Syncfusion® `ej2-navigations` package by adding the following line to your `src/styles.css` file:
 
-`@import "../node_modules/@syncfusion/ej2-material-theme/styles/diagram/index.css";`
+`@import "../node_modules/@syncfusion/ej2-material-theme/styles/material.css";`
 
 N> The import path may differ based on your build tool (Vite, Create React App, Next.js) and project folder structure.
 
