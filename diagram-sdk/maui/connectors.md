@@ -19,28 +19,29 @@ Refer to the [Getting started](getting-started.md) page to create a project, ins
 
 ---
 
-## Connector class
+## Create Connector
 
 A connector is created using the `Connector` class and added to the `SfDiagram.Connectors` collection.
 
 ```csharp
 using Syncfusion.Maui.Diagram;
 
-var connector = new Connector
+Connector connector = new Connector
 {
-    ID = "connector1",
-    SourceID = "Start",
-    TargetID = "Process"
+    Id = "connector",
+    SourcePoint = new Point(100, 100),
+    TargetPoint = new Point(400,400),
 };
 
 diagram.Connectors.Add(connector);
+
 ```
 
 ## Connector properties
 
 | Property | Description |
 | --- | --- |
-| `ID` | Unique identifier for the connector. |
+| `Id` | Unique identifier for the connector. |
 | `SourceID` | ID of the source node, source port's parent node, or used together with `SourcePoint`. |
 | `TargetID` | ID of the target node, target port's parent node, or used together with `TargetPoint`. |
 | `SourcePortID` | ID of the source port. Requires the matching port on the source node. |
@@ -57,14 +58,14 @@ diagram.Connectors.Add(connector);
 
 ---
 
-## Connect nodes
+## Create connection between nodes
 
-Nodes can be connected using their identifiers.
+The connector can be created between nodes to display the relationship between them. The SourceID and TargetID properties allows you to represent the nodes to be connected.
 
 ```csharp
-var connector = new Connector
+Connector connector = new Connector
 {
-    ID = "connector1",
+    Id = "connector1",
     SourceID = "node1",
     TargetID = "node2"
 };
@@ -74,16 +75,19 @@ var connector = new Connector
 
 ## Connector types
 
-The Diagram control supports two routing styles configured through `ConnectorSegmentType`.
+The Diagram control supports two routing styles configured through `ConnectorSegmentType`. The diagram supports two types.
+
+ * Straight
+ * Orthogonal
 
 ### Straight connector
 
 A straight connector establishes the shortest direct path between two points.
 
 ```csharp
-var connector = new Connector
+Connector connector = new Connector
 {
-    ID = "connector1",
+    Id = "connector1",
     SourceID = "node1",
     TargetID = "node2",
     Type = ConnectorSegmentType.Straight
@@ -97,9 +101,9 @@ Use straight connectors for process diagrams, network diagrams, and entity-relat
 An orthogonal connector creates right-angle segments between the source and target points.
 
 ```csharp
-var connector = new Connector
+Connector connector = new Connector
 {
-    ID = "connector1",
+    Id = "connector1",
     SourceID = "node1",
     TargetID = "node2",
     Type = ConnectorSegmentType.Orthogonal
@@ -112,7 +116,7 @@ Use orthogonal connectors for flowcharts, workflow designers, and business-proce
 
 ## Connect using ports
 
-Ports define explicit connection points on a node. Using ports instead of node-to-node connections keeps connector routing predictable, which is especially useful for workflow designers, flowcharts, and process diagrams.
+Ports define explicit connection points on a node. Using ports instead of node-to-node connections keeps connector routing predictable, which is especially useful for workflow designers, flowcharts, and process diagrams. The connection between any specific point of source and target nodes can be achieved with ports.
 
 ```csharp
 var connector = new Connector
@@ -133,11 +137,23 @@ When a connector is not attached to a node, use `SourcePoint` and `TargetPoint` 
 
 > **Note:** `DiagramPoint` is not implemented in the current release. Use the point type documented for your package version.
 
+```csharp
+
+Connector connector = new Connector
+{
+    Id = "connector",
+    SourcePoint = new Point(100, 200),
+    TargetPoint = new Point(400,500),
+};
+
+diagram.Connectors.Add(connector);
+
+```
 ---
 
 ## Style connectors
 
-Connector appearance is customized through the `ShapeStyle` class.
+Use the `Style` property to customize a connector's appearance  like StrokeColor, StrokeWidth, opacity, and StrokeDashArray. The conceptual styling properties are listed below.
 
 | Property | Description |
 | --- | --- |
@@ -147,6 +163,15 @@ Connector appearance is customized through the `ShapeStyle` class.
 | `StrokeDashArray` | Dash pattern. The accepted value format depends on the package version. |
 
 ```csharp
+
+
+Connector connector = new Connector
+{
+    Id = "connector",
+    SourcePoint = new Point(100, 200),
+    TargetPoint = new Point(400,500),
+};
+
 connector.Style = new ShapeStyle
 {
     StrokeColor = Colors.SteelBlue,
@@ -154,24 +179,34 @@ connector.Style = new ShapeStyle
     Opacity = 0.9,
     StrokeDashArray = "4,2"
 };
+
 ```
 
 ---
 
 ## Connector decorators
 
-Decorators indicate direction and are commonly displayed at the source or target end of a connector. They are configured through `DecoratorSettings`, which supports `Shape`, `Width`, `Height`, and `Style`.
+Decorators indicate direction and are commonly displayed at the source or target end of a connector. The source and target points of a connector can be decorated with some customizable shapes like arrows, circles, diamond, or any path. You can decorate the connection end points using the `SourceDecorator` and `TargetDecorator` properties of connector. They are configured through `DecoratorSettings`, which supports `Shape`, `Width`, `Height`, and `Style`.
 
 ```csharp
+
+Connector connector = new Connector
+{
+    Id = "connector",
+    SourcePoint = new Point(100, 200),
+    TargetPoint = new Point(400,500),
+};
+
 connector.TargetDecorator = new DecoratorSettings
 {
-    Shape = DecoratorShapes.Arrow
+    Shape = DecoratorShape.Arrow
 };
 
 connector.SourceDecorator = new DecoratorSettings
 {
-    Shape = DecoratorShapes.Circle
+    Shape = DecoratorShape.Circle
 };
+
 ```
 
 ### Supported decorator shapes
@@ -196,7 +231,7 @@ The Diagram control supports the following decorator shapes through the `Decorat
 
 ## Connector annotations
 
-Annotations display text along a connector through the `PathAnnotation` class. Connector labels describe the relationship between connected nodes. They help visualize decision branches, transitions, and conditions.
+Annotation is used to textually represent an object with a string that can be edited at run time. Annotations display text along a connector through the `PathAnnotation` class. Connector labels describe the relationship between connected nodes. They help visualize decision branches, transitions, and conditions.
 
 ```csharp
 connector.Annotations.Add(
@@ -205,6 +240,8 @@ connector.Annotations.Add(
         Content = "Approved"
     });
 ```
+
+### Multiple Annotations
 
 Multiple labels can be displayed on the same connector:
 
