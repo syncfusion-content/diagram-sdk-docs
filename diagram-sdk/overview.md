@@ -29,7 +29,7 @@ The diagram components are available across JavaScript, Angular, React, Vue, ASP
 **Snapping** - Ensures precise alignment by snapping elements to gridlines or nearby objects.
 **Stencil and Symbol Palette** - Provides a gallery of reusable symbols and nodes that can be easily dragged and dropped onto the canvas.
 **Overview Control** - Displays a miniature view of the entire diagram to enhance navigation and orientation.
-**Clipboard Operations** - Supports cut, copy, paste, and duplication of elements within or across diagrams.
+**Clipboard Operations** - Supports cut, copy, paste and duplication of elements within or across diagrams.
 
 ## Sample Browser
 
