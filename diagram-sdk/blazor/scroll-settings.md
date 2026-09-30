@@ -11,6 +11,15 @@ documentation: ug
 
 The diagram can be scrolled using vertical and horizontal scrollbars. In addition to the scrollbars, the mouse wheel can be used to scroll the diagram. The Diagram’s [ScrollSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html) allows to read the current scroll status, current zoom and zoom factor values. 
 
+## How to Use Mouse Wheel Scrolling
+
+The diagram supports mouse wheel scrolling for efficient navigation:
+
+* **Mouse Wheel (Scroll)**: Scrolls the diagram vertically
+* **Shift + Mouse Wheel (Scroll)**: Scrolls the diagram horizontally
+
+This provides a quick way to navigate large diagrams without relying on the scrollbars.
+
 ## How to Get Current Scroll Status
 
 Scroll settings allows to read the scroll status, [CurrentZoom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html#Syncfusion_Blazor_Diagram_ScrollSettings_CurrentZoom) with a set of properties. To explore those properties, see [Scroll Settings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.ScrollSettings.html).
