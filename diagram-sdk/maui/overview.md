@@ -2,7 +2,7 @@
 layout: post
 title: Overview about .NET MAUI Diagram | Syncfusion®
 description: Overview of the Syncfusion® .NET MAUI Diagram control for creating, visualizing, and interacting with flowcharts and diagramming applications.
-platform: MAUI
+platform: diagram-sdk
 control: SfDiagram
 documentation: ug
 keywords : maui diagram, maui diagram control, diagram in maui, .net maui diagram, .net maui flowchart, maui flowchart, flowchart in maui, workflow diagram in maui, maui org chart, organizational chart in maui, maui graph editor
