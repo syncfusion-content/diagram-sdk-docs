@@ -207,7 +207,22 @@ The below example code demonstrating different types of user handles.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/userhandle-cs7" %}
 
+## Refresh user handle template
 
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#refreshtemplate) method to refresh a user handle template at runtime. Reassign the new template function to the [`userHandleTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#userhandletemplate) property and call `refreshTemplate()` to update the user handle dynamically.
+
+The following example demonstrates how to change a user handle template and refresh it.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-refreshTemplate/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/diagram-sdk/typescript/userhandle-refreshTemplate/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/userhandle-refreshTemplate" %}
 
 ## User handle events
 
@@ -370,8 +385,6 @@ The following code explains how to customize the alignment of connector fixed us
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/interaction-cs9" %}
 
 
-
-
 ### Fixed user handle tooltip
 
 The TypeScript Diagram provides support to show a tooltip when the mouse hovers over any fixed user handle. To show the tooltip on mouse hover, set the [`tooltip`](https://ej2.syncfusion.com/documentation/api/diagram/diagramtooltipmodel) property of the fixed user handle with the tooltip [`content`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#content) as shown in the following example.
@@ -388,8 +401,6 @@ The TypeScript Diagram provides support to show a tooltip when the mouse hovers 
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/fixeduserhandle-cs3" %}
-
-
 
 You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tool-tip) section.
 

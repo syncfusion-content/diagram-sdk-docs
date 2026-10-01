@@ -1,0 +1,42 @@
+import { Diagram, NodeModel } from '@syncfusion/ej2-diagrams';
+
+let node: NodeModel = {
+    id: 'node1',
+    offsetX: 150,
+    offsetY: 150,
+    width: 120,
+    height: 120,
+    shape: {
+        type: 'HTML',
+    },
+    addInfo: {
+        title: 'Employee',
+        department: 'Engineering',
+    },
+};
+
+function nodeTemplate(obj: any) {
+    return `<div style="background:#e3165b;color:white;border-radius:5px;text-align:center;height:100%;width:100%;display:flex;flex-direction:column;justify-content:center;">
+            <div style="font-weight:bold;font-size:14px;">${obj.addInfo.title}</div>
+            <div style="font-size:12px;margin-top:5px;">${obj.addInfo.department}</div>
+          </div>`;
+}
+
+// initialize diagram component
+let diagram: Diagram = new Diagram({
+    width: '100%',
+    height: '600px',
+    nodes: [node],
+    annotationTemplate: '#annotationTemplate',
+});
+// render initialized diagram
+diagram.appendTo('#element');
+
+// Update the node data and refresh the template
+(document.getElementById('updateBtn') as HTMLInputElement).onclick = function () {
+    // Update the additional data
+    diagram.nodes[0].addInfo.title = 'Manager';
+    diagram.nodes[0].addInfo.department = 'Human Resources';
+    // Refresh the template to reflect the changes
+    diagram.refreshTemplate(diagram.nodes[0]);
+};
