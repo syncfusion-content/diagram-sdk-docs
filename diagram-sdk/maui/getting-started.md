@@ -15,7 +15,7 @@ This guide shows how to add the Syncfusion .NET MAUI Diagram control to an appli
 
 Before you begin, make sure that you have:
 
-- A .NET MAUI development environment. See the [official .NET MAUI installation guide](https://learn.microsoft.com/dotnet/maui/get-started/installation).
+- A .NET MAUI development environment. See the [official .NET MAUI installation guide](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-10.0&tabs=visual-studio).
 - A supported version of the .NET SDK and Visual Studio for your Syncfusion release.
 - A Syncfusion license key. See [licensing](https://help.syncfusion.com/maui/licensing/overview).
 
