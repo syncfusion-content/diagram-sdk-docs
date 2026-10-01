@@ -113,5 +113,4 @@ protected override async void OnAppearing()
 
 ## See also
 
-- [Diagram operations](diagram-operations.md)
-- [Events](events.md)
+- [Export and Print](export-print)
