@@ -96,5 +96,3 @@ await diagram.PrintAsync();
 ## See also
 
 - [Save and load](save-load)
-- [Diagram operations](diagram-operations)
-- [Getting started](getting-started)

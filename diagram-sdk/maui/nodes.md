@@ -159,6 +159,6 @@ node.Shape = new FlowShape
 
 ## See also
 
-- [Getting started](getting-started.md)
-- [Add node annotations](annotations.md)
-- [Ports](ports.md)
+- [Getting started](getting-started)
+- [Add node annotations](annotations)
+- [Ports](ports)
