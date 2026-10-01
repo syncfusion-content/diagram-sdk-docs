@@ -26,23 +26,31 @@ A port is created using the `PointPort` class and added to the `Node.Ports` coll
 ```csharp
 using Syncfusion.Maui.Diagram;
 
-Node node = new Node
-{
-    Id = "node1",
-    Width = 120,
-    Height = 60
-};
+ Node node = new Node
+ {
+     Id = "node1",
+     OffsetX = 500,
+     OffsetY = 300,
+     Width = 120,
+     Height = 60
+ };
+ ShapeStyle style = new ShapeStyle();
+ style.Fill = Colors.CornflowerBlue;
+ style.StrokeColor = Colors.Black;
+ style.StrokeWidth = 2;
+ style.StrokeDashArray = "0,0";
 
-node.Ports.Add(
-new PointPort
-{
-    Id = "TopPort"
-});
+ node.Style = style;
+ node.Ports.Add(
+ new PointPort
+ {
+     Id = "TopPort", Visibility = PortVisibility.Visible,
+ });
 
-diagram.Nodes.Add(node);
+ diagram.Nodes.Add(node);
 
 ```
-
+![Port_creation](diagram_images/Port_creation.png)
 ## Port properties
 
 | Property | Description |
@@ -85,23 +93,32 @@ For example, the following code places a port at the right-center of a node:
 
 ```csharp
 
-Node node = new Node
-{
-    Id = "node1",
-    Width = 120,
-    Height = 60
-};
+ Node node = new Node
+ {
+     Id = "node",
+     OffsetX = 500,
+     OffsetY = 300,
+     Width = 120,
+     Height = 60
+ };
+ ShapeStyle style = new ShapeStyle();
+ style.Fill = Colors.CornflowerBlue;
+ style.StrokeColor = Colors.Black;
+ style.StrokeWidth = 2;
+ style.StrokeDashArray = "0,0";
 
-node.Ports.Add(
-new PointPort
-{
-    Id = "TopPort",
-    Offset = new DiagramPoint(0,1),
-});
+ node.Style = style;
+ node.Ports.Add(
+ new PointPort
+ {
+     Id = "Port", Visibility = PortVisibility.Visible,
+     Offset = new DiagramPoint(0, 1),
+ });
 
-diagram.Nodes.Add(node);
+ diagram.Nodes.Add(node);
 
 ```
+![Port_position](diagram_images/Port_position.png)
 ---
 
 ## Port visibility
@@ -117,17 +134,26 @@ The `Visibility` property determines when a port is displayed.
 
 ```csharp
 
+
 Node node = new Node
 {
-    Id = "node1",
+    Id = "node",
+    OffsetX = 500,
+    OffsetY = 300,
     Width = 120,
-    Height = 60
+    Height = 100
 };
+ShapeStyle style = new ShapeStyle();
+style.Fill = Colors.Red;
+style.StrokeColor = Colors.Black;
+style.StrokeWidth = 2;
+style.StrokeDashArray = "0,0";
 
+node.Style = style;
 PointPort port= new PointPort
 {
-    Id = "TopPort", 
-    Offset = new DiagramPoint(0,1),
+    Id = "Port", 
+    Offset = new DiagramPoint(0,0.5),
 };
 
 port.Visibility = PortVisibility.Visible;
@@ -135,6 +161,7 @@ port.Visibility = PortVisibility.Visible;
 node.Ports(port);
 
 ```
+![Port_visibility](diagram_images/port_visibility.png)
 ---
 
 ## Appearance
@@ -143,13 +170,18 @@ Port appearance is customized using  the `Style` property of the `Port` class.
 
 ```csharp
 
-port.Style = new ShapeStyle
-{
-    Fill = Colors.LightBlue,
-    StrokeColor = Colors.DarkBlue,
-    StrokeWidth = 2,
-    Opacity = 1
-};
+ PointPort port = new PointPort
+ {
+     Id = "Port",
+ };
+
+ port.Style = new ShapeStyle
+ {
+     Fill = Colors.Yellow,
+     StrokeColor = Colors.DarkBlue,
+     StrokeWidth = 2,
+     Opacity = 1
+ };
 
 ```
 ### Properties
@@ -162,6 +194,7 @@ port.Style = new ShapeStyle
 | `Opacity` | Port transparency from `0` to `1`. |
 | `StrokeDashArray` | Dash pattern for the border. The accepted value format depends on the package version. |
 
+![Port_Appearance](diagram_images/Port_appearance.png)
 ---
 
 ## Connections with ports
@@ -172,28 +205,40 @@ The connection between any specific point of source and target nodes can be achi
 
 Node node1 = new Node
 {
+    Id="Node1",
     OffsetX = 200,
     OffsetY = 200,
     Width = 80,
     Height = 80
 };
+ShapeStyle style = new ShapeStyle();
+style.Fill = Colors.CornflowerBlue;
+style.StrokeColor = Colors.Black;
+style.StrokeWidth = 2;
+style.StrokeDashArray = "0,0";
+
+node1.Style = style;
 Node node2 = new Node
 {
-    OffsetX = 200,
-    OffsetY = 200,
+    Id = "Node2",
+    OffsetX = 400,
+    OffsetY = 400,
     Width = 80,
     Height = 80
 };
 
+node2.Style = style;
 PointPort RightPort = new PointPort
 {
     Id = "RightPort",
     Offset = new DiagramPoint(1, 0.5),
+    Visibility = PortVisibility.Visible,
 };
 PointPort LeftPort = new PointPort
 {
     Id = "LeftPort",
     Offset = new DiagramPoint(0.5, 0),
+    Visibility = PortVisibility.Visible
 };
 
 node1.Ports.Add(RightPort);
@@ -205,16 +250,16 @@ diagram.Nodes.Add(node2);
 Connector connector = new Connector
 {
     Id = "connector1",
-    SourceID = "node1",
+    SourceID = "Node1",
     SourcePortID = "RightPort",
-    TargetID = "node2",
+    TargetID = "Node2",
     TargetPortID = "LeftPort"
 };
 
 diagram.Connectors.Add(connector);
 
 ```
-
+![Connections with ports](diagram_images/Connections_with_ports.png)
 ---
 
 ## Multiple ports
@@ -230,15 +275,16 @@ A node can contain any number of ports, each scoped to the host node by its `Id`
      Height = 80
  };
 
-node.Ports.Add(new PointPort { Id = "TopPort",    Offset = new DiagramPoint { X = 0.5, Y = 0 } });
-node.Ports.Add(new PointPort { Id = "BottomPort", Offset = new DiagramPoint { X = 0.5, Y = 1 } });
-node.Ports.Add(new PointPort { Id = "LeftPort",   Offset = new DiagramPoint { X = 0,   Y = 0.5 } });
-node.Ports.Add(new PointPort { Id = "RightPort",  Offset = new DiagramPoint { X = 1,   Y = 0.5 } });
+node.Ports.Add(new PointPort { Id = "TopPort",    Offset = new DiagramPoint { X = 0.5, Y = 0 }, Visibility = PortVisibility.Visible });
+node.Ports.Add(new PointPort { Id = "BottomPort", Offset = new DiagramPoint { X = 0.5, Y = 1 }, Visibility = PortVisibility.Visible });
+node.Ports.Add(new PointPort { Id = "LeftPort",   Offset = new DiagramPoint { X = 0,   Y = 0.5 }, Visibility = PortVisibility.Visible });
+node.Ports.Add(new PointPort { Id = "RightPort",  Offset = new DiagramPoint { X = 1,   Y = 0.5 }, Visibility = PortVisibility.Visible });
 
 ```
 
 > **Note:** `DiagramPoint` is not implemented in the current release. Verify the supported coordinate type for port positioning before using this property.
 
+![Multiple ports](diagram_images/Multiple_ports.png)
 ---
 
 ## Best practices

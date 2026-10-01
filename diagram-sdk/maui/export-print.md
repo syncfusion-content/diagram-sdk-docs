@@ -83,7 +83,7 @@ diagram.FitToPage();
 diagram.Print();
 
 ```
-
+![Ptint_without_FitToPage](diagram_images/Printing.png)
 > **Note:** Printing on mobile platforms depends on the underlying operating system support. Validate the supported platforms in the API reference for your package.
 
 ---

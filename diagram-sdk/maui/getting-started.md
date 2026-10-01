@@ -102,7 +102,7 @@ public partial class MainPage : ContentPage
 
         var startNode = new Node
         {
-            ID = "Start",
+            Id = "Start",
             OffsetX = 150,
             OffsetY = 150,
             Width = 120,
@@ -111,7 +111,7 @@ public partial class MainPage : ContentPage
 
         var processNode = new Node
         {
-            ID = "Process",
+            Id = "Process",
             OffsetX = 400,
             OffsetY = 150,
             Width = 120,
@@ -120,9 +120,9 @@ public partial class MainPage : ContentPage
 
         var connector = new Connector
         {
-            ID = "Connector1",
-            SourceID = startNode.ID,
-            TargetID = processNode.ID
+            Id = "Connector1",
+            SourceID = startNode.Id,
+            TargetID = processNode.Id
         };
 
         diagram.Nodes = new ObservableCollection<Node>
@@ -138,7 +138,7 @@ public partial class MainPage : ContentPage
     }
 }
 ```
-
+![Add nodes and a connector](diagram_images/getting_started_nodes_and_connectors.png)
 `OffsetX` and `OffsetY` position the nodes on the diagram surface. `SourceID` and `TargetID` connect the connector to the corresponding node IDs.
 
 ## Expected result
