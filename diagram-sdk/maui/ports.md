@@ -160,5 +160,5 @@ node.Ports.Add(new PointPort { ID = "RightPort",  Offset = new DiagramPoint { X 
 
 ## See also
 
-- [Nodes](nodes.md)
-- [Connectors](connectors.md)
+- [Nodes](nodes)
+- [Connectors](connectors)

@@ -241,6 +241,6 @@ connector.Annotations.Add(
 
 ## See also
 
-- [Nodes](nodes.md)
-- [Ports](ports.md)
-- [Annotations](annotations.md)
+- [Nodes](nodes)
+- [Ports](ports)
+- [Annotations](annotations)
