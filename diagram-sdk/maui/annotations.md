@@ -176,5 +176,5 @@ For `PathAnnotation`, the `Offset.X` value is a normalized position along the co
 
 ## See also
 
-- [Nodes](nodes.md)
-- [Connectors](connectors.md)
+- [Nodes](nodes)
+- [Connectors](connectors)
