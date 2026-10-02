@@ -176,6 +176,22 @@ The below example code demonstrating different types of user handles.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/UserHandleTypes-cs1" %}
 
+## Refresh user handle template
+
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#refreshtemplate) method to refresh a user handle template at runtime. Reassign the new template function to the [`userHandleTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#userhandletemplate) property and call `refreshTemplate()` to update the user handle dynamically.
+
+The following example demonstrates how to change a user handle template and refresh it.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate" %}
 
 ## User handle events
 
