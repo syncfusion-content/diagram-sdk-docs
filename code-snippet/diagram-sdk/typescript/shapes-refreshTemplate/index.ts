@@ -27,7 +27,7 @@ let diagram: Diagram = new Diagram({
     width: '100%',
     height: '600px',
     nodes: [node],
-    annotationTemplate: '#annotationTemplate',
+    nodeTemplate: nodeTemplate
 });
 // render initialized diagram
 diagram.appendTo('#element');
