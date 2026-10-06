@@ -15,7 +15,7 @@ The Diagram control supports exporting the current diagram and sending it to the
 
 ## Prerequisites
 
-Refer to the [Getting started](getting-started.md) page to create a project, install the package, and register the handler. Export and print examples assume that an `SfDiagram` instance named `diagram` is available.
+Refer to the [Getting started](https://help.syncfusion.com/diagram-sdk/maui/getting-started) page to create a project, install the package, and register the handler. Export and print examples assume that an [SfDiagram](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.SfDiagram.html) instance named `diagram` is available.
 
 ---
 
@@ -23,7 +23,7 @@ Refer to the [Getting started](getting-started.md) page to create a project, ins
 
 | Member | Description | Status |
 | --- | --- | --- |
-| `ExportDiagram` | Exports the diagram to a file or stream. | Implemented. |
+| [ExportDiagram](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.SfDiagram.html#Syncfusion_Maui_Diagram_SfDiagram_ExportDiagram_Syncfusion_Maui_Diagram_DiagramExportOptions_) | Exports the diagram to a file or stream. | Implemented. |
 
 ---
 
@@ -31,7 +31,7 @@ Refer to the [Getting started](getting-started.md) page to create a project, ins
 
 | Member | Description | Status |
 | --- | --- | --- |
-| `Print` | Sends the diagram to the system printing pipeline. | Implemented. |
+| [Print](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.SfDiagram.html#Syncfusion_Maui_Diagram_SfDiagram_Print_Syncfusion_Maui_Diagram_DiagramExportOptions_) | Sends the diagram to the system printing pipeline. | Implemented. |
 
 ---
 
@@ -54,7 +54,7 @@ private  void ExportButton_Clicked(object sender, EventArgs e)
 }
 ```
 
-Call `FitToPage` before exporting if you want the visible area to be exported:
+Call [FitToPage](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Diagram.SfDiagram.html#Syncfusion_Maui_Diagram_SfDiagram_FitToPage) before exporting if you want the visible area to be exported:
 
 ```csharp
 
@@ -99,6 +99,5 @@ diagram.Print();
 
 ## See also
 
-- [Save and load](save-load.md)
-- [Diagram operations](diagram-operations.md)
-- [Getting started](getting-started.md)
+- [Save and load](https://help.syncfusion.com/diagram-sdk/maui/save-load)
+- [Getting started](https://help.syncfusion.com/diagram-sdk/maui/getting-started)
