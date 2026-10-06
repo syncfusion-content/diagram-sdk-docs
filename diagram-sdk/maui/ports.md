@@ -15,7 +15,7 @@ Ports are commonly used in workflow designers, flowcharts, process diagrams, and
 
 ## Prerequisites
 
-Refer to the [Getting started](getting-started.md) page to create a project, install the package, and register the handler. Port examples assume that the host node has been created in the diagram.
+Refer to the [Getting started](https://help.syncfusion.com/diagram-sdk/maui/getting-started) page to create a project, install the package, and register the handler. Port examples assume that the host node has been created in the diagram.
 
 ---
 
