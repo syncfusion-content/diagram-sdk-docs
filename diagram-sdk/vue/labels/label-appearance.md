@@ -166,6 +166,25 @@ The following code illustrates how to define a functional template.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/AnnotationTemplate-cs1" %}
 
+### Refresh annotation template
+
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/vue/documentation/api/diagram#refreshtemplate) method to refresh an annotation template after modifying its properties.
+
+To refresh a specific annotation template, provide the annotation ID. If no ID is provided, the method refreshes all annotation templates.
+
+The following example demonstrates how to modify an annotation and refresh its template.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/labels/annotations-refreshTemplate/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/labels/annotations-refreshTemplate/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/annotations-refreshTemplate" %}
+
 ## Text align
 
 The [`textAlign`](https://ej2.syncfusion.com/vue/documentation/api/diagram/textstylemodel#textalign) property of annotation allows you to set how the text should be aligned (left, right, center, or justify) inside the text block. The following codes illustrate how to set textAlign for an annotation.
