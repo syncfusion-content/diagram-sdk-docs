@@ -77,7 +77,7 @@ template: `
 </div>
 `,
 
-    name: 'app'
+    name: 'app',
     data() {
         return {
             width: "100%",
