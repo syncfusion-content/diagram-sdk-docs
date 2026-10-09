@@ -175,6 +175,25 @@ Refer the code example below.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes/NodeTemplate-cs1" %}
 
+### Refresh node template
+
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#refreshtemplate) method to refresh a node template after modifying its properties.
+
+To refresh a specific node template, provide the node ID. If no ID is provided, the method refreshes all node templates.
+
+The following example demonstrates how to modify a node and refresh its template.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/shapes/shapes-refreshTemplate/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/shapes/shapes-refreshTemplate/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/shapes-refreshTemplate" %}
+
 ## Native
 
 Diagram provides support to embed SVG element into a node. The shape property of node allows you to set the type of node. To create a [`native`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node/#shape) node, it should be set as **native**. The following code illustrates how a native node is created.
