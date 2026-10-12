@@ -241,6 +241,6 @@ connector.Annotations.Add(
 
 ## See also
 
-- [Nodes](nodes)
-- [Ports](ports)
-- [Annotations](annotations)
+- [Nodes](https://help.syncfusion.com/diagram-sdk/maui/nodes)
+- [Ports](https://help.syncfusion.com/diagram-sdk/maui/ports)
+- [Annotations](https://help.syncfusion.com/diagram-sdk/maui/annotations)
