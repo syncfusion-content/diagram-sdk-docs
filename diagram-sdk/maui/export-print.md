@@ -95,4 +95,4 @@ await diagram.PrintAsync();
 
 ## See also
 
-- [Save and load](save-load)
+- [Save and load](https://help.syncfusion.com/diagram-sdk/maui/save-load)
