@@ -100,4 +100,3 @@ diagram.Print();
 ## See also
 
 - [Save and load](https://help.syncfusion.com/diagram-sdk/maui/save-load)
-- [Getting started](https://help.syncfusion.com/diagram-sdk/maui/getting-started)
