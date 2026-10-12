@@ -231,7 +231,7 @@ The following table summarizes the globalization support available in this contr
     <h3 class="form-title">Feature Tour</h3>
 </div>
 <div class="form-description">Get a quick overview of key features and capabilities to kick start your journey.</div>
-<!--<a href="https://www.syncfusion.com/maui-controls/maui-diagram" class="explore-link">
+<!--<a href="https://www.syncfusion.com/diagram-sdk/maui-diagram" class="explore-link">-->
 Explore Features
   <span class="card-icon card-arrow"></span>
 </a>-->
@@ -265,7 +265,7 @@ Explore Features
     <div class="form-description">
       Watch step‑by‑step video guides to quickly understand concepts and implementation.
     </div>
-    <a href="https://www.syncfusion.com/tutorial-videos/maui/" class="explore-link">
+    <a href="https://www.syncfusion.com/tutorial-videos/maui" class="explore-link">
     Watch now
   <span class="card-icon card-arrow"></span>
 </a>

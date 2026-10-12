@@ -117,4 +117,4 @@ protected override async void OnAppearing()
 
 ## See also
 
-- [Diagram operations](https://help.syncfusion.com/diagram-sdk/maui/getting-started)
+- [Export and Print](https://help.syncfusion.com/diagram-sdk/maui/export-print)
