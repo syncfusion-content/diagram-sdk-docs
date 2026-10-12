@@ -159,6 +159,6 @@ node.Shape = new FlowShape
 
 ## See also
 
-- [Getting started](getting-started)
-- [Add node annotations](annotations)
-- [Ports](ports)
+- [Getting started](https://help.syncfusion.com/diagram-sdk/maui/getting-started)
+- [Add node annotations](https://help.syncfusion.com/diagram-sdk/maui/annotations#node-annotations)
+- [Ports](https://help.syncfusion.com/diagram-sdk/maui/ports)
