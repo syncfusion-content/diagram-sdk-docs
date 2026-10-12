@@ -160,5 +160,5 @@ node.Ports.Add(new PointPort { ID = "RightPort",  Offset = new DiagramPoint { X 
 
 ## See also
 
-- [Nodes](nodes)
-- [Connectors](connectors)
+- [Nodes](https://help.syncfusion.com/diagram-sdk/maui/nodes)
+- [Connectors](https://help.syncfusion.com/diagram-sdk/maui/connectors)
