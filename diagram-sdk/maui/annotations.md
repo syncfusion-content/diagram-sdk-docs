@@ -176,5 +176,5 @@ For `PathAnnotation`, the `Offset.X` value is a normalized position along the co
 
 ## See also
 
-- [Nodes](nodes)
-- [Connectors](connectors)
+- [Nodes](https://help.syncfusion.com/diagram-sdk/maui/nodes)
+- [Connectors](https://help.syncfusion.com/diagram-sdk/maui/connectors)
