@@ -5,6 +5,7 @@ description: Learn how to create a .NET MAUI project, add the Syncfusion® .NET 
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Getting Started with .NET MAUI Diagram
@@ -207,10 +208,6 @@ public partial class MainPage : ContentPage
 ![Add nodes and a connector](diagram_images/getting_started_nodes_and_connectors.png)
 
 `OffsetX` and `OffsetY` position the nodes on the diagram surface. `SourceID` and `TargetID` connect the connector to the corresponding node IDs.
-
-## Expected result
-
-When you run the application, the Diagram control displays two nodes positioned horizontally with a connector between them. The exact appearance can vary with the target platform and the control's default styles.
 
 ## Troubleshooting
 
