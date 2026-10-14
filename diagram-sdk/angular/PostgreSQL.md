@@ -589,11 +589,9 @@ npm install zone.js @syncfusion/ej2-angular-diagrams @syncfusion/ej2-data @syncf
 Import Syncfusion® CSS styles in the **client/src/styles.css** file for proper component rendering:
 
 ```css
-/* Import Material theme base styles */
-@import '@syncfusion/ej2-base/styles/material.css';
 
 /* Import Diagram component-specific styles */
-@import '@syncfusion/ej2-diagrams/styles/material.css';
+@import '@syncfusion/ej2-material-theme/styles/diagram/index.css';
 ```
 
 > **Note**: Syncfusion® provides multiple themes (Material, Bootstrap, Fabric). This example uses Material theme for modern appearance.
