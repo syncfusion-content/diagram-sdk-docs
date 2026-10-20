@@ -32,6 +32,19 @@ if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
 }
 
 {% endhighlight %}
+{% highlight vb %}
+
+Dim saveFileDialog As New SaveFileDialog()
+saveFileDialog.Filter = "XML Diagram (*.xml)|*.xml|All files (*.*)|*.*"
+If saveFileDialog.ShowDialog(Me) = DialogResult.OK Then
+    Dim currentSymbolPalette As SymbolPalette = paletteGroupBar1.CurrentSymbolPalette
+    Dim strSavePath As String = saveFileDialog.FileName
+    If currentSymbolPalette IsNot Nothing Then
+        currentSymbolPalette.SavePalette(strSavePath)
+    End If
+End If
+
+{% endhighlight %}
 {% endtabs %}
 
 
@@ -49,6 +62,16 @@ if (openFileDialog.ShowDialog(this) == DialogResult.OK)
     string strFileName = openFileDialog.FileName;
     paletteGroupBar1.LoadPalette(strFileName);
 }
+
+{% endhighlight %}
+{% highlight vb %}
+
+Dim openFileDialog As New OpenFileDialog()
+openFileDialog.Filter = "XML Diagram (*.xml)|*.xml|All files (*.*)|*.*"
+If openFileDialog.ShowDialog(Me) = DialogResult.OK Then
+    Dim strFileName As String = openFileDialog.FileName
+    paletteGroupBar1.LoadPalette(strFileName)
+End If
 
 {% endhighlight %}
 {% endtabs %}
