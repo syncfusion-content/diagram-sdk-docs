@@ -105,10 +105,7 @@ Add the required Syncfusion® styles to the **src/App.vue** file in the `<style>
 
 ```
 <style>
-  @import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-  @import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-  @import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-  @import '../node_modules/@syncfusion/ej2-vue-diagrams/styles/tailwind3.css';
+  @import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 </style>
 ```
 For the list of available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
@@ -143,10 +140,7 @@ import { DiagramComponent as EjsDiagram } from '@syncfusion/ej2-vue-diagrams';
 </script>
 
 <style>
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-vue-diagrams/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 </style>
 ```
 
@@ -288,10 +282,7 @@ function connectorDefaults(connector) {
 </script>
 
 <style>
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../node_modules/@syncfusion/ej2-vue-diagrams/styles/tailwind3.css';
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 </style>
 ```
 
