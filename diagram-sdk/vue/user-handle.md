@@ -14,7 +14,7 @@ User handles are used to add frequently used commands around the selector.
 
 ## Create user handle
 
-To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) collection of the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/) property. The [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#pathdata) property is used to define the path data of userhandle.
+To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/#userhandles) collection of the [`selectedItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/selectorModel/) property. The [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization. The [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/userHandleModel/#pathdata) property is used to define the path data of user handle.
 
 The following example shows how to render user handle.
 
@@ -176,6 +176,22 @@ The below example code demonstrating different types of user handles.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/UserHandleTypes-cs1" %}
 
+## Refresh user handle template
+
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#refreshtemplate) method to refresh a user handle template at runtime. Reassign the new template function to the [`userHandleTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#userhandletemplate) property and call `refreshTemplate()` to update the user handle dynamically.
+
+The following example demonstrates how to change a user handle template and refresh it.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/interaction/userhandle-refreshTemplate" %}
 
 ## User handle events
 
