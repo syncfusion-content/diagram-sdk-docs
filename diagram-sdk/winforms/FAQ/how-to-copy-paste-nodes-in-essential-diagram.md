@@ -27,11 +27,9 @@ this.diagram1.Controller.Copy();
 IDataObject clipboardData = Clipboard.GetDataObject();
 
 if (clipboardData.GetDataPresent(typeof(ClipboardNodeCollection)))
-
 {
 
-this.diagram1.Controller.Paste();
-
+     this.diagram1.Controller.Paste();
 }
 
 {% endhighlight %}
