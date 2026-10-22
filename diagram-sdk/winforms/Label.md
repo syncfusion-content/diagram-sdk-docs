@@ -525,7 +525,7 @@ Dim rectangle As New Syncfusion.Windows.Forms.Diagram.Rectangle(New RectangleF(1
 Dim label As New Syncfusion.Windows.Forms.Diagram.Label()
 'To set the label constraint as Interaction...
 label.Constraints = LabelConstraints.Interaction
-label.Text = "Welcome to Syncfusion®"
+label.Text = "First"
 rectangle.Labels.Add(label)
 
 label = New Syncfusion.Windows.Forms.Diagram.Label()
