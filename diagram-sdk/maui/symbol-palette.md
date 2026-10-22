@@ -5,6 +5,7 @@ description: Learn how to use the SymbolPalette in the Syncfusion® .NET MAUI Di
 platform: diagram-sdk
 control: SfDiagram
 documentation: ug
+appliesto: UI Component Suite, Diagram SDK
 ---
 
 # Symbol palette in .NET MAUI Diagram
