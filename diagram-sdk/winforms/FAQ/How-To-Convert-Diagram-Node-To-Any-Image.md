@@ -19,7 +19,6 @@ To export a single node as an image, use the below code snippet.
 Node selectedNode = this.diagram1.Controller.SelectionList[0];
 
 if (selectedNode != null)
-
 {
 
     //Node size depends on the border line. So we have to calculate the Line width also.
@@ -29,7 +28,6 @@ if (selectedNode != null)
     Convert.ToInt32(selectedNode.Size.Height + selectedNode.LineStyle.LineWidth));
 
     using (Graphics gr = Graphics.FromImage(bmp))
-
     {
         System.Drawing.Drawing2D.Matrix m = new System.Drawing.Drawing2D.Matrix();
 
@@ -44,9 +42,7 @@ if (selectedNode != null)
         bmp.Save("image.png", System.Drawing.Imaging.ImageFormat.Png);
 
         Process.Start("image.png");
-
     }
-
 }
 
 {% endhighlight %}
