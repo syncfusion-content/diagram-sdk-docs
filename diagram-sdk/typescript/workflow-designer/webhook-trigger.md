@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webhook trigger in TypeScript Workflow Designer control | Syncfusion
+title: Webhook trigger in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to start workflows from webhook calls received by your backend in the Syncfusion TypeScript Workflow Designer control.
 platform: ej2-typescript
 control: Workflow Designer

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webhook trigger in React Workflow Designer | Syncfusion
+title: Webhook trigger in React Workflow Designer | Syncfusion®
 description: Learn how to start workflows from webhook calls received by your backend in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

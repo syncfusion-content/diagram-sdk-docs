@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Import and export in Angular Workflow Designer | Syncfusion
+title: Import and export in Angular Workflow Designer | Syncfusion®
 description: Learn how to save, load and track changes to workflows as JSON in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

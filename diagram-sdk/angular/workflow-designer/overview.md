@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of Angular Workflow Designer | Syncfusion
+title: Overview of Angular Workflow Designer | Syncfusion®
 description: Learn about the Syncfusion Angular Workflow Designer, its features, layout and the step types it supports.
 platform: diagram-sdk
 control: Workflow Designer

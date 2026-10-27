@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize the user interface in React Workflow Designer | Syncfusion
+title: Customize the user interface in React Workflow Designer | Syncfusion®
 description: Learn how to configure the toolbars, step collection, property panel, execution log, canvas and sticky notes of the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

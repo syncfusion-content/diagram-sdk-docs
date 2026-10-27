@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Host integration in TypeScript Workflow Designer control | Syncfusion
+title: Host integration in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to deliver notifications, handle approvals, supply credentials, run custom steps and intercept requests in the Syncfusion TypeScript Workflow Designer.
 platform: ej2-typescript
 control: Workflow Designer

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expressions and runtime context in React Workflow Designer | Syncfusion
+title: Expressions and runtime context in React Workflow Designer | Syncfusion®
 description: Learn how to read data from triggers, earlier steps, variables and loops with expressions in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

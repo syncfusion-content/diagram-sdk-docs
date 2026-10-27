@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workflow steps in TypeScript Workflow Designer control | Syncfusion
+title: Workflow steps in TypeScript Workflow Designer control | Syncfusion®
 description: Learn about the step types of the Syncfusion TypeScript Workflow Designer control, their settings and their output ports.
 platform: ej2-typescript
 control: Workflow Designer

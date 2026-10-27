@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expressions and runtime context in Angular Workflow Designer | Syncfusion
+title: Expressions and runtime context in Angular Workflow Designer | Syncfusion®
 description: Learn how to read data from triggers, earlier steps, variables and loops with expressions in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

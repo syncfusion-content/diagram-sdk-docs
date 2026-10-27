@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webhook trigger in Angular Workflow Designer | Syncfusion
+title: Webhook trigger in Angular Workflow Designer | Syncfusion®
 description: Learn how to start workflows from webhook calls received by your backend in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

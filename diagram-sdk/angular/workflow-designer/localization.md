@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in Angular Workflow Designer | Syncfusion
+title: Localization in Angular Workflow Designer | Syncfusion®
 description: Learn how to localize the text of the Syncfusion Angular Workflow Designer into other cultures.
 platform: diagram-sdk
 control: Workflow Designer

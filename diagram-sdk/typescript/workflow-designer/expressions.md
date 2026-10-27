@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expressions and runtime context in TypeScript Workflow Designer | Syncfusion
+title: Expressions and runtime context in TypeScript Workflow Designer | Syncfusion®
 description: Learn how to read data from triggers, earlier steps, variables and loops with expressions in the Syncfusion TypeScript Workflow Designer.
 platform: ej2-typescript
 control: Workflow Designer

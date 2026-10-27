@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with Angular Workflow Designer | Syncfusion
+title: Getting started with Angular Workflow Designer | Syncfusion®
 description: Learn how to integrate and use the Syncfusion Workflow Designer in an Angular application.
 platform: diagram-sdk
 control: Workflow Designer

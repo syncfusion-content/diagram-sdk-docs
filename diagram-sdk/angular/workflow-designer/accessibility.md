@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Angular Workflow Designer | Syncfusion
+title: Accessibility in Angular Workflow Designer | Syncfusion®
 description: Learn about keyboard shortcuts, screen reader support and right-to-left layout in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

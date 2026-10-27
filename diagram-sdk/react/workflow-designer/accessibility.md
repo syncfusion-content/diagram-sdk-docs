@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in React Workflow Designer | Syncfusion
+title: Accessibility in React Workflow Designer | Syncfusion®
 description: Learn about keyboard shortcuts, screen reader support and right-to-left layout in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

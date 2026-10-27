@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in React Workflow Designer | Syncfusion
+title: Localization in React Workflow Designer | Syncfusion®
 description: Learn how to localize the text of the Syncfusion React Workflow Designer into other cultures.
 platform: diagram-sdk
 control: Workflow Designer

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Security considerations in React Workflow Designer | Syncfusion
+title: Security considerations in React Workflow Designer | Syncfusion®
 description: Learn about credential handling, network requests and imported workflows in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

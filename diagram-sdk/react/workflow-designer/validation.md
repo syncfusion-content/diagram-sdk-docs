@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Validation in React Workflow Designer | Syncfusion
+title: Validation in React Workflow Designer | Syncfusion®
 description: Learn how the Syncfusion React Workflow Designer validates workflows and how to read validation messages.
 platform: diagram-sdk
 control: Workflow Designer

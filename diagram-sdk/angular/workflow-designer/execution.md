@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running workflows in Angular Workflow Designer | Syncfusion
+title: Running workflows in Angular Workflow Designer | Syncfusion®
 description: Learn how to run, stop and monitor workflows, configure execution speed, and handle step errors in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

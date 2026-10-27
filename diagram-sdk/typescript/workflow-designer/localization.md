@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in TypeScript Workflow Designer control | Syncfusion
+title: Localization in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to localize the text of the Syncfusion TypeScript Workflow Designer control into other cultures.
 platform: ej2-typescript
 control: Workflow Designer

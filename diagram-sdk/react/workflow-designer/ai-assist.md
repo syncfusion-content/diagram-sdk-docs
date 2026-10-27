@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Assist in React Workflow Designer | Syncfusion
+title: AI Assist in React Workflow Designer | Syncfusion®
 description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Connections and ports in TypeScript Workflow Designer control | Syncfusion
+title: Connections and ports in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to connect steps, use output ports and validate connections in the Syncfusion TypeScript Workflow Designer control.
 platform: ej2-typescript
 control: Workflow Designer

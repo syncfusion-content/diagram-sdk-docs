@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Validation in Angular Workflow Designer | Syncfusion
+title: Validation in Angular Workflow Designer | Syncfusion®
 description: Learn how the Syncfusion Angular Workflow Designer validates workflows and how to read validation messages.
 platform: diagram-sdk
 control: Workflow Designer

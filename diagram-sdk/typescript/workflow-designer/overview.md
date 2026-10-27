@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of TypeScript Workflow Designer control | Syncfusion
+title: Overview of TypeScript Workflow Designer control | Syncfusion®
 description: Learn about the Syncfusion TypeScript Workflow Designer control, its features, layout and the step types it supports.
 platform: ej2-typescript
 control: Workflow Designer

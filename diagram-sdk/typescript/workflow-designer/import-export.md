@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Import and export in TypeScript Workflow Designer control | Syncfusion
+title: Import and export in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to save, load and track changes to workflows as JSON in the Syncfusion TypeScript Workflow Designer control.
 platform: ej2-typescript
 control: Workflow Designer

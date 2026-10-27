@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Assist in TypeScript Workflow Designer control | Syncfusion
+title: AI Assist in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion TypeScript Workflow Designer.
 platform: ej2-typescript
 control: Workflow Designer

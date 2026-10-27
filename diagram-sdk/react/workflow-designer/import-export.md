@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Import and export in React Workflow Designer | Syncfusion
+title: Import and export in React Workflow Designer | Syncfusion®
 description: Learn how to save, load and track changes to workflows as JSON in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

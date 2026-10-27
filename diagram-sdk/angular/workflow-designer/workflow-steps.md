@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workflow steps in Angular Workflow Designer | Syncfusion
+title: Workflow steps in Angular Workflow Designer | Syncfusion®
 description: Learn about the step types of the Syncfusion Angular Workflow Designer, their settings and their output ports.
 platform: diagram-sdk
 control: Workflow Designer

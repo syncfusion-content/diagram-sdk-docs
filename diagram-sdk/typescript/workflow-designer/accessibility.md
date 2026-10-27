@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in TypeScript Workflow Designer control | Syncfusion
+title: Accessibility in TypeScript Workflow Designer control | Syncfusion®
 description: Learn about keyboard shortcuts, screen reader support and right-to-left layout in the Syncfusion TypeScript Workflow Designer control.
 platform: ej2-typescript
 control: Workflow Designer

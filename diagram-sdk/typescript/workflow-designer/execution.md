@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running workflows in TypeScript Workflow Designer control | Syncfusion
+title: Running workflows in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to run, stop and monitor workflows, configure execution speed, and handle step errors in the Syncfusion TypeScript Workflow Designer.
 platform: ej2-typescript
 control: Workflow Designer

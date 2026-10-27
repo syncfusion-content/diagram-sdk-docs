@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with React Workflow Designer | Syncfusion
+title: Getting started with React Workflow Designer | Syncfusion®
 description: Learn how to integrate and use the Syncfusion Workflow Designer control in a React application.
 platform: diagram-sdk
 control: Workflow Designer

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Security considerations in TypeScript Workflow Designer | Syncfusion
+title: Security considerations in TypeScript Workflow Designer | Syncfusion®
 description: Learn about credential handling, network requests and imported workflows in the Syncfusion TypeScript Workflow Designer control.
 platform: ej2-typescript
 control: Workflow Designer

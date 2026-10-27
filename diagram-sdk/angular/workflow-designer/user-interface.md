@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize the user interface in Angular Workflow Designer | Syncfusion
+title: Customize the user interface in Angular Workflow Designer | Syncfusion®
 description: Learn how to configure the toolbars, step collection, property panel, execution log, canvas and sticky notes of the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

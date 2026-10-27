@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Assist in Angular Workflow Designer | Syncfusion
+title: AI Assist in Angular Workflow Designer | Syncfusion®
 description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

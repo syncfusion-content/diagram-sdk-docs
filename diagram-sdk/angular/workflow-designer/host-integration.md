@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Host integration in Angular Workflow Designer | Syncfusion
+title: Host integration in Angular Workflow Designer | Syncfusion®
 description: Learn how to deliver notifications, handle approvals, supply credentials, run custom steps and intercept requests in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer

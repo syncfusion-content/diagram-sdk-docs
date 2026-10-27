@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Validation in TypeScript Workflow Designer control | Syncfusion
+title: Validation in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how the Syncfusion TypeScript Workflow Designer control validates workflows and how to read validation messages.
 platform: ej2-typescript
 control: Workflow Designer

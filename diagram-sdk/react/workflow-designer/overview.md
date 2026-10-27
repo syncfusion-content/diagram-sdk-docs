@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of React Workflow Designer | Syncfusion
+title: Overview of React Workflow Designer | Syncfusion®
 description: Learn about the Syncfusion React Workflow Designer, its features, layout and the step types it supports.
 platform: diagram-sdk
 control: Workflow Designer

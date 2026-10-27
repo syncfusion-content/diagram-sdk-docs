@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with TypeScript Workflow Designer control | Syncfusion
+title: Getting started with TypeScript Workflow Designer control | Syncfusion®
 description: Check out and learn about getting started with the TypeScript Workflow Designer control of Syncfusion Essential JS 2 and more details.
 platform: ej2-typescript
 control: Workflow Designer
