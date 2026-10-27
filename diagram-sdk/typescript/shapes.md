@@ -206,7 +206,24 @@ Refer the code example below.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-fnNodeTemplate" %}
 
+### Refresh node template
 
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/documentation/api/diagram#refreshtemplate) method to refresh a node template after modifying its properties.
+
+To refresh a specific node template, provide the node ID. If no ID is provided, the method refreshes all node templates.
+
+The following example demonstrates how to modify a node and refresh its template.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/diagram-sdk/typescript/shapes-refreshTemplate/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/diagram-sdk/typescript/shapes-refreshTemplate/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/shapes-refreshTemplate" %}
 
 ## Native
 
