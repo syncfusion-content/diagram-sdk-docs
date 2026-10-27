@@ -1,0 +1,100 @@
+---
+layout: post
+title: AI Assist in TypeScript Workflow Designer control | Syncfusion
+description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion TypeScript Workflow Designer.
+platform: ej2-typescript
+control: Workflow Designer
+publishingplatform: typescript
+documentation: ug
+domainurl: ##DomainURL##
+---
+
+# AI Assist in TypeScript Workflow Designer control
+
+AI Assist generates a workflow, or changes the current one, from a natural-language prompt. It's disabled by default.
+
+## Server mode (recommended)
+
+In Server mode, the designer posts each request to your backend. Your backend calls the AI provider and keeps the API key.
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+const designer: WorkflowDesigner = new WorkflowDesigner({
+    aiAssistSettings: {
+        enabled: true,
+        position: 'Right',
+        server: { url: 'https://api.mycompany.com/workflow-ai' },
+        promptSuggestions: ['Send a Slack message when a new order arrives']
+    },
+    beforeRequestSend: (args: WorkflowBeforeRequestSendEventArgs) => {
+        if (args.requestType === 'AIAssist') {
+            args.request.headers = { Authorization: 'Bearer ' + getUserToken() };
+        }
+    }
+});
+
+{% endhighlight %}
+{% endtabs %}
+
+Your endpoint receives a `WorkflowAIServerRequest` and returns a `WorkflowAIServerResponse`:
+
+{% tabs %}
+{% highlight json tabtitle="Request" %}
+
+{
+  "promptQuery": "System: ...\n\nUser: ...",
+  "responseFormat": "JSON",
+  "desiredFields": [],
+  "memoryMessages": [],
+  "context": {}
+}
+
+{% endhighlight %}
+{% highlight json tabtitle="Response" %}
+
+{
+  "text": "...",
+  "content": {},
+  "provider": "OpenAI",
+  "model": "gpt-4o"
+}
+
+{% endhighlight %}
+{% endtabs %}
+
+## Direct mode (development only)
+
+In Direct mode, the browser calls the provider (`'Gemini'`, `'OpenAI'` or `'Claude'`) itself. Direct mode is used when `executionSettings.credentialMode` is `'Inline'`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+const designer: WorkflowDesigner = new WorkflowDesigner({
+    executionSettings: { credentialMode: 'Inline' },
+    aiAssistSettings: {
+        enabled: true,
+        direct: { provider: 'OpenAI', model: 'gpt-4o', credentialRef: 'openai-dev' }
+    },
+    credentialRequested: (args: WorkflowCredentialEventArgs) => {
+        if (args.purpose === 'AIAssist') { args.complete(devKey); }
+    }
+});
+
+{% endhighlight %}
+{% endtabs %}
+
+W> Anyone using the page can read a key used in Direct mode. Don't use Direct mode in production.
+
+## Use AI Assist from code
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+designer.generateWorkflow('Every morning, fetch open tickets and email a summary to the team');
+designer.updateWorkflowFromPrompt('Add an approval step before the email is sent');
+
+{% endhighlight %}
+{% endtabs %}
+
+Both methods reject when AI Assist is disabled or the request fails. Use the `aiAssistCompleted` and `aiAssistFailed` events to react to the result.
