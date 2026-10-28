@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Running Workflows in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to run, stop, and monitor workflows, set the execution speed, and handle step errors and retries in the Syncfusion Vue Workflow Designer.
+title: Running workflows in Vue Workflow Designer | Syncfusion®
+description: Learn how to run, stop and monitor workflows, configure execution speed, and handle step errors in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Running Workflows in EJ2 Vue Workflow Designer
+# Running workflows in Vue Workflow Designer
 
 Users can run a workflow from the toolbar, and your code can start, stop, and monitor runs. This section also covers execution speed, error handling, the execution log, and run limits.
 

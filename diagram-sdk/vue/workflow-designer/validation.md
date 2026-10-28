@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Validation in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how the Syncfusion Vue Workflow Designer validates workflows before every run and import, and how to read validation codes and messages.
+title: Validation in Vue Workflow Designer | Syncfusion®
+description: Learn how the Syncfusion Vue Workflow Designer validates workflows and how to read validation messages.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Validation in EJ2 Vue Workflow Designer
+# Validation in Vue Workflow Designer
 
 The designer validates the workflow before every run. Errors stop the run, while warnings and info messages don't. The canvas also marks problems on the affected steps.
 

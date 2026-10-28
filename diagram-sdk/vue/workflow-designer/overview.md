@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Overview of EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn about the Syncfusion Vue Workflow Designer, a visual editor for building, validating, and running workflows in the browser with 18 step types.
+title: Overview of Vue Workflow Designer | Syncfusion®
+description: Learn about the Syncfusion Vue Workflow Designer, its features, layout and the step types it supports.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Overview of EJ2 Vue Workflow Designer
+# Overview of Vue Workflow Designer
 
 The Syncfusion<sup style="font-size:70%">&reg;</sup> Workflow Designer is a visual editor for building, validating, and running workflows in the browser. Users add steps from the step collection, connect them on the canvas, and configure each step in the property panel. When they run the workflow, the execution log shows the result of every step.
 
@@ -26,8 +26,6 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Workflow Designer is a visu
 * **Localization and accessibility:** Translate all text, display the designer from right to left (RTL), and use keyboard shortcuts for common commands.
 
 ## Layout
-
-[VERIFY: Add a screenshot of the Workflow Designer with each region labeled. Suggested alt text: "Workflow Designer showing the top toolbar, step collection, canvas, property panel, and execution log."]
 
 | Region | Description |
 |---|---|

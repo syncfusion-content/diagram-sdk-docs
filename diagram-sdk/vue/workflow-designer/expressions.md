@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Expressions and Runtime Context in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how expressions read data from triggers, earlier steps, variables, and loops through the runtime context of the Syncfusion Vue Workflow Designer.
+title: Expressions and runtime context in Vue Workflow Designer | Syncfusion®
+description: Learn how to read data from triggers, earlier steps, variables and loops with expressions in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Expressions and Runtime Context in EJ2 Vue Workflow Designer
+# Expressions and runtime context in Vue Workflow Designer
 
 During a run, each step can read data from the runtime context. Step settings refer to that data with expressions.
 

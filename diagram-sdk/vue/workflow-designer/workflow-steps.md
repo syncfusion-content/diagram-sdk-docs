@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Workflow Steps in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn about the trigger, action, flow, human, and AI steps in the Syncfusion Vue Workflow Designer, including their settings and output ports.
+title: Workflow steps in Vue Workflow Designer | Syncfusion®
+description: Learn about the step types of the Syncfusion Vue Workflow Designer, their settings and their output ports.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Workflow Steps in EJ2 Vue Workflow Designer
+# Workflow steps in Vue Workflow Designer
 
 A step is a unit of work in a workflow. Every step is a `WorkflowStep` object with the following properties:
 
@@ -32,7 +32,8 @@ The `id` of a step, connection, or sticky note must follow these rules:
 * It must be unique across all steps, connections, and sticky notes in the workflow.
 * It must start with a letter or an underscore (`_`).
 * It can contain only letters, digits, underscores, and hyphens (`-`).
-* It can't be a reserved name. Reserved names are built-in JavaScript object properties, such as `constructor`, `toString`, `hasOwnProperty`, `valueOf`, and `__proto__`.
+* It can't be a reserved name, such as `constructor`, `toString`, `hasOwnProperty`, `valueOf`, or `__proto__`.
+
 
 | Valid | Invalid |
 |---|---|

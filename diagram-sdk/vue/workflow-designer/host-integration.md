@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Host Integration in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how your app delivers notifications, handles approvals, supplies credentials, runs custom steps, and intercepts requests in Syncfusion Workflow Designer.
+title: Host integration in Vue Workflow Designer | Syncfusion®
+description: Learn how to deliver notifications, handle approvals, supply credentials, run custom steps and intercept requests in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Host Integration in EJ2 Vue Workflow Designer
+# Host integration in Vue Workflow Designer
 
 Some steps need work that only your application can do, such as sending an email or reading a secret. For these steps, the designer triggers an event, and the step waits until your handler finishes it.
 

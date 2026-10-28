@@ -1,24 +1,16 @@
 ---
 layout: post
-title: Accessibility in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn about keyboard shortcuts, screen reader support, ARIA labels, and right-to-left layout in the Syncfusion Vue Workflow Designer control.
+title: Accessibility in Vue Workflow Designer | Syncfusion®
+description: Learn about keyboard shortcuts, screen reader support and right-to-left layout in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Accessibility in EJ2 Vue Workflow Designer
+# Accessibility in Vue Workflow Designer
 
 The Workflow Designer supports keyboard navigation and provides Accessible Rich Internet Applications (ARIA) labels on its controls and panels. It also announces changes and run progress to screen readers.
-
-## Accessibility compliance
-
-[VERIFY: Add the accessibility compliance table for the Workflow Designer (WCAG 2.2, Section 508, screen reader, right-to-left, color contrast, mobile device, keyboard navigation, and accessibility checker results) after the control has been tested.]
-
-## WAI-ARIA attributes
-
-[VERIFY: List the WAI-ARIA roles and attributes that the Workflow Designer applies to the canvas, steps, connections, toolbars, and panels.]
 
 ## Keyboard shortcuts
 

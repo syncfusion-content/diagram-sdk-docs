@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connections and Ports in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to connect steps, use output ports, validate new connections, and follow the connection rules in the Syncfusion Vue Workflow Designer.
+title: Connections and ports in Vue Workflow Designer | Syncfusion®
+description: Learn how to connect steps, use output ports and validate connections in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Connections and Ports in EJ2 Vue Workflow Designer
+# Connections and ports in Vue Workflow Designer
 
 A connection links an output port of one step to the input port of another step. During a run, the designer follows the connections from the trigger.
 

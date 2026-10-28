@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Import and Export in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to save and load workflows as JSON, track unsaved changes, and edit a workflow from code in the Syncfusion Vue Workflow Designer control.
+title: Import and export in Vue Workflow Designer | Syncfusion®
+description: Learn how to save, load and track changes to workflows as JSON in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Import and Export in EJ2 Vue Workflow Designer
+# Import and export in Vue Workflow Designer
 
 Workflows are saved as JSON (`WorkflowDefinitionModel`) with the `schemaVersion`, `id`, `name`, `workflowSteps`, `workflowConnections`, and `stickyNotes` properties.
 
