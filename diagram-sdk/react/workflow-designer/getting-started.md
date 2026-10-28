@@ -4,6 +4,7 @@ title: Getting started with React Workflow Designer | Syncfusion®
 description: Learn how to integrate and use the Syncfusion Workflow Designer control in a React application.
 platform: diagram-sdk
 control: Workflow Designer
+publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -11,6 +12,14 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 # Getting started with React Workflow Designer
 
 The React Workflow Designer package provides the `WorkflowDesignerComponent`. Add it to your JSX and use a React ref when you need to call its methods.
+
+## Prerequisites
+
+Make sure the following tools are installed on your machine:
+
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en) (the latest long-term support version is recommended)
+* [Visual Studio Code](https://code.visualstudio.com)
 
 ## Dependencies
 
@@ -73,7 +82,7 @@ Add the theme styles for the Workflow Designer and its dependencies to `src/inde
 Import `WorkflowDesignerComponent` and add it to your React component. Use a ref to access its methods.
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -101,7 +110,8 @@ export default App;
 A workflow is a JSON object with steps, connections and optional sticky notes. Import it after creating the designer instance:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -155,8 +165,17 @@ function App() {
     );
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
+
+In this example:
+
+* `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
+* `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
+* The `Condition` step reads the API response with the expression <code>&#123;&#123;$.previousStep.response.body.paid&#125;&#125;</code>. For more about expressions, see [Expressions and runtime context](./expressions).
+* `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
+* `importWorkflow` loads the workflow into the designer.
 
 ## Run the application
 
@@ -171,6 +190,10 @@ npm run dev
 {% endtabs %}
 
 Click **Execute** in the top toolbar, or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd>, to run the workflow. The execution log shows the result of each step.
+
+N> The sample request uses a placeholder URL, so the **Get order** step fails and the execution log shows the error. To see the full run, replace the URL with an API that returns a JSON object with a `paid` field and allows cross-origin requests from your page.
+
+If `npm run dev` fails, run `npm install` again to make sure all dependencies are installed. If the default port is already in use, stop the other process or change the port in the Vite configuration.
 
 ## See also
 

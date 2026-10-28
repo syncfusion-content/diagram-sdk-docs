@@ -2,22 +2,30 @@
 layout: post
 title: Getting started with TypeScript Workflow Designer control | Syncfusion®
 description: Check out and learn about getting started with the TypeScript Workflow Designer control of Syncfusion Essential JS 2 and more details.
-platform: ej2-typescript
+platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: typescript
+publishingplatform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting started with TypeScript Workflow Designer control
+# Getting Started with EJ2 TypeScript Workflow Designer
 
-This section explains how to create a simple Workflow Designer and configure its core features in a TypeScript application.
+This section explains how to create a Workflow Designer in a TypeScript application, load a workflow into it, and run the workflow.
+
+## Prerequisites
+
+Make sure the following tools are installed on your machine:
+
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en) (the latest long-term support version is recommended)
+* [Visual Studio Code](https://code.visualstudio.com)
 
 ## Dependencies
 
-The Workflow Designer depends on the following packages:
+The Workflow Designer package depends on the following packages:
 
-```javascript
+```
 |-- @syncfusion/ej2-workflow-designer
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-diagrams
@@ -32,13 +40,13 @@ The Workflow Designer depends on the following packages:
 
 ## Set up the development environment
 
-Clone the [Essential JS 2 quickstart](https://github.com/syncfusion/ej2-quickstart.git) project and install the necessary packages:
+Open a command prompt in the folder where you want to create the project. Then run the following commands to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> TypeScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack), open its folder, and install its packages:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
-cd quickstart
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
+cd ej2-quickstart
 npm install
 
 {% endhighlight %}
@@ -58,28 +66,31 @@ npm install @syncfusion/ej2-workflow-designer --save
 
 ## Import the Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-Add the theme styles for the Workflow Designer and its dependencies to `~/src/styles/styles.css`:
+The Workflow Designer needs Syncfusion<sup style="font-size:70%">&reg;</sup> theme styles to display correctly. Install the Tailwind theme package:
 
 {% tabs %}
-{% highlight css tabtitle="styles.css" %}
+{% highlight bash tabtitle="CMD" %}
 
-@import '../../node_modules/@syncfusion/ej2-base/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-calendars/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-diagrams/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-interactive-chat/styles/tailwind3.css';
-@import '../../node_modules/@syncfusion/ej2-workflow-designer/styles/tailwind3.css';
+npm install @syncfusion/ej2-tailwind-theme
 
 {% endhighlight %}
 {% endtabs %}
 
-## Add the Workflow Designer to the application
+Then add the following reference to `src/styles/styles.css`:
 
-Add an HTML element for the Workflow Designer in `~/src/index.html`:
+{% tabs %}
+{% highlight css tabtitle="styles.css" %}
+
+@import "../../node_modules/@syncfusion/ej2-tailwind-theme/styles/workflow-designer/index.css";
+
+{% endhighlight %}
+{% endtabs %}
+
+N> The theme package includes the styles for the Workflow Designer and the controls it depends on, so you don't need a separate import for each dependency. To use a different theme, replace the theme package in the import path with the package of the theme you want. For the list of available themes, see [Themes](https://ej2.syncfusion.com/documentation/appearance/theme).
+
+## Add the HTML element
+
+Open `src/index.html` and replace its contents with the following HTML:
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -90,9 +101,9 @@ Add an HTML element for the Workflow Designer in `~/src/index.html`:
     <title>Essential JS 2 Workflow Designer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles/styles.css" rel="stylesheet" />
 </head>
 <body>
+    <!-- The element that renders as the Workflow Designer -->
     <div id="workflowDesigner"></div>
 </body>
 </html>
@@ -100,7 +111,9 @@ Add an HTML element for the Workflow Designer in `~/src/index.html`:
 {% endhighlight %}
 {% endtabs %}
 
-Then create the Workflow Designer in `~/src/app/app.ts`:
+## Create the Workflow Designer
+
+Open `src/app/app.ts` and add the following code:
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
@@ -116,12 +129,20 @@ designer.appendTo('#workflowDesigner');
 {% endhighlight %}
 {% endtabs %}
 
+In this example:
+
+* [`width`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#width) and [`height`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#height) set the size of the designer. Both accept pixels or any CSS length.
+* `appendTo` renders the designer in the `#workflowDesigner` element.
+
+N> Make sure the application entry point (for example, `src/index.ts`) imports `src/app/app.ts`, so that the designer is created when the app loads.
+
 ## Load a workflow
 
-A workflow is a JSON object with steps, connections and optional sticky notes. Load it with the `importWorkflow` method:
+A workflow is a JSON object that contains steps, connections, and optional sticky notes. To load one, replace the contents of `src/app/app.ts` with the following code:
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
+{% raw %}
 
 import { WorkflowDesigner, WorkflowDefinitionModel } from '@syncfusion/ej2-workflow-designer';
 
@@ -142,8 +163,10 @@ const workflow: WorkflowDefinitionModel = {
             }
         },
         { id: 'done', stepType: 'End', name: 'Done', position: { x: 820, y: 120 } },
-        { id: 'remind', stepType: 'Notify', name: 'Send reminder', position: { x: 820, y: 280 },
-            props: { channel: 'Email', to: 'customer@example.com', message: 'Your order is awaiting payment.' } }
+        {
+            id: 'remind', stepType: 'Notify', name: 'Send reminder', position: { x: 820, y: 280 },
+            props: { channel: 'Email', to: 'customer@example.com', message: 'Your order is awaiting payment.' }
+        }
     ],
     workflowConnections: [
         { id: 'c1', sourceStepId: 'start', targetStepId: 'getOrder' },
@@ -157,12 +180,21 @@ const designer: WorkflowDesigner = new WorkflowDesigner({ height: '640px' });
 designer.appendTo('#workflowDesigner');
 designer.importWorkflow(workflow);
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
+In this example:
+
+* `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
+* `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
+* The `Condition` step reads the API response with the expression <code>&#123;&#123;$.previousStep.response.body.paid&#125;&#125;</code>. For more about expressions, see [Expressions and runtime context](./expressions).
+* `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
+* [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#importworkflow) loads the workflow into the designer.
+
 ## Run the application
 
-Run the application in the browser with the following command:
+Run the application with the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -172,10 +204,17 @@ npm start
 {% endhighlight %}
 {% endtabs %}
 
-Click **Execute** in the top toolbar, or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd>, to run the workflow. The execution log shows the result of each step.
+Open the local URL shown in the terminal, such as `http://localhost:4000`. The designer displays the order-check workflow.
+
+To run the workflow, click **Execute** in the top toolbar or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd>. The execution log shows the result of each step.
+
+N> The sample request uses a placeholder URL, so the **Get order** step fails and the execution log shows the error. To see the full run, replace the URL with an API that returns a JSON object with a `paid` field and allows cross-origin requests from your page.
+
+If `npm start` fails, run `npm install` again to make sure all dependencies are installed. If the default port is already in use, stop the other process or change the port in the webpack configuration.
 
 ## See also
 
 * [Workflow steps](./workflow-steps)
 * [Connections and ports](./connections)
 * [Running workflows](./execution)
+* [Default Functionalities demo](https://npmci.syncfusion.com/development/javascript/demos/#/tailwind3/workflow-designer/default-functionalities.html)
