@@ -103,7 +103,7 @@ The following code demonstrates how to configure ruler measurement units in the 
 ```
 {% previewsample "" backgroundimage "[Ruler Units](images/Ruler.webp)" %}
 
-Changing the measurement unit dynamically updates the ruler display instantly.
+The `Unit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
 
 The following code demonstrates how to change the measurement units at runtime:
 
