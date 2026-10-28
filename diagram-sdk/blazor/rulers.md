@@ -77,7 +77,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## Ruler Measurement Units
 
-The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) accepts the [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value to set the measurement unit for displaying ruler values in different physical units instead of pixels only.
+The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) allows specifying the measurement unit used to display ruler values. By setting it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value, ruler measurements can be displayed in various physical units instead of the default pixel-based values.
 
 The `DiagramUnit` enum provides the following measurement units:
 
