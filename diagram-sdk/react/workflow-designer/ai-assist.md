@@ -19,7 +19,8 @@ AI Assist generates a workflow, or changes the current one, from a natural-langu
 In Server mode, the designer posts each request to your backend. Your backend calls the AI provider and keeps the API key.
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -49,6 +50,7 @@ function WorkflowCanvas() {
     );
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,7 +85,8 @@ Your endpoint receives a `WorkflowAIServerRequest` and returns a `WorkflowAIServ
 In Direct mode, the browser calls the provider (`'Gemini'`, `'OpenAI'`, or `'Claude'`) itself. The designer uses Direct mode when `executionSettings.credentialMode` is `'Inline'`.
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -109,6 +112,7 @@ function WorkflowCanvas() {
     );
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,7 +123,8 @@ W> Anyone who uses the page can read a key used in Direct mode. Don't use Direct
 Call `generateWorkflow` to create a workflow from a prompt, or `updateWorkflowFromPrompt` to change the current one:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -145,6 +150,7 @@ function WorkflowCanvas() {
     );
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 

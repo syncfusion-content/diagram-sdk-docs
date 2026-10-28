@@ -16,7 +16,7 @@ During a run, each step can read data from the runtime context. Step settings re
 ## Expression syntax
 
 * A full value: `$.previousStep.response.body.total`
-* Embedded in text: `Order {{$.input.response.orderId}} has shipped.`
+* Embedded in text: `Order {% raw %}{{$.input.response.orderId}}{% endraw %} has shipped.`
 * A field name with spaces: `$.input.response["Delivery date"]`
 
 In the property panel, the variable picker inserts expressions for you.
@@ -36,6 +36,7 @@ The following Notify step reads data from an earlier step, a variable, and the p
 
 {% tabs %}
 {% highlight ts tabtitle="workflow.ts" %}
+{% raw %}
 
 const notifyStep = {
     id: 'notify', stepType: 'Notify',
@@ -47,6 +48,7 @@ const notifyStep = {
     }
 };
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 

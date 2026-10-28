@@ -16,7 +16,7 @@ The designer validates the workflow before every run. Errors stop the run, while
 To validate the workflow from code, call [`validateWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#validateworkflow):
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';

@@ -18,7 +18,7 @@ Users can run a workflow from the toolbar, and your code can start, stop, and mo
 Users run the workflow with the **Execute** toolbar command or by pressing <kbd>Ctrl</kbd> + <kbd>Enter</kbd>. To run it from code, call [`runExecution`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#runexecution), which returns a promise of the result:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -68,7 +68,7 @@ The run doesn't start when validation finds errors. To check the workflow first,
 The following example logs failed steps and the final status of each run:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -102,7 +102,8 @@ The `executionState` property returns the current run state, such as `'Idle'` or
 By default, the designer waits 550 ms between steps so that users can follow the run on the canvas. To run without a delay, set `executionSettings.executionSpeed` to `0`:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -117,6 +118,7 @@ function WorkflowCanvas() {
     );
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 

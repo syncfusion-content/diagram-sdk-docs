@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 You can localize all text in the Workflow Designer, including labels, tooltips, validation messages, and run errors. Load the translations under the `workflow-designer` module name with `L10n.load`, and then set the `locale` property.
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { L10n } from '@syncfusion/ej2-base';
@@ -264,7 +264,7 @@ The following table lists all 472 localization keys and their default English te
 | `validationConditionValue` | Enter a value to compare against. |
 | `validationSecretForbidden` | Don't enter secrets here. Use a credential reference instead. |
 | `validationRequiredProp` | {0} is required. |
-| `validationExpressionUnbalanced` | An expression is missing its opening {{ or closing }}. |
+| `validationExpressionUnbalanced` | An expression is missing its opening {% raw %}{{ or closing }}{% endraw %}. |
 | `validationExpressionSyntax` | This expression isn't valid. |
 | `validationExpressionRoot` | Expressions must start with $, for example $.input.response. |
 | `validationExpressionForbidden` | This expression path isn't allowed. |
@@ -443,7 +443,7 @@ The following table lists all 472 localization keys and their default English te
 | `variableOperatorAria` | Variable {0} operator |
 | `variableSecondValue` | Second value |
 | `variableValue` | Value |
-| `variableValueHelp` | {{$.path}} or literal |
+| `variableValueHelp` | {% raw %}{{$.path}}{% endraw %} or literal |
 | `formDialogEmpty` | No form fields are configured for this step. Add fields in the property panel (name and default value), then run again. |
 | `formDialogDefaultTitle` | Form input - {0} |
 | `formDialogRequired` | This field is required. |

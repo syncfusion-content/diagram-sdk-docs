@@ -16,7 +16,7 @@ During a run, each step can read data from the runtime context. Step settings re
 ## Expression syntax
 
 * A full value: `$.previousStep.response.body.total`
-* Embedded in text: `Order {{$.input.response.orderId}} has shipped.`
+* Embedded in text: `Order {% raw %}{{$.input.response.orderId}}{% endraw %} has shipped.`
 * A field name with spaces: `$.input.response["Delivery date"]`
 
 In the property panel, the variable picker inserts expressions for you.
@@ -35,7 +35,8 @@ In the property panel, the variable picker inserts expressions for you.
 The following Notify step reads data from an earlier step, a variable, and the previous step:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
+{% raw %}
 
 const notifyStep = {
     id: 'notify', stepType: 'Notify',
@@ -47,6 +48,7 @@ const notifyStep = {
     }
 };
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,7 +57,7 @@ const notifyStep = {
 To supply input data, pass a context to `runExecution` or `runFromStep`:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';

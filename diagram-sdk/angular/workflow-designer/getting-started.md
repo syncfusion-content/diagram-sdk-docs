@@ -104,6 +104,7 @@ A workflow is a JSON object with steps, connections and optional sticky notes. U
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
+{% raw %}
 
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { WorkflowDesignerComponent, WorkflowDesignerModule } from '@syncfusion/ej2-angular-workflow-designer';
@@ -155,6 +156,7 @@ export class App implements AfterViewInit {
     }
 }
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -162,7 +164,7 @@ In this example:
 
 * `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
 * `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
-* The `Condition` step reads the API response with the expression `{{$.previousStep.response.body.paid}}`. For more about expressions, see [Expressions and runtime context](./expressions).
+* The `Condition` step reads the API response with the expression `{% raw %}{{$.previousStep.response.body.paid}}{% endraw %}`. For more about expressions, see [Expressions and runtime context](./expressions).
 * `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
 * `importWorkflow` loads the workflow into the designer.
 

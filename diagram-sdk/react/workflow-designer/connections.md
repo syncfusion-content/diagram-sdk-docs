@@ -61,7 +61,7 @@ The `beforeConnect` event is triggered before the user adds a connection. To rej
 The following example allows only one connection out of the trigger:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';

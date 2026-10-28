@@ -29,7 +29,7 @@ A Webhook Trigger step starts the workflow when your backend receives an HTTP ca
 When your backend forwards a webhook, pass the message to `triggerWebhook`. The following example receives the message over a SignalR connection:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';

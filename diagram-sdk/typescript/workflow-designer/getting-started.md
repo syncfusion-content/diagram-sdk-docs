@@ -25,7 +25,7 @@ Make sure the following tools are installed on your machine:
 
 The Workflow Designer package depends on the following packages:
 
-```text
+```
 |-- @syncfusion/ej2-workflow-designer
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-diagrams
@@ -142,6 +142,7 @@ A workflow is a JSON object that contains steps, connections, and optional stick
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
+{% raw %}
 
 import { WorkflowDesigner, WorkflowDefinitionModel } from '@syncfusion/ej2-workflow-designer';
 
@@ -179,6 +180,7 @@ const designer: WorkflowDesigner = new WorkflowDesigner({ height: '640px' });
 designer.appendTo('#workflowDesigner');
 designer.importWorkflow(workflow);
 
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -186,7 +188,7 @@ In this example:
 
 * `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
 * `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
-* The `Condition` step reads the API response with the expression `{{$.previousStep.response.body.paid}}`. For more about expressions, see [Expressions and runtime context](./expressions).
+* The `Condition` step reads the API response with the expression `{% raw %}{{$.previousStep.response.body.paid}}{% endraw %}`. For more about expressions, see [Expressions and runtime context](./expressions).
 * `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
 * [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#importworkflow) loads the workflow into the designer.
 

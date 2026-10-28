@@ -18,7 +18,7 @@ Workflows are saved as JSON (`WorkflowDefinitionModel`) with the `schemaVersion`
 Export the workflow as a JSON string, as an object, or as a file download:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -56,7 +56,7 @@ N> Secrets are never exported. This includes inline AI keys and the values of se
 [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#importworkflow) accepts a JSON string, an object, or a `File`, and returns a promise. The following example imports a file that the user selects:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
@@ -98,7 +98,7 @@ For the structural errors that reject an import, see [Validation on import](./va
 Use `isDirty` to check for unsaved changes, and call `markClean` after you save:
 
 {% tabs %}
-{% highlight tsx tabtitle="App.tsx" %}
+{% highlight ts tabtitle="App.tsx" %}
 
 import * as React from 'react';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
