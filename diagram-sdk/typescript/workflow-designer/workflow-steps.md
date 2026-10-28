@@ -24,7 +24,7 @@ A step is a unit of work in a workflow. Every step is a `WorkflowStep` object wi
 | `size` | `{ width, height }` | The step size. When it isn't set, the default size is used. |
 | `errorHandling` | `WorkflowStepErrorHandling` | Timeout, retry, and continue-on-error behavior. See [Error handling](./execution#error-handling). |
 
-String settings accept [expressions](./expressions), such as `{% raw %}{{$.previousStep.response.body.id}}{% endraw %}`.
+String settings accept [expressions](./expressions), such as <code>&#123;&#123;$.previousStep.response.body.id&#125;&#125;</code>.
 
 ## Identifier rules
 

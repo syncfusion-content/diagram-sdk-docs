@@ -16,7 +16,7 @@ During a run, each step can read data from the runtime context. Step settings re
 ## Expression syntax
 
 * A full value: `$.previousStep.response.body.total`
-* Embedded in text: `Order {% raw %}{{$.input.response.orderId}}{% endraw %} has shipped.`
+* Embedded in text: Order <code>&#123;&#123;$.input.response.orderId&#125;&#125;</code> has shipped.
 * A field name with spaces: `$.input.response["Delivery date"]`
 
 In the property panel, the variable picker inserts expressions for you.

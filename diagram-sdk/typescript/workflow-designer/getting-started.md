@@ -188,7 +188,7 @@ In this example:
 
 * `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
 * `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
-* The `Condition` step reads the API response with the expression `{% raw %}{{$.previousStep.response.body.paid}}{% endraw %}`. For more about expressions, see [Expressions and runtime context](./expressions).
+* The `Condition` step reads the API response with the expression <code>&#123;&#123;$.previousStep.response.body.paid&#125;&#125;</code>. For more about expressions, see [Expressions and runtime context](./expressions).
 * `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
 * [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#importworkflow) loads the workflow into the designer.
 

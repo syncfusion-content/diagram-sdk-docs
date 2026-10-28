@@ -257,7 +257,7 @@ The following table lists all 472 localization keys and their default English te
 | `validationConditionValue` | Enter a value to compare against. |
 | `validationSecretForbidden` | Don't enter secrets here. Use a credential reference instead. |
 | `validationRequiredProp` | {0} is required. |
-| `validationExpressionUnbalanced` | An expression is missing its opening {% raw %}{{ or closing }}{% endraw %}. |
+| `validationExpressionUnbalanced` | An expression is missing its opening &#123;&#123; or closing &#125;&#125;. |
 | `validationExpressionSyntax` | This expression isn't valid. |
 | `validationExpressionRoot` | Expressions must start with $, for example $.input.response. |
 | `validationExpressionForbidden` | This expression path isn't allowed. |
@@ -436,7 +436,7 @@ The following table lists all 472 localization keys and their default English te
 | `variableOperatorAria` | Variable {0} operator |
 | `variableSecondValue` | Second value |
 | `variableValue` | Value |
-| `variableValueHelp` | {% raw %}{{$.path}}{% endraw %} or literal |
+| `variableValueHelp` | &#123;&#123;$.path&#125;&#125; or literal |
 | `formDialogEmpty` | No form fields are configured for this step. Add fields in the property panel (name and default value), then run again. |
 | `formDialogDefaultTitle` | Form input - {0} |
 | `formDialogRequired` | This field is required. |
