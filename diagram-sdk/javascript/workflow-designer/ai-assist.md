@@ -11,7 +11,8 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # AI Assist in JavaScript Workflow Designer control
 
-AI Assist generates a workflow, or changes the current one, from a natural-language prompt. It's disabled by default.
+AI Assist generates a workflow, or changes the current one, from a natural-language prompt. It's disabled by default. To turn it on, set `aiAssistSettings.enabled` to `true` and choose how the designer reaches the AI provider: through your backend (Server mode) or directly from the browser (Direct mode).
+
 
 ## Server mode (recommended)
 
@@ -65,7 +66,7 @@ Your endpoint receives a `WorkflowAIServerRequest` and returns a `WorkflowAIServ
 
 ## Direct mode (development only)
 
-In Direct mode, the browser calls the provider (`'Gemini'`, `'OpenAI'` or `'Claude'`) itself. Direct mode is used when `executionSettings.credentialMode` is `'Inline'`.
+In Direct mode, the browser calls the provider (`'Gemini'`, `'OpenAI'`, or `'Claude'`) itself. The designer uses Direct mode when `executionSettings.credentialMode` is `'Inline'`.
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -84,9 +85,11 @@ const designer = new ej.workflowdesigner.WorkflowDesigner({
 {% endhighlight %}
 {% endtabs %}
 
-W> Anyone using the page can read a key used in Direct mode. Don't use Direct mode in production.
+W> Anyone who uses the page can read a key used in Direct mode. Don't use Direct mode in production.
 
 ## Use AI Assist from code
+
+Call `generateWorkflow` to create a workflow from a prompt, or `updateWorkflowFromPrompt` to change the current one:
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -97,4 +100,9 @@ designer.updateWorkflowFromPrompt('Add an approval step before the email is sent
 {% endhighlight %}
 {% endtabs %}
 
-Both methods reject when AI Assist is disabled or the request fails. Use the `aiAssistCompleted` and `aiAssistFailed` events to react to the result.
+Both methods reject when AI Assist is disabled or the request fails. To react to the result, handle the `aiAssistCompleted` and `aiAssistFailed` events.
+
+## See also
+
+* [Intercept requests](./host-integration#intercept-requests)
+* [Security considerations](./security)

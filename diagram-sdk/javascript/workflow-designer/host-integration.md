@@ -11,15 +11,17 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Host integration in JavaScript Workflow Designer control
 
-Some steps need work that only your application can do, such as sending an email or reading a secret. The designer raises an event for these steps, and the step waits until you finish it.
+Some steps need work that only your application can do, such as sending an email or reading a secret. For these steps, the designer triggers an event, and the step waits until your handler finishes it.
 
-The arguments of these events contain:
+The arguments of these events contain the following members:
 
-* `complete(result)` – finishes the step successfully.
-* `fail(error)` – fails the step. Its error handling then applies.
-* `signal` – an `AbortSignal` that is aborted when the run is stopped or the step times out.
+* `complete(result)`: Finishes the step successfully.
+* `fail(error)`: Fails the step. The step's error handling then applies.
+* `signal`: An `AbortSignal` that's aborted when the run is stopped or the step times out.
 
 ## Notifications
+
+Handle the `notifyRequested` event to deliver the notifications that Notify steps send:
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -47,11 +49,11 @@ const designer = new ej.workflowdesigner.WorkflowDesigner({
 {% endhighlight %}
 {% endtabs %}
 
-`args.notification` holds the step settings, with expressions already resolved. Call `fail` for every unsuccessful outcome, including HTTP error responses, so that the step's [error handling](./execution#error-handling) (retries, `continueOnError`, the error port) applies. If you call `complete`, the step is treated as successful.
+`args.notification` holds the step settings, with expressions already resolved. Call `fail` for every unsuccessful outcome, including HTTP error responses, so that the step's [error handling](./execution#error-handling) applies (retries, `continueOnError`, and the error port). If you call `complete`, the step is treated as successful.
 
 ## Approvals
 
-The `approvalRequested` event provides `reviewers`, `requestMessage` and `requestFields`. Complete it with an `ApprovalDecisionResult`:
+The `approvalRequested` event provides `reviewers`, `requestMessage`, and `requestFields`. Complete it with an `ApprovalDecisionResult`:
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -74,6 +76,8 @@ When the event isn't handled, a built-in dialog lets the current user decide.
 
 ## Custom steps
 
+Handle the `customExecutionRequested` event to run the work of Custom steps. `actionType` identifies the action:
+
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
 
@@ -93,7 +97,7 @@ customExecutionRequested: (args) => {
 
 ## Credentials
 
-Steps keep only a credential **name**: `authRef` on API Request steps, `credentialRef` on AI steps. When a credential is needed, the designer triggers `credentialRequested`. Resolve the name from your secret store:
+Steps store only the name of a credential: `authRef` on API Request steps and `credentialRef` on AI steps. When a credential is needed, the designer triggers the `credentialRequested` event. Resolve the name from your secret store:
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -112,15 +116,17 @@ credentialRequested: (args) => {
 {% endhighlight %}
 {% endtabs %}
 
-Secrets are attached after `beforeRequestSend`, and they never appear in event arguments, the execution log or exported JSON.
+Secrets are attached after `beforeRequestSend`. They never appear in event arguments, the execution log, or exported JSON.
 
 ## Intercept requests
 
-`beforeRequestSend` is triggered before every API Request step, AI step and AI Assist request. Use it to:
+The `beforeRequestSend` event is triggered before every API Request step, AI step, and AI Assist request. Use it to:
 
-* change the request in place, for example to route the URL through your proxy or add headers;
-* supply the response yourself by setting `args.response` to a value or a promise, in which case no request is sent;
-* block the request by setting `args.cancel = true`, in which case the step fails with code `REQUEST_CANCELLED`.
+* Change the request in place, for example, to route the URL through your proxy or add headers.
+* Supply the response yourself by setting `args.response` to a value or a promise. No request is sent.
+* Block the request by setting `args.cancel` to `true`. The step then fails with the code `REQUEST_CANCELLED`.
+
+The following example blocks API requests to any host other than your own API:
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -141,7 +147,7 @@ beforeRequestSend: (args) => {
 
 | Event | Description |
 |---|---|
-| `workflowChanged` | The workflow changed. Provides a snapshot, `changeType` and `affectedItem`. |
+| `workflowChanged` | The workflow changed. Provides a snapshot, `changeType`, and `affectedItem`. |
 | `workflowItemSelected` | The selection changed. |
-| `beforeItemRemove` | Before the user removes an item. Set `cancel` to `true` (or a promise of `true`) to keep it. |
-| `beforeConnect` | Before the user adds a connection. |
+| `beforeItemRemove` | Triggered before the user removes an item. Set `cancel` to `true`, or to a promise of `true`, to keep the item. |
+| `beforeConnect` | Triggered before the user adds a connection. See [Validate connections](./connections#validate-connections). |
