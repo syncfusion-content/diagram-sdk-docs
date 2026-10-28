@@ -143,7 +143,7 @@ The following code demonstrates how to change the measurement units at runtime:
 }
 ```
 
-Pixel values can be converted to other measurement units using `ConvertFromPixel` and back to pixels using `ConvertToPixel`:
+The `ConvertFromPixel` method returns pixel values converted to other units, while `ConvertToPixel` returns values converted back to pixels:
 
 ```csharp
 // ConvertFromPixel - Converts pixels to other units
