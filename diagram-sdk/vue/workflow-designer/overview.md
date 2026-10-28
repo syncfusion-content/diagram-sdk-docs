@@ -52,7 +52,7 @@ N> Workflows run in the user's browser, and API Request and AI steps make real n
 
 ## Sample browser
 
-To see the Workflow Designer in action, open the [Default Functionalities demo](https://npmci.syncfusion.com/development/vue/demos/#/tailwind3/workflow-designer/default-functionality.html) in the Vue sample browser.
+To see the Workflow Designer in action, open the [Default Functionalities demo](https://ej2.syncfusion.com/vue/demos/#/tailwind3/workflow-designer/default-functionality.html) in the Vue sample browser.
 
 ## Next steps
 
