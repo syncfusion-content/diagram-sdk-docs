@@ -143,15 +143,15 @@ The following code demonstrates how to change the measurement units at runtime:
 }
 ```
 
-The [DiagramUnitConverter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html) class provides methods to convert pixel values to other units and vice versa:
+The [SfDiagramComponent](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html) class provides static methods to convert pixel values to other units and vice versa:
 
 ```csharp
 // ConvertFromPixel - Converts a value in pixels to the specified unit
-double centimeters = DiagramUnitConverter.ConvertFromPixel(300, DiagramUnit.Centimeter);
+double centimeters = SfDiagramComponent.ConvertFromPixel(300, DiagramUnit.Centimeter);
 
 // ConvertToPixel - Converts a value in the specified unit back to pixels
-double pixels = DiagramUnitConverter.ConvertToPixel(8, DiagramUnit.Centimeter);
+double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
 
 // ConvertFromPixel - Convert pixels to inches
-double inches = DiagramUnitConverter.ConvertFromPixel(96, DiagramUnit.Inch);
+double inches = SfDiagramComponent.ConvertFromPixel(96, DiagramUnit.Inch);
 ```
