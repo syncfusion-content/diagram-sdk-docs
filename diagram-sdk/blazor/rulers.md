@@ -103,7 +103,7 @@ The following code demonstrates how to configure ruler measurement units in the 
 ```
 {% previewsample "" backgroundimage "[Ruler Units](images/Ruler.webp)" %}
 
-The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) can be changed at runtime to update the ruler display unit.
+The `Unit` property of `RulerSettings` can be changed at runtime to update the ruler display unit.
 
 The following code demonstrates how to change the measurement units at runtime:
 
