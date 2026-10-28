@@ -79,7 +79,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) accepts the [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value to set the measurement unit for displaying ruler values in different physical units instead of pixels only.
 
-The [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum provides the following measurement units:
+The `DiagramUnit` enum provides the following measurement units:
 
 * **Pixel** - Displays ruler values in pixels. This is the default value.
 * **Point** - Displays ruler values in points (1 pt = 1/72 inch).
@@ -143,15 +143,13 @@ The following code demonstrates how to change the measurement units at runtime:
 }
 ```
 
-The [SfDiagramComponent](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html) class provides static methods to convert pixel values to other units and vice versa:
+Pixel values can be converted to other measurement units using `ConvertFromPixel` and back to pixels using `ConvertToPixel`:
 
 ```csharp
-// ConvertFromPixel - Converts a value in pixels to the specified unit
+// ConvertFromPixel - Converts pixels to other units
 double centimeters = SfDiagramComponent.ConvertFromPixel(300, DiagramUnit.Centimeter);
-
-// ConvertToPixel - Converts a value in the specified unit back to pixels
-double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
-
-// ConvertFromPixel - Convert pixels to inches
 double inches = SfDiagramComponent.ConvertFromPixel(96, DiagramUnit.Inch);
+
+// ConvertToPixel - Converts other units back to pixels
+double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
 ```
