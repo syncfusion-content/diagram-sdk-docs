@@ -87,6 +87,8 @@ The `DiagramUnit` enum provides the following measurement units:
 * **Centimeter** - Displays ruler values in centimeters (1 cm = 37.7953 px).
 * **Millimeter** - Displays ruler values in millimeters (1 mm = 3.7795 px).
 
+When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
+
 The following code demonstrates how to configure ruler measurement units in the diagram:
 
 ```cshtml
