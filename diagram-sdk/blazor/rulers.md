@@ -91,10 +91,13 @@ The following measurement units are supported for ruler display:
 | Centimeter | cm | 1 cm = 37.7953 px |
 | Millimeter | mm | 1 mm = 3.7795 px |
 
-The [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum defines the available measurement units. The [DiagramUnitConverter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html) helper class provides the following methods to convert between pixels and other measurement units:
+The [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum defines the available measurement units:
 
-* [ConvertFromPixel](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html#Syncfusion_Blazor_Diagram_DiagramUnitConverter_ConvertFromPixel_System_Double_Syncfusion_Blazor_Diagram_DiagramUnit_) - Converts a value in pixels to the specified unit. An undefined `DiagramUnit` value is treated as Pixel.
-* [ConvertToPixel](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html#Syncfusion_Blazor_Diagram_DiagramUnitConverter_ConvertToPixel_System_Double_Syncfusion_Blazor_Diagram_DiagramUnit_) - Converts a value in the specified unit to pixels. An undefined `DiagramUnit` value is treated as Pixel.
+* **Pixel** - Displays ruler values in pixels. This is the default value.
+* **Point** - Displays ruler values in points (1 pt = 1/72 inch).
+* **Inch** - Displays ruler values in inches (1 in = 96 px).
+* **Centimeter** - Displays ruler values in centimeters (1 cm = 37.7953 px).
+* **Millimeter** - Displays ruler values in millimeters (1 mm = 3.7795 px).
 
 The following code demonstrates how to configure ruler measurement units in the diagram:
 
@@ -112,7 +115,7 @@ The following code demonstrates how to configure ruler measurement units in the 
 ```
 {% previewsample "" backgroundimage "[Ruler Units](images/Ruler.webp)" %}
 
-The measurement units can be changed at runtime using the `Unit` property. The [UnitChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_UnitChanged) callback property can be used with `@bind-Unit` for two-way data binding.
+The measurement units can be changed at runtime using the `Unit` property. The [UnitChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_UnitChanged) callback property can be used with `@bind-Unit` for two-way data binding. The [DiagramUnitConverter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html) helper class can be used to convert pixel values to other units for custom tooltips or property panels.
 
 The following code demonstrates how to change the measurement units at runtime:
 
@@ -152,7 +155,7 @@ The following code demonstrates how to change the measurement units at runtime:
 }
 ```
 
-The [DiagramUnitConverter](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnitConverter.html) helper class can be used in custom tooltips or property panels to convert pixel values to other units. The following code demonstrates how to use the unit conversion methods:
+The following code demonstrates how to use the unit conversion helper:
 
 ```csharp
 // Convert pixels to centimeters
@@ -163,10 +166,4 @@ double pixels = DiagramUnitConverter.ConvertToPixel(8, DiagramUnit.Centimeter);
 
 // Convert pixels to inches
 double inches = DiagramUnitConverter.ConvertFromPixel(96, DiagramUnit.Inch);
-
-// Convert inches to pixels
-double pixelsFromInch = DiagramUnitConverter.ConvertToPixel(1, DiagramUnit.Inch);
-
-// Convert pixels to millimeters
-double millimeters = DiagramUnitConverter.ConvertFromPixel(100, DiagramUnit.Millimeter);
 ```
