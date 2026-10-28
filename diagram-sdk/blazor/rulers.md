@@ -79,18 +79,6 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 The ruler measurement units feature enables displaying ruler values in different physical units instead of pixels only. The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) accepts the [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value to set the measurement unit. This feature is useful for design workflows, print-oriented layouts, and technical drawings where measurements in familiar physical units are required. The built-in drag and resize tooltip also displays values in the configured measurement unit.
 
-### Supported Units
-
-The following measurement units are supported for ruler display:
-
-| Unit | Abbreviation | Conversion |
-|------|--------------|-----------|
-| Pixel | px | Default unit |
-| Point | pt | 1 pt = 1/72 inch |
-| Inch | in | 1 in = 96 px |
-| Centimeter | cm | 1 cm = 37.7953 px |
-| Millimeter | mm | 1 mm = 3.7795 px |
-
 The [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum defines the available measurement units:
 
 * **Pixel** - Displays ruler values in pixels. This is the default value.
