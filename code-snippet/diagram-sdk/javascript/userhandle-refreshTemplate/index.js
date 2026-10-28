@@ -11,9 +11,9 @@ var nodes = [
 
 var userHandles = [
   {
-     name: 'handle1',
-     offset: 1,
-    side: 'Right',
+    name: 'handle1',
+    offset: 1,
+    side: 'Right'
   },
 ];
 
@@ -40,6 +40,7 @@ var diagram = new ej.diagrams.Diagram(
   },
   '#element'
 );
+
 
 document.getElementById('updateBtn').onclick = function () {
   diagram.userHandleTemplate = userHandleTemplate(this, "Delete")
