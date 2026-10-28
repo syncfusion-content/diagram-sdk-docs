@@ -4,6 +4,7 @@ title: Getting started with Angular Workflow Designer | Syncfusion®
 description: Learn how to integrate and use the Syncfusion Workflow Designer in an Angular application.
 platform: diagram-sdk
 control: Workflow Designer
+publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -11,6 +12,14 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 # Getting started with Angular Workflow Designer
 
 The Angular Workflow Designer package provides the `ejs-workflowdesigner` component. Add `WorkflowDesignerModule` to your standalone component and use `@ViewChild` when you need to call the designer's methods.
+
+## Prerequisites
+
+Make sure the following tools are installed on your machine:
+
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/en) (the latest long-term support version is recommended)
+* [Visual Studio Code](https://code.visualstudio.com)
 
 ## Dependencies
 
@@ -149,6 +158,14 @@ export class App implements AfterViewInit {
 {% endhighlight %}
 {% endtabs %}
 
+In this example:
+
+* `workflowSteps` defines five steps. Each step has an `id`, a `stepType`, a display `name`, and a `position` on the canvas. For every step type and its settings, see [Workflow steps](./workflow-steps).
+* `props` holds the settings of a step, such as the request `method` and `url` of the `ApiRequest` step.
+* The `Condition` step reads the API response with the expression `{{$.previousStep.response.body.paid}}`. For more about expressions, see [Expressions and runtime context](./expressions).
+* `workflowConnections` links the steps. On the `Condition` step, `sourcePort` selects the `true` or `false` branch. For more about ports, see [Connections and ports](./connections).
+* `importWorkflow` loads the workflow into the designer.
+
 ## Run the application
 
 Run the application in the browser with the following command:
@@ -162,6 +179,10 @@ ng serve
 {% endtabs %}
 
 Click **Execute** in the top toolbar, or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd>, to run the workflow. The execution log shows the result of each step.
+
+N> The sample request uses a placeholder URL, so the **Get order** step fails and the execution log shows the error. To see the full run, replace the URL with an API that returns a JSON object with a `paid` field and allows cross-origin requests from your page.
+
+If `ng serve` fails, run `npm install` again to make sure all dependencies are installed. If the default port is already in use, stop the other process or choose another port with the Angular CLI.
 
 ## See also
 

@@ -2,19 +2,23 @@
 layout: post
 title: Validation in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how the Syncfusion TypeScript Workflow Designer control validates workflows and how to read validation messages.
-platform: ej2-typescript
+platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: typescript
+publishingplatform: diagram-sdk
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Validation in TypeScript Workflow Designer control
+# Validation in EJ2 TypeScript Workflow Designer
 
-The designer validates the workflow before every run. Errors stop the run. Warnings and info messages don't.
+The designer validates the workflow before every run. Errors stop the run, while warnings and info messages don't. The canvas also marks problems on the affected steps.
+
+To validate the workflow from code, call [`validateWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#validateworkflow):
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
+
+import { WorkflowValidationResult, WorkflowValidationMessage } from '@syncfusion/ej2-workflow-designer';
 
 const result: WorkflowValidationResult = designer.validateWorkflow();
 if (!result.isValid) {
@@ -26,16 +30,16 @@ if (!result.isValid) {
 {% endhighlight %}
 {% endtabs %}
 
-Each `WorkflowValidationMessage` contains:
+Each `WorkflowValidationMessage` contains the following properties:
 
 | Property | Description |
 |---|---|
-| `type` | `'Error'`, `'Warning'` or `'Info'`. |
-| `code` | A stable code such as `'CYCLE'`. |
-| `message` | Localized text. |
+| `type` | `'Error'`, `'Warning'`, or `'Info'`. |
+| `code` | A stable code, such as `'CYCLE'`. |
+| `message` | The localized text. |
 | `stepId`, `connectionId`, `propertyPath` | Where the problem is. |
 
-## What is checked
+## What's checked
 
 | Area | Codes |
 |---|---|
@@ -55,6 +59,6 @@ Each `WorkflowValidationMessage` contains:
 
 ## Validation on import
 
-`importWorkflow` rejects a workflow with a `WorkflowImportError` (code `IMPORT_INVALID_STRUCTURE`) when it has a structural error: `ID_REQUIRED`, `ID_DUPLICATE`, `ID_INVALID`, `CONNECTION_ENDPOINT`, `CONNECTION_SELF`, `CONNECTION_DUPLICATE`, `SOURCE_PORT_INVALID`, `TARGET_PORT_INVALID`, `CYCLE`, `MERGE_TOPOLOGY` or `TRIGGER_INCOMING`. The error's `messages` property lists them. Content problems, such as missing settings or invalid expressions, don't block an import. They are reported by validation, so a workflow saved mid-edit can always be reopened.
+`importWorkflow` rejects a workflow that has a structural error. The promise rejects with a `WorkflowImportError` whose code is `IMPORT_INVALID_STRUCTURE`, and the error's `messages` property lists the problems. The following codes count as structural errors: `ID_REQUIRED`, `ID_DUPLICATE`, `ID_INVALID`, `CONNECTION_ENDPOINT`, `CONNECTION_SELF`, `CONNECTION_DUPLICATE`, `SOURCE_PORT_INVALID`, `TARGET_PORT_INVALID`, `CYCLE`, `MERGE_TOPOLOGY`, and `TRIGGER_INCOMING`.
 
-Problems are also marked on the steps in the canvas.
+Content problems, such as missing settings or invalid expressions, don't block an import. Validation reports them instead, so you can always reopen a workflow that was saved mid-edit.

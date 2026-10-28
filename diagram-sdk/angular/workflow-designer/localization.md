@@ -4,13 +4,14 @@ title: Localization in Angular Workflow Designer | Syncfusion®
 description: Learn how to localize the text of the Syncfusion Angular Workflow Designer into other cultures.
 platform: diagram-sdk
 control: Workflow Designer
+publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Localization in Angular Workflow Designer
 
-All text in the Workflow Designer can be localized, including labels, tooltips, validation messages and run errors. Load translations under the `workflow-designer` module name with `L10n.load`, then set the `locale` property.
+You can localize all text in the Workflow Designer, including labels, tooltips, validation messages, and run errors. Load the translations under the `workflow-designer` module name with `L10n.load`, and then set the `locale` property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -33,11 +34,11 @@ export class AppComponent {
 {% endhighlight %}
 {% endtabs %}
 
-Keys that aren't translated fall back to English. Changing `locale` at runtime updates every panel. Several designers on one page can use different locales.
+Keys that aren't translated fall back to English. When you change `locale` at runtime, every panel updates. Several designers on one page can use different locales.
 
 ## Default locale
 
-The following table lists all 472 localization keys and their default English text. Some keys, such as `'Action Type'` and `'Time Zone'`, are the English labels themselves and contain spaces. Use them exactly as shown, with quotes, in your `L10n.load` object.
+The following table lists all 472 localization keys and their default English text. Some keys, such as `'Action Type'` and `'Time Zone'`, are the English labels themselves and contain spaces. Use them exactly as shown, in quotes, in your `L10n.load` object.
 
 | Key | Default text |
 |---|---|
