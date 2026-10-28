@@ -1,18 +1,16 @@
 ---
 layout: post
-title: AI Assist in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion Vue Workflow Designer in Server or Direct mode.
+title: AI Assist in Vue Workflow Designer | Syncfusion®
+description: Learn how to generate and update workflows from natural-language prompts with AI Assist in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# AI Assist in EJ2 Vue Workflow Designer
+# AI Assist in Vue Workflow Designer
 
 AI Assist generates a workflow, or changes the current one, from a natural-language prompt. It's disabled by default. To turn it on, set `aiAssistSettings.enabled` to `true` and choose how the designer reaches the AI provider: through your backend (Server mode) or directly from the browser (Direct mode).
-
-[VERIFY: Add a screenshot of the AI Assist panel next to the canvas. Suggested alt text: "AI Assist chat panel with prompt suggestions, next to a generated workflow on the canvas."]
 
 ## Server mode (recommended)
 

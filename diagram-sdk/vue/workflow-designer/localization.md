@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Localization in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to localize labels, tooltips, validation messages, and run errors in the Syncfusion Vue Workflow Designer, with all 472 default locale keys.
+title: Localization in Vue Workflow Designer | Syncfusion®
+description: Learn how to localize the text of the Syncfusion Vue Workflow Designer into other cultures.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Localization in EJ2 Vue Workflow Designer
+# Localization in Vue Workflow Designer
 
 You can localize all text in the Workflow Designer, including labels, tooltips, validation messages, and run errors. Load the translations under the `workflow-designer` module name with `L10n.load`, and then set the `locale` property.
 

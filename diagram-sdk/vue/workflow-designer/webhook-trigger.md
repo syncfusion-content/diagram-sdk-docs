@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Webhook Trigger in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to start workflows from webhook calls that your backend receives, verifies, and forwards to the Syncfusion Vue Workflow Designer control.
+title: Webhook trigger in Vue Workflow Designer | Syncfusion®
+description: Learn how to start workflows from webhook calls received by your backend in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Webhook Trigger in EJ2 Vue Workflow Designer
+# Webhook trigger in Vue Workflow Designer
 
 A Webhook Trigger step starts the workflow when your backend receives an HTTP call. The designer doesn't receive HTTP requests itself. Instead, your backend verifies the request and forwards it to the page, for example, over SignalR or WebSockets. The page then calls `triggerWebhook`.
 
@@ -20,7 +20,7 @@ A Webhook Trigger step starts the workflow when your backend receives an HTTP ca
 | `path` | The expected path. |
 | `authMode` | `'None'`, `'Basic'`, `'ApiKeyHeader'`, `'Bearer'`, `'HmacSha256'`, or `'Custom'`. |
 | `authRef`, `authHeaderName`, `authSignatureHeaderName` | The details your backend uses to verify the request. |
-| `responseMode`, `responseCode`, `responseBody` | The response your backend returns. Set `responseMode` to `'Immediate'`. [VERIFY: Confirm whether other `responseMode` values are supported, and from which version.] |
+| `responseMode`, `responseCode`, `responseBody` | The response your backend returns. Set `responseMode` to `'Immediate'`. |
 | `payloadSchema` | The fields of the expected payload. The variable picker uses them. |
 
 ## Forward a webhook to the designer

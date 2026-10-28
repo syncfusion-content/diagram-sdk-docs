@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with EJ2 Vue Workflow Designer | Syncfusion®
-description: Set up an EJ2 Vue 3 Workflow Designer project with Vite, install the package and theme, and then load and run your first workflow.
+title: Getting started with Vue Workflow Designer | Syncfusion®
+description: Learn how to integrate and use the Syncfusion Workflow Designer control in a Vue application.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Getting Started with EJ2 Vue 3 Workflow Designer
+# Getting started with Vue 3 Workflow Designer
 
 This section explains how to create a Workflow Designer in a Vue 3 application, load a workflow into it, and run the workflow.
 
@@ -228,8 +228,6 @@ Open the local URL shown in the terminal. The designer displays the order-check 
 
 To run the workflow, click **Execute** in the top toolbar or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd>. The execution log shows the result of each step.
 
-[VERIFY: Add a screenshot of the order-check workflow after a run. Suggested alt text: "Order-check workflow on the canvas, with the execution log listing the result of each step."]
-
 N> The sample request uses a placeholder URL, so the **Get order** step fails and the execution log shows the error. To see the full run, replace the URL with an API that returns a JSON object with a `paid` field and allows cross-origin requests from your page.
 
 If `npm run dev` fails, run `npm install` again to make sure all dependencies are installed.
@@ -239,4 +237,4 @@ If `npm run dev` fails, run `npm install` again to make sure all dependencies ar
 * [Workflow steps](./workflow-steps)
 * [Connections and ports](./connections)
 * [Running workflows](./execution)
-* [Default Functionalities demo](https://npmci.syncfusion.com/development/vue/demos/#/tailwind3/workflow-designer/default-functionality.html)
+

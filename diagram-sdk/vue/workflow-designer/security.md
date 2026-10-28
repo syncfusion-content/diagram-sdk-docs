@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Security Considerations for EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how the Syncfusion Vue Workflow Designer handles credentials, network requests, imported workflows, and rendering, and how to secure each one.
+title: Security considerations in Vue Workflow Designer | Syncfusion®
+description: Learn about credential handling, network requests and imported workflows in the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Security Considerations for EJ2 Vue Workflow Designer
+# Security considerations in Vue Workflow Designer
 
 Workflows run in the user's browser and make real network calls. Review the following points before you use the Workflow Designer in production.
 

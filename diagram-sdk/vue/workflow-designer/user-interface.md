@@ -1,14 +1,14 @@
 ---
 layout: post
-title: User Interface in EJ2 Vue Workflow Designer | Syncfusion®
-description: Learn how to configure the toolbars, step collection, property panel, execution log, canvas, and sticky notes of the Syncfusion Vue Workflow Designer.
+title: Customize the user interface in Vue Workflow Designer | Syncfusion®
+description: Learn how to configure the toolbars, step collection, property panel, execution log, canvas and sticky notes of the Syncfusion Vue Workflow Designer.
 control: Workflow Designer
 platform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Customize the User Interface in EJ2 Vue Workflow Designer
+# Customize the user interface in Vue Workflow Designer
 
 You can show, hide, and configure each part of the Workflow Designer: the top toolbar, the canvas toolbar, the panels, and the canvas. You can also add sticky notes and set the size of the designer.
 
@@ -119,8 +119,6 @@ designer.value.ej2Instances.addWorkflowItem({
 
 {% endhighlight %}
 {% endtabs %}
-
-[VERIFY: Add a screenshot of a sticky note on the canvas. Suggested alt text: "Sticky note with a Payment check heading next to workflow steps on the canvas."]
 
 ## Dimensions
 
