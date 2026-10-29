@@ -74,3 +74,84 @@ The following code illustrates how to customize the diagram ruler.
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxXxUtCkKuYBGV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Ruler/Ruler.razor)
+
+## Ruler Measurement Units
+
+The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) allows specifying the measurement unit used to display ruler values. By setting it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value, ruler measurements can be displayed in various physical units instead of the default pixel-based values.
+
+The `DiagramUnit` enum provides the following measurement units:
+
+* **Pixel** - Displays ruler values in pixels. This is the default value.
+* **Point** - Displays ruler values in points (1 pt = 1/72 inch).
+* **Inch** - Displays ruler values in inches (1 in = 96 px).
+* **Centimeter** - Displays ruler values in centimeters (1 cm = 37.7953 px).
+* **Millimeter** - Displays ruler values in millimeters (1 mm = 3.7795 px).
+
+When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
+
+The following code demonstrates how to configure ruler measurement units in the diagram:
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Height="600px">
+    <RulerSettings Unit="DiagramUnit.Centimeter">
+        <HorizontalRuler IsVisible="true">
+        </HorizontalRuler>
+        <VerticalRuler IsVisible="true">
+        </VerticalRuler>
+    </RulerSettings>
+</SfDiagramComponent>
+```
+{% previewsample "" backgroundimage "[Ruler Units](images/Ruler.webp)" %}
+
+The `Unit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
+
+The following code demonstrates how to change the measurement units at runtime:
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<div>
+    <label>Select Ruler Unit:</label>
+    <select @onchange="OnUnitChange">
+        <option value="@DiagramUnit.Pixel">Pixel</option>
+        <option value="@DiagramUnit.Point">Point</option>
+        <option value="@DiagramUnit.Inch">Inch</option>
+        <option value="@DiagramUnit.Centimeter">Centimeter</option>
+        <option value="@DiagramUnit.Millimeter">Millimeter</option>
+    </select>
+</div>
+
+<SfDiagramComponent Height="600px">
+    <RulerSettings @bind-Unit="@rulerUnit">
+        <HorizontalRuler IsVisible="true">
+        </HorizontalRuler>
+        <VerticalRuler IsVisible="true">
+        </VerticalRuler>
+    </RulerSettings>
+</SfDiagramComponent>
+
+@code {
+    private DiagramUnit rulerUnit = DiagramUnit.Pixel;
+
+    private async Task OnUnitChange(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<DiagramUnit>(e.Value.ToString(), out var selectedUnit))
+        {
+            rulerUnit = selectedUnit;
+        }
+    }
+}
+```
+
+The `ConvertFromPixel` method returns pixel values converted to other units, while `ConvertToPixel` returns values converted back to pixels:
+
+```csharp
+// ConvertFromPixel - Converts pixels to other units
+double centimeters = SfDiagramComponent.ConvertFromPixel(300, DiagramUnit.Centimeter);
+double inches = SfDiagramComponent.ConvertFromPixel(96, DiagramUnit.Inch);
+
+// ConvertToPixel - Converts other units back to pixels
+double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
+```
