@@ -77,7 +77,9 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 
 ## Ruler Measurement Units
 
-The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) allows specifying the measurement unit used to display ruler values. By setting it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value, ruler measurements can be displayed in various physical units instead of the default pixel-based values.
+The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) specifies the measurement unit used to display ruler values. By setting this property to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value, ruler measurements can be displayed in various physical units instead of the default pixel-based values.
+
+If the Unit property is not specified, ruler values are displayed in pixels.
 
 The `DiagramUnit` enum provides the following measurement units:
 
@@ -87,7 +89,7 @@ The `DiagramUnit` enum provides the following measurement units:
 * **Centimeter** - Displays ruler values in centimeters (1 cm = 37.7953 px).
 * **Millimeter** - Displays ruler values in millimeters (1 mm = 3.7795 px).
 
-When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
+When dragging or resizing diagram elements, the tooltip displays measurements using the configured ruler unit.
 
 The following code demonstrates how to configure ruler measurement units in the diagram:
 
@@ -147,11 +149,11 @@ The following code demonstrates how to change the measurement units at runtime:
 
 ## Unit Conversion Methods
 
-The `SfDiagramComponent` provides methods to convert between pixel values and other measurement units. These methods are useful when you need to work with measurements programmatically or when integrating with external systems that use different units.
+The SfDiagramComponent provides methods for converting values between pixels and other measurement units. These methods are useful when working with measurements programmatically or integrating with external systems that use different units.
 
-The `ConvertFromPixel` method converts pixel values to other units, while `ConvertToPixel` converts values from other units back to pixels.
+The ConvertFromPixel method converts pixel values to the specified measurement unit, while the ConvertToPixel method converts values from a specified measurement unit to pixels.
 
-The following code demonstrates how to use these conversion methods:
+The following example demonstrates how to use these conversion methods:
 
 ```csharp
 // ConvertFromPixel - Converts pixels to other units
