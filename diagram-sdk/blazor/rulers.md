@@ -74,3 +74,97 @@ The following code illustrates how to customize the diagram ruler.
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxXxUtCkKuYBGV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Ruler/Ruler.razor)
+
+## Ruler Measurement Units
+
+The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) specifies the measurement unit used to display ruler values. By setting this property to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) enum value, ruler measurements can be displayed in various physical units instead of the default pixel-based values.
+
+If the Unit property is not specified, ruler values are displayed in pixels.
+
+The `DiagramUnit` enum provides the following measurement units:
+
+* **Pixel** - Displays ruler values in pixels. This is the default value.
+* **Point** - Displays ruler values in points (1 pt = 1/72 inch).
+* **Inch** - Displays ruler values in inches (1 in = 96 px).
+* **Centimeter** - Displays ruler values in centimeters (1 cm = 37.7953 px).
+* **Millimeter** - Displays ruler values in millimeters (1 mm = 3.7795 px).
+
+When dragging or resizing diagram elements, the tooltip displays measurements using the configured ruler unit.
+
+The following code demonstrates how to configure ruler measurement units in the diagram:
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Height="600px">
+    <RulerSettings Unit="DiagramUnit.Centimeter">
+        <HorizontalRuler IsVisible="true">
+        </HorizontalRuler>
+        <VerticalRuler IsVisible="true">
+        </VerticalRuler>
+    </RulerSettings>
+</SfDiagramComponent>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXhnNdqDMaqHNpnd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Ruler Units](images/Ruler.webp)" %}
+
+The `Unit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
+
+The following code demonstrates how to change the measurement units at runtime:
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<div>
+    <label>Select Ruler Unit:</label>
+    <select @onchange="OnUnitChange">
+        <option value="@DiagramUnit.Pixel">Pixel</option>
+        <option value="@DiagramUnit.Point">Point</option>
+        <option value="@DiagramUnit.Inch">Inch</option>
+        <option value="@DiagramUnit.Centimeter">Centimeter</option>
+        <option value="@DiagramUnit.Millimeter">Millimeter</option>
+    </select>
+</div>
+
+<SfDiagramComponent Height="600px">
+    <RulerSettings @bind-Unit="@rulerUnit">
+        <HorizontalRuler IsVisible="true">
+        </HorizontalRuler>
+        <VerticalRuler IsVisible="true">
+        </VerticalRuler>
+    </RulerSettings>
+</SfDiagramComponent>
+
+@code {
+    private DiagramUnit rulerUnit = DiagramUnit.Pixel;
+
+    private async Task OnUnitChange(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<DiagramUnit>(e.Value.ToString(), out var selectedUnit))
+        {
+            rulerUnit = selectedUnit;
+        }
+    }
+}
+```
+
+## Unit Conversion Methods
+
+The SfDiagramComponent provides methods for converting values between pixels and other measurement units. These methods are useful when working with measurements programmatically or integrating with external systems that use different units.
+
+The ConvertFromPixel method converts pixel values to the specified measurement unit, while the ConvertToPixel method converts values from a specified measurement unit to pixels.
+
+The following example demonstrates how to use these conversion methods:
+
+```csharp
+// ConvertFromPixel - Converts pixels to other units
+double centimeters = SfDiagramComponent.ConvertFromPixel(300, DiagramUnit.Centimeter);
+double inches = SfDiagramComponent.ConvertFromPixel(96, DiagramUnit.Inch);
+
+// ConvertToPixel - Converts other units back to pixels
+double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
+```
+
+These conversion methods are particularly helpful when:
+* Importing or exporting diagram data with specific measurement units
+* Calculating positions or sizes based on different measurement systems
+* Synchronizing measurements between the diagram and external tools or APIs
