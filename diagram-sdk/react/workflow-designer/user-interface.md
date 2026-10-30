@@ -19,22 +19,7 @@ Use [`toolbarSettings`](https://ej2.syncfusion.com/documentation/api/workflow-de
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            toolbarSettings={{ visible: true, items: ['Execute', 'Undo', 'Redo', 'Export'] }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,22 +29,7 @@ Use [`canvasToolbarSettings`](https://ej2.syncfusion.com/documentation/api/workf
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            canvasToolbarSettings={{ items: ['Add', 'ZoomOut', 'ZoomIn', 'Fit'] }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,24 +56,7 @@ The following example creates a read-only viewer without grid lines, the top too
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowViewer() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            workflowSettings={{ readOnly: true, showGridLines: false }}
-            toolbarSettings={{ visible: false }}
-            stepCollectionSettings={{ visible: false }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

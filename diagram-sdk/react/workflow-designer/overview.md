@@ -19,7 +19,7 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> Workflow Designer is a visu
 * **18 built-in step types:** Triggers, data operations, branching, loops, approvals, notifications, AI, formatting, and custom steps.
 * **Property panel:** Every step type has its own editor, with expression support for reading data from earlier steps.
 * **In-browser execution:** Run a workflow from a trigger, or run one step independently. Each run reports its progress through events.
-* **Host integration:** Your application delivers notifications, runs custom steps through public events, and routes requests through its backend when needed.
+* **Host integration:** Your application handles notifications and custom steps; approval steps use a built-in dialog, and sensitive requests can be routed through your backend.
 * **Validation:** Structural and configuration errors are reported before a run starts.
 * **Import and export:** Save and load workflows as JSON.
 * **AI Assist:** Generate a workflow, or change the current one, from a natural-language prompt.

@@ -19,30 +19,7 @@ Users run the workflow with the **Execute** toolbar command or by pressing <kbd>
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    async function runWorkflow() {
-        const result = await workflowInstance.current?.runExecution();
-        if (result) {
-            console.log(result.status);
-            console.log(result.visitedSteps);
-            console.log(result.context.nodes);
-        }
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" />
-            <button onClick={runWorkflow}>Run workflow</button>
-        </>
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/execution/execution-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,29 +46,7 @@ The following example logs failed steps and the final status of each run:
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    function onExecutionStepFailed(args: any) {
-        console.warn(args.step.name, args.error.code, args.error.message);
-    }
-
-    function onExecutionCompleted(args: any) {
-        console.log('Run finished:', args.result.status);
-    }
-    
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            executionStepFailed={onExecutionStepFailed}
-            executionCompleted={onExecutionCompleted}
-        />
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/execution/execution-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,22 +58,7 @@ By default, the designer waits 550 ms between steps so that users can follow the
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            executionSettings={{ executionSpeed: 0 }}
-            height="500px"
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/execution/execution-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 

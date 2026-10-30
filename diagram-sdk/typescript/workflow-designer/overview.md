@@ -54,7 +54,7 @@ N> Workflows run in the user's browser, and API Request and AI steps make real n
 
 ## Sample browser
 
-To see the Workflow Designer in action, open the [Default Functionalities demo](https://npmci.syncfusion.com/development/javascript/demos/#/tailwind3/workflow-designer/default-functionalities.html) in the JavaScript sample browser.
+To see the Workflow Designer in action, open the [Default Functionalities demo](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/workflow-designer/default-functionalities.html) in the JavaScript sample browser.
 
 ## Next steps
 

@@ -20,37 +20,7 @@ In Server mode, the designer posts each request to your backend. Your backend ca
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    function onBeforeRequestSend(args: any) {
-        if (args.requestType === 'AIAssist') {
-            args.request.headers = { Authorization: 'Bearer ' + getUserToken() };
-        }
-    }
-
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            ref={workflowInstance}
-            height="500px"
-            aiAssistSettings={{
-                enabled: true,
-                position: 'Right',
-                server: { url: 'https://api.mycompany.com/workflow-ai' },
-                promptSuggestions: ['Send a Slack message when a new order arrives']
-            }}
-            beforeRequestSend={onBeforeRequestSend}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/ai-assist/ai-assist-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -90,33 +60,7 @@ Call `generateWorkflow` to create a workflow from a prompt, or `updateWorkflowFr
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    async function generateWorkflow() {
-        const designer = workflowInstance.current;
-        if (!designer) {
-            return;
-        }
-
-        await designer.generateWorkflow('Every morning, fetch open tickets and email a summary to the team');
-        await designer.updateWorkflowFromPrompt('Add an approval step before the email is sent');
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" aiAssistSettings={{ enabled: true }} />
-            <button onClick={generateWorkflow}>Generate workflow</button>
-        </>
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/ai-assist/ai-assist-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
