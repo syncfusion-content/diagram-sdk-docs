@@ -66,26 +66,7 @@ Your endpoint receives a `WorkflowAIServerRequest` and returns a `WorkflowAIServ
 
 ## Direct mode (development only)
 
-In Direct mode, the browser calls the provider (`'Gemini'`, `'OpenAI'`, or `'Claude'`) itself. The designer uses Direct mode when `executionSettings.credentialMode` is `'Inline'`.
-
-{% tabs %}
-{% highlight js tabtitle="app.js" %}
-
-const designer = new ej.workflowdesigner.WorkflowDesigner({
-    executionSettings: { credentialMode: 'Inline' },
-    aiAssistSettings: {
-        enabled: true,
-        direct: { provider: 'OpenAI', model: 'gpt-4o', credentialRef: 'openai-dev' }
-    },
-    credentialRequested: (args) => {
-        if (args.purpose === 'AIAssist') { args.complete(devKey); }
-    }
-});
-
-{% endhighlight %}
-{% endtabs %}
-
-W> Anyone who uses the page can read a key used in Direct mode. Don't use Direct mode in production.
+In Direct mode, the browser calls the AI provider itself. Any key entered for this mode is exposed to users of the page, so use it only for development. For production, use Server mode so your backend keeps the provider key. The `credentialRequested` event is internal and isn't a public integration point.
 
 ## Use AI Assist from code
 
