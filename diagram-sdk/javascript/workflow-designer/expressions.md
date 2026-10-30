@@ -11,7 +11,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Expressions and runtime context in JavaScript Workflow Designer
 
+<<<<<<< HEAD
 During a run, each step can read data from the **runtime context**. Step settings refer to that data with expressions.
+=======
+During a run, each step can read data from the runtime context. Step settings refer to that data with expressions.
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 
 ## Expression syntax
 
@@ -19,19 +23,34 @@ During a run, each step can read data from the **runtime context**. Step setting
 * Embedded in text: `Order {{$.input.response.orderId}} has shipped.`
 * A field name with spaces: `$.input.response["Delivery date"]`
 
+<<<<<<< HEAD
 The variable picker in the property panel inserts expressions for you.
+=======
+In the property panel, the variable picker inserts expressions for you.
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 
 ## Runtime context
 
 | Path | Description |
 |---|---|
 | `$.input.response` | The trigger data, such as the submitted form values or the webhook payload. |
+<<<<<<< HEAD
 | `$.input.webhook` | Webhook request details (method, path, headers) for webhook-triggered runs. |
 | `$.previousStep` | The step that ran just before the current one: `id`, `stepType` and `response`. |
 | `$.nodes.<stepId>.response` | The response of any step that has already run. |
 | `$.variables.<name>` | Values stored by Set Variable steps. |
 | `$.loop.currentItem`, `$.loop.index`, `$.loop.count`, `$.loop.all` | The current Loop iteration. |
 
+=======
+| `$.input.webhook` | The webhook request details (method, path, and headers) for webhook-triggered runs. |
+| `$.previousStep` | The step that ran just before the current one, with its `id`, `stepType`, and `response`. |
+| `$.nodes.<stepId>.response` | The response of any step that has already run. |
+| `$.variables.<name>` | The values stored by Set Variable steps. |
+| `$.loop.currentItem`, `$.loop.index`, `$.loop.count`, `$.loop.all` | The current Loop iteration. |
+
+The following Notify step reads data from an earlier step, a variable, and the previous step:
+
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
 
@@ -50,7 +69,11 @@ const notifyStep = {
 
 ## Provide initial context
 
+<<<<<<< HEAD
 Pass a context to `runExecution` or `runFromStep` to supply input data. For example:
+=======
+To supply input data, pass a context to `runExecution` or `runFromStep`:
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
@@ -63,6 +86,12 @@ designer.runExecution({ input: { response: { orderId: 'SO-1001' } } });
 ## Rules
 
 * Expressions only read values. They can't call functions.
+<<<<<<< HEAD
 * The `__proto__`, `prototype` and `constructor` segments, plus global names such as `window` and `document`, are rejected.
 * Paths whose names look like secrets (for example `password`, `token` or `apiKey`) are masked in the execution log.
 * Invalid syntax is reported by `validateWorkflow`.
+=======
+* The `__proto__`, `prototype`, and `constructor` segments are rejected, as are global names such as `window` and `document`.
+* Paths whose names look like secrets (for example, `password`, `token`, or `apiKey`) are masked in the execution log.
+* `validateWorkflow` reports invalid syntax.
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751

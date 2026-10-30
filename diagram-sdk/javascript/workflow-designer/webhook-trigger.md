@@ -11,7 +11,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Webhook trigger in JavaScript Workflow Designer control
 
+<<<<<<< HEAD
 A Webhook Trigger step starts the workflow when your backend receives an HTTP call. The designer doesn't receive HTTP requests itself. Your backend verifies the request and forwards it to the page, for example over SignalR or WebSockets. The page then calls `triggerWebhook`.
+=======
+A Webhook Trigger step starts the workflow when your backend receives an HTTP call. The designer doesn't receive HTTP requests itself. Instead, your backend verifies the request and forwards it to the page, for example, over SignalR or WebSockets. The page then calls `triggerWebhook`.
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 
 ## Configure the trigger
 
@@ -19,6 +23,7 @@ A Webhook Trigger step starts the workflow when your backend receives an HTTP ca
 |---|---|
 | `method` | The expected HTTP method. |
 | `path` | The expected path. |
+<<<<<<< HEAD
 | `authMode` | `'None'`, `'Basic'`, `'ApiKeyHeader'`, `'Bearer'`, `'HmacSha256'` or `'Custom'`. |
 | `authRef`, `authHeaderName`, `authSignatureHeaderName` | Details your backend uses to verify the request. |
 | `responseMode`, `responseCode`, `responseBody` | The response your backend returns. Use `'Immediate'` in this release. |
@@ -26,6 +31,17 @@ A Webhook Trigger step starts the workflow when your backend receives an HTTP ca
 
 ## Forward a webhook to the designer
 
+=======
+| `authMode` | `'None'`, `'Basic'`, `'ApiKeyHeader'`, `'Bearer'`, `'HmacSha256'`, or `'Custom'`. |
+| `authRef`, `authHeaderName`, `authSignatureHeaderName` | The details your backend uses to verify the request. |
+| `responseMode`, `responseCode`, `responseBody` | The response your backend returns. Set `responseMode` to `'Immediate'`. |
+| `payloadSchema` | The fields of the expected payload. The variable picker uses them. |
+
+## Forward a webhook to the designer
+
+When your backend forwards a webhook, pass the message to `triggerWebhook`. The following example receives the message over a SignalR connection:
+
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 {% tabs %}
 {% highlight js tabtitle="app.js" %}
 
@@ -41,6 +57,7 @@ connection.on('WorkflowWebhookTriggered', async (message) => {
 {% endhighlight %}
 {% endtabs %}
 
+<<<<<<< HEAD
 The message contains `workflowId`, `triggerId`, `payload`, `method`, `path`, `context` and `authenticated`. The payload is available as `$.input.response`, and the request details as `$.input.webhook`.
 
 ## Errors
@@ -50,11 +67,28 @@ The promise rejects with a `WorkflowError` whose `code` is one of the following:
 | Code | Reason |
 |---|---|
 | `WEBHOOK_INVALID_MESSAGE` | The message, `workflowId` or `triggerId` is missing. |
+=======
+The message contains `workflowId`, `triggerId`, `payload`, `method`, `path`, `context`, and `authenticated`. In the workflow, the payload is available as `$.input.response` and the request details as `$.input.webhook`.
+
+## Errors
+
+When the webhook can't start a run, the promise rejects with a `WorkflowError` whose `code` is one of the following:
+
+| Code | Reason |
+|---|---|
+| `WEBHOOK_INVALID_MESSAGE` | The message, `workflowId`, or `triggerId` is missing. |
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
 | `WEBHOOK_IDS_REQUIRED` | `workflowId` or `triggerId` is empty. |
 | `WEBHOOK_WORKFLOW_MISMATCH` | `workflowId` doesn't match the loaded workflow. |
 | `RUN_IN_PROGRESS` | Another run is active. |
 | `WEBHOOK_TRIGGER_NOT_FOUND` | No Webhook Trigger step has this identifier. |
 | `WEBHOOK_METHOD_MISMATCH`, `WEBHOOK_PATH_MISMATCH` | The request doesn't match the trigger. |
+<<<<<<< HEAD
 | `WEBHOOK_AUTH_REQUIRED` | The trigger requires authentication and `authenticated` isn't `true`. |
 
 I> The designer trusts the `authenticated` flag. Verify the signature or credentials on your backend before setting it. Webhooks that arrive during a run are rejected, so queue them on your backend if you need every event to run.
+=======
+| `WEBHOOK_AUTH_REQUIRED` | The trigger requires authentication, and `authenticated` isn't `true`. |
+
+I> The designer trusts the `authenticated` flag, so verify the signature or credentials on your backend before you set it. Webhooks that arrive during a run are rejected. If every event must run, queue the webhooks on your backend.
+>>>>>>> f42dc364d54ea31a48a6751368a9008a2b1a9751
