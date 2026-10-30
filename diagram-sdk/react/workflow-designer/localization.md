@@ -15,29 +15,7 @@ You can localize all text in the Workflow Designer, including labels, tooltips, 
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { L10n } from '@syncfusion/ej2-base';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-L10n.load({
-    'de-DE': {
-        'workflow-designer': {
-            'workflowSteps': 'Workflow-Schritte',
-            'searchWorkflowSteps': 'Workflow-Schritte suchen',
-            'categoryTriggers': 'Auslöser',
-            'categoryActions': 'Aktionen',
-            'executionLog': 'Ausführungsprotokoll',
-            'executionCompleted': 'Ausführung abgeschlossen',
-            'cancel': 'Abbrechen'
-        }
-    }
-});
-
-function WorkflowCanvas() {
-    return <WorkflowDesignerComponent id="workflow" locale="de-DE" height="450px" />;
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/localization/localization-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,10 +133,10 @@ The following table lists all 472 localization keys and their default English te
 | `errorWebhookPath` | Webhook Trigger '{0}' does not listen on path '{1}'. |
 | `errorWebhookAuth` | Webhook Trigger '{0}' requires {1} authentication; set message.authenticated after verifying the request. |
 | `errorAIAssistDisabled` | AI Assist is disabled. |
-| `errorAIAssistCredential` | The AI Assist credential could not be resolved. Handle the credentialRequested event, or set executionSettings.credentialMode to 'Inline' for development. |
+| `errorAIAssistCredential` | The AI Assist credential could not be resolved. Check the credential settings, or use Inline mode for development. |
 | `credentialReference` | Credential reference |
 | `credentialReferencePlaceholder` | e.g. openai-prod |
-| `credentialReferenceHelp` | The name of a credential your application resolves through the credentialRequested event. It is saved with the workflow; the secret itself is not. |
+| `credentialReferenceHelp` | The name of a credential reference saved with the workflow; the secret itself is not. |
 | `credentialInlineSet` | Set API key |
 | `credentialInlineReplace` | Click to replace the stored API key. |
 | `credentialInlineStore` | Click to store an API key for this step. |
@@ -196,7 +174,7 @@ The following table lists all 472 localization keys and their default English te
 | `searchExecutionLog` | Search execution log |
 | `toggleValidationDetails` | Toggle validation details |
 | `validationIssues` | Validation issues |
-| `responseFieldsEmpty` | No response fields yet. Add a field for each JSON key the AI should return. |
+| `responseFieldsEmpty` | No desired response fields yet. Add a field for each JSON key the AI should return. |
 | `variablePickerNoUpstream` | No upstream steps. Connect a previous step to expose its output. |
 | `save` | Save |
 | `propEnableMemory` | Enable memory |
@@ -245,7 +223,7 @@ The following table lists all 472 localization keys and their default English te
 | `validationSetVariableValue` | Enter a value for the variable. |
 | `validationSetVariableType` | The value doesn't match the variable's type ({0}). |
 | `stepTimedOut` | The step did not finish within {0} ms. |
-| `credentialUnresolved` | The step credential could not be resolved. Handle the credentialRequested event, or set executionSettings.credentialMode to 'Inline' for development. |
+| `credentialUnresolved` | The step credential could not be resolved. Check the credential settings, or use Inline mode for development. |
 | `variableTypeMismatch` | Variable '{0}' can't be converted to {1}. |
 | `unresolvedExpression` | Expression {0} resolved to nothing; an empty value was used. |
 | `loopItemsMissing` | Loop items path {0} resolved to nothing; the loop body was skipped. |
@@ -305,7 +283,7 @@ The following table lists all 472 localization keys and their default English te
 | `aiPromptRequired` | AI step requires a prompt or system prompt. |
 | `aiServerUrlRequired` | AI step with mode "Server" requires a serverUrl property. |
 | `aiModelRequired` | AI step requires a model. |
-| `aiApiKeyRequired` | AI step requires an API key. Set it in the step, or use a credential reference with the credentialRequested event. |
+| `aiApiKeyRequired` | AI step requires an API key. Set it in the step for development, or configure the step to use your backend. |
 | `propPropertiesTitle` | Properties |
 | `propEmptyMessage` | Select a workflow step to edit properties. |
 | `propExpandTitle` | Expand properties |
@@ -520,4 +498,4 @@ The following table lists all 472 localization keys and their default English te
 | `noStepInDirection` | No step in that direction. |
 | `Time Zone` | Time Zone |
 | `approvalTimedOut` | No decision was made within {0} seconds. |
-| `validationCredentialLooksLikeKey` | This looks like an API key, not a credential reference. Enter the name your app resolves in credentialRequested, or set executionSettings.credentialMode to 'Inline' to type a key for development. |
+| `validationCredentialLooksLikeKey` | This looks like an API key, not a credential reference. Enter a credential reference, or use Inline mode to type a key for development. |

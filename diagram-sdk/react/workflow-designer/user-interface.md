@@ -15,26 +15,11 @@ You can show, hide, and configure each part of the Workflow Designer: the top to
 
 ## Top toolbar
 
-Use [`toolbarSettings`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#toolbarsettings) to show or hide the toolbar and choose its commands. The available commands are `'Undo'`, `'Redo'`, `'Layout'`, `'Execute'`, `'Lock'`, `'Export'`, and `'Import'`. They always appear in a fixed order, regardless of the order you list them in.
+Use [`toolbarSettings`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#toolbarsettings) to show or hide the toolbar and choose its commands. The available commands are `'Undo'`, `'Redo'`, `'Layout'`, `'Execute'`, `'Stop'`, `'Lock'`, `'Export'`, and `'Import'`. They always appear in a fixed order, regardless of the order you list them in. **Stop** is available while a workflow is running.
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            toolbarSettings={{ visible: true, items: ['Execute', 'Undo', 'Redo', 'Export'] }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,22 +29,7 @@ Use [`canvasToolbarSettings`](https://ej2.syncfusion.com/documentation/api/workf
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            canvasToolbarSettings={{ items: ['Add', 'ZoomOut', 'ZoomIn', 'Fit'] }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,59 +56,13 @@ The following example creates a read-only viewer without grid lines, the top too
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-{% raw %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowViewer() {
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            height="500px"
-            workflowSettings={{ readOnly: true, showGridLines: false }}
-            toolbarSettings={{ visible: false }}
-            stepCollectionSettings={{ visible: false }}
-        />
-    );
-}
-
-{% endraw %}
+{% include code-snippet/diagram-sdk/react/workflow-designer/user-interface/user-interface-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
 ## Sticky notes
 
-Sticky notes document a workflow and never run. Their text supports basic Markdown: headings, bold, italic, inline code, and bulleted lists. To add a note, use the **Sticky Note** canvas command or press <kbd>Shift</kbd> + <kbd>S</kbd>. You can also add one from code:
-
-{% tabs %}
-{% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    function addStickyNote() {
-        workflowInstance.current?.addWorkflowItem({
-            id: 'note1',
-            text: '## Payment check\nRuns **every hour**.',
-            position: { x: 80, y: 40 },
-            size: { width: 240, height: 140 }
-        });
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" />
-            <button onClick={addStickyNote}>Add sticky note</button>
-        </>
-    );
-}
-
-{% endhighlight %}
-{% endtabs %}
+Sticky notes document a workflow and never run. Their text supports basic Markdown: headings, bold, italic, inline code, and bulleted lists. To add a note, use the **Sticky Note** canvas command or press <kbd>Shift</kbd> + <kbd>S</kbd>.
 
 
 ## Dimensions

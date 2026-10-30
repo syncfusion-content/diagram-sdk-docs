@@ -19,31 +19,7 @@ Export the workflow as a JSON string, as an object, or as a file download:
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    function exportWorkflow() {
-        const designer = workflowInstance.current;
-        if (designer) {
-            const json = designer.exportWorkflow();
-            const copy = designer.getWorkflow();
-            designer.saveWorkflow('order-check.json');
-            console.log(json, copy);
-        }
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" />
-            <button onClick={exportWorkflow}>Export workflow</button>
-        </>
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/import-export/import-export-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,31 +33,7 @@ N> Secrets are never exported. This includes inline AI keys and the values of se
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
-        const designer = workflowInstance.current;
-        const file = event.currentTarget.files?.[0];
-        if (designer && file) {
-            designer.importWorkflow(file).catch((error) => {
-                console.error(error);
-            });
-        }
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" />
-            <input type="file" onChange={handleFileChange} />
-        </>
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/import-export/import-export-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,39 +51,7 @@ Use `isDirty` to check for unsaved changes, and call `markClean` after you save:
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    React.useEffect(() => {
-        const handleBeforeUnload = (event: BeforeUnloadEvent) => {
-            if (workflowInstance.current?.isDirty()) {
-                event.preventDefault();
-            }
-        };
-
-        window.addEventListener('beforeunload', handleBeforeUnload);
-        return () => window.removeEventListener('beforeunload', handleBeforeUnload);
-    }, []);
-
-    function saveWorkflow() {
-        const designer = workflowInstance.current;
-        if (designer) {
-            myApi.save(designer.exportWorkflow()).then(() => designer.markClean());
-        }
-    }
-
-    return (
-        <>
-            <WorkflowDesignerComponent id="workflow" ref={workflowInstance} height="500px" />
-            <button onClick={saveWorkflow}>Save</button>
-        </>
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/import-export/import-export-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -139,7 +59,6 @@ function WorkflowCanvas() {
 
 | Method | Description |
 |---|---|
-| `addWorkflowItem(item)` | Adds a step (an object with `stepType`), a connection (an object with `sourceStepId` and `targetStepId`), or a sticky note. |
 | `updateWorkflowItem(id, changes, silent?)` | Updates the given properties. The `id` can't be changed. |
 | `removeWorkflowItem(id)` | Removes an item. Removing a step also removes its connections. |
 | `clearWorkflow()` | Removes everything, without asking for confirmation. |

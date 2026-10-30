@@ -34,7 +34,7 @@ designer.runExecution().then((result: WorkflowExecutionResult) => {
 The following methods control a run:
 
 * `runExecution(context?, triggerId?)` validates the workflow and then runs it from the trigger. When the workflow has several triggers, pass the trigger identifier.
-* [`runFromStep(stepId, context?)`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#runfromstep) runs the workflow from a single step. Use `context` to supply the data that earlier steps would have produced.
+* [`runFromStep(stepId, context?)`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#runfromstep) runs only the specified step; it doesn't continue through connected steps. Use `context` to supply the data that step needs.
 * [`stopExecution()`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#stopexecution) stops the run. `executionCompleted` is then triggered with the status `'Stopped'`.
 
 The run doesn't start when validation finds errors. To check the workflow first, call `validateWorkflow()`. For details, see [Validation](./validation).
@@ -85,35 +85,6 @@ By default, the designer waits 550 ms between steps so that users can follow the
 const designer: WorkflowDesigner = new WorkflowDesigner({
     executionSettings: { executionSpeed: 0 }
 });
-
-{% endhighlight %}
-{% endtabs %}
-
-## Error handling
-
-Use the `errorHandling` property of a step to set what happens when it fails:
-
-| Property | Description |
-|---|---|
-| `timeoutMs` | How long the step can run before it fails. `0` uses the default of 30 seconds. |
-| `retryPolicy` | `{ enabled, maxAttempts, delayMs }`. `maxAttempts` includes the first attempt. |
-| `continueOnError` | Continues to the next step when the step fails. |
-| `errorPort` | Adds an `error` output port for a recovery path. |
-
-The following API Request step times out after 10 seconds, tries up to three times, and routes failures to its `error` port:
-
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-const step = {
-    id: 'getRates', stepType: 'ApiRequest',
-    props: { method: 'GET', url: 'https://example.com/rates' },
-    errorHandling: {
-        timeoutMs: 10000,
-        retryPolicy: { enabled: true, maxAttempts: 3, delayMs: 2000 },
-        errorPort: true
-    }
-};
 
 {% endhighlight %}
 {% endtabs %}

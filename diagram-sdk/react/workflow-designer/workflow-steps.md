@@ -21,8 +21,6 @@ A step is a unit of work in a workflow. Every step is a `WorkflowStep` object wi
 | `props` | `object` | The step settings. They depend on `stepType` and must be JSON-safe. |
 | `customProps` | `object` | Application data that's saved with the step but not used by the designer. |
 | `position` | `{ x, y }` | The position on the canvas. |
-| `size` | `{ width, height }` | The step size. When it isn't set, the default size is used. |
-| `errorHandling` | `WorkflowStepErrorHandling` | Timeout, retry, and continue-on-error behavior. See [Error handling](./execution#error-handling). |
 
 String settings accept [expressions](./expressions), such as <code>&#123;&#123;$.previousStep.response.body.id&#125;&#125;</code>.
 
@@ -41,7 +39,6 @@ The `id` of a step, connection, or sticky note must follow these rules:
 
 The designer handles an identifier that's missing, invalid, reserved, or duplicated as follows:
 
-* `addWorkflowItem` ignores the item and returns `false`.
 * `importWorkflow` rejects the workflow with `IMPORT_INVALID_STRUCTURE`.
 * `validateWorkflow` reports `ID_REQUIRED`, `ID_INVALID`, or `ID_DUPLICATE`.
 
@@ -66,7 +63,7 @@ Every workflow starts from a trigger. When a workflow has more than one trigger,
 | `endDateTime`, `maxOccurrences` | Optional limits. |
 | `timeZone` | The IANA time zone that the schedule uses. |
 
-N> A `'Once'` schedule runs only when you start it manually. `'Recurring'` and `'Cron'` schedules fire automatically after the run starts, and they keep firing until the run is stopped. Schedules run only while the browser tab is open.
+N> Start the workflow run to activate its schedule. A `'Once'` schedule fires once at its configured time; `'Recurring'` and `'Cron'` schedules fire according to their configured schedule until the run is stopped. Schedules run only while the browser tab is open.
 
 ### Webhook trigger
 
@@ -115,9 +112,9 @@ N> A `'Once'` schedule runs only when you start it manually. `'Recurring'` and `
 | `url` | An `http` or `https` URL. |
 | `headers`, `queryParams` | Lists of `{ key, value }` pairs. |
 | `bodyType`, `body` | `'Json'`, `'Text'`, or `'Expression'`. GET and DELETE requests don't send a body. |
-| `authRef` | The name of a credential that's resolved through the `credentialRequested` event. |
+| `authRef` | The credential reference selected for the request. The secret itself isn't stored in the workflow. |
 
-The step's response contains `status`, `statusText`, `headers`, and `body`. A response status outside the 2xx range fails the step. Page cookies are never sent.
+The step's response contains `status`, `statusText`, `headers`, and `body`. A response status outside the 2xx range fails the step. Browser-managed cookies aren't sent automatically; explicitly configured request headers can still contain credentials.
 
 ### Delay
 
@@ -165,7 +162,6 @@ The step's response contains `status`, `statusText`, `headers`, and `body`. A re
 | Setting | Description |
 |---|---|
 | `itemsPath` | An expression for the list. A single value is treated as a one-item list, and a missing value loops zero times. |
-| `itemFields` | Optional field descriptions for the current item. The variable picker uses them. |
 | `maxIterations` | The maximum number of iterations. |
 
 Inside the loop, read the current item from `$.loop.currentItem` and its position from `$.loop.index`.
@@ -186,7 +182,7 @@ Inside the loop, read the current item from `$.loop.currentItem` and its positio
 | `requestMessage` | The message shown to the reviewer. |
 | `requestFields` | A list of `{ label, value }` items shown with the request. |
 
-Handle the `approvalRequested` event to route the request to your approval system. When the event isn't handled, the designer shows a built-in approval dialog. See [Approvals](./host-integration#approvals).
+When an approval step runs, the designer shows a built-in dialog for the reviewer.
 
 ### Notify
 
@@ -210,13 +206,13 @@ Handle the `notifyRequested` event to deliver the notification. See [Notificatio
 | Setting | Description |
 |---|---|
 | `provider`, `model` | The provider (`'Gemini'`, `'OpenAI'`, or `'Claude'`) and the model name. |
-| `credentialRef` | The name of a credential that's resolved through `credentialRequested`. Used when `credentialMode` is `'Reference'`. |
+| `credentialRef` | The credential reference selected for the AI step when `credentialMode` is `'Reference'`. The secret itself isn't stored in the workflow. |
 | `apiKey` | A raw key. It's available only when `credentialMode` is `'Inline'`. Use it for development only. |
 | `serverUrl` | An optional backend that receives the request instead of the provider. |
 | `systemPrompt`, `prompt` | The instructions and the prompt. Both accept expressions. |
 | `outputFormat` | `'Text'`, `'JSON'`, or `'Markdown'`. |
-| `responseFields` | For `'JSON'`: the expected fields, each with a `name`, `type`, and `description`. |
-| `memoryEnabled`, `contextWindowLength`, `sessionKey` | Conversation memory, which is kept in session storage. |
+| `responseFields` | Displayed as **Desired Response Fields**. For `'JSON'`, these are the expected fields, each with a `name`, `type`, and `description`. |
+| `memoryEnabled` | Enables conversation memory, which is kept in session storage. |
 | `timeoutSeconds` | The step timeout. |
 
 ## Condition rules

@@ -81,7 +81,6 @@ function save(): void {
 
 | Method | Description |
 |---|---|
-| `addWorkflowItem(item)` | Adds a step (an object with `stepType`), a connection (an object with `sourceStepId` and `targetStepId`), or a sticky note. |
 | `updateWorkflowItem(id, changes, silent?)` | Updates the given properties. The `id` can't be changed. |
 | `removeWorkflowItem(id)` | Removes an item. Removing a step also removes its connections. |
 | `clearWorkflow()` | Removes everything, without asking for confirmation. |

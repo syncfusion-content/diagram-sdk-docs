@@ -35,8 +35,6 @@ The output ports of a step depend on its type:
 | `End` | None |
 | All other steps | `output` |
 
-When a step's `errorHandling.errorPort` is `true`, the step also has an `error` port, which runs when the step fails.
-
 The following connections route the two outcomes of an Approve step to different steps:
 
 {% tabs %}

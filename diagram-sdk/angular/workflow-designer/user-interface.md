@@ -15,7 +15,7 @@ You can show, hide, and configure each part of the Workflow Designer: the top to
 
 ## Top toolbar
 
-Use [`toolbarSettings`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#toolbarsettings) to show or hide the toolbar and choose its commands. The available commands are `'Undo'`, `'Redo'`, `'Layout'`, `'Execute'`, `'Lock'`, `'Export'`, and `'Import'`. They always appear in a fixed order, regardless of the order you list them in.
+Use [`toolbarSettings`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#toolbarsettings) to show or hide the toolbar and choose its commands. The available commands are `'Undo'`, `'Redo'`, `'Layout'`, `'Execute'`, `'Stop'`, `'Lock'`, `'Export'`, and `'Import'`. They always appear in a fixed order, regardless of the order you list them in. **Stop** is available while a workflow is running.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -106,28 +106,7 @@ export class AppComponent {
 
 ## Sticky notes
 
-Sticky notes document a workflow and never run. Their text supports basic Markdown: headings, bold, italic, inline code, and bulleted lists. To add a note, use the **Sticky Note** canvas command or press <kbd>Shift</kbd> + <kbd>S</kbd>. You can also add one from code:
-
-{% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-
-import { Component, ViewChild } from '@angular/core';
-import { WorkflowDesignerModule, WorkflowDesignerComponent } from '@syncfusion/ej2-angular-workflow-designer';
-
-@Component({
-    selector: 'app-root',
-    standalone: true,
-    imports: [WorkflowDesignerModule],
-    template: "<ejs-workflowdesigner #workflow id=\"workflow\" height=\"500px\"></ejs-workflowdesigner><button type=\"button\" (click)=\"addStickyNote()\">Add sticky note</button>"
-})
-export class AppComponent {
-    @ViewChild('workflow') public workflowDesigner!: WorkflowDesignerComponent;
-
-    addStickyNote(): void { this.workflowDesigner.addWorkflowItem({ id: 'note1', text: '## Payment check\nRuns **every hour**.', position: { x: 80, y: 40 }, size: { width: 240, height: 140 } }); }
-}
-
-{% endhighlight %}
-{% endtabs %}
+Sticky notes document a workflow and never run. Their text supports basic Markdown: headings, bold, italic, inline code, and bulleted lists. To add a note, use the **Sticky Note** canvas command or press <kbd>Shift</kbd> + <kbd>S</kbd>.
 
 
 ## Dimensions

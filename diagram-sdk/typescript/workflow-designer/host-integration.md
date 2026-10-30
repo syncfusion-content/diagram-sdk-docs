@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Host integration in TypeScript Workflow Designer control | Syncfusion®
-description: Learn how to deliver notifications, handle approvals, supply credentials, run custom steps and intercept requests in the Syncfusion TypeScript Workflow Designer.
+description: Learn how to deliver notifications, run custom steps and intercept requests in the Syncfusion TypeScript Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
 publishingplatform: diagram-sdk
@@ -11,12 +11,12 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Host Integration in EJ2 TypeScript Workflow Designer
 
-Some steps need work that only your application can do, such as sending an email or reading a secret. For these steps, the designer triggers an event, and the step waits until your handler finishes it.
+Some steps need work that only your application can do, such as sending a notification or running custom logic. For these steps, the designer triggers an event, and the step waits until your handler finishes it.
 
 The arguments of these events contain the following members:
 
 * `complete(result)`: Finishes the step successfully.
-* `fail(error)`: Fails the step. The step's error handling then applies.
+* `fail(error)`: Fails the step.
 * `signal`: An `AbortSignal` that's aborted when the run is stopped or the step times out.
 
 ## Notifications
@@ -52,36 +52,11 @@ designer.appendTo('#workflowDesigner');
 {% endhighlight %}
 {% endtabs %}
 
-`args.notification` holds the step settings, with expressions already resolved. Call `fail` for every unsuccessful outcome, including HTTP error responses, so that the step's [error handling](./execution#error-handling) applies (retries, `continueOnError`, and the error port). If you call `complete`, the step is treated as successful.
+`args.notification` holds the step settings, with expressions already resolved. Call `fail` for every unsuccessful outcome, including HTTP error responses, so the run reports the step failure. If you call `complete`, the step is treated as successful.
 
 ## Approvals
 
-The `approvalRequested` event provides `reviewers`, `requestMessage`, and `requestFields`. Complete it with an `ApprovalDecisionResult`:
-
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { WorkflowDesigner, WorkflowApprovalEventArgs } from '@syncfusion/ej2-workflow-designer';
-
-const designer: WorkflowDesigner = new WorkflowDesigner({
-    approvalRequested: (args: WorkflowApprovalEventArgs) => {
-        // myApprovalService stands for your application's approval system.
-        myApprovalService.request(args.requestMessage, args.reviewers).then((decision) => {
-            args.complete({
-                decision: decision.approved ? 'approved' : 'declined',
-                comments: decision.comments,
-                reviewedBy: decision.user,
-                reviewedAt: new Date().toISOString()
-            });
-        });
-    }
-});
-designer.appendTo('#workflowDesigner');
-
-{% endhighlight %}
-{% endtabs %}
-
-When the event isn't handled, a built-in dialog lets the current user decide.
+When an approval step runs, the designer shows a built-in dialog for the reviewer.
 
 ## Custom steps
 
@@ -112,32 +87,7 @@ designer.appendTo('#workflowDesigner');
 
 ## Credentials
 
-Steps store only the name of a credential: `authRef` on API Request steps and `credentialRef` on AI steps. When a credential is needed, the designer triggers the `credentialRequested` event. Resolve the name from your secret store:
-
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { WorkflowDesigner, WorkflowCredentialEventArgs } from '@syncfusion/ej2-workflow-designer';
-
-const designer: WorkflowDesigner = new WorkflowDesigner({
-    credentialRequested: (args: WorkflowCredentialEventArgs) => {
-        // args.purpose is 'ApiRequest', 'AI', or 'AIAssist'.
-        // getSecret stands for your application's secret store.
-        getSecret(args.credentialRef).then((secret: string) => {
-            if (args.purpose === 'ApiRequest') {
-                args.complete({ headers: { Authorization: 'Bearer ' + secret } });
-            } else {
-                args.complete(secret);
-            }
-        }, (error: Error) => args.fail(error));
-    }
-});
-designer.appendTo('#workflowDesigner');
-
-{% endhighlight %}
-{% endtabs %}
-
-Secrets are attached after `beforeRequestSend`. They never appear in event arguments, the execution log, or exported JSON.
+The `approvalRequested` and `credentialRequested` events are internal and aren't public integration points. For requests that require secrets, route them through your backend and keep credentials server-side. Use `beforeRequestSend` to route API Request and AI Assist requests to your backend; for AI steps, configure `serverUrl`.
 
 ## Intercept requests
 

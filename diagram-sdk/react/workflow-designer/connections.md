@@ -35,18 +35,11 @@ The output ports of a step depend on its type:
 | `End` | None |
 | All other steps | `output` |
 
-When a step's `errorHandling.errorPort` is `true`, the step also has an `error` port, which runs when the step fails.
-
 The following connections route the two outcomes of an Approve step to different steps:
 
 {% tabs %}
 {% highlight ts tabtitle="workflow.ts" %}
-
-const connections = [
-    { id: 'toApproved', sourceStepId: 'approval', sourcePort: 'approved', targetStepId: 'createOrder' },
-    { id: 'toDeclined', sourceStepId: 'approval', sourcePort: 'declined', targetStepId: 'notifyUser' }
-];
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/connections/connections-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,29 +55,7 @@ The following example allows only one connection out of the trigger:
 
 {% tabs %}
 {% highlight ts tabtitle="App.tsx" %}
-
-import * as React from 'react';
-import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
-
-function WorkflowCanvas() {
-    const workflowInstance = React.useRef<WorkflowDesignerComponent>(null);
-
-    function onBeforeConnect(args: any) {
-        if (args.connection.sourceStepId === 'start') {
-            args.cancel = true;
-        }
-    }
-
-    return (
-        <WorkflowDesignerComponent
-            id="workflow"
-            ref={workflowInstance}
-            height="640px"
-            beforeConnect={onBeforeConnect}
-        />
-    );
-}
-
+{% include code-snippet/diagram-sdk/react/workflow-designer/connections/connections-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
