@@ -15,13 +15,13 @@ Workflows run in the user's browser and make real network calls. Review the foll
 
 ## Credentials
 
-* Use `credentialMode: 'Reference'`, which is the default. Steps then store only a credential name, which your application resolves in the `credentialRequested` event.
-* `'Inline'` mode and Direct-mode AI Assist expose keys to anyone who uses the page. Use them for development only.
+* Don't put production secrets in client-side code or workflow files. Inline credentials are available to anyone who can use the page; use them for development only.
+* `credentialRequested` is an internal event, not a public integration point. For requests that require secrets, route them through your backend and keep credentials server-side.
 * Secrets aren't included in event arguments, the execution log, or exported JSON.
 
 ## Network requests
 
-* API Request steps send requests with `credentials: 'omit'`, so page cookies and HTTP authentication are never sent.
+* API Request steps use Fetch's `credentials: 'omit'`, so browser-managed cookies and HTTP authentication are omitted. Authorization headers you configure explicitly are still sent.
 * Use the `beforeRequestSend` event as your policy point to allowlist hosts, route requests through a proxy, or block requests. See [Intercept requests](./host-integration#intercept-requests).
 * Target servers must allow cross-origin requests (CORS) from your page.
 
