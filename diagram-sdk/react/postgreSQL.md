@@ -556,14 +556,10 @@ npm install -D @types/react @types/react-dom typescript vite
 Import Syncfusion® CSS styles in the **client/src/index.css** file for proper component rendering:
 
 ```css
-/* Import Material theme base styles */
-@import '@syncfusion/ej2-base/styles/material.css';
-
-/* Import Diagram component-specific styles */
-@import '@syncfusion/ej2-react-diagrams/styles/material.css';
+@import '@syncfusion/ej2-tailwind3-theme/styles/tailwind3.css';
 ```
 
-> **Note**: Syncfusion® provides multiple themes (Material, Bootstrap, Fabric). This example uses Material theme for modern appearance.
+> **Note**: Syncfusion® provides multiple themes (Tailwind, Bootstrap, Material). This example uses the Tailwind 3 theme for a modern appearance.
 
 #### TypeScript type definitions
 
