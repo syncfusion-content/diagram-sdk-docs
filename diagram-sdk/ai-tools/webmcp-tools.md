@@ -45,7 +45,7 @@ Syncfusion Diagram integration with WebMCP provides significant benefits for bui
 ### Key Benefits
 
 - **Universal Tool Access** — AI agents and MCP-compatible clients can discover and invoke diagram operations
-- **Zero Custom Integration** — Inject the `WebMcpDiagram` module, enable WebMCP, and tool registration is handled automatically
+- **Zero Custom Integration** — Inject the `WebMcpDiagram` module, set `enableWebMcp: true`, and all tool registration, schema binding, and lifecycle management is automatic
 - **Schema-Validated I/O** — Tools provide structured schemas for reliable AI interaction
 - **Controlled Execution** — Applications can validate, approve, audit, or cancel tool execution through the `beforeWebMcpToolExecute` event
 - **Multi-Instance Friendly** — Tool prefixes prevent conflicts when multiple diagrams exist on the same page
@@ -58,14 +58,14 @@ Understanding how WebMCP processes your request helps you write better prompts a
 
 ### The Six-Stage Pipeline
 
-When a WebMCP tool is invoked, the following occurs:
+When a WebMCP tool is invoked, the following happens behind the scenes:
 
-1. **Tool Discovery** — Available Diagram tool schemas are discovered
-2. **Tool Registration** — Tools are registered through `document.modelContext`
-3. **Tool Invocation** — An AI agent invokes a registered Diagram tool
-4. **Request Routing** — Tool requests are routed to the Diagram WebMCP adapter
-5. **Validation & Execution** — Optional validation, confirmation, or cancellation occurs before execution
-6. **Structured Response** — Results are returned as structured success or error responses
+1. **Tool Discovery** — Retrieve available tool schemas via `getWebMcpTools()`
+2. **Tool Registration** — Register tools on `document.modelContext` with unique prefixes
+3. **Tool Invocation** — AI agent calls the tool through `document.modelContext`
+4. **Adapter Routing** — The Diagram WebMCP adapter strips the prefix and fires the `beforeWebMcpToolExecute` event
+5. **Confirmation & Execution** — Validation, confirmation, or cancellation occurs before execution, and write operations can be approved or refused
+6. **Response Formatting** — Results are returned as structured success or error responses
 
 ## Integration
 
@@ -116,17 +116,19 @@ Example: "Add a label named Approve Request to the selected connector."
 
 WebMCP tools for Diagram are organized into the following categories:
 
-| Category | Tools |
-|----------|-------|
-| Diagram Creation | createDiagramNode, createSpecializedDiagramNode, createDiagramConnector, createSpecializedRelationship |
-| Selection & Editing | manageNodeSelection, manageInteractionMode, enableEditingMode |
-| Arrangement | arrangeAndAlignObjects, arrangeZOrder |
-| Content Management | manageAnnotationsAndLabels, managePorts, manageGroupsAndHierarchies, manageLayers |
-| Navigation | navigateAndZoomDiagram |
-| History & Clipboard | manageUndoRedo, manageClipboardOperations |
-| File Operations | exportAndImportDiagrams |
-| Layouts | applyLayoutToNodes |
-| Object Removal | deleteFromDiagram |
+| Category | Tools | Example |
+|----------|-------|---------|
+| Diagram Creation | createDiagramNode, createSpecializedDiagramNode, createDiagramConnector, createSpecializedRelationship | Create flowchart or BPMN nodes and connectors |
+| Selection & Editing | manageNodeSelection, manageInteractionMode, enableEditingMode | Select objects and switch between read-only and edit modes |
+| Arrangement | arrangeAndAlignObjects, arrangeZOrder | Align, distribute, resize, and reorder diagram elements |
+| Content Management | manageAnnotationsAndLabels, managePorts, manageGroupsAndHierarchies, manageLayers | Add labels, ports, groups, and layers to diagram objects |
+| Navigation | navigateAndZoomDiagram | Pan, zoom, and fit the diagram in the viewport |
+| History & Clipboard | manageUndoRedo, manageClipboardOperations | Undo edits and copy or paste diagram content |
+| File Operations | exportAndImportDiagrams | Import, export, save, or print the diagram |
+| Layouts | applyLayoutToNodes | Apply hierarchical, radial, or flowchart layouts |
+| Object Removal | deleteFromDiagram | Remove selected, specified, or all diagram objects |
+
+For the complete tool reference, see the [WebMCP Integration - Tool Reference](https://ej2.syncfusion.com/react/documentation/webmcp/components#diagram).
 
 ## Available Diagram WebMCP Tools
 
@@ -154,26 +156,23 @@ The Syncfusion Diagram control exposes 19 built-in WebMCP tools.
 
 ## Writing Effective Prompts
 
-Specific prompts help AI agents perform Diagram operations accurately.
+AI responses are only as good as the prompt you provide. Vague requests like "fix this" give the AI very little context. More specific prompts produce reliable, accurate results.
 
-### Good Prompt Examples
+Good Prompt Example:
 
-- "Create a flowchart with Start, Process, and End nodes connected sequentially."
-- "Select all nodes and align them horizontally."
-- "Export the current diagram as SVG."
+"Create a flowchart with Start, Process, and End nodes connected sequentially."
 
-### Vague Prompt Examples
+Vague Prompt Example:
 
-- "Update this diagram"
-- "Fix the layout"
+"Update this diagram"
 
 ### Tips for Effective Prompts
 
-- **Be Specific** — Mention node types, connector types, and layout names
-- **Provide Context** — Describe the desired diagram structure or workflow
-- **One Goal at a Time** — Break complex tasks into smaller requests
-- **Reference Objects Clearly** — Use exact node names or identifiers when possible
-- **State Expectations** — Clearly describe the desired result
+- **Be Specific** — Mention node types, connector types, and layout names.
+- **Provide Context** — Describe the desired diagram structure or workflow.
+- **One Goal at a Time** — Break complex tasks into smaller requests.
+- **Reference Objects Clearly** — Use exact node names or identifiers when possible.
+- **State Expectations** — Clearly describe the desired result.
 
 ## Best Practices
 
