@@ -17,7 +17,6 @@
     "@syncfusion/ej2-diagrams": "*",
     "@syncfusion/ej2-navigations": "*",
     "@syncfusion/ej2-angular-base": "*",
-    "@syncfusion/ej2-tailwind3-theme": "*",
     "@syncfusion/ej2-splitbuttons": "*",
     "@syncfusion/ej2-angular-popups": "*",
     "@syncfusion/ej2-popups": "*",
