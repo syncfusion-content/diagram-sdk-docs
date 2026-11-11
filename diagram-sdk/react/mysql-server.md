@@ -46,7 +46,7 @@ To store and manage diagram data, MySQL Server must be installed and configured 
 
 MySQL Server provides the relational database engine used to store organizational chart data required by the React Diagram component.
 
-1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/installer/8.0.html).
 ![MySQL Installer](images/mysql-installer.png)
 2. Run the installer and follow the setup wizard.
    - Choose setup type as **Server only**.
@@ -66,7 +66,7 @@ MySQL Server provides the relational database engine used to store organizationa
 
 MySQL Workbench is a graphical tool used to connect to MySQL Server, manage databases, execute SQL queries, and inspect data.
 
-1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://dev.mysql.com/downloads/workbench)
+1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://dev.mysql.com/downloads/workbench/)
 2. Run the installer and follow the setup wizard.
    - Choose the setup type as **Complete**.
    - Click **Finish** after installing MySQL Workbench.
@@ -472,7 +472,7 @@ For this project, the "Bootstrap 5.3" theme is applied. Other themes can be sele
 
 ### Step 3: Add Syncfusion® React Diagram
 
-Create a basic Diagram component in **src/App.tsx**:
+Create a basic Diagram component in **src/App.ts**:
 
 ```typescript
 import {
@@ -579,7 +579,7 @@ Add the `<Inject>` component inside `DiagramComponent` to enable data binding an
 
 ### Complete code
 
-Here is the complete **src/App.tsx** file:
+Here is the complete **src/App.ts** file:
 
 {% raw %}
 ```typescript
@@ -724,7 +724,7 @@ npm run dev
    - Confirm the DataManager/service URL uses the correct HTTP port, e.g.: **http://localhost:5296/api/diagram/items**
 
 ### Application shows the diagram twice
-  - Stop the React client dev server (press **Ctrl+C** in the terminal where it's running) and then restart it:
+  - Stop the React client development server (press **Ctrl+C** in the terminal where it's running) and then restart it:
     ```bash
     npm run dev
     ```

@@ -612,7 +612,7 @@ For this project, the "Bootstrap 5.3" theme is applied. Other themes can be sele
 
 ### Step 3: Add Syncfusion® React Diagram
 
-The React Diagram component can be added to the (**src/App.tsx**) file using the following code.
+The React Diagram component can be added to the (**src/App.ts**) file using the following code.
 
 ```ts
 import React from 'react';
@@ -641,7 +641,7 @@ This code initializes the React Diagram component with default dimensions.
 
 ### Step 4: Fetch data from Web API and bind it to the Diagram
 
-In this step, data is retrieved from the ASP.NET Core Web API and assigned to the Diagram as a data source. Create a `loadData` function in the (**src/App.tsx**) file to fetch the API data and assign it to the Diagram using `dataSourceSettings`.
+In this step, data is retrieved from the ASP.NET Core Web API and assigned to the Diagram as a data source. Create a `loadData` function in the (**src/App.ts**) file to fetch the API data and assign it to the Diagram using `dataSourceSettings`.
 
 ```ts
 import React from 'react';
@@ -684,7 +684,7 @@ const loadData = () => {
 
 The following snippet shows the complete React Diagram configuration with data binding, layout, and styling applied.
 
-**App.tsx**
+**App.ts**
 
 ```ts
 import React from 'react';

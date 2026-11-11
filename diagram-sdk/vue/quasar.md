@@ -89,7 +89,7 @@ cd quasar-project
 
 ## Step 2: Install the Vue Diagram package
 
-All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https://www.npmjs.com/~syncfusionorg) registry.
+All Syncfusion Essential® JS 2 packages are available in the [npm JS registry](https://www.npmjs.com/~syncfusionorg).
 
 Install the Vue Diagram package using the following command:
 

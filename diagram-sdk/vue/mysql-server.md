@@ -46,7 +46,7 @@ To store and manage diagram data, MySQL Server must be installed and configured 
 
 MySQL Server provides the relational database engine used to store organizational chart data required by the Vue Diagram component.
 
-1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/installer/8.0.html).
 ![MySQL Installer](images/mysql-installer.png)
 2. Run the installer and follow the setup wizard.
    - Choose setup type as **Server only**.
