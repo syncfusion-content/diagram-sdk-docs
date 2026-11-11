@@ -677,7 +677,7 @@ Open `http://localhost:5173` in a browser. The organizational chart should rende
 2. Right-click on user → **Properties** → **Definition**.
 3. Enter a new password and save.
 4. Update **DB_PASSWORD** in **server/.env** with the new password.
-5. Restart the Node.js development server using the **npm run dev** command from the **server** folder.
+5. Restart the Node.js development server using the `npm run dev` command from the **server** folder.
 
 > **Tip**: Avoid special characters in PostgreSQL passwords to prevent shell escaping issues.
 
