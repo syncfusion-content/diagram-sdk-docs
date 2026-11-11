@@ -63,7 +63,16 @@ Add the theme styles for the Workflow Designer and its dependencies to `src/inde
 {% tabs %}
 {% highlight css tabtitle="index.css" %}
 
-@import '@syncfusion/ej2-tailwind3-theme/styles/tailwind3.css';
+@import '@syncfusion/ej2-base/styles/tailwind3.css';
+@import '@syncfusion/ej2-buttons/styles/tailwind3.css';
+@import '@syncfusion/ej2-inputs/styles/tailwind3.css';
+@import '@syncfusion/ej2-dropdowns/styles/tailwind3.css';
+@import '@syncfusion/ej2-calendars/styles/tailwind3.css';
+@import '@syncfusion/ej2-navigations/styles/tailwind3.css';
+@import '@syncfusion/ej2-popups/styles/tailwind3.css';
+@import '@syncfusion/ej2-diagrams/styles/tailwind3.css';
+@import '@syncfusion/ej2-interactive-chat/styles/tailwind3.css';
+@import '@syncfusion/ej2-workflow-designer/styles/tailwind3.css';
 
 {% endhighlight %}
 {% endtabs %}
