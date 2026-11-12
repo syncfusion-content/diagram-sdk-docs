@@ -38,7 +38,7 @@ WebMCP requires a secure context (HTTPS or localhost) for development and cross-
 
 ## Enable WebMCP
 
-Set the [EnableWebMcp](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_EnableWebMcp) property of `SfDiagramComponent` to `true`. Optionally, add [DiagramWebMcpSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramWebMcpSettings.html) to give the tool set a name.
+Set the [EnableWebMcp](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.SfDiagramComponent.html#Syncfusion_Blazor_Diagram_SfDiagramComponent_EnableWebMcp) property of `SfDiagramComponent` to **true**. Optionally, add [DiagramWebMcpSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramWebMcpSettings.html) to give the tool set a name.
 
 ```cshtml
 @using Syncfusion.Blazor.Diagram
