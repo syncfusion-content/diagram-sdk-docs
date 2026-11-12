@@ -177,7 +177,7 @@ The event provides the following information and controls:
 | `registeredName` | The name the tool was registered under, including any prefix applied during registration (for example, `myDiagram_deleteFromDiagram`). |
 | `toolArgs` | Arguments supplied by the WebMCP client. The shape of this object matches the tool's `inputSchema`. |
 | `cancel` | Set to `true` to prevent the tool from executing. |
-| `cancellationResponse` | Text returned when tool execution is cancelled. When it is not provided, a default cancellation message is sent to the AI client. |
+| `cancellationResponse` | Text returned when tool execution is canceled. When it is not provided, a default cancellation message is sent to the AI client. |
 | `showConfirmationDialog` | Set to `true` to display a confirmation dialog before tool execution. Execution proceeds only when the user confirms. When the confirmation dialog cannot be displayed, the execution is refused. |
 
 The following example requests user confirmation before deleting objects from the Diagram:
