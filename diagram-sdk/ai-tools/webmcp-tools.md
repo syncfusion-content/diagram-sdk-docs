@@ -45,11 +45,11 @@ Syncfusion Diagram integration with WebMCP provides significant benefits for bui
 ### Key Benefits
 
 - **Universal Tool Access** — AI agents and MCP-compatible clients can discover and invoke diagram operations
-- **Zero Custom Integration** — Inject the `WebMcpDiagram` module, set `enableWebMcp: true`, and all tool registration, schema binding, and lifecycle management is automatic
+- **Zero Custom Integration** — Inject the `WebMcpDiagram` module, set `enableWebMcp: true`, and all tool registration, schema binding, and life cycle management is automatic
 - **Schema-Validated I/O** — Tools provide structured schemas for reliable AI interaction
 - **Controlled Execution** — Applications can validate, approve, audit, or cancel tool execution through the `beforeWebMcpToolExecute` event
 - **Multi-Instance Friendly** — Tool prefixes prevent conflicts when multiple diagrams exist on the same page
-- **Native Integration** — Tools work directly with the Diagram control's built-in APIs and lifecycle
+- **Native Integration** — Tools work directly with the Diagram control's built-in APIs and life cycle
 - **Real-Time Feedback** — Structured responses enable agents to verify outcomes and chain operations
 
 ## How WebMCP Works in Diagram

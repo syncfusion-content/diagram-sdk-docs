@@ -4,7 +4,6 @@ title: WebMCP tool integration for TypeScript Diagram | Syncfusion®
 description: Learn how to integrate WebMCP with the Syncfusion® TypeScript Diagram control to enable AI interaction, configure tools, and monitor execution.
 platform: diagram-sdk
 control: Diagram
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -174,7 +173,7 @@ The event provides the following information and controls:
 
 | Property | Description |
 | --- | --- |
-| `toolName` | The unprefixed base tool name. For built-in tools this is the tool name, for example, `deleteFromDiagram`. The value never includes the prefix applied during registration, so a comparison such as `args.toolName === 'deleteFromDiagram'` works regardless of how the tools were registered. |
+| `toolName` | The base tool name without any registration prefix. For built-in tools this is the tool name, for example, `deleteFromDiagram`. The value never includes the prefix applied during registration, so a comparison such as `args.toolName === 'deleteFromDiagram'` works regardless of how the tools were registered. |
 | `registeredName` | The name the tool was registered under, including any prefix applied during registration (for example, `myDiagram_deleteFromDiagram`). |
 | `toolArgs` | Arguments supplied by the WebMCP client. The shape of this object matches the tool's `inputSchema`. |
 | `cancel` | Set to `true` to prevent the tool from executing. |
