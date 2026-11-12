@@ -4,7 +4,6 @@ title: Scroll Settings in JavaScript Diagram | Syncfusion®
 description: Read and control the horizontal offset, vertical offset, zoom level, and scrollable area of the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Scroll settings 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -57,7 +56,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 There are several ways to update the scroll offset at runtime:
 
 * `Scrollbar`: Use the horizontal and vertical scrollbars of the diagram.
-* `Mousewheel`: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.
+* `Mouse wheel`: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.
 * `Pan Tool`: Activate the ZoomPan [`tool`](../api/diagram/diagramTools) in the diagram to scroll by panning.
 * `Touch`: Use touch pad gestures for scrolling.
 
@@ -283,14 +282,14 @@ The following code example illustrates how to set scroll padding for the diagram
 
 ## Restrict Negative Axis
 
-The [`restrictNegativeAxis`](../api/diagram/scrollsettingsmodel#restrictnegativeaxis) property restricts diagram navigation strictly to the positive coordinate region ($X \ge 0$ and $Y \ge 0$). By default, this property is set to `false`, allowing the diagram to navigate and pan freely across both positive and negative coordinate spaces. When enabled (`true`), users cannot pan or scroll the viewport into negative coordinates.
+The [`restrictNegativeAxis`](../api/diagram/scrollsettingsmodel#restrictnegativeaxis) property restricts diagram navigation strictly to the positive coordinate region (`X >= 0` and `Y >= 0`). By default, this property is set to `false`, allowing the diagram to navigate and pan freely across both positive and negative coordinate spaces. When enabled (`true`), users cannot pan or scroll the viewport into negative coordinates.
 
 ### Runtime Behavior
 
 The `restrictNegativeAxis` property can be dynamically toggled at runtime by updating `scrollSettings.restrictNegativeAxis` and invoking the `dataBind()` method:
 
 * **When toggled from `false` to `true` (Enabled)**:
-  * Viewport navigation is immediately restricted to the positive coordinate region ($X \ge 0, Y \ge 0$).
+  * Viewport navigation is immediately restricted to the positive coordinate region (`X >= 0`, `Y >= 0`).
   * The user cannot pan or scroll into negative coordinates.
   * Manually placed diagram elements positioned at negative coordinates are not automatically moved.
   * Nodes and connectors residing in negative coordinates become hidden or inaccessible because the viewport can no longer navigate into the negative region.
@@ -332,7 +331,7 @@ The following example demonstrates how to configure rulers, place nodes in both 
 
 When `restrictNegativeAxis` is enabled before applying an automatic layout:
 
-* Layout-generated nodes and connectors are automatically translated into the positive coordinate region ($X \ge 0, Y \ge 0$).
+* Layout-generated nodes and connectors are automatically translated into the positive coordinate region (`X >= 0`, `Y >= 0`).
 * The underlying layout algorithm itself remains unchanged.
 * Layout hierarchy, spacing, orientation, alignment, and connector routing are completely preserved.
 * The entire layout remains visible and accessible within the positive viewport bounds.

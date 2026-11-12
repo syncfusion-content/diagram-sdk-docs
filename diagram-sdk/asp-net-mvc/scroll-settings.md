@@ -4,14 +4,13 @@ title: Scroll Settings in ASP.NET MVC Diagram | Syncfusion®
 description: Read and update scroll offsets, viewport size, and zoom factor in Syncfusion® ASP.NET MVC Diagram, with autoscroll, scroll limit, and scrollable area support.
 platform: diagram-sdk
 control: Scroll Settings
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
 # Scroll Settings in ASP.NET MVC Diagram
 
-The diagram can be scrolled by using the vertical and horizontal scrollbars. In addition to the scrollbars, mousewheel can be used to scroll the diagram. Diagram’s [`scrollSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html) enables to read the current scroll status, view port size, current zoom, and zoom factor. It also allows to scroll the diagram programmatically.
+The diagram can be scrolled by using the vertical and horizontal scrollbars. In addition to the scrollbars, mouse wheel can be used to scroll the diagram. Diagram’s [`scrollSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html) enables to read the current scroll status, view port size, current zoom, and zoom factor. It also allows to scroll the diagram programmatically.
 
 ## Get current scroll status
 
@@ -249,14 +248,14 @@ Scrolling beyond any particular rectangular area can be restricted by using the 
 
 ## Restrict Negative Axis
 
-The [`restrictNegativeAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html#Syncfusion_EJ2_Diagrams_DiagramScrollSettings_RestrictNegativeAxis) property restricts diagram navigation strictly to the positive coordinate region ($X \ge 0$ and $Y \ge 0$). By default, this property is set to `false`, allowing the diagram to navigate and pan freely across both positive and negative coordinate spaces. When enabled (`true`), users cannot pan or scroll the viewport into negative coordinates.
+The [`restrictNegativeAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html#Syncfusion_EJ2_Diagrams_DiagramScrollSettings_RestrictNegativeAxis) property restricts diagram navigation strictly to the positive coordinate region (`X >= 0` and `Y >= 0`). By default, this property is set to `false`, allowing the diagram to navigate and pan freely across both positive and negative coordinate spaces. When enabled (`true`), users cannot pan or scroll the viewport into negative coordinates.
 
 ### Runtime Behavior
 
 The `restrictNegativeAxis` property can be dynamically toggled at runtime by updating `scrollSettings.restrictNegativeAxis` and invoking the `dataBind()` method:
 
 * **When toggled from `false` to `true` (Enabled)**:
-  * Viewport navigation is immediately restricted to the positive coordinate region ($X \ge 0, Y \ge 0$).
+  * Viewport navigation is immediately restricted to the positive coordinate region (`X >= 0`, `Y >= 0`).
   * The user cannot pan or scroll into negative coordinates.
   * Manually placed diagram elements positioned at negative coordinates are not automatically moved.
   * Nodes and connectors residing in negative coordinates become hidden or inaccessible because the viewport can no longer navigate into the negative region.
@@ -294,7 +293,7 @@ The following example demonstrates how to configure rulers, place nodes in both 
 
 When `restrictNegativeAxis` is enabled before applying an automatic layout:
 
-* Layout-generated nodes and connectors are automatically translated into the positive coordinate region ($X \ge 0, Y \ge 0$).
+* Layout-generated nodes and connectors are automatically translated into the positive coordinate region (`X >= 0`, `Y >= 0`).
 * The underlying layout algorithm itself remains unchanged.
 * Layout hierarchy, spacing, orientation, alignment, and connector routing are completely preserved.
 * The entire layout remains visible and accessible within the positive viewport bounds.
