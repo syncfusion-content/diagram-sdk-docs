@@ -183,6 +183,63 @@ The following code example illustrates how to set scroll padding for the diagram
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs2" %}
 
+## Restrict Negative Axis
+
+The [`restrictNegativeAxis`](https://ej2.syncfusion.com/vue/documentation/api/diagram/scrollSettingsModel/#restrictnegativeaxis) property restricts diagram navigation strictly to the positive coordinate region ($X \ge 0$ and $Y \ge 0$). By default, this property is set to `false`, allowing the diagram to navigate and pan freely across both positive and negative coordinate spaces. When enabled (`true`), users cannot pan or scroll the viewport into negative coordinates.
+
+### Runtime Behavior
+
+The `restrictNegativeAxis` property can be dynamically toggled at runtime by updating `scrollSettings.restrictNegativeAxis` and invoking the `dataBind()` method:
+
+* **When toggled from `false` to `true` (Enabled)**:
+  * Viewport navigation is immediately restricted to the positive coordinate region ($X \ge 0, Y \ge 0$).
+  * The user cannot pan or scroll into negative coordinates.
+  * Manually placed diagram elements positioned at negative coordinates are not automatically moved.
+  * Nodes and connectors residing in negative coordinates become hidden or inaccessible because the viewport can no longer navigate into the negative region.
+
+* **When toggled from `true` to `false` (Disabled)**:
+  * Viewport navigation restrictions are removed, restoring unrestricted navigation across both positive and negative coordinate regions.
+  * Any nodes or connectors located in negative coordinates become accessible and navigable again.
+
+The following example demonstrates how to configure rulers, place nodes in both positive and negative coordinate regions, and toggle the `restrictNegativeAxis` property dynamically at runtime using a CheckBox.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/restrictNegativeAxis-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/diagram-sdk/vue/scroll-settings/restrictNegativeAxis-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/restrictNegativeAxis-cs1" %}
+
+### Layout Behavior
+
+When `restrictNegativeAxis` is enabled before applying an automatic layout:
+
+* Layout-generated nodes and connectors are automatically translated into the positive coordinate region ($X \ge 0, Y \ge 0$).
+* The underlying layout algorithm itself remains unchanged.
+* Layout hierarchy, spacing, orientation, alignment, and connector routing are completely preserved.
+* The entire layout remains visible and accessible within the positive viewport bounds.
+
+N> If nodes are manually positioned in negative coordinates before enabling `restrictNegativeAxis`, those nodes are not automatically repositioned and may become inaccessible because the viewport is restricted to the positive coordinate region.
+
+### Output Description
+
+* **Unchecked (`restrictNegativeAxis: false`)**: The user can pan and scroll across positive and negative coordinate spaces. Both the **Negative Region Node** (located at $X = -150, Y = -100$) and the **Positive Region Node** (located at $X = 250, Y = 150$), along with their connecting connector, are accessible within the viewport.
+* **Checked (`restrictNegativeAxis: true`)**: Panning and scrolling into negative coordinates is restricted at runtime. The node located in the negative coordinate region becomes inaccessible, while the positive region node remains visible in the accessible viewport.
+* **Layouts**: When enabled prior to layout generation, layout elements are translated into the positive coordinate region, ensuring complete visibility.
+
+### Important Notes
+
+* The feature restricts viewport navigation and scrolling; it does not automatically reposition manually placed nodes.
+* Layout-generated content is translated into the positive coordinate region when the property is enabled before layout execution.
+* Existing diagrams containing objects in negative coordinates may have hidden content after enabling this property.
+* To make hidden content visible, move the diagram elements into the positive region before enabling the restriction.
+
+
+
 ## Reset scroll
 
 The [`reset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#reset) method resets the zoom and scroller offsets to their default values.
