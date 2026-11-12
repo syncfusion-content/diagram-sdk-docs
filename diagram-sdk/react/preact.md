@@ -301,4 +301,4 @@ Open the generated local URL (for example, **http://localhost:5173**) from the t
 
 ## See also
 
-[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../getting-started/quick-start)
+[Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../diagram-sdk/overview)

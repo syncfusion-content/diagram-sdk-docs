@@ -427,19 +427,19 @@ The following code illustrates how to execute `FitToPage` command.
 
 ## Command manager
 
-The TypeScript Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandManagerModel). Custom commands are executed when the specified key gesture is recognized.
+The TypeScript Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](https://ej2.syncfusion.com/documentation/api/diagram/commandmanagermodel). Custom commands are executed when the specified key gesture is recognized.
 
 ### Custom Command
 
 To define a custom command, you need to specify the following properties:
 
-* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel#execute): A method to be executed when the command is triggered.
-* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel#canexecute): A method that determines whether the command can be executed at a given moment.
-* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/keyGestureModel): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keyModifiers) that defines the key gesture for the command.
-* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel#parameter): Any additional parameters required at runtime for the command.
-* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel#name): The name of the command.
+* [`execute`](https://ej2.syncfusion.com/documentation/api/diagram/command#execute): A method to be executed when the command is triggered.
+* [`canExecute`](https://ej2.syncfusion.com/documentation/api/diagram/command#canexecute): A method that determines whether the command can be executed at a given moment.
+* [`gesture`](https://ej2.syncfusion.com/documentation/api/diagram/keygesturemodel): A combination of [`keys`](https://ej2.syncfusion.com/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/documentation/api/diagram/keymodifiers) that defines the key gesture for the command.
+* [`parameter`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#parameter): Any additional parameters required at runtime for the command.
+* [`name`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel#name): The name of the command.
 
-To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/commandModel).
+To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/documentation/api/diagram/commandmodel).
 
 The following code example illustrates how to use the command manager to clone a node and change the fill color of a node while pressing `G` and `Shift+G` or `Alt+G`, respectively:
 
