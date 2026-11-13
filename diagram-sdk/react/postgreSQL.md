@@ -177,7 +177,7 @@ npm install -D @types/express @types/pg @types/cors @types/node typescript tsx n
 - **pg** - PostgreSQL client for Node.js.
 - **cors** - To able cross-origin requests.
 - **dot env** - Loads environment variables from the .env file.
-- **typescript**, **tsx** - TypeScript runtime and compiler.
+- **typescript** - TypeScript runtime and compiler.
 
 ### Database connection configuration
 
@@ -455,7 +455,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 // Middleware: Enable CORS for React frontend
-// Allows requests from Vite dev server (ports 5173, 5174)
+// Allows requests from the Vite development server (ports 5173, 5174)
 app.use(cors({
   origin: ['http://localhost:5173', 'http://localhost:5174'],
   credentials: true
@@ -556,14 +556,10 @@ npm install -D @types/react @types/react-dom typescript vite
 Import Syncfusion® CSS styles in the **client/src/index.css** file for proper component rendering:
 
 ```css
-/* Import Material theme base styles */
-@import '@syncfusion/ej2-base/styles/material.css';
-
-/* Import Diagram component-specific styles */
-@import '@syncfusion/ej2-react-diagrams/styles/material.css';
+@import '@syncfusion/ej2-tailwind3-theme/styles/tailwind3.css';
 ```
 
-> **Note**: Syncfusion® provides multiple themes (Material, Bootstrap, Fabric). This example uses Material theme for modern appearance.
+> **Note**: Syncfusion® provides multiple themes (Tailwind, Bootstrap, Material). This example uses the Tailwind 3 theme for a modern appearance.
 
 #### TypeScript type definitions
 
@@ -602,17 +598,17 @@ export const fetchLayoutData = async (): Promise<LayoutNode[]> => {
 
 ### Diagram component
 
-Create a `OrganizationalLayout.tsx` file inside  **client/src/components/** folder to render the organizational chart layout:
+Create a `OrganizationalLayout.ts` file inside **client/src/components/** folder to render the organizational chart layout:
 
 The React Diagram component fetches data on mount, binds it to the **DataManager**, and configures organizational chart layout properties.
 
 {% tabs %}
-{% highlight js tabtitle="index.tsx" %}
-{% include code-snippet/diagram-sdk/react/reactCurlyExamples/postgreSQL-cs1/app/index.tsx %}
+{% highlight js tabtitle="index.ts" %}
+{% include code-snippet/diagram-sdk/react/reactCurlyExamples/postgreSQL-cs1/app/index.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-Add the `OrganizationalLayout` component to `App.tsx` as shown below.
+Add the `OrganizationalLayout` component to `App.ts` as shown below.
 
 ```javascript
 import './App.css';
@@ -637,7 +633,7 @@ export default App;
 
 ### Running the application
 
-Run the client dev server:
+Run the client development server:
 
 ```powershell
 cd client
@@ -681,7 +677,7 @@ Open `http://localhost:5173` in a browser. The organizational chart should rende
 2. Right-click on user → **Properties** → **Definition**.
 3. Enter a new password and save.
 4. Update **DB_PASSWORD** in **server/.env** with the new password.
-5. Restart the Node.js server with **npm run dev**.
+5. Restart the Node.js development server using the `npm run dev` command from the **server** folder.
 
 > **Tip**: Avoid special characters in PostgreSQL passwords to prevent shell escaping issues.
 
@@ -736,7 +732,7 @@ An empty diagram (no nodes visible) can result from API failures, empty database
    - **Preview** tab should show JSON data.
 
 4. **Check component state**:
-   - Add console logs in `OrganizationalLayout.tsx`:
+   - Add console logs in `OrganizationalLayout.ts`:
      ```javascript
      useEffect(() => {
        const loadData = async () => {

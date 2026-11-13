@@ -605,17 +605,14 @@ After installation, the necessary CSS files are available in the **node_modules*
 Add the required CSS references to the **src/index.css** file to apply styling to the React Diagram component.
 
 ```css
-@import "../node_modules/@syncfusion/ej2-react-diagrams/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-base/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/bootstrap5.3.css";
+@import "../node_modules/@syncfusion/ej2-bootstrap5.3-theme/styles/bootstrap5.3.css";
 ```
 
 For this project, the "Bootstrap 5.3" theme is applied. Other themes can be selected, or the existing theme can be customized to meet specific project requirements. For detailed guidance on theming and customization, refer to the [Syncfusion® React Components Appearance](https://ej2.syncfusion.com/react/documentation/appearance/theme-studio) documentation.
 
 ### Step 3: Add Syncfusion® React Diagram
 
-The React Diagram component can be added to the (**src/App.tsx**) file using the following code.
+The React Diagram component can be added to the (**src/App.ts**) file using the following code.
 
 ```ts
 import React from 'react';
@@ -644,7 +641,7 @@ This code initializes the React Diagram component with default dimensions.
 
 ### Step 4: Fetch data from Web API and bind it to the Diagram
 
-In this step, data is retrieved from the ASP.NET Core Web API and assigned to the Diagram as a data source. Create a `loadData` function in the (**src/App.tsx**) file to fetch the API data and assign it to the Diagram using `dataSourceSettings`.
+In this step, data is retrieved from the ASP.NET Core Web API and assigned to the Diagram as a data source. Create a `loadData` function in the (**src/App.ts**) file to fetch the API data and assign it to the Diagram using `dataSourceSettings`.
 
 ```ts
 import React from 'react';
@@ -687,7 +684,7 @@ const loadData = () => {
 
 The following snippet shows the complete React Diagram configuration with data binding, layout, and styling applied.
 
-**App.tsx**
+**App.ts**
 
 ```ts
 import React from 'react';
