@@ -145,13 +145,11 @@ The following code demonstrates how to change the measurement units at runtime:
 }
 ```
 
-The `ConvertFromPixel` method returns pixel values converted to other units, while `ConvertToPixel` returns values converted back to pixels:
+The `ConvertUnit` method converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters:
 
 ```csharp
-// ConvertFromPixel - Converts pixels to other units
-double centimeters = SfDiagramComponent.ConvertFromPixel(300, DiagramUnit.Centimeter);
-double inches = SfDiagramComponent.ConvertFromPixel(96, DiagramUnit.Inch);
-
-// ConvertToPixel - Converts other units back to pixels
-double pixels = SfDiagramComponent.ConvertToPixel(8, DiagramUnit.Centimeter);
+// ConvertUnit - Converts values between different units
+double centimeters = SfDiagramComponent.ConvertUnit(300, DiagramUnit.Pixel, DiagramUnit.Centimeter);
+double inches = SfDiagramComponent.ConvertUnit(96, DiagramUnit.Pixel, DiagramUnit.Inch);
+double pixels = SfDiagramComponent.ConvertUnit(8, DiagramUnit.Centimeter, DiagramUnit.Pixel);
 ```
