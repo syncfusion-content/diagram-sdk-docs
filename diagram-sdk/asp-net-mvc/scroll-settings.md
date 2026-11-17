@@ -4,14 +4,13 @@ title: Scroll Settings in ASP.NET MVC Diagram | Syncfusion®
 description: Read and update scroll offsets, viewport size, and zoom factor in Syncfusion® ASP.NET MVC Diagram, with autoscroll, scroll limit, and scrollable area support.
 platform: diagram-sdk
 control: Scroll Settings
-publishingplatform: diagram-sdk
 documentation: ug
 ---
 
 
 # Scroll Settings in ASP.NET MVC Diagram
 
-The diagram can be scrolled by using the vertical and horizontal scrollbars. In addition to the scrollbars, mousewheel can be used to scroll the diagram. Diagram’s [`scrollSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html) enables to read the current scroll status, view port size, current zoom, and zoom factor. It also allows to scroll the diagram programmatically.
+The diagram can be scrolled by using the vertical and horizontal scrollbars. In addition to the scrollbars, mouse wheel can be used to scroll the diagram. Diagram’s [`scrollSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html) enables to read the current scroll status, view port size, current zoom, and zoom factor. It also allows to scroll the diagram programmatically.
 
 ## Get current scroll status
 
@@ -246,6 +245,55 @@ Scrolling beyond any particular rectangular area can be restricted by using the 
 {% endif %}
 
 
+
+## Restrict Negative Axis
+
+The [`restrictNegativeAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramScrollSettings.html#Syncfusion_EJ2_Diagrams_DiagramScrollSettings_RestrictNegativeAxis) property of `scrollSettings` limits scrolling and panning to the positive coordinate region (`X >= 0` and `Y >= 0`). It is `false` by default, so users can navigate across both positive and negative coordinates.
+
+N> This property restricts only the viewport. It does not move nodes or connectors placed in negative coordinates, so they can no longer be reached by scrolling or panning. Move them into the positive region before enabling the restriction.
+
+### Toggle at runtime
+
+To change the property at runtime, update it on the diagram instance and call dataBind():
+
+```javascript
+//toggle restrictNegativeAxis at runtime
+diagram.scrollSettings.restrictNegativeAxis = true;
+diagram.dataBind();
+```
+
+When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
+
+The following example places nodes in positive and negative coordinate regions and lets you toggle the restriction.
+
+{% if page.publishingplatform == "aspnet-core" %}
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="RestrictNegativeAxis.cs" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/restrictnegativeaxis.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+{% elsif page.publishingplatform == "aspnet-mvc" %}
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="RestrictNegativeAxis.cs" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/restrictnegativeaxis.cs %}
+{% endhighlight %}
+{% endtabs %}
+{% endif %}
+
+### Layout Behavior
+
+If `restrictNegativeAxis` is enabled before a layout is applied, the layout output is shifted into the positive region. The layout’s structure, spacing, orientation, and connector routing are unchanged; only the node positions (`offsetX` and `offsetY`) are shifted.
+
+N> If nodes are manually positioned in negative coordinates before enabling `restrictNegativeAxis`, those nodes are not automatically repositioned and may become inaccessible because the viewport is restricted to the positive coordinate region.
 
 ## UpdateViewport
 

@@ -74,3 +74,80 @@ The following code illustrates how to customize the diagram ruler.
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxXxUtCkKuYBGV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Ruler/Ruler.razor)
+
+## Ruler measurement units
+
+The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) specifies the unit in which ruler values are displayed. Set it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) value to show measurements in physical units such as inches or centimeters instead of pixels.
+
+| Value | Description | Equivalent in pixels |
+|---|---|---|
+| Pixel | Displays ruler values in pixels. This is the default. | 1 px |
+| Point | Displays ruler values in points (1/72 in). | ≈ 1.3333 px |
+| Inch | Displays ruler values in inches. | 96 px |
+| Centimeter | Displays ruler values in centimeters. | ≈ 37.7953 px |
+| Millimeter | Displays ruler values in millimeters. | ≈ 3.7795 px |
+
+The size and position tooltip shown while dragging or resizing elements also uses the configured unit.
+
+The following code shows how to display ruler values in centimeters.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<SfDiagramComponent Width="1000px" Height="600px">
+    <RulerSettings Unit="DiagramUnit.Centimeter">
+        <HorizontalRuler IsVisible="true" />
+        <VerticalRuler IsVisible="true" />
+    </RulerSettings>
+</SfDiagramComponent>
+```
+
+N> The unit affects only how measurements are displayed. Node and connector properties such as OffsetX and Width are always specified in pixels. Conversions assume 96 pixels per inch, so on-screen lengths may differ slightly from physical lengths depending on the display.
+
+### Change the unit at runtime
+
+The Unit property can be changed at runtime, and the rulers update immediately. The following example lets the user choose the ruler unit from a drop-down list.
+
+```cshtml
+@using Syncfusion.Blazor.Diagram
+
+<div>
+    <label for="rulerUnit">Ruler unit:</label>
+    <select id="rulerUnit" @bind="rulerUnit">
+        @foreach (DiagramUnit unit in Enum.GetValues<DiagramUnit>())
+        {
+            <option value="@unit">@unit</option>
+        }
+    </select>
+</div>
+
+<SfDiagramComponent Width="1000px" Height="600px">
+    <RulerSettings Unit="@rulerUnit">
+        <HorizontalRuler IsVisible="true" />
+        <VerticalRuler IsVisible="true" />
+    </RulerSettings>
+</SfDiagramComponent>
+
+@code {
+    private DiagramUnit rulerUnit = DiagramUnit.Pixel;
+}
+```
+
+### Convert values between units
+
+Node and connector properties are always specified in pixels. To work in other units, use the static ConvertUnit method of SfDiagramComponent. It takes the value, the source unit, and the target unit, and returns the converted value as a double.
+
+```csharp
+double centimeters = SfDiagramComponent.ConvertUnit(300, DiagramUnit.Pixel, DiagramUnit.Centimeter); // ≈ 7.9375
+double inches = SfDiagramComponent.ConvertUnit(96, DiagramUnit.Pixel, DiagramUnit.Inch);            // 1
+double pixels = SfDiagramComponent.ConvertUnit(8, DiagramUnit.Centimeter, DiagramUnit.Pixel);        // ≈ 302.3622
+
+Node node = new Node()
+{
+    ID = "node1",
+    OffsetX = 200,
+    OffsetY = 200,
+    Width = SfDiagramComponent.ConvertUnit(5, DiagramUnit.Centimeter, DiagramUnit.Pixel),
+    Height = SfDiagramComponent.ConvertUnit(2, DiagramUnit.Centimeter, DiagramUnit.Pixel)
+};
+```

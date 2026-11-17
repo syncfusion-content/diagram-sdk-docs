@@ -183,6 +183,43 @@ The following code example illustrates how to set scroll padding for the diagram
 
  {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/undoredo/es5Connect-cs3" %}
 
+## Restrict Negative Axis
+
+The [`restrictNegativeAxis`](https://helpej2.syncfusion.com/react/documentation/api/diagram/scrollSettingsModel#restrictnegativeaxis) property of `scrollSettings` limits scrolling and panning to the positive coordinate region (`X >= 0` and `Y >= 0`). It is `false` by default, so users can navigate across both positive and negative coordinates.
+
+N> This property restricts only the viewport. It does not move nodes or connectors placed in negative coordinates, so they can no longer be reached by scrolling or panning. Move them into the positive region before enabling the restriction.
+
+### Toggle at runtime
+
+To change the property at runtime, update it on the diagram instance and call dataBind():
+
+```javascript
+//toggle restrictNegativeAxis at runtime
+this.diagram.scrollSettings.restrictNegativeAxis = true;
+this.diagram.dataBind();
+```
+
+When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
+
+The following example places nodes in positive and negative coordinate regions and lets you toggle the restriction.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/diagram-sdk/react/scroll-settings/restrictNegativeAxis-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/diagram-sdk/react/scroll-settings/restrictNegativeAxis-cs1/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/scroll-settings/restrictNegativeAxis-cs1" %}
+
+### Layout Behavior
+
+If `restrictNegativeAxis` is enabled before a layout is applied, the layout output is shifted into the positive region. The layout’s structure, spacing, orientation, and connector routing are unchanged; only the node positions (`offsetX` and `offsetY`) are shifted.
+
+N> If nodes are manually positioned in negative coordinates before enabling `restrictNegativeAxis`, those nodes are not automatically repositioned and may become inaccessible because the viewport is restricted to the positive coordinate region.
+
 ## Reset scroll
 
 The [`reset`](https://helpej2.syncfusion.com/react/documentation/api/diagram#reset) method resets both the zoom level and scroller offsets to their default values. This is useful for returning the diagram to its initial state after user interactions.

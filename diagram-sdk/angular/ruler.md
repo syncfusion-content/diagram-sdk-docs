@@ -84,6 +84,71 @@ The following code demonstrates how to use the `arrangeTick` function to customi
   
 {% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs3" %}
 
+### Measurement units
+
+The [`measurementUnit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/rulerSettings#measurementunit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
+
+* `Pixel` - Displays ruler values in pixels. This is the default value.
+* `Point` - Displays ruler values in points (1 pt = 1/72 inch).
+* `Inch` - Displays ruler values in inches (1 in = 96 px).
+* `Millimeter` - Displays ruler values in millimeters (1 mm = 3.7795 px).
+* `Centimeter` - Displays ruler values in centimeters (1 cm = 37.7953 px).
+
+When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
+
+The following code demonstrates how to configure the ruler measurement unit initially. The `measurementUnit` is set to `Centimeter`, and it applies to both the horizontal and vertical rulers.
+
+```ts
+import { Component } from '@angular/core';
+import { DiagramModule, RulerSettingsModel } from '@syncfusion/ej2-angular-diagrams';
+
+@Component({
+    imports: [DiagramModule],
+    standalone: true,
+    selector: "app-container",
+    template: `<ejs-diagram id="diagram" width="100%" height="600px" [rulerSettings]='rulerSettings'></ejs-diagram>`
+})
+export class AppComponent {
+    public rulerSettings: RulerSettingsModel = {
+        showRulers: true,
+        // Display the ruler values in centimeters.
+        measurementUnit: 'Centimeter'
+    }
+}
+```
+
+The `measurementUnit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
+
+The following code shows how to change the measurement unit at runtime. The ruler values are initially displayed in inches, and selecting another unit from the drop-down updates the `measurementUnit` property and refreshes the rulers.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs4/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/diagram-sdk/angular/ruler/ruler-cs4/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs4" %}
+
+> Changing the measurement unit updates both the horizontal and vertical rulers.
+
+#### Convert unit
+
+The [`convertUnit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagram#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
+
+The following code demonstrates how to convert values between units:
+
+```ts
+// convertUnit - Converts values between different units
+// 'diagram' is the DiagramComponent reference obtained using @ViewChild.
+let centimeters: number = this.diagram.convertUnit(300, 'Pixel', 'Centimeter');
+let inches: number = this.diagram.convertUnit(96, 'Pixel', 'Inch');
+let pixels: number = this.diagram.convertUnit(8, 'Centimeter', 'Pixel');
+```
+
 ### Marker color
 
 The [`markerColor`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagramRuler#markercolor) property defines the ruler marker color for both horizontal and vertical rulers. The marker appears when hovering the mouse over the diagram canvas, providing precise position feedback.

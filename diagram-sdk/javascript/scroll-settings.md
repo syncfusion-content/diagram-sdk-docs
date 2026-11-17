@@ -4,7 +4,6 @@ title: Scroll Settings in JavaScript Diagram | Syncfusion®
 description: Read and control the horizontal offset, vertical offset, zoom level, and scrollable area of the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Scroll settings 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -57,7 +56,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 There are several ways to update the scroll offset at runtime:
 
 * `Scrollbar`: Use the horizontal and vertical scrollbars of the diagram.
-* `Mousewheel`: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.
+* `Mouse wheel`: Scroll vertically with the mouse wheel. Hold the Shift key while scrolling to scroll horizontally.
 * `Pan Tool`: Activate the ZoomPan [`tool`](../api/diagram/diagramTools) in the diagram to scroll by panning.
 * `Touch`: Use touch pad gestures for scrolling.
 
@@ -280,6 +279,59 @@ The following code example illustrates how to set scroll padding for the diagram
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-cs6" %}
 {% endif %}
+
+## Restrict Negative Axis
+
+The [`restrictNegativeAxis`](../api/diagram/scrollsettingsmodel#restrictnegativeaxis) property of `scrollSettings` limits scrolling and panning to the positive coordinate region (`X >= 0` and `Y >= 0`). It is `false` by default, so users can navigate across both positive and negative coordinates.
+
+N> This property restricts only the viewport. It does not move nodes or connectors placed in negative coordinates, so they can no longer be reached by scrolling or panning. Move them into the positive region before enabling the restriction.
+
+### Toggle at runtime
+
+To change the property at runtime, update it on the diagram instance and call dataBind():
+
+```javascript
+//toggle restrictNegativeAxis at runtime
+diagram.scrollSettings.restrictNegativeAxis = true;
+diagram.dataBind();
+```
+
+When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
+
+The following example places nodes in positive and negative coordinate regions and lets you toggle the restriction.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/scrollSettings-restrictNegativeAxis" %}
+{% endif %}
+
+### Layout Behavior
+
+If `restrictNegativeAxis` is enabled before a layout is applied, the layout output is shifted into the positive region. The layout’s structure, spacing, orientation, and connector routing are unchanged; only the node positions (`offsetX` and `offsetY`) are shifted.
+
+N> If nodes are manually positioned in negative coordinates before enabling `restrictNegativeAxis`, those nodes are not automatically repositioned and may become inaccessible because the viewport is restricted to the positive coordinate region.
 
 ## Reset scroll
 

@@ -1,0 +1,13 @@
+<div style="padding-bottom: 10px;">
+    <input type="checkbox" id="restrictNegativeAxis" />
+    <label for="restrictNegativeAxis">Restrict Negative Axis</label>
+</div>
+@Html.EJS().Diagram("diagram").Width("100%").Height("600px").Nodes((object)ViewBag.nodes).Connectors((object)ViewBag.connectors).Tool(DiagramTools.ZoomPan).RulerSettings(r => r.ShowRulers(true)).ScrollSettings(s => s.RestrictNegativeAxis(false)).Render()
+
+<script>
+    document.getElementById('restrictNegativeAxis').onchange = function (args) {
+        var diagram = document.getElementById('diagram').ej2_instances[0];
+        diagram.scrollSettings.restrictNegativeAxis = args.target.checked;
+        diagram.dataBind();
+    };
+</script>
