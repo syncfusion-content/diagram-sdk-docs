@@ -80,7 +80,7 @@ A complete working sample can be downloaded from [GitHub](https://github.com/Syn
 The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) specifies the unit in which ruler values are displayed. Set it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) value to show measurements in physical units such as inches or centimeters instead of pixels.
 
 | Value | Description | Equivalent in pixels |
-| --- | --- | --- |
+|---|---|---|
 | Pixel | Displays ruler values in pixels. This is the default. | 1 px |
 | Point | Displays ruler values in points (1/72 in). | ≈ 1.3333 px |
 | Inch | Displays ruler values in inches. | 96 px |
