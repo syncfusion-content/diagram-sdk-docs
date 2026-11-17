@@ -94,7 +94,7 @@ The following code shows how to display ruler values in centimeters.
 ```cshtml
 @using Syncfusion.Blazor.Diagram
 
-<SfDiagramComponent Height="600px">
+<SfDiagramComponent Width="1000px" Height="600px">
     <RulerSettings Unit="DiagramUnit.Centimeter">
         <HorizontalRuler IsVisible="true" />
         <VerticalRuler IsVisible="true" />
@@ -114,14 +114,14 @@ The Unit property can be changed at runtime, and the rulers update immediately. 
 <div>
     <label for="rulerUnit">Ruler unit:</label>
     <select id="rulerUnit" @bind="rulerUnit">
-        @foreach (var unit in Enum.GetValues<DiagramUnit>())
+        @foreach (DiagramUnit unit in Enum.GetValues<DiagramUnit>())
         {
             <option value="@unit">@unit</option>
         }
     </select>
 </div>
 
-<SfDiagramComponent Height="600px">
+<SfDiagramComponent Width="1000px" Height="600px">
     <RulerSettings Unit="@rulerUnit">
         <HorizontalRuler IsVisible="true" />
         <VerticalRuler IsVisible="true" />
