@@ -75,3 +75,25 @@ By default, the ruler segments are arranged based on pixel values.
 N> The MarkerColor property can be customized using the [`Marker`](./style/#customizing-the-ruler) CSS style.
 
 ![Customize](images/CustomRuler.png)
+
+### Measurement units
+
+The [`measurementUnit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_MeasurementUnit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
+
+* `Pixel`
+* `Point`
+* `Inch`
+* `Millimeter`
+* `Centimeter`
+
+By default, the measurement unit is `Pixel`.
+
+The following code shows how to display the ruler values in inches.
+
+{% tabs %}
+{% highlight c# tabtitle="MeasurementUnit.cshtml" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ruler/measurementUnit/measurementUnit.cshtml %}
+{% endhighlight %}
+{% endtabs %}
+
+> Changing the measurement unit updates both the horizontal and vertical rulers.

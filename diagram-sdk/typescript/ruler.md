@@ -86,6 +86,33 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 
 
+### Measurement units
+
+The [`measurementUnit`](../api/diagram/rulerSettings#measurementunit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
+
+* `Pixel`
+* `Point`
+* `Inch`
+* `Millimeter`
+* `Centimeter`
+
+By default, the measurement unit is `Pixel`.
+
+The following code shows how to display the ruler values in inches.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs4/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/diagram-sdk/typescript/ruler-cs4/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ruler-cs4" %}
+
+> Changing the measurement unit updates both the horizontal and vertical rulers.
+
 ### Marker color
 
 The HorizontalRuler’s [`markerColor`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRuler#markercolor) and VerticalRuler’s [`markerColor`](https://ej2.syncfusion.com/documentation/api/diagram/diagramRuler#markercolor) properties are used to define the ruler marker color and marker will be shown while hovering mouse over the diagram canvas.
