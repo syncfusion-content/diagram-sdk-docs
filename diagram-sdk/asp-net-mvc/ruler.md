@@ -88,9 +88,19 @@ The [`measurementUnit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
 
+The following code demonstrates how to configure the ruler measurement unit initially. The `measurementUnit` is set to `Centimeter`, and it applies to both the horizontal and vertical rulers.
+
+```cshtml
+<ejs-diagram id="diagram" width="100%" height="600px">
+    <!-- Display the ruler values in centimeters. -->
+    <e-diagram-rulersettings showRulers="true" measurementUnit="Centimeter">
+    </e-diagram-rulersettings>
+</ejs-diagram>
+```
+
 The `measurementUnit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
 
-The following code shows how to display the ruler values in inches and how to change the measurement unit at runtime.
+The following code shows how to change the measurement unit at runtime. The ruler values are initially displayed in inches, and selecting another unit from the drop-down updates the `measurementUnit` property and refreshes the rulers.
 
 {% tabs %}
 {% highlight c# tabtitle="MeasurementUnit.cshtml" %}
@@ -99,3 +109,19 @@ The following code shows how to display the ruler values in inches and how to ch
 {% endtabs %}
 
 > Changing the measurement unit updates both the horizontal and vertical rulers.
+
+#### Convert unit
+
+The [`convertUnit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.Diagram.html) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
+
+The following code demonstrates how to convert values between units:
+
+```cshtml
+<script>
+    var diagram = document.getElementById("diagram").ej2_instances[0];
+    // convertUnit - Converts values between different units
+    var centimeters = diagram.convertUnit(300, 'Pixel', 'Centimeter');
+    var inches = diagram.convertUnit(96, 'Pixel', 'Inch');
+    var pixels = diagram.convertUnit(8, 'Centimeter', 'Pixel');
+</script>
+```
