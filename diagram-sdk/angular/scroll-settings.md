@@ -205,7 +205,7 @@ this.diagram.scrollSettings.restrictNegativeAxis = true;
 this.diagram.dataBind();
 ```
 
-When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. When disabled, users can navigate into negative coordinates again.
+When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
 
 The following example places one node in the negative region and one in the positive region, and toggles the restriction with a checkbox.
 
