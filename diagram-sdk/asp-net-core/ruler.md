@@ -80,15 +80,17 @@ N> The MarkerColor property can be customized using the [`Marker`](./style/#cust
 
 The [`measurementUnit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagrams.DiagramRulerSettings.html#Syncfusion_EJ2_Diagrams_DiagramRulerSettings_MeasurementUnit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
 
-* `Pixel`
-* `Point`
-* `Inch`
-* `Millimeter`
-* `Centimeter`
+* `Pixel` - Displays ruler values in pixels. This is the default value.
+* `Point` - Displays ruler values in points (1 pt = 1/72 inch).
+* `Inch` - Displays ruler values in inches (1 in = 96 px).
+* `Millimeter` - Displays ruler values in millimeters (1 mm = 3.7795 px).
+* `Centimeter` - Displays ruler values in centimeters (1 cm = 37.7953 px).
 
-By default, the measurement unit is `Pixel`.
+When interacting with diagram elements such as dragging or resizing, the tooltip also displays measurements in the configured unit.
 
-The following code shows how to display the ruler values in inches.
+The `measurementUnit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
+
+The following code shows how to display the ruler values in inches and how to change the measurement unit at runtime.
 
 {% tabs %}
 {% highlight c# tabtitle="MeasurementUnit.cshtml" %}
