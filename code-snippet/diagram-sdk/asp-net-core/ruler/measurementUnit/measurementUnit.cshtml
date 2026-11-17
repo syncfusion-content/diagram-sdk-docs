@@ -1,0 +1,25 @@
+<div style="margin-bottom: 10px;">
+    <label for="unit">Select ruler unit: </label>
+    <select id="unit" onchange="onUnitChange(event)">
+        <option value="Pixel">Pixel</option>
+        <option value="Point">Point</option>
+        <option value="Inch" selected>Inch</option>
+        <option value="Millimeter">Millimeter</option>
+        <option value="Centimeter">Centimeter</option>
+    </select>
+</div>
+
+<ejs-diagram id="diagram" width="100%" height="600px">
+    <!-- Display the ruler values in inches. -->
+    <e-diagram-rulersettings showRulers="true" measurementUnit="Inch">
+    </e-diagram-rulersettings>
+</ejs-diagram>
+
+<script>
+    // Change the ruler measurement unit at runtime.
+    function onUnitChange(args) {
+        var diagram = document.getElementById("diagram").ej2_instances[0];
+        diagram.rulerSettings.measurementUnit = args.target.value;
+        diagram.dataBind();
+    }
+</script>

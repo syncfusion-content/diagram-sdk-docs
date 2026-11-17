@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scroll Settings in Angular Diagram | Syncfusion®
-description: Configure horizontal and vertical scrolling, auto-scroll, scroll limits, and zoom-coupled offsets in the Syncfusion® Angular Diagram for smooth navigation of large canvases.
+description: Configure scrolling, auto-scroll, scroll limits, and zoom-coupled offsets in the Syncfusion® Angular Diagram for smooth navigation of large canvases.
 platform: diagram-sdk
 control: Scroll settings 
 documentation: ug
@@ -188,6 +188,47 @@ The following code example illustrates how to set scroll padding for the diagram
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/scrolllimit-cs2" %}
+
+## Restrict Negative Axis
+
+The [`restrictNegativeAxis`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#restrictnegativeaxis) property of scrollSettings limits scrolling and panning to the positive coordinate region, where x >= 0 and y >= 0. It is false by default, so users can navigate across both positive and negative coordinates.coordinates.
+
+N> This property restricts only the viewport. It does not move nodes or connectors that you placed in negative coordinates, so they can no longer be reached by scrolling or panning. Move them into the positive region before enabling the restriction.
+
+### Toggle at runtime
+
+To change the property at runtime, update it on the diagram instance and call dataBind():
+
+```javascript
+//toggle restrictNegativeAxis at runtime
+this.diagram.scrollSettings.restrictNegativeAxis = true;
+this.diagram.dataBind();
+```
+
+When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
+
+The following example places one node in the negative region and one in the positive region, and toggles the restriction with a checkbox.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/diagram-sdk/angular/scrollsettings/restrictnegativeaxis-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/diagram-sdk/angular/scrollsettings/restrictnegativeaxis-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/scrollsettings/restrictnegativeaxis-cs1" %}
+
+When the checkbox is cleared, both the node at (-150, -100) and the node at (250, 150), along with their connector, can be reached by panning or scrolling. When it’s selected, the viewport can’t move into negative coordinates, so the negative node can no longer be reached.
+
+### Layout Behavior
+
+If restrictNegativeAxis is enabled before a layout is applied, the layout output is shifted into the positive region. The layout’s structure, spacing, orientation, and connector routing are unchanged; only the node positions (offsetX and offsetY) are shifted.
+
+N> If nodes are manually positioned in negative coordinates before enabling `restrictNegativeAxis`, those nodes are not automatically repositioned and may become inaccessible because the viewport is restricted to the positive coordinate region.
+
 
 ## Reset Scroll and Zoom Settings
 
