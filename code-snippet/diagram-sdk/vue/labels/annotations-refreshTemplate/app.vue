@@ -73,7 +73,7 @@ export default {
 }
 </script>
 <style>
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 
 .update-button {
 margin-bottom: 10px;

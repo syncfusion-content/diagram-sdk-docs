@@ -101,5 +101,5 @@ const getOutEdges = function () {
 };
 </script>
 <style>
-@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 </style>
