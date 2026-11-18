@@ -264,6 +264,31 @@ diagram.dataBind();
 
 When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
 
+The following code snippet shows how to set `restrictNegativeAxis` and toggle it with a checkbox.
+
+{% if page.publishingplatform == "aspnet-core" %}
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="RestrictNegativeAxis.cs" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/restrictnegativeaxis.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+{% elsif page.publishingplatform == "aspnet-mvc" %}
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="RestrictNegativeAxis.cs" %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/scrollsettings/restrictnegativeaxis/restrictnegativeaxis.cs %}
+{% endhighlight %}
+{% endtabs %}
+{% endif %}
+
 ### Layout Behavior
 
 If `restrictNegativeAxis` is enabled before a layout is applied, the layout output is shifted into the positive region. The layout’s structure, spacing, orientation, and connector routing are unchanged; only the node positions (`offsetX` and `offsetY`) are shifted.
