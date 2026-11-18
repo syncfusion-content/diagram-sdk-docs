@@ -191,7 +191,7 @@ The following code example illustrates how to set scroll padding for the diagram
 
 ## Restrict Negative Axis
 
-The [`restrictNegativeAxis`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#restrictnegativeaxis) property of scrollSettings limits scrolling and panning to the positive coordinate region, where x >= 0 and y >= 0. It is false by default, so users can navigate across both positive and negative coordinates.coordinates.
+The [`restrictNegativeAxis`](https://helpej2.syncfusion.com/angular/documentation/api/diagram/scrollSettingsModel#restrictnegativeaxis) property of scrollSettings limits scrolling and panning to the positive coordinate region, where x >= 0 and y >= 0. It is false by default, so users can navigate across both positive and negative coordinates.
 
 N> This property restricts only the viewport. It does not move nodes or connectors that you placed in negative coordinates, so they can no longer be reached by scrolling or panning. Move them into the positive region before enabling the restriction.
 
