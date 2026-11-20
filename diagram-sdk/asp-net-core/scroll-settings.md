@@ -266,6 +266,13 @@ When enabled, the viewport is immediately limited to the positive coordinate reg
 
 The following code snippet shows how to restrict scrolling and panning to the positive coordinate region by setting `restrictNegativeAxis` to `true`.
 
+
+```cshtml
+<ejs-diagram id="diagram" width="100%" height="700px" connectors="@Model.connectors" nodes="@Model.nodes">
+    <e-diagram-scrollsettings RestrictNegativeAxis="true"></e-diagram-scrollsettings>
+</ejs-diagram>
+```
+
 {% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
