@@ -75,7 +75,7 @@ The following code illustrates how to customize the diagram ruler.
 
 A complete working sample can be downloaded from [GitHub](https://github.com/SyncfusionExamples/Blazor-UG-Examples/blob/master/Diagram/Server/Pages/Ruler/Ruler.razor)
 
-## Ruler measurement units
+## Ruler Measurement Units
 
 The [Unit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html#Syncfusion_Blazor_Diagram_RulerSettings_Unit) property of [RulerSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.RulerSettings.html) specifies the unit in which ruler values are displayed. Set it to a [DiagramUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.DiagramUnit.html) value to show measurements in physical units such as inches or centimeters instead of pixels.
 
@@ -104,7 +104,7 @@ The following code shows how to display ruler values in centimeters.
 
 N> The unit affects only how measurements are displayed. Node and connector properties such as OffsetX and Width are always specified in pixels. Conversions assume 96 pixels per inch, so on-screen lengths may differ slightly from physical lengths depending on the display.
 
-### Change the unit at runtime
+### Change the Unit at Runtime
 
 The Unit property can be changed at runtime, and the rulers update immediately. The following example lets the user choose the ruler unit from a drop-down list.
 
@@ -133,7 +133,7 @@ The Unit property can be changed at runtime, and the rulers update immediately. 
 }
 ```
 
-### Convert values between units
+### Convert Values Between Units
 
 Node and connector properties are always specified in pixels. To work in other units, use the static ConvertUnit method of SfDiagramComponent. It takes the value, the source unit, and the target unit, and returns the converted value as a double.
 
