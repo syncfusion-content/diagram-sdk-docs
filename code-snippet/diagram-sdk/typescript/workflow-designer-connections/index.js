@@ -1,4 +1,7 @@
-var workflow = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ej2_workflow_designer_1 = require("@syncfusion/ej2-workflow-designer");
+var workflowDefinition = {
     schemaVersion: '1.1', id: 'condition-workflow', name: 'Condition branches',
     workflowSteps: [
         { id: 'start', stepType: 'ManualTrigger', name: 'Start', position: { x: 100, y: 220 } },
@@ -12,9 +15,11 @@ var workflow = {
         { id: 'c3', sourceStepId: 'check', sourcePort: 'false', targetStepId: 'no' }
     ]
 };
-
-var designer = new ej.workflowdesigner.WorkflowDesigner({
+var designer = new ej2_workflow_designer_1.WorkflowDesigner({
     width: '100%',
     height: '600px'
-}, '#element');
-designer.importWorkflow(workflow);
+});
+designer.appendTo('#workflowDesigner');
+designer.importWorkflow(workflowDefinition).catch(function (error) {
+    console.error(error.code, error.message);
+});
