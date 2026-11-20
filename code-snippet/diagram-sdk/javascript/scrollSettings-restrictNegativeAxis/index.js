@@ -33,8 +33,13 @@ var diagram = new ej.diagrams.Diagram(
   },
   '#element'
 );
-// Toggles restrictNegativeAxis at runtime
-document.getElementById('restrictNegativeAxis').onchange = function (args) {
-  diagram.scrollSettings.restrictNegativeAxis = args.target.checked;
-  diagram.dataBind();
-};
+// Initialize CheckBox to dynamically toggle restrictNegativeAxis at runtime
+var checkBox = new ej.buttons.CheckBox({
+  label: 'Restrict Negative Axis',
+  checked: false,
+  change: function (args) {
+    diagram.scrollSettings.restrictNegativeAxis = args.checked;
+    diagram.dataBind();
+  },
+});
+checkBox.appendTo('#restrictNegativeAxis');

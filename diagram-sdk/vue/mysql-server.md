@@ -46,7 +46,7 @@ To store and manage diagram data, MySQL Server must be installed and configured 
 
 MySQL Server provides the relational database engine used to store organizational chart data required by the Vue Diagram component.
 
-1. Download MySQL Installer version 8.0.46 from [mysql.com](https://dev.mysql.com/downloads/windows/installer/8.0.html).
+1. Download MySQL Installer version 8.0.46 from [mysql.com](https://www.mysql.com/downloads/).
 ![MySQL Installer](images/mysql-installer.png)
 2. Run the installer and follow the setup wizard.
    - Choose setup type as **Server only**.
@@ -66,7 +66,7 @@ MySQL Server provides the relational database engine used to store organizationa
 
 MySQL Workbench is a graphical tool used to connect to MySQL Server, manage databases, execute SQL queries, and inspect data.
 
-1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://dev.mysql.com/downloads/workbench/)
+1. Download MySQL Workbench Installer version 8.0.47 from [mysql-workbench](https://www.mysql.com/products/workbench/)
 2. Run the installer and follow the setup wizard.
    - Choose the setup type as **Complete**.
    - Click **Finish** after installing MySQL Workbench.
@@ -466,10 +466,7 @@ After installation, the necessary CSS files are available in the **node_modules*
 Add the required CSS references to the **src/style.css** file to apply styling to the Vue Diagram component.
 
 ```
-@import "../node_modules/@syncfusion/ej2-vue-diagrams/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-base/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/bootstrap5.3.css";
+@import "../node_modules/@syncfusion/ej2-bootstrap5.3-theme/styles/bootstrap5.3.css";
 ```
 
 For this project, the "Bootstrap 5.3" theme is applied. Other themes can be selected, or the existing theme can be customized to meet specific project requirements. For detailed guidance on theming and customization, refer to the [Syncfusion® Vue Components Appearance](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio) documentation.
