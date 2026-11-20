@@ -3,8 +3,7 @@ layout: post
 title: Ruler in JavaScript Diagram | Syncfusion®
 description: Show horizontal and vertical rulers with a position indicator in the Syncfusion® JavaScript Diagram using the rulerSettings property.
 platform: diagram-sdk
-control: Ruler 
-publishingplatform: diagram-sdk
+control: Ruler
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
