@@ -15,7 +15,6 @@
     "@angular/platform-browser-dynamic": "17.1.2",
     "@syncfusion/ej2-angular-diagrams": "*",
     "@syncfusion/ej2-diagrams": "*",
-    "@syncfusion/ej2-material-theme": "*",
     "@syncfusion/ej2-angular-base": "*",
     "@syncfusion/ej2-tailwind3-theme": "*",
     "@angular/animations": "17.1.2",
