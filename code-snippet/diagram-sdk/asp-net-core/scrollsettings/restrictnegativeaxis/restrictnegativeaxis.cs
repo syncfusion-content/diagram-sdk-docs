@@ -1,42 +1,48 @@
+using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
 using Syncfusion.EJ2.Diagrams;
+using System.Drawing;
 
-namespace WebApplication1.Controllers
-{
-    public class HomeController : Controller
-    {
-        public IActionResult Index()
-        {
-            List<DiagramNode> nodes = new List<DiagramNode>();
-            nodes.Add(new DiagramNode()
-            {
+namespace EJ2MVCSampleBrowser.Controllers.Diagram {
+    public partial class DiagramController: Controller {
+        // GET: Nodes
+        public ActionResult Nodes() {
+            List < DiagramNode > nodes = new List < DiagramNode > ();
+            nodes.Add(new DiagramNode() {
                 Id = "negativeNode",
-                OffsetX = -150,
-                OffsetY = -100,
-                Width = 140,
-                Height = 60,
-                Annotations = new List<DiagramNodeAnnotation>() { new DiagramNodeAnnotation() { Content = "Negative Region Node" } }
+                    Width = 140,
+                    Height = 60,
+                    OffsetX = -150,
+                    OffsetY = -100,
+                    Style = new NodeStyleNodes() {
+                        Fill = "#6BA5D7",
+                            StrokeColor = "White"
+                    },
             });
-            nodes.Add(new DiagramNode()
-            {
+            nodes.Add(new DiagramNode() {
                 Id = "positiveNode",
-                OffsetX = 250,
-                OffsetY = 150,
-                Width = 140,
-                Height = 60,
-                Annotations = new List<DiagramNodeAnnotation>() { new DiagramNodeAnnotation() { Content = "Positive Region Node" } }
+                    Width = 140,
+                    Height = 60,
+                    OffsetX = 250,
+                    OffsetY = 150,
+                    Style = new NodeStyleNodes() {
+                        Fill = "#6BA5D7",
+                            StrokeColor = "White"
+                    },
             });
             ViewBag.nodes = nodes;
 
-            List<DiagramConnector> connectors = new List<DiagramConnector>();
-            connectors.Add(new DiagramConnector()
-            {
+            List < DiagramConnector > connectors = new List < DiagramConnector > ();
+            connectors.Add(new DiagramConnector() {
                 Id = "connector1",
-                SourceID = "negativeNode",
-                TargetID = "positiveNode"
+                    SourceID = "negativeNode",
+                    TargetID = "positiveNode"
             });
             ViewBag.connectors = connectors;
+
             return View();
         }
     }

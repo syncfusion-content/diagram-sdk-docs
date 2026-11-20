@@ -264,7 +264,12 @@ diagram.dataBind();
 
 When enabled, the viewport is immediately limited to the positive coordinate region, which may make diagram elements in negative coordinates inaccessible. If the current view is in the negative region, the viewport resets to the origin (`X = 0`, `Y = 0`). When disabled, users can navigate into negative coordinates again.
 
-The following example places nodes in positive and negative coordinate regions and lets you toggle the restriction.
+The following code snippet shows how to restrict scrolling and panning to the positive coordinate region by setting `restrictNegativeAxis` to `true`.
+```cshtml
+<ejs-diagram id="diagram" width="100%" height="700px" connectors="@Model.connectors" nodes="@Model.nodes">
+    <e-diagram-scrollsettings RestrictNegativeAxis="true"></e-diagram-scrollsettings>
+</ejs-diagram>
+```
 
 {% if page.publishingplatform == "aspnet-core" %}
 
