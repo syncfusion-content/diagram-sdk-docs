@@ -1,0 +1,19 @@
+#container {
+    visibility: hidden;
+}
+#loader {
+    color: #008cff;
+    font-family: 'Helvetica Neue','calibiri';
+    font-size: 14px;
+    height: 40px;
+    left: 45%;
+    position: absolute;
+    top: 45%;
+    width: 30%;
+}
+.step-card { display: flex; flex-direction: column; gap: 2px; padding: 8px 12px; height: 100%; box-sizing: border-box; border-radius: 6px; background: #ffffff; border: 1px solid #d1d1d1; }
+.step-card small { color: #616161; }
+.step-running { border-color: #0f6cbd; background: #ebf3fc; }
+.step-completed { border-color: #107c10; background: #f1faf1; }
+.step-failed { border-color: #c50f1f; background: #fdf3f4; }
+.step-card.is-selected { border: 2px solid #0f6cbd; }
