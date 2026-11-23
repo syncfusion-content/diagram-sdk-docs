@@ -95,7 +95,7 @@ When interacting with diagram elements such as dragging or resizing, the tooltip
 
 The following code demonstrates how to configure the ruler measurement unit initially. The `measurementUnit` is set to `Centimeter`, and it applies to both the horizontal and vertical rulers.
 
-```tsx
+```typescript
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent } from "@syncfusion/ej2-react-diagrams";
