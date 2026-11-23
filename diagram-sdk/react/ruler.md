@@ -95,7 +95,8 @@ When interacting with diagram elements such as dragging or resizing, the tooltip
 
 The following code demonstrates how to configure the ruler measurement unit initially. The `measurementUnit` is set to `Centimeter`, and it applies to both the horizontal and vertical rulers.
 
-```tsx
+{% raw %}
+```typescript
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { DiagramComponent } from "@syncfusion/ej2-react-diagrams";
@@ -114,6 +115,7 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('diagram'));
 root.render(<App />);
 ```
+{% endraw %}
 
 The `measurementUnit` property supports runtime updates, instantly refreshing the ruler display when the measurement unit is changed.
 
@@ -134,7 +136,7 @@ The following code shows how to change the measurement unit at runtime. The rule
 
 #### Convert unit
 
-The [`convertUnit`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagram#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
+The [`convertUnit`](https://ej2.syncfusion.com/react/documentation/api/diagram/index-default#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
 
 The following code demonstrates how to convert values between units:
 
