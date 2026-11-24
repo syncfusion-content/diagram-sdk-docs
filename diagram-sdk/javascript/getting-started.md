@@ -79,11 +79,11 @@ Using CDN links, you can reference the scripts and styles directly in the **inde
 
 **Syntax:**
 > Script: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/{PACKAGE_NAME}.min.js`
-> Styles: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/styles/tailwind3.css`
+> Styles: `https://unpkg.com/@syncfusion/{PACKAGE_NAME}@{RELEASE_VERSION/styles/diagram/index.css`
 
 **Example:**
 > Script: [`https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2-diagrams.min.js`](https://cdn.syncfusion.com/ej2/ej2-diagrams/dist/global/ej2-diagrams.min.js)
-> Styles: [`https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css`](https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css)
+> Styles: [`https://unpkg.com/@syncfusion/ej2-tailwind3-theme@35.1.43/styles/diagram/index.css`](https://unpkg.com/@syncfusion/ej2-tailwind3-theme@35.1.43/styles/diagram/index.css)
 
 The following example shows how to reference the scripts and styles in an HTML file using CDN links to render the Syncfusion® Diagram.
 
@@ -95,10 +95,7 @@ The following example shows how to reference the scripts and styles in an HTML f
     <title>Essential JS 2 Diagram</title>
 
     <!-- Essential JS 2 Diagram's dependent tailwind3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://unpkg.com/@syncfusion/ej2-tailwind3-theme@35.1.43/styles/diagram/index.css" rel="stylesheet">
 
     <!-- Essential JS 2 Diagram's global script -->
     <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
@@ -207,10 +204,7 @@ Replace the entire contents of **my-diagram-app/index.html** with the following 
     <title>Essential JS 2 Diagram</title>
 
     <!-- Essential JS 2 Diagram's dependent tailwind3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/styles/tailwind3.css" rel="stylesheet">
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/ej2-diagrams/styles/tailwind3.css" rel="stylesheet">
+    <link href="https://unpkg.com/@syncfusion/ej2-tailwind3-theme@35.1.43/styles/diagram/index.css" rel="stylesheet">
 
     <!-- Essential JS 2 Diagram's global script -->
     <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
