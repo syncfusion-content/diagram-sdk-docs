@@ -4,7 +4,6 @@ title: Getting Started with JavaScript Diagram | Syncfusion®
 description: Learn how to get started with the Syncfusion® JavaScript Diagram. Set up local scripts, CDN, or npm and render a simple diagram in your app.
 platform: diagram-sdk
 control: Getting started
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
