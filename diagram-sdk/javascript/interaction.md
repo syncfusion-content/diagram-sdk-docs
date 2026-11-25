@@ -19,7 +19,7 @@ The selector visually represents selected elements, acting as a container to mod
 
 An element can be selected by clicking that element. During single click, all previously selected items are cleared.
 
-When selecting/unselecting the diagram elements, the [`selectionChange`](../api/diagram/iSelectionChangeEventArgs) event and [`click`](../api/diagram/iclickeventargs) gets triggered. 
+When selecting/unselecting the diagram elements, the [`selectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iSelectionChangeEventArgs) event and [`click`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iclickeventargs) gets triggered. 
 These events enable you to customize the selected elements as needed.
 
 ### Selecting a group
@@ -43,12 +43,12 @@ In rubber band selection, you can set the selection of items by region using the
 - CompleteIntersect: Selects items that are fully covered within the rectangular selection region.
 - PartialIntersect: Selects items that are partially covered within the rectangular selection region.
 
-This can be configured with the [`rubberBandSelectionMode`](../api/diagram/rubberBandSelectionMode).
+This can be configured with the [`rubberBandSelectionMode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/rubberBandSelectionMode).
 
 ### Select/Unselect elements using API
 
 
-The [`select`](../api/diagram#select) and [`clearSelection`](../api/diagram#clearselection) methods are used to dynamically select or clear the selection of elements at runtime. The following code example demonstrates how these methods can be utilized to select or clear the selection of elements.
+The [`select`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#select) and [`clearSelection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#clearselection) methods are used to dynamically select or clear the selection of elements at runtime. The following code example demonstrates how these methods can be utilized to select or clear the selection of elements.
 
 ```javascript
 var diagram = ej.diagrams.Diagram({
@@ -74,7 +74,7 @@ diagram.clearSelection();
 ```
 ### Get selected items
 
-You can get the currently selected [`nodes`](../api/diagram/selectorModel#nodes) and [`connectors`](../api/diagram/selectorModel#connectors ) using [`selectedItems`](../api/diagram/selectorModel) property of the diagram.
+You can get the currently selected [`nodes`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#nodes) and [`connectors`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#connectors) using [`selectedItems`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel) property of the diagram.
 
 ```javascript
 
@@ -83,7 +83,7 @@ var selectedConnectors = diagram.selectedItems.connectors;
 
 ```
 
-You can also get the currently selected objects, both nodes and connectors, in a single array called [`selectedObjects`](../api/diagram/selectorModel#selectedobjects) within the [`selectedItems`](../api/diagram/selectorModel) property of the diagram.
+You can also get the currently selected objects, both nodes and connectors, in a single array called [`selectedObjects`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#selectedobjects) within the [`selectedItems`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel) property of the diagram.
 
 ```javascript
 
@@ -93,7 +93,7 @@ var selectedObjects = diagram.selectedItems.selectedObjects;
 
 ### Toggle selection
 
-The [`canToggleSelection`](../api/diagram/selectorModel#canToggleSelection) property determines whether the selection state of a diagram element should toggle with a mouse click at runtime. By default, this property is set to false. In the following example, the node can be selected with the first click and unselected with the second click.
+The [`canToggleSelection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#canToggleSelection) property determines whether the selection state of a diagram element should toggle with a mouse click at runtime. By default, this property is set to false. In the following example, the node can be selected with the first click and unselected with the second click.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,7 +108,7 @@ The [`canToggleSelection`](../api/diagram/selectorModel#canToggleSelection) prop
 
 ### Select entire elements in diagram programmatically
 
-The [`selectAll`](../api/diagram#selectAll) method of diagram is used to select all the elements such as nodes/connectors in the diagram. Refer to the following code snippet.
+The [`selectAll`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#selectAll) method of diagram is used to select all the elements such as nodes/connectors in the diagram. Refer to the following code snippet.
 
 ```javascript
 //Selects all the nodes and connectors in diagram
@@ -121,19 +121,19 @@ You can also use the CTRL+A keys to select all nodes and connectors in the diagr
 ## Drag
 
 You can drag an object by clicking and dragging it. When multiple elements are selected, dragging any one of them moves all selected elements together.
-As you drag elements within the diagram, the [`positionChange`](../api/diagram/idraggingeventargs) event is triggered, providing opportunities to customize the dragged elements.
+As you drag elements within the diagram, the [`positionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/idraggingeventargs) event is triggered, providing opportunities to customize the dragged elements.
 
 ## Resize
 
 The selector in the diagram is designed with eight resizing handles, commonly referred to as thumbs. These handles allow users to adjust the size of selected items by clicking and dragging them. When resizing, dragging any handle modifies the dimensions of the selected elements accordingly. Notably, when dragging one corner handle, the opposite corner remains fixed to specific alignment of the selected item.
 
-During the resizing process, the diagram triggers the [`sizeChange`](../api/diagram/isizechangeeventargs) event, allowing customization based on the size of the element.
+During the resizing process, the diagram triggers the [`sizeChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/isizechangeeventargs) event, allowing customization based on the size of the element.
 
 N>  While dragging and resizing, the objects are snapped towards the nearest objects to make better alignments.
 
 ### Aspect ratio
 
-Maintaining aspect ratio in diagram means that when you resize a node, by dragging its corner, both its width and height adjust proportionally. This ensures that the node retains its original shape and proportions. Aspect ratio constraints can be applied by configuring the [`NodeConstraints`](../api/diagram/nodeconstraints) property.
+Maintaining aspect ratio in diagram means that when you resize a node, by dragging its corner, both its width and height adjust proportionally. This ensures that the node retains its original shape and proportions. Aspect ratio constraints can be applied by configuring the [`NodeConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeconstraints) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -148,7 +148,7 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 
 ### Customizing resize-thumb size
 
-You can change the size of the node resize thumb and the connector end point handle by using the [`handleSize`](../api/diagram/selectorModel#handlesize) property. The following example shows the resize handle size customization.
+You can change the size of the node resize thumb and the connector end point handle by using the [`handleSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel#handlesize) property. The following example shows the resize handle size customization.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -166,11 +166,11 @@ The appearance such as fill, stroke, and stroke width of the node resize thumb a
 ## Rotate
 
 A rotation handler is positioned above the selector. Clicking and dragging this handler in a circular motion rotates the node. The node rotates around a fixed pivot point. A pivot thumb, located at the center of the node, appears during rotation to indicate the fixed point.
-Rotating a node triggers the [`rotateChange`](../api/diagram/iRotationEventArgs) event.
+Rotating a node triggers the [`rotateChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iRotationEventArgs) event.
 
 ### Customize rotate handle position
 
-The position of the rotate handle can be adjusted by modifying the pivot point of the node using the [`pivot`](../api/diagram/nodeModel#pivot) property. By default, the pivot point is set to (0.5, 0.5). The following example shows how to render the rotate handle at the left top corner of the node.
+The position of the rotate handle can be adjusted by modifying the pivot point of the node using the [`pivot`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeModel#pivot) property. By default, the pivot point is set to (0.5, 0.5). The following example shows how to render the rotate handle at the left top corner of the node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -189,7 +189,7 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 
 Each segment of a selected connector is editable with some specific handles/thumbs.
 
-N> For connector editing, you have to inject the [`ConnectorEditing`](../api/diagram/connectorEditing) module.
+N> For connector editing, you have to inject the [`ConnectorEditing`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorEditing) module.
 
 ### Drag connector end points
 
@@ -197,9 +197,9 @@ Source and target points of selected connectors are represented by two handles. 
 
 Dragging the connector end points triggers the following events for customization:
 
-When the connector's source point is changed, the [`sourcePointChange`](../api/diagram/diagrammodel#sourcepointchange) event is triggered.
-When the connector's target point is changed, the [`targetPointChange`](../api/diagram/diagrammodel#targetpointchange) event is triggered.
-Connecting a connector to port/node or disconnecting from them triggers the [`connectionChange`](../api/diagram/iConnectionChangeEventArgs) event.
+When the connector's source point is changed, the [`sourcePointChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagrammodel#sourcepointchange) event is triggered.
+When the connector's target point is changed, the [`targetPointChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagrammodel#targetpointchange) event is triggered.
+Connecting a connector to port/node or disconnecting from them triggers the [`connectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iConnectionChangeEventArgs) event.
 
 ### Straight segment editing
 
@@ -211,7 +211,7 @@ Straight segments can be removed by clicking the segment end point while holding
 
 Orthogonal thumbs allow you to adjust the length of adjacent segments by clicking and dragging them. When necessary, segments are automatically added or removed during dragging to maintain proper orthogonal routing.
 
-When editing a segment, the [`segmentChange`](../api/diagram/iSegmentChangeEventArgs) event is triggered. When new segments are added to the collection of connector segments, the [`segmentCollectionChange`](../api/diagram/iSegmentCollectionChangeEventArgs) event is triggered.
+When editing a segment, the [`segmentChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iSegmentChangeEventArgs) event is triggered. When new segments are added to the collection of connector segments, the [`segmentCollectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iSegmentCollectionChangeEventArgs) event is triggered.
 
 
 ### Bezier segment editing
@@ -252,36 +252,36 @@ N> A symbol dragged from the palette will only be added to the diagram if it’s
 
 ## User handles
 
-User handles are used to add frequently used commands around the selector. To create user handles, define and add them to the [`userHandles`](../api/diagram/userHandleModel) collection of the [`selectedItems`](../api/diagram/selectorModel) property. The [`name`](../api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization.
+User handles are used to add frequently used commands around the selector. To create user handles, define and add them to the [`userHandles`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/userHandleModel) collection of the [`selectedItems`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorModel) property. The [`name`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/userHandleModel#name) property of userHandles is used to define the name of the user handle, which can then be used at runtime for identification and customization.
 
 The following events are triggered when interacting with a user handle:
 
-* [`click`](../api/diagram/iclickeventargs) - Triggered when the user handle is clicked.
-* [`onUserHandleMouseEnter`](../api/diagram#onuserhandlemouseenter) - Triggered when the mouse enters the user handle region.
-* [`onUserHandleMouseDown`](../api/diagram#onuserhandlemousedown) - Triggered when the mouse is pressed down on the user handle.
-* [`onUserHandleMouseUp`](../api/diagram#onuserhandlemouseup) - Triggered when the mouse is released on the user handle.
-* [`onUserHandleMouseLeave`](../api/diagram#onuserhandlemouseleave) - Triggered when the mouse leaves the user handle region.
+* [`click`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iclickeventargs) - Triggered when the user handle is clicked.
+* [`onUserHandleMouseEnter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onuserhandlemouseenter) - Triggered when the mouse enters the user handle region.
+* [`onUserHandleMouseDown`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onuserhandlemousedown) - Triggered when the mouse is pressed down on the user handle.
+* [`onUserHandleMouseUp`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onuserhandlemouseup) - Triggered when the mouse is released on the user handle.
+* [`onUserHandleMouseLeave`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onuserhandlemouseleave) - Triggered when the mouse leaves the user handle region.
 
 For more information, refer to the [`user handle events`](./user-handle#user-handle-events).
 
 ## Fixed user handle
 
-Fixed user handles are used to perform specific actions when interacted with. Unlike regular user handles, [`fixedUserHandles`](../api/diagram/nodeFixedUserHandleModel) are defined within the node/connector object, allowing different fixed user handles to be added to different nodes.
+Fixed user handles are used to perform specific actions when interacted with. Unlike regular user handles, [`fixedUserHandles`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeFixedUserHandleModel) are defined within the node/connector object, allowing different fixed user handles to be added to different nodes.
 
 The following events are triggered when interacting with a fixed user handle:
 
-* [`click`](../api/diagram/iclickeventargs) - Triggered when the fixed user handle is clicked.
-* [`onFixedUserHandleMouseEnter`](../api/diagram#onfixeduserhandlemouseenter) - Triggered when the mouse enters the fixed user handle region.
-* [`onFixedUserHandleMouseDown`](../api/diagram#onfixeduserhandlemousedown) - Triggered when the mouse is pressed down on the fixed user handle.
-* [`onFixedUserHandleMouseUp`](../api/diagram#onfixeduserhandlemouseup) - Triggered when the mouse is released on the fixed user handle.
-* [`onFixedUserHandleMouseLeave`](../api/diagram#onfixeduserhandlemouseleave) - Triggered when the mouse leaves the fixed user handle region.
-* [`fixedUserHandleClick`](../api/diagram/fixedUserHandleClickEventArgs) - Triggered when the fixed user handle is clicked.
+* [`click`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iclickeventargs) - Triggered when the fixed user handle is clicked.
+* [`onFixedUserHandleMouseEnter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onfixeduserhandlemouseenter) - Triggered when the mouse enters the fixed user handle region.
+* [`onFixedUserHandleMouseDown`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onfixeduserhandlemousedown) - Triggered when the mouse is pressed down on the fixed user handle.
+* [`onFixedUserHandleMouseUp`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onfixeduserhandlemouseup) - Triggered when the mouse is released on the fixed user handle.
+* [`onFixedUserHandleMouseLeave`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#onfixeduserhandlemouseleave) - Triggered when the mouse leaves the fixed user handle region.
+* [`fixedUserHandleClick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/fixedUserHandleClickEventArgs) - Triggered when the fixed user handle is clicked.
 
 For more information, refer to the [`fixed user handle events`](./user-handle#fixed-user-handle-events).
 
 ## Determining Mouse Button Clicks
 
-The JavaScript Diagram component can determine which mouse button was clicked. For example, when the right mouse button is clicked, the click event will specify that the right button was clicked. This is handled through the mouse [`click`](../api/diagram/iclickeventargs) event, which provides details about whether the left or right button was clicked.
+The JavaScript Diagram component can determine which mouse button was clicked. For example, when the right mouse button is clicked, the click event will specify that the right button was clicked. This is handled through the mouse [`click`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iclickeventargs) event, which provides details about whether the left or right button was clicked.
 
 | Notification | Description |
 |----------------|--------------|
@@ -301,12 +301,12 @@ diagram.click = function (args) {
 
 ## Allow drop
 
-The diagram supports dropping a node or connector onto another node or connector. To determine the target where the node or connector is dropped, you need to enable the [`allowDrop`](../api/diagram/nodeConstraints) constraint in the node's or connector's constraints property. This setting enables a highlighter to indicate potential drop targets when dragging any node or connector over another one. Upon dropping the node or connector, the [`drop`](../api/diagram/iDropEventArgs) event is triggered to indicate which element was dropped over which other element.
+The diagram supports dropping a node or connector onto another node or connector. To determine the target where the node or connector is dropped, you need to enable the [`allowDrop`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints) constraint in the node's or connector's constraints property. This setting enables a highlighter to indicate potential drop targets when dragging any node or connector over another one. Upon dropping the node or connector, the [`drop`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDropEventArgs) event is triggered to indicate which element was dropped over which other element.
 
 
 ## Zoom pan
 
-When loading a large diagram, only a certain portion of the diagram is initially visible, the remaining parts are clipped. You can explore these clipped portions by scrolling the scrollbars or panning the diagram. You can zoom in or out on the diagram by using Ctrl + mouse wheel. When the diagram is zoomed or panned, the [`scrollChange`](../api/diagram/iScrollChangeEventArgs) event is triggered.
+When loading a large diagram, only a certain portion of the diagram is initially visible, the remaining parts are clipped. You can explore these clipped portions by scrolling the scrollbars or panning the diagram. You can zoom in or out on the diagram by using Ctrl + mouse wheel. When the diagram is zoomed or panned, the [`scrollChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iScrollChangeEventArgs) event is triggered.
 
 |  Pan Status  | Description|
 |--------------|---------|

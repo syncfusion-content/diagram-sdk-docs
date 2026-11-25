@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Annotation in JavaScript Diagram
 
-[`Annotation`](../../api/diagram/annotationModel) is a block of text that can be displayed over a node or connector. Annotation is used to textually represent an object with a string that can be edited at runtime. Multiple annotations can be added to a node/connector.
+[`Annotation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel) is a block of text that can be displayed over a node or connector. Annotation is used to textually represent an object with a string that can be edited at runtime. Multiple annotations can be added to a node/connector.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -34,9 +34,9 @@ N> When setting a Annotation's ID, ensure that it does not contain white spaces,
 
 ## Add annotations at runtime
 
-Annotations can be added at runtime by using the diagram method [`addLabels`](../../api/diagram#addlabels). The following code illustrates how to add a annotation to a node.
+Annotations can be added at runtime by using the diagram method [`addLabels`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#addlabels). The following code illustrates how to add a annotation to a node.
 
-The annotation's [`id`](../../api/diagram/annotationModel#id) property is used to define the name of the annotation and its further used to find the annotation at runtime and do any customization.
+The annotation's [`id`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#id) property is used to define the name of the annotation and its further used to find the annotation at runtime and do any customization.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -51,7 +51,7 @@ The annotation's [`id`](../../api/diagram/annotationModel#id) property is used t
 
 ## Remove annotation
 
-A collection of annotations can be removed from the node by using diagram method [`removeLabels`](../../api/diagram#removelabels). The following code illustrates how to remove a annotation to a node.
+A collection of annotations can be removed from the node by using diagram method [`removeLabels`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#removelabels). The following code illustrates how to remove a annotation to a node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -66,7 +66,7 @@ A collection of annotations can be removed from the node by using diagram method
 
 ## Update annotation at runtime
 
-You can get the annotation directly from the node’s annotations collection property and you can change any annotation properties at runtime. To reflect the changes immediately, we need to call [`dataBind`](../../api/diagram#databind ).
+You can get the annotation directly from the node’s annotations collection property and you can change any annotation properties at runtime. To reflect the changes immediately, we need to call [`dataBind`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#databind).
 
 The following code example illustrates how to change the annotation properties.
 

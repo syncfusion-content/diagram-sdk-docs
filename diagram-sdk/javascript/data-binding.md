@@ -15,17 +15,17 @@ Its Essential<sup style="font-size:70%">&reg;</sup> for binding external data to
 
 ## DataSource settings
 
-The [`dataSourceSettings`](../api/diagram/dataSourceModel) property of diagram configures the external data source that binds to the diagram, making it possible to populate the diagram with nodes and connectors dynamically.
+The [`dataSourceSettings`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel) property of diagram configures the external data source that binds to the diagram, making it possible to populate the diagram with nodes and connectors dynamically.
 
-* [`Data Manager`](../api/diagram/dataSourceModel#datamanager) - Defines the data source as a collection of objects or an instance of DataManager to populate the diagram.
+* [`Data Manager`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#datamanager) - Defines the data source as a collection of objects or an instance of DataManager to populate the diagram.
 
-* [`ID`](../api/diagram/dataSourceModel#id) - The unique identifier for each data in the data source.
+* [`ID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#id) - The unique identifier for each data in the data source.
 
-* [`parentId`](../api/diagram/dataSourceModel#parentid) - Establishes the hierarchical relationship between nodes by linking each node to its parent node. This property is vital for creating tree structures within the diagram.
+* [`parentId`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#parentid) - Establishes the hierarchical relationship between nodes by linking each node to its parent node. This property is vital for creating tree structures within the diagram.
 
-* [`root`](../api/diagram/dataSourceModel#root) - Specifies the root node of the diagram when data is loaded. This root node serves as the starting point for the diagram's structure.
+* [`root`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#root) - Specifies the root node of the diagram when data is loaded. This root node serves as the starting point for the diagram's structure.
 
-* The [`doBinding`](../api/diagram/dataSourceModel#dobinding) function is used to customize a node based on the data source. It is triggered during the initialization of each node, allowing you to apply specific configurations or data-driven customizations to the node.
+* The [`doBinding`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#dobinding) function is used to customize a node based on the data source. It is triggered during the initialization of each node, allowing you to apply specific configurations or data-driven customizations to the node.
 
 * Diagram supports two types of data binding. They are:
 
@@ -36,7 +36,7 @@ The [`dataSourceSettings`](../api/diagram/dataSourceModel) property of diagram c
 
 Diagram can be populated based on user-defined JSON data (Local Data) by mapping the relevant data source fields.
 
-To map user-defined JSON data to the diagram, configure the fields in [`dataSourceSettings`](../api/diagram/dataSourceModel). The following code example illustrates how to bind local data with the diagram.
+To map user-defined JSON data to the diagram, configure the fields in [`dataSourceSettings`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel). The following code example illustrates how to bind local data with the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -53,11 +53,11 @@ N> To convert the data source into nodes and connectors, `DataBinding` should be
 
 ## Remote data
 
-You can bind the diagram with remote data by using [`dataManager`](../api/diagram/datasourcemodel#datamanager). 
+You can bind the diagram with remote data by using [`dataManager`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/datasourcemodel#datamanager). 
 
 [`DataManager`](https://ej2.syncfusion.com/documentation/data) can be bound to remote data source by assigning service end point URL to the `url` property. With the provided url, the DataManager handles all communication with the data server with help of queries.
 
-When querying data, the `DataManager` will convert the query object(Query) into server request after calling [`executeQuery`](../api/data/dataManager#executequery) and waits for the server response(`JSON` format).
+When querying data, the `DataManager` will convert the query object(Query) into server request after calling [`executeQuery`](https://ej2.syncfusion.com/javascript/documentation/api/data/dataManager#executequery) and waits for the server response(`JSON` format).
 
  The following code illustrates how to bind remote data to the diagram.
 
@@ -80,27 +80,27 @@ This feature allows you to read the data source and perform add or edit or delet
 
 * This feature allows you to define the nodes and connectors collection in the data source and connectionDataSource respectively.
 
-* You can set the data collection in the model’s dataSourceSettings [`dataSource`](../api/diagram/dataSourceModel#datasource) property. The nodes will be generated based on the data specified in the data source.
+* You can set the data collection in the model’s dataSourceSettings [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#datasource) property. The nodes will be generated based on the data specified in the data source.
 
-* You can set the connector collection in the model’s dataSourceSettings [`connectionDataSource`](../api/diagram/dataSourceModel#connectionDataSource) property.
+* You can set the connector collection in the model’s dataSourceSettings [`connectionDataSource`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#connectionDataSource) property.
 
-* The dataSourceSettings connectionDataSource [`dataManager`](../api/diagram/connectionDataSourceModel#dataManager) property is used to set the data source for the connection data source items.
+* The dataSourceSettings connectionDataSource [`dataManager`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectionDataSourceModel#dataManager) property is used to set the data source for the connection data source items.
 
 * If you have a data (data will be set in the dataSource property) with parent relationship in the database and also defined the connector in the connectionDataSource simultaneously, then the connectors set in the connectionDataSource will be considered as a priority to render the connector.
 
-* The dataSourceSettings [`crudAction’s`](../api/diagram/dataSourceModel#crudAction) [`read`](../api/diagram/crudActionModel#read) property specifies the method, which is used to read the data source and its populate the nodes in the diagram.
+* The dataSourceSettings [`crudAction’s`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#crudAction) [`read`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#read) property specifies the method, which is used to read the data source and its populate the nodes in the diagram.
 
-* The connectionDataSource crudAction’s [`read`](../api/diagram/crudActionModel#read) specifies the method, which is used to read the data source and its populates the connectors in the diagram.
+* The connectionDataSource crudAction’s [`read`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#read) specifies the method, which is used to read the data source and its populates the connectors in the diagram.
 
-* The dataSourceSettings’s [`id`](../api/diagram/dataSourceModel#id) and connectionDataSource’s [`id`](../api/diagram/connectionDataSourceModel#id) properties are used to define the unique field of each JSON data.
+* The dataSourceSettings’s [`id`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/dataSourceModel#id) and connectionDataSource’s [`id`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectionDataSourceModel#id) properties are used to define the unique field of each JSON data.
 
-* The connectionDataSource’s [`sourceID`](../api/diagram/connectionDataSourceModel#sourceID) and [`targetID`](../api/diagram/connectionDataSourceModel#targetID) properties are used to set the sourceID and targetID for connection data source item.
+* The connectionDataSource’s [`sourceID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectionDataSourceModel#sourceID) and [`targetID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectionDataSourceModel#targetID) properties are used to set the sourceID and targetID for connection data source item.
 
-* The connectionDataSource’s [`sourcePointX`](../api/diagram/connectiondatasourcemodel#sourcepointx), [`sourcePointY`](../api/diagram/connectiondatasourcemodel#sourcepointy), [`targetPointX`](../api/diagram/connectiondatasourcemodel#targetpointx), and [`targetPointY`](../api/diagram/connectiondatasourcemodel#targetpointy) properties are used to define the sourcePoint and targetPoint values for connector from data source.
+* The connectionDataSource’s [`sourcePointX`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#sourcepointx), [`sourcePointY`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#sourcepointy), [`targetPointX`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#targetpointx), and [`targetPointY`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectiondatasourcemodel#targetpointy) properties are used to define the sourcePoint and targetPoint values for connector from data source.
 
-* The dataSourceSettings crudAction’s [`customFields`](../api/diagram/crudActionModel#customFields) property is used to maintain the additional information for nodes.
+* The dataSourceSettings crudAction’s [`customFields`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#customFields) property is used to maintain the additional information for nodes.
 
-* Similarly, connectionDataSource’s crudAction’s [`customFields`](../api/diagram/crudActionModel#customFields) is used to maintain the additional information for connectors.
+* Similarly, connectionDataSource’s crudAction’s [`customFields`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#customFields) is used to maintain the additional information for connectors.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -121,9 +121,9 @@ This feature allows you to read the data source and perform add or edit or delet
 
 ## InsertData
 
-* The dataSourceSettings crudAction’s [`create`](../api/diagram/crudActionModel#create) property specifies the method, which is used to get the nodes added from the client-side to the server-side.
+* The dataSourceSettings crudAction’s [`create`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#create) property specifies the method, which is used to get the nodes added from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s  [`create`](../api/diagram/crudActionModel#create) specifies the method, which is used to get the connectors added from the client-side to the server-side.
+* The connectionDataSource crudAction’s  [`create`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#create) specifies the method, which is used to get the connectors added from the client-side to the server-side.
 
 * The following code example illustrates how to send the newly added or inserted data from the client to server-side.
 
@@ -152,9 +152,9 @@ diagram.insertData();
 
 ## UpdateData
 
-* The dataSourceSettings crudAction’s [`update`](../api/diagram/crudActionModel#update) property specifies the method, which is used to get the modified nodes from the client-side to the server-side.
+* The dataSourceSettings crudAction’s [`update`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#update) property specifies the method, which is used to get the modified nodes from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s [`update`](../api/diagram/crudActionModel#update) specifies the method, which is used to get the modified connectors from the client-side to the server-side.
+* The connectionDataSource crudAction’s [`update`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#update) specifies the method, which is used to get the modified connectors from the client-side to the server-side.
 
 * The following code example illustrates how to send the updated data from the client to the server side.
 
@@ -183,9 +183,9 @@ diagram.updateData();
 
 ## DeleteData
 
-* The dataSourceSettings crudAction’s [`destroy`](../api/diagram/crudActionModel#destroy) property specifies the method, which is used to get the deleted nodes from the client-side to the server-side.
+* The dataSourceSettings crudAction’s [`destroy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#destroy) property specifies the method, which is used to get the deleted nodes from the client-side to the server-side.
 
-* The connectionDataSource crudAction’s [`destroy`](../api/diagram/crudActionModel#destroy) specifies the method, which is used to get the deleted connectors from the client-side to the server-side.
+* The connectionDataSource crudAction’s [`destroy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/crudActionModel#destroy) specifies the method, which is used to get the deleted connectors from the client-side to the server-side.
 
 ```ts
 

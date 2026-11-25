@@ -19,21 +19,6 @@ Datasource is used to store or access data associated with a business process. T
 ![DataSource BPMN Shape](../images/Datasource.png)
 
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs15/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs15/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs15" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs15/index.js %}
@@ -44,4 +29,3 @@ Datasource is used to store or access data associated with a business process. T
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs15" %}
-{% endif %}
