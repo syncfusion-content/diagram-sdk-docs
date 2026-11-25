@@ -4,7 +4,6 @@ title: Connections and ports in Vue Workflow Designer control | Syncfusion®
 description: Learn how connections link workflow steps through input and output ports, and which connection rules the Syncfusion Vue Workflow Designer enforces.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

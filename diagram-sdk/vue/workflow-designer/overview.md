@@ -4,7 +4,6 @@ title: Overview of Vue Workflow Designer control | Syncfusion®
 description: Learn about the Syncfusion Vue Workflow Designer control, its key features, layout, and the workflow steps it supports.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

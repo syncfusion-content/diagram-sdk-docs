@@ -4,7 +4,6 @@ title: Workflow steps in TypeScript Workflow Designer control | Syncfusion®
 description: Learn about the step types of the Syncfusion TypeScript Workflow Designer, their settings, output ports, and condition rules.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

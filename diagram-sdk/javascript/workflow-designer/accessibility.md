@@ -4,7 +4,6 @@ title: Accessibility in JavaScript Workflow Designer control | Syncfusion®
 description: Learn about the keyboard shortcuts and screen reader support of the Syncfusion JavaScript Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,7 +14,7 @@ The Workflow Designer supports keyboard navigation and provides Accessible Rich 
 
 ## Keyboard shortcuts
 
-The following shortcuts are available while focus is on the Workflow Designer. On macOS, use <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>. Shortcuts aren't handled while focus is in a text field or a dialog, so they don't interfere with typing.
+The following shortcuts are available while focus is on the Workflow Designer. On macOS, use <kbd>âŒ˜</kbd> instead of <kbd>Ctrl</kbd>. Shortcuts aren't handled while focus is in a text field or a dialog, so they don't interfere with typing.
 
 | Shortcut | Action |
 |---|---|

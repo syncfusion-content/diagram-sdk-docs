@@ -4,7 +4,6 @@ title: Localization in Angular Workflow Designer control | Syncfusion®
 description: Learn how to translate the text of the Syncfusion Angular Workflow Designer and the default English text of every localization key.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

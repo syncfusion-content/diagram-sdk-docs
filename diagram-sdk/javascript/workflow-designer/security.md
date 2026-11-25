@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Security considerations in JavaScript Workflow Designer | Syncfusion®
+title: Security in JavaScript Workflow Designer | Syncfusion®
 description: Learn how to handle credentials, network requests, and imported workflows securely in the Syncfusion JavaScript Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

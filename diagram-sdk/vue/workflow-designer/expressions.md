@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Expressions and the variable picker in Vue Workflow Designer | Syncfusion®
+title: Vue Workflow Designer Expressions and Variables | Syncfusion®
 description: Learn how workflow steps read data from earlier steps with expressions and the variable picker in the Syncfusion Vue Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

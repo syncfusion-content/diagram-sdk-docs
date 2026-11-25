@@ -4,7 +4,6 @@ title: Localization in React Workflow Designer control | Syncfusion®
 description: Learn how to translate the text of the Syncfusion React Workflow Designer and the default English text of every localization key.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

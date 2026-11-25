@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Add, update, and remove workflow items in React Workflow Designer | Syncfusion®
+title: Update Workflow Items in React Workflow Designer | Syncfusion®
 description: Learn how to add, update, and remove steps, connections, and sticky notes from code in the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,9 +14,9 @@ The Workflow Designer provides methods that change the workflow from code, witho
 
 | Method | Description |
 |---|---|
-| [`addWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#addworkflowitem) | Adds a step, connection, or sticky note to the workflow and returns `true` when it's added. |
-| [`updateWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#updateworkflowitem) | Changes the properties of an existing item and returns `true` when it's updated. |
-| [`removeWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#removeworkflowitem) | Removes an item, and the connections of a removed step, and returns `true` when it's removed. |
+| [`addWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#addworkflowitem) | Adds a step, connection, or sticky note to the workflow and returns `true` when it's added. |
+| [`updateWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#updateworkflowitem) | Changes the properties of an existing item and returns `true` when it's updated. |
+| [`removeWorkflowItem`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#removeworkflowitem) | Removes an item, and the connections of a removed step, and returns `true` when it's removed. |
 
 Each successful call triggers the `workflowChanged` event, whose `changeType` identifies the change, such as `StepAdded` or `ConnectionRemoved`. See [Edit-time events](./host-integration#edit-time-events).
 

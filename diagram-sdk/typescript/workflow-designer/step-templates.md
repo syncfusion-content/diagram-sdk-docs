@@ -4,7 +4,6 @@ title: Step templates in TypeScript Workflow Designer control | Syncfusion®
 description: Learn how to replace the content of workflow steps with a custom template in the Syncfusion TypeScript Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,7 +14,7 @@ A step template replaces the built-in content of every workflow step with your o
 
 ## Define a step template
 
-Set the [`workflowStepTemplate`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#workflowsteptemplate) property to one of the following values:
+Set the [`workflowStepTemplate`](https://ej2.syncfusion.com/documentation/api/workflow-designer#workflowsteptemplate) property to one of the following values:
 
 * **A function** that receives the template arguments and returns an HTML string or an `HTMLElement`. Use a function when the content depends on the step type, its settings, or its execution state.
 * **An HTML string.** A string can include the `${step.name}` and `${state}` expressions, which are replaced with the step name and its execution state.
@@ -48,7 +47,7 @@ N> Build the content with `textContent`, or escape values before you insert them
 
 ## Refresh the template
 
-The template is rendered again automatically when a step's settings, size, or appearance change, and when its execution state changes during a run. When the content depends on something the Workflow Designer doesn't track, such as the selected step or data in your application, call the [`refreshWorkflowStepTemplate`](https://ej2.syncfusion.com/documentation/api/workflow-designer/#refreshworkflowsteptemplate) method. Pass a step identifier to refresh that step, or call it without arguments to refresh every step.
+The template is rendered again automatically when a step's settings, size, or appearance change, and when its execution state changes during a run. When the content depends on something the Workflow Designer doesn't track, such as the selected step or data in your application, call the [`refreshWorkflowStepTemplate`](https://ej2.syncfusion.com/documentation/api/workflow-designer#refreshworkflowsteptemplate) method. Pass a step identifier to refresh that step, or call it without arguments to refresh every step.
 
 The following example highlights the selected step by refreshing the previously selected step and the newly selected one.
 

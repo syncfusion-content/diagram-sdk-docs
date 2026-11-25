@@ -4,7 +4,6 @@ title: AI Assist in JavaScript Workflow Designer control | Syncfusion®
 description: Learn how to enable AI Assist in the Syncfusion JavaScript Workflow Designer to generate and change workflows from natural-language prompts.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,7 +14,7 @@ AI Assist generates a workflow, or changes the current one, from a natural-langu
 
 ## Configure AI Assist
 
-Use the [`aiAssistSettings`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer/#aiassistsettings) property to enable AI Assist and to set how it reaches the AI provider.
+Use the [`aiAssistSettings`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#aiassistsettings) property to enable AI Assist and to set how it reaches the AI provider.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -117,8 +116,8 @@ W> A key used in Direct mode is exposed to everyone who uses the page. Use Direc
 
 | Event | Description |
 |---|---|
-| [`aiAssistCompleted`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer/#aiassistcompleted) | Triggers after AI Assist generates a workflow, validates it, and applies it to the canvas. Its `workflow` argument contains the applied workflow, for example to save it or to show a confirmation. |
-| [`aiAssistFailed`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer/#aiassistfailed) | Triggers when an AI Assist request fails and won't be retried. Its `error` argument describes the failure, and the current workflow is left unchanged. |
+| [`aiAssistCompleted`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#aiassistcompleted) | Triggers after AI Assist generates a workflow, validates it, and applies it to the canvas. Its `workflow` argument contains the applied workflow, for example to save it or to show a confirmation. |
+| [`aiAssistFailed`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#aiassistfailed) | Triggers when an AI Assist request fails and won't be retried. Its `error` argument describes the failure, and the current workflow is left unchanged. |
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

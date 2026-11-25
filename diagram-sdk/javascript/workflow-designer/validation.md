@@ -4,7 +4,6 @@ title: Validation in JavaScript Workflow Designer control | Syncfusion®
 description: Learn how the Syncfusion JavaScript Workflow Designer validates workflows before a run and on import, and which validation codes it reports.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,7 +14,7 @@ The Workflow Designer validates the workflow before every run, so that problems 
 
 ## Validate a workflow
 
-The [`validateWorkflow`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer/#validateworkflow) method validates the current workflow without running it and returns a `WorkflowValidationResult`. Use it to check a workflow before you save or publish it.
+The [`validateWorkflow`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#validateworkflow) method validates the current workflow without running it and returns a `WorkflowValidationResult`. Use it to check a workflow before you save or publish it.
 
 | Property | Description |
 |---|---|

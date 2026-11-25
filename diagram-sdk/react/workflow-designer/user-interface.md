@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Customize the user interface in React Workflow Designer | Syncfusion®
+title: React Workflow Designer User Interface | Syncfusion®
 description: Learn how to configure the toolbars, step collection, property panel, execution log, canvas, and sticky notes of the Syncfusion React Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,7 +14,7 @@ The Workflow Designer lets you show, hide, and configure each part of its user i
 
 ## Top toolbar
 
-The top toolbar contains the commands that act on the whole workflow. Use the [`toolbarSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#toolbarsettings) property to show or hide the toolbar and to choose its commands, for example to remove **Import** when workflows are loaded only by your application.
+The top toolbar contains the commands that act on the whole workflow. Use the [`toolbarSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#toolbarsettings) property to show or hide the toolbar and to choose its commands, for example to remove **Import** when workflows are loaded only by your application.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -59,7 +58,7 @@ const toolbarSettings: WorkflowProps['toolbarSettings'] = { visible: true, items
 
 ## Canvas toolbar
 
-The canvas toolbar floats at the bottom of the canvas and contains the commands used while editing. Use the [`canvasToolbarSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#canvastoolbarsettings) property to show or hide it and to choose its commands.
+The canvas toolbar floats at the bottom of the canvas and contains the commands used while editing. Use the [`canvasToolbarSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#canvastoolbarsettings) property to show or hide it and to choose its commands.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -101,7 +100,7 @@ const canvasToolbarSettings: WorkflowProps['canvasToolbarSettings'] = { items: [
 
 ## Step collection
 
-The step collection is the panel that users pick new steps from. It opens when the user adds a step, for example from the **Add** command or the add handle of a step, and is collapsed otherwise. Use the [`stepCollectionSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#stepcollectionsettings) property to choose which steps are offered, for example to hide AI steps from users who don't have access to an AI service.
+The step collection is the panel that users pick new steps from. It opens when the user adds a step, for example from the **Add** command or the add handle of a step, and is collapsed otherwise. Use the [`stepCollectionSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#stepcollectionsettings) property to choose which steps are offered, for example to hide AI steps from users who don't have access to an AI service.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -147,7 +146,7 @@ N> The category settings only change what users can add. Steps of a hidden type 
 
 ### Show the step collection from code
 
-The [`showStepCollectionPalette`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#showstepcollectionpalette) method opens or closes the step collection, for example from a button in your own toolbar. Pass `true` to show it and `false` to hide it. Only the panel's visibility changes; the workflow, selection, zoom, and scroll position are kept.
+The [`showStepCollectionPalette`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#showstepcollectionpalette) method opens or closes the step collection, for example from a button in your own toolbar. Pass `true` to show it and `false` to hide it. Only the panel's visibility changes; the workflow, selection, zoom, and scroll position are kept.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -211,7 +210,7 @@ Calling the method with the current state has no effect. Showing the step collec
 
 ## Property panel
 
-The property panel displays the editor of the selected step or connection. Use the [`propertyPanelSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#propertypanelsettings) property to control whether it's available and when it opens.
+The property panel displays the editor of the selected step or connection. Use the [`propertyPanelSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#propertypanelsettings) property to control whether it's available and when it opens.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -245,7 +244,7 @@ N> Selecting a sticky note doesn't open the property panel. Users edit a sticky 
 
 The execution log is docked below the canvas. During a run, it lists the progress, status, input, and output of each step, and users can select a row to inspect the data at that step. The log is collapsed when the designer is first displayed; users can expand it, search it, and clear it.
 
-Use the [`executionLogSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#executionlogsettings) property to configure the log.
+Use the [`executionLogSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#executionlogsettings) property to configure the log.
 
 | Property | Type | Default | Description |
 |---|---|---|---|
@@ -276,7 +275,7 @@ N> Changing `executionLogSettings` after the designer is rendered rebuilds the l
 
 ## Canvas
 
-Use the [`workflowSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer/#workflowsettings) property to configure how users interact with the canvas.
+Use the [`workflowSettings`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#workflowsettings) property to configure how users interact with the canvas.
 
 | Property | Type | Default | Description |
 |---|---|---|---|

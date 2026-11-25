@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Webhook trigger in JavaScript Workflow Designer control | Syncfusion®
+title: JavaScript Workflow Designer Webhook Trigger | Syncfusion®
 description: Learn how to start a workflow from a webhook that your backend receives, by using the Webhook Trigger step of the Syncfusion JavaScript Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Webhook Trigger in EJ2 JavaScript Workflow Designer
 
-A Webhook Trigger step starts the workflow when an external system calls your backend, for example when an online store reports a new order. The Workflow Designer doesn't receive HTTP requests itself, because it runs in the browser. Instead, your backend verifies the request and forwards it to the page, for example over SignalR or WebSockets, and the page passes it to the [`triggerWebhook`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer/#triggerwebhook) method.
+A Webhook Trigger step starts the workflow when an external system calls your backend, for example when an online store reports a new order. The Workflow Designer doesn't receive HTTP requests itself, because it runs in the browser. Instead, your backend verifies the request and forwards it to the page, for example over SignalR or WebSockets, and the page passes it to the [`triggerWebhook`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#triggerwebhook) method.
 
 ## Configure the trigger
 

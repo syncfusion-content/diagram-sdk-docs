@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Connections and ports in React Workflow Designer control | Syncfusion®
+title: React Workflow Designer Connections and Ports | Syncfusion®
 description: Learn how connections link workflow steps through input and output ports, and which connection rules the Syncfusion React Workflow Designer enforces.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Expressions and the variable picker in Angular Workflow Designer | Syncfusion®
+title: Angular Workflow Designer Expressions and Variables | Syncfusion®
 description: Learn how workflow steps read data from earlier steps with expressions and the variable picker in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

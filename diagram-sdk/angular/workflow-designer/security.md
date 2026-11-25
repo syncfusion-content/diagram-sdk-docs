@@ -4,7 +4,6 @@ title: Security considerations in Angular Workflow Designer | Syncfusion®
 description: Learn how to handle credentials, network requests, and imported workflows securely in the Syncfusion Angular Workflow Designer.
 platform: diagram-sdk
 control: Workflow Designer
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
