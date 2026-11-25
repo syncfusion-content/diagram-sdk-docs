@@ -14,7 +14,7 @@ The Workflow Designer supports keyboard navigation and provides Accessible Rich 
 
 ## Keyboard shortcuts
 
-The following shortcuts are available while focus is on the Workflow Designer. On macOS, use <kbd>âŒ˜</kbd> instead of <kbd>Ctrl</kbd>. Shortcuts aren't handled while focus is in a text field or a dialog, so they don't interfere with typing.
+The following shortcuts are available while focus is on the Workflow Designer. On macOS, use <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>. Shortcuts aren't handled while focus is in a text field or a dialog, so they don't interfere with typing.
 
 | Shortcut | Action |
 |---|---|
