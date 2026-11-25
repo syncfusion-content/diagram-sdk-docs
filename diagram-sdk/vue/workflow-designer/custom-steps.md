@@ -14,7 +14,7 @@ Custom steps add application-specific work to the step collection, such as check
 
 ## Define a custom step
 
-Add custom step definitions to the `custom` property of [`stepCollectionSettings`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#stepcollectionsettings). Each definition appears in the **Custom** category of the step collection. The category is hidden when no definition is provided.
+Add custom step definitions to the `custom` property of `stepCollectionSettings`. Each definition appears in the **Custom** category of the step collection. The category is hidden when no definition is provided.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -74,7 +74,7 @@ N> The `validation` rules are checked in the property panel while the user edits
 
 ## Run a custom step
 
-When a step created from a definition runs, the Workflow Designer triggers the [`customExecutionRequested`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#customexecutionrequested) event. Identify the definition with `args.step.customStepId`, read the field values from `args.step.props`, and then call `args.complete` with the result or `args.fail` with an error. The value passed to `complete` becomes the response of the step, so later steps can read it with expressions.
+When a step created from a definition runs, the Workflow Designer triggers the `customExecutionRequested` event. Identify the definition with `args.step.customStepId`, read the field values from `args.step.props`, and then call `args.complete` with the result or `args.fail` with an error. The value passed to `complete` becomes the response of the step, so later steps can read it with expressions.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

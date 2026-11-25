@@ -14,7 +14,7 @@ Workflows are saved and loaded as JSON, so you can store them in your database, 
 
 ## Export
 
-The [`exportWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer#exportworkflow) method returns the current workflow as a JSON string. Use it to save the workflow, for example when the user clicks your own **Save** button.
+The `exportWorkflow` method returns the current workflow as a JSON string. Use it to save the workflow, for example when the user clicks your own **Save** button.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -41,7 +41,7 @@ W> Other settings are exported as entered. Don't type secrets into other fields,
 
 ## Import
 
-The [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer#importworkflow) method replaces the current workflow with one loaded from a JSON string, a workflow object, or a `File`. It returns a promise that resolves when the workflow is loaded. The following example imports a file that the user selects.
+The `importWorkflow` method replaces the current workflow with one loaded from a JSON string, a workflow object, or a `File`. It returns a promise that resolves when the workflow is loaded. The following example imports a file that the user selects.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

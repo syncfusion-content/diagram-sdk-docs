@@ -135,11 +135,11 @@ export default {
 
 In this example:
 
-* The [`width`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#height) properties set the size of the Workflow Designer. Both accept a number of pixels or any CSS length, and both default to `'100%'`.
+* The `width` and `height` properties set the size of the Workflow Designer. Both accept a number of pixels or any CSS length, and both default to `'100%'`.
 
 ## Load a workflow
 
-A workflow is a JSON object that contains steps, the connections between them, and optional sticky notes. Use the [`importWorkflow`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#importworkflow) method to load a workflow definition into the Workflow Designer.
+A workflow is a JSON object that contains steps, the connections between them, and optional sticky notes. Use the `importWorkflow` method to load a workflow definition into the Workflow Designer.
 
 The following example loads an order-check workflow that reads an order from an API and branches on whether it's paid.
 
@@ -179,7 +179,7 @@ N> The sample uses a placeholder URL, so the **Get order** step fails and the ex
 
 ## Destroy the Workflow Designer
 
-Call the [`destroy`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#destroy) method when the Workflow Designer is no longer needed, for example when the user leaves the page in a single-page application. It stops any active run, removes the designer from the page, and releases the resources it uses. To keep the current workflow, call `exportWorkflow` before you destroy the designer.
+Call the `destroy` method when the Workflow Designer is no longer needed, for example when the user leaves the page in a single-page application. It stops any active run, removes the designer from the page, and releases the resources it uses. To keep the current workflow, call `exportWorkflow` before you destroy the designer.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

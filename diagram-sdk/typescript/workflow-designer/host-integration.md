@@ -14,13 +14,13 @@ Some steps need work that only your application can do, such as sending an email
 
 ## Complete a step from your application
 
-The [`notifyRequested`](https://ej2.syncfusion.com/documentation/api/workflow-designer#notifyrequested) and [`customExecutionRequested`](https://ej2.syncfusion.com/documentation/api/workflow-designer#customexecutionrequested) events pause the step until your handler reports the outcome. Their arguments contain the following members:
+The `notifyRequested` and `customExecutionRequested` events pause the step until your handler reports the outcome. Their arguments contain the following members:
 
 | Member | Description |
 |---|---|
 | `complete(result)` | Finishes the step successfully. The value you pass becomes the response of the step, which later steps can read. |
 | `fail(error)` | Fails the step with the given `Error`. The step is reported as failed in the execution log and in the `executionStepFailed` event. |
-| `signal` | Specifies an `AbortSignal` that's aborted when the run is stopped or the step times out. Pass it to your own requests so that they're cancelled too. |
+| `signal` | Specifies an `AbortSignal` that's aborted when the run is stopped or the step times out. Pass it to your own requests so that they're canceled too. |
 
 Only the first call to `complete` or `fail` takes effect. The step waits until one of them is called, the step times out, or the run is stopped.
 
@@ -84,7 +84,7 @@ Keep production secrets on your server. Workflows save only credential names, ne
 
 ## Intercept requests
 
-The [`beforeRequestSend`](https://ej2.syncfusion.com/documentation/api/workflow-designer#beforerequestsend) event triggers before every request that an API Request step, an AI step, or AI Assist sends. Use it as a single policy point for outgoing traffic, for example to allow only your own hosts or to add authentication.
+The `beforeRequestSend` event triggers before every request that an API Request step, an AI step, or AI Assist sends. Use it as a single policy point for outgoing traffic, for example to allow only your own hosts or to add authentication.
 
 | Property | Description |
 |---|---|
@@ -129,9 +129,9 @@ The following events report what happens while users build a workflow. Use them 
 
 | Event | Description |
 |---|---|
-| [`created`](https://ej2.syncfusion.com/documentation/api/workflow-designer#created) | Triggers once after the Workflow Designer has finished rendering. Use it to load the first workflow or to call other methods safely. |
-| [`workflowChanged`](https://ej2.syncfusion.com/documentation/api/workflow-designer#workflowchanged) | Triggers after the workflow changes, whether the change is made in the user interface, through `importWorkflow`, or with the add, update, and remove methods. Its arguments contain a `workflow` snapshot, the `changeType`, the `affectedItem`, and the `changedProperties`. |
-| [`selectionChanged`](https://ej2.syncfusion.com/documentation/api/workflow-designer#selectionchanged) | Triggers when the selection on the canvas changes. Its `selectedItem` argument contains the selected step, connection, or sticky note, or `null` when the selection is cleared. |
+| `created` | Triggers once after the Workflow Designer has finished rendering. Use it to load the first workflow or to call other methods safely. |
+| `workflowChanged` | Triggers after the workflow changes, whether the change is made in the user interface, through `importWorkflow`, or with the add, update, and remove methods. Its arguments contain a `workflow` snapshot, the `changeType`, the `affectedItem`, and the `changedProperties`. |
+| `selectionChanged` | Triggers when the selection on the canvas changes. Its `selectedItem` argument contains the selected step, connection, or sticky note, or `null` when the selection is cleared. |
 
 The `changeType` argument of the `workflowChanged` event has one of the following values.
 

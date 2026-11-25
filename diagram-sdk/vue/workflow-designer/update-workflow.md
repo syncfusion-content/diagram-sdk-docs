@@ -14,9 +14,9 @@ The Workflow Designer provides methods that change the workflow from code, witho
 
 | Method | Description |
 |---|---|
-| [`addWorkflowItem`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#addworkflowitem) | Adds a step, connection, or sticky note to the workflow and returns `true` when it's added. |
-| [`updateWorkflowItem`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#updateworkflowitem) | Changes the properties of an existing item and returns `true` when it's updated. |
-| [`removeWorkflowItem`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#removeworkflowitem) | Removes an item, and the connections of a removed step, and returns `true` when it's removed. |
+| `addWorkflowItem` | Adds a step, connection, or sticky note to the workflow and returns `true` when it's added. |
+| `updateWorkflowItem` | Changes the properties of an existing item and returns `true` when it's updated. |
+| `removeWorkflowItem` | Removes an item, and the connections of a removed step, and returns `true` when it's removed. |
 
 Each successful call triggers the `workflowChanged` event, whose `changeType` identifies the change, such as `StepAdded` or `ConnectionRemoved`. See [Edit-time events](./host-integration#edit-time-events).
 
@@ -373,7 +373,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-The method returns `false`, and the workflow is unchanged, when the workflow is read-only, no item has the given identifier, or the removal is cancelled.
+The method returns `false`, and the workflow is unchanged, when the workflow is read-only, no item has the given identifier, or the removal is canceled.
 
 ## Respond to changes
 

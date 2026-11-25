@@ -16,7 +16,7 @@ Both defaults are callbacks. Each callback receives a copy of a step or connecti
 
 ## Step defaults
 
-The [`stepDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#stepdefaults) property assigns default `size` and `appearance` values to workflow steps. It's applied to every step: steps that users add, steps loaded with `importWorkflow`, and steps added with `addWorkflowItem`. Only the `size` and `appearance` values of the returned step are read.
+The `stepDefaults` property assigns default `size` and `appearance` values to workflow steps. It's applied to every step: steps that users add, steps loaded with `importWorkflow`, and steps added with `addWorkflowItem`. Only the `size` and `appearance` values of the returned step are read.
 
 The following example sets one size for every step and colors the steps by category.
 
@@ -46,7 +46,7 @@ The `size` object (`WorkflowSize`) has a `width` and a `height` in pixels. Set a
 
 ## Connection defaults
 
-The [`connectionDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/workflow-designer#connectiondefaults) property assigns default `type`, `style`, `sourceDecorator`, and `targetDecorator` values to workflow connections. Use it to give every connection a consistent look, or to style a connection by the port it leaves from.
+The `connectionDefaults` property assigns default `type`, `style`, `sourceDecorator`, and `targetDecorator` values to workflow connections. Use it to give every connection a consistent look, or to style a connection by the port it leaves from.
 
 | Value | Description |
 |---|---|

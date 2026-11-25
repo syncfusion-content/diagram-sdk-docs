@@ -14,7 +14,7 @@ The Workflow Designer validates the workflow before every run, so that problems 
 
 ## Validate a workflow
 
-The [`validateWorkflow`](https://ej2.syncfusion.com/vue/documentation/api/workflow-designer#validateworkflow) method validates the current workflow without running it and returns a `WorkflowValidationResult`. Use it to check a workflow before you save or publish it.
+The `validateWorkflow` method validates the current workflow without running it and returns a `WorkflowValidationResult`. Use it to check a workflow before you save or publish it.
 
 | Property | Description |
 |---|---|

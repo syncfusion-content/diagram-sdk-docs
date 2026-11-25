@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Webhook Trigger in React Workflow Designer
 
-A Webhook Trigger step starts the workflow when an external system calls your backend, for example when an online store reports a new order. The Workflow Designer doesn't receive HTTP requests itself, because it runs in the browser. Instead, your backend verifies the request and forwards it to the page, for example over SignalR or WebSockets, and the page passes it to the [`triggerWebhook`](https://ej2.syncfusion.com/react/documentation/api/workflow-designer#triggerwebhook) method.
+A Webhook Trigger step starts the workflow when an external system calls your backend, for example when an online store reports a new order. The Workflow Designer doesn't receive HTTP requests itself, because it runs in the browser. Instead, your backend verifies the request and forwards it to the page, for example over SignalR or WebSockets, and the page passes it to the `triggerWebhook` method.
 
 ## Configure the trigger
 

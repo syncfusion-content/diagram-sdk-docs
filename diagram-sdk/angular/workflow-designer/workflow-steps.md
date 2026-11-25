@@ -90,7 +90,7 @@ The `FormInputTrigger` step shows a form when the run starts and passes the subm
 | `formTitle` | Specifies the title of the form dialog. |
 | `fields` | Specifies the form fields. Each field has a `name`, a `type`, a `label`, and optionally a `placeholder`, a `defaultValue`, `required`, and `options` for choice fields. |
 
-The supported field types are `'TextBox'`, `'TextArea'`, `'Number'`, `'Date'`, `'Password'`, `'Email'`, `'DropDown'`, `'CheckBoxes'`, and `'RadioButton'`. The submitted values become the response of the trigger, so later steps read them with expressions such as `$.nodes["expenseForm"].response.amount`. Cancelling the form ends the run.
+The supported field types are `'TextBox'`, `'TextArea'`, `'Number'`, `'Date'`, `'Password'`, `'Email'`, `'DropDown'`, `'CheckBoxes'`, and `'RadioButton'`. The submitted values become the response of the trigger, so later steps read them with expressions such as `$.nodes["expenseForm"].response.amount`. Canceling the form ends the run.
 
 ## Actions
 
@@ -231,7 +231,7 @@ The `AI` step sends a prompt to an AI provider and passes the answer to the next
 |---|---|---|
 | `serverUrl` | **Server URL** | Specifies your backend endpoint, which receives the request and calls the AI provider. Shown when `credentialMode` is `'Reference'` (the default). |
 | `provider` | **Provider** | Specifies the AI provider: `'Gemini'`, `'OpenAI'`, or `'Claude'`. Shown when `credentialMode` is `'Inline'`. |
-| `model` | **Model** | Specifies the model name, such as `'gemini-2.5-flash'`. Shown when `credentialMode` is `'Inline'`. |
+| `model` | **Model** | Specifies the model name, such as the Gemini model ID `gemini-2.5-flash`. Shown when `credentialMode` is `'Inline'`. |
 | `apiKey` | **API Key** | Specifies a provider key that the browser uses directly. Shown when `credentialMode` is `'Inline'`. It's never exported, so use it for development only. |
 | `systemPrompt`, `prompt` | **System Prompt**, **Prompt** | Specify the instructions and the prompt. Both accept expressions, so the prompt can include data from earlier steps. |
 | `outputFormat` | **Output Format** | Specifies the format of the answer: `'Text'`, `'JSON'`, or `'Markdown'`. |

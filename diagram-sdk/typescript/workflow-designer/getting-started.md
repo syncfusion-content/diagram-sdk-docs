@@ -130,14 +130,14 @@ designer.appendTo('#workflowDesigner');
 
 In this example:
 
-* The [`width`](https://ej2.syncfusion.com/documentation/api/workflow-designer#width) and [`height`](https://ej2.syncfusion.com/documentation/api/workflow-designer#height) properties set the size of the Workflow Designer. Both accept a number of pixels or any CSS length, and both default to `'100%'`.
+* The `width` and `height` properties set the size of the Workflow Designer. Both accept a number of pixels or any CSS length, and both default to `'100%'`.
 * The `appendTo` method renders the Workflow Designer in the element that matches the given selector.
 
 N> Make sure that the application entry point, for example `src/index.ts`, imports `src/app/app.ts`, so that the Workflow Designer is created when the application loads.
 
 ## Load a workflow
 
-A workflow is a JSON object that contains steps, the connections between them, and optional sticky notes. Use the [`importWorkflow`](https://ej2.syncfusion.com/documentation/api/workflow-designer#importworkflow) method to load a workflow definition into the Workflow Designer.
+A workflow is a JSON object that contains steps, the connections between them, and optional sticky notes. Use the `importWorkflow` method to load a workflow definition into the Workflow Designer.
 
 The following example loads an order-check workflow that reads an order from an API and branches on whether it's paid.
 
@@ -179,7 +179,7 @@ If `npm start` fails, run `npm install` again to make sure that all dependencies
 
 ## Destroy the Workflow Designer
 
-Call the [`destroy`](https://ej2.syncfusion.com/documentation/api/workflow-designer#destroy) method when the Workflow Designer is no longer needed, for example when the user leaves the page in a single-page application. It stops any active run, removes the designer from the page, and releases the resources it uses. To keep the current workflow, call `exportWorkflow` before you destroy the designer.
+Call the `destroy` method when the Workflow Designer is no longer needed, for example when the user leaves the page in a single-page application. It stops any active run, removes the designer from the page, and releases the resources it uses. To keep the current workflow, call `exportWorkflow` before you destroy the designer.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}

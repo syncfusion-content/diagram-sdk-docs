@@ -24,9 +24,9 @@ The following methods start and stop runs from code.
 
 | Method | Description |
 |---|---|
-| [`runExecution`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#runexecution) | Validates the workflow and runs it from a trigger. It returns a promise that resolves with the `WorkflowExecutionResult` when the run ends. |
-| [`stopExecution`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#stopexecution) | Stops the run in progress. The `executionCompleted` event is then triggered with `result.status` set to `'Stopped'`. |
-| [`triggerWebhook`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#triggerwebhook) | Starts a run from a Webhook Trigger step with a webhook message that your backend received. See [Webhook trigger](./webhook-trigger). |
+| `runExecution` | Validates the workflow and runs it from a trigger. It returns a promise that resolves with the `WorkflowExecutionResult` when the run ends. |
+| `stopExecution` | Stops the run in progress. The `executionCompleted` event is then triggered with `result.status` set to `'Stopped'`. |
+| `triggerWebhook` | Starts a run from a Webhook Trigger step with a webhook message that your backend received. See [Webhook trigger](./webhook-trigger). |
 
 The `runExecution` method accepts the following optional arguments:
 
@@ -103,7 +103,7 @@ The `WorkflowExecutionResult` object describes the outcome of a run. It's return
 | `'Completed'` | Every path of the run finished. |
 | `'Failed'` | A step failed, or the workflow didn't pass validation. For a validation failure, `result.error.type` is `'Validation'`, and `result.error.details` lists the validation messages. |
 | `'Stopped'` | The user clicked **Stop**, or your code called `stopExecution`. |
-| `'Cancelled'` | The run was cancelled before one of its steps ran. |
+| `'Cancelled'` | The run was canceled before one of its steps ran. |
 
 ## Execution events
 
@@ -111,11 +111,11 @@ The Workflow Designer triggers the following events during a run. Use them to sh
 
 | Event | Description |
 |---|---|
-| [`executionStarted`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executionstarted) | Triggers when a run starts, after the workflow passes validation. Its `workflow` argument contains the workflow being run. |
-| [`executionStepStarted`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executionstepstarted) | Triggers when the run reaches a step, before the step runs. Its arguments contain the `step`, the `stepResults` so far, the `previousStep`, the `incomingConnection`, and the `outgoingConnections`. |
-| [`executionStepCompleted`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executionstepcompleted) | Triggers after a step completes. Its `result` argument contains the step's response, and `outputPort` tells you which port the run continues from, which identifies the branch taken by Condition and Switch steps. |
-| [`executionStepFailed`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executionstepfailed) | Triggers when a step fails. Its `error` argument contains the `code` and `message` of the failure. |
-| [`executionCompleted`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executioncompleted) | Triggers once when a run ends, whatever the outcome, including a stopped run and a run that doesn't start because validation found errors. Its `result` argument contains the `WorkflowExecutionResult`. |
+| `executionStarted` | Triggers when a run starts, after the workflow passes validation. Its `workflow` argument contains the workflow being run. |
+| `executionStepStarted` | Triggers when the run reaches a step, before the step runs. Its arguments contain the `step`, the `stepResults` so far, the `previousStep`, the `incomingConnection`, and the `outgoingConnections`. |
+| `executionStepCompleted` | Triggers after a step completes. Its `result` argument contains the step's response, and `outputPort` tells you which port the run continues from, which identifies the branch taken by Condition and Switch steps. |
+| `executionStepFailed` | Triggers when a step fails. Its `error` argument contains the `code` and `message` of the failure. |
+| `executionCompleted` | Triggers once when a run ends, whatever the outcome, including a stopped run and a run that doesn't start because validation found errors. Its `result` argument contains the `WorkflowExecutionResult`. |
 
 N> The arguments of the step events are copies, so changing them doesn't change the run.
 
@@ -132,7 +132,7 @@ The following example logs failed steps and the final status of each run.
 
 ## Execution speed
 
-The `executionSpeed` property of [`executionSettings`](https://ej2.syncfusion.com/angular/documentation/api/workflow-designer#executionsettings) sets the pause, in milliseconds, before each step runs. The pause lets users follow the progress of a run on the canvas. The default value is `550`.
+The `executionSpeed` property of `executionSettings` sets the pause, in milliseconds, before each step runs. The pause lets users follow the progress of a run on the canvas. The default value is `550`.
 
 * A higher value slows the run down, which suits demonstrations and training.
 * A lower value shortens the pause between steps.

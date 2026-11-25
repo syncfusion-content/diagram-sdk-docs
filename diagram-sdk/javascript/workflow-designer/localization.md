@@ -275,14 +275,14 @@ The following table lists all 474 localization keys and their default English te
 | `scheduleTypeInvalid` | scheduleType must be Once, Recurring, or Cron. |
 | `networkRequestFailed` | Network request failed. |
 | `apiResponseTooLarge` | The response is larger than 5 MB and was not read. |
-| `requestCancelled` | The request was cancelled by the beforeRequestSend event. |
+| `requestCancelled` | The request was canceled by the beforeRequestSend event. |
 | `apiUrlRequired` | ApiRequest requires a URL. |
 | `apiUrlProtocol` | URL must use http:// or https://. |
 | `retryingStep` | Retrying step. |
 | `approvalHostRequired` | Approval decision requires a host implementation via promptApproval. |
 | `upstreamDataMissingItemsPath` | Required upstream data is missing for itemsPath. |
 | `upstreamDataMissingPath` | Required upstream data is missing for {0}. |
-| `formInputCancelled` | Form input cancelled. |
+| `formInputCancelled` | Form input canceled. |
 | `workflowValidationFailed` | Workflow validation failed. |
 | `executionStartedMessage` | Execution started. |
 | `executionFailedMessage` | Execution failed. |
@@ -502,7 +502,7 @@ The following table lists all 474 localization keys and their default English te
 | `runAnnounceCompleted` | Run completed. |
 | `runAnnounceFailed` | Run failed. See the execution log for details. |
 | `runAnnounceStopped` | Run stopped. |
-| `runAnnounceCancelled` | Run cancelled. |
+| `runAnnounceCancelled` | Run canceled. |
 | `stepAccessibleName` | {0}, {1} step |
 | `connectionAccessibleName` | Connection from {0} to {1} |
 | `stickyNoteAccessibleName` | Sticky note: {0} |
