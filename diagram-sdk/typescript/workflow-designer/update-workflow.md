@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Add, Update, and Remove Workflow Items in EJ2 TypeScript Workflow Designer
+# Update Workflow Items in TypeScript Workflow Designer
 
 The Workflow Designer provides methods that change the workflow from code, without exporting and importing it. Use them to build a workflow step by step, to apply changes from your own user interface, or to keep the workflow in sync with data in your application. Each method works on steps, connections, and sticky notes, which are identified by their unique `id`.
 

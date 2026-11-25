@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
-# Expressions and the Variable Picker in EJ2 TypeScript Workflow Designer
+# Expressions and the Variable Picker in TypeScript Workflow Designer
 
 During a run, each step can read the data that earlier steps produced, such as the body of an API response or the values submitted in a form. Step settings refer to that data with expressions, which the Workflow Designer resolves just before the step runs. The variable picker in the property panel inserts the right expression for a value, so users don't need to type paths by hand.
 

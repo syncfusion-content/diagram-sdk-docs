@@ -111,7 +111,7 @@ The step collection is the panel that users pick new steps from. It opens when t
 | `human` | `WorkflowHumanStepType[]` | `undefined` | Specifies the human steps that are listed: `Approve` and `Notify`. An empty array hides the category. |
 | `ai` | `WorkflowAIStepType[]` | `undefined` | Specifies the AI steps that are listed. An empty array hides the category. |
 | `output` | `WorkflowOutputStepType[]` | `undefined` | Specifies the output steps that are listed: `Formatter` and `End`. An empty array hides the category. |
-| `custom` | `WorkflowCustomStepDefinition[]` | `[]` | Specifies the application-defined steps listed in the **Custom** category. The category is hidden when no custom step is defined. For details, see [Custom steps](./custom-steps). |
+| `custom` | `WorkflowCustomStepDefinition[]` | `empty array` | Specifies the application-defined steps listed in the **Custom** category. The category is hidden when no custom step is defined. For details, see [Custom steps](./custom-steps). |
 
 The following example offers only the manual and form triggers and hides the AI category.
 
