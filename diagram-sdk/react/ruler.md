@@ -104,7 +104,6 @@ The following code demonstrates how to configure the ruler measurement unit init
       // Display the ruler values in centimeters.
       rulerSettings={{ showRulers: true, measurementUnit: 'Centimeter' }}
     ></DiagramComponent>
-}
 ```
 {% endraw %}
 
