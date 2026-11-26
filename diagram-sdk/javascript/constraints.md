@@ -17,7 +17,7 @@ To know more about Bitwise operators, refer to [`Bitwise Operations`](#bitwise-o
 
 ## Diagram constraints
 
-[`Diagram constraints`](../api/diagram/diagramconstraints) allows you to enable or disable the following behaviors:
+[`Diagram constraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramconstraints) allows you to enable or disable the following behaviors:
 
 The following table displays the list of all diagram constraints.
 
@@ -67,7 +67,7 @@ var diagram = new ej.diagrams.Diagram({
 
 ```
 
-For more information about diagram constraints, refer to [`DiagramConstraints`](../api/diagram/diagramConstraints).
+For more information about diagram constraints, refer to [`DiagramConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramConstraints).
 
 N> By default, the following constraints are enabled in the diagram,
 <br/>* Zoom
@@ -161,7 +161,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs1" %}
 
-For more information about node constraints, refer to [`NodeConstraints`](../api/diagram/nodeConstraints).
+For more information about node constraints, refer to [`NodeConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints).
 
 N>By default, the following constraints are enabled for the node,
 <br/>* Select
@@ -283,7 +283,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs2" %}
 
-For more information about connector constraints, refer to [`ConnectorConstraints`](../api/diagram/connectorConstraints).
+For more information about connector constraints, refer to [`ConnectorConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorConstraints).
 
 N>By default, the following constraints are enabled for the connector,
 <br/>* Select
@@ -368,7 +368,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs3" %}
 
-For more information about port constraints, refer to [`PortConstraints`](../api/diagram/portConstraints).
+For more information about port constraints, refer to [`PortConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/portConstraints).
 
 N> By default, the following constraints are enabled for the port,
 <br/>* InConnect
@@ -440,7 +440,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs4" %}
 
-For more details about annotation constraints, refer to [`AnnotationConstraints`](../api/diagram/annotationConstraints#AnnotationConstraints).
+For more details about annotation constraints, refer to [`AnnotationConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationConstraints#AnnotationConstraints).
 
 ## Selector constraints
 
@@ -505,7 +505,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs5" %}
 
-For more information about selector constraints, refer to [`SelectorConstraints`](../api/diagram/selectorConstraints).
+For more information about selector constraints, refer to [`SelectorConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/selectorConstraints).
 
 N> By default, the following constraints are enabled for the selected items,
 <br/>* Rotate
@@ -564,7 +564,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs6" %}
 
-For more information about snap constraints, refer to [`SnapConstraints`](../api/diagram/snapConstraints).
+For more information about snap constraints, refer to [`SnapConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/snapConstraints).
 
 N> By default, the following constraints are enabled for the snap functionality in the diagram,
 <br/>* ShowLines
@@ -611,7 +611,7 @@ Refer sample below
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs7" %}
 
-For more information about selector constraints, refer to [`BoundaryConstraints`](../api/diagram/boundaryConstraints).
+For more information about selector constraints, refer to [`BoundaryConstraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/boundaryConstraints).
 
 ## Inherit behaviors
 

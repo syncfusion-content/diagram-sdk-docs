@@ -19,21 +19,6 @@ A Container is a group of logically related shapes surrounded by a visible bound
 
 The following code illustrates how to create a container node:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/container-1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/container-1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/container-1/index.js %}
@@ -45,28 +30,11 @@ The following code illustrates how to create a container node:
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
 
-{% endif %}
-
 ### Setting a Header
 
 You can provide a textual description for a container using its [header](https://ej2.syncfusion.com/documentation/api/diagram/ContainerModel#header) property. Also, users can customize the header's appearance using the header's [style](https://ej2.syncfusion.com/documentation/api/diagram/HeaderModel#style) property.
 
 The following code example explains how to define a container header and its customization:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/container-2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/container-2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,8 +46,6 @@ The following code example explains how to define a container header and its cus
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
-
-{% endif %}
 
 N> You can edit the header by double-clicking the region of the container's header.
 

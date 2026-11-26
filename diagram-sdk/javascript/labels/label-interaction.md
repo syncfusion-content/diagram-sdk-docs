@@ -30,7 +30,7 @@ The [`constraints`](../constraints#Annotation-Constraints) property of annotatio
 
 ## Annotation rotation
 
-The [`rotationReference`](../../api/diagram/shapeAnnotationModel#rotationreference) property of an annotation allows you to control whether the text should rotate relative to its parent node or the Page. The following code examples illustrate how to configure rotationReference for an annotation.
+The [`rotationReference`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeAnnotationModel#rotationreference) property of an annotation allows you to control whether the text should rotate relative to its parent node or the Page. The following code examples illustrate how to configure rotationReference for an annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -50,7 +50,7 @@ The [`rotationReference`](../../api/diagram/shapeAnnotationModel#rotationreferen
 
 ### Read-only annotations
 
-Diagram allows to create read-only annotations. You have to set the read-only constraints to the annotation's [`constraints`](../../api/diagram/annotationModel#constraints-annotationconstraints). property. The following code illustrates how to enable read-only mode.
+Diagram allows to create read-only annotations. You have to set the read-only constraints to the annotation's [`constraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#constraints-annotationconstraints). property. The following code illustrates how to enable read-only mode.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -68,7 +68,7 @@ Diagram allows to create read-only annotations. You have to set the read-only co
 Diagram provides support to edit an annotation at runtime, either programmatically or interactively. By default, annotation is in view mode. But it can be brought to edit mode in two ways;
 
 ### Programmatically
-By using [`startTextEdit`](../../api/diagram#starttextedit) method, edit the text through programmatically.
+By using [`startTextEdit`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#starttextedit) method, edit the text through programmatically.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -85,13 +85,13 @@ By using [`startTextEdit`](../../api/diagram#starttextedit) method, edit the tex
     1. By double-clicking the annotation.
     2. By selecting the item and pressing the F2 key.
 
-Double-clicking any annotation will enables editing mode. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](../../api/diagram#doubleclick) event gets triggered.
+Double-clicking any annotation will enables editing mode. When the focus of editor is lost, the annotation for the node is updated. When you double-click on the node/connector/diagram model, the [`doubleClick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#doubleclick) event gets triggered.
 
 ## Drag Limit
 
-* The JavaScript Diagram control now supports defining the [`dragLimit`](../../api/diagram/annotationModel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
+* The JavaScript Diagram control now supports defining the [`dragLimit`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#draglimit) to the label while dragging from the connector and also update the position to the nearest segment offset.
 
-* You can set the value to dragLimit [`left`](../../api/diagram/marginModel#left), [`right`](../../api/diagram/marginModel#right), [`top`](../../api/diagram/marginModel#top), and [`bottom`](../../api/diagram/marginModel#bottom) properties which allow the dragging of connector labels to a certain limit based on the user defined values.
+* You can set the value to dragLimit [`left`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel#left), [`right`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel#right), [`top`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel#top), and [`bottom`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel#bottom) properties which allow the dragging of connector labels to a certain limit based on the user defined values.
 
 * By default, drag limit will be disabled for the connector. It can be enabled by setting connector constraints as drag.
 

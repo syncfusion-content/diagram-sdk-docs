@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Orientation, spacings, and alignment of the layout can be customized with a set of properties.
 
-To explore layout properties, refer to [`Layout Properties`](../../api/diagram/layoutmodel#properties).
+To explore layout properties, refer to [`Layout Properties`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutmodel#properties).
 
 ## Layout bounds
 
@@ -32,12 +32,12 @@ The following example shows how to align the layout within the given layout boun
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cust2" %}
 
-For more information about bounds, refer to [`bounds`](../../api/diagram/layoutModel#bounds).
+For more information about bounds, refer to [`bounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#bounds).
 
 
 ## Layout alignment
 
-The layout can be aligned anywhere over the layout bounds/viewport using the [`horizontalAlignment`](../../api/diagram/layoutmodel#horizontalalignment) and [`verticalAlignment`](../../api/diagram/layoutmodel#verticalalignment) properties of the layout.
+The layout can be aligned anywhere over the layout bounds/viewport using the [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutmodel#horizontalalignment) and [`verticalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutmodel#verticalalignment) properties of the layout.
 
 The following code illustrates how to align the layout and how to change layout horizontal and vertical alignment at runtime.
 
@@ -54,7 +54,7 @@ The following code illustrates how to align the layout and how to change layout 
 
 ## Layout spacing
 
-Layout provides support to add space horizontally and vertically between the nodes. The [`horizontalSpacing`](../../api/diagram/layoutModel#horizontalspacing) and [`verticalSpacing`](../../api/diagram/layoutModel#verticalspacing) properties of the layout allows you to set the space between the nodes in horizontally and vertically.
+Layout provides support to add space horizontally and vertically between the nodes. The [`horizontalSpacing`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#horizontalspacing) and [`verticalSpacing`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#verticalspacing) properties of the layout allows you to set the space between the nodes in horizontally and vertically.
 
 The following code illustrates how to set the initial horizontal and vertical spacing for the layout, as well as how to change these spacing values at runtime
 
@@ -72,7 +72,7 @@ The following code illustrates how to set the initial horizontal and vertical sp
 
 ## Layout margin
 
-Layout provides support to add some blank space between the layout bounds/viewport and the layout. The [`margin`](../../api/diagram/layout#margin) property of the layout allows you to set the blank space.
+Layout provides support to add some blank space between the layout bounds/viewport and the layout. The [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layout#margin) property of the layout allows you to set the blank space.
 
 The following code demonstrates how to set the initial layout margin and how to modify the layout margin dynamically at runtime.
 
@@ -98,7 +98,7 @@ The layout orientation can used to arrange the layout based on the direction. th
 |BottomToTop|Aligns the layout from bottom to top. All the roots are placed at bottom of the diagram.|
 |RightToLeft|Aligns the layout from right to left. All the roots are placed at right of the diagram.|
 
-Diagram provides support to customize the  [`orientation`](../../api/diagram/layoutOrientation) of layout. You can set the desired orientation using layout.orientation.
+Diagram provides support to customize the  [`orientation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutOrientation) of layout. You can set the desired orientation using layout.orientation.
 
 N> In the diagram the default orientation is `TopToBottom`.
 
@@ -117,7 +117,7 @@ The following code demonstrates how to set the initial orientation for the layou
 
 ## Exclude from layout
 
-In some cases, you may need one or two nodes not to be arranged based on the layout algorithm but instead positioned manually. You can exclude these nodes from the layout algorithm by setting the [`excludeFromLayout`](../../api/diagram/nodeModel#excludefromlayout) property to true.
+In some cases, you may need one or two nodes not to be arranged based on the layout algorithm but instead positioned manually. You can exclude these nodes from the layout algorithm by setting the [`excludeFromLayout`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeModel#excludefromlayout) property to true.
 
 The following code example demonstrates how to exclude a node from the layout and position it manually:
 
@@ -134,7 +134,7 @@ The following code example demonstrates how to exclude a node from the layout an
 
 ## Fixed node
 
-Layout provides support to arrange the nodes with reference to the position of a fixed node and set it to the [`fixedNode`](../../api/diagram/layoutModel#fixednode) of the layout property. This is helpful when you try to expand/collapse a node. It might be expected that the position of the double-clicked node should not be changed.
+Layout provides support to arrange the nodes with reference to the position of a fixed node and set it to the [`fixedNode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#fixednode) of the layout property. This is helpful when you try to expand/collapse a node. It might be expected that the position of the double-clicked node should not be changed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -166,7 +166,7 @@ For more details about customizing the expand and collapse icon refer [`expand C
 
 ## Layout animation
 
-While performing expand and collapse operations, the layout can be animated by applying a small delay. This can be achieved by setting the [`enableAnimation`](../../api/diagram/layoutModel#enableanimation) property of the layout. By default, `enableAnimation` is set to true.
+While performing expand and collapse operations, the layout can be animated by applying a small delay. This can be achieved by setting the [`enableAnimation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#enableanimation) property of the layout. By default, `enableAnimation` is set to true.
 
 In the following example, the enableAnimation property ensures that the layout changes are animated, enhancing the visual experience during expand and collapse operations.
 
@@ -186,7 +186,7 @@ N> To enable layout animation, you need to inject LayoutAnimation module in diag
 
 ## Parent - child relation with dropped nodes from symbol palette
 
-You can create a layout with dropped nodes from symbol palette using the [`drop`](../../api/diagram#drop) event. In `drop` event, you have to create a connection between the source and target item.
+You can create a layout with dropped nodes from symbol palette using the [`drop`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drop) event. In `drop` event, you have to create a connection between the source and target item.
 
 Find the code example to create parent - child relation between source and target nodes in drop event.
 
@@ -205,12 +205,12 @@ Find the code example to create parent - child relation between source and targe
 
 ## setNodeTemplate
 
-The [`setNodeTemplate`](../../api/diagram#setnodetemplate) function allows you to customize the visual representation and behavior of nodes within your diagram. It is invoked during the initialization of each node, enabling you to define the node’s style, properties, and bind custom JSON data to it.
+The [`setNodeTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#setnodetemplate) function allows you to customize the visual representation and behavior of nodes within your diagram. It is invoked during the initialization of each node, enabling you to define the node’s style, properties, and bind custom JSON data to it.
 
-Typically, the `setNodeTemplate` function accepts a container element (e.g., StackPanel, Grid) to organize the visual components within the node. In the following example, a [`StackPanel`](../../api/diagram/stackPanel) is used to organize the node's content, with an [`ImageElement`](../../api/diagram/imageElement) displaying an image and a TextBlock showing text bound to the `Name` property of the node’s data. The StackPanel can contain a variety of elements, including [`PathElement`](../../api/diagram/pathElement), [`NativeElement`](../../api/diagram/diagramNativeElement), [`DiagramElement`](../../api/diagram/diagramElement) and [`HtmlElement`](../../api/diagram/diagramHtmlElement).
-You can also set the [`cornerRadius`](../../api/diagram/stackPanel#cornerradius) to create a rounded appearance for the node, while [`horizontalAlignment`](../../api/diagram/stackPanel#horizontalalignment) and [`verticalAlignment`](../../api/diagram/stackPanel#verticalalignment) control the positioning of the StackPanel within the node.
+Typically, the `setNodeTemplate` function accepts a container element (e.g., StackPanel, Grid) to organize the visual components within the node. In the following example, a [`StackPanel`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/stackPanel) is used to organize the node's content, with an [`ImageElement`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/imageElement) displaying an image and a TextBlock showing text bound to the `Name` property of the node’s data. The StackPanel can contain a variety of elements, including [`PathElement`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pathElement), [`NativeElement`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramNativeElement), [`DiagramElement`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramElement) and [`HtmlElement`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramHtmlElement).
+You can also set the [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/stackPanel#cornerradius) to create a rounded appearance for the node, while [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/stackPanel#horizontalalignment) and [`verticalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/stackPanel#verticalalignment) control the positioning of the StackPanel within the node.
 
- The [`orientation`](../../api/diagram/stackPanel#orientation) property determines whether child elements are arranged horizontally or vertically.By effectively utilizing the setNodeTemplate function, you can create visually appealing and informative nodes that enhance the overall user experience of your diagram.
+ The [`orientation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/stackPanel#orientation) property determines whether child elements are arranged horizontally or vertically.By effectively utilizing the setNodeTemplate function, you can create visually appealing and informative nodes that enhance the overall user experience of your diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -225,7 +225,7 @@ You can also set the [`cornerRadius`](../../api/diagram/stackPanel#cornerradius)
 
 ## Refresh layout
 
-Diagram allows refreshing the layout at runtime. To refresh the layout, you need to call the [`doLayout`](../../api/diagram#dolayout) method.
+Diagram allows refreshing the layout at runtime. To refresh the layout, you need to call the [`doLayout`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#dolayout) method.
 
 
 ```javascript

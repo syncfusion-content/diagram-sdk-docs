@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Exporting in JavaScript Diagram
 
-Diagram provides support to export its content as image/svg files. The [`exportDiagram`](../api/diagram/index-default#exportdiagram) method of diagram helps to export the diagram. The following code illustrates how to export the diagram as image.
+Diagram provides support to export its content as image/svg files. The [`exportDiagram`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#exportdiagram) method of diagram helps to export the diagram. The following code illustrates how to export the diagram as image.
 
 N> To Export diagram, you need to inject `PrintAndExport` in the diagram.
 
@@ -30,7 +30,7 @@ diagram.exportDiagram(options);
 
 ## Exporting options
 
-The JavaScript Diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](../api/diagram/iExportOptions) in diagram.
+The JavaScript Diagram provides support to export the desired region of the diagram to various formats. The following table shows the list of [`exportOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions) in diagram.
 
 | Name | Type | Description|
 |-------- | -------- | -------- |
@@ -48,11 +48,11 @@ The JavaScript Diagram provides support to export the desired region of the diag
 
 ### File Name
 
-[`FileName`](../api/diagram/iExportOptions#fileName) is the name of the file to be downloaded. By default, the file name is set to **Diagram**.
+[`FileName`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions#fileName) is the name of the file to be downloaded. By default, the file name is set to **Diagram**.
 
 ### Format
 
-[`Format`](../api/diagram/iExportOptions#format-fileformat) specifies the type/format of the exported file. By default, the diagram is exported in .jpg format. You can export the diagram to the following formats:
+[`Format`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions#format-fileformat) specifies the type/format of the exported file. By default, the diagram is exported in .jpg format. You can export the diagram to the following formats:
 
 * JPG
 * PNG
@@ -72,7 +72,7 @@ The JavaScript Diagram provides support to export the desired region of the diag
 
 ### Margin
 
-The [`margin`](../api/diagram/iExportOptions#margin-marginmodel) specifies the amount of space that has to be left around the diagram while exporting.
+The [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions#margin-marginmodel) specifies the amount of space that has to be left around the diagram while exporting.
 
 The following code example demonstrates how to set margin for the exported image.
 
@@ -89,7 +89,7 @@ The following code example demonstrates how to set margin for the exported image
 
 ### Mode
 
-The [`mode`](../api/diagram/iExportOptions#mode-exportmodes) option specifies whether to export the diagram as an image or to return the base64 data of the diagram. The available export modes are:
+The [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions#mode-exportmodes) option specifies whether to export the diagram as an image or to return the base64 data of the diagram. The available export modes are:
 
 * Download: Exports and downloads the diagram as an image or SVG file.
 * Data: Returns a base64 string representation of the diagram.
@@ -112,7 +112,7 @@ diagram.appendTo('#element');
 
 ### Region
 
-Exporting particular region of diagram is possible by using the [`region`](../api/diagram/iexportoptions#region) property of the [`exportOptions`](../api/diagram/iExportOptions). The available export regions are listed in the table below.
+Exporting particular region of diagram is possible by using the [`region`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iexportoptions#region) property of the [`exportOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions). The available export regions are listed in the table below.
 
 | Region | Description |
 |-------- | -------- |
@@ -133,11 +133,11 @@ The following example shows how to export diagram with different regions.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/export-cs-3" %}
 
-N> The [`bounds`](../api/diagram/iexportoptions#bounds) property of [`exportOptions`](../api/diagram/iExportOptions) should be defined to export the diagram with CustomBounds region.
+N> The [`bounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iexportoptions#bounds) property of [`exportOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iExportOptions) should be defined to export the diagram with CustomBounds region.
 
 ### MultiplePage
 
-When the [`multiplePage`](../api/diagram/iexportoptions#multiplepage) option is set to false, the diagram is exported as a single image. When it set to true, the diagram is exported as multiple images based on its width and height.
+When the [`multiplePage`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iexportoptions#multiplepage) option is set to false, the diagram is exported as a single image. When it set to true, the diagram is exported as multiple images based on its width and height.
 
 The following code example demonstrates how to export the diagram as multiple images.
 
@@ -154,7 +154,7 @@ The following code example demonstrates how to export the diagram as multiple im
 
 ### Export image
 
-You can pass the base64 data of an image to the [`exportImage`](../api/diagram/index-default#exportimage) method to export it directly. The following example shows how to export base64 data using the `exportImage` method.
+You can pass the base64 data of an image to the [`exportImage`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#exportimage) method to export it directly. The following example shows how to export base64 data using the `exportImage` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -169,7 +169,7 @@ You can pass the base64 data of an image to the [`exportImage`](../api/diagram/i
 
 ### Get diagram content
 
-To get the html diagram content, the [`getDiagramContent`](../api/diagram/index-default#getdiagramcontent) method is used. the following example shows how to get the diagram content at runtime.
+To get the html diagram content, the [`getDiagramContent`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getdiagramcontent) method is used. the following example shows how to get the diagram content at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -184,7 +184,7 @@ To get the html diagram content, the [`getDiagramContent`](../api/diagram/index-
 
 ### Export diagram with stretch option
 
-Diagram provides support to export the diagram as image for [`stretch`](../api/diagram/iexportoptions#stretch) option. The exported images will be clearer but larger in file size.
+Diagram provides support to export the diagram as image for [`stretch`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iexportoptions#stretch) option. The exported images will be clearer but larger in file size.
 
 The following code example illustrates how to export the region occupied by the diagram elements.
 
