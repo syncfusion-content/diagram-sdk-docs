@@ -35,7 +35,7 @@ While interacting with multiple bezier segments, maintain their control points a
 
 ## How to show or hide the bezier segment’s control points
 
-By using the [`controlPointsVisibility`](../../../../api/diagram/controlPointsVisibility) property of [`bezierSettings`](../../../../api/diagram/bezierSettingsModel), you can enable or disable the visibility of the bezier segment’s control points.
+By using the [`controlPointsVisibility`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/controlPointsVisibility) property of [`bezierSettings`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bezierSettingsModel), you can enable or disable the visibility of the bezier segment’s control points.
 
 | ControlPointsVisibility value | Description | Output |
 |-------- | -------- | -------- |

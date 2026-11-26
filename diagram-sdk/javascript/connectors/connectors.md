@@ -15,7 +15,7 @@ Connectors are objects used to create link between two points, nodes or ports to
 
 ## Create connector
 
-Connector can be created by defining the source and target point of the connector. The path to be drawn can be defined with a collection of segments. To explore the properties of a [`connector`](../../api/diagram/connector), refer to [`Connector Properties`](../../api/diagram/connector). The [`id`](../../api/diagram/connectorModel#id) property of a connector is used to define its unique identifier and can later be used to find the connector at runtime for customization. 
+Connector can be created by defining the source and target point of the connector. The path to be drawn can be defined with a collection of segments. To explore the properties of a [`connector`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector), refer to [`Connector Properties`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector). The [`id`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorModel#id) property of a connector is used to define its unique identifier and can later be used to find the connector at runtime for customization. 
 
 ``` javascript
 var connector = { id: "connector1",
@@ -29,7 +29,7 @@ N> When setting a Connector's ID, ensure that it does not contain white spaces, 
 
 ## Add connectors through connectors collection
 
-The [`sourcePoint`](../../api/diagram/connector#sourcepoint) and [`targetPoint`](../../api/diagram/connector#targetpoint) properties of connector allow you to define the end points of a connector.
+The [`sourcePoint`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#sourcepoint) and [`targetPoint`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#targetpoint) properties of connector allow you to define the end points of a connector.
 
 The following code example illustrates how to add a connector through connector collection.
 
@@ -46,7 +46,7 @@ The following code example illustrates how to add a connector through connector 
 
 ## Add/Remove connector at runtime
 
-Connectors can be added at runtime by using public method,[`add`](../../api/diagram#add) and can be removed at runtime by using public method, [`remove`](../../api/diagram#remove).
+Connectors can be added at runtime by using public method,[`add`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#add) and can be removed at runtime by using public method, [`remove`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#remove).
 
 The following code example illustrates how to add connector at runtime.
 
@@ -63,7 +63,7 @@ The following code example illustrates how to add connector at runtime.
 
 ## Add collection of connectors at runtime
 
-The collection of connectors can be dynamically added using [`addElements`](../../api/diagram#addelements) method. Each time an element is added to the diagram canvas, the 'collectionChange' event will be triggered.
+The collection of connectors can be dynamically added using [`addElements`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#addelements) method. Each time an element is added to the diagram canvas, the 'collectionChange' event will be triggered.
 
 The following code illustrates how to add a connectors collection at runtime.
 
@@ -100,7 +100,7 @@ The following code example illustrates how to add connectors in palette.
 
 Connectors can be interactively drawn by clicking and dragging the diagram surface.
 
-To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or `ContinuousDraw` to the [`tool`](../../api/diagram#tool) property and you need to set the `connector` object by using the [`drawingObject`](../../api/diagram#drawingobject) property. The following code example illustrates how to draw a connector at runtime.
+To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or `ContinuousDraw` to the [`tool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#tool) property and you need to set the `connector` object by using the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property. The following code example illustrates how to draw a connector at runtime.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -113,7 +113,7 @@ To draw a shape, you have to activate the drawing tool by setting `DrawOnce` or 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-draw" %}
 
-For more information about drawing connectors, refer to [`Draw Connectors`](../../api/diagram#drawingObject-ConnectorModel).
+For more information about drawing connectors, refer to [`Draw Connectors`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject).
 
 ## Update connector at runtime
 
@@ -153,7 +153,7 @@ The following code example illustrates how to clone a connector
 
 Get Connector defaults helps to define default properties of the connector. It is triggered when the diagram is initialized. In this event, you can customize the connector properties.
 
-The following code example explains how to customize the connector using [`getConnectorDefaults`](../../api/diagram#getconnectordefaults).
+The following code example explains how to customize the connector using [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getconnectordefaults).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -170,7 +170,7 @@ The following code example explains how to customize the connector using [`getCo
 
 ### Connection with nodes
 
-* The [`sourceID`](../../api/diagram/connector#sourceid) and [`targetID`](../../api/diagram/connector#targetid) properties allow to define the nodes to be connected.
+* The [`sourceID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#sourceid) and [`targetID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#targetid) properties allow to define the nodes to be connected.
 
 * The following code example illustrates how to connect two nodes.
 
@@ -185,7 +185,7 @@ The following code example explains how to customize the connector using [`getCo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs4" %}
 
-* When you remove NodeConstraints [`InConnect`](../../api/diagram/nodeConstraints) from Default, the node accepts only an outgoing connection to dock in it. Similarly, when you remove NodeConstraints [`OutConnect`](../../api/diagram/nodeConstraints) from Default, the node accepts only an incoming connection to dock in it.
+* When you remove NodeConstraints [`InConnect`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints) from Default, the node accepts only an outgoing connection to dock in it. Similarly, when you remove NodeConstraints [`OutConnect`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints) from Default, the node accepts only an incoming connection to dock in it.
 
 * When you remove both InConnect and OutConnect NodeConstraints from Default, the node restricts connector to establish connection in it.
 
@@ -207,7 +207,7 @@ var diagram = new ej.diagrams.Diagram({
 
 ## Connection with ports
 
-The [`sourcePortID`](../../api/diagram/connector#sourceportid) and [`targetPortID`](../../api/diagram/connector#targetportid) properties allow to create connections between some specific points of source/target nodes.
+The [`sourcePortID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#sourceportid) and [`targetPortID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#targetportid) properties allow to create connections between some specific points of source/target nodes.
 
 The following code example illustrates how to create port to port connections.
 
@@ -222,7 +222,7 @@ The following code example illustrates how to create port to port connections.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs5" %}
 
-Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by changing the port [`sourcePortID`](../../api/diagram/connector#sourceportid) or [`targetPortID`](../../api/diagram/connector#targetportid).
+Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by changing the port [`sourcePortID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#sourceportid) or [`targetPortID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#targetportid).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -235,7 +235,7 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs6" %}
 
-* When you set PortConstraints to [`InConnect`](../../api/diagram/portConstraints), the port accepts only an incoming connection to dock in it. Similarly, when you set PortConstraints to [`OutConnect`](../../api/diagram/portConstraints), the port accepts only an outgoing connection to dock in it.
+* When you set PortConstraints to [`InConnect`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/portConstraints), the port accepts only an incoming connection to dock in it. Similarly, when you set PortConstraints to [`OutConnect`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/portConstraints), the port accepts only an outgoing connection to dock in it.
 
 * When you set PortConstraints to None, the port restricts connector to establish connection in it.
 
@@ -303,7 +303,7 @@ The following image illustrates how the connector automatically re-routes the se
 
 ![LineRouting GIF](../images/lineRouting.GIF.gif)
 
-* In some situations, automatic line routing enabled diagram needs to ignore a specific connector from automatic line routing. So, in this case, auto routing feature can be disabled to the specific connector using the [`constraints`](../../api/diagram/connector#constraints) property of the connector like the following code snippet.
+* In some situations, automatic line routing enabled diagram needs to ignore a specific connector from automatic line routing. So, in this case, auto routing feature can be disabled to the specific connector using the [`constraints`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#constraints) property of the connector like the following code snippet.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

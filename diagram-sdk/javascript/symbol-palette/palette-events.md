@@ -15,7 +15,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## DragEnter event 
 
-[`DragEnter`](../../api/diagram/iDragEnterEventArgs) event triggers when the shape enters the diagram surface while dragging it from symbol palette. You can customize the style of the dragged shape using this event. This allows for dynamic styling changes based on the diagram's context.
+[`DragEnter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDragEnterEventArgs) event triggers when the shape enters the diagram surface while dragging it from symbol palette. You can customize the style of the dragged shape using this event. This allows for dynamic styling changes based on the diagram's context.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -30,7 +30,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## DragLeave event
 
-[`DragLeave`](../../api/diagram/iDragLeaveEventArgs) event occurs when a shape leaves the diagram surface after being dragged inside but not dropped. This can be useful for resetting styles or handling any clean-up tasks when a shape is not intended to be placed on the diagram.
+[`DragLeave`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDragLeaveEventArgs) event occurs when a shape leaves the diagram surface after being dragged inside but not dropped. This can be useful for resetting styles or handling any clean-up tasks when a shape is not intended to be placed on the diagram.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -45,7 +45,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## DragOver event
 
-[`DragOver`](../../api/diagram/iDragOverEventArgs) event triggered when a shape is dragged over diagram while being moved from the symbol palette. This event can be used to provide visual feedback or to determine if the current drop target is valid.
+[`DragOver`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDragOverEventArgs) event triggered when a shape is dragged over diagram while being moved from the symbol palette. This event can be used to provide visual feedback or to determine if the current drop target is valid.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -60,7 +60,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## Drop event
 
-[`Drop`](../../api/diagram/idropeventargs) event triggered when a shape is dropped onto the diagram surface. This event is useful for customizing the shape's appearance and properties after it is dropped.
+[`Drop`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/idropeventargs) event triggered when a shape is dropped onto the diagram surface. This event is useful for customizing the shape's appearance and properties after it is dropped.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,7 +75,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## PaletteExpanding event
 
-[`PaletteExpanding`](../../api/diagram/iPaletteExpandArgs) event triggered when the palette expanded / collapsed.
+[`PaletteExpanding`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPaletteExpandArgs) event triggered when the palette expanded / collapsed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -90,7 +90,7 @@ There are some events which will get triggered while interacting with the symbol
 
 ## PaletteSelectionChange event
 
-[`PaletteSelectionChange`](../../api/diagram/iPaletteSelectionChangeArgs) event triggered after the selection changes in the symbol palette. This event can be used to enable/disable functionality based on the selected symbol.
+[`PaletteSelectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPaletteSelectionChangeArgs) event triggered after the selection changes in the symbol palette. This event can be used to enable/disable functionality based on the selected symbol.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

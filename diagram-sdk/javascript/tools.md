@@ -25,7 +25,7 @@ Drawing tool allows you to draw any kind of node/connector during runtime by cli
 
 ### Draw nodes
 
-To draw a shape, set the JSON of that shape to the [`drawingObject`](../api/diagram#drawingobject) property of the diagram and activate the drawing tool by using the [`tool`](../api/diagram#tool) property. The following code example illustrates how to draw a rectangle at runtime:
+To draw a shape, set the JSON of that shape to the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property of the diagram and activate the drawing tool by using the [`tool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#tool) property. The following code example illustrates how to draw a rectangle at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -53,7 +53,7 @@ The following code example illustrates how to draw a path shape.
 
 ### Text Nodes
 
-Similarly, you can draw a text node by setting the type of shape as **Text** in the [`drawingObject`](../api/diagram#drawingobject) property. The [`text`](../api/diagram/textmodel) type node contains a property called content, which specifies the text within the node. You can add the content to the text node once you finish drawing the node. Here is how you can draw a text node at runtime:
+Similarly, you can draw a text node by setting the type of shape as **Text** in the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property. The [`text`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textmodel) type node contains a property called content, which specifies the text within the node. You can add the content to the text node once you finish drawing the node. Here is how you can draw a text node at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -68,7 +68,7 @@ Similarly, you can draw a text node by setting the type of shape as **Text** in 
 
 ### Draw Connectors
 
-To draw connector, set the JSON of that connector to the [`drawingObject`](../api/diagram#drawingobject) property of the diagram. The drawing tool can be activated by using the [`tool`](../api/diagram#tool) property. The following code example illustrates how to draw different types of connector using drawing tool.
+To draw connector, set the JSON of that connector to the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property of the diagram. The drawing tool can be activated by using the [`tool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#tool) property. The following code example illustrates how to draw different types of connector using drawing tool.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -86,7 +86,7 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 
 The JavaScript Diagram allows you to create polygon shapes by clicking and moving the mouse at runtime on the diagram page. This interactive feature enables users to define custom shapes with multiple sides by specifying points directly on the diagram canvas.
 
-To draw a polygon shape, you need to set the [`drawingObject`](../api/diagram#drawingobject) property with the appropriate JSON configuration for a `polygon`. This includes specifying the type as **Polygon**.
+To draw a polygon shape, you need to set the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property with the appropriate JSON configuration for a `polygon`. This includes specifying the type as **Polygon**.
 
 The following code illustrates how to draw a polygon shape at runtime:
 
@@ -107,7 +107,7 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 The JavaScript Diagram control enables users to create polyline connectors interactively by clicking and dragging the mouse on the diagram canvas at runtime. It allows creating polyline segments with straight lines and angled vertices at control points directly within the diagram interface. 
 
-To draw a polyline connector, set the type of the [`drawingObject`](../api/diagram#drawingobject) as **Polyline**.
+To draw a polyline connector, set the type of the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) as **Polyline**.
 
 The following code illustrates how to draw a Polyline connector at runtime:
 
@@ -122,15 +122,15 @@ The following code illustrates how to draw a Polyline connector at runtime:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs6" %}
 
-The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
+The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
 ![Polyline connector drawing](images/polyline-draw.gif)
 
-N> To make the segment thumb visible, inject the [`ConnectorEditing`](../api/diagram/connectorEditing) module into the diagram.
+N> To make the segment thumb visible, inject the [`ConnectorEditing`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorEditing) module into the diagram.
 
 ### Freehand Drawing
 
-The diagram supports free-hand drawing, allowing users to draw anything independently on the diagram page. Free-hand drawing is enabled by setting the type of the [`drawingObject`](../api/diagram#drawingobject) property to **Freehand**.
+The diagram supports free-hand drawing, allowing users to draw anything independently on the diagram page. Free-hand drawing is enabled by setting the type of the [`drawingObject`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#drawingobject) property to **Freehand**.
 
 The following code illustrates how to perform freehand drawing:
 
@@ -145,7 +145,7 @@ The following code illustrates how to perform freehand drawing:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs9" %}
 
-The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
+The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorConstraints) constraint for the connector.
 
 ![Freehand connector drawing](images/freehand-draw.gif)
 
@@ -172,7 +172,7 @@ These tools provide flexibility and functionality for creating and interacting w
 
 ### Zoom pan tool
 
-To activate panning mode set the [`tool`](../api/diagram#tool) property of the diagram as **ZoomPan**. The following code illustrates how to enable Zoom pan in the diagram
+To activate panning mode set the [`tool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#tool) property of the diagram as **ZoomPan**. The following code illustrates how to enable Zoom pan in the diagram
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -189,7 +189,7 @@ N> Please note that panning the diagram is not possible when `multiplePage` is s
 
 ## Events
 
-The [`elementDraw`](../api/diagram/iElementDrawEventArgs) event is triggered whenever a node or connector is drawn using a drawing tool in the diagram. This event provides a way to capture and respond to actions when elements are created on the canvas.
+The [`elementDraw`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iElementDrawEventArgs) event is triggered whenever a node or connector is drawn using a drawing tool in the diagram. This event provides a way to capture and respond to actions when elements are created on the canvas.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
