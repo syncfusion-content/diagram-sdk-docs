@@ -3,7 +3,7 @@ layout: post
 title: Symbol Palette in JavaScript Diagram | Syncfusion®
 description: Add a gallery of reusable nodes, connectors, and groups to the Syncfusion® JavaScript Diagram with the symbol palette component for drag and drop.
 platform: diagram-sdk
-control: Symbol palette 
+control: Symbol palette
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
