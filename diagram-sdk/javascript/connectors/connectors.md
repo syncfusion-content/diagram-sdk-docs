@@ -4,7 +4,6 @@ title: Connectors in JavaScript Diagram | Syncfusion®
 description: Link two nodes, points, or ports in the Syncfusion® JavaScript Diagram with straight, orthogonal, or bezier connectors and source/target decorators.
 platform: diagram-sdk
 control: Connectors 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: Node Interaction in JavaScript Diagram | Syncfusion®
 description: Select, drag, resize, and rotate nodes interactively in the Syncfusion® JavaScript Diagram, or use select, drag, and rotate methods.
 platform: diagram-sdk
 control: Nodes interaction 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -20,7 +19,7 @@ You can simply click on the node to select it and click on diagram canvas to uns
 ![Select/UnSelect Node](../images/Single-node-select.gif)
 
 
-### To select node programatically
+### To select node programmatically
 
 A node can be selected at runtime by using the [`select`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#select) method and the selection can be cleared in the diagram by using the [`clearSelection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#clearselection) or [`unSelect`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#unselect) method. The following code explains how to select and clear selection in the diagram.
 

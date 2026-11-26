@@ -4,7 +4,6 @@ title: Symbol Palette Customization in JavaScript Diagram | Syncfusion®
 description: Customize the title, expanded state, height, and icon of each palette in the Syncfusion® JavaScript Diagram symbol palette component.
 platform: diagram-sdk
 control: Symbol palette 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -265,7 +264,7 @@ The following code snippet will demonstrate how to define two different tooltip 
 
 ## Localization
 
-To localize the symbol palette search box, we need to define the [`locale`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#locale) property of the symbol palette with our preferred culture. In the example below, we use **de-DE**, which is the locale code for German as used in Germany.
+To localize the symbol palette search box, we need to define the [`locale`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#locale) property of the symbol palette with our preferred culture. In the example below, we use `de-DE`, which is the locale code for German as used in Germany.
 
 The following code shows how to localize symbol palette.
 

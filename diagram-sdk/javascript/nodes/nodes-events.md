@@ -4,7 +4,6 @@ title: Node Events in JavaScript Diagram | Syncfusion®
 description: Handle click, selectionChange, doubleClick, and key events on nodes in the Syncfusion® JavaScript Diagram to react to user interaction.
 platform: diagram-sdk
 control: Events of node 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

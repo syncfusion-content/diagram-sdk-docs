@@ -4,7 +4,6 @@ title: Ruler in TypeScript Diagram | Syncfusion®
 description: Show horizontal and vertical rulers with a position indicator in the Syncfusion® TypeScript Diagram using the rulerSettings property.
 platform: diagram-sdk
 control: Ruler 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

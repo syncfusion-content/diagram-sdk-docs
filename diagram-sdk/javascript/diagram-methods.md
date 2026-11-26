@@ -4,7 +4,6 @@ title: Diagram Properties in JavaScript Diagram | Syncfusion®
 description: Call Syncfusion® JavaScript Diagram methods like getDiagramBounds, refresh, clear, destroy, and getCustomTool to manage the diagram programmatically.
 platform: diagram-sdk
 control: Diagram API 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -78,7 +77,7 @@ The following example demonstrates how to apply custom cursors for the Select an
 
 ## Get custom tool
 
-The  [`getCustomtTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#gettool) method is used to retrieve the tool that handles a particular action.
+The  [`getCustomTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#gettool) method is used to retrieve the tool that handles a particular action.
 
 In the following example, `getCustomTool` is used to clone a node when clicking on the user handle.
 

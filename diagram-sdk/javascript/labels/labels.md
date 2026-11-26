@@ -4,7 +4,6 @@ title: Annotation in JavaScript Diagram | Syncfusion®
 description: Display editable text on a node or connector in the Syncfusion® JavaScript Diagram using the Annotation collection and content property.
 platform: diagram-sdk
 control: Labels 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

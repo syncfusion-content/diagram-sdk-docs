@@ -4,7 +4,6 @@ title: Flowchart Layout in JavaScript Diagram | Syncfusion®
 description: Render flowcharts in the Syncfusion® JavaScript Diagram with common symbols like Terminator, Process, Decision, Document, and PreDefinedProcess shapes.
 platform: diagram-sdk
 control: Flowchart layout 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

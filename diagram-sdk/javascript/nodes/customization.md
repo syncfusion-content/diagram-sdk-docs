@@ -4,7 +4,6 @@ title: Node Customization in JavaScript Diagram | Syncfusion®
 description: Customize the appearance of nodes in the Syncfusion® JavaScript Diagram with fill, stroke, opacity, shadows, gradients, and getNodeDefaults.
 platform: diagram-sdk
 control: Appearence of nodes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -84,7 +83,7 @@ There are two types of gradients as follows:
 
 * [`RadialGradient`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeStyleModel#radialGradient-radialgradientmodel) defines a smooth transition between stops on a circle.
 
-* A radial gradient’s cx, cy, fx, fy properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
+* A radial gradient’s `cx`, `cy`, `fx`, `fy` properties are used to define the position (relative to the node) of the outermost or the innermost circle of the radial gradient.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

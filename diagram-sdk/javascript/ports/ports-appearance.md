@@ -4,7 +4,6 @@ title: Port Appearance in JavaScript Diagram | Syncfusion®
 description: Style and size ports in the Syncfusion® JavaScript Diagram with strokeColor, fill, opacity, width, height, and visibility settings.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -28,7 +27,7 @@ The following code illustrates how to change the appearance of port.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
 
-### Change appearance of port at runtime
+## Change appearance of port at runtime
 
 The appearance of port can be changed at runtime by customizing the style of port. The following code illustrates how to change the appearance of port at runtime.
 

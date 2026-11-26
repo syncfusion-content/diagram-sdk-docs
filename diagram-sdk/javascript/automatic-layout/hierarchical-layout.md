@@ -4,7 +4,6 @@ title: Hierarchical Tree in JavaScript Diagram | Syncfusion®
 description: Arrange nodes in a Hierarchical Tree in the Syncfusion® JavaScript Diagram by setting the layout type to HierarchicalTree with no root needed.
 platform: diagram-sdk
 control: Hierarchical tree 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

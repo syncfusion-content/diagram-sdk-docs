@@ -4,7 +4,6 @@ title: Nodes in JavaScript Diagram | Syncfusion®
 description: Create, position, and stack nodes in the Syncfusion® JavaScript Diagram. Add text, image, HTML, basic, and flow shapes via the nodes collection.
 platform: diagram-sdk
 control: Nodes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

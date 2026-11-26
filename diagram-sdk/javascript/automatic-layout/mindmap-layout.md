@@ -4,7 +4,6 @@ title: Mind Map in JavaScript Diagram | Syncfusion®
 description: Build a Mind Map in the Syncfusion® JavaScript Diagram by setting the layout type to MindMap, with Horizontal or Vertical orientation options.
 platform: diagram-sdk
 control: Mind map 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

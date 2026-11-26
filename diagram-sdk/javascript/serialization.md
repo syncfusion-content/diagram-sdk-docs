@@ -4,7 +4,6 @@ title: Serialization in JavaScript Diagram | Syncfusion®
 description: Save and load the Syncfusion® JavaScript Diagram as a JSON string with saveDiagram and loadDiagram for persisting diagram state.
 platform: diagram-sdk
 control: Serialization 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

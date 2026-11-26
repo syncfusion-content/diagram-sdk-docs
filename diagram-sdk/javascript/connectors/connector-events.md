@@ -4,7 +4,6 @@ title: Connector Events in JavaScript Diagram | Syncfusion®
 description: Handle click and selectionChange events on connectors in the Syncfusion® JavaScript Diagram to react to user interaction.
 platform: diagram-sdk
 control: Connector Events
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

@@ -4,7 +4,6 @@ title: BPMN Data Object in JavaScript Diagram | Syncfusion®
 description: Show data flowing through a BPMN process in the Syncfusion® JavaScript Diagram using input, output, and collection DataObject shapes.
 platform: diagram-sdk
 control: Bpmn DataObject 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

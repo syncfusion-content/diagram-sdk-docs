@@ -4,7 +4,6 @@ title: Layers in JavaScript Diagram | Syncfusion®
 description: Organize diagram shapes into named layers in the Syncfusion® JavaScript Diagram to selectively view, lock, remove, or add info to shape groups.
 platform: diagram-sdk
 control: Layers 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
