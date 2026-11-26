@@ -1,4 +1,7 @@
-var workflow = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ej2_workflow_designer_1 = require("@syncfusion/ej2-workflow-designer");
+var workflowDefinition = {
     schemaVersion: '1.1', id: 'validation-workflow', name: 'Validation',
     workflowSteps: [
         { id: 'start', stepType: 'ManualTrigger', name: 'Start', position: { x: 120, y: 200 } },
@@ -10,12 +13,15 @@ var workflow = {
         { id: 'c2', sourceStepId: 'variable', targetStepId: 'end' }
     ]
 };
-
-var designer = new ej.workflowdesigner.WorkflowDesigner({
+function validateButton() {
+    alert(designer.validateWorkflow().isValid ? 'Workflow is valid' : 'Workflow is invalid');
+}
+var designer = new ej2_workflow_designer_1.WorkflowDesigner({
     width: '100%',
     height: '600px'
-}, '#element');
-designer.importWorkflow(workflow);
-document.getElementById('validateButton').addEventListener('click', function () { 
-    alert(designer.validateWorkflow().isValid ? 'Workflow is valid' : 'Workflow is invalid'); 
 });
+designer.appendTo('#workflowDesigner');
+designer.importWorkflow(workflowDefinition).catch(function (error) {
+    console.error(error.code, error.message);
+});
+document.getElementById('validateButton').addEventListener('click', validateButton);

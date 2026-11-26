@@ -1,6 +1,8 @@
-import { WorkflowDesigner } from '@syncfusion/ej2-workflow-designer';
+import { WorkflowDesigner, WorkflowImportError } from '@syncfusion/ej2-workflow-designer';
 
-const workflow: any = {
+type WorkflowInput = Parameters<WorkflowDesigner['importWorkflow']>[0];
+
+const workflowDefinition: WorkflowInput = {
     schemaVersion: '1.1', id: 'condition-workflow', name: 'Condition branches',
     workflowSteps: [
         { id: 'start', stepType: 'ManualTrigger', name: 'Start', position: { x: 100, y: 220 } },
@@ -15,9 +17,11 @@ const workflow: any = {
     ]
 };
 
-let designer: WorkflowDesigner = new WorkflowDesigner({
+const designer: WorkflowDesigner = new WorkflowDesigner({
     width: '100%',
     height: '600px'
 });
-designer.appendTo('#element');
-designer.importWorkflow(workflow);
+designer.appendTo('#workflowDesigner');
+designer.importWorkflow(workflowDefinition).catch((error: WorkflowImportError) => {
+    console.error(error.code, error.message);
+});

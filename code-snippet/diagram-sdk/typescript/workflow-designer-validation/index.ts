@@ -1,6 +1,8 @@
-import { WorkflowDesigner } from '@syncfusion/ej2-workflow-designer';
+import { WorkflowDesigner, WorkflowImportError } from '@syncfusion/ej2-workflow-designer';
 
-const workflow: any = {
+type WorkflowInput = Parameters<WorkflowDesigner['importWorkflow']>[0];
+
+const workflowDefinition: WorkflowInput = {
     schemaVersion: '1.1', id: 'validation-workflow', name: 'Validation',
     workflowSteps: [
         { id: 'start', stepType: 'ManualTrigger', name: 'Start', position: { x: 120, y: 200 } },
@@ -13,12 +15,16 @@ const workflow: any = {
     ]
 };
 
-let designer: WorkflowDesigner = new WorkflowDesigner({
+function validateButton(): void {
+    alert(designer.validateWorkflow().isValid ? 'Workflow is valid' : 'Workflow is invalid');
+}
+
+const designer: WorkflowDesigner = new WorkflowDesigner({
     width: '100%',
     height: '600px'
 });
-designer.appendTo('#element');
-designer.importWorkflow(workflow);
-document.getElementById('validateButton').addEventListener('click', function () { 
-    alert(designer.validateWorkflow().isValid ? 'Workflow is valid' : 'Workflow is invalid'); 
+designer.appendTo('#workflowDesigner');
+designer.importWorkflow(workflowDefinition).catch((error: WorkflowImportError) => {
+    console.error(error.code, error.message);
 });
+document.getElementById('validateButton')!.addEventListener('click', validateButton);
