@@ -15,7 +15,7 @@ The symmetric layout has been formed using nodes position by closer together or 
 
 ## Symmetric layout
 
-The layout’s [`springLength`](../../api/diagram/layout#springlength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layout’s [`springFactor`](../../api/diagram/layout#springfactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layout’s [`maxIteration`](../../api/diagram/layout#maxiteration).
+The layout’s [`springLength`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layout#springlength) defined as how long edges should be, ideally. This will be the resting length for the springs. Edge attraction and vertex repulsion forces to be defined by using layout’s [`springFactor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layout#springfactor), the more sibling nodes repel each other. The relative positions do not change any more from one iteration to the next. The number of iterations can be specified by using layout’s [`maxIteration`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layout#maxiteration).
 
 The following code illustrates how to arrange the nodes in a radial tree structure.
 

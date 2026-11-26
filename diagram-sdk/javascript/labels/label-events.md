@@ -20,7 +20,7 @@ There are some events which will trigger while interacting with annotation.
 ## KeyDown event
 
 
-The [`keyDown`](../../api/diagram/iKeyEventArgs) event is triggered whenever any key is pressed. The following example shows how to capture the keyDown event and modify the fill color of a node on each key press:
+The [`keyDown`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iKeyEventArgs) event is triggered whenever any key is pressed. The following example shows how to capture the keyDown event and modify the fill color of a node on each key press:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -35,7 +35,7 @@ The [`keyDown`](../../api/diagram/iKeyEventArgs) event is triggered whenever any
 
 ## KeyUp event
 
-The [`keyUp`](../../api/diagram/iKeyEventArgs) event is triggered whenever we press and release any key. The following example shows how to capture the keyUp event and modify the fill color of a node on each key press:
+The [`keyUp`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iKeyEventArgs) event is triggered whenever we press and release any key. The following example shows how to capture the keyUp event and modify the fill color of a node on each key press:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -50,7 +50,7 @@ The [`keyUp`](../../api/diagram/iKeyEventArgs) event is triggered whenever we pr
 
 ## Double click event
 
-The [`doubleClick`](../../api/diagram/idoubleclickeventargs) event is triggered when you double-click on a node, connector, or the diagram surface. Double-clicking on a diagram element activates the annotation editing mode. The following code example shows how to capture the [`doubleClick`](../../api/diagram/idoubleclickeventargs) event:
+The [`doubleClick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/idoubleclickeventargs) event is triggered when you double-click on a node, connector, or the diagram surface. Double-clicking on a diagram element activates the annotation editing mode. The following code example shows how to capture the [`doubleClick`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/idoubleclickeventargs) event:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -65,7 +65,7 @@ The [`doubleClick`](../../api/diagram/idoubleclickeventargs) event is triggered 
 
 ## TextEdit event
 
-The [`textEdit`](../../api/diagram/iTextEditEventArgs) event triggers when you finish editing the annotation text and the focus is removed from the annotation text.
+The [`textEdit`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iTextEditEventArgs) event triggers when you finish editing the annotation text and the focus is removed from the annotation text.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,7 +78,7 @@ The [`textEdit`](../../api/diagram/iTextEditEventArgs) event triggers when you f
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-textEdit" %}
 
-You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](../../api/diagram/iTextEditEventArgs) to true.
+You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iTextEditEventArgs) to true.
 
 ``` javascript
 textEdit: function (args) {
@@ -90,7 +90,7 @@ textEdit: function (args) {
 
 ## Selection change event
 
-The [`selectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram#selectionchange) event is triggered when an annotation of a node or connector is selected in the diagram.
+The [`selectionChange`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#selectionchange) event is triggered when an annotation of a node or connector is selected in the diagram.
 
 You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the code snippet below.
 

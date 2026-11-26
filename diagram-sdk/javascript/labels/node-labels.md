@@ -20,9 +20,9 @@ Diagram allows you to customize the position and appearance of the annotation ef
 
 ## Set annotation offset and size
 
-The [`offset`](../../api/diagram/pointModel) property of an annotation is used to align annotations based on fractional values. The offset can be customized by modifying the x and y values of the offset property. By default, the annotation offset is set to 0.5 on both the x and y axes.
+The [`offset`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pointModel) property of an annotation is used to align annotations based on fractional values. The offset can be customized by modifying the x and y values of the offset property. By default, the annotation offset is set to 0.5 on both the x and y axes.
 
-By default, the size of the annotation is calculated based on its content. If you want to set the size externally, you can do so using the [`width`](../../api/diagram/annotationModel#width) and [`height`](../../api/diagram/annotationModel#height) properties of annotation.
+By default, the size of the annotation is calculated based on its content. If you want to set the size externally, you can do so using the [`width`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#width) and [`height`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#height) properties of annotation.
 
 The following code shows how to set offset, height and width for the annotation.
 
@@ -53,7 +53,7 @@ The annotation offset can be updated dynamically at runtime. To update the annot
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/annotations-offsetUpdate" %}
 
-N> Call [`dataBind()`](../../api/diagram#databind) after property change to reflect the changes instantly.
+N> Call [`dataBind()`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#databind) after property change to reflect the changes instantly.
 
 The following table shows the position of annotation with different offsets.
 
@@ -71,7 +71,7 @@ The following table shows the position of annotation with different offsets.
 
 ## Annotation alignment
 
-The [`horizontalAlignment`](../../api/diagram/annotationModel#horizontalalignment) property of annotation is used to set how the annotation is horizontally aligned at the annotation position determined from the fraction values. The [`verticalAlignment`](../../api/diagram/annotationModel#verticalalignment) property is used to set how annotation is vertically aligned at the annotation position.
+The [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#horizontalalignment) property of annotation is used to set how the annotation is horizontally aligned at the annotation position determined from the fraction values. The [`verticalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#verticalalignment) property is used to set how annotation is vertically aligned at the annotation position.
 
 
 The following codes illustrates how to align annotations.

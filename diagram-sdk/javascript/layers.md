@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 **Layer** organizes related shapes within a JavaScript Diagram control as named categories. Assigning shapes to different layers enables selective viewing, removal, and locking of distinct shape categories.
 
-In a diagram, [Layers](../api/diagram/layermodel) facilitate the modification of properties for all shapes assigned to a specific layer. Key properties that can be configured include:
+In a diagram, [Layers](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layermodel) facilitate the modification of properties for all shapes assigned to a specific layer. Key properties that can be configured include:
 
 * Objects
 * Visible
@@ -22,7 +22,7 @@ In a diagram, [Layers](../api/diagram/layermodel) facilitate the modification of
 
 ## Objects
 
-The layer's [objects](../api/diagram/layer#objects) property specifies which diagram elements belong to that layer. This property contains a collection where you can define the categories of nodes and connectors that the layer encompasses.
+The layer's [objects](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#objects) property specifies which diagram elements belong to that layer. This property contains a collection where you can define the categories of nodes and connectors that the layer encompasses.
 
 In the following example, the basic shapes are categorized in layer 1, and the flow shapes are categorized in layer 2.
 
@@ -39,7 +39,7 @@ In the following example, the basic shapes are categorized in layer 1, and the f
 
 ## Visible
 
-The layer's [visible](../api/diagram/layer#visible) property is used to control the visibility of the elements assigned to the layer. You can hide objects in one layer while showing objects in another layer.
+The layer's [visible](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#visible) property is used to control the visibility of the elements assigned to the layer. You can hide objects in one layer while showing objects in another layer.
 
 In the following example, the visibility of layer one is set to false. By default, the `visible` property of a layer is set to **true**.
 
@@ -56,7 +56,7 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 ## Lock
 
-The layer's [lock](../api/diagram/layer#lock) property is used to prevent or allow changes to the element's dimensions and positions. Locking a layer prevents any interactions with the objects in that layer, such as selecting, dragging, rotating, and connecting. 
+The layer's [lock](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#lock) property is used to prevent or allow changes to the element's dimensions and positions. Locking a layer prevents any interactions with the objects in that layer, such as selecting, dragging, rotating, and connecting. 
 
 In the following example the objects in layer one is locked. By default, the `lock` property of a layer is set to **false**.
 
@@ -73,7 +73,7 @@ In the following example the objects in layer one is locked. By default, the `lo
 
 ## AddInfo
 
-The [`addInfo`](../api/diagram/layer#addinfo) property of layers allow you to maintain additional information to the layers.
+The [`addInfo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#addinfo) property of layers allow you to maintain additional information to the layers.
 
 The following code illustrates how to add additional information to the layers.
 
@@ -131,9 +131,9 @@ var diagram = new ej.diagrams.Diagram({
 
 ## Add layer at runtime
 
-Layers can be added at runtime using the [`addLayer`](../api/diagram#addlayer) public method.
+Layers can be added at runtime using the [`addLayer`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#addlayer) public method.
 
-The layer's [`id`](../api/diagram/layer#id) property defines the ID of the layer, which is used to find the layer at runtime and apply any customizations. You can also add new objects to the new layer using the `addLayer` method.
+The layer's [`id`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#id) property defines the ID of the layer, which is used to find the layer at runtime and apply any customizations. You can also add new objects to the new layer using the `addLayer` method.
 
 The following code illustrates how to add a new layer with new connectors stored in an object array of the new layer:
 
@@ -150,7 +150,7 @@ The following code illustrates how to add a new layer with new connectors stored
 
 ## Remove layer at runtime
 
-Layers can be removed at runtime by using the [`removeLayer`](../api/diagram/index-default#removelayer) public method.
+Layers can be removed at runtime by using the [`removeLayer`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#removelayer) public method.
 
 To remove a layer, pass the ID of the layer you want to remove as a parameter to the `removeLayer` method.
 
@@ -171,7 +171,7 @@ The following code illustrates how to remove a layer.
 
 ## moveObjects
 
-You can move objects from one layer to another dynamically using the [`moveObjects`](../api/diagram/index-default#moveobjects) public method of the JavaScript Diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions..
+You can move objects from one layer to another dynamically using the [`moveObjects`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#moveobjects) public method of the JavaScript Diagram control. This can be useful for managing complex diagrams with multiple layers where you need to update the categorization of elements based on user interaction or other dynamic conditions..
 
 The following code illustrates how to move objects from one layer to another layer.
 
@@ -188,11 +188,11 @@ The following code illustrates how to move objects from one layer to another lay
 
 ## Z-Index
 
-[`zIndex`](../api/diagram/layer#zindex) property of a layer defines its Z order within the diagram. This property allows you to control the layer's position in the stacking order. You can adjust the layer's z-index by moving it forward or backward relative to other layers in the diagram.
+[`zIndex`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layer#zindex) property of a layer defines its Z order within the diagram. This property allows you to control the layer's position in the stacking order. You can adjust the layer's z-index by moving it forward or backward relative to other layers in the diagram.
 
 ### Bring Layer Forward
 
-Layers can be moved forward at runtime by using the [`bringLayerForward`](../api/diagram/index-default#bringlayerforward) public method.
+Layers can be moved forward at runtime by using the [`bringLayerForward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringlayerforward) public method.
 
 ```javascript
 // move the layer forward
@@ -202,7 +202,7 @@ diagram.bringLayerForward('layer1');
 
 ### Send Layer Backward
 
-Layers can be moved backward at runtime by using the [`sendLayerBackward`](../api/diagram/index-default#sendlayerbackward) public method.
+Layers can be moved backward at runtime by using the [`sendLayerBackward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#sendlayerbackward) public method.
 
 ```javascript
 // move the layer backward
@@ -225,13 +225,13 @@ The following code illustrates how to send the layer forward/backward to another
 
 ### Layer and objects rendering order
 
-The rendering of diagram elements with layer properties involves grouping them within a `diagram_diagramLayer` for basic shape nodes and `diagram_nativeLayer_svg` for SVG-native elements. Even if different types of nodes are added within the same layer, the rendering at the DOM level occurs in separate layers. Therefore, when executing layering commands like [`bringLayerForward`](../api/diagram/index-default#bringlayerforward) and [`sendLayerBackward`](../api/diagram/index-default#sendlayerbackward), the native SVG elements will always render above the basic shape elements. 
+The rendering of diagram elements with layer properties involves grouping them within a `diagram_diagramLayer` for basic shape nodes and `diagram_nativeLayer_svg` for SVG-native elements. Even if different types of nodes are added within the same layer, the rendering at the DOM level occurs in separate layers. Therefore, when executing layering commands like [`bringLayerForward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringlayerforward) and [`sendLayerBackward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#sendlayerbackward), the native SVG elements will always render above the basic shape elements. 
 
 The order of rendering is as follows: HTML shapes -> SVG shapes -> Path data shapes & Basic shapes.
 
 ## Clone Layer
 
-Layers can be cloned with its object by using the [`cloneLayer`](../api/diagram/index-default#clonelayer) public method.
+Layers can be cloned with its object by using the [`cloneLayer`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#clonelayer) public method.
 
 The following code illustrates how to clone the layer.
 
@@ -269,7 +269,7 @@ let activeLayer = diagram.getActiveLayer();
 
 ### Set ActiveLayer
 
-You can set any layer to be the active layer of the diagram by using the [`setActiveLayer`](../api/diagram/index-default#setactivelayer) public method.
+You can set any layer to be the active layer of the diagram by using the [`setActiveLayer`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#setactivelayer) public method.
 
 The following code illustrates how to set active layer for diagram
 
