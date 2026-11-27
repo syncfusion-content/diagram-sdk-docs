@@ -4,7 +4,6 @@ title: Printing in JavaScript Diagram | Syncfusion®
 description: Print the Syncfusion® JavaScript Diagram as an image using the print method with customizable printOptions for region, scale, and page layout.
 platform: diagram-sdk
 control: Print 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

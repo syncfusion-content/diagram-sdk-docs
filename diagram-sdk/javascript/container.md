@@ -4,7 +4,6 @@ title: Container in JavaScript Diagram | Syncfusion®
 description: Group related shapes inside a visible boundary in the Syncfusion® JavaScript Diagram Container, with header text and dynamic add/remove.
 platform: diagram-sdk
 control: Group 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

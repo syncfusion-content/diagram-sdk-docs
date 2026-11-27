@@ -4,7 +4,6 @@ title: Connector Interaction in JavaScript Diagram | Syncfusion®
 description: Select, drag, and route connectors in the Syncfusion® JavaScript Diagram, and use select, clearSelection, and drag methods programmatically.
 platform: diagram-sdk
 control: Connector Interaction
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

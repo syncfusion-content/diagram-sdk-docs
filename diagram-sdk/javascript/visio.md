@@ -4,7 +4,6 @@ title: Import and Export Visio files in JavaScript Diagram | Syncfusion®
 description: Import and export Microsoft Visio (.vsdx) files in the Syncfusion® JavaScript Diagram to reuse, edit, and share Visio diagrams on the web.
 platform: diagram-sdk
 control: Diagram
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

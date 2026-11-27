@@ -4,7 +4,6 @@ title: Symmetric Layout in JavaScript Diagram | Syncfusion®
 description: Lay out nodes using the Symmetric Layout in the Syncfusion® JavaScript Diagram, with spring length, spring factor, and max iteration properties.
 platform: diagram-sdk
 control: Symmetric 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

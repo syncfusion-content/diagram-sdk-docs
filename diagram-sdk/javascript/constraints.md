@@ -4,7 +4,6 @@ title: Constraints in JavaScript Diagram | Syncfusion®
 description: Enable or disable diagram, node, connector, port, and annotation behaviors in the Syncfusion® JavaScript Diagram using flagged constraints.
 platform: diagram-sdk
 control: Constraints 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -483,7 +482,7 @@ var diagram = new ej.diagrams.Diagram({
 
 ```
 
-The following code example shows how to disable the userhandle functionality for the selected item.
+The following code example shows how to disable the user handle functionality for the selected item.
 
 ```javascript
 var diagram = new ej.diagrams.Diagram({

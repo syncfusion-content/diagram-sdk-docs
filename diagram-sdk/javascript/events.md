@@ -4,7 +4,6 @@ title: Diagram Events in JavaScript Diagram | Syncfusion®
 description: Handle JavaScript Diagram lifecycle events like load, loaded, dataLoaded, created, and mouseWheel to customize initialization and user interaction.
 platform: diagram-sdk
 control: Events 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

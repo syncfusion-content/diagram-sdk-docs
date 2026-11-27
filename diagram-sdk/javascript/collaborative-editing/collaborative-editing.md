@@ -5,7 +5,6 @@ description: Set up real-time collaborative editing in the Syncfusion® JavaScri
 platform: diagram-sdk
 control: Diagram
 documentation: ug
-publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 

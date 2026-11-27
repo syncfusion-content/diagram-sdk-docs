@@ -4,7 +4,6 @@ title: Bezier Control Points in JavaScript Diagram | Syncfusion®
 description: Control bezier segment interaction in the Syncfusion® JavaScript Diagram with smoothness, controlPointsVisibility, and edit handle options.
 platform: diagram-sdk
 control: Bezier control points interaction
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

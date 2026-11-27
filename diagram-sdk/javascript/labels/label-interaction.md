@@ -4,7 +4,6 @@ title: Annotation Interaction in JavaScript Diagram | Syncfusion®
 description: Enable select, drag, rotate, and resize interactions on annotations in the Syncfusion® JavaScript Diagram using annotation constraints.
 platform: diagram-sdk
 control: Label Interaction
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
