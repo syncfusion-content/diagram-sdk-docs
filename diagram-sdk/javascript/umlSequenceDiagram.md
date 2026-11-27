@@ -4,7 +4,6 @@ title: UML Sequence Diagram in JavaScript Diagram | Syncfusion®
 description: Model interactions and message order in a UML Sequence Diagram with participants, lifelines, activations, and fragments in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: UmlSequenceDiagram 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -45,21 +44,6 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 | Database | Database or persistent storage system, displayed using a cylindrical shape. | ![Database stereotype](./images/umlSequenceDiagram-images/Database.png) |
 
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/umlsequencediagram-1/index.js %}
@@ -70,8 +54,6 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-1" %}
-
-{% endif %}
 
 ### Messages
 
@@ -100,21 +82,6 @@ The [UmlSequenceParticipantStereotype](https://ej2.syncfusion.com/documentation/
 
 The following code example illustrates how to create messages:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/umlsequencediagram-2/index.js %}
@@ -125,8 +92,6 @@ The following code example illustrates how to create messages:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-2" %}
-
-{% endif %}
 
 ### Activation Boxes
 
@@ -142,21 +107,6 @@ The following code example illustrates how to create messages:
 
 The following code example illustrates how to create activation boxes:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/umlsequencediagram-3/index.js %}
@@ -167,8 +117,6 @@ The following code example illustrates how to create activation boxes:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-3" %}
-
-{% endif %}
 
 ### Fragments
 
@@ -202,21 +150,6 @@ The [UmlSequenceFragmentType](https://ej2.syncfusion.com/documentation/api/diagr
 
 The following code example illustrates how to create fragments:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/umlsequencediagram-4/index.js %}
@@ -227,8 +160,6 @@ The following code example illustrates how to create fragments:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/umlsequencediagram-4" %}
-
-{% endif %}
 
 ### Customizing Participant Spacing in Sequence Diagram 
 

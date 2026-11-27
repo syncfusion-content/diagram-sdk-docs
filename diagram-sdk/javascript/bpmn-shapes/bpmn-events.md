@@ -4,7 +4,6 @@ title: BPMN Events in JavaScript Diagram | Syncfusion®
 description: Represent start, intermediate, and end events in a BPMN process with the Syncfusion® JavaScript Diagram event shape and trigger configuration.
 platform: diagram-sdk
 control: Bpmn Events 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -12,7 +11,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Event
 
-An [`event`](../../api/diagram/bpmnEvent) is a common BPMN process model element that represents something that happens during a business process and is notated with a circle. The type of events are as follows:
+An [`event`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent) is a common BPMN process model element that represents something that happens during a business process and is notated with a circle. The type of events are as follows:
 
     * Start
     * Intermediate
@@ -21,22 +20,7 @@ An [`event`](../../api/diagram/bpmnEvent) is a common BPMN process model element
     * ThrowingIntermediate
     * End
         
-The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node allows you to define the type of the event. The default value of the event is **start**. The following code example illustrates how to create a BPMN event.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
+The [`event`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent#event-bpmnevents) property of the node allows you to define the type of the event. The default value of the event is **start**. The following code example illustrates how to create a BPMN event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -48,11 +32,10 @@ The [`event`](../../api/diagram/bpmnEvent#event-bpmnevents) property of the node
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs2" %}
-{% endif %}
 
 ## BPMN event trigger
 
-Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](../../api/diagram/bpmnEvent#trigger ) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
+Event triggers are notated as icons inside the circle and they represent the specific details of the process. The [`trigger`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnEvent#trigger) property of the node allows you to set the type of trigger and by default, it is set as **none**. The following table illustrates the type of event triggers.
 
 | Triggers | Start | Non-Interrupting Start | Intermediate | Non-Interrupting Intermediate | Throwing Intermediate | End |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |

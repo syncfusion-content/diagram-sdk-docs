@@ -5,7 +5,6 @@ description: Set up real-time collaborative editing in the Syncfusion® JavaScri
 platform: diagram-sdk
 control: Diagram
 documentation: ug
-publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
@@ -35,7 +34,7 @@ Collaborative editing in JavaScript Diagram control allows multiple users to edi
     * Changes to [pageSettings](../page-settings), [contextMenuSettings](../context-menu), [snapSettings](../grid-lines#snapping), [rulerSettings](../ruler), [layout](https://ej2.syncfusion.com/documentation/diagram/automatic-layout/automatic-layout), and [scrollSettings](../scroll-settings) are not propagated to other users and apply only locally.
 
 >**Note:** 
-Collaboration will work when [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) modules are enabled. Collaboration applies to actions that raise the [historyChange](../../api/diagram/index-default#historychange) event.
+Collaboration will work when [DiagramCollaboration](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) and [UndoRedo](https://ej2.syncfusion.com/documentation/diagram/getting-started#module-injection) modules are enabled. Collaboration applies to actions that raise the [historyChange](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#historychange) event.
 
 
 ## Sample code

@@ -4,19 +4,18 @@ title: Annotation Appearance in JavaScript Diagram | Syncfusion®
 description: Style annotation text and background in the Syncfusion® JavaScript Diagram with font, fill, stroke, opacity, and bold/italic/decoration properties.
 platform: diagram-sdk
 control: Label Appearance 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Annotation Appearance in JavaScript Diagram
 
-You can change the font style of the annotations with the font specific properties [`fontSize`](../../api/diagram/textstylemodel#fontsize), [`fontFamily`](../../api/diagram/textStyleModel#fontfamily), [`color`](../../api/diagram/textStyleModel#color).
-The label’s [`bold`](../../api/diagram/textStyleModel#bold-boolean), [`italic`](../../api/diagram/textStyleModel#italic), and [`textDecoration`](../../api/diagram/textStyleModel#textdecoration) properties are used to style the label’s text.
+You can change the font style of the annotations with the font specific properties [`fontSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textstylemodel#fontsize), [`fontFamily`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#fontfamily), [`color`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#color).
+The label’s [`bold`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#bold-boolean), [`italic`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#italic), and [`textDecoration`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#textdecoration) properties are used to style the label’s text.
 
-The label’s [`fill`](../../api/diagram/textstylemodel#fill), [`strokeColor`](../../api/diagram/textStyleModel#strokecolor), and [`strokeWidth`](../../api/diagram/textStyleModel#strokewidth) properties are used to define the background color and border color of the annotation and the [`opacity`](../../api/diagram/textStyleModel#opacity) property is used to define the transparency of the annotations.
+The label’s [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textstylemodel#fill), [`strokeColor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#strokecolor), and [`strokeWidth`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#strokewidth) properties are used to define the background color and border color of the annotation and the [`opacity`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#opacity) property is used to define the transparency of the annotations.
 
-The [`visible`](../../api/diagram/annotationmodel#visibility) property of the annotation enables or disables the visibility of annotation.
+The [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationmodel#visibility) property of the annotation enables or disables the visibility of annotation.
 
  The following code illustrates how to customize the appearance of the annotation.
 
@@ -63,7 +62,7 @@ The following codes illustrates how to align annotations.
 
 ## Annotation Margin
 
-[`Margin`](../../api/diagram/annotationmodel#margin) is an absolute value used to add some blank space in any one of its four sides. The annotations can be displaced with the margin property. The following code example illustrates how to align a annotation based on its `offset`, `horizontalAlignment`, `verticalAlignment`, and [`margin`](../../api/diagram/annotationmodel#margin) values.
+[`Margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationmodel#margin) is an absolute value used to add some blank space in any one of its four sides. The annotations can be displaced with the margin property. The following code example illustrates how to align a annotation based on its `offset`, `horizontalAlignment`, `verticalAlignment`, and [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationmodel#margin) values.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -79,12 +78,12 @@ The following codes illustrates how to align annotations.
 
 ## Hyperlink
 
-Diagram provides a support to add a [`hyperlink`](../../api/diagram/annotationmodel#hyperlink) for the nodes/connectors annotation. It can also be customized with the below properties.
+Diagram provides a support to add a [`hyperlink`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationmodel#hyperlink) for the nodes/connectors annotation. It can also be customized with the below properties.
 
-A User can open the hyperlink in the new window, the same tab and the new tab by using the  [`hyperlinkOpenState`](../../api/diagram/hyperlinkModel#hyperlinkopenstate)  property.
+A User can open the hyperlink in the new window, the same tab and the new tab by using the  [`hyperlinkOpenState`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/hyperlinkModel#hyperlinkopenstate)  property.
 
-The [`content`](../../api/diagram/hyperlinkModel#content) property of `hyperlink` is used to display the content of the hyper link display text. The [`color`](../../api/diagram/hyperlinkModel#color) property of the `hyperlink` is used to display the color of the hyper link.
-The [`textDecoration`](../../api/diagram/textDecoration) property is used to decorate the hyper link text with **Underline**, **LineThrough**, **Overline**. The following example illustrates how to define and customize hyper link in both node and connector.
+The [`content`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/hyperlinkModel#content) property of `hyperlink` is used to display the content of the hyper link display text. The [`color`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/hyperlinkModel#color) property of the `hyperlink` is used to display the color of the hyper link.
+The [`textDecoration`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textDecoration) property is used to decorate the hyper link text with **Underline**, **LineThrough**, **Overline**. The following example illustrates how to define and customize hyper link in both node and connector.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -99,7 +98,7 @@ The [`textDecoration`](../../api/diagram/textDecoration) property is used to dec
 
 ## Rotate Annotation
 
-Annotation can be rotated by setting the [`rotateAngle`](../../api/diagram/shapeAnnotationModel#rotateangle) property of the annotation. The following example shows how to rotate annotation text.
+Annotation can be rotated by setting the [`rotateAngle`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/shapeAnnotationModel#rotateangle) property of the annotation. The following example shows how to rotate annotation text.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -114,11 +113,11 @@ Annotation can be rotated by setting the [`rotateAngle`](../../api/diagram/shape
 
 ## Template support for annotation
 
-Diagram provides template support for annotation. You can either define a string template and assign it to [`template`](../../api/diagram/annotationModel#template) property of annotation or define a annotation template in html file and assign it to the [`annotationTemplate`](../../api/diagram/index-default#annotationtemplate) property of the diagram.
+Diagram provides template support for annotation. You can either define a string template and assign it to [`template`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#template) property of annotation or define a annotation template in html file and assign it to the [`annotationTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#annotationtemplate) property of the diagram.
 
 ### String template
 
- For string template you should define a SVG/HTML content as string in the annotation's [`template`](../../api/diagram/annotationModel#template) property.
+ For string template you should define a SVG/HTML content as string in the annotation's [`template`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/annotationModel#template) property.
 
 The following code illustrates how to define a template in annotation.
 
@@ -137,7 +136,7 @@ N> For the proper alignment of template, we need to mention width and height for
 
 ### Annotation template
 
-For annotation template you should define a template in html file which you want to render in annotation and assign it to the [`annotationTemplate`](../../api/diagram/index-default#annotationtemplate) property of diagram. This template can be applied to both nodes and connectors within the diagram.
+For annotation template you should define a template in html file which you want to render in annotation and assign it to the [`annotationTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#annotationtemplate) property of diagram. This template can be applied to both nodes and connectors within the diagram.
 
 The following code illustrates how to define a annotationTemplate in annotation for nodes and connectors.
 
@@ -171,7 +170,7 @@ The following code illustrates how to define a functional template.
 
 ### Refresh annotation template
 
-Use the [`refreshTemplate`](../../api/diagram#refreshtemplate) method to refresh an annotation template after modifying its properties.
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#refreshtemplate) method to refresh an annotation template after modifying its properties.
 
 To refresh a specific annotation template, provide the annotation ID. If no ID is provided, the method refreshes all annotation templates.
 
@@ -190,7 +189,7 @@ The following example demonstrates how to modify an annotation and refresh its t
 
 ## Text align
 
-The [`textAlign`](../../api/diagram/textStyleModel#textalign) property of annotation allows you to set how the text should be aligned (left, right, center, or justify) inside the text block. The following codes illustrate how to set textAlign for an annotation.
+The [`textAlign`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#textalign) property of annotation allows you to set how the text should be aligned (left, right, center, or justify) inside the text block. The following codes illustrate how to set textAlign for an annotation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -214,7 +213,7 @@ The following table shows the different text alignment.
 
 ## Text Wrapping
 
-When text overflows node boundaries, you can control it by using [`text wrapping`](../../api/diagram/textStyleModel#textwrapping). So, it is wrapped into multiple lines. The wrapping property of annotation defines how the text should be wrapped. The following code illustrates how to wrap a text in a node.
+When text overflows node boundaries, you can control it by using [`text wrapping`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#textwrapping). So, it is wrapped into multiple lines. The wrapping property of annotation defines how the text should be wrapped. The following code illustrates how to wrap a text in a node.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -235,7 +234,7 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 ## Text overflow
 
-The label’s [`TextOverflow`](../../api/diagram/textStyleModel#textoverflow) property is used control whether to display the overflowed content in node or not. 
+The label’s [`TextOverflow`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/textStyleModel#textoverflow) property is used control whether to display the overflowed content in node or not. 
 
 - `Clip` - The text which overflowing node's bounds will be removed.
 - `Ellipsis` - The text which overflowing nodes's bounds will be replaced by three dots.

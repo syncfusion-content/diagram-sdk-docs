@@ -4,7 +4,6 @@ title: Orthogonal in JavaScript Diagram | Syncfusion®
 description: Create perpendicular connector segments in the Syncfusion® JavaScript Diagram with length, direction, and editing thumb support.
 platform: diagram-sdk
 control: Orthogonal 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -13,11 +12,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Orthogonal segments is used to create segments that are perpendicular to each other.
 
-Set the segment [`type`](../../../api/diagram/segments) as orthogonal to create a default orthogonal segment and need to specify [`type`](../../../api/diagram/connector#type-Segments). The following code example illustrates how to create a default orthogonal segment.
+Set the segment [`type`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/segments) as orthogonal to create a default orthogonal segment and need to specify [`type`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#type-Segments). The following code example illustrates how to create a default orthogonal segment.
 
-Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](../../../api/diagram/connector#segments) collection. The following code example illustrates how to create a connector with multiple segments.
+Multiple segments can be defined one after another. To create a connector with multiple segments, define and add the segments to [`connector.segments`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connector#segments) collection. The following code example illustrates how to create a connector with multiple segments.
 
-The [`length`](../../../api/diagram/orthogonalSegment) and [`direction`](../../../api/diagram/orthogonalSegment) properties allow to define the flow and length of segment. The following code example illustrates how to create customized orthogonal segments.
+The [`length`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/orthogonalSegment) and [`direction`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/orthogonalSegment) properties allow to define the flow and length of segment. The following code example illustrates how to create customized orthogonal segments.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,7 +70,7 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 ## How to customize Orthogonal Segment Thumb Shape
 
-The orthogonal connector can have any number of segments in between the source and the target point. Segments are rendered with the circle shape by default. The [`segmentThumbShape`](../../../api/diagram#segmentthumbshape) property allows you to change the default shape of the segment thumb. The following predefined shapes are provided:
+The orthogonal connector can have any number of segments in between the source and the target point. Segments are rendered with the circle shape by default. The [`segmentThumbShape`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#segmentthumbshape) property allows you to change the default shape of the segment thumb. The following predefined shapes are provided:
 
 | Shape name | Shape |
 |-------- | -------- |
@@ -121,9 +120,9 @@ Use the following CSS to customize the segment thumb shape.
 
 ## How to customize Orthogonal Segment Thumb Size
 
-Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](../../../api/diagram#segmentthumbsize) property.
-To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](../../../api/diagram#segmentthumbsize) property in the diagram’s model.
-To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](../../../api/diagram/connectorConstraints) constraint, then set the desired [`segmentThumbSize`](../../../api/diagram#segmentthumbsize). 
+Orthogonal segment thumbs default to size 10. This can be adjusted globally or for individual connectors using the [`segmentThumbSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#segmentthumbsize) property.
+To change the thumb size for all Orthogonal connectors, set the [`segmentThumbSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#segmentthumbsize) property in the diagram’s model.
+To customize the thumb size for a specific connector, disable the [`InheritSegmentThumbSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/connectorConstraints) constraint, then set the desired [`segmentThumbSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#segmentthumbsize). 
 
 
 {% tabs %}

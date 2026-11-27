@@ -137,7 +137,7 @@ The following code shows how to change the measurement unit at runtime. The rule
 
 #### Convert unit
 
-The [`convertUnit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/diagram#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
+The [`convertUnit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/index-default#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
 
 The following code demonstrates how to convert values between units:
 

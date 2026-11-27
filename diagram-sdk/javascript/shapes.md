@@ -4,7 +4,6 @@ title: Shapes in JavaScript Diagram | Syncfusion®
 description: Add text, image, HTML, native, basic, and flow shapes to the Syncfusion® JavaScript Diagram with style, scale, and alignment options.
 platform: diagram-sdk
 control: Shapes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -80,7 +79,7 @@ Link 2: `http://stackoverflow.com/questions/4761711/local-image-in-canvas-in-chr
 
 Stretch and align the image content anywhere but within the node boundary.
 
-The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](../api/diagram/image#scale) property of the node is set as **meet**. The [`align`](../api/diagram/image#align) property is used to set the alignment of the image.
+The scale property of the node allows to stretch the image as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/image#scale) property of the node is set as **meet**. The [`align`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/image#align) property is used to set the alignment of the image.
 
 The following code illustrates how to use scale and align properties to stretch the image.
 
@@ -108,13 +107,13 @@ N> To visualize the changes in image scaling, it is Essential<sup style="font-si
 
 ## HTML
 
-Html elements can be embedded in the diagram through [`Html`](../api/diagram/node#shape) type node. The shape property of node allows you to set the type of node and to create a HTML node it should be set as `HTML`.
+Html elements can be embedded in the diagram through [`Html`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#shape) type node. The shape property of node allows you to set the type of node and to create a HTML node it should be set as `HTML`.
 
 N> HTML node cannot be exported to image format, like JPEG, PNG, and BMP. It is by design, while exporting the diagram is drawn in a canvas. Further, this canvas is exported into image formats. Currently, drawing in a canvas equivalent from all possible HTML is not feasible. Hence, this limitation. To overcome this limiatation we can use Blink rendering engine. Refer to - [`Html node export`](https://support.syncfusion.com/kb/article/14031/how-to-export-html-node-using-blink-rendering-in-javascript-diagram)
 
 ### HTML Node with contentTemplate.
 
-To render an HTML node with a content template, we need to define the desired template string within the [`content`](../api/diagram/htmlModel#content) property. The following code illustrates how to create an HTML node with a content template:
+To render an HTML node with a content template, we need to define the desired template string within the [`content`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/htmlModel#content) property. The following code illustrates how to create an HTML node with a content template:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -146,7 +145,7 @@ The following code illustrates how to render an HTML node using the function and
 
 ### HTML Node With nodeTemplate
 
-To render html node with nodeTemplate we need to define the nodeTemplate in the html file and assign it to the [`nodeTemplate`](../api/diagram#nodetemplate) property of the diagram. The following code illustrates how to render html node with nodeTemplate.
+To render html node with nodeTemplate we need to define the nodeTemplate in the html file and assign it to the [`nodeTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#nodetemplate) property of the diagram. The following code illustrates how to render html node with nodeTemplate.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -178,7 +177,7 @@ Refer the code example below.
 
 ### Refresh node template
 
-Use the [`refreshTemplate`](../api/diagram#refreshtemplate) method to refresh a node template after modifying its properties.
+Use the [`refreshTemplate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#refreshtemplate) method to refresh a node template after modifying its properties.
 
 To refresh a specific node template, provide the node ID. If no ID is provided, the method refreshes all node templates.
 
@@ -197,7 +196,7 @@ The following example demonstrates how to modify a node and refresh its template
 
 ## Native
 
-Diagram provides support to embed SVG element into a node. The shape property of node allows you to set the type of node. To create a [`native`](../api/diagram/node#shape) node, it should be set as **native**. The following code illustrates how a native node is created.
+Diagram provides support to embed SVG element into a node. The shape property of node allows you to set the type of node. To create a [`native`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#shape) node, it should be set as **native**. The following code illustrates how a native node is created.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -216,7 +215,7 @@ N> Like HTML node, the native node also cannot be exported to image format. Fill
 
 Stretch and align the svg content anywhere but within the node boundary.
 
-The scale property of the node allows to stretch the svg content as you desired (either to maintain proportion or to stretch). By default, the [`scale`](../api/diagram/nativeModel#scale) property of native shape is set as **meet**.
+The scale property of the node allows to stretch the svg content as you desired (either to maintain proportion or to stretch). By default, the [`scale`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nativeModel#scale) property of native shape is set as **meet**.
 
 The following tables illustrates all the possible scale options for the node.
 
@@ -229,9 +228,9 @@ The following tables illustrates all the possible scale options for the node.
 
 ## Basic shapes
 
-* The [`Basic`](../api/diagram/node#shape) shapes are common shapes that are used to represent the geometrical information visually. To create basic shapes, the type of the shape should be set as **basic**. Its shape property can be set with any one of the built-in shape.
+* The [`Basic`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#shape) shapes are common shapes that are used to represent the geometrical information visually. To create basic shapes, the type of the shape should be set as **basic**. Its shape property can be set with any one of the built-in shape.
 
-* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](../api/diagram/basicShapeModel#cornerradius) property to specify the radius of rounded rectangle.
+* To render a rounded rectangle, you need to set the type as basic and shape as rectangle. Set the [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/basicShapeModel#cornerradius) property to specify the radius of rounded rectangle.
 
 The following code example illustrates how to create a basic shape.
 
@@ -258,9 +257,9 @@ The list of basic shapes are as follows.
 
 ## Path
 
-The [`Path`](../api/diagram/node#shape) shape is a commonly used basic shape that allows visually to represent the geometrical information. As node path data, any geometrical data can be provided. You can create your own Geometry and assign it to data if you want anything different from the standard figures. A geometry does not require any dimension specifications, such as width or height, because it specifies its own size. If the node’s size is set, the geometry is extended to fit the node’s dimensions.
+The [`Path`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#shape) shape is a commonly used basic shape that allows visually to represent the geometrical information. As node path data, any geometrical data can be provided. You can create your own Geometry and assign it to data if you want anything different from the standard figures. A geometry does not require any dimension specifications, such as width or height, because it specifies its own size. If the node’s size is set, the geometry is extended to fit the node’s dimensions.
 
-To create a path node, specify the shape as Path. The [`data`](../api/diagram/pathModel#data) property of node allows you to define the path to be drawn. The following code illustrates how a path node is created.
+To create a path node, specify the shape as Path. The [`data`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/pathModel#data) property of node allows you to define the path to be drawn. The following code illustrates how a path node is created.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -275,7 +274,7 @@ To create a path node, specify the shape as Path. The [`data`](../api/diagram/pa
 
 ## Flow Shapes
 
-The [`flow`](../api/diagram/node#shape) shapes are used to represent the process flow. It is used for analyzing, designing, and managing for documentation process. To create a flow shape, specify the shape type as **flow**. Flow shapes and by default, it is considered as **process**. The following code example illustrates how to create a flow shape.
+The [`flow`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/node#shape) shapes are used to represent the process flow. It is used for analyzing, designing, and managing for documentation process. To create a flow shape, specify the shape type as **flow**. Flow shapes and by default, it is considered as **process**. The following code example illustrates how to create a flow shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

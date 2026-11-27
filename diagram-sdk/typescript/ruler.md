@@ -4,7 +4,6 @@ title: Ruler in TypeScript Diagram | Syncfusion®
 description: Show horizontal and vertical rulers with a position indicator in the Syncfusion® TypeScript Diagram using the rulerSettings property.
 platform: diagram-sdk
 control: Ruler 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -88,7 +87,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 
 ### Measurement units
 
-The [`measurementUnit`](../api/diagram/rulerSettings#measurementunit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
+The [`measurementUnit`](https://ej2.syncfusion.com/documentation/api/diagram/rulerSettings#measurementunit) property of `rulerSettings` specifies the unit used to display the ruler values. The ruler supports the following measurement units:
 
 * `Pixel` - Displays ruler values in pixels. This is the default value.
 * `Point` - Displays ruler values in points (1 pt = 1/72 inch).
@@ -133,7 +132,7 @@ The following code shows how to change the measurement unit at runtime. The rule
 
 #### Convert unit
 
-The [`convertUnit`](../api/diagram/diagram#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
+The [`convertUnit`](https://ej2.syncfusion.com/documentation/api/diagram/index-default#convertunit) method of the diagram converts values between different measurement units. It accepts the value to convert, the source unit, and the target unit as parameters, and returns the converted value.
 
 The following code demonstrates how to convert values between units:
 

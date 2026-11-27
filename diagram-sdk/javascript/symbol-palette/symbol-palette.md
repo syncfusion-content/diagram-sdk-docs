@@ -3,22 +3,21 @@ layout: post
 title: Symbol Palette in JavaScript Diagram | Syncfusion®
 description: Add a gallery of reusable nodes, connectors, and groups to the Syncfusion® JavaScript Diagram with the symbol palette component for drag and drop.
 platform: diagram-sdk
-control: Symbol palette 
-publishingplatform: diagram-sdk
+control: Symbol palette
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Symbol Palette in JavaScript Diagram
 
-The [`symbolPalette`](../../api/diagram/symbolPaletteModel) is a gallery of reusable symbols and diagram elements that can be dragged and dropped on the diagram surface multiple times.
+The [`symbolPalette`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel) is a gallery of reusable symbols and diagram elements that can be dragged and dropped on the diagram surface multiple times.
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD010 -->
 
 ## Create symbol palette
 
-The [`width`](../../api/diagram/symbolPaletteModel#width) and [`height`](../../api/diagram/symbolPaletteModel#height) properties of the symbol palette allows you to define the size of the symbol palette.
+The [`width`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#width) and [`height`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#height) properties of the symbol palette allows you to define the size of the symbol palette.
 
 ```javascript
 
@@ -33,11 +32,11 @@ var palette = new ej.diagrams.SymbolPalette({
 
 ## Add nodes and palettes to SymbolPalette
 
-The collection of predefined symbols can be added to palettes using the [`symbols`](../../api/diagram/paletteModel#symbols) property.
+The collection of predefined symbols can be added to palettes using the [`symbols`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/paletteModel#symbols) property.
 
-A palette displays a group of related symbols and textually annotates the group with its header. A [`Palettes`](../../api/diagram/paletteModel) can be added as a collection of symbol groups.
+A palette displays a group of related symbols and textually annotates the group with its header. A [`Palettes`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/paletteModel) can be added as a collection of symbol groups.
 
-To initialize a palette, define a JSON object with the unique property [`ID`](../../api/diagram/paletteModel#id). Additionally, include the symbols property, which contains an array of different symbols.
+To initialize a palette, define a JSON object with the unique property [`ID`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/paletteModel#id). Additionally, include the symbols property, which contains an array of different symbols.
 
 The following code example illustrates how to define symbols in a palette and how to add them to the symbol palette:
 
@@ -107,7 +106,7 @@ Templates can be defined either as strings or functions and assigned to the node
 
 ## Drag and drop symbols from palette to diagram
 
-To drag and drop symbols from the palette to the diagram canvas, mousedown on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
+To drag and drop symbols from the palette to the diagram canvas, press the mouse button down on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
 
 ![Drag and drop symbols](../images/symbol-palette-drag-drop.gif)
 
@@ -143,7 +142,7 @@ Symbols can be removed from palette at runtime by using public method, `removePa
 
 ## Symbol defaults
 
-While adding more symbols such as nodes and connectors to the palette, you can define the default settings for these objects using the [`getNodeDefaults`](../../api/diagram/symbolpalettemodel#getnodedefaults) and the [`getConnectorDefaults`](../../api/diagram/symbolpalettemodel#getconnectordefaults) properties of the diagram. These properties allow you to specify default configurations for nodes and connectors, ensuring consistency and saving time when adding multiple symbols. By setting these properties, you can predefine attributes such as size, color, shape for nodes and line style, thickness, for connectors. 
+While adding more symbols such as nodes and connectors to the palette, you can define the default settings for these objects using the [`getNodeDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolpalettemodel#getnodedefaults) and the [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolpalettemodel#getconnectordefaults) properties of the diagram. These properties allow you to specify default configurations for nodes and connectors, ensuring consistency and saving time when adding multiple symbols. By setting these properties, you can predefine attributes such as size, color, shape for nodes and line style, thickness, for connectors. 
 
 In the following example, the fill color of node and target decorator shape of connector is defined in getNodeDefaults and getConnectorDefaults respectively.
 
@@ -199,7 +198,7 @@ Follow the example below to see how to remove palettes at runtime.
 
 ## Stretch the symbols into the palette
 
-The [`fit`](../../api/diagram/symbolInfo#fit-boolean) property defines whether the symbol has to be fit inside the size, that is defined by the symbol palette. For example, when you resize the rectangle in the symbol, ratio of the rectangle size has to be maintained rather changing into square shape. The following code example illustrates how to customize the symbol size.
+The [`fit`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolInfo#fit-boolean) property defines whether the symbol has to be fit inside the size, that is defined by the symbol palette. For example, when you resize the rectangle in the symbol, ratio of the rectangle size has to be maintained rather changing into square shape. The following code example illustrates how to customize the symbol size.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
