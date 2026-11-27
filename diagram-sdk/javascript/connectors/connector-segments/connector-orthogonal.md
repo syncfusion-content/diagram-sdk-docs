@@ -4,7 +4,6 @@ title: Orthogonal in JavaScript Diagram | Syncfusion®
 description: Create perpendicular connector segments in the Syncfusion® JavaScript Diagram with length, direction, and editing thumb support.
 platform: diagram-sdk
 control: Orthogonal 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

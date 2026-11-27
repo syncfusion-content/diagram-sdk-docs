@@ -4,7 +4,6 @@ title: Node Expand and Collapse in JavaScript Diagram | Syncfusion®
 description: Show or hide child nodes in the Syncfusion® JavaScript Diagram with expand and collapse icons, customizable shape, size, and offset.
 platform: diagram-sdk
 control: Expand and collapse of nodes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

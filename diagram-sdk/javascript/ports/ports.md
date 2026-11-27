@@ -4,7 +4,6 @@ title: Port in JavaScript Diagram | Syncfusion®
 description: Glue connectors to specific connection points on a node with ports in the Syncfusion® JavaScript Diagram, supporting node-to-node and port-to-port links.
 platform: diagram-sdk
 control: Ports 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -25,7 +24,7 @@ A node to node connection is one where the connector will move around the node a
 
 <!-- markdownlint-disable MD033 -->
 
-When a connector is connected between two nodes, its end points are automatically docked to the node’s nearest boundary as shown in the following Gif.
+When a connector is connected between two nodes, its end points are automatically docked to the node’s nearest boundary as shown in the following GIF.
 
 ![Node to Node](../images/node-node-gif.gif)
 

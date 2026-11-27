@@ -4,7 +4,6 @@ title: Complex Hierarchical Tree in JavaScript Diagram | Syncfusion®
 description: Render a Complex Hierarchical Tree in the Syncfusion® JavaScript Diagram where a child node can have more than one parent node.
 platform: diagram-sdk
 control: Complex hierarchical tree  
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

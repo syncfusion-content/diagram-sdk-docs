@@ -4,7 +4,6 @@ title: Swimlane in JavaScript Diagram | Syncfusion®
 description: Visualize a business process and its responsible departments with a Swimlane in the Syncfusion® JavaScript Diagram, with horizontal or vertical layout.
 platform: diagram-sdk
 control: Swim lane 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

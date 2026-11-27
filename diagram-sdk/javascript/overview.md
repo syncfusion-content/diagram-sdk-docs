@@ -4,7 +4,6 @@ title: Overview in JavaScript Diagram | Syncfusion®
 description: Show a navigable preview of the entire Syncfusion® JavaScript Diagram with the Overview control, including viewport rectangle and pan/zoom support.
 platform: diagram-sdk
 control: Overview 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -61,7 +60,7 @@ You can interact with the overview as follows:
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-cs1" %}
 
-The following Gif image displays the interactions with overview.
+The following GIF image displays the interactions with overview.
 
 ![Overview-interaction](images/overview-interaction.gif)
 

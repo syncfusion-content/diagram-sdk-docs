@@ -4,7 +4,6 @@ title: Annotation Appearance in JavaScript Diagram | Syncfusion®
 description: Style annotation text and background in the Syncfusion® JavaScript Diagram with font, fill, stroke, opacity, and bold/italic/decoration properties.
 platform: diagram-sdk
 control: Label Appearance 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

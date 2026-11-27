@@ -4,7 +4,6 @@ title: Bezier Segment Edit Orientation in JavaScript Diagram | Syncfusion®
 description: Edit intermediate bezier points in the Syncfusion® JavaScript Diagram using Bidirectional or Freeform segmentEditOrientation modes.
 platform: diagram-sdk
 control: Bezier Segment edit orientation
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

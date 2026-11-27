@@ -5,7 +5,6 @@ description: Configure the SignalR client in the Syncfusion® JavaScript Diagram
 platform: diagram-sdk
 control: Diagram
 documentation: ug
-publishingplatform: diagram-sdk
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 

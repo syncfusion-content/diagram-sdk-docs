@@ -4,7 +4,6 @@ title: Connector Annotation in JavaScript Diagram | Syncfusion®
 description: Position connector annotations in the Syncfusion® JavaScript Diagram with offset, alignment, displacement, and segmentAngle settings.
 platform: diagram-sdk
 control: Connector Labels
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

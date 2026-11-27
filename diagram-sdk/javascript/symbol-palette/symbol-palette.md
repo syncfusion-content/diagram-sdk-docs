@@ -3,8 +3,7 @@ layout: post
 title: Symbol Palette in JavaScript Diagram | Syncfusion®
 description: Add a gallery of reusable nodes, connectors, and groups to the Syncfusion® JavaScript Diagram with the symbol palette component for drag and drop.
 platform: diagram-sdk
-control: Symbol palette 
-publishingplatform: diagram-sdk
+control: Symbol palette
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -107,7 +106,7 @@ Templates can be defined either as strings or functions and assigned to the node
 
 ## Drag and drop symbols from palette to diagram
 
-To drag and drop symbols from the palette to the diagram canvas, mousedown on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
+To drag and drop symbols from the palette to the diagram canvas, press the mouse button down on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
 
 ![Drag and drop symbols](../images/symbol-palette-drag-drop.gif)
 

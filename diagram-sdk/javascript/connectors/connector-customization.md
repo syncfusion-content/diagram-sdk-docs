@@ -4,7 +4,6 @@ title: Connector Customization in JavaScript Diagram | Syncfusion®
 description: Customize connector appearance in the Syncfusion® JavaScript Diagram with source/target decorators, paddings, corners, and bridge support.
 platform: diagram-sdk
 control: Connector customization
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

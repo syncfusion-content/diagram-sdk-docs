@@ -4,7 +4,6 @@ title: Layout Events in JavaScript Diagram | Syncfusion®
 description: Handle the dataLoaded event in the Syncfusion® JavaScript Diagram to react when the diagram is populated from an external data source.
 platform: diagram-sdk
 control: Layout events
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---

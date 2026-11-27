@@ -4,7 +4,6 @@ title: Node Annotation in JavaScript Diagram | Syncfusion®
 description: Position node annotations in the Syncfusion® JavaScript Diagram with offset, horizontalAlignment, verticalAlignment, and margin properties.
 platform: diagram-sdk
 control: Node Labels 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
