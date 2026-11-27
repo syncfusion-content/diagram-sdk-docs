@@ -4,7 +4,6 @@ title: Commands in JavaScript Diagram | Syncfusion®
 description: Run alignment, distribute, sizing, clipboard, grouping, z-order, zoom, nudge, fitToPage, and undo/redo commands in the Syncfusion® JavaScript Diagram.
 platform: diagram-sdk
 control: Commands 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -28,11 +27,11 @@ The commands in JavaScript Diagram control are used to perform various interacti
 
 ## Align commands
 
-The alignment command enables you to align selected or defined objects, such as nodes and connectors, with respect to the selection boundary or the first selected object. The [`align`](../api/diagram#align) method parameters are explained below.
+The alignment command enables you to align selected or defined objects, such as nodes and connectors, with respect to the selection boundary or the first selected object. The [`align`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#align) method parameters are explained below.
 
 ### Alignment Options
 
-The [`Alignment Options`](../api/diagram/alignmentOptions) defines the alignment position of objects to be aligned.
+The [`Alignment Options`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/alignmentOptions) defines the alignment position of objects to be aligned.
 
 |Alignment|Description|
 |----|----|
@@ -51,7 +50,7 @@ Defines the objects to be aligned. This is an optional parameter. By default, al
 
 ### Alignment Mode
 
-[`AlignmentMode`](../api/diagram/alignmentMode) defines the specific mode, with respect to which the objects to be aligned. This is an optional parameter. The default alignment mode is `Object`. The accepted values of the argument `alignment mode` are as follows.
+[`AlignmentMode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/alignmentMode) defines the specific mode, with respect to which the objects to be aligned. This is an optional parameter. The default alignment mode is `Object`. The accepted values of the argument `alignment mode` are as follows.
 
 The below table shows the alignment as `Left` for different alignment modes.
 
@@ -80,11 +79,11 @@ The following code example illustrates how to align all the selected objects at 
 
 ## Distribute commands
 
-The [`distribute`](../api/diagram#distribute) method enable you to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary. The [`distribute`](../api/diagram#distribute) method parameters are explained below.
+The [`distribute`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#distribute) method enable you to place the selected objects on the page at equal intervals from each other. The selected objects are equally spaced within the selection boundary. The [`distribute`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#distribute) method parameters are explained below.
 
 ### Distribute options
 
-The factors for distributing shapes using [DistributeOptions](../api/diagram/distributeOptions) are listed as follows:
+The factors for distributing shapes using [DistributeOptions](https://ej2.syncfusion.com/javascript/documentation/api/diagram/distributeOptions) are listed as follows:
 
 |Distribute option| Description|
 |----|----|
@@ -118,11 +117,11 @@ The following code example illustrates how the nodes are distributed using the `
 
 ## Sizing commands
 
-The [`sameSize`](../api/diagram#samesize) command enables you to size all selected nodes to match the size of the first selected object or the first node in the objects collection you provide as the second parameter. The parameters for the [`sameSize`](../api/diagram#samesize) method are explained below.
+The [`sameSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#samesize) command enables you to size all selected nodes to match the size of the first selected object or the first node in the objects collection you provide as the second parameter. The parameters for the [`sameSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#samesize) method are explained below.
 
 ### Sizing options
 
-[`SizingOptions`](../api/diagram/sizingOptions) include:
+[`SizingOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/sizingOptions) include:
 
 |Sizing options|Description|
 |----|----|
@@ -152,15 +151,15 @@ The following code example illustrates how to execute the size commands.
 
 ## Clipboard commands
 
-Clipboard commands are used to cut, copy, or paste selected elements in the diagram using the [`cut`](../api/diagram#cut), [`copy`](../api/diagram#copy), [`paste`](../api/diagram#paste) methods. You can also use keyboard shortcuts for these actions. For detailed information on using these methods refer the below table.
+Clipboard commands are used to cut, copy, or paste selected elements in the diagram using the [`cut`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#cut), [`copy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#copy), [`paste`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#paste) methods. You can also use keyboard shortcuts for these actions. For detailed information on using these methods refer the below table.
 
 | Command (Shortcut key) | Description |
 |---------|-------------|
-| `Cut` (CTRL+X)  | Removes the selected elements from the diagram and places them onto the diagram’s clipboard. This operation is performed using the [`cut`](../api/diagram#cut)  method. |
-| `Copy`(CTRL+C)  | Duplicates the selected elements and places them onto the diagram’s clipboard without removing them from their original location. Use the [`copy`](../api/diagram#copy) method for this operation. |
-| `Paste`(CTRL+V) | Inserts the elements stored on the diagram’s clipboard (nodes and connectors) into the diagram. This can be done using the [`paste`](../api/diagram#paste) method. |
+| `Cut` (CTRL+X)  | Removes the selected elements from the diagram and places them onto the diagram’s clipboard. This operation is performed using the [`cut`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#cut)  method. |
+| `Copy`(CTRL+C)  | Duplicates the selected elements and places them onto the diagram’s clipboard without removing them from their original location. Use the [`copy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#copy) method for this operation. |
+| `Paste`(CTRL+V) | Inserts the elements stored on the diagram’s clipboard (nodes and connectors) into the diagram. This can be done using the [`paste`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#paste) method. |
 
-The [`paste`](../api/diagram#paste) method optionally accepts a collection of nodes or connectors to be added to the diagram.
+The [`paste`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#paste) method optionally accepts a collection of nodes or connectors to be added to the diagram.
 
 The following code illustrates how to execute the clipboard commands.
 
@@ -181,8 +180,8 @@ Grouping Commands are used to group or ungroup selected elements in the diagram.
 
 | Commands (Shortcut key) | Description|
 |----|----|
-| [`Group`](../api/diagram#group) (CTRL+G) | Combines the selected nodes and connectors into a single group, allowing you to move, resize, or apply other operations to all grouped elements as a unit. |
-| [`Ungroup`](../api/diagram#ungroup) (CTRL+Shift+U) | Splits a previously grouped set of nodes and connectors into individual elements, enabling you to modify or manipulate them separately.            |
+| [`Group`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#group) (CTRL+G) | Combines the selected nodes and connectors into a single group, allowing you to move, resize, or apply other operations to all grouped elements as a unit. |
+| [`Ungroup`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#ungroup) (CTRL+Shift+U) | Splits a previously grouped set of nodes and connectors into individual elements, enabling you to modify or manipulate them separately.            |
 
 The following code examples demonstrate how to use the grouping commands in diagram:
 
@@ -199,7 +198,7 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 ## Rotate commands
 
-The [`rotate`](../api/diagram#rotate) commands in the diagram allow users to rotate selected elements by specified angles. These commands are useful for adjusting the rotate angle of nodes or shapes within the diagram.
+The [`rotate`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#rotate) commands in the diagram allow users to rotate selected elements by specified angles. These commands are useful for adjusting the rotate angle of nodes or shapes within the diagram.
 
 | Parameter | Type | Description |
 |----------|-------|-------------|
@@ -228,7 +227,7 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 
 ### Bring to front command
 
-The [`bringToFront`](../api/diagram#bringtofront) command moves the selected element to the front, placing it above all other elements in the diagram. The following code illustrates how to use the `bringToFront` command.
+The [`bringToFront`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringtofront) command moves the selected element to the front, placing it above all other elements in the diagram. The following code illustrates how to use the `bringToFront` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -243,7 +242,7 @@ The [`bringToFront`](../api/diagram#bringtofront) command moves the selected ele
 
 ### Send to back command
 
-The [`sendToBack`](../api/diagram#sendtoback) command moves the selected element to the back, placing it behind all other elements in the diagram. The following code illustrates how to use the `sendToBack` command.
+The [`sendToBack`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#sendtoback) command moves the selected element to the back, placing it behind all other elements in the diagram. The following code illustrates how to use the `sendToBack` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -258,7 +257,7 @@ The [`sendToBack`](../api/diagram#sendtoback) command moves the selected element
 
 ### Move forward command
 
-The [`moveForward`](../api/diagram#moveforward) command moves the selected element one step forward in the stack, placing it above the nearest overlapping element. The following code illustrates how to use the `moveForward` command.
+The [`moveForward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#moveforward) command moves the selected element one step forward in the stack, placing it above the nearest overlapping element. The following code illustrates how to use the `moveForward` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -273,7 +272,7 @@ The [`moveForward`](../api/diagram#moveforward) command moves the selected eleme
 
 ### send backward command
 
-The [`sendBackward`](../api/diagram#sendbackward) command moves the selected element one step backward in the stack, placing it behind the underlying element. The following code illustrates how to use the `sendBackward` command.
+The [`sendBackward`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#sendbackward) command moves the selected element one step backward in the stack, placing it behind the underlying element. The following code illustrates how to use the `sendBackward` command.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -291,7 +290,7 @@ The Z-order commands can also be performed using keyboard shortcuts. For more in
 
 ## Zoom
 
-The [`zoom`](../api/diagram#zoom) command is used to zoom-in and zoom-out the diagram view.
+The [`zoom`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#zoom) command is used to zoom-in and zoom-out the diagram view.
 
 The following code illustrates how to zoom-in the diagram.
 
@@ -318,11 +317,11 @@ For more information about zoom refer to the [zoom](./scroll-settings#update-zoo
 
 ## Nudge command
 
-The [`nudge`](../api/diagram#nudge) command moves the selected elements up, down, left, or right by 1 pixel. The parameters of [`nudge`](../api/diagram#nudge) method is explained below.
+The [`nudge`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#nudge) command moves the selected elements up, down, left, or right by 1 pixel. The parameters of [`nudge`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#nudge) method is explained below.
 
 | Parameter    | Type           | Description                                                      |
 |--------------|-----------|-----------|
-| direction    |[`NudgeDirection`](../api/diagram/nudgeDirection) | Defines the direction in which the objects should be moved.      |
+| direction    |[`NudgeDirection`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nudgeDirection) | Defines the direction in which the objects should be moved.      |
 | x (optional) | number         | The horizontal distance by which the selected objects should be moved. |
 | y (optional) | number         | The vertical distance by which the selected objects should be moved.   |
 | type (optional) | string      | A string that defines the type of nudge action.                           |
@@ -359,9 +358,9 @@ N> The position change event will not trigger when using keyboard keys to move a
 
 ## BringIntoView
 
-The [`bringIntoView`](../api/diagram#bringintoview) command brings the specified rectangular region into the viewport of the diagram, ensuring that it is visible within the current view.
+The [`bringIntoView`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringintoview) command brings the specified rectangular region into the viewport of the diagram, ensuring that it is visible within the current view.
 
-The [`bringIntoView`](../api/diagram#bringintoview) method takes a single parameter, an object that defines the rectangular region to bring into view. This object should include properties such as x, y, width, and height to specify the exact region to be made visible.
+The [`bringIntoView`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringintoview) method takes a single parameter, an object that defines the rectangular region to bring into view. This object should include properties such as x, y, width, and height to specify the exact region to be made visible.
 
 The following code illustrates how to execute the bringIntoView command:
 
@@ -378,9 +377,9 @@ The following code illustrates how to execute the bringIntoView command:
 
 ## BringToCenter
 
-The [`bringToCenter`](../api/diagram#bringtocenter) command centers the specified rectangular region of the diagram content within the viewport.
+The [`bringToCenter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringtocenter) command centers the specified rectangular region of the diagram content within the viewport.
 
-The [`bringToCenter`](../api/diagram#bringtocenter)  method takes a single parameter, an object that defines the rectangular region to be centered. This object should include properties such as x, y, width, and height to specify the exact region to be brought to the center.
+The [`bringToCenter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#bringtocenter)  method takes a single parameter, an object that defines the rectangular region to be centered. This object should include properties such as x, y, width, and height to specify the exact region to be brought to the center.
 
 The following code illustrates how to execute the bringToCenter command.
 
@@ -397,21 +396,21 @@ The following code illustrates how to execute the bringToCenter command.
 
 ## FitToPage
 
-The [`fitToPage`](../api/diagram#fittopage) command adjusts the diagram content to fit within the viewport, considering either width, height, or the entire content. The fitToPage method takes one parameter, [`fitOptions`](../api/diagram#fittopage), which specifies the options for fitting the diagram to the page.
+The [`fitToPage`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#fittopage) command adjusts the diagram content to fit within the viewport, considering either width, height, or the entire content. The fitToPage method takes one parameter, [`fitOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#fittopage), which specifies the options for fitting the diagram to the page.
 
 ### FitOptions
 
-The [`mode`](../api/diagram/fitModes) parameter defines how the diagram should fit into the viewport—horizontally, vertically, or based on the entire bounds of the diagram.
+The [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/fitModes) parameter defines how the diagram should fit into the viewport—horizontally, vertically, or based on the entire bounds of the diagram.
 
-The [`region`](../api/diagram/diagramRegions) parameter specifies the region of the diagram that should be fit within viewport.
+The [`region`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramRegions) parameter specifies the region of the diagram that should be fit within viewport.
 
-The [`margin`](../api/diagram/marginModel) parameter sets the margin around the diagram content that should be included in the view.
+The [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/marginModel) parameter sets the margin around the diagram content that should be included in the view.
 
-The [`canZoomIn`](../api/diagram/iFitOptions#canzoomin) parameter enables or disables zooming in to fit smaller content into a larger viewport.
+The [`canZoomIn`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iFitOptions#canzoomin) parameter enables or disables zooming in to fit smaller content into a larger viewport.
 
-The [`canZoomOut`](../api/diagram/iFitOptions#canzoomout) parameter enables or disables zooming out to fit larger content into a smaller viewport.
+The [`canZoomOut`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iFitOptions#canzoomout) parameter enables or disables zooming out to fit larger content into a smaller viewport.
 
-The [`customBounds`](../api/diagram/iFitOptions#custombounds) parameter defines a custom region that should be fit into the viewport.
+The [`customBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iFitOptions#custombounds) parameter defines a custom region that should be fit into the viewport.
 
 The following code illustrates how to execute `FitToPage` command.
 
@@ -429,19 +428,19 @@ The following code illustrates how to execute `FitToPage` command.
 
 ## Command manager
 
-The JavaScript Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](../api/diagram/commandManagerModel). Custom commands are executed when the specified key gesture is recognized.
+The JavaScript Diagram provides support for mapping or binding command execution to specific key gestures. It includes built-in commands and allows for the definition of custom commands through the [`commandManager`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandManagerModel). Custom commands are executed when the specified key gesture is recognized.
 
 ### Custom Command
 
 To define a custom command, you need to specify the following properties:
 
-* [`execute`](../api/diagram/commandModel#execute): A method to be executed when the command is triggered.
-* [`canExecute`](../api/diagram/commandModel#canexecute): A method that determines whether the command can be executed at a given moment.
-* [`gesture`](../api/diagram/keyGestureModel): A combination of [`keys`](../api/diagram/keys) and [`KeyModifiers`](../api/diagram/keyModifiers) that defines the key gesture for the command.
-* [`parameter`](../api/diagram/commandModel#parameter): Any additional parameters required at runtime for the command.
-* [`name`](../api/diagram/commandModel#name): The name of the command.
+* [`execute`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandModel#execute): A method to be executed when the command is triggered.
+* [`canExecute`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandModel#canexecute): A method that determines whether the command can be executed at a given moment.
+* [`gesture`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/keyGestureModel): A combination of [`keys`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/keys) and [`KeyModifiers`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/keyModifiers) that defines the key gesture for the command.
+* [`parameter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandModel#parameter): Any additional parameters required at runtime for the command.
+* [`name`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandModel#name): The name of the command.
 
-To explore the properties of custom commands, refer to [`Commands`](../api/diagram/commandModel).
+To explore the properties of custom commands, refer to [`Commands`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/commandModel).
 
 The following code example illustrates how to use the command manager to clone a node and change the fill color of a node while pressing `G` and `Shift+G` or `Alt+G`, respectively:
 

@@ -4,7 +4,6 @@ title: Diagram Properties in JavaScript Diagram | Syncfusion®
 description: Call Syncfusion® JavaScript Diagram methods like getDiagramBounds, refresh, clear, destroy, and getCustomTool to manage the diagram programmatically.
 platform: diagram-sdk
 control: Diagram API 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -13,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Get diagram bounds
 
-The get the diagram bounds, the [`getDiagramBounds`](../api/diagram#getdiagrambounds) method is used. The following code example shows how to get the diagram bounds
+The get the diagram bounds, the [`getDiagramBounds`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getdiagrambounds) method is used. The following code example shows how to get the diagram bounds
 
 ``` javascript
    /**
@@ -25,7 +24,7 @@ The get the diagram bounds, the [`getDiagramBounds`](../api/diagram#getdiagrambo
 
 ## Refresh diagram
 
-Refreshing the diagram will re-render the entire JavaScript Diagram component while preserving all the property changes you have made. The [`refresh`](../api/diagram#refresh) method is used to refresh the diagram. 
+Refreshing the diagram will re-render the entire JavaScript Diagram component while preserving all the property changes you have made. The [`refresh`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#refresh) method is used to refresh the diagram. 
 
 ``` javascript
    /**
@@ -37,7 +36,7 @@ Refreshing the diagram will re-render the entire JavaScript Diagram component wh
 
 ## Clear diagram
 
-The [`clear`](../api/diagram#clear) method is used to clear the diagram. It removes all nodes and objects, making the diagram empty.
+The [`clear`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#clear) method is used to clear the diagram. It removes all nodes and objects, making the diagram empty.
 
 ``` javascript
    /**
@@ -49,7 +48,7 @@ The [`clear`](../api/diagram#clear) method is used to clear the diagram. It remo
 
 ## Destroy diagram
 
-The [`destroy`](../api/diagram#destroy) method is used to completely remove the JavaScript Diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
+The [`destroy`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#destroy) method is used to completely remove the JavaScript Diagram component from the DOM and free up any associated resources. This method is useful when you no longer need the diagram and want to ensure that all memory and resources allocated to it are properly released.
 
 ``` javascript
    /**
@@ -61,24 +60,9 @@ The [`destroy`](../api/diagram#destroy) method is used to completely remove the 
 
 ## Custom cursor
 
-The [`customCursor`](../api/diagram/customCursorActionModel) collection specified in the diagram is called on every mouse movement within the diagram is used to set the cursor based on the action. The `getCursor` function is then utilized to retrieve the cursor style for the specified action.
+The [`customCursor`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/customCursorActionModel) collection specified in the diagram is called on every mouse movement within the diagram is used to set the cursor based on the action. The `getCursor` function is then utilized to retrieve the cursor style for the specified action.
 
 The following example demonstrates how to apply custom cursors for the Select and Drag tools using the `customCursor` property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -90,28 +74,12 @@ The following example demonstrates how to apply custom cursors for the Select an
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs1" %}
-{% endif %}
 
 ## Get custom tool
 
-The  [`getCustomtTool`](../api/diagram#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](../api/diagram#gettool) method is used to retrieve the tool that handles a particular action.
+The  [`getCustomTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getcustomtool) function is called when a mouse down event occurs on diagram elements. This function allows you to specify the tool to use based on the action. The [`getTool`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#gettool) method is used to retrieve the tool that handles a particular action.
 
 In the following example, `getCustomTool` is used to clone a node when clicking on the user handle.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,7 +91,6 @@ In the following example, `getCustomTool` is used to clone a node when clicking 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs2" %}
-{% endif %}
 
 ## Background color
 
@@ -136,21 +103,6 @@ The `addInfo` property of the diagram is used to store additional information or
 
 In the following example, both `backgroundColor` and `addInfo` are set for the diagram:
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/diagram-sdk/javascript/diagram-cs3/index.js %}
@@ -161,36 +113,20 @@ In the following example, both `backgroundColor` and `addInfo` are set for the d
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs3" %}
-{% endif %}
 
 ## Mode
 
-There are two types of [`mode`](../api/diagram/renderingMode) available for rendering diagrams:
+There are two types of [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/renderingMode) available for rendering diagrams:
 
 - `SVG Mode:` Renders the diagram objects as SVG elements.
 - `Canvas Mode:` Renders the diagram in a canvas.
 
 ## NodeDefaults and ConnectorDefaults
 
-The [`getNodeDefaults`](../api/diagram#getnodedefaults) and [`getConnectorDefaults`](../api/diagram#getconnectordefaults) properties are used to assign default values to nodes and connectors, respectively. The properties set in [`getNodeDefaults`](../api/diagram#getnodedefaults) and [`getConnectorDefaults`](../api/diagram#getconnectordefaults) have higher priority when setting default values.
+The [`getNodeDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getnodedefaults) and [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getconnectordefaults) properties are used to assign default values to nodes and connectors, respectively. The properties set in [`getNodeDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getnodedefaults) and [`getConnectorDefaults`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#getconnectordefaults) have higher priority when setting default values.
 
 The following example demonstrates how to set getNodeDefaults and getConnectorDefaults.
 
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -202,28 +138,12 @@ The following example demonstrates how to set getNodeDefaults and getConnectorDe
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs4" %}
-{% endif %}
 
 ## Diagram settings
 
 The `inversedAlignment` property in `diagramSettings` controls the alignment of labels and ports in a node. By default, inversedAlignment is set to true.
 
 The example below demonstrates how to set inversedAlignment for a diagram to align node labels accordingly.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/diagram-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -235,7 +155,6 @@ The example below demonstrates how to set inversedAlignment for a diagram to ali
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/diagram-cs5" %}
-{% endif %}
 
 
 

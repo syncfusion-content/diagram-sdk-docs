@@ -4,18 +4,17 @@ title: Mind Map in JavaScript Diagram | Syncfusion®
 description: Build a Mind Map in the Syncfusion® JavaScript Diagram by setting the layout type to MindMap, with Horizontal or Vertical orientation options.
 platform: diagram-sdk
 control: Mind map 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Mind Map in JavaScript Diagram
 
-A mind map is a diagram that displays the nodes as a spider diagram organizes information around a central concept. To create mind map, the [`type`](../../api/diagram/layout#type) of layout should be set as `MindMap`.
+A mind map is a diagram that displays the nodes as a spider diagram organizes information around a central concept. To create mind map, the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layout#type) of layout should be set as `MindMap`.
 
 ## Mind Map Orientation
 
-An [`Orientation`](../../api/diagram/orientation) of a `MindMapTreeLayout` is used to arrange the tree layout according to a specific direction. By default, the orientation is set to Horizontal. 
+An [`Orientation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/orientation) of a `MindMapTreeLayout` is used to arrange the tree layout according to a specific direction. By default, the orientation is set to Horizontal. 
 
 The following code example illustrates how to create an mindmap layout.
 
@@ -42,7 +41,7 @@ N> If you want to use mind map layout in diagram, you need to inject MindMap in 
 
 ## Mind Map branch
 
-You can also decide the branch for mind map using [`getBranch`](../../api/diagram/layoutModel#getbranch) method. The following code demonstrates how to set all branches on the right side for mind map layout using `getBranch` method.
+You can also decide the branch for mind map using [`getBranch`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/layoutModel#getbranch) method. The following code demonstrates how to set all branches on the right side for mind map layout using `getBranch` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

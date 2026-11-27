@@ -4,14 +4,13 @@ title: Printing in JavaScript Diagram | Syncfusion®
 description: Print the Syncfusion® JavaScript Diagram as an image using the print method with customizable printOptions for region, scale, and page layout.
 platform: diagram-sdk
 control: Print 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
 
 # Printing in JavaScript Diagram
 
-The [`print`](../api/diagram#print) method helps to print the diagram as image.
+The [`print`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#print) method helps to print the diagram as image.
 
 ```JavaScript
 
@@ -23,7 +22,7 @@ N> To Print diagram you need to inject `PrintAndExport` in the diagram.
 
 ## Print Options
 
-The diagram can be customized while printing using the following properties of [`printOptions`](../api/diagram/iPrintOptions).
+The diagram can be customized while printing using the following properties of [`printOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions).
 
 The available print options are listed in the table below.
 
@@ -39,7 +38,7 @@ The available print options are listed in the table below.
 
 ### Region
 
-Printing particular region of diagram is possible by using the [`region`](../api/diagram/iPrintOptions#region) property of the [`printOptions`](../api/diagram/iPrintOptions).
+Printing particular region of diagram is possible by using the [`region`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#region) property of the [`printOptions`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions).
 
 The following code example illustrates how to print the diagram based on region.
 
@@ -56,7 +55,7 @@ The following code example illustrates how to print the diagram based on region.
 
 ### Multiple page
 
-Printing a diagram across multiple pages is possible by setting the [`multiplePage`](../api/diagram/iPrintOptions#multiplepage) property of `printOptions` to true.
+Printing a diagram across multiple pages is possible by setting the [`multiplePage`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#multiplepage) property of `printOptions` to true.
 
 The following code example demonstrates how to set multiplePage to true:
 
@@ -73,7 +72,7 @@ The following code example demonstrates how to set multiplePage to true:
 
 ### Margin
 
-The margin for the print region can be set using the [`margin`](../api/diagram/iPrintOptions#margin) property of the `printOptions`
+The margin for the print region can be set using the [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#margin) property of the `printOptions`
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -88,7 +87,7 @@ The margin for the print region can be set using the [`margin`](../api/diagram/i
 
 ### Page width and Page height
 
-The [`pageWidth`](../api/diagram/iPrintOptions#pageheight) and [`pageHeight`](../api/diagram/iPrintOptions#pagewidth) property of `printOptions` is used to set the size of the printing image. The following example demonstrates how to set the pageWidth and pageHeight.
+The [`pageWidth`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#pageheight) and [`pageHeight`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#pagewidth) property of `printOptions` is used to set the size of the printing image. The following example demonstrates how to set the pageWidth and pageHeight.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -103,7 +102,7 @@ The [`pageWidth`](../api/diagram/iPrintOptions#pageheight) and [`pageHeight`](..
 
 ### Page Orientation
 
-[`pageOrientation`](../api/diagram/iPrintOptions#pageorientation) of `printOptions` is used to set the orientation of the page to be printed.
+[`pageOrientation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iPrintOptions#pageorientation) of `printOptions` is used to set the orientation of the page to be printed.
 
 * Landscape - Display with page Width is more than the page Height.
 * Portrait - Display with page Height is more than the page width.

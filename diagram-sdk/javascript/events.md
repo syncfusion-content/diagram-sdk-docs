@@ -4,7 +4,6 @@ title: Diagram Events in JavaScript Diagram | Syncfusion®
 description: Handle JavaScript Diagram lifecycle events like load, loaded, dataLoaded, created, and mouseWheel to customize initialization and user interaction.
 platform: diagram-sdk
 control: Events 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,10 +14,10 @@ Events in diagrams are triggered during interactions with diagram elements, allo
 
 ## Load event
 
-The [`load`](../api/diagram/iLoadEventArgs) event triggers before the diagram load.
+The [`load`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iLoadEventArgs) event triggers before the diagram load.
 
 ## Loaded Event
-The [`loaded`](../api/diagram#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](../api/diagram#loaddiagram) method. You can use this event to customize diagram elements during the loading process.
+The [`loaded`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#loaddiagram) method. You can use this event to customize diagram elements during the loading process.
 
 ```javascript
 var diagram = new ej.diagrams.Diagram({
@@ -47,29 +46,14 @@ Users can perform customizations or modifications to the diagram elements once t
 
 ## Data loaded event
 
-The [`dataLoaded`](../api/diagram/iDataLoadedEventArgs) event is triggered when the data source is loaded in diagram.
+The [`dataLoaded`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDataLoadedEventArgs) event is triggered when the data source is loaded in diagram.
 
 ## Created event
 
-The [`created`](../api/diagram#created) event is triggered when the JavaScript Diagram component is rendered. You can perform any action in the created event such as selecting any object in the diagram or customizing the nodes/connector.
+The [`created`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/index-default#created) event is triggered when the JavaScript Diagram component is rendered. You can perform any action in the created event such as selecting any object in the diagram or customizing the nodes/connector.
 
 The following example shows the order of these event triggers and how to handle these events in a diagram.
 
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/events-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/events-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -81,27 +65,11 @@ The following example shows the order of these event triggers and how to handle 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs1" %}
-{% endif %}
 
 ## Mouse wheel event
 
-The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the mouse is scrolled over the diagram area. You can use this event to prevent zooming and scrolling with the mouse wheel. The following example demonstrates how to handle this event and customize it to prevent zooming and scrolling using the mouse wheel.
+The [`mouseWheel`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iMouseWheelEventArgs) event triggers when the mouse is scrolled over the diagram area. You can use this event to prevent zooming and scrolling with the mouse wheel. The following example demonstrates how to handle this event and customize it to prevent zooming and scrolling using the mouse wheel.
 
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/events-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/events-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -113,7 +81,6 @@ The [`mouseWheel`](../api/diagram/iMouseWheelEventArgs) event triggers when the 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/events-cs2" %}
-{% endif %}
 
 ## Other events
 

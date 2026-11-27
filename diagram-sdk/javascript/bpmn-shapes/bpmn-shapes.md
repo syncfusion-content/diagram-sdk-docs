@@ -4,7 +4,6 @@ title: BPMN Shapes in JavaScript Diagram | Syncfusion®
 description: Model business processes in the Syncfusion® JavaScript Diagram with built-in BPMN shapes including events, gateways, activities, and flows.
 platform: diagram-sdk
 control: Bpmn shapes 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -14,21 +13,6 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 BPMN shapes are used to represent the internal business procedure in a graphical notation and enable you to communicate the procedures in a standard manner. To create a BPMN shape, in the node property shape, type should be set as “bpmn” and its shape should be set as any one of the built-in shapes. The following code example illustrates how to create a simple business process.
 
 N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in the diagram.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -40,7 +24,6 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
-{% endif %}
 
 >Note : The default value for the property `shape` is “event”.
 

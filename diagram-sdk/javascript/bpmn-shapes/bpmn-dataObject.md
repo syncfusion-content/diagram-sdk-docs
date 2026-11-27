@@ -4,7 +4,6 @@ title: BPMN Data Object in JavaScript Diagram | Syncfusion®
 description: Show data flowing through a BPMN process in the Syncfusion® JavaScript Diagram using input, output, and collection DataObject shapes.
 platform: diagram-sdk
 control: Bpmn DataObject 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -13,22 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Data Object
 
-A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](../../api/diagram/bpmnDataObject), set the shape as **DataObject** and the [`type`](../../api/diagram/bpmnDataObject#type) property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs14" %}
-
-{% elsif page.publishingplatform == "javascript" %}
+A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnDataObject), set the shape as **DataObject** and the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/bpmnDataObject#type) property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -40,7 +24,6 @@ A data object represents information flowing through the process, such as data p
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs14" %}
-{% endif %}
 
 The following table contains various representation of BPMN data object.
 

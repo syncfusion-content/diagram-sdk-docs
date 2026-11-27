@@ -4,7 +4,6 @@ title: Symbol Palette Customization in JavaScript Diagram | Syncfusion®
 description: Customize the title, expanded state, height, and icon of each palette in the Syncfusion® JavaScript Diagram symbol palette component.
 platform: diagram-sdk
 control: Symbol palette 
-publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -15,13 +14,13 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Palettes can be annotated with its header texts.
 
-The [`title`](../../api/diagram/palette#title) property is displayed as the header text of the palette.
+The [`title`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/palette#title) property is displayed as the header text of the palette.
 
-The [`expanded`](../../api/diagram/palette#expanded) property allows the palette items to be expanded or collapsed.
+The [`expanded`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/palette#expanded) property allows the palette items to be expanded or collapsed.
 
-The [`height`](../../api/diagram/palette#height) property sets the height of the symbol group / palette.
+The [`height`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/palette#height) property sets the height of the symbol group / palette.
 
-The [`iconCss`](../../api/diagram/palette#iconcss) property sets the icon to be rendered with the title.
+The [`iconCss`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/palette#iconcss) property sets the icon to be rendered with the title.
 
 The following example demonstrates how to customize the palette properties.
 
@@ -38,7 +37,7 @@ The following example demonstrates how to customize the palette properties.
 
 ## Animation
 
-The expand and collapse operation of symbol palette can be animated by utilizing the [`enableAnimation`](../../api/diagram/symbolPaletteModel#enableanimation) property of symbol palette. The following example demonstrates, how to enable and disable animation for symbol palette.
+The expand and collapse operation of symbol palette can be animated by utilizing the [`enableAnimation`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#enableanimation) property of symbol palette. The following example demonstrates, how to enable and disable animation for symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -53,7 +52,7 @@ The expand and collapse operation of symbol palette can be animated by utilizing
 
 ## Description for symbols
 
-The [`description`](../../api/diagram/symbolDescription) property defines the descriptive text that appears beneath each symbol in the palette. This text provides additional information about the symbol's purpose or usage within the diagramming context. The description can be dynamically retrieved and defined using the [`getSymbolInfo`](../../api/diagram/symbolPaletteModel#getsymbolinfo) property, allowing information to assist users in understanding the function or meaning of each symbol.
+The [`description`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription) property defines the descriptive text that appears beneath each symbol in the palette. This text provides additional information about the symbol's purpose or usage within the diagramming context. The description can be dynamically retrieved and defined using the [`getSymbolInfo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#getsymbolinfo) property, allowing information to assist users in understanding the function or meaning of each symbol.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -87,7 +86,7 @@ The following example demonstrates how text wrapping and text overflow are appli
 
 ### Appearance of symbol description
 
-The appearance of a symbol description in the palette can be customized by changing its [`color`](../../api/diagram/symbolDescription#color), [`fill`](../../api/diagram/symbolDescription#fill), [`fontSize`](../../api/diagram/symbolDescription#fontsize), [`fontFamily`](../../api/diagram/symbolDescription#fontfamily), [`bold`](../../api/diagram/symbolDescription#bold), [`italic`](../../api/diagram/symbolDescription#italic), [`textDecoration`](../../api/diagram/symboldescription#textdecoration) and [`margin`](../../api/diagram/symbolDescription#margin)
+The appearance of a symbol description in the palette can be customized by changing its [`color`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#color), [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#fill), [`fontSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#fontsize), [`fontFamily`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#fontfamily), [`bold`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#bold), [`italic`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#italic), [`textDecoration`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symboldescription#textdecoration) and [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolDescription#margin)
 
 The following code example shows how to customize the symbol description.
 
@@ -105,9 +104,9 @@ The following code example shows how to customize the symbol description.
 
 ## Symbol size and symbol margin
 
-The size of the individual symbol can be customized. The [`symbolWidth`](../../api/diagram/symbolPaletteModel#symbolwidth) and  [`symbolHeight`](../../api/diagram/symbolPaletteModel#symbolheight) properties of node enables you to define the size of the symbols. 
+The size of the individual symbol can be customized. The [`symbolWidth`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#symbolwidth) and  [`symbolHeight`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#symbolheight) properties of node enables you to define the size of the symbols. 
 
-The [`symbolMargin`](../../api/diagram/symbolPaletteModel#symbolmargin) defines the space between the shape and its outer boundary. By setting the symbol margin with specific values for left, right, top, and bottom, you can create consistent spacing on all sides around the shape. This ensures there is adequate padding between the shape and its outer boundary.
+The [`symbolMargin`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#symbolmargin) defines the space between the shape and its outer boundary. By setting the symbol margin with specific values for left, right, top, and bottom, you can create consistent spacing on all sides around the shape. This ensures there is adequate padding between the shape and its outer boundary.
 
 The following code example illustrates how to set symbol size and symbol margin for the symbol palette.
 
@@ -124,7 +123,7 @@ The following code example illustrates how to set symbol size and symbol margin 
 
 ## Symbol preview
 
-The symbol preview size of the palette items can be customized using [`symbolPreview`](../../api/diagram/symbolPaletteModel#symbolpreview) property of symbol palette.The [`width`](../../api/diagram/symbolPreviewModel#width) and [`height`](../../api/diagram/symbolPreviewModel#height) properties of `symbolPreview` allow you to define the preview size for all the symbol palette items. The The [`offset`](../../api/diagram/symbolPreviewModel#offset) property specifies the position of the dragging helper relative to the mouse cursor.
+The symbol preview size of the palette items can be customized using [`symbolPreview`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#symbolpreview) property of symbol palette.The [`width`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPreviewModel#width) and [`height`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPreviewModel#height) properties of `symbolPreview` allow you to define the preview size for all the symbol palette items. The The [`offset`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPreviewModel#offset) property specifies the position of the dragging helper relative to the mouse cursor.
 
 The following code example illustrates how to change the preview size of a palette item.
 
@@ -141,7 +140,7 @@ The following code example illustrates how to change the preview size of a palet
 
 ## Symbol drag size
 
-The [`symbolDragSize`](../../api/diagram/symbolPaletteModel#symboldragsize) property sets the dimensions (height and width) of a shape while it is being dragged from the palette to the diagram canvas. The following code illustrates how to set `symbolDragSize` for the symbol palette.
+The [`symbolDragSize`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#symboldragsize) property sets the dimensions (height and width) of a shape while it is being dragged from the palette to the diagram canvas. The following code illustrates how to set `symbolDragSize` for the symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -158,9 +157,9 @@ N> If the size of the symbol is not defined, the default size will be determined
 
 ## Expand Mode
 
-You can customize whether to expand all the palettes of symbol palette at a time or to expand only one palette at a time. This customization can be done using the [`expandMode`](../../api/diagram/symbolPaletteModel#expandmode) property of symbol palette.
+You can customize whether to expand all the palettes of symbol palette at a time or to expand only one palette at a time. This customization can be done using the [`expandMode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#expandmode) property of symbol palette.
 
-You can customize whether to expand all the palettes of the symbol palette at a time or to expand only one palette at a time. This customization can be done using the [`expandMode`](../../api/diagram/symbolPaletteModel#expandmode) property of the symbol palette. 
+You can customize whether to expand all the palettes of the symbol palette at a time or to expand only one palette at a time. This customization can be done using the [`expandMode`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#expandmode) property of the symbol palette. 
 
 The following example demonstrates how to set the `expandMode` property to control the expansion behavior of the palettes:
 
@@ -178,7 +177,7 @@ The following example demonstrates how to set the `expandMode` property to contr
 
 ### Restrict expand/collapse of the palette
 
-The symbol palette panel can be restricted from expanding. When we click on the expand icon of the palette, the [paletteExpanding](../../api/diagram/symbolPaletteModel#paletteexpanding) event is triggered. In this event, we can determine whether the palette's panel should be expanded or collapsed by utilizing the `cancel` argument of the event. By default, the panel is expanded. This restriction can be applied to each palette in the symbol palette as desired.
+The symbol palette panel can be restricted from expanding. When we click on the expand icon of the palette, the [paletteExpanding](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#paletteexpanding) event is triggered. In this event, we can determine whether the palette's panel should be expanded or collapsed by utilizing the `cancel` argument of the event. By default, the panel is expanded. This restriction can be applied to each palette in the symbol palette as desired.
 
 In the following code example, the basic shapes palette is restricted from expanding, and the flow shapes palette is restricted from collapsing, whereas the swimlane shapes palette can be expanded or collapsed:
 
@@ -206,7 +205,7 @@ Refer to the image below for an illustration of the tooltip behavior in the symb
 
 ### Custom tooltip for symbols
 
-To customize the tooltips for symbols in the symbol palette, assign a custom tooltip to the [`content`](../../api/diagram/diagramTooltipModel#content) property of [`tooltip`](../../api/diagram/diagramtooltipmodel) for each symbol. Once you define the custom tooltip, enable the [`Tooltip`](../../api/diagram/nodeConstraints) constraints for each symbol to ensure the tooltips are displayed when users hover over them.
+To customize the tooltips for symbols in the symbol palette, assign a custom tooltip to the [`content`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramTooltipModel#content) property of [`tooltip`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/diagramtooltipmodel) for each symbol. Once you define the custom tooltip, enable the [`Tooltip`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/nodeConstraints) constraints for each symbol to ensure the tooltips are displayed when users hover over them.
 
 The code provided below demonstrates how to define tooltip content for symbols within a symbol palette.
 
@@ -223,7 +222,7 @@ The code provided below demonstrates how to define tooltip content for symbols w
 
 ### How to enable or disable the default tooltip for shapes in the symbol palette
 
-By default, the symbol ID is displayed as a tooltip when hovering over a symbol in the Symbol Palette. To disable this default tooltip, you can use the [`showTooltip`](../../api/diagram/symbolinfo#showtooltip) property within the [`getSymbolInfo`](../../api/diagram/symbolPaletteModel#getsymbolinfo) method. The `showTooltip` property is set to **true** by default, which enables the tooltip.
+By default, the symbol ID is displayed as a tooltip when hovering over a symbol in the Symbol Palette. To disable this default tooltip, you can use the [`showTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolinfo#showtooltip) property within the [`getSymbolInfo`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#getsymbolinfo) method. The `showTooltip` property is set to **true** by default, which enables the tooltip.
 
 The following example demonstrates how to configure selective tooltip display:
 
@@ -242,7 +241,7 @@ N> This property is effective only when tooltip constraints are disabled for the
 
 ### How to provide different tooltip for Symbol palette and diagram elements.
 
-To differentiate the tooltips between symbols in the symbol palette and the dropped nodes, utilize the dragEnter event. In the symbol palette, you can define tooltips for the symbols. When a symbol is dragged from the symbol palette and enters the diagram canvas, the [`dragEnter`](../../api/diagram/iDragEnterEventArgs) event is triggered. Within this event, you can define a new tooltip for the dropped node. By assigning custom tooltip content to the node.
+To differentiate the tooltips between symbols in the symbol palette and the dropped nodes, utilize the dragEnter event. In the symbol palette, you can define tooltips for the symbols. When a symbol is dragged from the symbol palette and enters the diagram canvas, the [`dragEnter`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iDragEnterEventArgs) event is triggered. Within this event, you can define a new tooltip for the dropped node. By assigning custom tooltip content to the node.
 
 The following code example demonstrates how to define different tooltips for the same symbol in the symbol palette and for the dropped node in the diagram canvas.
 
@@ -265,7 +264,7 @@ The following code snippet will demonstrate how to define two different tooltip 
 
 ## Localization
 
-To localize the symbol palette search box, we need to define the [`locale`](../../api/diagram/symbolPaletteModel#locale) property of the symbol palette with our preferred culture. In the example below, we use **de-DE**, which is the locale code for German as used in Germany.
+To localize the symbol palette search box, we need to define the [`locale`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#locale) property of the symbol palette with our preferred culture. In the example below, we use `de-DE`, which is the locale code for German as used in Germany.
 
 The following code shows how to localize symbol palette.
 
@@ -282,7 +281,7 @@ The following code shows how to localize symbol palette.
 
 ## Restrict symbol dragging from palette
 
-You can restrict the symbols getting dragged from the symbol palette by setting the [`allowDrag`](../../api/diagram/symbolPaletteModel#allowdrag) property of symbol palette as false. By default, the allowDrag is set as **true**.
+You can restrict the symbols getting dragged from the symbol palette by setting the [`allowDrag`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#allowdrag) property of symbol palette as false. By default, the allowDrag is set as **true**.
 
 
 {% tabs %}
@@ -299,7 +298,7 @@ You can restrict the symbols getting dragged from the symbol palette by setting 
 
 ## Search symbol
 
-The JavaScript Diagram provides support for enabling the search option in the palette. The [`enableSearch`](../../api/diagram/symbolPaletteModel#enablesearch) property of the palette is used to show or hide the search textbox in the palette. You can search for symbols in the palette by entering the symbol ID (e.g., “rectangle”) and search keywords into the search text box. The symbols are retrieved by matching the value of the ID property with the string entered in the search textbox.
+The JavaScript Diagram provides support for enabling the search option in the palette. The [`enableSearch`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#enablesearch) property of the palette is used to show or hide the search textbox in the palette. You can search for symbols in the palette by entering the symbol ID (e.g., “rectangle”) and search keywords into the search text box. The symbols are retrieved by matching the value of the ID property with the string entered in the search textbox.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -314,7 +313,7 @@ The JavaScript Diagram provides support for enabling the search option in the pa
 
 ## Ignore symbols on search
 
-The [`ignoreSymbolsOnSearch`](../../api/diagram/symbolPaletteModel#ignoresymbolsonsearch) property allows you to specify which symbols should be excluded from search results within the symbol palette. By setting this property, you can control the visibility of specific symbols during a search operation. This feature is useful for hiding certain symbols that you don't want to be shown via search.
+The [`ignoreSymbolsOnSearch`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#ignoresymbolsonsearch) property allows you to specify which symbols should be excluded from search results within the symbol palette. By setting this property, you can control the visibility of specific symbols during a search operation. This feature is useful for hiding certain symbols that you don't want to be shown via search.
 
 In the following example, we ignored the symbol with the ID of 'plus', so it will not appear in the search results.
 
@@ -331,7 +330,7 @@ In the following example, we ignored the symbol with the ID of 'plus', so it wil
 
 ## Filter search
 
-You can filter the search results based on your specific requirements. To achieve this, customize the [`filterSymbols`](../../api/diagram/symbolPaletteModel#filtersymbols) method of the symbol palette according to your needs. In the following example, we filter the results to display only flow shapes in the search palette.
+You can filter the search results based on your specific requirements. To achieve this, customize the [`filterSymbols`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/symbolPaletteModel#filtersymbols) method of the symbol palette according to your needs. In the following example, we filter the results to display only flow shapes in the search palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
