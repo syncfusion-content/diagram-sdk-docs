@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { L10n } from '@syncfusion/ej2-base';
+import * as ReactDOM from 'react-dom/client';
 import { WorkflowDesignerComponent } from '@syncfusion/ej2-react-workflow-designer';
+import { L10n } from '@syncfusion/ej2-base';
 
 L10n.load({
     'de-DE': {
@@ -16,6 +17,14 @@ L10n.load({
     }
 });
 
-function WorkflowCanvas() {
-    return <WorkflowDesignerComponent id="workflow" locale="de-DE" height="450px" />;
+function App() {
+    return (
+        <WorkflowDesignerComponent
+            id="workflow"
+            locale="de-DE"
+            height="450px"
+        />
+    );
 }
+
+ReactDOM.createRoot(document.getElementById('sample')!).render(<App />);

@@ -1,6 +1,8 @@
-import { WorkflowDesigner } from '@syncfusion/ej2-workflow-designer';
+import { WorkflowDesigner, WorkflowCustomExecutionRequestedEventArgs, WorkflowImportError } from '@syncfusion/ej2-workflow-designer';
 
-const workflow: any = {
+type WorkflowInput = Parameters<WorkflowDesigner['importWorkflow']>[0];
+
+const workflowDefinition: WorkflowInput = {
     schemaVersion: '1.1', id: 'custom-workflow', name: 'Custom execution',
     workflowSteps: [
         { id: 'start', stepType: 'ManualTrigger', name: 'Start', position: { x: 120, y: 200 } },
@@ -13,10 +15,22 @@ const workflow: any = {
     ]
 };
 
-let designer: WorkflowDesigner = new WorkflowDesigner({
+function onCustomExecutionRequested(args: WorkflowCustomExecutionRequestedEventArgs): void {
+    args.complete({ invoiceId: 'INV-1001' });
+    alert('Custom execution completed!');
+}
+
+function runWorkflow(): void {
+    designer.runExecution();
+}
+
+const designer: WorkflowDesigner = new WorkflowDesigner({
     width: '100%',
     height: '600px',
-    customExecutionRequested: function (args: any) { args.complete({ invoiceId: 'INV-1001' }); alert('Custom execution completed!'); }
+    customExecutionRequested: onCustomExecutionRequested
 });
-designer.appendTo('#element');
-designer.importWorkflow(workflow);
+designer.appendTo('#workflowDesigner');
+designer.importWorkflow(workflowDefinition).catch((error: WorkflowImportError) => {
+    console.error(error.code, error.message);
+});
+document.getElementById('runWorkflow')!.addEventListener('click', runWorkflow);

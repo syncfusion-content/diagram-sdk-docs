@@ -4,6 +4,7 @@ title: BPMN Text Annotation in JavaScript Diagram | Syncfusion®
 description: Attach text annotations to BPMN shapes in the Syncfusion® JavaScript Diagram to add context that does not affect the process flow.
 platform: diagram-sdk
 control: Bpmn Text annotation 
+publishingplatform: diagram-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/diagram-sdk
 ---
@@ -41,7 +42,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ### Text annotation in palette.
 
-Text annotation node can be rendered in symbol palette like other bpmn shapes. The following example shows how to render BPMN text annotation node in symbol palette.
+Text annotation node can be rendered in symbol palette like other bpmn shapes. The following example shows how to render Bpmn text annotation node in symbol palette.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
